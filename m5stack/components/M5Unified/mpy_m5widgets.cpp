@@ -1004,6 +1004,26 @@ static void m5widgets_rectangle_draw_helper(const widgets_rectangle_obj_t *self)
     self->gfx->setRawColor(stash_color);
 }
 
+mp_obj_t m5widgets_rectangle_isPointInside(size_t n_args, const mp_obj_t *pos_args, mp_map_t *kw_args) {
+    enum {ARG_x, ARG_y};
+    /* *FORMAT-OFF* */
+    const mp_arg_t allowed_args[] = {
+        { MP_QSTR_x, MP_ARG_INT | MP_ARG_REQUIRED, {.u_int = 0 } },
+        { MP_QSTR_y, MP_ARG_INT | MP_ARG_REQUIRED, {.u_int = 0 } },
+    };
+    /* *FORMAT-ON* */
+    mp_arg_val_t args[MP_ARRAY_SIZE(allowed_args)];
+    mp_arg_parse_all(n_args - 1, pos_args + 1, kw_args, MP_ARRAY_SIZE(allowed_args), allowed_args, args);
+
+    widgets_rectangle_obj_t *self = (widgets_rectangle_obj_t *)pos_args[0];
+
+    if(args[ARG_x].u_int < self->pos.x0) return mp_obj_new_bool(false);
+    if(args[ARG_x].u_int > (self->pos.x0 + self->size.w)) return mp_obj_new_bool(false);
+    if(args[ARG_y].u_int < self->pos.y0) return mp_obj_new_bool(false);
+    if(args[ARG_y].u_int > (self->pos.y0 + self->size.h)) return mp_obj_new_bool(false);
+    return mp_obj_new_bool(true);
+}
+
 mp_obj_t m5widgets_rectangle_setSize(size_t n_args, const mp_obj_t *pos_args, mp_map_t *kw_args) {
     enum {ARG_w, ARG_h};
     /* *FORMAT-OFF* */

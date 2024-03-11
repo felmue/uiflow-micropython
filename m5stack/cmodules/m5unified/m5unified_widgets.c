@@ -158,11 +158,13 @@ const mp_obj_type_t mp_widgets_circle_type = {
 #endif
 
 // -------- M5Widgets Rectangle
+MAKE_METHOD_KW(m5widgets_rectangle, isPointInside, 1);
 MAKE_METHOD_KW(m5widgets_rectangle, setSize, 1);
 MAKE_METHOD_KW(m5widgets_rectangle, setColor, 1);
 MAKE_METHOD_KW(m5widgets_rectangle, setCursor, 1);
 MAKE_METHOD_KW(m5widgets_rectangle, setVisible, 1);
 STATIC const mp_rom_map_elem_t m5widgets_rectangle_member_table[] = {
+    MAKE_TABLE(m5widgets_rectangle, isPointInside),
     MAKE_TABLE(m5widgets_rectangle, setSize),
     MAKE_TABLE(m5widgets_rectangle, setColor),
     MAKE_TABLE(m5widgets_rectangle, setCursor),
