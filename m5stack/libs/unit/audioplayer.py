@@ -4,7 +4,6 @@
 import sys
 import time
 import machine
-from micropython import schedule
 
 if sys.platform != "esp32":
     from typing import Literal
@@ -40,62 +39,75 @@ class AudioPlayerUnit:
 
         self.uart = machine.UART(id, tx=port[1], rx=port[0])
         self.uart.init(9600, bits=8, parity=None, stop=1)
-        self.uart.irq(handler=self._handler, trigger=machine.UART.IRQ_RXIDLE)
         AudioPlayerUnit._uart_instance = self.uart
         self.verbose = verbose
         self.raw_message = ""
-        self.command_num = 0
-        self.is_recieved = False
-        self.received_data = [False]
-        self.play_status = None
-        self.uart.read()
+        self.command = 0
+        self.retun_value = None
+        self.uart.read()  # Clear buffer
 
-    def _handler(self, uart) -> None:
-        data = uart.read()
-        schedule(self._handler_data, data)
+    def _parse_response(self, data):
+        """Parse and validate received data."""
+        if data is None or len(data) < 5:
+            return None
 
-    def _handler_data(self, data):
-        if data is not None and len(data) > 5:
-            self.verbose and print(
-                "Received message:", " ".join(f"0x{byte:02X}" for byte in data).split()
-            )
-            if (data[0] == 0x0A and self.command == 0x05) or (
-                data[0] == self.command and data[1] == (~self.command & 0xFF)
-            ):
-                if (self.retun_value is None or data[2:4] == bytes(self.retun_value)) and data[
-                    -1
-                ] == (
-                    self.command + ~self.command
-                    & 0xFF
-                    + sum(data[4:-1])
-                    + (0 if self.retun_value is None else sum(self.retun_value))
-                ) & 0xFF:
-                    self.is_recieved = True
-                    self.raw_message = " ".join(f"0x{byte:02X}" for byte in data)
-                    self.received_data = data[4:-1]
-                    self.verbose and print(
-                        (
-                            "Parsed Data:",
-                            " ".join(f"0x{byte:02X}" for byte in self.received_data).split(),
-                        )
-                    )
+        self.verbose and print("Received message:", " ".join(f"0x{byte:02X}" for byte in data))
 
-                    # self.check_tick_callback()
-            else:
-                self.verbose and print("Invalid frame received: header/footer mismatch")
-                self.uart.read()
+        # Check command match
+        if (data[0] == 0x0A and self.command == 0x05) or (
+            data[0] == self.command and data[1] == (~self.command & 0xFF)
+        ):
+            # Validate checksum
+            expected_checksum = (
+                self.command + ~self.command
+                & 0xFF
+                + sum(data[4:-1])
+                + (0 if self.retun_value is None else sum(self.retun_value))
+            ) & 0xFF
+
+            if (self.retun_value is None or data[2:4] == bytes(self.retun_value)) and data[
+                -1
+            ] == expected_checksum:
+                parsed_data = data[4:-1]
+                self.raw_message = " ".join(f"0x{byte:02X}" for byte in data)
+                self.verbose and print(
+                    "Parsed Data:", " ".join(f"0x{byte:02X}" for byte in parsed_data)
+                )
+                return parsed_data
+
+        self.verbose and print("Invalid frame: mismatch or bad checksum")
+        return None
 
     def _wait_for_message(self, time_out: int = 500):
-        self.is_recieved = False
-        self.received_data = [False]
+        """Wait for response with improved polling."""
         start_time = time.ticks_ms()
-        while not self.is_recieved:
-            if time.ticks_ms() - start_time > time_out:
-                if self.verbose:
-                    print(f"Message timeout after {time_out}ms")
-                return [-1] * 11
-            time.sleep_ms(10)
-        return self.received_data
+        buffer = b""
+        last_recv_time = start_time
+        no_data_count = 0
+
+        while time.ticks_diff(time.ticks_ms(), start_time) < time_out:
+            chunk = self.uart.read()
+            if chunk:
+                buffer += chunk  # Concatenate bytes
+                last_recv_time = time.ticks_ms()
+                no_data_count = 0
+                self.verbose and print(f"Buffer now: {len(buffer)} bytes")
+            else:
+                no_data_count += 1
+
+            if len(buffer) >= 5:
+                if time.ticks_diff(time.ticks_ms(), last_recv_time) >= 15:
+                    parsed = self._parse_response(buffer)
+                    if parsed is not None:
+                        return list(parsed) if len(parsed) > 0 else [0]
+                    if no_data_count > 3:
+                        self.verbose and print("Clearing invalid buffer")
+                        buffer = b""
+
+            time.sleep_ms(2)
+
+        self.verbose and print(f"Timeout after {time_out}ms")
+        return [-1] * 11
 
     def _send_message(self, command: int, data: list[int], retun_value=None) -> None:
         message = [command, (~command) & 0xFF, len(data)] + data
