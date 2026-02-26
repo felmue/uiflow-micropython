@@ -1,0 +1,344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/weight_i2c.rst:2 df0749836031430dbe265bc4890468ec
+msgid "Weight I2C Unit"
+msgstr "重量 I2C Unit"
+
+#: ../../source/unit/weight_i2c.rst:6 0daec12830414fcc983ac07bf85a955b
+msgid ""
+"The ``Weight I2C`` Unit is a weighing acquisition transmitter unit that "
+"adopts the \"STM32+HX711 chip\" solution to achieve 24-bit precision "
+"weight measurement through I2C communication and does not include a load "
+"cell sensor. This unit is capable of measuring weight and also includes "
+"various filters."
+msgstr ""
+"``Weight I2C`` Unit 是一款称重采集变送器单元，采用 “STM32+HX711 chip” 方案，通过 I2C 通信实现 "
+"24-bit 精度的重量测量，且不包含称重传感器（load cell sensor）。该单元能够测量重量，并且还包含多种滤波器。"
+
+#: ../../source/unit/weight_i2c.rst:8 62daacca887d4e8ba86b13ce37b31b85
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/weight_i2c.rst:11 7746ecf28eec4839b3d1e8e5963fd182
+msgid "|WEIGHT I2C|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref 31d2d859f33940418e674130c7f45ad6
+msgid "WEIGHT I2C"
+msgstr "WEIGHT I2C"
+
+#: ../../source/unit/weight_i2c.rst:15 4f5567b26d5b4dd0a39a04cddf231c66
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/weight_i2c.rst:31 df4d628bdf824b03844309659beceed0
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/weight_i2c.rst:33 fef98380a3434767ba43868e146bf804
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:36 299da3f53e014ad1be5a0d001338d9e1
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:37 ecca8913ff424ea2a12c375dcacd0869
+msgid "|weight-i2c-demo.m5f2|"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:41 04952913190b497387c8a8648a263d2c
+msgid "class WEIGHT_I2CUnit"
+msgstr "class WEIGHT_I2CUnit"
+
+#: ../../source/unit/weight_i2c.rst:44 8275499b8ab04655868ea10317f1beed
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:48 b2000cd2501c4f39a6b4b44a0e4901ee
+msgid "Create an WEIGHT_I2CUnit object."
+msgstr "创建一个 WEIGHT_I2CUnit 对象。"
+
+#: ../../source/unit/weight_i2c.rst:50 dfc01f8c070c4fd9b67ac025901cdf45
+msgid "``I2C0`` is I2C Port."
+msgstr "``I2C0`` 是 I2C 端口。"
+
+#: ../../source/unit/weight_i2c.rst:51 4c641ab986ef4d9eb3e2dba406ebe91c
+msgid "``0x26`` is default I2C address"
+msgstr "``0x26`` 是默认 I2C 地址"
+
+#: ../../source/unit/weight_i2c.rst:54 ../../source/unit/weight_i2c.rst:67
+#: ../../source/unit/weight_i2c.rst:76 ../../source/unit/weight_i2c.rst:85
+#: ../../source/unit/weight_i2c.rst:94 ../../source/unit/weight_i2c.rst:103
+#: ../../source/unit/weight_i2c.rst:124 ../../source/unit/weight_i2c.rst:133
+#: ../../source/unit/weight_i2c.rst:143 ../../source/unit/weight_i2c.rst:153
+#: ../../source/unit/weight_i2c.rst:161 ../../source/unit/weight_i2c.rst:173
+#: ../../source/unit/weight_i2c.rst:181 ../../source/unit/weight_i2c.rst:191
+#: ../../source/unit/weight_i2c.rst:201 0225162057df4f3f982b85be5eca0437
+#: 2b2d13a768044618a5cdc0ce250ccb55 34f215a3ee6f4874846b1fcf2fa95785
+#: 3cc6bef7932748888e8bb3f5e90b2b8b 3e621cd290d7427f8b7f2644414f1ad5
+#: 512e01845c404615ac8cea89a07ff23d 572fdbb68a054f3b9cf9f66431df1926
+#: 6d61bcd6bf794775a258e034c8e27e3d 7148fcd3181148dba8851967e1c865e1
+#: 94d417f7a6fd45b78a75f0ba6e751156 9c53a75fc0a84b8d89dc4214e6c88110
+#: b09f37e0562842548612df2275a647a3 b856b03856864b89929756a9644239b3
+#: cb83d818ba8646d9a36e9c4f404ba98a f92c536d3b7c41d0a59d48ff26fa9197
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/weight_i2c.rst:56 7fc05959499e4a0195bb92ee09caca31
+msgid "|init_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:6 2ce7d0e145024e53bad3b2b492d2110b
+msgid "init_i2c_address.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:60 67bdbba0af814baf9b421452236e1aee
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:65 1ddee13b28a54fb588e4c0684f9f4723
+msgid "Gets the raw adc value."
+msgstr "获取原始 ADC 值。"
+
+#: ../../source/unit/weight_i2c.rst:69 fe2fb09407a646b38a96f69efe1879f8
+msgid "|get_adc_raw.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:8 963b3755e0854020a4172705d6f56e34
+msgid "get_adc_raw.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:74 6387c9e1cae540a1944111d63343bc7d
+msgid "Gets the weight in grams float value."
+msgstr "获取以克为单位的重量浮点值。"
+
+#: ../../source/unit/weight_i2c.rst:78 5a8157e671884322bf5046e1d9bf08ed
+msgid "|get_weight_float.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:10 ea45d23a1b6d4a2ab12c1123b8f9cf22
+msgid "get_weight_float.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:83 06486edb9b834251bcd4be213b2794ff
+msgid "Gets the weight in grams int value."
+msgstr "获取以克为单位的重量整数值。"
+
+#: ../../source/unit/weight_i2c.rst:87 76eabe0e230248b8a42e3b52bc26ae20
+msgid "|get_weight_int.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:12 5bb59b9f10bb479bb24215f181362b47
+msgid "get_weight_int.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:92 c9ed41febe174a30978d7f10cd06a480
+msgid "Gets the weight in grams string value."
+msgstr "获取以克为单位的重量字符串值。"
+
+#: ../../source/unit/weight_i2c.rst:96 40949fb2330f423c98c58935d3e78433
+msgid "|get_weight_str.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:14 5bff5c6af2974bfeb8e8080b59af727f
+msgid "get_weight_str.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:100 7222f29450d947c2b6e27b6b8fd1dfef
+msgid "Reset the offset value(Tare)."
+msgstr "重置偏移值（去皮）。"
+
+#: ../../source/unit/weight_i2c.rst:105 c491f2a8c8e048c5b55ff83588b77522
+msgid "|set_reset_offset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:16 e4053f5ca73346acb8c9268692e2f8ab
+msgid "set_reset_offset.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:110 50ccf319ad8b41a68238a95700e291ea
+msgid "Calibrates the Load sensor."
+msgstr "校准 Load 传感器。"
+
+#: ../../source/unit/weight_i2c.rst:112 95318b5832ee4a1aa155c0a9c1aa34ec
+msgid "``weight1_g``: Weight1 in grams."
+msgstr "``weight1_g``：以克为单位的 Weight1。"
+
+#: ../../source/unit/weight_i2c.rst:113 a3bce3ae89a7457482bd0c78f9564943
+msgid "``weight1_adc``: Weight1 in ADC value."
+msgstr "``weight1_adc``：Weight1 的 ADC 值。"
+
+#: ../../source/unit/weight_i2c.rst:114 7a8d1842a1c5425291d481a478f02bc1
+msgid "``weight2_g``: Weight2 in grams."
+msgstr "``weight2_g``：Weight2 的单位为克。"
+
+#: ../../source/unit/weight_i2c.rst:115 6994b8aabc054a74bc95aae209536beb
+msgid "``weight2_adc``: Weight2 in ADC value."
+msgstr "``weight2_adc``：以 ADC 值表示的 Weight2。"
+
+#: ../../source/unit/weight_i2c.rst:117 83e8b89d94b943bebefa92b01fc9133c
+msgid "calibration steps:"
+msgstr "校准步骤："
+
+#: ../../source/unit/weight_i2c.rst:119 7b2e725d416244ef9e67178bfb72d283
+msgid ""
+"1.Reset offset(Tare). 2.Get the raw ADC value at no-load weight, this is "
+"the Raw ADC of zero weight in 0g. 3.Put some weight on it, then get adc, "
+"this is the load weight adc value and the gram weight you put on it."
+msgstr ""
+"1. 复位偏移量（Tare）。2. 在空载重量时获取原始 ADC 值，这是 0 g 零重量时的原始 ADC。3. 放上一些重量，然后获取 ADC "
+"值；这就是负载重量的 ADC 值，以及你放上的重量（g）。"
+
+#: ../../source/unit/weight_i2c.rst:126 88fffdecf4c34ba4925852cc9567e3e8
+msgid "|set_calibration.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:18 eed7e8384f4c4f4b8cb3874e38e98599
+msgid "set_calibration.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:130 a2f82883f4924931a55d5d98806054fc
+msgid "Enable or disable the low pass filter."
+msgstr "启用或禁用低通滤波器。"
+
+#: ../../source/unit/weight_i2c.rst:135 d416d39ca63d4cdbb850283fbaba8d82
+msgid "|set_lowpass_filter.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:20 3b270f764a54474db071141ec1decf37
+msgid "set_lowpass_filter.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:140 2576b6d62302407b9988fec9a7d80bd0
+msgid "Returns the status of the low pass filter (enable or disable)."
+msgstr "返回低通滤波器的状态（启用或禁用）。"
+
+#: ../../source/unit/weight_i2c.rst:145 e00960213a954d3c99953779a655c128
+msgid "|get_lowpass_filter.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:22 9eec238fd95a431eb5fd7e20c79ebb78
+msgid "get_lowpass_filter.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:149 e148b6202fbc40ba92747266046e6b8f
+msgid "Sets the level of the average filter."
+msgstr "设置平均滤波器的级别。"
+
+#: ../../source/unit/weight_i2c.rst:151 5868eff78eb24b7b839947548ffabf49
+msgid ""
+"``level``: Level of the average filter (0 - 50). Larger value for "
+"smoother result but more latency"
+msgstr "``level``：平均滤波器的级别（0 - 50）。数值越大结果越平滑，但延迟也越高。"
+
+#: ../../source/unit/weight_i2c.rst:155 efc7e1d0b6e94311848a24012b6a893c
+msgid "|set_average_filter_level.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:24 43ab6380d46f40afb1eae7316de02e42
+msgid "set_average_filter_level.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:159 7bfef2fd321d41d39751726506d49051
+msgid "Returns the level of the average filter."
+msgstr "返回平均滤波器的等级。"
+
+#: ../../source/unit/weight_i2c.rst:163 1a8a6685a5f24b5db520e07059465611
+msgid "|get_average_filter_level.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:26 60855e76f79841e19f9a618c966d1cf4
+msgid "get_average_filter_level.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:167 02b1f0d6ee3d4cad865acdfbc246e8ba
+msgid "Sets the alpha value for the EMA filter."
+msgstr "设置 EMA 滤波器的 alpha 值。"
+
+#: ../../source/unit/weight_i2c.rst:169 575fb8836fab4665a46a1c4cd7c0b85d
+msgid ""
+"The EMA (Exponential Moving Average) filter is more sensitive to changes "
+"in data compared to the average filter."
+msgstr "EMA（指数移动平均）滤波器相比平均滤波器对数据变化更敏感。"
+
+#: ../../source/unit/weight_i2c.rst:171 beefd9eef57d46bab1f240af58686372
+msgid ""
+"``alpha``: Alpha value for the EMA filter (0 - 99). Smaller value for "
+"smoother result but more latency"
+msgstr "``alpha``：EMA 滤波器的 Alpha 值（0 - 99）。值越小结果越平滑，但延迟越大"
+
+#: ../../source/unit/weight_i2c.rst:175 d4e6cfe430e74a8ba5cdcfc403e84649
+msgid "|set_ema_filter_alpha.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:28 903436fbc1c8417ab1a6c81560182e04
+msgid "set_ema_filter_alpha.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:179 27a8db21fc95495ba1d303322079a425
+msgid "Returns the alpha value for the EMA filter."
+msgstr "返回 EMA 滤波器的 alpha 值。"
+
+#: ../../source/unit/weight_i2c.rst:183 cee1a0de73994732ace1401c361a146e
+msgid "|get_ema_filter_alpha.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:30 67ee5f4d5df14610b00489fa39297250
+msgid "get_ema_filter_alpha.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:187 caaffc4b5e33427bbe36d8c8c87125ea
+msgid ""
+"The i2c address can be changed by the user and this address should be "
+"between 0x01 and 0x7F."
+msgstr "i2c 地址可由用户更改，该地址应在 0x01 到 0x7F 之间。"
+
+#: ../../source/unit/weight_i2c.rst:189 ce00c7b005bc43a4812844b62b3a9e71
+msgid "``address``: range of address(0x01 - 0x7F)."
+msgstr "``address``：地址范围（0x01 - 0x7F）。"
+
+#: ../../source/unit/weight_i2c.rst:193 4dd338cc16c54389898207d84f31ed2d
+msgid "|set_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:32 4c3a84e613ab4639adfe45c0c229dc86
+msgid "set_i2c_address.png"
+msgstr ""
+
+#: ../../source/unit/weight_i2c.rst:197 b58b9981a5274c08a5b55fb9f1f25d9f
+msgid "Get the firmware version details and I2c address of this device."
+msgstr "获取该设备的固件版本详细信息以及 I2C 地址。"
+
+#: ../../source/unit/weight_i2c.rst:199 7f6d730ad34a437fbd4045e0bdfceef3
+msgid "``info``: (0xFE, 0xFF)"
+msgstr "``info``：(0xFE, 0xFF)"
+
+#: ../../source/unit/weight_i2c.rst:203 76bc01733c414ea1abd47845ded54d9a
+msgid "|get_device_spec.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight_i2c.ref:34 790a1c67c1b54b7babede3d7661b7c45
+msgid "get_device_spec.png"
+msgstr ""
+

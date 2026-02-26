@@ -1,0 +1,303 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/tvoc.rst:3 fc2ce7f994bd456da2a632f1ffdf68c3
+msgid "TVOC Unit"
+msgstr "TVOC Unit"
+
+#: ../../source/unit/tvoc.rst:7 3cebbe35371d48298d7fbf69c0688afd
+msgid ""
+"TVOCUnit is a hardware module for measuring Total Volatile Organic "
+"Compounds (TVOC) and equivalent CO2 (eCO2). It is based on the SGP30 "
+"sensor and communicates via the I2C interface. The class supports "
+"configuration and measurement operations."
+msgstr ""
+"TVOCUnit 是一款用于测量总挥发性有机化合物（TVOC）和等效二氧化碳（eCO2）的硬件模块。它基于 SGP30 传感器，并通过 I2C "
+"接口进行通信。该类支持配置和测量操作。"
+
+#: ../../source/unit/tvoc.rst:9 c61342e259234a0ba13d3a960ea27ef7
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/tvoc.rst:11 ea62550258e84cf4b226a2b1dab04e7b
+msgid "|TVOCUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.tvoc.ref af052627ff7b460692ffbc95321e9a0c
+msgid "TVOCUnit"
+msgstr "TVOCUnit"
+
+#: ../../source/unit/tvoc.rst:13 6dc02532f82b49f18693efef2514c1a4
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/tvoc.rst:20 14d0255cd318406bae5344bc801fa9bc
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/tvoc.rst:22 1a99204069e44009a24546b9beeda5c7
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tvoc.ref:17 a1c8b905004f4f70b35116358b5838f6
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:26 cadf5a1e6b4c495a97214c83abee718d
+msgid "|tvoc_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:29 6882a4a70fba4fb4b1089d5833b11948
+msgid "class TVOCUnit"
+msgstr "class TVOCUnit"
+
+#: ../../source/unit/tvoc.rst:32 12d15d727b814e119877d65f45f8e628
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:36 e2b154df010846dfb6cba227300d0994
+msgid "Initialize the TVOCUnit with the specified I2C interface and address."
+msgstr "使用指定的 I2C 接口和地址初始化 TVOCUnit。"
+
+#: ../../source/unit/tvoc.rst 36d78c99fc9f4f709df8892a36817a48
+#: 4c8eafe43f024ba782bf3f2672ec17ff 65f1e8fa6e91426bb9b5bc4a261270ee
+#: afb93153489d4f17bacfe26597128852 e136a2d794da45e5a8cb910f739a56a2
+#: e1d426f9917f4ac8b2867fda4b2040ad
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:38 f9ea0b75f8fa46b9ae699a3d26fb6fb6
+msgid "The I2C interface or PAHUBUnit object for communication with the sensor."
+msgstr "用于与传感器通信的 I2C 接口或 PAHUBUnit 对象。"
+
+#: ../../source/unit/tvoc.rst:39 e02909a00e4543d1bcace31206bfef0d
+msgid "The I2C address of the TVOC unit. Defaults to 0x58."
+msgstr "TVOC Unit 的 I2C 地址。默认为 0x58。"
+
+#: ../../source/unit/tvoc.rst:41 ../../source/unit/tvoc.rst:60
+#: ../../source/unit/tvoc.rst:71 ../../source/unit/tvoc.rst:121
+#: ../../source/unit/tvoc.rst:130 ../../source/unit/tvoc.rst:139
+#: ../../source/unit/tvoc.rst:148 ../../source/unit/tvoc.rst:157
+#: ../../source/unit/tvoc.rst:166 18d84036240046cc8f3ff338fc5947ea
+#: 319a77c025444eccbb2955d01a9f2ee1 33155e8d06744f0791089ec84f24c968
+#: 3462c3206b514ca0953c415cfcd090f1 58bb53166f7d4b26be32c1535acd5c30
+#: 8a450458f9904ecb9d45254be62a6e5f a1c2c867bc784c31be3262da43dfebae
+#: dddb042be47c404d8e5ba50bd5a1096d f1df468d5b5845c9b92f55ad5e94b8f9
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/tvoc.rst:43 329e374b7ce84f4f953a3112993676e5
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tvoc.ref:7 34e577a3045340e4a4c71c24e064fc8e
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:47 deb08b35040c444099e979c7b349a842
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:51 2b3c22e7dd12418cac04a17bea85af66
+msgid "Check whether the TVOC/eCO2 unit is available."
+msgstr "检查 TVOC/eCO2 单元是否可用。"
+
+#: ../../source/unit/tvoc.rst:55 e8af0c04709145ea91cab89b13bf11ea
+msgid "Set the baseline values for CO2 and TVOC measurements."
+msgstr "设置 CO2 和 TVOC 测量的基线值。"
+
+#: ../../source/unit/tvoc.rst:57 82800936a1a94bc78831d14cb1a4bd47
+msgid "The CO2 equivalent baseline value to be set."
+msgstr "要设置的 CO2 当量基线值。"
+
+#: ../../source/unit/tvoc.rst:58 361612a13ae346a4b764f024fb563d33
+msgid "The TVOC baseline value to be set."
+msgstr "要设置的 TVOC 基线值。"
+
+#: ../../source/unit/tvoc.rst:62 df67b3f8fd624cee9de864d50b7811d7
+msgid "|set_baseline_co2_tvoc.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tvoc.ref:8 c87f91a253d44f948deea7c91ff0cad3
+msgid "set_baseline_co2_tvoc.png"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:66 ac8d98adc6e145249c71250be9dc516d
+msgid ""
+"Set the relative humidity and temperature for accurate air quality "
+"measurement."
+msgstr "设置相对湿度和温度，以实现准确的空气质量测量。"
+
+#: ../../source/unit/tvoc.rst:68 ../../source/unit/tvoc.rst:175
+#: 02282833d0274925904f45ec23583732 0eefbef04b964c8abc854c22623600a3
+msgid "The relative humidity in percentage (%)."
+msgstr "相对湿度，以百分比（%）表示。"
+
+#: ../../source/unit/tvoc.rst:69 ../../source/unit/tvoc.rst:174
+#: 502c7c4b08f44b599240675e610637a0 d73829c169ab49f8b96aa697d784add1
+msgid "The ambient temperature in Celsius (°C)."
+msgstr "环境温度，单位为摄氏度 (°C)。"
+
+#: ../../source/unit/tvoc.rst:73 c43e4f3ac508460da4814061d893a7d0
+msgid "|set_relative_humidity.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tvoc.ref:9 7a78d521622a49c9b8c2502a14e69e75
+msgid "set_relative_humidity.png"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:77 f1d004a9b3544347930d6fe1a4446b82
+msgid "Initialize the IAQ (Indoor Air Quality) algorithm for the sensor."
+msgstr "为传感器初始化 IAQ（室内空气质量）算法。"
+
+#: ../../source/unit/tvoc.rst:81 262bbfba9d2a4f2ea8ea2932ba6c62ae
+msgid "Measure the CO2 equivalent (CO2eq) and TVOC values."
+msgstr "测量 CO2 当量 (CO2eq) 和 TVOC 值。"
+
+#: ../../source/unit/tvoc.rst:85 45ce28f560bf4b138051b979b5c91129
+msgid "Retrieve the IAQ algorithm baseline values for CO2eq and TVOC."
+msgstr "获取 CO2eq 和 TVOC 的 IAQ 算法基线值。"
+
+#: ../../source/unit/tvoc.rst:89 278fc2746c4046ee880ec0f29fd3de39
+msgid ""
+"Set the previously recorded IAQ algorithm baseline values for CO2eq and "
+"TVOC."
+msgstr "设置先前记录的 IAQ 算法基线值，用于 CO2eq 和 TVOC。"
+
+#: ../../source/unit/tvoc.rst:91 3d711ee1be2e4dc49d45813105c4d809
+msgid "The CO2 equivalent baseline value."
+msgstr "CO2 当量基线值。"
+
+#: ../../source/unit/tvoc.rst:92 66d82fa4218a4ea49150fe743ab9b39a
+msgid "The TVOC baseline value."
+msgstr "TVOC 基线值。"
+
+#: ../../source/unit/tvoc.rst:96 f15dc768018c466db24fe646b3658e8b
+msgid ""
+"Set the absolute humidity compensation for the sensor. To disable, set "
+"the value to 0."
+msgstr "设置传感器的绝对湿度补偿。若要禁用，请将该值设置为 0。"
+
+#: ../../source/unit/tvoc.rst:98 c3e9eb815e124889b6f023a15fa3149a
+msgid "The absolute humidity value to set."
+msgstr "要设置的绝对湿度值。"
+
+#: ../../source/unit/tvoc.rst:102 32cad88e547947edaca310fb5d44129d
+msgid "Run the on-chip self-test."
+msgstr "运行片上自检。"
+
+#: ../../source/unit/tvoc.rst:106 9230605809f94c49b263ae82e1748434
+msgid "Retrieve the feature set of the sensor."
+msgstr "获取传感器的功能集。"
+
+#: ../../source/unit/tvoc.rst:110 ce8f01c04802472488ae41730a3d6daa
+msgid "Return raw H2 and Ethanol signals for part verification and testing."
+msgstr "返回原始 H2 和 Ethanol 信号，用于部件验证和测试。"
+
+#: ../../source/unit/tvoc.rst:114 5c5b50c80b1d459995099510dac40e37
+msgid "Retrieve the sensor serial ID."
+msgstr "获取传感器序列 ID。"
+
+#: ../../source/unit/tvoc.rst:118 f08ae7e112d64d9cb92a021ce1fba1fe
+msgid "Retrieve the Carbon Dioxide Equivalent (CO2eq) in parts per million (ppm)."
+msgstr "获取以百万分率 (ppm) 表示的二氧化碳当量 (CO2eq)。"
+
+#: ../../source/unit/tvoc.rst:123 fd16a77ba54e43bd85a97c8360a7cabd
+msgid "|co2eq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tvoc.ref:10 74479a38913d4029a15b452d4b6b9f27
+msgid "co2eq.png"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:127 17183306c21a441b90083e1f4e29fa33
+msgid "Retrieve the baseline value for CO2eq."
+msgstr "获取 CO2eq 的基线值。"
+
+#: ../../source/unit/tvoc.rst:132 ec55b6f843d24196a73f28da86d36705
+msgid "|baseline_co2eq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tvoc.ref:11 b602ff2cc9e1486e8b4a6e5cfeb5a08a
+msgid "baseline_co2eq.png"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:136 c7730d964cba436aa6dec31a1524febb
+msgid ""
+"Retrieve the Total Volatile Organic Compound (TVOC) in parts per billion "
+"(ppb)."
+msgstr "获取以十亿分之一（ppb）为单位的总挥发性有机化合物（TVOC）。"
+
+#: ../../source/unit/tvoc.rst:141 7038f430ac2942918a20c999d0b8d571
+msgid "|tvoc.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tvoc.ref:12 9708a027ff084e27a8d49c4cf401c624
+msgid "tvoc.png"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:145 76aa78e0a3434adcb90fab571c36fc16
+msgid "Retrieve the baseline value for TVOC."
+msgstr "获取 TVOC 的基线值。"
+
+#: ../../source/unit/tvoc.rst:150 d9a91d5b34934b2a92dfee5aec7a9e72
+msgid "|baseline_tvoc.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tvoc.ref:13 af50cda0b7554f34b788c4611963c629
+msgid "baseline_tvoc.png"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:154 8fe7100cf8374f7ab305c51b64bbfa72
+msgid "Retrieve the raw H2 signal value."
+msgstr "获取原始 H2 信号值。"
+
+#: ../../source/unit/tvoc.rst:159 82fbcaf0aecc40e5b764d282ecbcb18a
+msgid "|raw_h2.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tvoc.ref:14 74d8535706a846e48bf6f571eb232cb6
+msgid "raw_h2.png"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:163 5d833d9d8c8343bfa874add826a075ac
+msgid "Retrieve the raw Ethanol signal value."
+msgstr "获取原始 Ethanol 信号值。"
+
+#: ../../source/unit/tvoc.rst:168 1532d02703ea4e499a45580086924235
+msgid "|raw_ethanol.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tvoc.ref:15 8082d4d630a646df8257e4ed51a5c46b
+msgid "raw_ethanol.png"
+msgstr ""
+
+#: ../../source/unit/tvoc.rst:172 68313d13542046b1859127f2cef2232d
+msgid ""
+"Convert relative humidity to absolute humidity based on the sensor&#x27;s"
+" equation."
+msgstr "根据传感器的公式将相对湿度转换为绝对湿度。"
+
+#: ../../source/unit/tvoc.rst:176 8bc8f50abefe4f50a9d4eb9f52832006
+msgid "Whether to return the value in 8.8 fixed-point format. Defaults to True."
+msgstr "是否以 8.8 定点格式返回该值。默认为 True。"
+

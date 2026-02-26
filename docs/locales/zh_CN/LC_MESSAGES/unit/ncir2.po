@@ -1,0 +1,712 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/ncir2.rst:2 9a6208776b8441f7b8357832f833fc7b
+msgid "NCIR2 Unit"
+msgstr "NCIR2 Unit"
+
+#: ../../source/unit/ncir2.rst:8 6ce54de12e5b4d62ba5979f5703191b0
+msgid "This library is the driver for Unit NCIR2."
+msgstr "该库是 Unit NCIR2 的驱动程序。"
+
+#: ../../source/unit/ncir2.rst:10 09454f8f2a60461aa3f51485d4da66d7
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/ncir2.rst:12 2ccd183009cb4f20ae22e4c1398a0af3
+msgid "|Unit NCIR2|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref 67581241a1c342ac8fafa1188adb6d4a
+msgid "Unit NCIR2"
+msgstr "Unit NCIR2"
+
+#: ../../source/unit/ncir2.rst:15 294a68ec81df45c6b3614c6eac5f0402
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/ncir2.rst:18 ../../source/unit/ncir2.rst:36
+#: b67755cdcf5c4551a7857b55ed8deef8 bcb749fc54744ac2833e2c10ad97db54
+msgid "Infrared Temperature Display"
+msgstr "红外温度显示"
+
+#: ../../source/unit/ncir2.rst:20 62c3b9fd2ab24cac8923ded5013cc85e
+msgid "Open the |m5cores3_ncir2_base_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |m5cores3_ncir2_base_example.m5f2| 项目。"
+
+#: ../../source/unit/ncir2.rst:22 ../../source/unit/ncir2.rst:38
+#: 3354cc06578e4564b24efe1585b4e842 85922b3ddd58470093d9f45fa7537395
+msgid ""
+"This example uses the M5Stack CoreS3 board with the NCIR2 infrared "
+"temperature sensor to measure temperature in real time and display the "
+"current value along with the low and high temperature alarm thresholds on"
+" screen."
+msgstr "该示例使用 M5Stack CoreS3 开发板搭配 NCIR2 红外温度传感器实时测量温度，并在屏幕上显示当前温度值以及低温和高温报警阈值。"
+
+#: ../../source/unit/ncir2.rst:24 ../../source/unit/ncir2.rst:64
+#: ../../source/unit/ncir2.rst:83 ../../source/unit/ncir2.rst:100
+#: ../../source/unit/ncir2.rst:122 ../../source/unit/ncir2.rst:140
+#: ../../source/unit/ncir2.rst:157 ../../source/unit/ncir2.rst:175
+#: ../../source/unit/ncir2.rst:192 ../../source/unit/ncir2.rst:210
+#: ../../source/unit/ncir2.rst:227 ../../source/unit/ncir2.rst:246
+#: ../../source/unit/ncir2.rst:263 ../../source/unit/ncir2.rst:281
+#: ../../source/unit/ncir2.rst:298 ../../source/unit/ncir2.rst:315
+#: ../../source/unit/ncir2.rst:331 ../../source/unit/ncir2.rst:348
+#: ../../source/unit/ncir2.rst:364 ../../source/unit/ncir2.rst:381
+#: ../../source/unit/ncir2.rst:397 ../../source/unit/ncir2.rst:415
+#: ../../source/unit/ncir2.rst:431 ../../source/unit/ncir2.rst:449
+#: ../../source/unit/ncir2.rst:463 ../../source/unit/ncir2.rst:480
+#: ../../source/unit/ncir2.rst:497 ../../source/unit/ncir2.rst:513
+#: 02a80d4145594da096d7c55c1d5da796 057cb6fbc4c24a0f93409fc7551e16d6
+#: 0a31a251d76f4c4daf1af4a882f6bfb5 107d422b4b1940279648125e4a8d90c8
+#: 2527c95900cf41508825c6bcdffacca7 348fb64f279244f0b9fcf74234a35120
+#: 3f36031a8fed47c9863b0086ee151d7e 46de8174453f4f94ba90b0bed6bf9bf7
+#: 57b22ee15e644772b4d9843a153f742c 5da5cc425f0d459abd96d57523184ed6
+#: 665fbd2b459d4458a29ebf00de1514b3 762cbca2bd604e1ab2b0df041557f792
+#: 787de26edc1e45579a29c582b565b8d2 7aa28c897a64405c92b7058fdb82a2ba
+#: 82552b15ab20495c9f253a55dc63b4fc 89876e48d06f4dc1bbfa837b0d511ce2
+#: 9e1b63011dee41a581d7e34ea025ad41 b1035f025c4a44c08333dba9b8b20d1c
+#: b883f2c4feb1496c91f4aa9757d31f02 bb30b19b94e146989ee5bd4aba1261d1
+#: bb9b80a710704eabafdd0ac17b2033c6 bcb286b0b80d4cf7ad066535a32313bf
+#: c710d3bba8014cdb93711805765c5aed d8a05ea04be84fafa433f388196afd5d
+#: dd0bb2aa44d64f268cb002454929f00a e2439050ceb94f44b07787339039879b
+#: f4d1ce79f7604e1fa62c33617fb4efe8 ff69fc5592024a019442ddea2f1d37eb
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/ncir2.rst:26 34141fff5b8a468189a6b348c3141c5b
+msgid "|m5cores3_ncir2_base_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:35 9e92b841ff52422ca3de375592e844ff
+msgid "m5cores3_ncir2_base_example.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:28 ../../source/unit/ncir2.rst:46
+#: 11b64cf5932d4c33aa6b3bc13a5fddc8 210d49b8a16c4ab6ac8d7066a9a6b494
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/ncir2.rst:30 ../../source/unit/ncir2.rst:48
+#: 17416577e2b44e158c774a088b25c146 5cc34f71930c4185a0e1f1b2eab70187
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:33 fe16b6640c06417b8c70109ad6c67038
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/ncir2.rst:40 ../../source/unit/ncir2.rst:68
+#: ../../source/unit/ncir2.rst:87 ../../source/unit/ncir2.rst:104
+#: ../../source/unit/ncir2.rst:126 ../../source/unit/ncir2.rst:144
+#: ../../source/unit/ncir2.rst:161 ../../source/unit/ncir2.rst:179
+#: ../../source/unit/ncir2.rst:196 ../../source/unit/ncir2.rst:214
+#: ../../source/unit/ncir2.rst:231 ../../source/unit/ncir2.rst:250
+#: ../../source/unit/ncir2.rst:267 ../../source/unit/ncir2.rst:285
+#: ../../source/unit/ncir2.rst:302 ../../source/unit/ncir2.rst:319
+#: ../../source/unit/ncir2.rst:335 ../../source/unit/ncir2.rst:352
+#: ../../source/unit/ncir2.rst:368 ../../source/unit/ncir2.rst:385
+#: ../../source/unit/ncir2.rst:401 ../../source/unit/ncir2.rst:419
+#: ../../source/unit/ncir2.rst:435 ../../source/unit/ncir2.rst:453
+#: ../../source/unit/ncir2.rst:467 ../../source/unit/ncir2.rst:484
+#: ../../source/unit/ncir2.rst:501 ../../source/unit/ncir2.rst:517
+#: 0146238f69e34799b20ff3d5ec76c2f1 11a6c2eee1e9446da3d3bec2ff6f3de4
+#: 12af8aa5bb3e47d6b114dd14857c077b 178c7dba1d6c40308b9f26f2c40bae4d
+#: 1e550be12373469cab305ad8292c1716 3caa119470944fb5ad75ac00b41ff698
+#: 4f11d5ce91574149acd3f5d31cf1d1d9 61b588ba094044c1987dfb36c65ada37
+#: 73552472545b46b89102e429acda7b02 802819dfb3264280b76a02dd3ceed1a7
+#: 823e7c8fb0f64d30ac7fbfd4cd32f3e8 8c6bc2d7a7b542beb43e24b2bc93f417
+#: 90a672f00c5a42cea0fee551b8bcab08 a520946386fe461a9110caeb779ef47b
+#: a7443e8095c441a8a2990bde97ab90d3 aec235bc641444bf8eebc11c43dcfa35
+#: b5794b5b8b51420c854f9bf9bf7773f6 bed3a32b697f4408b8fc3422c9541aa5
+#: caa1e25e11f345f4b69c6da2a1be63ce ce0b5f45e92a4067add528b4b83b4c9d
+#: e28b71204de74fc990fa0c3f2d8ecd24 e47cc7fbdc42420faedc32f1680bf3a2
+#: ee818072cc9b4edbbd74e66eae4bc96c f08f6ef568e14578b4e20e941e5dee19
+#: f3b521613b404318a5d98f5898b13d12 f40844a4c48d4bee95cda344c554f669
+#: f6d752933ce747e5b272b81c2daf1c36 f954e1a7f08347169bcbd41cffebbe83
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/ncir2.rst:52 d2ba2edcec85418480d163022f29b703
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/ncir2.rst:55 a8b5a55590dd4d4eb51143ebb27b42fc
+msgid "NCIR2Unit"
+msgstr "NCIR2Unit"
+
+#: ../../source/unit/ncir2.rst:59 25362c8b3bd440dfb74785d4f81b8add
+msgid "Create an NCIR2Unit object."
+msgstr "创建一个 NCIR2Unit 对象。"
+
+#: ../../source/unit/ncir2.rst 02a2162ec1dc450891e8a07176851038
+#: 38de2ed873154a40b2abc2ae3a10d897 9eaac5711bce4e5b909468573c80a825
+#: c6a5681a42c64013a3ad0a1686d940d5
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:61 965f8b30ce0e40e997699bf020652f06
+msgid "I2C port,"
+msgstr "I2C 端口，"
+
+#: ../../source/unit/ncir2.rst:62 9c2a1898f3164d77ad1dc7ac38bb4a71
+msgid "NCIR2Unit Slave Address, Default is 0x5A."
+msgstr "NCIR2Unit 从机地址，默认为 0x5A。"
+
+#: ../../source/unit/ncir2.rst:66 dfe3ddd17bb24f95b1c22b47cbe2a5d4
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:7 275a6372266040379646c04255055118
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:78 b16c9de926e54d79b235f8e60fb180d1
+msgid "Get object temperature."
+msgstr "获取对象温度。"
+
+#: ../../source/unit/ncir2.rst 8464e751909c41edb7a0b62c5dfa6cd9
+msgid "returns"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:80 8fd61246d4424951a6174bf91e1fcd8d
+msgid "object temperature(unit: ℃)"
+msgstr "object 温度（单位：℃）"
+
+#: ../../source/unit/ncir2.rst 3061092c10384b1ca753071c9de3e937
+msgid "rtype"
+msgstr "rtype"
+
+#: ../../source/unit/ncir2.rst:81 619e3ffc92e846b8a57798e3da3f1f40
+msgid "float"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:85 e6ed7630b9764968a3533da6b489c808
+msgid "|get_temperature_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:8 dc85e8737a3945c3b37853b5dde1c0db
+msgid "get_temperature_value.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:95 5b8098e0c5ff4737b16efc057447f8af
+msgid "Get current emissivity."
+msgstr "获取当前发射率。"
+
+#: ../../source/unit/ncir2.rst 0355c2b4f9664c529b9bdc659b57d85f
+#: 3c706cca01da4f18a95688168058cafb 42b30df786624a68b38fe907ce1628d7
+#: 4646ce4ec17443648c55f8bcd13b6ed4 47f2ba743d7d4375a4cb55e01ca2054c
+#: 6cf6061e1d574adaac9718caffd97fc5 923bbe3e5e194d4fbeb16fa760492c3d
+#: 94aeeac67a6944a5bbd5bddadc7282da c7b2004d0e5f42df96dc74134a0bfbe6
+#: ca9a1f16108b4afab60b18b97d28c1db d1deb64ce45b4e8a8d2089c3c26486c1
+#: e442cdd133704b3da57d087b72805408 ee06459d0ce648848c3d156dfeba744e
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:97 1d2c589e9c1f4306a672dc3894d91570
+msgid "emissivity."
+msgstr "发射率。"
+
+#: ../../source/unit/ncir2.rst 109bb485a9124363a385777e05019317
+#: 169d302e72cc454dbcae41029631013b 1fdf196f0f494c718d9772a605ed2464
+#: 728d53f294384eb5820f9f4440e8183c 7293d2bd20064403ace89657d2a760de
+#: 7c99e338a8c54f40ac44b467467f1fd2 95b81cd3c0e24843926cf7ce61c36bda
+#: be306f8e83a2487eafc7ecfc808b4ce4 be3a79c411cd45a1b6e9eb2bd876e96c
+#: c0b79f1a7ff94474ba35f661990b2dff cc7eb6fc7bad4526b7ffd9f770e574d0
+#: ef57a188bdbb4be9897b039dc4470192 fda99507273544fbbdef5cfddee1f856
+msgid "Return type"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:102 fb948c9d52b34155ac4b0c5e9fbb1952
+msgid "|get_emissivity_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:9 c960a735474c454fa1f6b3e6ed413a4b
+msgid "get_emissivity_value.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:112 70f723a5c22b43b597b0669d90ab2cb0
+msgid "Set the emissivity."
+msgstr "设置发射率。"
+
+#: ../../source/unit/ncir2.rst:114 a3c284de0e5644ba950e4961a55dd3a7
+msgid ""
+"According to the material being measured; it affects temperature "
+"measurement accuracy."
+msgstr "根据被测材料的不同，它会影响温度测量精度。"
+
+#: ../../source/unit/ncir2.rst:116 e7884f6c232a497f89dcb8d91989e7c5
+msgid "A black body has an emissivity of 1.00 (ideal emitter)."
+msgstr "黑体的发射率为 1.00（理想发射体）。"
+
+#: ../../source/unit/ncir2.rst:117 cc49acfa450c44a5a97539af1928fcb5
+msgid "Shiny metals often have low emissivity values (below 0.1)."
+msgstr "闪亮的金属通常具有较低的发射率值（低于 0.1）。"
+
+#: ../../source/unit/ncir2.rst:118 2eb2b7e596f5418d9fc9120eaec9ca37
+msgid ""
+"Dark, rough surfaces like electrical tape or human skin typically have "
+"high emissivity (above 0.95)."
+msgstr "像电工胶带或人体皮肤这类深色、粗糙的表面通常具有较高的发射率（高于 0.95）。"
+
+#: ../../source/unit/ncir2.rst 0c763cecf27b4e7390f8a5d8c17507a5
+#: 0e332c7e023d4e039b0102d68b5e636e 10582767e0504a53b09ef3676767ce46
+#: 163d2ea8b3594aba814ee47b897c378a 19bf627698d444c7950cb6caa4fb9ac9
+#: 1c8675d6ac6a451b8a0ad7e97c061ad8 3841e0e9cb2a441aa7ca88e310ea634b
+#: 437ea5fc18d24453a1976752995d5162 48579cf079e34e08a2cba41163457993
+#: 537d0b1969d240bb94b4017951357bce 5ddb763e7ca1492985874ec9f5b5a464
+#: 6afd933d14094983be812c7d5964108b 73a82f46117c4230bef40e46883d0586
+#: 86c9195e079b474e90af6b99bfde7405 8b251e25616a4b9cb2a12274a28fd735
+#: b2f3dc25443341fca373f1d0d1a7215f b9678ad3f5464399b89cf7101b73aa6a
+#: bf9528b6a63d4660acda4916d76df596
+msgid "param"
+msgstr "param"
+
+#: ../../source/unit/ncir2.rst:120 72255f7406234966a121e3a48581d3e1
+msgid "int emissive: The emissivity, range: 0 ~ 1."
+msgstr "int emissive：发射率，范围：0 ~ 1。"
+
+#: ../../source/unit/ncir2.rst:124 4b74dff5967b44aea45abd8919c01485
+msgid "|set_emissivity_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:22 6261145bbc1b4ecaa045433b54f3300b
+msgid "set_emissivity_value.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:134 a8c58f03e7604f2fb4625ff7c5effe2d
+msgid "Get temperature alaram threshold."
+msgstr "获取温度报警阈值。"
+
+#: ../../source/unit/ncir2.rst:136 e6235a219b57457f9274fd86b00b328e
+msgid ""
+"int alarm_reg: ALARM_LOW_TEMP_REG: Low temperature alarm threshold "
+"register, ALARM_HIGH_TEMP_REG: High temperature alarm threshold register."
+msgstr "int alarm_reg：ALARM_LOW_TEMP_REG：低温报警阈值寄存器，ALARM_HIGH_TEMP_REG：高温报警阈值寄存器。"
+
+#: ../../source/unit/ncir2.rst:137 992ed87f75c9456f9fafed27a3bdc657
+msgid "alarm threshold."
+msgstr "报警阈值。"
+
+#: ../../source/unit/ncir2.rst:142 481c15b4931e403982fe7945f12d2bf8
+msgid "|get_temperature_threshold.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:10 4f978b0877d1494da542442db66086e5
+msgid "get_temperature_threshold.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:152 b8bacbb3858e47f19cf9d394df5c8187
+msgid "Set temperature alarm threshold."
+msgstr "设置温度报警阈值。"
+
+#: ../../source/unit/ncir2.rst:154 0e4567e3cf454595a1480170c7c7969b
+msgid ""
+"int alarm_reg: temperature alarm register, ALARM_LOW_TEMP_REG: Low "
+"temperature alarm threshold register, ALARM_HIGH_TEMP_REG: High "
+"temperature alarm threshold register."
+msgstr ""
+"int "
+"alarm_reg：温度报警寄存器，ALARM_LOW_TEMP_REG：低温报警阈值寄存器，ALARM_HIGH_TEMP_REG：高温报警阈值寄存器。"
+
+#: ../../source/unit/ncir2.rst:155 01746c7261c1429e8a13e1acb0932e62
+msgid "float temp: alarm threshold."
+msgstr "float temp：报警阈值。"
+
+#: ../../source/unit/ncir2.rst:159 66e597fbdd264c5eb48e455b991bc17e
+msgid "|set_temperature_threshold.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:23 dfdde19059f747cf8587d90a8f46449f
+msgid "set_temperature_threshold.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:169 c852a0543af942729ddfd551706cf168
+msgid "Get temperature alaram RGB LED value."
+msgstr "获取温度报警 RGB LED 值。"
+
+#: ../../source/unit/ncir2.rst:171 ../../source/unit/ncir2.rst:189
+#: 0d4fdd6da5d4463e8171fddd94303ba0 7badb3ca65ee415e94e832bacdcf23a2
+msgid ""
+"int alarm_reg: temperature alarm RGB LED register, RGB_LOW_TEMP_REG: Low "
+"temperature alarm RGB LED value register, RGB_HIGH_TEMP_REG: High "
+"temperature alarm RGB LED value register."
+msgstr ""
+"int alarm_reg：温度报警 RGB LED 寄存器，RGB_LOW_TEMP_REG：低温报警 RGB LED "
+"值寄存器，RGB_HIGH_TEMP_REG：高温报警 RGB LED 值寄存器。"
+
+#: ../../source/unit/ncir2.rst:172 9c03427df6f7420c9c7e47f6ac6c4e47
+msgid "temperature alarm RGB LED value."
+msgstr "温度报警 RGB LED 值。"
+
+#: ../../source/unit/ncir2.rst:177 5f347094d28144e4bce9f9d156d46efa
+msgid "|get_temp_alarm_led.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:11 f5478746c1954d5fbbaa828a3493283b
+msgid "get_temp_alarm_led.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:187 7cf3ba66a9cb40ceb03ccf43ead9719a
+msgid "Set temperature alaram RGB LED value."
+msgstr "设置温度报警 RGB LED 值。"
+
+#: ../../source/unit/ncir2.rst:190 cc845550d0ed4835afd19b750aa81156
+msgid "RGB color value (24-bit, range: 0 ~ 0xFFFFFF)."
+msgstr "RGB 颜色值（24 位，范围：0 ~ 0xFFFFFF）。"
+
+#: ../../source/unit/ncir2.rst:194 961cc3bfa553488e8e33a0d08fb851f2
+msgid "|set_temp_alarm_led.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:24 3e29187ecc9d4bc5915d65191f6b91cf
+msgid "set_temp_alarm_led.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:204 3446814165ab4da4ad86caaec4495a11
+msgid "Get the buzzer frequency for temperature alarm."
+msgstr "获取温度报警的蜂鸣器频率。"
+
+#: ../../source/unit/ncir2.rst:206 ../../source/unit/ncir2.rst:224
+#: 05e9780e5bc245d5b871c64cdb112fb8 d9fbb580baa7426cab785e7ac6a95147
+msgid ""
+"int alarm_reg: temperature alarm buzzer frequency register, "
+"LOW_TEMP_FREQ_REG: Low temperature alarm buzzer frequency register, "
+"HIGH_TEMP_FREQ_REG: High temperature alarm buzzer frequency register."
+msgstr ""
+"int "
+"alarm_reg：温度报警蜂鸣器频率寄存器，LOW_TEMP_FREQ_REG：低温报警蜂鸣器频率寄存器，HIGH_TEMP_FREQ_REG：高温报警蜂鸣器频率寄存器。"
+
+#: ../../source/unit/ncir2.rst:207 8f0db25fd85b4910aee105f2712bb3a9
+msgid "buzzer frequency."
+msgstr "蜂鸣器频率。"
+
+#: ../../source/unit/ncir2.rst:212 6fcc6c692f8a461db0447b662d8d71be
+msgid "|get_temp_buzzer_freq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:12 61673b89b99643778568be717b0a8eef
+msgid "get_temp_buzzer_freq.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:222 a3393faa408c42f193661f2835f4ce14
+msgid "Set the buzzer frequency for temperature alarm."
+msgstr "设置温度报警的蜂鸣器频率。"
+
+#: ../../source/unit/ncir2.rst:225 c9213f2f30024a55ae067b7a235e1a59
+msgid "int freq: buzzer frequency, range: 20~20000Hz"
+msgstr "int freq：蜂鸣器频率，范围：20~20000 Hz"
+
+#: ../../source/unit/ncir2.rst:229 c14060d8844045b2a9a1978298d96f62
+msgid "|set_temp_buzzer_freq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:25 68f009fb03fa4d28a40e47c8ee9aa726
+msgid "set_temp_buzzer_freq.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:240 b8c2a83d3ab1432f8290dbe40ed9ce76
+msgid "Get the buzzer alarm interval."
+msgstr "获取蜂鸣器报警间隔。"
+
+#: ../../source/unit/ncir2.rst:242 ../../source/unit/ncir2.rst:260
+#: 054d6a2ed2bb4fad9e5d6c139cd2cc73 8942cd868b034395b2d04e65e62a872c
+msgid ""
+"int alarm_reg: buzzer alarm interval register, LOW_ALARM_INTER_REG: Low "
+"temperature alarm interval register, HIGH_ALARM_INTER_REG: High "
+"temperature alarm interval register."
+msgstr ""
+"int "
+"alarm_reg：蜂鸣器报警间隔寄存器，LOW_ALARM_INTER_REG：低温报警间隔寄存器，HIGH_ALARM_INTER_REG：高温报警间隔寄存器。"
+
+#: ../../source/unit/ncir2.rst:243 b1d096185d4a4195a3b9f34b7f23a0b4
+msgid "buzzer alarm interval. (unit: ms)"
+msgstr "蜂鸣器报警间隔。（单位：ms）"
+
+#: ../../source/unit/ncir2.rst:248 26431ed8ee564bebb68ff6001f729d9e
+msgid "|get_temp_alarm_interval.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:13 68ee0c93366d442888b82309ef620677
+msgid "get_temp_alarm_interval.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:258 e0a125127b714e628636fb2ec7636b46
+msgid "Set the buzzer alarm interval."
+msgstr "设置蜂鸣器报警间隔。"
+
+#: ../../source/unit/ncir2.rst:261 7c42484db7d2464b8fd32747f2698ef2
+msgid "int interval: alarm interval, range: 1 ~ 5000(unit: ms)."
+msgstr "int interval：报警间隔，范围：1 ~ 5000（单位：ms）。"
+
+#: ../../source/unit/ncir2.rst:265 e0e65dbed1a1473b9982aeec2366bfc0
+msgid "|set_temp_alarm_interval.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:26 d67bf0104cfb4404bc371099c50a874b
+msgid "set_temp_alarm_interval.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:275 31b4d28027164d79b4423cb168463c9f
+msgid "Get the duty cycle of the temperature alarm buzzer signal."
+msgstr "获取温度报警蜂鸣器信号的占空比。"
+
+#: ../../source/unit/ncir2.rst:277 ../../source/unit/ncir2.rst:295
+#: 61533ba1f5d446a395fdcf424628e188 cc137dd9a85d4f03b47d93f2cf97ac66
+msgid ""
+"Duty cycle register for the temperature alarm buzzer signal. "
+"LOW_ALARM_DUTY_REG: Register for low temperature alarm duty cycle. "
+"HIGH_ALARM_DUTY_REG: Register for high temperature alarm duty cycle."
+msgstr "温度报警蜂鸣器信号的占空比寄存器。LOW_ALARM_DUTY_REG：低温报警占空比寄存器。HIGH_ALARM_DUTY_REG：高温报警占空比寄存器。"
+
+#: ../../source/unit/ncir2.rst:278 7a44f81ed6e942bcae2666a3353fd1e1
+msgid "duty cycle."
+msgstr "占空比。"
+
+#: ../../source/unit/ncir2.rst:283 be4f724cecde42fbaee1a82670a86c97
+msgid "|get_temp_buzzer_duty.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:14 6f5afb53720641d5aa9e428c30576c5e
+msgid "get_temp_buzzer_duty.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:293 959e3dfe87814eb5828b13500555b5b0
+msgid "Set the duty cycle of the temperature alarm buzzer signal."
+msgstr "设置温度报警蜂鸣器信号的占空比。"
+
+#: ../../source/unit/ncir2.rst:296 4141379cf40d4f2592fc6c767fc9d9be
+msgid "int duty: Temperature alarm buzzer signal duty cycle, range: 0 ~ 255."
+msgstr "温度报警蜂鸣器信号占空比，范围：0 ~ 255。"
+
+#: ../../source/unit/ncir2.rst:300 c2a3c76f74d043c3bd9b95990e65ea8d
+msgid "|set_temp_buzzer_duty.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:27 c2dc96ab42a44fd4b72254c8beeaf3d5
+msgid "set_temp_buzzer_duty.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:310 cdcec8870bed4a95835c5675371af4d8
+msgid "Get the frequeny of the buzzer signal."
+msgstr "获取蜂鸣器信号的频率。"
+
+#: ../../source/unit/ncir2.rst:312 f6eff616aecc4f0b95d0e4700fc23d0c
+msgid "frequeny(Hz)"
+msgstr "频率 (Hz)"
+
+#: ../../source/unit/ncir2.rst:317 a88dbfd39c5742b49b1e855fba7f6aec
+msgid "|get_buzzer_freq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:15 56e04fd9b78b424fab61c41d408ffead
+msgid "get_buzzer_freq.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:327 fb999140a5cc45a6a395858388c9061e
+msgid "Set the frequeny of the buzzer signal."
+msgstr "设置蜂鸣器信号的频率。"
+
+#: ../../source/unit/ncir2.rst:329 48fd740c54ce46a4801e8281cab6ee74
+msgid "int freq: buzzer signal frequency, range: 20 ~ 20000 (Hz)."
+msgstr "int freq: 蜂鸣器信号频率，范围：20 ~ 20000 (Hz)。"
+
+#: ../../source/unit/ncir2.rst:333 94e9ac57bb07465d87f05d8c2dd13141
+msgid "|set_buzzer_freq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:28 f7aaa96069b0447995efeb19a34f1050
+msgid "set_buzzer_freq.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:343 dc37a9996a004656b05accdee1740a59
+msgid "Get the duty cycle of the buzzer signal."
+msgstr "获取蜂鸣器信号的占空比。"
+
+#: ../../source/unit/ncir2.rst:345 1b529574a3ec41d19a17889cf0e3b34c
+msgid "Duty cycle"
+msgstr "占空比"
+
+#: ../../source/unit/ncir2.rst:350 11b364fd441f465eb5ed473a07d1ea5b
+msgid "|get_buzzer_duty.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:16 6031609179724b1d88a80a458f0a0b2a
+msgid "get_buzzer_duty.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:360 6c06029e442044009f92c205188ef245
+msgid "Set the duty cycle of the buzzer signal."
+msgstr "设置蜂鸣器信号的占空比。"
+
+#: ../../source/unit/ncir2.rst:362 960eaab30fd84fa38cc8e0e553c1d96e
+msgid "int duty: Duty cycle, range: 0 ~ 255."
+msgstr "int duty：占空比，范围：0 ~ 255。"
+
+#: ../../source/unit/ncir2.rst:366 d3eb69230e75453084d156cbfb1f75c0
+msgid "|set_buzzer_duty.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:29 b4b049f288e947089c8c63a754d15bf9
+msgid "set_buzzer_duty.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:376 249f45545324464cadf0496b071fca30
+msgid "Get the buzzer control status"
+msgstr "获取蜂鸣器控制状态"
+
+#: ../../source/unit/ncir2.rst:378 6220d456fbf84642a3ec8a3359949aef
+msgid "Returns the current buzzer control status"
+msgstr "返回当前蜂鸣器控制状态"
+
+#: ../../source/unit/ncir2.rst:383 15b877d4191e4d1da83c90bdfba5664a
+msgid "|get_buzzer_control.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:17 da11d08c62514c9bb67033a7355e15f8
+msgid "get_buzzer_control.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:393 1cba297cb152466699aee0874c9ee8fb
+msgid "Set the buzzer control status"
+msgstr "设置蜂鸣器控制状态"
+
+#: ../../source/unit/ncir2.rst:395 e15b1a33f53c4124ba629de8751bfe97
+msgid "int ctrl: Control value, 0 to turn off the buzzer, 1 to turn on the buzzer"
+msgstr "int ctrl：控制值，0 表示关闭蜂鸣器，1 表示打开蜂鸣器"
+
+#: ../../source/unit/ncir2.rst:399 38d2ff22fa4449a38e22680e82c0b93d
+msgid "|set_buzzer_control.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:30 4aece5d357244b15be8346ac46a1da81
+msgid "set_buzzer_control.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:410 2eb0f33b8fcf4f33838fd4aec89589f3
+msgid "Get the current RGB LED value"
+msgstr "获取当前 RGB LED 的值"
+
+#: ../../source/unit/ncir2.rst:412 c0cac0aa90ec47dd80d600f43586b238
+msgid "The current RGB LED values in the format [r, g, b]"
+msgstr "当前 RGB LED 值，格式为 [r, g, b]"
+
+#: ../../source/unit/ncir2.rst:417 dd65792863634f249027332cb39e061b
+msgid "|get_rgb_led.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:18 50c3435692414041aaac274a60dbd337
+msgid "get_rgb_led.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:427 358757b7d8984a2c8173942f8f6dc536
+msgid "Set the RGB LED value"
+msgstr "设置 RGB LED 值"
+
+#: ../../source/unit/ncir2.rst:429 9c825762d72241b4bc34fb7c75da16a4
+msgid "int rgb: RGB value in the range of 0 ~ 0xFFFFFF"
+msgstr "int rgb：RGB 值，范围为 0 ~ 0xFFFFFF"
+
+#: ../../source/unit/ncir2.rst:433 cf7eaaa25c734af69dede94fbd725e02
+msgid "|set_rgb_led.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:31 39c6cdc3b29242de95c2ba42effe6d22
+msgid "set_rgb_led.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:444 a7713f04e3544363b1c4ffcfe55f99d0
+msgid "Get the button status"
+msgstr "获取按钮状态"
+
+#: ../../source/unit/ncir2.rst:446 76c544ead69b4ae4a74c894f63347866
+msgid "Button status, either 0 (not pressed) or 1 (pressed)"
+msgstr "按键状态，为 0（未按下）或 1（按下）"
+
+#: ../../source/unit/ncir2.rst:451 346276db3f9b4e8295c60b39cd6792a4
+msgid "|get_button_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:19 828595734dd1481bb9b5b514c42e6ae2
+msgid "get_button_status.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:461 1689e35aa27f4a2cb76831f731c17860
+msgid "Save configuration settings"
+msgstr "保存配置设置"
+
+#: ../../source/unit/ncir2.rst:465 42515c7ada9f47b5b309f7e2aba1e2e5
+msgid "|save_config_setting.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:32 2ed8aade797b46efb5ab98d4289fe5fc
+msgid "save_config_setting.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:475 427a68f2126741e0af0a8c23120b218a
+msgid "Get the chip temperature"
+msgstr "获取芯片温度"
+
+#: ../../source/unit/ncir2.rst:477 609bf27cf09a403ea93e2cc9d608f86b
+msgid "Chip temperature in Celsius (°C)"
+msgstr "芯片温度（摄氏度（°C））"
+
+#: ../../source/unit/ncir2.rst:482 c203c48d3a304e00afaba3b7dd4af045
+msgid "|get_chip_temperature.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:20 8a34de66656f47469f6ab44d5e57a73e
+msgid "get_chip_temperature.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:492 d9619f4301904137856dcc59d2d5a817
+msgid "Get device specifications"
+msgstr "获取设备规格参数"
+
+#: ../../source/unit/ncir2.rst:494 89ad0ac7beeb40caaa63854505b575fa
+msgid "Device specifications"
+msgstr "设备规格"
+
+#: ../../source/unit/ncir2.rst:499 d6678a3706874050a25b29da8e265ed0
+msgid "|get_device_spec.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:21 ea19151b88d6472181264187c7520b29
+msgid "get_device_spec.png"
+msgstr ""
+
+#: ../../source/unit/ncir2.rst:509 8a65b95c4ce0453e9f904224c956b9f7
+msgid "Set the I2C address of the device"
+msgstr "设置设备的 I2C 地址"
+
+#: ../../source/unit/ncir2.rst:511 3ba2b59d99b043a8a07ad960ca39048b
+msgid "int addr: I2C address range: 1 ~ 127."
+msgstr "int addr：I2C 地址范围：1 ~ 127。"
+
+#: ../../source/unit/ncir2.rst:515 26d732e22aa141b7befaf96451e4888f
+msgid "|set_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir2.ref:33 055b8cb8425a4d598bf6a7d333f52b88
+msgid "set_i2c_address.png"
+msgstr ""
+

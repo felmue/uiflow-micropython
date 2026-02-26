@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/dlight.rst:2 49852194ce0e479493b8dcd46577bb93
+msgid "DLight Unit"
+msgstr "DLight Unit"
+
+#: ../../source/unit/dlight.rst:6 b247d80fdb9d430bb89094f766a7bb1d
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/dlight.rst:8 5ca12ba21a7f4dd3893ebe0479108749
+msgid "|Dlight|"
+msgstr ""
+
+#: ../../source/refs/unit.dlight.ref 69575846629a4a28bde64c63b8591e38
+msgid "Dlight"
+msgstr "Dlight"
+
+#: ../../source/unit/dlight.rst:11 6497c768df3d4393a4d917cf1ed20e1c
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例："
+
+#: ../../source/unit/dlight.rst:18 6339b1f34d08435cbb3326c27dc327ef
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/dlight.rst:20 a590f5fddd1045eaaa0d9f26fa85542b
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dlight.ref:7 d8753e09bef941d8b5b9c576643837c1
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/dlight.rst:25 b9aa7073cd50460a84f1e6982d70eeb1
+msgid "|dlight_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/dlight.rst:29 b2ba6f5ab71d4db09f44c8088c64887a
+msgid "class DLight"
+msgstr "class DLight"
+
+#: ../../source/unit/dlight.rst:32 7c3779698a82499a913a166392f35ef8
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/dlight.rst:36 30d1b271f42044d8a5ba90cb3a7f425f
+msgid "Create a DLight object."
+msgstr "创建一个 DLight 对象。"
+
+#: ../../source/unit/dlight.rst fc7a5dd926a848ed8a95da0dfcb1e925
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/dlight.rst:38 58a48404dbe5498b8a56d1f852a484c5
+msgid "the I2C object."
+msgstr "I2C 对象。"
+
+#: ../../source/unit/dlight.rst:39 87154096a6384feaa095a073489ae33d
+msgid "the I2C address of the device. Default is 0x23."
+msgstr "设备的 I2C 地址。默认值为 0x23。"
+
+#: ../../source/unit/dlight.rst:41 ../../source/unit/dlight.rst:55
+#: ../../source/unit/dlight.rst:64 74b6acb840ce484abddd05703e289a2f
+#: a1fe8c048ed64953bcb27a0b90ce80f9 df298f8406734f2b9c9183a890714772
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/dlight.rst:43 3232c34a2ca94ae0a43891fd0e388fc1
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dlight.ref:9 3395cb5dbef44c32914ccac5bff4cf32
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/dlight.rst:49 b89e2930989d4ff486390576eaf14820
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/dlight.rst:53 4e3de11d66234f0199035fa8b6742262
+msgid "Get light lux."
+msgstr "获取光照强度（lux）。"
+
+#: ../../source/unit/dlight.rst:57 87f193d7c34e4d5e8dbd42806a9a4828
+msgid "|get_lux.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dlight.ref:11 7ac3b632baa34590879a679a73a42165
+msgid "get_lux.png"
+msgstr ""
+
+#: ../../source/unit/dlight.rst:62 f6d6da2387e347fe8bf4373cccf0b4ff
+msgid ""
+"Configure the measurement mode (continuous measurement/single "
+"measurement) and resolution."
+msgstr "配置测量模式（连续测量/单次测量）和分辨率。"
+
+#: ../../source/unit/dlight.rst:66 a5082296d76041688c607009e4e60148
+msgid "|configure.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dlight.ref:13 65b7116c5ce647b3923e88683b8237dc
+msgid "configure.png"
+msgstr ""
+

@@ -22,5 +22,5 @@ msgstr ""
 
 #: ../../en/chain/index.rst:2 eef6d914276b44dc956e357592079deb
 msgid "Chain"
-msgstr ""
+msgstr "Chain"
 

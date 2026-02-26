@@ -18,13 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/base/stepmotor.rst:2 ../../en/refs/base.stepmotor.ref
 #: 61b2280ec89d48cf8592e457b5201206 ec0308f044394de7bc1c92e009fe7e96
-#, fuzzy
 msgid "Atomic Stepmotor Base"
-msgstr "创建一个 Stepmotor 对象。"
+msgstr "Atomic Stepmotor Base"
 
 #: ../../en/base/stepmotor.rst:9 58c6a5a0772646a1a7c162e4969d5b1e
 msgid "Support the following products:"
@@ -35,9 +34,8 @@ msgid "|Atomic Stepmotor Base|"
 msgstr ""
 
 #: ../../en/base/stepmotor.rst:15 8680424a662142458c5cb1ed5479245b
-#, fuzzy
 msgid "UiFlow2 Example"
-msgstr "UiFlow2 应用示例："
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/base/stepmotor.rst:18 ../../en/base/stepmotor.rst:51
 #: bd2b57a98c47446aab7203da186d8211 ea5849d487b04b3aae7633ba983c106d
@@ -127,9 +125,8 @@ msgid "atoms3r_stepmotor_rotate_control_example.png"
 msgstr ""
 
 #: ../../en/base/stepmotor.rst:48 8df63250bf914c1e842757051cbf1658
-#, fuzzy
 msgid "MicroPython Example"
-msgstr "MicroPython 应用示例："
+msgstr "MicroPython 应用示例"
 
 #: ../../en/base/stepmotor.rst:55 ../../en/base/stepmotor.rst:70
 #: 010c06a5ac924fa69c92427118c60d8c 162e63e184ff494d9ccdbfb779b131fb
@@ -156,11 +153,11 @@ msgstr "API应用"
 
 #: ../../en/base/stepmotor.rst:84 a8ea1c24c2014498a51fac641dd4ef95
 msgid "AtomicStepmotorBase"
-msgstr ""
+msgstr "AtomicStepmotorBase"
 
 #: base.stepmotor.AtomicStepmotorBase:1 c54c4457aab34108876d3949c3b1b061 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: 1dfebda23f3d416ebf8bfa3832ded9c9 base.stepmotor.AtomicStepmotorBase:1 of
 msgid "Create an AtomicStepmotorBase object."

@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/encoder4_motor.rst:2 bd4315956432455f8c68419ed0fe67e1
 msgid "4EncoderMotor Module"
-msgstr ""
+msgstr "4EncoderMotor 模块"
 
 #: ../../en/module/encoder4_motor.rst:8 a6adabd726c54814b1a1476fb534581c
 msgid ""
@@ -50,7 +50,7 @@ msgstr ""
 
 #: ../../en/refs/module.encoder4_motor.ref 4cd976e5fdc54648b4ca1af2c36ad926
 msgid "4EncoderMotor"
-msgstr ""
+msgstr "4EncoderMotor"
 
 #: ../../en/module/encoder4_motor.rst:15 e689aebb775b4a9cbfe1da42c1d6f349
 msgid "|4EncoderMotor-V11|"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../en/refs/module.encoder4_motor.ref 41c5e6116bcb41d99ff2a789ba993022
 msgid "4EncoderMotor-V11"
-msgstr ""
+msgstr "4EncoderMotor-V11"
 
 #: ../../en/module/encoder4_motor.rst:20 ef6668b8a2244c5c8d312fec50b0df39
 msgid "UiFlow2 Example"
@@ -70,9 +70,8 @@ msgid "Motor control"
 msgstr "电机控制"
 
 #: ../../en/module/encoder4_motor.rst:25 d9aedf7b94c749a4800bd70c44b5a60e
-#, fuzzy
 msgid "Open the |encoder4motor_core2_example.m5f2| project in UiFlow2."
-msgstr "在 UiFlow2 中打开 |motor_control_example.m5f2| 项目。"
+msgstr "在 UiFlow2 中打开 |encoder4motor_core2_example.m5f2| 项目。"
 
 #: ../../en/module/encoder4_motor.rst:27 ../../en/module/encoder4_motor.rst:43
 #: 60f2be2716644d958735c592e2a617ed c7c724f078cf44e9a9b915f75996b428
@@ -185,16 +184,16 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/module/encoder4_motor.rst:56 f2a46e21ccb5464c93e3e58cfd7c7315
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: ../../en/module/encoder4_motor.rst:59 8499e98abdf1490d9fb986a4ef997691
 msgid "Encoder4MotorModule"
-msgstr ""
+msgstr "Encoder4MotorModule"
 
 #: f02efad4c4ec4c27a06d802f6efd2597 module.encoder4_motor.Encoder4MotorModule:1
 #: of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "基类：:py:class:`object`"
 
 #: b9f79515aa50481a84a3877541e6024d module.encoder4_motor.Encoder4MotorModule:1
 #: of
@@ -277,25 +276,25 @@ msgstr "电机模式。"
 #: module.encoder4_motor.Encoder4MotorModule.set_motor_mode:9
 #: module.encoder4_motor.Encoder4MotorModule.set_soft_start_state:8 of
 msgid "Options:"
-msgstr ""
+msgstr "Options:"
 
 #: 38907abed7c94c41b4cd949d88241beb 746b96ff2238481b84a760d85bc2ff6d
 #: module.encoder4_motor.Encoder4MotorModule.set_all_motors_mode:6
 #: module.encoder4_motor.Encoder4MotorModule.set_motor_mode:7 of
 msgid "``NORMAL_MODE``: 0"
-msgstr ""
+msgstr "``NORMAL_MODE``：0"
 
 #: 25765c43b0ea48fa8afdf65a19631258 f82f8b0509ad48109608bc0e5d5d9c68
 #: module.encoder4_motor.Encoder4MotorModule.set_all_motors_mode:7
 #: module.encoder4_motor.Encoder4MotorModule.set_motor_mode:8 of
 msgid "``POSITION_MODE``: 1"
-msgstr ""
+msgstr "``POSITION_MODE``：1"
 
 #: 67e1fcadafa9456fb55fbe513e36d789 a6c3b75d813f4d4b8534a6e06bb7c4b7
 #: module.encoder4_motor.Encoder4MotorModule.set_all_motors_mode:8
 #: module.encoder4_motor.Encoder4MotorModule.set_motor_mode:9 of
 msgid "``SPEED_MODE``: 2"
-msgstr ""
+msgstr "SPEED_MODE：2"
 
 #: c29209888afd4829890ab5266ce458ca
 #: module.encoder4_motor.Encoder4MotorModule.set_motor_mode:13 of
@@ -481,12 +480,12 @@ msgstr "编码器模式。"
 #: 073c34bfa19b414b8b21c28cd3391074
 #: module.encoder4_motor.Encoder4MotorModule.set_encoder_mode:6 of
 msgid "``AB``: 0"
-msgstr ""
+msgstr "```AB``：0"
 
 #: b6c9f72f5aae49d5ae2cd9714f2071e5
 #: module.encoder4_motor.Encoder4MotorModule.set_encoder_mode:7 of
 msgid "``BA``: 1"
-msgstr ""
+msgstr "`BA`：1"
 
 #: a42e6c571ad643faa0c8727a0d488d38
 #: module.encoder4_motor.Encoder4MotorModule.set_encoder_mode:11 of
@@ -851,12 +850,12 @@ msgstr "软启动状态。选项：     - ``True``: 1     - ``False``: 0"
 #: 6a3787ac647c46089853db6cfb71164c
 #: module.encoder4_motor.Encoder4MotorModule.set_soft_start_state:7 of
 msgid "``True``: 1"
-msgstr ""
+msgstr "`True`：1"
 
 #: 44d84d643d7e4918ae3a246de44d530f
 #: module.encoder4_motor.Encoder4MotorModule.set_soft_start_state:8 of
 msgid "``False``: 0"
-msgstr ""
+msgstr "``False``：0"
 
 #: a9b78cca968948688164e3a195ce500c
 #: module.encoder4_motor.Encoder4MotorModule.set_soft_start_state:12 of

@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/bps.rst:2 dc1371241fab4c649935df2c54677fc6
+msgid "BPS Unit"
+msgstr "BPS 单位"
+
+#: ../../source/unit/bps.rst:6 04db295ba5aa457f881ffc35287ce9f4
+msgid ""
+"The Barometric Pressure Sensor(BPS) ``BPS Unit`` is a barometer unit that"
+" uses Bosch BMP280 pressure sensor(BPS) or QMP6988 barometric pressure "
+"sensor(BPS V1.1) to measure atmospheric pressure, temperature and "
+"altitude estimation."
+msgstr ""
+"气压传感器（BPS）``BPS Unit`` 是一款气压计单元，使用 Bosch BMP280 压力传感器（BPS）或 QMP6988 "
+"气压传感器（BPS V1.1）来测量大气压力、温度并进行高度估算。"
+
+#: ../../source/unit/bps.rst:8 1627c78b888446d1951f61e68b99e587
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/bps.rst:11 f4875993dca34534a394230c98708e91
+msgid "|BPSUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.bps.ref c23a618fcc2d4e499e590cd931566e2e
+msgid "BPSUnit"
+msgstr "\"\""
+
+#: ../../source/unit/bps.rst:11 cd62aba1976646cebae4f4815e8a4102
+msgid "|BPSUnit_V11|"
+msgstr ""
+
+#: ../../source/refs/unit.bps.ref d36e64f16b174a62b420e3f5937b403e
+msgid "BPSUnit_V11"
+msgstr "BPSUnit_V11"
+
+#: ../../source/unit/bps.rst:14 e25652ddeab24d7a90a63fe0164e95c9
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/bps.rst:32 372ccbf89671418a9f4108a8b3298cea
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/bps.rst:34 e93e9c5b64f048df81fcdde8dc49c410
+msgid "|unit-bps-demo.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bps.ref:12 d80818a6b22e481cbc6c13cd6de7abe9
+msgid "unit-bps-demo.png"
+msgstr ""
+
+#: ../../source/unit/bps.rst:38 93bd1969e88f4ef795179d537ab2b188
+msgid "|unit-bps-demo.m5f2|"
+msgstr ""
+
+#: ../../source/unit/bps.rst:42 c1691b04937d4cfeaa263c1b4efcd294
+msgid "class BPSUnit"
+msgstr "class BPSUnit"
+
+#: ../../source/unit/bps.rst:45 660b02a5535b49b5879e3bbbd8edcbb0
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/bps.rst:49 68c1fb4d63424f1f962af74ff82029c2
+msgid "Create a BPSUnit object"
+msgstr "创建一个 BPSUnit 对象"
+
+#: ../../source/unit/bps.rst 0d4b11478cfd45dab4238daad368504d
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/bps.rst:51 4a6332b9836d4457812a0ca877b3d3b4
+msgid "the I2C object."
+msgstr "I2C 对象。"
+
+#: ../../source/unit/bps.rst:53 ../../source/unit/bps.rst:68
+#: ../../source/unit/bps.rst:79 ../../source/unit/bps.rst:92
+#: 19b615fe26584fa391f1907c6fa20a20 71b5565444d34fc8b231f1d14a148f2e
+#: b4d646347af74d31b74b83fd2622364c cc92bff833984c5a98de85069af6467c
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/bps.rst:55 d62fe934d7494c3e998841318bef282e
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bps.ref:11 18dbe9a2fd6d41cbabfc247889ea45c3
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/bps.rst:59 5c5934766e0043218d02a1a003b3b2c5
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/bps.rst:64 d0e2e60da5f64699ad70fe504eca1fd0
+msgid ""
+"Get the temperature value in degrees celsius from the BMP280 or QMP6988 "
+"sensor."
+msgstr "从 BMP280 或 QMP6988 传感器获取以摄氏度为单位的温度值。"
+
+#: ../../source/unit/bps.rst:66 e3096976c9d845b0a5ec3783fd86d84a
+msgid "Return: ``float``:  -40 ~ +85 °C"
+msgstr "返回：``float``：-40 ~ +85 °C"
+
+#: ../../source/unit/bps.rst:70 050c484b2ee142a7bcec9e5f74b9ef99
+msgid "|get_temperature.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bps.ref:13 7286159869a843f396e68304faa2dc44
+msgid "get_temperature.png"
+msgstr ""
+
+#: ../../source/unit/bps.rst:75 dc35818fc4d24d60a9b0aeadb089f3e4
+msgid "Get the pressure value in pascals from the BMP280 or QMP6988 sensor."
+msgstr "从 BMP280 或 QMP6988 传感器获取以帕斯卡为单位的压力值。"
+
+#: ../../source/unit/bps.rst:77 42b3611c55cb4d7ea74b0f66301dfda2
+msgid "Return: ``float``:  300 ~ 1100 hPa"
+msgstr "返回值：``float``：300 ~ 1100 hPa"
+
+#: ../../source/unit/bps.rst:81 e4fc9ae56edd4600baaa2e13cc107990
+msgid "|get_pressure.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bps.ref:14 b2420e56ceb9486d94642254da983f07
+msgid "get_pressure.png"
+msgstr ""
+
+#: ../../source/unit/bps.rst:86 5466ecd0c2714bb4873b72c847e47068
+msgid ""
+"Get the altitude can be estimated using the pressure. which approximates "
+"the altitude relative to the pressure difference. The standard sea-level "
+"pressure is 1013.25 hPa."
+msgstr "可使用气压估算海拔高度，该方法根据气压差近似计算相对于海平面的高度。标准海平面气压为 1013.25 hPa。"
+
+#: ../../source/unit/bps.rst:90 05ef72d6a4834421b7d3900225aecc61
+msgid "Return: ``float``:  altitude in meters"
+msgstr "返回：``float``：以米为单位的海拔高度"
+
+#: ../../source/unit/bps.rst:94 c14ca28a7b5a4252bcfc673b2707bb9d
+msgid "|get_altitude.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bps.ref:15 a96bdcee1c5c4a1eb47ccd5603924f27
+msgid "get_altitude.png"
+msgstr ""
+

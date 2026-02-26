@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/hardware/button.rst:2 a58bbba53b8d48d980ca31d3142489ff
 msgid "Button"
-msgstr ""
+msgstr "Button"
 
 #: ../../en/hardware/button.rst:8 13c4bf9f47ca4945808461577f054fb9
 msgid ""
@@ -32,27 +32,27 @@ msgstr "Button用于控制主机内部集成的按键。以下是主机的Button
 
 #: ../../en/hardware/button.rst:16 083bf20a84534e2db23984b362e07d66
 msgid "BtnA"
-msgstr ""
+msgstr "BtnA"
 
 #: ../../en/hardware/button.rst:16 6f393a8a677b4c2d81f966bc0e4d668f
 msgid "BtnB"
-msgstr ""
+msgstr "BtnB"
 
 #: ../../en/hardware/button.rst:16 09cbc5ee0baf4883b8580ab71a73be65
 msgid "BtnC"
-msgstr ""
+msgstr "BtnC"
 
 #: ../../en/hardware/button.rst:16 2b9e56f32802432aaa7b41bcbec91c44
 msgid "BtnPWR"
-msgstr ""
+msgstr "BtnPWR"
 
 #: ../../en/hardware/button.rst:16 f7145819fc6348e88c75400751c9fd40
 msgid "BtnEXT"
-msgstr ""
+msgstr "BtnEXT"
 
 #: ../../en/hardware/button.rst:18 1c71bf19c9ef4d4da4ededd3dee51df4
 msgid "AtomS3"
-msgstr ""
+msgstr "AtomS3"
 
 #: ../../en/hardware/button.rst:18 ../../en/hardware/button.rst:20
 #: ../../en/hardware/button.rst:22 ../../en/hardware/button.rst:24
@@ -66,35 +66,35 @@ msgstr ""
 
 #: ../../en/hardware/button.rst:20 1859cf2c59734f86b5a7fef19243689a
 msgid "AtomS3 Lite"
-msgstr ""
+msgstr "AtomS3 Lite"
 
 #: ../../en/hardware/button.rst:22 6c31b1179e324d189ab6a7461ab52038
 msgid "AtomS3U"
-msgstr ""
+msgstr "AtomS3U"
 
 #: ../../en/hardware/button.rst:24 a93da48715bc45c4815b5875a683d8d4
 msgid "StampS3"
-msgstr ""
+msgstr "StampS3"
 
 #: ../../en/hardware/button.rst:26 ee1afdf2c170422db392f668c002588d
 msgid "CoreS3"
-msgstr ""
+msgstr "CoreS3"
 
 #: ../../en/hardware/button.rst:28 e15d44c48d1b4d6cb547b902533052bc
 msgid "Core2"
-msgstr ""
+msgstr "Core2"
 
 #: ../../en/hardware/button.rst:30 260b6749bbe644cc9ff909a1f30d09cd
 msgid "TOUGH"
-msgstr ""
+msgstr "TOUGH"
 
 #: ../../en/hardware/button.rst:36 c0f85be758b643748dd494884b0577e2
 msgid "Micropython Example::"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/hardware/button.rst:61 f7f6bbfbb83b4289be59055287ae7d6d
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/hardware/button.rst:63 2b94edd6b17e450bb94aecb84c7359b8
 msgid "|example.png|"
@@ -110,16 +110,15 @@ msgstr ""
 
 #: ../../en/hardware/button.rst:72 3b1960b3c1464e0b90793efe677e738a
 msgid "class Button"
-msgstr ""
+msgstr "class Button"
 
 #: ../../en/hardware/button.rst:76 fdb545a1170a48b6bc0b41e5a5d178ec
-#, fuzzy
 msgid ""
 "Methods of Button Class heavily rely on ``M5.begin()`` |M5.begin.png| and"
 " ``M5.update()`` |M5.update.png|."
 msgstr ""
-"Button Class的方法重度依赖 ``M5.begin()`` |M5.begin.svg| 和 ``M5.update()`` "
-"|M5.update.svg|。"
+"Button 类的方法高度依赖于 ``M5.begin()`` |M5.begin.png| 和 ``M5.update()`` "
+"|M5.update.png|。"
 
 #: ../../en/refs/system.ref:1 1c2a4e96c9d54ba2ad4d5e3733012b1d
 msgid "M5.begin.png"
@@ -130,14 +129,13 @@ msgid "M5.update.png"
 msgstr ""
 
 #: ../../en/hardware/button.rst:78 ef2b2f21216741a99a679ecffbc8f285
-#, fuzzy
 msgid ""
 "All calls to methods of Button objects should be placed after "
 "``M5.begin()`` |M5.begin.png| and ``M5.update()`` |M5.update.png| should "
 "be called in the main loop."
 msgstr ""
-"调用 Button 对象的所有方法，需要放在 ``M5.begin()`` |M5.begin.svg| 的后面，并在 主循环中调用 "
-"``M5.update()`` |M5.update.svg|。"
+"所有对 Button 对象方法的调用都应放在 ``M5.begin()`` 之后，主循环中应调用 ``M5.update()``。 "
+"|M5.begin.png| |M5.update.png|"
 
 #: ../../en/hardware/button.rst:82 b0496842fb054501849d92562dd6dc41
 msgid "Methods"
@@ -154,7 +152,7 @@ msgstr "返回 Button 对象是否处于长按状态。"
 #: ../../en/hardware/button.rst:160 ../../en/hardware/button.rst:172
 #: fba9539e34d1421b8de4aa318a2b68e6
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2"
 
 #: ../../en/hardware/button.rst:90 21e6f5d14126483bb35e6ad664d424fa
 msgid "|isHolding.png|"
@@ -268,7 +266,7 @@ msgstr ""
 
 #: ../../en/hardware/button.rst:166 489467daeb1f4e8d8007973844fe2580
 msgid "Event Handling"
-msgstr ""
+msgstr "事件处理"
 
 #: ../../en/hardware/button.rst:170 453a2928934a414eb0a67243868f111b
 msgid "Sets the event callback function."
@@ -285,11 +283,11 @@ msgstr ""
 #: ../../en/hardware/button.rst:178 ../../en/hardware/button.rst:189
 #: 27d685ac523b4ae6ba37dea1f350eea3
 msgid "Constants"
-msgstr ""
+msgstr "Constants"
 
 #: ../../en/hardware/button.rst:182 c0c4a7e39d5d4a15ae79093216d4d576
 msgid "A Callback_Type object."
-msgstr ""
+msgstr "一个 Callback_Type 对象。"
 
 #: ../../en/hardware/button.rst:186 e19bcf66b0d44125b3a596251bccc8c6
 msgid "class Callback_Type"
@@ -313,7 +311,7 @@ msgstr "按下事件类型。"
 
 #: ../../en/hardware/button.rst:213 f6176c04341f4561955a0545feb09021
 msgid "Release event type"
-msgstr ""
+msgstr "发布事件类型"
 
 #~ msgid "Button用于控制主机内部集成的按键。以下是主机的Button支持详细："
 #~ msgstr ""

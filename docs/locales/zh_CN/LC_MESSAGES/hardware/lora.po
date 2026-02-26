@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/hardware/lora.rst:2 ../../en/hardware/lora.rst:13
 #: 0914f0739291440b97f46c1f3f17ad1d 61a4984a40fb4190a50538fa8c627cbe
@@ -34,7 +34,7 @@ msgstr "LoRa 用于控制主机设备内置的远程无线通信模块。以下�
 
 #: ../../en/hardware/lora.rst:13 3d097159f00147edbd0955d3967f3cb3
 msgid "Controllers"
-msgstr ""
+msgstr "控制器"
 
 #: ../../en/hardware/lora.rst:15 c8328105dac34002be980714820b64ff
 msgid "UnitC6L"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../../en/hardware/lora.rst:17 abe148087d054e3eae3c578541b3a0f8
 msgid "Nesso N1"
-msgstr ""
+msgstr "Nesso N1"
 
 #: ../../en/hardware/lora.rst:23 1e9aaa09e8ed4fb6a7ab471092b090a0
 msgid "UiFlow2 Example"
@@ -151,7 +151,7 @@ msgstr "API应用"
 
 #: ../../en/hardware/lora.rst:96 26ee295ab0bd458c8f07be3732ac244d
 msgid "class LoRa"
-msgstr ""
+msgstr "class LoRa"
 
 #: ../../en/hardware/lora.rst:106 dd5bbd8a9aa940f7a19cc3204d75c280
 msgid "Create an LoRa object."
@@ -179,47 +179,47 @@ msgstr ""
 
 #: ../../en/hardware/lora.rst:109 c5b31f8f221347a39ef80f191c61f8f6
 msgid "Bandwidth, options include:"
-msgstr ""
+msgstr "带宽，选项包括："
 
 #: ../../en/hardware/lora.rst:111 38b29606f6e54e66b97af518532bd285
 msgid "``\"7.8\"``: 7.8 KHz"
-msgstr ""
+msgstr "``\"7.8\"``：7.8 KHz"
 
 #: ../../en/hardware/lora.rst:112 1dec78c4d7ca429cbf980332fa06aa80
 msgid "``\"10.4\"``: 10.4 KHz"
-msgstr ""
+msgstr "``\"10.4\"``：10.4 KHz"
 
 #: ../../en/hardware/lora.rst:113 8fe2c00c1d1f45028917136de65bc0dc
 msgid "``\"15.6\"``: 15.6 KHz"
-msgstr ""
+msgstr "``\"15.6\"``：15.6 KHz"
 
 #: ../../en/hardware/lora.rst:114 abd8b38bded546d0b7fc573358a339a2
 msgid "``\"20.8\"``: 20.8 KHz"
-msgstr ""
+msgstr "``\"20.8\"``：20.8 KHz"
 
 #: ../../en/hardware/lora.rst:115 b5d7df4076e142258d75c0fdbd902113
 msgid "``\"31.25\"``: 31.25 KHz"
-msgstr ""
+msgstr "``\"31.25\"``：31.25 KHz"
 
 #: ../../en/hardware/lora.rst:116 2decbe8062cb49eb86f1366caaec496c
 msgid "``\"41.7\"``: 41.7 KHz"
-msgstr ""
+msgstr "``\"41.7\"``：41.7 KHz"
 
 #: ../../en/hardware/lora.rst:117 8937741d7f18466ba5234ae87260beb2
 msgid "``\"62.5\"``: 62.5 KHz"
-msgstr ""
+msgstr "``\"62.5\"``：62.5 KHz"
 
 #: ../../en/hardware/lora.rst:118 2ada171fbeae45fcacc06100fa8d4dff
 msgid "``\"125\"``: 125 KHz"
-msgstr ""
+msgstr "``\"125\"``：125 KHz"
 
 #: ../../en/hardware/lora.rst:119 39fae231e9e44656b4c661b176607889
 msgid "``\"250\"``: 250 KHz"
-msgstr ""
+msgstr "``\"250\"``：250 KHz"
 
 #: ../../en/hardware/lora.rst:120 34545f9e7545454dbb1a526ca71674d2
 msgid "``\"500\"``: 500 KHz"
-msgstr ""
+msgstr "``\"500\"``：500 KHz"
 
 #: ../../en/hardware/lora.rst:121 4cf5a1bf3e7c45c3b3ee79b2f20d0452
 msgid ""
@@ -533,7 +533,7 @@ msgstr ""
 
 #: ../../en/hardware/lora.rst:380 a02244240184415da9053bdd8931c573
 msgid "Refer to :ref:`lora_rxpacket` for more details about RxPacket."
-msgstr ""
+msgstr "有关 RxPacket 的更多详细信息，请参阅 :ref:`lora_rxpacket`。"
 
 #~ msgid "|unitc6l_tx_example.png|"
 #~ msgstr ""

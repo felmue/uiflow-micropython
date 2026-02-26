@@ -1,0 +1,395 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/mq.rst:2 366307711054407bb7e7c1fac4a6fe53
+msgid "MQ Unit"
+msgstr "MQ Unit"
+
+#: ../../source/unit/mq.rst:8 e8e9efb713b44f59b267c60c373d628c
+msgid ""
+"This is the driver library of MQ Unit, which is used to obtain data from "
+"the MQ sensor."
+msgstr "这是 MQ Unit 的驱动库，用于从 MQ 传感器获取数据。"
+
+#: ../../source/unit/mq.rst:11 ac18669d4dc84f11abdb3fa36d4c6a2e
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/mq.rst:13 be7007f3ebaa4ba680a13e0a1bb80163
+msgid "|MQ|"
+msgstr ""
+
+#: ../../source/refs/unit.mq.ref 1072594c9143440080f48e1aa310e949
+msgid "MQ"
+msgstr "MQ"
+
+#: ../../source/unit/mq.rst:17 bc4edb8011354731bb7708029f960cff
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/mq.rst:20 ../../source/unit/mq.rst:38
+#: 702a8b7dfa0f450b9e697caeb90e4f4b 8c313c3909f94cd68a14c2e72b164025
+msgid "get MQ ADC value"
+msgstr "获取 MQ ADC 值"
+
+#: ../../source/unit/mq.rst:22 fcb19bda11c44d219311aa37b25d9f07
+msgid "Open the |mq_core2_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |mq_core2_example.m5f2| 项目。"
+
+#: ../../source/unit/mq.rst:24 ../../source/unit/mq.rst:40
+#: 2c1240b1ad01415da2a4d739a3642bf8 61d573a82c054ddd8f3a64e2d0eaa76b
+msgid ""
+"This example gets the ADC value of the MQ Unit and displays it on the "
+"screen."
+msgstr "该示例获取 MQ Unit 的 ADC 值，并将其显示在屏幕上。"
+
+#: ../../source/unit/mq.rst:26 33324233b95e4f14a7bc0695ff894ac0
+#: 3e951c38e0a74631ba8c4199d404b76d 3f69dfd1d1e043bc8680a4be193a4bb6
+#: 54192340e1b24cf9b6ec3c582b0a624d 632be0ae6a3f48dba2126418c4444031
+#: 81c512609c50413cb9a2d56e22d3a7a9 9764aed17c69410d92a6b05f7c6ddfd2
+#: a9dc005125964aa8a11ada096da445e6 b6bdfa10ee544abaaed4e8eb0a1551f1
+#: d48c8c728d5e47d1938185f9aff18671 of unit.mq.MQUnit:6
+#: unit.mq.MQUnit.get_adc_value:7 unit.mq.MQUnit.get_firmware_version:6
+#: unit.mq.MQUnit.get_i2c_address:6 unit.mq.MQUnit.get_mq_mode:6
+#: unit.mq.MQUnit.get_valid_tags:6 unit.mq.MQUnit.set_heat_time:6
+#: unit.mq.MQUnit.set_i2c_address:5 unit.mq.MQUnit.set_mq_mode:10
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/mq.rst:28 f7ee5c10f29d4b78856bfed024f7ec41
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mq.ref:24 4ad9e60905444ff9976bda5c7fb15e4e
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/mq.rst:30 ../../source/unit/mq.rst:48
+#: 97accb32249842358595cc149364219e e01026edbec14e1091f63e57bca83f0e
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/mq.rst:32 ../../source/unit/mq.rst:50
+#: 415334a31e0a49468dea0763827abe18 49d8717fef8b4ca6a6aa8ebe2c425084
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/mq.rst:35 5c18941232094b8795f017f013c1c406
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/mq.rst:42 0ee5d9540a6b4ce986e0626e56d13dfc
+#: 4062a1173dde4fda8bc5b771d5b50760 4a332f9f2e0f4435b3cb308aca7ef2ce
+#: 61370c3ac85d421aae51fada924fafba 847f24dea89042d6950493158f46580b
+#: 937372b184b8415c87755984f20831e6 9a57d42bcca2494fbb5c75718de19996
+#: b437cbe25a1d42ec8f7b29f688ae0cdd b50741475bd849beba906cc9e3116bee
+#: bb5fb0e82fe54052af3548add6ca9ac2 c114cbb4d51541a5b001773abc37fdb9
+#: c7739f303d3044daafb27b8909159b3f d9ff757d93d24d219c66aba4d13ad596
+#: e7bd4bc7b30d4ff29c3ac289aaeceb3c ea7898e7155e49348d14f43556384c0f
+#: f69b0a9b5d2847838e22af901fbb69a8 of unit.mq.MQUnit:10
+#: unit.mq.MQUnit.get_adc_value:11 unit.mq.MQUnit.get_firmware_version:10
+#: unit.mq.MQUnit.get_heat_time:6 unit.mq.MQUnit.get_i2c_address:10
+#: unit.mq.MQUnit.get_led_status:6 unit.mq.MQUnit.get_mq_mode:10
+#: unit.mq.MQUnit.get_ntc_adc_value:7 unit.mq.MQUnit.get_ntc_res_value:6
+#: unit.mq.MQUnit.get_valid_tags:10 unit.mq.MQUnit.get_voltage:7
+#: unit.mq.MQUnit.set_heat_time:10 unit.mq.MQUnit.set_i2c_address:9
+#: unit.mq.MQUnit.set_led_status:5 unit.mq.MQUnit.set_mq_mode:14
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/mq.rst:54 fc9e06757009432d90cb70372475e12a
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/mq.rst:57 7cf9de390df54aebbd5772c7878162a9
+msgid "MQUnit"
+msgstr "MQUnit"
+
+#: 2dcae8ff80e242349ad24e9059ec4072 of unit.mq.MQUnit:1
+msgid "Bases: :py:class:`object`"
+msgstr "Bases: :py:class:`object`"
+
+#: cfb6028c07fd4a32921c69ee006deb0a of unit.mq.MQUnit:1
+msgid "Create a MQUnit object."
+msgstr "创建一个 MQUnit 对象。"
+
+#: ../../source/unit/mq.rst 1960fb6a6ad94eb69b4cc4bf2a1db073
+#: 3cbcde1102e24b2583bdcceb88f24eb2 86a18ff44f944ece8a384005de842c65
+#: 8e2e7c535870414aa6f0e9b44e07045a a2b03efc8de04411983b5e9d6f50160f
+#: a56cc3cfc10b4dadb02626e67b38df4b bef93fe274334d6f998dcc1eae05141f
+#: e338a20df3f2404e8041308e8ff9659a of unit.mq.MQUnit.get_adc_value
+#: unit.mq.MQUnit.get_ntc_adc_value unit.mq.MQUnit.get_voltage
+#: unit.mq.MQUnit.set_heat_time unit.mq.MQUnit.set_i2c_address
+#: unit.mq.MQUnit.set_led_status unit.mq.MQUnit.set_mq_mode
+msgid "Parameters"
+msgstr ""
+
+#: 824e6aa8eeea4693bd27e48b440504db of unit.mq.MQUnit:3
+msgid "The I2C bus the MQ Unit is connected to."
+msgstr "MQ Unit 连接到的 I2C 总线。"
+
+#: 6557b793b9f9437f923431d180e8053b of unit.mq.MQUnit:4
+msgid "The I2C address of the device. Default is 0x11."
+msgstr "设备的 I2C 地址。默认值为 0x11。"
+
+#: d1f0dc612ea64329bb6521fb90991cdf of unit.mq.MQUnit:8
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mq.ref:7 e61f9659213c4bf5983a75a439ac0cde
+msgid "init.png"
+msgstr ""
+
+#: d876267258ea454c9851177149d940d9 of unit.mq.MQUnit.set_mq_mode:1
+msgid "Set the working mode of the MQ sensor."
+msgstr "设置 MQ 传感器的工作模式。"
+
+#: e8dea8bab3bb4aa6b735ccdd1ea7acf1 of unit.mq.MQUnit.set_mq_mode:3
+msgid "Working mode value."
+msgstr "工作模式值。"
+
+#: df609f6a96d649f08163ed15f227bee9 of unit.mq.MQUnit.set_mq_mode:8
+msgid "Option:"
+msgstr "Option:"
+
+#: 1897beceba9e4735b63f75b130c5b8b1 of unit.mq.MQUnit.set_mq_mode:6
+msgid "0 : Measurement off"
+msgstr "0：测量关闭"
+
+#: c72cae4402fd4cf29ab20864c8227a91 of unit.mq.MQUnit.set_mq_mode:7
+msgid "1 : Continuous heating mode"
+msgstr "1：连续加热模式"
+
+#: a6965196088d4b9183f553b68ae200d6 of unit.mq.MQUnit.set_mq_mode:8
+msgid "2 : Pin Level Switching Mode"
+msgstr "2：引脚电平切换模式"
+
+#: c5ea450d68d94a8c950740698cfedbf9 of unit.mq.MQUnit.set_mq_mode:12
+msgid "|set_mq_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mq.ref:9 d8b425e3e48744e884bb4ff1b8b8d127
+msgid "set_mq_mode.png"
+msgstr ""
+
+#: d3f3990403324967be7130f9ca891eb9 of unit.mq.MQUnit.get_mq_mode:1
+msgid "Get the current working mode of the MQ sensor."
+msgstr "获取 MQ 传感器的当前工作模式。"
+
+#: 4d2ad0f779064e5db545ec6a5b44d8c1 60470a1a041f4283ae6140f5e04f7e82
+#: 725f8cfbac1541a0abe904057de68d81 884e18e099e34d8caf8b7a3c98510402
+#: a32513aa1f644f00b625a9f27438ebc2 b148767d8ca044c9b5c5cf261029a2eb
+#: c1d5af916c994e55923b24fc4bc92cd2 ee63dae144df48a1b3197f8ac7826e5e
+#: f159a181444d49b0b3cb5c1465c5e754 f8674ee18d3e4d86a14c1936f7154261 of
+#: unit.mq.MQUnit.get_adc_value unit.mq.MQUnit.get_firmware_version
+#: unit.mq.MQUnit.get_heat_time unit.mq.MQUnit.get_i2c_address
+#: unit.mq.MQUnit.get_led_status unit.mq.MQUnit.get_mq_mode
+#: unit.mq.MQUnit.get_ntc_adc_value unit.mq.MQUnit.get_ntc_res_value
+#: unit.mq.MQUnit.get_valid_tags unit.mq.MQUnit.get_voltage
+msgid "Returns"
+msgstr ""
+
+#: d2d380b76cbd4176a01cd2a7cbeef6c1 of unit.mq.MQUnit.get_mq_mode:3
+msgid "Current working mode value."
+msgstr "当前工作模式值。"
+
+#: 08a27bd43b3d455d877531836f816336 1e89de236c6b41f6b02f91cdf35cbfaf
+#: 29601491076140b88b1b621780be1d46 44c02dc7fb3f499bb0be85f876d7d788
+#: 4eec6d92adad4b03b8799b1c81b72212 66c32e65b3a84260b576b51754d4818e
+#: ab9e4f4c09894e88bce3eee08b4ddff8 ae2a109cb1714f7aa73025e1cc817cdf
+#: bbdaa4567ad24dd588909cde9a52911b d816c89adac040febfd7e24db2bbc008 of
+#: unit.mq.MQUnit.get_adc_value unit.mq.MQUnit.get_firmware_version
+#: unit.mq.MQUnit.get_heat_time unit.mq.MQUnit.get_i2c_address
+#: unit.mq.MQUnit.get_led_status unit.mq.MQUnit.get_mq_mode
+#: unit.mq.MQUnit.get_ntc_adc_value unit.mq.MQUnit.get_ntc_res_value
+#: unit.mq.MQUnit.get_valid_tags unit.mq.MQUnit.get_voltage
+msgid "Return type"
+msgstr ""
+
+#: c1123612b1454c92adb88cf09d76ec7c of unit.mq.MQUnit.get_mq_mode:8
+msgid "|get_mq_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mq.ref:10 051644eaf8fa4cf39ee8050a116934bd
+msgid "get_mq_mode.png"
+msgstr ""
+
+#: 8e3ce3765bbc48ec906c9a77afa5c8cc of unit.mq.MQUnit.set_led_status:1
+msgid "Set the LED status."
+msgstr "设置 LED 状态。"
+
+#: 81aa6a2736294057b53ee6bce1d1a793 of unit.mq.MQUnit.set_led_status:3
+msgid ""
+"When the LED is set to on, it lights up when a valid tag is detected, and"
+" the brightness is proportional to the ADC value, and it turns off when "
+"no tag is detected."
+msgstr "当 LED 被设置为开启时，在检测到有效标签时会点亮，且亮度与 ADC 值成正比；未检测到标签时则熄灭。"
+
+#: 08f839e25e1942f687484782bcfc9b7f of unit.mq.MQUnit.get_led_status:1
+msgid "Get the LED status."
+msgstr "获取 LED 状态。"
+
+#: 175aa2b59c2f42bfb037ca7f5c246452 of unit.mq.MQUnit.get_led_status:3
+msgid "True if LED status is on, False otherwise."
+msgstr "如果 LED 状态为开启则返回 True，否则返回 False。"
+
+#: 388126079bda4abba3f6f23efe0754ed of unit.mq.MQUnit.set_heat_time:1
+msgid "Set heater high and low level time."
+msgstr "设置加热器高电平和低电平时间。"
+
+#: aac54b1c6acb49f88a08ce1f3af89f8f of unit.mq.MQUnit.set_heat_time:3
+msgid "Time for high heating level."
+msgstr "高加热等级的持续时间。"
+
+#: 0d5ebca2412d470d9ec97ddba48d2080 of unit.mq.MQUnit.set_heat_time:4
+msgid "Time for low heating level."
+msgstr "低档加热持续时间。"
+
+#: 2d1ef022e1bc401ca744caddeb1659a1 of unit.mq.MQUnit.set_heat_time:8
+msgid "|set_heat_time.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mq.ref:13 c1fe17cee6e648d199d53d17d26f55a6
+msgid "set_heat_time.png"
+msgstr ""
+
+#: 328a0d653bbd41758a58ac4fc2ac9c26 of unit.mq.MQUnit.get_heat_time:1
+msgid "Get heater high and low level time."
+msgstr "获取加热器高电平和低电平持续时间。"
+
+#: 7ac29a6e832046f691abcfb04258cc46 of unit.mq.MQUnit.get_heat_time:3
+msgid "[high_level_time, low_level_time]"
+msgstr "[高电平时间, 低电平时间]"
+
+#: 53627b9c3b1140c986f71a8eb1fd8014 of unit.mq.MQUnit.get_adc_value:1
+msgid "Get ADC value."
+msgstr "获取 ADC 值。"
+
+#: a46a323afff54f2f9b9cfee39d3690e0 d706c06a0a1c47f0aa0d4fec947dec52 of
+#: unit.mq.MQUnit.get_adc_value:3 unit.mq.MQUnit.get_ntc_adc_value:3
+msgid "0 for 8-bit, 1 for 12-bit."
+msgstr "0 表示 8-bit，1 表示 12-bit。"
+
+#: a0240c54e1344785a207c11f5945642e of unit.mq.MQUnit.get_adc_value:4
+msgid "ADC value."
+msgstr "ADC 值。"
+
+#: 77ff6bc032a34174980c682402c14087 of unit.mq.MQUnit.get_adc_value:9
+msgid "|get_adc_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mq.ref:15 d0f261476bc649bda2b377b60646c3fa
+msgid "get_adc_value.png"
+msgstr ""
+
+#: 3338548062b44527ae74536752f85a24 of unit.mq.MQUnit.get_valid_tags:1
+msgid "Check if valid tags are detected."
+msgstr "检查是否检测到有效标签。"
+
+#: b351a60cbc1642b9b6696898b67517a4 of unit.mq.MQUnit.get_valid_tags:3
+msgid "True if valid tags detected, False otherwise."
+msgstr "如果检测到有效标签，则为 True；否则为 False。"
+
+#: 4f976d0083884209ac3f4373d556bb91 of unit.mq.MQUnit.get_valid_tags:8
+msgid "|get_valid_tags.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mq.ref:16 9485d3b00f974c13a9f79d534c82130f
+msgid "get_valid_tags.png"
+msgstr ""
+
+#: a2de47ddf34644dd9a935ae8bf5d2bcd of unit.mq.MQUnit.get_ntc_adc_value:1
+msgid "Get internal NTC ADC value."
+msgstr "获取内部 NTC 的 ADC 值。"
+
+#: acb14154a4f14bfbb0fe58c53ca21e9c of unit.mq.MQUnit.get_ntc_adc_value:4
+msgid "NTC ADC value."
+msgstr "NTC ADC 值。"
+
+#: 5224daec0a5941c5935bea2ca6ab0cef of unit.mq.MQUnit.get_ntc_res_value:1
+msgid "Get internal NTC resistance value."
+msgstr "获取内部 NTC 电阻值。"
+
+#: 24abb3d7ae5c453bbd1f4f6ff4f7b4d4 of unit.mq.MQUnit.get_ntc_res_value:3
+msgid "Resistance value."
+msgstr "电阻值。"
+
+#: 7d4f4f86546e41939465ae0d7abea098 of unit.mq.MQUnit.get_voltage:1
+msgid "Get voltage value from a specific channel."
+msgstr "从特定通道获取电压值。"
+
+#: 04c3c56decc74bf8872ab7129bdcd8d6 of unit.mq.MQUnit.get_voltage:3
+msgid "Channel number."
+msgstr "通道编号。"
+
+#: 2f419d807e9243b0916f560c68d7c6c7 of unit.mq.MQUnit.get_voltage:4
+msgid "Voltage value."
+msgstr "电压值。"
+
+#: f73c86de7d8e46cf97e0af73179895e7 of unit.mq.MQUnit.get_firmware_version:1
+msgid "Get firmware version."
+msgstr "获取固件版本。"
+
+#: f3d504fe7aee4645b65b244c0bc53814 of unit.mq.MQUnit.get_firmware_version:3
+msgid "Firmware version."
+msgstr "固件版本。"
+
+#: 40c1e98292734059afa83638aeb9c47c of unit.mq.MQUnit.get_firmware_version:8
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mq.ref:20 cb05a7f84f2944d1a4cf655d294742e4
+msgid "get_firmware_version.png"
+msgstr ""
+
+#: c47ef1d5f55a487a9ed5d21f7690b716 of unit.mq.MQUnit.get_i2c_address:1
+msgid "Get current I2C address."
+msgstr "获取当前 I2C 地址。"
+
+#: 8b874a3e51cb46898857509932a8cccb of unit.mq.MQUnit.get_i2c_address:3
+msgid "MQ Unit I2C address, Default is 0x11."
+msgstr "MQ Unit I2C 地址，默认值为 0x11。"
+
+#: b748bad5bd094c08b9b20fc91824c7f4 of unit.mq.MQUnit.get_i2c_address:8
+msgid "|get_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mq.ref:21 8ea022b7607f4b11982df7cffe5bf66b
+msgid "get_i2c_address.png"
+msgstr ""
+
+#: dfe638b2a1f54e8d8cb1447b9b89014a of unit.mq.MQUnit.set_i2c_address:1
+msgid "Set new I2C address."
+msgstr "设置新的 I2C 地址。"
+
+#: b2487de3da5444edbbd6134f3729274c of unit.mq.MQUnit.set_i2c_address:3
+msgid "New I2C address (0x08~0x77)."
+msgstr "新 I2C 地址（0x08~0x77）。"
+
+#: 8be6b90c47e34b64b4e93000e8d3ffbf of unit.mq.MQUnit.set_i2c_address:7
+msgid "|set_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mq.ref:22 216c7a419d384050aa8feb5d52812158
+msgid "set_i2c_address.png"
+msgstr ""
+

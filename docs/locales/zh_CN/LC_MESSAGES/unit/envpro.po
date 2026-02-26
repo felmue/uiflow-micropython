@@ -1,0 +1,256 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/envpro.rst:3 bb9fca3459da4e2b9b1dbecce4dbcb9b
+msgid "ENVPRO Unit"
+msgstr "ENVPRO Unit"
+
+#: ../../source/unit/envpro.rst:7 26410409bc0f4c3893a3bf13a42b1800
+msgid ""
+"ENV Pro Unit is an environmental sensor that utilizes the BME688 sensor "
+"solution, supporting the measurement of various environmental parameters "
+"such as volatile organic compounds (VOCs), indoor air quality (IAQ), "
+"temperature, humidity, and atmospheric pressure. It features a compact "
+"size, wide operating range, simple communication interface (I2C), "
+"excellent performance, and low power consumption, making it suitable for "
+"weather stations, indoor environmental monitoring, and air quality "
+"detection applications."
+msgstr ""
+"ENV Pro Unit 是一款环境传感器，采用 BME688 "
+"传感器方案，支持测量多种环境参数，例如挥发性有机化合物（VOCs）、室内空气质量（IAQ）、温度、湿度和大气压。其具有体积小、工作范围宽、通信接口简单（I2C）、性能优异以及低功耗等特点，适用于气象站、室内环境监测和空气质量检测等应用场景。"
+
+#: ../../source/unit/envpro.rst:9 48c0926038334f5a8919c68f4d4e2e9d
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/envpro.rst:11 50a1b2ad8bb6460cace8e643ef109ad1
+msgid "|ENVPROUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.envpro.ref 2975105726484745be9fd2183767b2f6
+msgid "ENVPROUnit"
+msgstr "ENVPROUnit"
+
+#: ../../source/unit/envpro.rst:13 3163ec3cc1ae48938715ca38c9f5b850
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/envpro.rst:20 a29fb271a02948dca597bfb315ebc6a5
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/envpro.rst:22 e7bc3e8f9047494c81196b8b72d742b0
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.envpro.ref:18 28dcaccde86640509ba9b7b632740568
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:26 fc128da4faa04efab5047e530ef54c48
+msgid "|envpro_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:29 faf75454f7e148a6b4ba0bbfcd28e46f
+msgid "class ENVPROUnit"
+msgstr "class ENVPROUnit"
+
+#: ../../source/unit/envpro.rst:32 7b3dcf6853ac4340938402f23b62cd7b
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/envpro.rst:36 38f1e5982abd437f8a25b2ab35344579
+msgid "Initialize the ENVPROUnit with an I2C object and an optional address."
+msgstr "使用 I2C 对象和可选地址初始化 ENVPROUnit。"
+
+#: ../../source/unit/envpro.rst 111bd7ddb11e439e9c820bb30fb19adc
+#: 7006e6090f1c44c18f0e9e27d8220f9d 943c97ce06624516adc75f9c69f4c17b
+#: f39a55b3b9884bd7881cca4149e3743f
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:38 6fa31bd8a7f4416d8662f33465da43e1
+msgid ""
+"The I2C interface or PAHUBUnit instance to communicate with the ENV PRO "
+"sensor."
+msgstr "用于与 ENV PRO 传感器通信的 I2C 接口或 PAHUBUnit 实例。"
+
+#: ../../source/unit/envpro.rst:39 bdb6c590d14548c5af6291904377c86b
+msgid "The I2C address of the ENV PRO sensor. Defaults to 0x77."
+msgstr "ENV PRO 传感器的 I2C 地址。默认值为 0x77。"
+
+#: ../../source/unit/envpro.rst:41 ../../source/unit/envpro.rst:55
+#: ../../source/unit/envpro.rst:66 ../../source/unit/envpro.rst:75
+#: ../../source/unit/envpro.rst:85 ../../source/unit/envpro.rst:94
+#: ../../source/unit/envpro.rst:103 ../../source/unit/envpro.rst:112
+#: ../../source/unit/envpro.rst:121 ../../source/unit/envpro.rst:132
+#: 0348691f8f4d41f5bbd540298b022f02 2fa413bafb2b4601b0e97b69e7bd529b
+#: 3ef470de52df497eaffc1304c5f0f8ad 5754a8b186b347a082f8de91f5524bd1
+#: 90a5e7cb613e4c46a30b331adf6e3920 9b82dee481f8414bb381a49613777447
+#: a5a31206421c428894898df3bbecbd9b e1aec24ad9a044a1a0a5a85f4b1c7425
+#: e912b6b98bd94489b7e359edf91ab93c f4ebf6b0edcc4c34a8ccc8ade66de5b5
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/envpro.rst:43 ab4b52188af24d38b18b59fbfd598f21
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.envpro.ref:7 406f706907924723a91f1e3b19a531c7
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:47 7f648d8930db4bf1810c83325dbce8e1
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:51 5012ae74c0764f25955aff9ede5ec6f6
+msgid "Retrieve the oversampling rate for the specified environment parameter."
+msgstr "获取指定环境参数的过采样率。"
+
+#: ../../source/unit/envpro.rst:53 ../../source/unit/envpro.rst:63
+#: 949cfeba18134e468927b3ef7bd5e038 aaeb9d2e427047b0b482508d2a3d2ca7
+msgid "The environment parameter (TEMPERATURE, PRESSURE, HUMIDITY)."
+msgstr "环境参数（TEMPERATURE、PRESSURE、HUMIDITY）。"
+
+#: ../../source/unit/envpro.rst:57 5b2c3fcc146d42b9abd059f3ef0e7a0b
+msgid "|get_over_sampling_rate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.envpro.ref:8 5ff42b69f76546548730d29b7dea8bf3
+msgid "get_over_sampling_rate.png"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:61 9e5f89d388234c12839ca0c4f50bcf21
+msgid "Set the oversampling rate for the specified environment parameter."
+msgstr "为指定的环境参数设置过采样率。"
+
+#: ../../source/unit/envpro.rst:64 ac3c66c6ddb74b6b932ca2492173891b
+msgid "The oversampling rate to be set."
+msgstr "要设置的过采样率。"
+
+#: ../../source/unit/envpro.rst:68 09bb9b87fbdc401aab47c02e6615c1e0
+msgid "|set_over_sampling_rate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.envpro.ref:9 718227a5442542a68a64431e4bb2c58c
+msgid "set_over_sampling_rate.png"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:72 8c0a34b388c94aa8bf11ee456bebd899
+msgid "Retrieve the IIR filter coefficient."
+msgstr "获取 IIR 滤波器系数。"
+
+#: ../../source/unit/envpro.rst:77 a3a1568f770749d1998daa2b8fb98913
+msgid "|get_iir_filter_coefficient.png|"
+msgstr ""
+
+#: ../../source/refs/unit.envpro.ref:10 a1be18be2f424281b64b795cbc95b9b1
+msgid "get_iir_filter_coefficient.png"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:81 15fc0480c9d84767a2ffe353fa47cbfc
+msgid "Set the IIR filter coefficient."
+msgstr "设置 IIR 滤波器系数。"
+
+#: ../../source/unit/envpro.rst:83 bee1103822104fc8a5e242296f31f64f
+msgid "The IIR filter coefficient to be set."
+msgstr "要设置的 IIR 滤波器系数。"
+
+#: ../../source/unit/envpro.rst:87 87731e3746a24edabed3bd2adafb30d3
+msgid "|set_iir_filter_coefficient.png|"
+msgstr ""
+
+#: ../../source/refs/unit.envpro.ref:11 34ddecc13ad04f5bbcdee2b05848f687
+msgid "set_iir_filter_coefficient.png"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:91 f426953f851844d28921105b283f1f22
+msgid "Retrieve the measured temperature."
+msgstr "获取测得的温度。"
+
+#: ../../source/unit/envpro.rst:96 2a22f12f407949debcb1573bf7938b83
+msgid "|get_temperature.png|"
+msgstr ""
+
+#: ../../source/refs/unit.envpro.ref:12 91d717e3267b4870a464f1558094d628
+msgid "get_temperature.png"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:100 eec51109287b4ced8923b0c8c0076673
+msgid "Retrieve the measured humidity."
+msgstr "获取测量到的湿度。"
+
+#: ../../source/unit/envpro.rst:105 e6dfdff947f24369ab209769b24fb4bf
+msgid "|get_humidity.png|"
+msgstr ""
+
+#: ../../source/refs/unit.envpro.ref:13 b867120897454ceaa1864475ebb017b5
+msgid "get_humidity.png"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:109 fd35459e911748d5937f99d22d6244f5
+msgid "Retrieve the measured pressure."
+msgstr "获取测得的压力。"
+
+#: ../../source/unit/envpro.rst:114 0678bd4f3a8f49fca9c421a2534027ce
+msgid "|get_pressure.png|"
+msgstr ""
+
+#: ../../source/refs/unit.envpro.ref:14 7919a22ab5d74679893cb0dd4c5a7908
+msgid "get_pressure.png"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:118 3055191ba4de49d58e8ca534b4cb2424
+msgid "Retrieve the measured gas resistance."
+msgstr "获取测得的气体电阻。"
+
+#: ../../source/unit/envpro.rst:123 e1804afea8b64257a6afe08a5427cdea
+msgid "|get_gas_resistance.png|"
+msgstr ""
+
+#: ../../source/refs/unit.envpro.ref:15 a5fcbbd82fd14a9aa2b79c8fb55deba5
+msgid "get_gas_resistance.png"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:127 02a885e4dbdd497aae6d86e30d7ffd47
+msgid "Retrieve the calculated altitude based on pressure readings."
+msgstr "根据气压读数获取计算得到的海拔高度。"
+
+#: ../../source/unit/envpro.rst:129 9319c9538d004a3d94b8179cf4b1cda6
+msgid ""
+"``Note``: Altitude is calculated based on the difference between "
+"barometric pressure and sea level pressure"
+msgstr "``Note``: 海拔高度是根据气压与海平面气压之间的差值计算的"
+
+#: ../../source/unit/envpro.rst:134 f12f0a06a5d74edd892288e0fb453886
+msgid "|get_altitude.png|"
+msgstr ""
+
+#: ../../source/refs/unit.envpro.ref:16 747eaf485f0b41b0995bbf743ca9ea44
+msgid "get_altitude.png"
+msgstr ""
+
+#: ../../source/unit/envpro.rst:139 e3b72c78c8684715bca6c5f36772e0a9
+msgid "Constants"
+msgstr "Constants"
+

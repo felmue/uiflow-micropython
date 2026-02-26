@@ -1,0 +1,360 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/uwb.rst:3 bcf6dde94c7f4175b7b8f1c3b3f414db
+msgid "UWB Unit"
+msgstr "UWB Unit"
+
+#: ../../source/unit/uwb.rst:7 dff19c45b09240afad5243c1cbccb65b
+msgid ""
+"UWB is a Unit which integrates the UWB(Ultra Wide Band) communication "
+"protocol which uses nanosecond pulses to locate objects and define "
+"position and orientation. The design uses the Ai-ThinkerBU01 Transceiver "
+"module which is based on Decawave's DW1000 design. The internal STM32 "
+"chip with its integrated ranging algorithm,is capable of 10cm positioning"
+" accuracy and also supports AT command control. Applications include: "
+"Indoor wireless tracking/range finding of assets,which works by "
+"triangulating the position of the base station/s and tag (the base "
+"station resolves the position information and outputs it to the tag). The"
+" firmware currently carried by this Unit only supports the transmission "
+"of ranging information, and does not currently support the transmission "
+"of custom information. When in use, it supports the configuration of 4 "
+"base station devices (using different IDs), and only a single tag device "
+"is allowed to operate at the same time."
+msgstr ""
+"UWB 是一款集成 UWB（Ultra Wide Band）通信协议的 Unit，该协议使用纳秒级脉冲来定位物体，并确定位置与方向。其设计采用基于"
+" Decawave 的 DW1000 方案的 Ai-ThinkerBU01 收发器模块。内置的 STM32 芯片集成测距算法，可实现 10 cm "
+"定位精度，并支持 AT 命令控制。应用包括：室内资产无线追踪/测距，通过对基站与标签进行三角定位来确定位置（基站解析位置信息并输出给标签）。该 "
+"Unit 当前搭载的固件仅支持测距信息传输，暂不支持自定义信息传输。使用时，支持配置 4 个基站设备（使用不同 ID），且同一时间仅允许 1 "
+"个标签设备运行。"
+
+#: ../../source/unit/uwb.rst:11 6b5856f198b44b72837feed03a078ca0
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/uwb.rst:13 f6df8b7a596c4fefb0bea87ebb196b08
+msgid "|UWBUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref 8ad3aa714e144d61a384c68cb1116b25
+msgid "UWBUnit"
+msgstr "UWBUnit"
+
+#: ../../source/unit/uwb.rst:15 1e8e92ac08f24ab5bc94a4fe2e66f961
+msgid "Micropython Anchor Example:"
+msgstr "MicroPython 锚点示例："
+
+#: ../../source/unit/uwb.rst:21 fea6416f0c554d9ba92bf074e3b2d9f8
+msgid "Micropython Tag Example:"
+msgstr "MicroPython 标签示例："
+
+#: ../../source/unit/uwb.rst:28 81f52391a21647069f910f254bf4e927
+msgid "UIFLOW2 Anchor Example:"
+msgstr "UIFLOW2 Anchor 应用示例："
+
+#: ../../source/unit/uwb.rst:30 d7cce830f4644f98be4e74bf9bd0ff0e
+msgid "|example_anchor.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:22 544116eb265d4e3aae16ed0de266d1fd
+msgid "example_anchor.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:32 e012e17a59474cd3896c2a5bfcfec6ec
+msgid "UIFLOW2 Tag Example:"
+msgstr "UIFLOW2 标签示例："
+
+#: ../../source/unit/uwb.rst:34 cbeff655c65f4f808718cea8fa547568
+msgid "|example_tag.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:24 2b47d90dba344c36b2a1940a79c2fc17
+msgid "example_tag.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:38 4af21e90d52b400b833139727b15e5d7
+msgid "|core2_uwb_anchor_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:40 aaddc1c698364170a944141ba82b23a3
+msgid "|stickc_plus2_uwb_tag_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:43 6738e53d988341ed96fb194e78594513
+msgid "class UWBUnit"
+msgstr "class UWBUnit"
+
+#: ../../source/unit/uwb.rst:46 fd6e8a04c2114ce88027710572050753
+msgid "Constructors"
+msgstr "构造函数"
+
+#: ../../source/unit/uwb.rst:50 a762484d47c74d6e8eaadc9374650c66
+msgid "Create a UWB unit object."
+msgstr "创建一个 UWB 单元对象。"
+
+#: ../../source/unit/uwb.rst 32c4d28cfdd44806af3cd9020ebe3a85
+#: 5942062fb91b42668045342b521b359b 7e808d53fa24460e89cc7ae4628ae612
+#: afdb9f43bf5343acbec2d756022c0db1 d5c2ff0a34324758b4c1ca2fd3ea40f9
+#: d5d3ae8807354af7a18056319dfe8849
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:52 e126d33095c64bf5995423fb04ca63fc
+msgid "UART ID."
+msgstr "UART ID。"
+
+#: ../../source/unit/uwb.rst:53 f5a9a19bd57d49ff9b4aebd01ac9c923
+msgid "The port that the unit is connected to."
+msgstr "单元连接到的端口。"
+
+#: ../../source/unit/uwb.rst:54 ../../source/unit/uwb.rst:91
+#: 3340f90198494e8db2f360f2ec6f966d cdb1ca42141747729ecdcfe9f5c11a21
+msgid "device mode."
+msgstr "设备模式。"
+
+#: ../../source/unit/uwb.rst:55 ../../source/unit/uwb.rst:81
+#: ../../source/unit/uwb.rst:105 15e3461cc4aa41499cfc87d8ca5defb1
+#: 8ecdcd9a2261498fa957fe07405681b0 c9865a102f894a239f8a8f629844fe6c
+msgid "device ID."
+msgstr "设备 ID。"
+
+#: ../../source/unit/uwb.rst:56 6f32d29bd435457197d0af0482852c98
+msgid "verbose output."
+msgstr ""
+"请把需要翻译的 PO 条目（含 `msgid`/`msgstr`，以及可能的 `#, fuzzy`、`#:` "
+"行）贴出来或上传文件。我会按规则只返回对应的中文 `msgstr` 文本（需要保留为空的条目会保持空）。"
+
+#: ../../source/unit/uwb.rst:58 ../../source/unit/uwb.rst:73
+#: ../../source/unit/uwb.rst:83 ../../source/unit/uwb.rst:93
+#: ../../source/unit/uwb.rst:107 ../../source/unit/uwb.rst:117
+#: ../../source/unit/uwb.rst:127 ../../source/unit/uwb.rst:141
+#: ../../source/unit/uwb.rst:151 ../../source/unit/uwb.rst:166
+#: ../../source/unit/uwb.rst:174 1d0d6d4fca6d4619b6c3a134e003aaeb
+#: 418d760b046f4179bd7c97f803fdfce3 45d50ed6b6764da68acbf84f50b084b3
+#: 4d8e93021d684bd0819b6ed50f718c60 67d2f205eb514fd1b187aef56c836c74
+#: 6f6389d7bc4e46d793e2b771320d3e61 7a832c4cbb60459bbe974544edccfd1e
+#: 84f4b3a580214ae7b9511000905dfd35 c429562f8e9d47fc9709937f891a1646
+#: c78d894ba6db4936a4c7082a8352f482 e011c46f06174b27afd4a66a25a6c50e
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/uwb.rst:60 73bacf9bb6644153b219c02ee486beb1
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:7 c6153cc54ad04dc791c0b38b8a988d44
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:64 b9a40a0e38fd4f0aab4bb275cecca0c6
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:68 ba1ec8c4ace545fd8b6f3dc0a464a493
+msgid "Get the distance to the anchor ID (0 ~ 3)."
+msgstr "获取到锚点 ID（0 ~ 3）的距离。"
+
+#: ../../source/unit/uwb.rst 981e55fa92bf4583a32da2c855bfd012
+msgid "return (float)"
+msgstr "return (float)"
+
+#: ../../source/unit/uwb.rst:70 60955c76aef5464782eb9df4ac674f1f
+msgid "distance in meters."
+msgstr "以米为单位的距离。"
+
+#: ../../source/unit/uwb.rst:71 ../../source/unit/uwb.rst:159
+#: 43026e878d794b62ac8181de6147a0ca 8a33a6c83f4840eca47c23d53dbf2f51
+msgid "anchor ID (0 ~ 3)."
+msgstr "锚点 ID（0 ~ 3）。"
+
+#: ../../source/unit/uwb.rst:75 c28cf4bc78074027aad25d1a808af088
+msgid "|get_distance.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:8 9878e1fe1a9c46e1a917a56e11032331
+msgid "get_distance.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:79 d88fb2d160d94c478fdb92ebb200206e
+msgid "Get the device ID."
+msgstr "获取设备 ID。"
+
+#: ../../source/unit/uwb.rst 17d9438258f94d608fb10058cba32afa
+#: f46e1de6188245ef99841e1d93f38378
+msgid "return (int)"
+msgstr "return (int)"
+
+#: ../../source/unit/uwb.rst:85 36ea0849d79d41d1b93bb70aa2961c5d
+msgid "|get_device_id.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:9 0ff5334863b24482b8290e50d49762e0
+msgid "get_device_id.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:89 b99cc15442714480ac9f207ed899143a
+msgid "Get the device mode."
+msgstr "获取设备模式。"
+
+#: ../../source/unit/uwb.rst:95 a20db23067ac45078a1d3f725f776743
+msgid "|get_device_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:10 66fcbeaf5b8e4b09a533d0e1eb10589c
+msgid "get_device_mode.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:99 4f2930ed14f14793afcbbbd2274f130e
+msgid "Set the device mode and ID."
+msgstr "设置设备模式和 ID。"
+
+#: ../../source/unit/uwb.rst:101 06e35653991c447a9f1ea8ef95a84d8d
+msgid "device mode. Options: - ``Anchor``: UWBUnit.ANCHOR - ``Tag``: UWBUnit.TAG"
+msgstr "设备模式。选项：- ``Anchor``：UWBUnit.ANCHOR - ``Tag``：UWBUnit.TAG"
+
+#: ../../source/unit/uwb.rst:109 972c46a80b894e428aa5db450fea3519
+msgid "|set_device_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:11 e1ba6bbf9eeb4c6d82d820431bf58126
+msgid "set_device_mode.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:113 712989bdd6f34813b9e4db52e70a4064
+msgid "Check if the UWB unit is connected."
+msgstr "检查 UWB 单元是否已连接。"
+
+#: ../../source/unit/uwb.rst 3255ab04f49d478e9e53d0b5f18edae5
+#: f55eec4a60ab449ba39f29eab705798c
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:115 a553b01534f94788ae48de012404bc75
+msgid "True if connected, False otherwise."
+msgstr "如果已连接则为 True，否则为 False。"
+
+#: ../../source/unit/uwb.rst:119 5a7fe1a544524cfb8d06c882cb3d9840
+msgid "|isconnected.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:12 152d82139c1c46be814a802de99123bc
+msgid "isconnected.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:123 232426bb0aac4777b718623dcea86f09
+msgid "Get the UWB unit firmware version."
+msgstr "获取 UWB 单元固件版本。"
+
+#: ../../source/unit/uwb.rst:125 a2870066b6be4851bcca6e1484b7fdf6
+msgid "firmware version."
+msgstr "固件版本。"
+
+#: ../../source/unit/uwb.rst:129 b953f4492fb941f2b365a98a379f4dd3
+msgid "|get_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:13 1f2b26c15a024d9fbc64e9dfdae4fa5c
+msgid "get_version.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:133 d47435fd1507422182665ad396c42f2b
+msgid "Reset the UWB unit."
+msgstr "重置 UWB 单元。"
+
+#: ../../source/unit/uwb.rst:137 112e2e48e77a4fe48a6ee8e1a8e4288c
+msgid "Set the measurement interval."
+msgstr "设置测量间隔。"
+
+#: ../../source/unit/uwb.rst:139 85fe23b7601d45e0bdc15352e5573b64
+msgid "measurement interval."
+msgstr "测量间隔。"
+
+#: ../../source/unit/uwb.rst:143 e72868ce47c04bebb60223aa7e05deed
+msgid "|set_measurement_interval.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:16 814265722aca44519147fd055389ecf0
+msgid "set_measurement_interval.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:147 53d101ec854a4ddf92baa9198809b500
+msgid "Set the measurement output."
+msgstr "设置测量输出。"
+
+#: ../../source/unit/uwb.rst:149 d70c3afbc68548868c382c1a64297d48
+msgid "enable or disable measurement output."
+msgstr "启用或禁用测量输出。"
+
+#: ../../source/unit/uwb.rst:153 f12f37beac5b4dda81c8afdbdcc04230
+msgid "|set_measurement.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:17 65fc45109e774072b5f40c7b44b5d6de
+msgid "set_measurement.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:157 1464400036b94fa9b4602dab6f2e6a28
+msgid "Set the callback function for the anchor status."
+msgstr "设置用于锚点状态的回调函数。"
+
+#: ../../source/unit/uwb.rst:160 3c9a0d04462d4adebe1ec8d9172a0b86
+msgid ""
+"anchor status. Options: - ``ONLINE``: UWBUnit.ONLINE - ``OFFLINE``: "
+"UWBUnit.OFFLINE"
+msgstr "锚点状态。选项：- ``ONLINE``：UWBUnit.ONLINE - ``OFFLINE``：UWBUnit.OFFLINE"
+
+#: ../../source/unit/uwb.rst:164 03111db8683244228e3f753d3a0d39e3
+msgid "callback function."
+msgstr "回调函数。"
+
+#: ../../source/unit/uwb.rst:168 701a37734c2947b382899a6dcbf64adc
+msgid "|set_callback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:19 e63f0554c8124eb1a7186f6104b45d9b
+msgid "set_callback.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:172 ee5916bc140645a996b2726ae18ae542
+msgid "Update the distances and anchor status."
+msgstr "更新距离和锚点状态。"
+
+#: ../../source/unit/uwb.rst:176 a5c702c7c7d94778bad1de03bc670b43
+msgid "|update.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uwb.ref:20 4673495f264a40229e8befb90fce2b11
+msgid "update.png"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:181 e5a6d4fde39a44d1a09c351c81b4d79b
+msgid "Constants"
+msgstr ""
+
+#: ../../source/unit/uwb.rst:187 edbfc498631f457c91e3ee63ee99a722
+msgid "device role"
+msgstr "设备角色"
+
+#: ../../source/unit/uwb.rst:194 75f8aa7be7ec47f5b5b77d0321e7975f
+msgid "device status"
+msgstr "设备状态"
+

@@ -1,0 +1,467 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/gps_v11.rst:3 b55d8c177e284a4c9f51d29ad1c4d0e0
+msgid "GPS V1.1(SMA) Unit"
+msgstr "GPS V1.1(SMA) Unit"
+
+#: ../../source/unit/gps_v11.rst:7 62dfd51262f34b379a57bb36fbb01d1d
+msgid ""
+"GPS Unit v1.1 is a GNSS global positioning navigation unit, integrating "
+"the high-performance CASIC navigation chip AT6668 and signal amplifier "
+"chip MAX2659, with a built-in ceramic antenna, providing more precise and"
+" reliable satellite positioning services."
+msgstr ""
+"GPS Unit v1.1 是一款 GNSS 全球定位导航单元，集成高性能 CASIC 导航芯片 AT6668 和信号放大器芯片 "
+"MAX2659，内置陶瓷天线，可提供更精确、更可靠的卫星定位服务。"
+
+#: ../../source/unit/gps_v11.rst:9 7ff220bd7d564498ae16ff063a978e47
+msgid ""
+"GPS SMA Unit is a GNSS global positioning navigation unit that integrates"
+" the high-performance CASIC navigation chip AT6668 and the signal "
+"amplifier chip MAX2659. It uses an external antenna to provide more "
+"accurate and reliable satellite positioning services."
+msgstr ""
+"GPS SMA Unit 是一款 GNSS 全球定位导航单元，集成了高性能 CASIC 导航芯片 AT6668 和信号放大器芯片 "
+"MAX2659。它使用外置天线，可提供更准确、更可靠的卫星定位服务。"
+
+#: ../../source/unit/gps_v11.rst:11 33d0981db3c24ba3ac2b554530ba8872
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/gps_v11.rst:13 badbfc073c5a4a98b01de3aab2f41519
+msgid "|GPSV11Unit|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref 87ad450b46fa477e8a9f85e4d7b1afef
+msgid "GPSV11Unit"
+msgstr "GPSV11Unit"
+
+#: ../../source/unit/gps_v11.rst:15 f65d12e5389e49b9beeb6e3a7e17771f
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例："
+
+#: ../../source/unit/gps_v11.rst:22 096b6cbc2e5148d4bbbfcbd652dec58c
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/gps_v11.rst:24 3a73810c1f1e446db92c584f634ee1b5
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:8 de5459758d634a19b953616d45555ebb
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:28 6a4137ad34aa46108c592312411cc0b5
+msgid "|gpsv11_core2_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:31 ec9a11eec5e644009388b1dc531545cc
+msgid "class GPSV11Unit"
+msgstr "class GPSV11Unit"
+
+#: ../../source/unit/gps_v11.rst:34 97006300244844949cf3cc9a26ea1780
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:38 e3065134cf894170883be1b359b352c4
+msgid ""
+"Initialize the GPSV11Unit with a specific UART id and port for "
+"communication."
+msgstr "使用指定的 UART id 和端口初始化 GPSV11Unit 以进行通信。"
+
+#: ../../source/unit/gps_v11.rst 1918afa79b0e41aea55dea23b490a942
+#: 4173024cd2ae46f48dd17e3d5bc2fa4c 426da92115fe442fa561c6742ac76dbf
+#: b898531d363a4c6e9355b980a0f13acb d761febb5df4428e842743547b72a75d
+#: ea453e6173594e738cce720bb307a087 f0973aef65274829aed626012fe11944
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:40 b922d1367407490597a30c7b5fbd1662
+msgid "The UART ID for communication with the GPS module. It can be 0, 1, or 2."
+msgstr "用于与 GPS 模块通信的 UART ID。可以是 0、1 或 2。"
+
+#: ../../source/unit/gps_v11.rst:41 594ac4785aba43819dc47fd3c4467936
+msgid "A list or tuple containing the TX and RX pins for UART communication."
+msgstr "包含用于 UART 通信的 TX 和 RX 引脚的列表或元组。"
+
+#: ../../source/unit/gps_v11.rst:43 ../../source/unit/gps_v11.rst:57
+#: ../../source/unit/gps_v11.rst:67 ../../source/unit/gps_v11.rst:77
+#: ../../source/unit/gps_v11.rst:87 ../../source/unit/gps_v11.rst:97
+#: ../../source/unit/gps_v11.rst:107 ../../source/unit/gps_v11.rst:117
+#: ../../source/unit/gps_v11.rst:127 ../../source/unit/gps_v11.rst:137
+#: ../../source/unit/gps_v11.rst:147 ../../source/unit/gps_v11.rst:157
+#: ../../source/unit/gps_v11.rst:167 ../../source/unit/gps_v11.rst:177
+#: ../../source/unit/gps_v11.rst:187 ../../source/unit/gps_v11.rst:197
+#: ../../source/unit/gps_v11.rst:207 ../../source/unit/gps_v11.rst:215
+#: 0bcec4f4eaac4c93b340c17d5b40fced 2fac77cc40eb4593bb2ed8e3fbe76c38
+#: 332f68d4ccc54ffd8f28fbf48c063419 3e19b9a713c1434e8f4735314f1c6a3d
+#: 5769c4231fa448be80afbfd0e17e2b93 591cacceacf84d97a612e3115053ea35
+#: 7ea3c9132a11487ea251ffe2093080d1 92d8568c3b1140a8a25b8dcebf156a5b
+#: b93daa5a517f4a59a356b549cd0b86a4 bce625f1a4ac4700b6269c8c132634c0
+#: c93c40e89e7d40478919d009e4cfebfa cf6d2d3697a64280a484530ed45ad604
+#: d5b9deb5d140462eac9c08f0c64f89bb ee8a01a2893544fcb35ca8dde20b1ee9
+#: f74ac26aca46490cadfc08f88ed2593c f94098b9ee6e4ae29d4743b3d3936563
+#: fe6abfb456fd4876b226435d0aa8dbff ff5d032dc6d346039017cccc6089e8bf
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/gps_v11.rst:45 4b34213c3076476892f8d67a6503790c
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:7 d2447982aa8b4b24bc87f750e6f18a44
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:49 59698a6e90c0446bbcb9540f13aa9083
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:53 9adf09199ae143fdb902a2b60d10913f
+msgid "Set the working mode of the GPS module."
+msgstr "设置 GPS 模块的工作模式。"
+
+#: ../../source/unit/gps_v11.rst:55 9add5f9f52814e099319c797ed1344f5
+msgid "The mode to set, defined by the GPS module."
+msgstr "要设置的模式，由 GPS 模块定义。"
+
+#: ../../source/unit/gps_v11.rst:59 904a893be70b4b14bd46c7a3f76fd9f5
+msgid "|set_work_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:9 bc179f6ad016490da3df75b1abe4a67a
+msgid "set_work_mode.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:63 cfb61b03f3674af89ee8e1d405c95157
+msgid "Get the current working mode of the GPS module."
+msgstr "获取 GPS 模块当前的工作模式。"
+
+#: ../../source/unit/gps_v11.rst 089d14dfeac340d2a4379b54f27d3977
+#: 22f18fe2a8dc423a92808869eb0bb87d 30518360427e41bba8a73dfa1a54d3ac
+#: 413254f79e644a0d9493afa96371c6f9 43d98e8975514818a51faa641c1e228a
+#: 47eea615fe914b219ad2ee705e040ee6 4f934d8a047948bf814de57194638606
+#: 671ddcde8dee4e93b75c381a47fce745 904f0a6cf74745f2ac59718f84b0fc3d
+#: 94db9078a9fd4b4889fde59db264be16 a692ebfc14b9409cbc77cbffe52fd894
+#: ab0796188c8d4c5fa78e45285f13491b b205a36eb3ad4a3ea76c66e95fcb5859
+#: db934162b8124bd0bdcdcd4372623e49 f4a5b93db0b540ac9525b112ab869d76
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:65 adb03335887848c1b6a6ebc30ca31b18
+msgid "The current working mode of the GPS module."
+msgstr "GPS 模块的当前工作模式。"
+
+#: ../../source/unit/gps_v11.rst:69 2f52c12cc557489db853e004f6ce839e
+msgid "|get_work_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:10 760091ab287a47b19de1e599d31f8cfe
+msgid "get_work_mode.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:73 1734a900295846e685b792431f5ea900
+msgid "Get the state of the antenna."
+msgstr "获取天线的状态。"
+
+#: ../../source/unit/gps_v11.rst:75 d80ee370abdb454a9fa2ba913e69e94b
+msgid "The antenna state."
+msgstr "天线状态。"
+
+#: ../../source/unit/gps_v11.rst:79 bc2c032a24204c34a354b08ec0f11380
+msgid "|get_antenna_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:11 85f45c6abef44b1f859930fb6e84b013
+msgid "get_antenna_state.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:83 84a48f59945844ffbb5a9f449df67772
+msgid "Get the current GPS time."
+msgstr "获取当前 GPS 时间。"
+
+#: ../../source/unit/gps_v11.rst:85 73f6a237e8db40908d633d794d295788
+msgid "The GPS time as a list of strings [hour, minute, second]."
+msgstr "GPS 时间，以字符串列表形式表示 [hour, minute, second]。"
+
+#: ../../source/unit/gps_v11.rst:89 7eb751b2190e40049e2468e90a76c4d0
+msgid "|get_gps_time.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:12 33475f384bcb4d9186e3e0e1d1f9841d
+msgid "get_gps_time.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:93 d873f40019d24e0b8a75692d9688bf3c
+msgid "Get the current GPS date."
+msgstr "获取当前 GPS 日期。"
+
+#: ../../source/unit/gps_v11.rst:95 6a90edd90afe4054a68678dab43123fd
+msgid "The GPS date as a list of strings [day, month, year]."
+msgstr "GPS 日期，以字符串列表形式表示：[day, month, year]。"
+
+#: ../../source/unit/gps_v11.rst:99 91efa9acafc6430b9a990803e2070b8a
+msgid "|get_gps_date.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:13 38a31f500a284a80a2389bf81c65d8c9
+msgid "get_gps_date.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:103 cdc20f5c738f46a5aa30709ff3dfa689
+msgid "Get the current GPS date and time combined."
+msgstr "获取当前 GPS 合并后的日期和时间。"
+
+#: ../../source/unit/gps_v11.rst:105 ae8cc5cd4de743dcafa0bd400aae78b1
+msgid ""
+"The GPS date and time as a list of strings [year, month, day, hour, "
+"minute, second]."
+msgstr "GPS 日期和时间，以字符串列表形式返回 [year, month, day, hour, minute, second]。"
+
+#: ../../source/unit/gps_v11.rst:109 b87db191dd684cd6b9099d2de58de452
+msgid "|get_gps_date_time.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:14 b8d79e522a7c4f11b1ca20686c58abad
+msgid "get_gps_date_time.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:113 54ba5e92b6044376ae88d2b4a2c348d0
+msgid "Get the timestamp of the current GPS time."
+msgstr "获取当前 GPS 时间的时间戳。"
+
+#: ../../source/unit/gps_v11.rst:115 7155554dd86a45978f2162686c2254d6
+msgid "The timestamp representing the current GPS time."
+msgstr "表示当前 GPS 时间的时间戳。"
+
+#: ../../source/unit/gps_v11.rst:119 65d9f7fc0df84ff99c124cf2df68d6a9
+msgid "|get_timestamp.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:15 72b919e530cd4588969080b02472a694
+msgid "get_timestamp.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:123 307057c9eea24ea4855a863c063f7054
+msgid "Get the current latitude."
+msgstr "获取当前纬度。"
+
+#: ../../source/unit/gps_v11.rst:125 63d8f1696238408794b856f7bf5d139a
+msgid "The current latitude in string format."
+msgstr "当前纬度的字符串格式。"
+
+#: ../../source/unit/gps_v11.rst:129 6b7047db53ef46f58f122d697b9b5963
+msgid "|get_latitude.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:16 e2e1e3a22d9849e682663a8e126177e1
+msgid "get_latitude.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:133 36befaa2d36d45c1ba87ab00664dac2e
+msgid "Get the current longitude."
+msgstr "获取当前经度。"
+
+#: ../../source/unit/gps_v11.rst:135 3b09f073a5494e28985793fd15806e74
+msgid "The current longitude in string format."
+msgstr "当前以字符串格式表示的经度。"
+
+#: ../../source/unit/gps_v11.rst:139 96bf0bbede4b4c6cbcd0e44da4a2a743
+msgid "|get_longitude.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:17 76310414d35245838ec9c64bbcbba9dd
+msgid "get_longitude.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:143 50bb504a6f6945f1838874a0167907a0
+msgid "Get the current altitude."
+msgstr "获取当前海拔。"
+
+#: ../../source/unit/gps_v11.rst:145 7fc7671d102540e2b1bf388e16ec3060
+msgid "The current altitude in string format."
+msgstr "当前海拔的字符串格式。"
+
+#: ../../source/unit/gps_v11.rst:149 b876311fcaf045cb9f541556d931eb00
+msgid "|get_altitude.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:18 84f789d6382b43238bd0cac74d6a28d7
+msgid "get_altitude.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:153 01dc3e853ced44d79f1f86cdcdd248df
+msgid "Get the number of satellites used for positioning."
+msgstr "获取用于定位的卫星数量。"
+
+#: ../../source/unit/gps_v11.rst:155 13415f9a0e62478db927f3e9f3d4594e
+msgid "The number of satellites."
+msgstr "卫星数量。"
+
+#: ../../source/unit/gps_v11.rst:159 3b98ed73eb3046f897f71afe5b736c30
+msgid "|get_satellite_num.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:19 42e0dbf3d9dd445c8fd4c581dc4d75f0
+msgid "get_satellite_num.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:163 321edd14af4c467d81bd909c6f1341b8
+msgid "Get the quality of the GPS position."
+msgstr "获取 GPS 位置信息的质量。"
+
+#: ../../source/unit/gps_v11.rst:165 fb97ce3e91a844d5ae01535d2551c968
+msgid "The position quality indicator."
+msgstr "位置质量指示器。"
+
+#: ../../source/unit/gps_v11.rst:169 69b3472d51ed49c0978a7d9b604d8c88
+msgid "|get_pos_quality.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:20 5c8d06e6398c4a0fa3df577db980d89f
+msgid "get_pos_quality.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:173 ee890331826b42688457ee8258634248
+msgid "Get the course over ground (COG)."
+msgstr "获取地面航向（COG）。"
+
+#: ../../source/unit/gps_v11.rst:175 a5d0572c9a6d4aeeac259fce8ac858a8
+msgid "The course over ground in degrees."
+msgstr "以度为单位的地面航向。"
+
+#: ../../source/unit/gps_v11.rst:179 162f3ceb425b481e9bdded0ff936e5d6
+msgid "|get_corse_over_ground.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:21 ecca70010317467282976710ad609de1
+msgid "get_corse_over_ground.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:183 6d658333184348d5ac187e863e0434dd
+msgid "Get the speed over ground (SOG)."
+msgstr "获取对地速度（SOG）。"
+
+#: ../../source/unit/gps_v11.rst:185 276aaa512b0b4a8a9ff53f9d0688becf
+msgid "The speed over ground in knots."
+msgstr "对地速度，单位为节。"
+
+#: ../../source/unit/gps_v11.rst:189 625cf7f11e79470fb743f3b6013c65cc
+msgid "|get_speed_over_ground.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:22 117885073912430abf625e92e2b034ad
+msgid "get_speed_over_ground.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:193 1f30cc739c4b4bc7a78b200963b1fe05
+msgid "Set the time zone offset for the GPS time."
+msgstr "为 GPS 时间设置时区偏移量。"
+
+#: ../../source/unit/gps_v11.rst:195 f6e9a025189944c98ee45f47be7dfb30
+msgid "The time zone offset value to set."
+msgstr "要设置的时区偏移值。"
+
+#: ../../source/unit/gps_v11.rst:199 fc872ad9f73042e6a5ded7ee4d6221fd
+msgid "|set_time_zone.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:23 6b99d7505f6f4a6e819c93b687a2e59c
+msgid "set_time_zone.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:203 fd8fd660adb446b6ba22e9b463fa3b74
+msgid "Get the current time zone offset."
+msgstr "获取当前时区偏移量。"
+
+#: ../../source/unit/gps_v11.rst:205 092c168ac39447fe85b4e2cf85a9cd84
+msgid "The current time zone offset."
+msgstr "当前时区偏移量。"
+
+#: ../../source/unit/gps_v11.rst:209 9abb59acf0a047b981e4c3c692b85922
+msgid "|get_time_zone.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:24 9161a4f56164448485889cbed8bbb2df
+msgid "get_time_zone.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:213 29c17989f7f34a18aedd54cadd54849f
+msgid ""
+"Deinitialize the GPS unit, stopping any running tasks and releasing "
+"resources."
+msgstr "反初始化 GPS 单元，停止所有正在运行的任务并释放资源。"
+
+#: ../../source/unit/gps_v11.rst:217 4895d1d312ed420288c3c7e044420447
+msgid "|deinit.png|"
+msgstr ""
+
+#: ../../source/refs/unit.gps_v11.ref:25 7e0b70f10c60444bb021f04ddaea7564
+msgid "deinit.png"
+msgstr ""
+
+#: ../../source/unit/gps_v11.rst:222 8923573d0a014ac6a808034a812d38c1
+msgid "Add checksum to the message for communication with the GPS module."
+msgstr "为与 GPS 模块通信的消息添加校验和。"
+
+#: ../../source/unit/gps_v11.rst:224 0d27850c4ad74176871bb26df4cfc63a
+msgid "The message to which the checksum will be added."
+msgstr "将添加校验和的消息。"
+
+#: ../../source/unit/gps_v11.rst:226 8113eb338ef44db38469914bfeaa468f
+msgid "The message with added checksum."
+msgstr "带有校验和的消息。"
+
+#: ../../source/unit/gps_v11.rst:231 262432a153ed4f308fc218d200e95d21
+msgid ""
+"Decode the GGA sentence to extract GPS quality, number of satellites, and"
+" altitude."
+msgstr "解码 GGA 语句以提取 GPS 质量、卫星数量和海拔高度。"
+
+#: ../../source/unit/gps_v11.rst:233 97c0e566c6da4a5fbe9ba40f82f01ddb
+msgid "The GGA sentence to decode."
+msgstr "要解码的 GGA 语句。"
+
+#: ../../source/unit/gps_v11.rst:238 1a84b15fc83b475fb27561343bdf2059
+msgid ""
+"Decode the RMC sentence to extract GPS time, latitude, longitude, speed, "
+"course, and date."
+msgstr "解码 RMC 语句以提取 GPS 时间、纬度、经度、速度、航向和日期。"
+
+#: ../../source/unit/gps_v11.rst:240 a07c68d45b804cd99650a7b960f6c2fd
+msgid "The RMC sentence to decode."
+msgstr "要解码的 RMC 语句。"
+
+#: ../../source/unit/gps_v11.rst:245 b3122bdd1f8d413da8721650e41b136b
+msgid "Decode the TXT sentence to extract antenna state."
+msgstr "解码 TXT 语句以提取天线状态。"
+
+#: ../../source/unit/gps_v11.rst:247 fb426fbaeed7421984030bf0d128b6e6
+msgid "The TXT sentence to decode."
+msgstr "要解码的 TXT 句子。"
+
+#: ../../source/unit/gps_v11.rst:252 b0e518ebce38497d943510ea6ffebd5e
+msgid "Monitor the GPS data and decode incoming sentences."
+msgstr "监控 GPS 数据并解码传入的语句。"
+

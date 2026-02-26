@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/dualkmeter.rst:2 0cc431d30ef541dfb5167d475f52c44a
 msgid "DualKmeter Module"
-msgstr ""
+msgstr "DualKmeter 模块。"
 
 #: ../../en/module/dualkmeter.rst:7 902dacf56aef4725b2cb6044dd05d80b
 msgid "Supported Products:"
@@ -34,15 +34,15 @@ msgstr ""
 
 #: ../../en/refs/module.dualkmeter.ref 055585766b0c4e939ce7c8dd558dc88e
 msgid "DualKmeter Module13.2"
-msgstr ""
+msgstr "DualKmeter Module13.2"
 
 #: ../../en/module/dualkmeter.rst:14 fd5904cc9a0446a886aeaa66fec2965d
 msgid "Micropython Example::"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/dualkmeter.rst:28 eae27c7a9d974c7da5d94e54a36db4c4
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/module/dualkmeter.rst:30 c79950dd2e4a46ceb63cb0394111c3a3
 msgid "|example.png|"
@@ -58,11 +58,11 @@ msgstr ""
 
 #: ../../en/module/dualkmeter.rst:39 372d5ff813c041269f68c320b20e8af7
 msgid "class DualKmeterModule"
-msgstr ""
+msgstr "class DualKmeterModule"
 
 #: ../../en/module/dualkmeter.rst:42 fcb8336ad09d40f9b88588c89d22eb9e
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/module/dualkmeter.rst:46 3ad9fd5cd0fe4280876c38da85e57c8a
 msgid ""
@@ -80,7 +80,7 @@ msgstr "创建 DualKmeterModule 对象，``address`` 接受 0x11 ~ 0x20 的值�
 #: f482e46e8bb344e594e97bc5f94ce67a f7d42d9c33da4059996666249e79993b
 #: f8b15662c7454ab982a3fe9dec9d8dca ff83868205564a26917869e1a6cf2c2c
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/module/dualkmeter.rst:50 bf6fb1b6ad284669b3e355445181a253
 msgid "|init.png|"
@@ -217,7 +217,7 @@ msgstr ""
 
 #: ../../en/module/dualkmeter.rst:137 410559ba0940415c99e6436885096b5f
 msgid "Constants"
-msgstr ""
+msgstr "常量"
 
 #: ../../en/module/dualkmeter.rst:142 9d424a46adcf4f2fa4d0b8964752b58c
 msgid "Celsius scale."

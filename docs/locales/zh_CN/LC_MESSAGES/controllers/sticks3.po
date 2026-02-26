@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/controllers/sticks3.rst:3 ../../en/refs/controllers.sticks3.ref
 #: 00a91c26dcd044a2a8754536a97313d6 de4e7eb2535e4e9e94820e54803d28b5
 msgid "StickS3"
-msgstr ""
+msgstr "StickS3"
 
 #: ../../en/controllers/sticks3.rst:7 fcb61d9be51d4a6da051d57dde549adc
 msgid "Support the following products:"
@@ -137,7 +137,8 @@ msgid ""
 "control of battery charging and external output. Press BtnA to toggle "
 "external output (5V OUT), and press BtnB to toggle battery charging."
 msgstr ""
-"此示例演示了电源管理功能，包括电池电压监控、VBUS 电压读取、充电状态检测以及电池充电和外部输出的控制。按 BtnA 切换外部输出（5V OUT），按 BtnB 切换电池充电。"
+"此示例演示了电源管理功能，包括电池电压监控、VBUS 电压读取、充电状态检测以及电池充电和外部输出的控制。按 BtnA 切换外部输出（5V "
+"OUT），按 BtnB 切换电池充电。"
 
 #: ../../en/controllers/sticks3.rst:53 3a9216f37bb34c378cafb03696673ed7
 msgid "|sticks3_power_example.png|"

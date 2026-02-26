@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/m5ui/roller.rst:4 ../../en/m5ui/roller.rst:55
 #: 3be29225c5304c408d83c83824cee275 ac95942236c54fea914fbc9416c6347b
 msgid "M5Roller"
-msgstr ""
+msgstr "M5Roller"
 
 #: ../../en/m5ui/roller.rst:8 725f0d969c814243b72c61cee23268d9
 msgid ""
@@ -148,7 +148,7 @@ msgstr "API参考"
 
 #: 9ce4bf7d09274d6ea76573b62bffb335 m5ui.roller.M5Roller:1 of
 msgid "Bases: :py:class:`~lvgl.roller`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.roller`"
 
 #: 977cc14125624adf97b893a77f151c59 m5ui.roller.M5Roller:1 of
 msgid "Create a roller widget."

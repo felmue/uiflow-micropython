@@ -22,27 +22,27 @@ msgstr ""
 
 #: ../../en/system/audio.player.rst:4 f805938d348f4fd1a2ca8464a397f8b2
 msgid "class Player"
-msgstr ""
+msgstr "class Player"
 
 #: ../../en/system/audio.player.rst:8 b175b95691164da8887194184dfcbb04
 msgid ""
 "Audio player now can support mp3,amr and wav, if more types are needed, "
 "please add the decoder in function audio_player_create."
-msgstr ""
+msgstr "音频播放器目前支持 mp3、amr 和 wav，若需要支持更多类型，请在函数 audio_player_create 中添加解码器。"
 
 #: ../../en/system/audio.player.rst:12 f43e714d5f9549019c303a586b34bd9a
 msgid "class audio.Player"
-msgstr ""
+msgstr "class audio.Player"
 
 #: ../../en/system/audio.player.rst:15 5b47f48081e54214aa82c9f57b85a271
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/system/audio.player.rst:19 b98a922c834544e2b76de8be7cb3a65d
 msgid ""
 "Create a Player, state_callback is a monitor of player state, when state "
 "changed, this callback will be invoked."
-msgstr ""
+msgstr "创建一个 Player，state_callback 用于监控播放器状态，当状态发生变化时，将调用该回调函数。"
 
 #: ../../en/system/audio.player.rst:21 ../../en/system/audio.player.rst:39
 #: ../../en/system/audio.player.rst:62 ../../en/system/audio.player.rst:76
@@ -55,7 +55,7 @@ msgstr ""
 #: a099405928214b2aa6a5f860e1d74d27 b34d3b7a00c6490b8b89fcee8268d033
 #: d3974a884cba4c8a9c614601244a023f f9bd2984ca2d4b76ab0fb17b75540cca
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2："
 
 #: ../../en/system/audio.player.rst:23 7ae61f722e1343d39b8f7d4e798115c3
 msgid "|init.png|"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../en/system/audio.player.rst:31 ddb536a7af694bebb48358f5ce957a03
 msgid "Play the audio file."
-msgstr ""
+msgstr "播放音频文件。"
 
 #: ../../en/system/audio.player.rst 089d6042584d413683048a066783d18e
 #: 82fc491145d24258b64351f2e7ad2175 e0f05e5328e542ed9e3658598a4b3437
@@ -85,27 +85,30 @@ msgid ""
 "\"file:///sd/test.mp3\", \"https://dl.espressif.com/dl/audio/ff-16b-2c-"
 "44100hz.mp3\""
 msgstr ""
+"音频文件的 "
+"uri。例如：\"file:///flash/test.mp3\"、\"file:///sd/test.mp3\"、\"https://dl.espressif.com/dl/audio"
+"/ff-16b-2c-44100hz.mp3\"。"
 
 #: ../../en/system/audio.player.rst:34 ../../en/system/audio.player.rst:58
 #: 689641dc07a841a7bfcb7b3a92b5ca46 f9a8e1a6029e4b0a985bb00db61e6c66
 msgid "The position to start playing, in byte."
-msgstr ""
+msgstr "开始播放的位置，单位为字节。"
 
 #: ../../en/system/audio.player.rst:35 ../../en/system/audio.player.rst:59
 #: ../../en/system/audio.player.rst:73 430d3a337a114a2f83799655f7686dbd
 #: 7310e29e110b4138a1ff3f7c7546e5d2 c364991763b64aea923b948b911fa802
 msgid "The volume of the player, 0-100. -1 means the default volume."
-msgstr ""
+msgstr "播放器的音量，范围为 0 - 100。-1 表示默认音量。"
 
 #: ../../en/system/audio.player.rst:36 ../../en/system/audio.player.rst:60
 #: ../../en/system/audio.player.rst:74 3b97492829ee47beaa84c16bb91e8747
 #: 621d076dda2b42f3adda87a03829cfc4 dc9d4468f1694d66afc338a70dce0e5e
 msgid "Whether to play synchronously."
-msgstr ""
+msgstr "是否同步播放。"
 
 #: ../../en/system/audio.player.rst:37 94216c76708c4811bae2a7d83ba55387
 msgid "ssl verify, default is None."
-msgstr ""
+msgstr "ssl 验证，默认为 None。"
 
 #: ../../en/system/audio.player.rst:41 98ce2bda54eb4127894e605173c41505
 msgid "|play_local_file.png|"
@@ -141,23 +144,23 @@ msgstr ""
 
 #: ../../en/system/audio.player.rst:52 8b610760444444818c836d21de42599f
 msgid "Play the raw audio data."
-msgstr ""
+msgstr "播放原始音频数据。"
 
 #: ../../en/system/audio.player.rst:54 c76d005332524e0ba21bc15ca4639c63
 msgid "The raw audio data."
-msgstr ""
+msgstr "原始音频数据。"
 
 #: ../../en/system/audio.player.rst:55 8ea013c9dde747859453f72a7e4aef9f
 msgid "The sample rate of the audio data."
-msgstr ""
+msgstr "音频数据的采样率。"
 
 #: ../../en/system/audio.player.rst:56 f33326a4e78b40ee8573abddd1adcb1a
 msgid "Whether the audio data is stereo."
-msgstr ""
+msgstr "音频数据是否为立体声。"
 
 #: ../../en/system/audio.player.rst:57 cf75faaa3ce7427c8b54a3b2f8d7ae63
 msgid "The bits of the audio data."
-msgstr ""
+msgstr "音频数据的位数。"
 
 #: ../../en/system/audio.player.rst:64 78d7b37dc9d846dbabd33dfc3ab2a3d6
 msgid "|play_raw.png|"
@@ -169,15 +172,15 @@ msgstr ""
 
 #: ../../en/system/audio.player.rst:69 06a1cc1c14af4053bef6eded29ed9da3
 msgid "Play a tone."
-msgstr ""
+msgstr "播放音调。"
 
 #: ../../en/system/audio.player.rst:71 9e67ff593ba2415585d973acc219008e
 msgid "The frequency of the tone."
-msgstr ""
+msgstr "音调的频率。"
 
 #: ../../en/system/audio.player.rst:72 691a4817a45341b796b5b646cb93837a
 msgid "The duration of the tone."
-msgstr ""
+msgstr "音调的持续时间。"
 
 #: ../../en/system/audio.player.rst:78 5e66acd69056490796d809bd2529f35a
 msgid "|play_tone.png|"
@@ -189,7 +192,7 @@ msgstr ""
 
 #: ../../en/system/audio.player.rst:83 e16fd6db81fd4ab8bcdc23f0295fca29
 msgid "Pause the player."
-msgstr ""
+msgstr "暂停播放器。"
 
 #: ../../en/system/audio.player.rst:87 42eb697bafcc433e983e3920283317b8
 msgid "|pause.png|"
@@ -201,7 +204,7 @@ msgstr ""
 
 #: ../../en/system/audio.player.rst:92 c7ce239e0fd24a119898dd9a709c3f88
 msgid "Resume the player."
-msgstr ""
+msgstr "恢复播放器。"
 
 #: ../../en/system/audio.player.rst:96 7b91de5aaca3436d9d1b908a750b37ac
 msgid "|resume.png|"
@@ -213,7 +216,7 @@ msgstr ""
 
 #: ../../en/system/audio.player.rst:101 0cc9aaac16fb4d7faa28c668ca5b4c26
 msgid "Stop the player."
-msgstr ""
+msgstr "停止播放器。"
 
 #: ../../en/system/audio.player.rst:105 913cd739ab0b46ed9bf7212fe5382cfe
 msgid "|stop.png|"
@@ -225,7 +228,7 @@ msgstr ""
 
 #: ../../en/system/audio.player.rst:110 42ca755c85b243fca53afe1bae5c1c4f
 msgid "Get the position of the player."
-msgstr ""
+msgstr "获取玩家的位置。"
 
 #: ../../en/system/audio.player.rst 241d6b3dfaf94004bf21eb90f518d3a4
 #: 80fcccb56bf04e219a611216fc995803
@@ -234,7 +237,7 @@ msgstr ""
 
 #: ../../en/system/audio.player.rst:112 ef8b737522b543079e8752a862a1e940
 msgid "The position of the player."
-msgstr ""
+msgstr "玩家的位置。"
 
 #: ../../en/system/audio.player.rst:116 89703191c77a4010881cd54b9e54dca3
 msgid "|pos.png|"
@@ -246,11 +249,11 @@ msgstr ""
 
 #: ../../en/system/audio.player.rst:121 99fae544ad1341d8ae1d426b32dbd907
 msgid "Set the volume of the player."
-msgstr ""
+msgstr "设置播放器的音量。"
 
 #: ../../en/system/audio.player.rst:123 230dd349b8014da2b996b8bd3b744f5f
 msgid "The volume of the player, 0-100."
-msgstr ""
+msgstr "播放器的音量，范围为 0 - 100。"
 
 #: ../../en/system/audio.player.rst:127 d58c18eb1da344f38d937670835b1b14
 msgid "|set_vol.png|"
@@ -262,11 +265,11 @@ msgstr ""
 
 #: ../../en/system/audio.player.rst:132 45f8230773e74252bed1c8694d356676
 msgid "Get the volume of the player."
-msgstr ""
+msgstr "获取播放器的音量。"
 
 #: ../../en/system/audio.player.rst:134 80097bac88884d88a86dc6b5eb6d3bc6
 msgid "The volume of the player."
-msgstr ""
+msgstr "播放器的音量。"
 
 #: ../../en/system/audio.player.rst:138 30a09d0cfcc043c68aee4197f276aea6
 msgid "|get_vol.png|"

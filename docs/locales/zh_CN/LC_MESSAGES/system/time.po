@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/system/time.rst:2 302a4fe316fd4d28bb72dc8c7928571f
 msgid ":mod:`time` -- time related functions"
@@ -34,7 +34,9 @@ msgstr "``time`` 模块提供获取当前时间和日期、测量时间间隔以
 msgid ""
 "**Time Epoch**: It is January 1, 1970, 00:00:00 (UTC) on all platforms. "
 "Epoch year may be determined with ``gmtime(0)[0]``."
-msgstr "**时间纪元（Time Epoch）**：在所有平台上都是 1970 年 1 月 1 日 00:00:00（UTC）。可以通过 ``gmtime(0)[0]`` 获取纪元年份。"
+msgstr ""
+"**时间纪元（Time Epoch）**：在所有平台上都是 1970 年 1 月 1 日 00:00:00（UTC）。可以通过 "
+"``gmtime(0)[0]`` 获取纪元年份。"
 
 #: ../../source/system/time.rst:15 c4ee60460c724ceb94c53b164a898297
 msgid ""
@@ -46,7 +48,11 @@ msgid ""
 "depends on ``machine.RTC()`` object. The current calendar time may be set"
 " using ``machine.RTC().datetime(tuple)`` function, and maintained by "
 "following means:"
-msgstr "**维护实际日历日期/时间**：这需要实时时钟（RTC）。在具有底层操作系统（包括某些 RTOS） 的系统上，RTC 可能是隐含存在的。设置和维护实际日历时间是 OS/RTOS 的职责，并在 MicroPython 之外完成，MicroPython 仅通过操作系统 API 查询日期/时间。而在裸机端口上，系统时间依赖 ``machine.RTC()`` 对象。可以使用 ``machine.RTC().datetime(tuple)`` 函数设置当前日历时间，并通过以下方式进行维持："
+msgstr ""
+"**维护实际日历日期/时间**：这需要实时时钟（RTC）。在具有底层操作系统（包括某些 RTOS） 的系统上，RTC "
+"可能是隐含存在的。设置和维护实际日历时间是 OS/RTOS 的职责，并在 MicroPython 之外完成，MicroPython 仅通过操作系统"
+" API 查询日期/时间。而在裸机端口上，系统时间依赖 ``machine.RTC()`` 对象。可以使用 "
+"``machine.RTC().datetime(tuple)`` 函数设置当前日历时间，并通过以下方式进行维持："
 
 #: ../../source/system/time.rst:24 5fe68046c1f448128ecd226c3237526c
 msgid ""
@@ -94,7 +100,7 @@ msgstr ""
 
 #: ../../source/system/time.rst:50 afb8a4d5e99a4389b4232de8a2b332f6
 msgid "Functions"
-msgstr ""
+msgstr "Functions"
 
 #: ../../source/system/time.rst:54 bd4e33ddb8fa4837b8b92ec49f8201c1
 msgid ""
@@ -117,7 +123,7 @@ msgstr "当不传入任何参数时，获取当前时区并返回表示该时区
 #: e193361d9ecd45d380a27d67045901e5 efb6ef230f4e44f79643853620fa9b37
 #: f55ae04600864761bd40178354da9e1c fa025f26a25e45cfbdc9a1aabd8eb33b
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../source/system/time.rst:59 d33f167d1d464997a95cc09bc1bf5d63
 msgid "|timezone.png|"
@@ -155,7 +161,9 @@ msgid ""
 "into an 8-tuple which contains: ``(year, month, mday, hour, minute, "
 "second, weekday, yearday)`` If *secs* is not provided or None, then the "
 "current time from the RTC is used."
-msgstr "将自时间纪元（见上文）起的秒数 *secs* 转换为一个包含 8 个元素的元组：``(year, month, mday, hour, minute, second, weekday, yearday)``。如果未提供 *secs* 或其为 None，则使用 RTC 中的当前时间。"
+msgstr ""
+"将自时间纪元（见上文）起的秒数 *secs* 转换为一个包含 8 个元素的元组：``(year, month, mday, hour, "
+"minute, second, weekday, yearday)``。如果未提供 *secs* 或其为 None，则使用 RTC 中的当前时间。"
 
 #: ../../source/system/time.rst:79 90ed0867ccc24df987e04f0f5dbe3166
 msgid ""
@@ -220,7 +228,9 @@ msgid ""
 "This is inverse function of localtime. It's argument is a full 8-tuple "
 "which expresses a time as per localtime. It returns an integer which is "
 "the number of seconds since Jan 1, 1970."
-msgstr "这是 `localtime()` 的反函数。其参数是一个完整的 8 元组，表示一个与 `localtime()` 相同格式的时间。返回值为自 1970 年 1 月 1 日以来的秒数（整数）。"
+msgstr ""
+"这是 `localtime()` 的反函数。其参数是一个完整的 8 元组，表示一个与 `localtime()` 相同格式的时间。返回值为自 "
+"1970 年 1 月 1 日以来的秒数（整数）。"
 
 #: ../../source/system/time.rst:107 be7d7b938deb4c74ac89b376ff98487b
 msgid "|mktime.png|"
@@ -244,7 +254,10 @@ msgid ""
 "as a floating-point number to sleep for a fractional number of seconds. "
 "Note that other boards may not accept a floating-point argument, for "
 "compatibility with them use `sleep_ms()` and `sleep_us()` functions."
-msgstr "按给定的秒数休眠。某些开发板可能接受浮点数形式的 *seconds*，以便休眠小数秒。需要注意的是，其他开发板可能不接受浮点参数，为了兼容它们，请使用 `sleep_ms()` 和 `sleep_us()` 函数。"
+msgstr ""
+"按给定的秒数休眠。某些开发板可能接受浮点数形式的 "
+"*seconds*，以便休眠小数秒。需要注意的是，其他开发板可能不接受浮点参数，为了兼容它们，请使用 `sleep_ms()` 和 "
+"`sleep_us()` 函数。"
 
 #: ../../source/system/time.rst:120 2130ece01ecf402681b061431528e53c
 msgid "|sleep.png|"
@@ -265,7 +278,9 @@ msgid ""
 "example interrupt handlers or other threads. Passing in 0 for *ms* will "
 "still allow this other processing to occur. Use `sleep_us()` for more "
 "precise delays."
-msgstr "该函数至少会延时给定的毫秒数，但如果系统还需要执行其他处理（例如中断处理程序或其他线程），实际延时可能更长。即使传入的 *ms* 为 0，其他处理仍然可以执行。若需要更精确的延时，请使用 `sleep_us()`。"
+msgstr ""
+"该函数至少会延时给定的毫秒数，但如果系统还需要执行其他处理（例如中断处理程序或其他线程），实际延时可能更长。即使传入的 *ms* 为 "
+"0，其他处理仍然可以执行。若需要更精确的延时，请使用 `sleep_us()`。"
 
 #: ../../source/system/time.rst:134 3683d8e8c0774b48bbd14a8c8e9499cb
 msgid "|sleep_ms.png|"
@@ -313,7 +328,13 @@ msgid ""
 "treat values returned by these functions as opaque. The only operations "
 "available for them are `ticks_diff()` and `ticks_add()` functions "
 "described below."
-msgstr "回绕阈值不会被显式暴露，我们将其记为 *TICKS_MAX* 以便讨论。计数值的周期为 *TICKS_PERIOD = TICKS_MAX + 1*。*TICKS_PERIOD* 一定是 2 的幂，但在不同移植之间可能不同。所有 `ticks_ms()`、`ticks_us()`、`ticks_cpu()` 函数使用相同的周期值（为简化处理）。因此，这些函数会返回范围为 [*0* .. *TICKS_MAX*]（含端点）的值，总共 *TICKS_PERIOD* 种取值。注意只使用非负值。在大多数情况下，你应当将这些函数返回的值视为不透明值。对这些值唯一可用的操作是下面介绍的 `ticks_diff()` 和 `ticks_add()` 函数。"
+msgstr ""
+"回绕阈值不会被显式暴露，我们将其记为 *TICKS_MAX* 以便讨论。计数值的周期为 *TICKS_PERIOD = TICKS_MAX + "
+"1*。*TICKS_PERIOD* 一定是 2 的幂，但在不同移植之间可能不同。所有 "
+"`ticks_ms()`、`ticks_us()`、`ticks_cpu()` 函数使用相同的周期值（为简化处理）。因此，这些函数会返回范围为 "
+"[*0* .. *TICKS_MAX*]（含端点）的值，总共 *TICKS_PERIOD* "
+"种取值。注意只使用非负值。在大多数情况下，你应当将这些函数返回的值视为不透明值。对这些值唯一可用的操作是下面介绍的 `ticks_diff()` "
+"和 `ticks_add()` 函数。"
 
 #: ../../source/system/time.rst:164 36b2604b1ada4b728d2aff1236493e9b
 msgid ""
@@ -322,7 +343,9 @@ msgid ""
 "result. Performing mathematical operations and then passing their results"
 " as arguments to `ticks_diff()` or `ticks_add()` will also lead to "
 "invalid results from the latter functions."
-msgstr "注意：直接对这些值执行标准算术运算（+、-）或关系运算符（<、<=、>、>=）会导致错误结果。先做算术运算再将结果作为参数传给 `ticks_diff()` 或 `ticks_add()` 也会导致这些函数返回错误结果。"
+msgstr ""
+"注意：直接对这些值执行标准算术运算（+、-）或关系运算符（<、<=、>、>=）会导致错误结果。先做算术运算再将结果作为参数传给 "
+"`ticks_diff()` 或 `ticks_add()` 也会导致这些函数返回错误结果。"
 
 #: ../../source/system/time.rst:172 ../../source/system/time.rst:180
 #: 3def4727973b4ce0be8aa9993b22fa1d 3f54b7ac95454b1e906284cb10d0a07b
@@ -349,7 +372,11 @@ msgid ""
 "specific port may provide more specific information. This function is "
 "intended for very \\ fine benchmarking or very tight real-time loops. "
 "Avoid using it in portable code."
-msgstr "类似于 `ticks_ms()` 和 `ticks_us()`，但具有系统中尽可能高的分辨率。通常使用的是 CPU 时钟，这也是该函数命名的原因。但它不一定必须是 CPU 时钟，也可以使用系统中其它可用的高分辨率计时源（例如高精度定时器）。该函数的精确时间单位（分辨率）在 ``time`` 模块层面未做规定，但特定移植版本的文档可能会给出更具体的信息。该函数适用于非常精细的基准测试或非常紧凑的实时循环。请避免在可移植代码中使用它。"
+msgstr ""
+"类似于 `ticks_ms()` 和 `ticks_us()`，但具有系统中尽可能高的分辨率。通常使用的是 CPU "
+"时钟，这也是该函数命名的原因。但它不一定必须是 CPU "
+"时钟，也可以使用系统中其它可用的高分辨率计时源（例如高精度定时器）。该函数的精确时间单位（分辨率）在 ``time`` "
+"模块层面未做规定，但特定移植版本的文档可能会给出更具体的信息。该函数适用于非常精细的基准测试或非常紧凑的实时循环。请避免在可移植代码中使用它。"
 
 #: ../../source/system/time.rst:194 e2bcfce10f064b2483fefd981588706b
 msgid "Availability: Not every port implements this function."
@@ -375,11 +402,16 @@ msgid ""
 "expression. `ticks_add()` is useful for calculating deadlines for "
 "events/tasks. (Note: you must use `ticks_diff()` function to work with "
 "deadlines.)"
-msgstr "将 ticks 值按给定的偏移量进行平移，该偏移量可以为正也可以为负。给定一个 *ticks* 值，该函数允许根据模运算定义（见上文 `ticks_ms()`）计算在该值之前或之后 *delta* 个 ticks 的值。*ticks* 参数必须是 `ticks_ms()`、`ticks_us()` 或 `ticks_cpu()` 函数（或前一次 `ticks_add()` 调用）直接返回的结果。然而，*delta* 可以是任意整数或数值表达式。`ticks_add()` 适用于计算事件/任务的截止时间。（注意：你必须使用 `ticks_diff()` 函数来处理这些截止时间。）"
+msgstr ""
+"将 ticks 值按给定的偏移量进行平移，该偏移量可以为正也可以为负。给定一个 *ticks* 值，该函数允许根据模运算定义（见上文 "
+"`ticks_ms()`）计算在该值之前或之后 *delta* 个 ticks 的值。*ticks* 参数必须是 "
+"`ticks_ms()`、`ticks_us()` 或 `ticks_cpu()` 函数（或前一次 `ticks_add()` "
+"调用）直接返回的结果。然而，*delta* 可以是任意整数或数值表达式。`ticks_add()` "
+"适用于计算事件/任务的截止时间。（注意：你必须使用 `ticks_diff()` 函数来处理这些截止时间。）"
 
 #: ../../source/system/time.rst:212 ca69d3d7bad7423c8bd3b4df7da157aa
 msgid "Examples::"
-msgstr ""
+msgstr "示例："
 
 #: ../../source/system/time.rst:228 f14e0fc453e24016ac596635bf604607
 msgid "|ticks_add.png|"
@@ -394,7 +426,9 @@ msgid ""
 "Measure ticks difference between values returned from `ticks_ms()`, "
 "`ticks_us()`, or `ticks_cpu()` functions, as a signed value which may "
 "wrap around."
-msgstr "计算由 `ticks_ms()`、`ticks_us()` 或 `ticks_cpu()` 函数返回值之间的差值，并以有符号数形式返回，该值可能会发生回绕。"
+msgstr ""
+"计算由 `ticks_ms()`、`ticks_us()` 或 `ticks_cpu()` "
+"函数返回值之间的差值，并以有符号数形式返回，该值可能会发生回绕。"
 
 #: ../../source/system/time.rst:236 28a03977636c4981b80d4ee3a25cd8b3
 msgid ""
@@ -417,7 +451,17 @@ msgid ""
 "However, if *TICKS_PERIOD/2* of real-time ticks has passed between them, "
 "the function will return *-TICKS_PERIOD/2* instead, i.e. result value "
 "will wrap around to the negative range of possible values."
-msgstr "参数顺序与减法运算符相同，``ticks_diff(ticks1, ticks2)`` 的含义等同于 ``ticks1 - ticks2``。然而，由 `ticks_ms()` 等函数返回的值可能发生回绕，直接对它们做减法会产生错误结果。这就是需要 `ticks_diff()` 的原因：它实现了模（更具体地说是环）运算，即使在值发生回绕时（只要它们之间的间隔不太大，见下文），也能给出正确结果。该函数返回范围为 [*-TICKS_PERIOD/2* .. *TICKS_PERIOD/2-1*] 的**有符号**值（这是二进制补码有符号整数的典型取值范围）。如果结果为负，表示 *ticks1* 发生在 *ticks2* 之前；否则表示 *ticks1* 发生在 *ticks2* 之后。这**仅在** *ticks1* 和 *ticks2* 之间相隔不超过 *TICKS_PERIOD/2-1* 个 ticks 时成立。如果不满足该条件，将返回错误结果。具体来说，如果两个 tick 值相隔 *TICKS_PERIOD/2-1* 个 ticks，函数会返回该值。但如果两次调用之间实际经过了 *TICKS_PERIOD/2* 个实时 ticks，函数则会返回 *-TICKS_PERIOD/2*，即结果会回绕到可能取值的负区间。"
+msgstr ""
+"参数顺序与减法运算符相同，``ticks_diff(ticks1, ticks2)`` 的含义等同于 ``ticks1 - "
+"ticks2``。然而，由 `ticks_ms()` 等函数返回的值可能发生回绕，直接对它们做减法会产生错误结果。这就是需要 "
+"`ticks_diff()` "
+"的原因：它实现了模（更具体地说是环）运算，即使在值发生回绕时（只要它们之间的间隔不太大，见下文），也能给出正确结果。该函数返回范围为 "
+"[*-TICKS_PERIOD/2* .. *TICKS_PERIOD/2-1*] "
+"的**有符号**值（这是二进制补码有符号整数的典型取值范围）。如果结果为负，表示 *ticks1* 发生在 *ticks2* 之前；否则表示 "
+"*ticks1* 发生在 *ticks2* 之后。这**仅在** *ticks1* 和 *ticks2* 之间相隔不超过 "
+"*TICKS_PERIOD/2-1* 个 ticks 时成立。如果不满足该条件，将返回错误结果。具体来说，如果两个 tick 值相隔 "
+"*TICKS_PERIOD/2-1* 个 ticks，函数会返回该值。但如果两次调用之间实际经过了 *TICKS_PERIOD/2* 个实时 "
+"ticks，函数则会返回 *-TICKS_PERIOD/2*，即结果会回绕到可能取值的负区间。"
 
 #: ../../source/system/time.rst:256 df472bd7797b4dd8ab53c33f1863f2c6
 msgid ""
@@ -430,7 +474,10 @@ msgid ""
 "should do the same. \"Too long sleep\" metaphor also maps directly to "
 "application behaviour: don't let your application run any single task for"
 " too long. Run tasks in steps, and do time-keeping inbetween."
-msgstr "上述约束条件背后的非正式理由是这样的：假设你被关在一个房间里，监测时间流逝的唯一工具是一只标准的 12 刻度钟表。如果你现在看了一眼表盘，然后在 13 小时内都没有再看（例如，你睡了很久），当你再次看表时，可能会误以为只过去了 1 小时。为了避免这种错误，你应该定期查看钟表。你的应用程序也应该如此。“睡得太久”的比喻可以直接映射到应用行为：不要让应用中的任何单个任务运行得太久。应当将任务拆分成多个步骤，并在其间进行时间记录。"
+msgstr ""
+"上述约束条件背后的非正式理由是这样的：假设你被关在一个房间里，监测时间流逝的唯一工具是一只标准的 12 刻度钟表。如果你现在看了一眼表盘，然后在 "
+"13 小时内都没有再看（例如，你睡了很久），当你再次看表时，可能会误以为只过去了 1 "
+"小时。为了避免这种错误，你应该定期查看钟表。你的应用程序也应该如此。“睡得太久”的比喻可以直接映射到应用行为：不要让应用中的任何单个任务运行得太久。应当将任务拆分成多个步骤，并在其间进行时间记录。"
 
 #: ../../source/system/time.rst:266 3e16dbe1816d43c297c6eb09bd974f40
 msgid ""
@@ -456,7 +503,9 @@ msgid ""
 "normal mathematical operations on them. But note that `time()` may (and "
 "will) also overflow. This is known as "
 "https://en.wikipedia.org/wiki/Year_2038_problem ."
-msgstr "注意：不要将 `time()` 的返回值传给 `ticks_diff()`，你应该对它们使用普通的数学运算。但也要注意，`time()` 也可能（并且将会）溢出。这就是著名的 https://en.wikipedia.org/wiki/Year_2038_problem 。"
+msgstr ""
+"注意：不要将 `time()` 的返回值传给 `ticks_diff()`，你应该对它们使用普通的数学运算。但也要注意，`time()` "
+"也可能（并且将会）溢出。这就是著名的 https://en.wikipedia.org/wiki/Year_2038_problem 。"
 
 #: ../../source/system/time.rst:301 9dc57f41418f44f296d5a01f94504120
 msgid "|ticks_diff.png|"
@@ -478,7 +527,12 @@ msgid ""
 "timestamps, use `time_ns()`.  If relative times are acceptable then use "
 "the `ticks_ms()` and `ticks_us()` functions.  If you need calendar time, "
 "`gmtime()` or `localtime()` without an argument is a better choice."
-msgstr "返回自时间纪元以来的秒数（整数），前提是底层 RTC 已按前文所述正确设置并维护。如果未设置 RTC，则该函数返回自端口特定参考时间点以来的秒数（对于没有电池供电 RTC 的嵌入式开发板，通常是自上电或复位以来）。如果你希望编写可移植的 MicroPython 应用，不应依赖该函数提供高于秒级的精度。若需要更高精度的绝对时间戳，请使用 `time_ns()`。如果只需要相对时间，请使用 `ticks_ms()` 和 `ticks_us()`。如果需要日历时间，调用不带参数的 `gmtime()` 或 `localtime()` 会是更好的选择。"
+msgstr ""
+"返回自时间纪元以来的秒数（整数），前提是底层 RTC 已按前文所述正确设置并维护。如果未设置 "
+"RTC，则该函数返回自端口特定参考时间点以来的秒数（对于没有电池供电 RTC 的嵌入式开发板，通常是自上电或复位以来）。如果你希望编写可移植的 "
+"MicroPython 应用，不应依赖该函数提供高于秒级的精度。若需要更高精度的绝对时间戳，请使用 "
+"`time_ns()`。如果只需要相对时间，请使用 `ticks_ms()` 和 `ticks_us()`。如果需要日历时间，调用不带参数的 "
+"`gmtime()` 或 `localtime()` 会是更好的选择。"
 
 #: ../../source/system/time.rst:316 4b38cd66e3b6480584c544c5c36dd5d0
 msgid "Difference to CPython"
@@ -495,7 +549,11 @@ msgid ""
 "second precision. Some embedded hardware also lacks battery-powered RTC, "
 "so returns number of seconds since last power-up or from other relative, "
 "hardware-specific point(e.g. reset)."
-msgstr "在 CPython 中，该函数返回自 Unix 纪元（1970-01-01 00:00 UTC）以来的秒数，类型为浮点数，通常具有微秒级精度。在 MicroPython 中，只有 Unix 端口使用相同的纪元，并且在浮点精度允许的情况下返回子秒级精度。嵌入式硬件通常没有足够的浮点精度同时表示很长的时间范围和子秒精度，因此会使用秒级精度的整数值。一些嵌入式硬件也缺少电池供电的 RTC，因此会返回自上次上电或其它相对且与硬件相关的时间点（例如复位）以来的秒数。"
+msgstr ""
+"在 CPython 中，该函数返回自 Unix 纪元（1970-01-01 00:00 UTC）以来的秒数，类型为浮点数，通常具有微秒级精度。在 "
+"MicroPython 中，只有 Unix "
+"端口使用相同的纪元，并且在浮点精度允许的情况下返回子秒级精度。嵌入式硬件通常没有足够的浮点精度同时表示很长的时间范围和子秒精度，因此会使用秒级精度的整数值。一些嵌入式硬件也缺少电池供电的"
+" RTC，因此会返回自上次上电或其它相对且与硬件相关的时间点（例如复位）以来的秒数。"
 
 #: ../../source/system/time.rst:332 7da395a7708e404593cef61c186b9493
 msgid "|time.png|"

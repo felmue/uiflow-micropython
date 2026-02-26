@@ -30,7 +30,7 @@ msgstr "M5 系列显示库说明"
 
 #: ../../en/widgets/index.rst:13 1194bbb7dbc24b6ea1a4803519f3147c
 msgid "1. Display"
-msgstr ""
+msgstr "1. 显示"
 
 #: ../../en/widgets/index.rst:14 c366ea5653cb4448ba7712c0a343ae73
 msgid ""
@@ -46,7 +46,7 @@ msgstr "可独立使用，适合只需要绘制图形或文字的场景。"
 
 #: ../../en/widgets/index.rst:18 ef160a506adc4a20bc8044179b754f84
 msgid "2. M5Widgets"
-msgstr ""
+msgstr "2. M5Widgets"
 
 #: ../../en/widgets/index.rst:19 08e6ae4be55c447da6cb5d6fbb372523
 msgid ""
@@ -64,7 +64,7 @@ msgstr "适合需要简单交互控件的界面。"
 
 #: ../../en/widgets/index.rst:24 e5171bb5996145b8a7e9daeeecb4260d
 msgid "3. M5UI"
-msgstr ""
+msgstr "3. M5UI"
 
 #: ../../en/widgets/index.rst:25 11b4f35350154c17a0a2c9034b8b2d4d
 msgid "A high-level UI framework based on LVGL."
@@ -120,7 +120,7 @@ msgstr ""
 
 #: ../../en/widgets/index.rst:51 b857983e661c4217aab0932bc47982a6
 msgid "Screen functions"
-msgstr ""
+msgstr "\"\"\"Screen 函数\"\"\""
 
 #: ../../en/widgets/index.rst:55 af0ca7284ee142e183750c679052e2d7
 msgid "Set the backlight of the monitor。``brightness`` ranges from 0 to 255."

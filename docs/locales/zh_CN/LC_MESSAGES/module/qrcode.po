@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/qrcode.rst:2 0937a2e31ff44d3b8d8ada7421c1c45a
 msgid "QRCode Module"
-msgstr ""
+msgstr "QRCode 模块。"
 
 #: ../../en/module/qrcode.rst:8 c5bea96a5efd41c8a885af3d79051838
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../en/refs/module.qrcode.ref d48c4ba037a44d138b0792d092640c2f
 msgid "Module13.2 QRCode"
-msgstr ""
+msgstr "Module13.2 二维码"
 
 #: ../../en/module/qrcode.rst:15 f4855820de604a3d9e71e4331f81b21e
 msgid "UiFlow2 Example:"
@@ -366,28 +366,31 @@ msgid ""
 " read time limit is reached. - ``TRIGGER_MODE_MOTION_SENSING``: Motion "
 "Sensing Mode, Uses image recognition; decoding starts when a scene change"
 " is detected."
-msgstr "触发模式，可选项： - ``TRIGGER_MODE_KEY``: 按键模式，触发引脚低电平开始解码，高电平停止解码。"
-" - ``TRIGGER_MODE_CONTINUOUS``: 连续模式: 调用 start_decode() 开始解码，调用 stop_decode() 停止解码。"
-" - ``TRIGGER_MODE_AUTO``: 自动模式: 上电开始解码，不可停止。"
-" - ``TRIGGER_MODE_PULSE``: 脉冲模式，触发引脚 20ms 以上低电平触发一次解码。"
-" - ``TRIGGER_MODE_MOTION_SENSING``: 移动感应模式，使用图像检测，当检测到场景发生变化时触发解码。"
+msgstr ""
+"触发模式，可选项： - ``TRIGGER_MODE_KEY``: 按键模式，触发引脚低电平开始解码，高电平停止解码。 - "
+"``TRIGGER_MODE_CONTINUOUS``: 连续模式: 调用 start_decode() 开始解码，调用 "
+"stop_decode() 停止解码。 - ``TRIGGER_MODE_AUTO``: 自动模式: 上电开始解码，不可停止。 - "
+"``TRIGGER_MODE_PULSE``: 脉冲模式，触发引脚 20ms 以上低电平触发一次解码。 - "
+"``TRIGGER_MODE_MOTION_SENSING``: 移动感应模式，使用图像检测，当检测到场景发生变化时触发解码。"
 
 #: ../../en/module/qrcode.rst:255 6a58b9fd7069460e83cebe10c6cc8a10
 msgid "The trigger mode. Available options:"
-msgstr ""
+msgstr "触发模式。可用选项："
 
 #: ../../en/module/qrcode.rst:257 7240a63db2e845d28053c4c02415265d
 msgid ""
 "``TRIGGER_MODE_KEY``: Key Mode, Triggers a single decode; decoding stops "
 "after a successful read."
-msgstr "``TRIGGER_MODE_KEY``: 按键模式，触发引脚低电平开始解码，高电平停止解码。""
+msgstr "``TRIGGER_MODE_KEY``: 按键模式，触发引脚低电平开始解码，高电平停止解码。\""
 
 #: ../../en/module/qrcode.rst:258 f9aa5a8ce6ff4c9292d4a4e36029720f
 msgid ""
 "``TRIGGER_MODE_CONTINUOUS``: Continuous Mode, Triggers continuous "
 "decoding; decoding continues even after a successful read and stops only "
 "when triggered again."
-msgstr "``TRIGGER_MODE_CONTINUOUS``: 连续模式: 调用 start_decode() 开始解码，调用 stop_decode() 停止解码。"
+msgstr ""
+"``TRIGGER_MODE_CONTINUOUS``: 连续模式: 调用 start_decode() 开始解码，调用 "
+"stop_decode() 停止解码。"
 
 #: ../../en/module/qrcode.rst:259 3b4aee48c2d94e4aa3b8e2dcc581e541
 msgid ""
@@ -568,8 +571,9 @@ msgid ""
 "The fill light mode. Available options:  - ``FILL_LIGHT_OFF``: Light off."
 " - ``FILL_LIGHT_ON``: Light on. - ``FILL_LIGHT_ON_DECODE``: Light on "
 "during decoding."
-msgstr "补光灯模式，可选项：- ``FILL_LIGHT_OFF``: 常灭。"
-" - ``FILL_LIGHT_ON``: 常亮。 - ``FILL_LIGHT_ON_DECODE``: 解码时亮。"
+msgstr ""
+"补光灯模式，可选项：- ``FILL_LIGHT_OFF``: 常灭。 - ``FILL_LIGHT_ON``: 常亮。 - "
+"``FILL_LIGHT_ON_DECODE``: 解码时亮。"
 
 #: ../../en/module/qrcode.rst:407 3403058ab58a48fabef5521109be4ce9
 msgid "The fill light mode. Available options:"
@@ -620,8 +624,9 @@ msgid ""
 "The positioning light mode. Available options:  - ``POS_LIGHT_OFF``: "
 "Light off. - ``POS_LIGHT_ON_DECODE``: Light on during decoding. - "
 "``POS_LIGHT_FLASH_ON_DECODE``: Light flash during decoding."
-msgstr "定位灯模式，可选项： - ``POS_LIGHT_OFF``: 常灭。"
-" - ``POS_LIGHT_ON_DECODE``: 解码时亮。 - ``POS_LIGHT_FLASH_ON_DECODE``: 解码时闪烁。"
+msgstr ""
+"定位灯模式，可选项： - ``POS_LIGHT_OFF``: 常灭。 - ``POS_LIGHT_ON_DECODE``: 解码时亮。 - "
+"``POS_LIGHT_FLASH_ON_DECODE``: 解码时闪烁。"
 
 #: ../../en/module/qrcode.rst:443 e6f871a5b5294cf2b12fd4b6360f4d0e
 msgid "The positioning light mode. Available options:"
@@ -751,7 +756,7 @@ msgstr ""
 
 #: ../../en/module/qrcode.rst:525 bc3a96b96dac45f6b08d22e5c54d6865
 msgid "``0``: No protocol"
-msgstr "`0``: 无协议 ""
+msgstr "`0``: 无协议 \""
 
 #: ../../en/module/qrcode.rst:526 e3bac21632a048b49697aa294f1c1d78
 msgid "``1``: Format 1: [0x03] + Data Length (2 bytes) + Data"
@@ -782,4 +787,4 @@ msgstr ""
 #: ../../en/refs/module.qrcode.ref:27 0c6a69771ffb47e2b51710c95ffffef3
 msgid "set_protocol_format.png"
 msgstr ""
- 
+

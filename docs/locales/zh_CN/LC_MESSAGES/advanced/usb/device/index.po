@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../en/advanced/usb/device/index.rst:2 9b658c6291364b61bdbec95b7ef585f4
 msgid "USB Device"
-msgstr ""
+msgstr "USB 设备"
 
 #: ../../en/advanced/usb/device/index.rst:6 c89d24dc707d4447a22eafcdba1eac2a
 msgid "usb device support."
-msgstr ""
+msgstr "USB 设备支持。"
 
 #: ../../en/advanced/usb/device/index.rst:9 287246b387c14be082bfeb104b807d94
 msgid "Modules"

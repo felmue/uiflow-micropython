@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/bala2.rst:2 1f100ba2d6a845f08751d3b0acafb3d7
 msgid "Bala2 Module"
-msgstr ""
+msgstr "Bala2 模块"
 
 #: ../../en/module/bala2.rst:8 70bc6d6d350549d2842601a75f0df888
 msgid ""
@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../en/refs/module.bala2.ref 248a8c1303214b0886915be678bed03c
 msgid "Bala2"
-msgstr ""
+msgstr "Bala2"
 
 #: ../../en/module/bala2.rst:14 4e2b3007cb3a4038bc282102859db468
 msgid "|Bala2-Fire|"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../en/refs/module.bala2.ref a0939d190b764e59ad000ffb6dbc45bb
 msgid "Bala2-Fire"
-msgstr ""
+msgstr "Bala2-Fire"
 
 #: ../../en/module/bala2.rst:18 5a43c93011b64b9eb65f3954d07987ff
 msgid "UiFlow2 Example"
@@ -449,7 +449,7 @@ msgstr "角度环 PID 参数以三元组的形式返回。"
 #: ../../en/module/bala2.rst:318 ../../en/module/bala2.rst:386
 #: 07ef38aa74904648927634bb1596a470 d8f49735dc844a92ba6201df82561a4b
 msgid "kp, ki, kd parameters"
-msgstr ""
+msgstr "kp、ki、kd 参数"
 
 #: ../../en/module/bala2.rst:323 da3d2a4e5ebb4b668b51687363fbf9a7
 msgid "|get_angle_pid.png|"

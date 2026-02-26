@@ -22,16 +22,15 @@ msgstr ""
 
 #: ../../en/advanced/dl.rst:2 0adc36e72a7445f1998c3f59068b7b20
 msgid "dl --- deep learning"
-msgstr ""
+msgstr "dl --- 深度学习"
 
 #: ../../en/advanced/dl.rst:6 92885139b08a418ebb44ca76535d14dc
 msgid "This module is only applicable to the CoreS3 Controller"
 msgstr "当前模块只适用于 CoreS3 主机"
 
 #: ../../en/advanced/dl.rst:13 f5b4dcdc3db4439a845e19731c5e20c5
-#, fuzzy
 msgid "UiFlow2 Example"
-msgstr "UIFlow2.0 案例"
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/advanced/dl.rst:16 ../../en/advanced/dl.rst:80
 #: cdad876619c740f49f6341d0a5e6bff8 e0e940e0b264401b93990c8882d48df6
@@ -40,7 +39,7 @@ msgstr "人脸检测"
 
 #: ../../en/advanced/dl.rst:18 b22e8a0c8a504469919f665234f50f9b
 msgid "Open the |cores3_example_human_face_detect.m5f2| project in UiFlow2."
-msgstr ""
+msgstr "在 UiFlow2 中打开 |cores3_example_human_face_detect.m5f2| 项目。"
 
 #: ../../en/advanced/dl.rst:20 d4e3d1e04c0a42d68930e260aee9b702
 msgid ""
@@ -48,7 +47,7 @@ msgid ""
 " from the camera feed. When a face is detected, a bounding box is drawn "
 "on the screen to mark the face's position, providing an intuitive "
 "visualization of the detection results."
-msgstr ""
+msgstr "该示例使用人脸检测算法，从摄像头画面中实时检测人脸。当检测到人脸时，会在屏幕上绘制一个边界框以标记人脸的位置，从而直观地显示检测结果。"
 
 #: ../../en/advanced/dl.rst:25 ../../en/advanced/dl.rst:44
 #: ../../en/advanced/dl.rst:67 ../../en/advanced/dl.rst:135
@@ -71,7 +70,7 @@ msgstr ""
 #: bc0dcec7abf941b28dad6cda9905304e c662d826b37640069eaf50e9e099ba58
 #: d0a5524802c44919ab25bec52790a276 f1e9bd7bb20a4184802c8db3599e609f
 msgid "UiFlow2 Code Block:"
-msgstr ""
+msgstr "UiFlow2 代码块："
 
 #: ../../en/advanced/dl.rst:27 b80d40ea807e468abcc81ea3449ea76a
 msgid "|human_face_detect_example.png|"
@@ -88,7 +87,7 @@ msgstr ""
 #: 95c538bcea874420b14c9d3ce9eec21d b3493b37edf8417096c0606be043a5ea
 #: d3507bc2432e4a9c8f6cfc52b87aff9e e6fa5aa841ec4be9b6a94bab0dc65d36
 msgid "Example output:"
-msgstr ""
+msgstr "示例输出："
 
 #: ../../en/advanced/dl.rst:31 ../../en/advanced/dl.rst:50
 #: ../../en/advanced/dl.rst:73 ../../en/advanced/dl.rst:91
@@ -106,7 +105,7 @@ msgstr "行人检测"
 
 #: ../../en/advanced/dl.rst:37 1bad0ac794154af897ca37115ebb100c
 msgid "Open the |cores3_example_pedestrian_detect.m5f2| project in UiFlow2."
-msgstr ""
+msgstr "在 UiFlow2 中打开 |cores3_example_pedestrian_detect.m5f2| 项目。"
 
 #: ../../en/advanced/dl.rst:39 5e130d1e9c864b539f8eb1b6c887fa05
 msgid ""
@@ -114,7 +113,7 @@ msgid ""
 "targets in real time from the camera feed. When a pedestrian is detected,"
 " a bounding box is drawn on the screen to highlight the pedestrian's "
 "position, providing an intuitive demonstration of the detection results."
-msgstr ""
+msgstr "该示例使用行人检测算法从摄像头画面中实时检测行人目标。当检测到行人时，会在屏幕上绘制边界框以突出显示行人位置，从而直观展示检测结果。"
 
 #: ../../en/advanced/dl.rst:46 636c65ad64d547b1a771e8dce05f05f1
 msgid "|pedestrian_detect_example.png|"
@@ -131,7 +130,7 @@ msgstr "人脸识别"
 
 #: ../../en/advanced/dl.rst:55 916ba375157a4f5a9964d4fc8c021833
 msgid "Open the |cores3_example_human_face_recognition.m5f2| project in UiFlow2."
-msgstr ""
+msgstr "在 UiFlow2 中打开 |cores3_example_human_face_recognition.m5f2| 项目。"
 
 #: ../../en/advanced/dl.rst:57 21839992474848a0adc7810f861c124b
 msgid ""
@@ -139,19 +138,21 @@ msgid ""
 "<https://docs.m5stack.com/en/core/CoreS3>`_ and the `Unit Dual Button "
 "<https://docs.m5stack.com/en/unit/dual_button>`_."
 msgstr ""
+"要运行该示例，你需要 `CoreS3 <https://docs.m5stack.com/en/core/CoreS3>`_ 和 `Unit "
+"Dual Button <https://docs.m5stack.com/en/unit/dual_button>`_。"
 
 #: ../../en/advanced/dl.rst:60 0bb99911d13548c983d40d9cdc0daec1
 msgid ""
 "This example uses a face recognition algorithm to detect faces in real "
 "time from the camera feed."
-msgstr ""
+msgstr "该示例使用人脸识别算法从摄像头画面中实时检测人脸。"
 
 #: ../../en/advanced/dl.rst:63 333525ec65c44427bde039f25d54f553
 msgid ""
 "By pressing different buttons, you can either enroll new face data or "
 "perform face recognition. The detected faces and recognition results are "
 "displayed on the screen with bounding boxes."
-msgstr ""
+msgstr "通过按下不同的按钮，你可以录入新的人脸数据或进行人脸识别。检测到的人脸和识别结果会以边界框的形式显示在屏幕上。"
 
 #: ../../en/advanced/dl.rst:69 58d246b8c8b948db930fd9eb72961209
 msgid "|human_face_recognition_example.png|"
@@ -167,17 +168,16 @@ msgstr "Micropython 案例"
 
 #: ../../en/advanced/dl.rst:83 ../../en/advanced/dl.rst:96
 #: ../../en/advanced/dl.rst:110 93ec7127e6e84ae29c5c0c5b5bd9a4d8
-#, fuzzy
 msgid "MicroPython Code Block:"
-msgstr "Micropython 案例"
+msgstr "MicroPython 代码块："
 
 #: ../../en/advanced/dl.rst:122 ddb66941acea4093a342f7c997497750
 msgid "Funtions"
-msgstr ""
+msgstr "Funtions"
 
 #: ../../en/advanced/dl.rst:126 b3b188566fa04d8d979d87e595aa6567
 msgid "Create an object detector instance."
-msgstr ""
+msgstr "创建一个对象检测器实例。"
 
 #: ../../en/advanced/dl.rst c2e93afe726b4dacb39ae02a4989da03
 msgid "Parameters"
@@ -209,7 +209,7 @@ msgstr ""
 
 #: ../../en/advanced/dl.rst:139 3633e618d0714096b794be7bcab44e91
 msgid "**Example**::"
-msgstr ""
+msgstr "**示例**::"
 
 #: ../../en/advanced/dl.rst:146 a2230e44146b4da6884c551f5d92338d
 msgid "Create a human face recognizer instance."
@@ -229,7 +229,7 @@ msgstr ""
 
 #: ../../en/advanced/dl.rst:156 cab4c806fad4463a90a75cfd27cc9fa3
 msgid "class ObjectDetector"
-msgstr ""
+msgstr "class ObjectDetector"
 
 #: ../../en/advanced/dl.rst:158 2770e6871d1e45f2b31fc162e42805e7
 msgid "The ObjectDetector object is returned by `dl.ObjectDetector(model)`."
@@ -249,7 +249,7 @@ msgstr ""
 
 #: ../../en/advanced/dl.rst:170 96976a8f378d461cb32ac834b70fd9bb
 msgid "class HumanFaceRecognizer"
-msgstr ""
+msgstr "class HumanFaceRecognizer"
 
 #: ../../en/advanced/dl.rst:172 ba5fe84c548940ae8109c2bab04326d4
 msgid "The HumanFaceRecognizer object is returned by `dl.HumanFaceRecognizer()`."
@@ -295,7 +295,7 @@ msgstr ""
 
 #: ../../en/advanced/dl.rst:197 030d75265d84488791bd7c4dd3ed8d52
 msgid "enroll id"
-msgstr ""
+msgstr "注册 ID。"
 
 #: ../../en/advanced/dl.rst:204 160731ee5d2c4b758cbda570941813e5
 msgid "|enroll_id.png|"
@@ -307,13 +307,13 @@ msgstr ""
 
 #: ../../en/advanced/dl.rst:208 3eda184de7f848f2ad37c9e3a17f5924
 msgid "delete id"
-msgstr ""
+msgstr "删除 id。"
 
 #: ../../en/advanced/dl.rst:210 32b1dcd2b01a4d05a738cd95fd4c9994
 msgid ""
 "id is an optional parameter. If provided, it deletes the specified face "
 "information. By default, it deletes the most recently recorded id."
-msgstr "``id`` 为可选参数，输入 ``id`` 为删除指定的人脸信息，默认为删除最近一次录入的 ``id``。"
+msgstr "id 是一个可选参数。如果提供此参数，则会删除指定的面部信息。默认情况下，它会删除最近记录的 id。"
 
 #: ../../en/advanced/dl.rst:214 3e2b7cbe29c849519debd5fba0c32e43
 msgid "|delete_id.png|"
@@ -345,7 +345,7 @@ msgstr ""
 
 #: ../../en/advanced/dl.rst:228 dc774aca3e0348b4a9d5fdaf6c043649
 msgid "class DetectionResult -- DetectionResult object"
-msgstr ""
+msgstr "class DetectionResult —— DetectionResult 对象"
 
 #: ../../en/advanced/dl.rst:230 7f0b80e2b0f340b2b5fdcf83b5200bf9
 msgid "The line object is returned by `ObjectDetector.infer()`."
@@ -427,7 +427,7 @@ msgstr ""
 msgid ""
 "Keypoint information (currently, only the face detection model outputs "
 "this data):"
-msgstr "关键点信息(当前只有人脸检测模型输出包含此数据)"
+msgstr "关键点信息（目前只有人脸检测模型输出此数据）："
 
 #: ../../en/advanced/dl.rst:284 9557e0c64f96463d8374c2d1c54eadb6
 msgid "``keypoint()[0], keypoint()[1]`` are the coordinates of the left eye."
@@ -463,19 +463,19 @@ msgstr ""
 
 #: ../../en/advanced/dl.rst:296 d513bbc502154cc29c308b3a0d45f9c6
 msgid "class RecognitionResult -- RecognitionResult object"
-msgstr ""
+msgstr "class RecognitionResult -- RecognitionResult 对象"
 
 #: ../../en/advanced/dl.rst:298 9c980b0815c04c099229c1f668faa569
 msgid ""
 "The ``RecognitionResult`` is returned by "
 "`HumanFaceRecognizer.recognize(img, keypoint)`."
-msgstr "``DetectionResult`` 对象由 HumanFaceRecognizer.recognize(img, keypoint) 返"
+msgstr "``RecognitionResult`` 由 `HumanFaceRecognizer.recognize(img, keypoint)` 返回。"
 
 #: ../../en/advanced/dl.rst:302 ac7ddafd708a4803b63be7acb2828eb2
 msgid ""
 "Gets the face similarity, with a value closer to 1 indicating higher "
 "similarity."
-msgstr "获取人脸相似度，越接近1表示相似度越高。"
+msgstr "计算人脸相似度，数值越接近 1 表示相似度越高。"
 
 #: ../../en/advanced/dl.rst:306 449101af0cf149f2b34aa6b0ce63babd
 msgid "|similarity.png|"
@@ -489,7 +489,7 @@ msgstr ""
 msgid ""
 "Gets the face ID. A value greater than 0 indicates that the face "
 "recognition was successful."
-msgstr "获取人脸id，大于0表示人脸识别成功。"
+msgstr "获取人脸ID。大于0的值表示人脸识别成功。"
 
 #: ../../en/advanced/dl.rst:314 c7cefb7579884ebd81d3e7c179b3cbfe
 msgid "|id.png|"

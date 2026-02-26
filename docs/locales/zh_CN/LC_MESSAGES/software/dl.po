@@ -22,34 +22,34 @@ msgstr ""
 
 #: ../../en/software/dl.rst:2 300e9813d0494afcb9b6d79b9feb4871
 msgid ":mod:`dl` --- deep learning"
-msgstr ""
+msgstr ":mod:`dl` --- 深度学习"
 
 #: ../../en/software/dl.rst:6 60a533ee55b84a42abefaed1b16a14b3
 msgid "This module is only applicable to the CoreS3 Controller"
-msgstr ""
+msgstr "该模块仅适用于 CoreS3 Controller。"
 
 #: ../../en/software/dl.rst:12 4244b8d43d31441f8681ba85a21e6c09
 msgid "Micropython Example"
-msgstr ""
+msgstr "MicroPython 应用示例"
 
 #: ../../en/software/dl.rst:15 ../../en/software/dl.rst:41
 #: 2edfb020ce324353a6c1823cc272c430 e4fc8a3221a44371a35105952dd620fd
 msgid "human face detect"
-msgstr ""
+msgstr "人脸检测"
 
 #: ../../en/software/dl.rst:23 ../../en/software/dl.rst:50
 #: 422eb3af97c54b6dac201741d955bb5c f2edb87072d0461e8b169e629ab8f4d5
 msgid "pedestrain detect"
-msgstr ""
+msgstr "行人检测"
 
 #: ../../en/software/dl.rst:30 ../../en/software/dl.rst:59
 #: 2af3f04c1b9746fa81c20678d0af2cdb eb4ba6da73274bf8bbbe48ab9d4c273d
 msgid "human face recognition"
-msgstr ""
+msgstr "人脸识别"
 
 #: ../../en/software/dl.rst:38 bd319e3896944f0eadd7fe3addec612d
 msgid "UIFlow2.0 Example"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/software/dl.rst:43 b9a3d29c62a844ce80101bfc38df0e9b
 msgid "|human_face_detect_example.png|"
@@ -89,11 +89,11 @@ msgstr ""
 
 #: ../../en/software/dl.rst:68 43e65b0f290e45b6bfe3c63d3475b534
 msgid "Funtions"
-msgstr ""
+msgstr "函数"
 
 #: ../../en/software/dl.rst:72 44ff361fe24348ae9d63839929a9565d
 msgid "Create an object detector instance."
-msgstr ""
+msgstr "创建一个对象检测器实例。"
 
 #: ../../en/software/dl.rst a2ba29cdcff846fb8e26c2b7f6da8fa3
 msgid "Parameters"
@@ -101,19 +101,19 @@ msgstr ""
 
 #: ../../en/software/dl.rst:74 d15be550a10e4912821fb8417df7a3c1
 msgid "Load a detection model. Supported values:"
-msgstr ""
+msgstr "加载检测模型。支持的值："
 
 #: ../../en/software/dl.rst:76 7bd712693b9044d8b3e25f77c28df918
 msgid "``dl.model.HUMAN_FACE_DETECT``: Human face detection."
-msgstr ""
+msgstr "``dl.model.HUMAN_FACE_DETECT``：人脸检测。"
 
 #: ../../en/software/dl.rst:77 99be7ee253f940d8b0e735c9a32a2a83
 msgid "``dl.model.PEDESTRIAN_DETECT``: Pedestrian detection."
-msgstr ""
+msgstr "``dl.model.PEDESTRIAN_DETECT``：行人检测。"
 
 #: ../../en/software/dl.rst:79 4f54d7b6a80c4eda936b67bedeeb67df
 msgid "Returns An ``ObjectDetector`` instance."
-msgstr ""
+msgstr "Returns An ``ObjectDetector`` instance."
 
 #: ../../en/software/dl.rst:81 ../../en/software/dl.rst:96
 #: ../../en/software/dl.rst:108 ../../en/software/dl.rst:125
@@ -133,7 +133,7 @@ msgstr ""
 #: b03a0f4ae8c84a84b92eb527a3ada459 b89a6e16b9dc4c0fa97fd81f251e6b2a
 #: b8e773894ed44b748d7516ad9e3b9f3b e4d528939eee469684e704002371b8a9
 msgid "UIFlow2.0"
-msgstr ""
+msgstr "UIFlow2.0"
 
 #: ../../en/software/dl.rst:83 54488417adef4dd1866570df178ea6da
 msgid "|ObjectDetector.png|"
@@ -145,15 +145,15 @@ msgstr ""
 
 #: ../../en/software/dl.rst:85 e4a52d62bfa94b978e43807dd34ab222
 msgid "**Example**::"
-msgstr ""
+msgstr "**示例**：::"
 
 #: ../../en/software/dl.rst:92 15bf9abb6e0f45a48b6dbc5df88b049d
 msgid "Create a human face recognizer instance."
-msgstr ""
+msgstr "创建一个人脸识别器实例。"
 
 #: ../../en/software/dl.rst:94 756afdc73bb544a4834d24b021be7294
 msgid "Returns: A ``HumanFaceRecognizer`` instance."
-msgstr ""
+msgstr "Returns: A ``HumanFaceRecognizer`` instance."
 
 #: ../../en/software/dl.rst:98 39c6eea1f1814b9e9348f3afa0430dbf
 msgid "|HumanFaceRecognizer.png|"
@@ -165,15 +165,15 @@ msgstr ""
 
 #: ../../en/software/dl.rst:101 0d82c328824b4416a5d579220a5430d1
 msgid "class ObjectDetector"
-msgstr ""
+msgstr "class ObjectDetector"
 
 #: ../../en/software/dl.rst:102 36acc93e62464f7ba4382ec1ac352978
 msgid "The ObjectDetector object is returned by `dl.ObjectDetector(model)`."
-msgstr ""
+msgstr "ObjectDetector 对象由 `dl.ObjectDetector(model)` 返回。"
 
 #: ../../en/software/dl.rst:106 21e0b4504da84116a16417b1f154a3da
 msgid "Returns: A ``DetectionResult`` instance."
-msgstr ""
+msgstr "Returns: A ``DetectionResult`` instance."
 
 #: ../../en/software/dl.rst:110 aeaf0a279c6a406e85c1762cd4a694f0
 msgid "|infer.png|"
@@ -185,29 +185,29 @@ msgstr ""
 
 #: ../../en/software/dl.rst:113 5149c0257e6d457ba57cc95086db9847
 msgid "class HumanFaceRecognizer"
-msgstr ""
+msgstr "class HumanFaceRecognizer"
 
 #: ../../en/software/dl.rst:114 79b233066f4d49b593824dc97e394717
 msgid "The HumanFaceRecognizer object is returned by `dl.HumanFaceRecognizer()`."
-msgstr ""
+msgstr "HumanFaceRecognizer 对象由 `dl.HumanFaceRecognizer()` 返回。"
 
 #: ../../en/software/dl.rst:118 1318657b704d46ce83b85eac6b317746
 msgid "Face recognize"
-msgstr ""
+msgstr "人脸识别。"
 
 #: ../../en/software/dl.rst:120 ../../en/software/dl.rst:142
 #: 8b07721702b64812834655fc08781208 ecc61c7824834aef89dfc22213dcb992
 msgid "``img`` imput image"
-msgstr ""
+msgstr "输入图像的 ``img`` 参数。"
 
 #: ../../en/software/dl.rst:121 ../../en/software/dl.rst:143
 #: 67378bf0ebcf49b6aec12857edff49be 9abdd79f6da346799c65335e6753aae0
 msgid "``keypoint`` face keypoint, ref: DetectionResult.keypoint()"
-msgstr ""
+msgstr "``keypoint`` 人脸关键点，参考：DetectionResult.keypoint()。"
 
 #: ../../en/software/dl.rst:123 50bd264ef7944a63888f27732faabe6d
 msgid "Returns an ``RecognitionResult`` object"
-msgstr ""
+msgstr "Returns an ``RecognitionResult`` object"
 
 #: ../../en/software/dl.rst:127 0993a62280f245b68f14c4930dc8f2b3
 msgid "|recognize.png|"
@@ -219,7 +219,7 @@ msgstr ""
 
 #: ../../en/software/dl.rst:131 a5af1ced3a1d4aee866c9fc7ce3452d8
 msgid "clear id"
-msgstr ""
+msgstr "清除 id。"
 
 #: ../../en/software/dl.rst:135 87687bbf9a104b258d8b2a7bf5b26697
 msgid "|clear_id.png|"
@@ -231,7 +231,7 @@ msgstr ""
 
 #: ../../en/software/dl.rst:140 769cd8813edd45a4869553575148438d
 msgid "enroll id"
-msgstr ""
+msgstr "注册 ID"
 
 #: ../../en/software/dl.rst:147 904d345a620e4aa5a04f7991a700cd53
 msgid "|enroll_id.png|"
@@ -243,13 +243,13 @@ msgstr ""
 
 #: ../../en/software/dl.rst:151 7643e6fa9a84421389371dd104e6dd82
 msgid "delete id"
-msgstr ""
+msgstr "删除 ID。"
 
 #: ../../en/software/dl.rst:153 3ab18151a6024e5092cc0780847e90fe
 msgid ""
 "id is an optional parameter. If provided, it deletes the specified face "
 "information. By default, it deletes the most recently recorded id."
-msgstr ""
+msgstr "id 是可选参数。如果提供，则删除指定的人脸信息。默认情况下，删除最近记录的 id。"
 
 #: ../../en/software/dl.rst:157 dccbfb4d664345ed8dbf5be19169cf80
 msgid "|delete_id.png|"
@@ -269,7 +269,7 @@ msgstr ""
 
 #: ../../en/software/dl.rst:163 c773e6d16d264baeabd28e13ee567e02
 msgid "get enrolled id num"
-msgstr ""
+msgstr "获取已注册的 ID 编号。"
 
 #: ../../en/software/dl.rst:167 319ec7fe644b4d06a3d1b53c948ca5c7
 msgid "|enrolled_id_num.png|"
@@ -281,15 +281,15 @@ msgstr ""
 
 #: ../../en/software/dl.rst:170 0ceb43f6dbe146efb72ce583af565db1
 msgid "class DetectionResult -- DetectionResult object"
-msgstr ""
+msgstr "class DetectionResult —— DetectionResult 对象"
 
 #: ../../en/software/dl.rst:172 c0cc8d10969b43b9962296b8927b64c5
 msgid "The line object is returned by `ObjectDetector.infer()`."
-msgstr ""
+msgstr "line 对象由 `ObjectDetector.infer()` 返回。"
 
 #: ../../en/software/dl.rst:176 6895fb9b70874e19b62a14d1a2a8183b
 msgid "Get the bounding box of the object detection."
-msgstr ""
+msgstr "获取对象检测的边界框。"
 
 #: ../../en/software/dl.rst:180 00b7023763b6412f988a5ae8e5c2cce2
 msgid "|get_bbox.png|"
@@ -301,7 +301,7 @@ msgstr ""
 
 #: ../../en/software/dl.rst:184 2909cfb0c0a24478940b467f97acd58b
 msgid "The x-coordinate of the top-left corner of the bounding box."
-msgstr ""
+msgstr "包围框左上角的 x 坐标。"
 
 #: ../../en/software/dl.rst:188 73db64b62a834f9cb41f88602a79d974
 msgid "|get_x.png|"
@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../../en/software/dl.rst:192 219f3d77327a4467a0272e27ee215c6d
 msgid "The y-coordinate of the top-left corner of the bounding box."
-msgstr ""
+msgstr "边界框左上角的 y 坐标。"
 
 #: ../../en/software/dl.rst:196 8ae977eac8b748c8a5f8da852114c363
 msgid "|get_y.png|"
@@ -325,7 +325,7 @@ msgstr ""
 
 #: ../../en/software/dl.rst:200 4a3e4251634e471d8172592af22c332c
 msgid "The width of the bounding box."
-msgstr ""
+msgstr "边界框的宽度。"
 
 #: ../../en/software/dl.rst:204 588ffd2235264a6494e56feaaaad63de
 msgid "|get_w.png|"
@@ -337,7 +337,7 @@ msgstr ""
 
 #: ../../en/software/dl.rst:208 8ab5dd71b58549559225cb0bc92c8585
 msgid "The height of the bounding box."
-msgstr ""
+msgstr "边界框的高度。"
 
 #: ../../en/software/dl.rst:212 bb78f0c5b39848cebe1415795eb0b6f0
 msgid "|get_h.png|"
@@ -349,7 +349,7 @@ msgstr ""
 
 #: ../../en/software/dl.rst:216 dd230302e2f34d16b29b72484ff0414e
 msgid "The detected object's category."
-msgstr ""
+msgstr "检测到对象的类别。"
 
 #: ../../en/software/dl.rst:220 99ccc32d83464b8496dd150ead542113
 msgid "|get_category.png|"
@@ -363,31 +363,31 @@ msgstr ""
 msgid ""
 "Keypoint information (currently, only the face detection model outputs "
 "this data):"
-msgstr ""
+msgstr "关键点信息（目前仅人脸检测模型会输出该数据）："
 
 #: ../../en/software/dl.rst:226 a0e5af57f27e4620aa5b36f2e9d7de6e
 msgid "``keypoint()[0], keypoint()[1]`` are the coordinates of the left eye."
-msgstr ""
+msgstr "``keypoint()[0], keypoint()[1]`` 是左眼的坐标。"
 
 #: ../../en/software/dl.rst:227 145a6f82fc65485f9f6058087480b33f
 msgid ""
 "``keypoint()[2], keypoint()[3]`` are the coordinates of the left corner "
 "of the mouth."
-msgstr ""
+msgstr "``keypoint()[2], keypoint()[3]`` 是嘴巴左角的坐标。"
 
 #: ../../en/software/dl.rst:228 091a7e91a7d04516a6d3bd95e0ca6fa4
 msgid "``keypoint()[4], keypoint()[5]`` are the coordinates of the nose."
-msgstr ""
+msgstr "``keypoint()[4], keypoint()[5]`` 是鼻子的坐标。"
 
 #: ../../en/software/dl.rst:229 5e6c1934eae340a4977a32b03eea2e3d
 msgid "``keypoint()[6], keypoint()[7]`` are the coordinates of the right eye."
-msgstr ""
+msgstr "``keypoint()[6]``、``keypoint()[7]`` 是右眼的坐标。"
 
 #: ../../en/software/dl.rst:230 33ffc9a387374010bea49b3a9166b439
 msgid ""
 "``keypoint()[8], keypoint()[9]`` are the coordinates of the right corner "
 "of the mouth."
-msgstr ""
+msgstr "``keypoint()[8], keypoint()[9]`` 是嘴巴右侧嘴角的坐标。"
 
 #: ../../en/software/dl.rst:234 8801220e8a8543ad8b421824e1208e8c
 msgid "|get_keypoint.png|"
@@ -399,19 +399,21 @@ msgstr ""
 
 #: ../../en/software/dl.rst:237 dc2acfdeebab4b49a0b14ade42105c3b
 msgid "class RecognitionResult -- RecognitionResult object"
-msgstr ""
+msgstr "class RecognitionResult —— RecognitionResult 对象"
 
 #: ../../en/software/dl.rst:239 419c8a9c08fc4df7b9b10d68d881fc19
 msgid ""
 "The ``RecognitionResult`` is returned by "
 "`HumanFaceRecognizer.recognize(img, keypoint)`."
 msgstr ""
+"``RecognitionResult`` 是由 `HumanFaceRecognizer.recognize(img, keypoint)` "
+"返回的。"
 
 #: ../../en/software/dl.rst:243 ee53969a03084522adf99c4ad6e66da8
 msgid ""
 "Gets the face similarity, with a value closer to 1 indicating higher "
 "similarity."
-msgstr ""
+msgstr "获取人脸相似度，数值越接近 1 表示相似度越高。"
 
 #: ../../en/software/dl.rst:247 57bbfca028fb4f77992ba989e047a29f
 msgid "|similarity.png|"
@@ -425,7 +427,7 @@ msgstr ""
 msgid ""
 "Gets the face ID. A value greater than 0 indicates that the face "
 "recognition was successful."
-msgstr ""
+msgstr "获取人脸 ID。大于 0 的值表示人脸识别成功。"
 
 #: ../../en/software/dl.rst:255 d222d84e0d474581b5ff94c443387035
 msgid "|id.png|"

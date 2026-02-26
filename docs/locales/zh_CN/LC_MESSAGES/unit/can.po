@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/can.rst:6 ../../source/unit/can.rst:91
+#: 65a49b7bc96848fe93feaadff210e3cc af9219bd797143a0814257d5a4c75771
+msgid "CANUnit"
+msgstr "CANUnit"
+
+#: ../../source/unit/can.rst:10 888ccbac46c34a859882bca6bec5aff0
+msgid ""
+"The CAN Unit is used to communicate via the CAN bus. The following "
+"products are supported:"
+msgstr "CAN Unit 用于通过 CAN 总线进行通信。支持以下产品："
+
+#: ../../source/unit/can.rst:14 9f72efc32d0b4731ae83a159070767c9
+msgid "|CAN Unit|"
+msgstr ""
+
+#: ../../source/refs/unit.can.ref 33858ea0dad8443a91286f7391201669
+msgid "CAN Unit"
+msgstr "CAN Unit"
+
+#: ../../source/unit/can.rst:14 62ab1dc66b5542069a37dfd4e34b5680
+msgid "|MiniCAN Unit|"
+msgstr ""
+
+#: ../../source/refs/unit.can.ref 71a41edf98c84a88b05daa919d5ff2de
+msgid "MiniCAN Unit"
+msgstr "MiniCAN Unit"
+
+#: ../../source/unit/can.rst:18 dbcbe68c74c64e07a5044b48d406b2ed
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/can.rst:21 ../../source/unit/can.rst:58
+#: 8e894a8d959f446293fe9e943b35292d a9bf19a38825476b98e66e93d4dd85fe
+msgid "TX Example"
+msgstr "TX 示例"
+
+#: ../../source/unit/can.rst:23 826aeee380604ffd8d282b4f4b050899
+msgid "Open the |stickc_plus2_can_tx_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |stickc_plus2_can_tx_example.m5f2| 项目。"
+
+#: ../../source/unit/can.rst:25 ../../source/unit/can.rst:60
+#: 99750dd5d21b4c35847651fee8b65876 bfc6d40d461e4fd883ff48a47708f4db
+msgid "This example demonstrates how to transmit data using CAN Unit."
+msgstr "该示例演示如何使用 CAN Unit 发送数据。"
+
+#: ../../source/unit/can.rst:27 a03bed32521b4ee59ec60308640792d1
+msgid "Click the BtnA to change the data to be sent."
+msgstr "点击 BtnA 以更改要发送的数据。"
+
+#: ../../source/unit/can.rst:29 ../../source/unit/can.rst:45
+#: ../../source/unit/can.rst:102 ../../source/unit/can.rst:133
+#: 3ff4edd2ae334a69b5e98ed3dadd8904 5d2cf231d54549f2bd8b1e2d91f648d0
+#: 7053067011ab4d70bb095683259fbc67 9e454d8b050c4b01a95a5e1c3b0bd010
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/can.rst:31 6045c245d9b142849667a1890c6f7f0f
+msgid "|tx_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.can.ref:16 7cc992d252f54018ab33fe3df862f5b1
+msgid "tx_example.png"
+msgstr ""
+
+#: ../../source/unit/can.rst:33 ../../source/unit/can.rst:50
+#: ../../source/unit/can.rst:68 ../../source/unit/can.rst:83
+#: 5a473f8f2a82460f96dcb55da3e97169 6e48d550ee934feb8fe004e3f97f752f
+#: 740942372881441d9b12626ede8d537e 85e3609987134d97bc38a94465ddbd59
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/can.rst:35 ../../source/unit/can.rst:70
+#: 74726d95f4eb46b68455d730f7de6ea3 fb115297c8f54688913641a23049f108
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/can.rst:39 ../../source/unit/can.rst:73
+#: 3b16a6ac658645c9a67eb08f19a8668d 7d676dd0043140b5b17f8fbffe582695
+msgid "RX Example"
+msgstr "RX 示例"
+
+#: ../../source/unit/can.rst:41 ae2ec4b8c0d84d85bd0832162da81735
+msgid "Open the |dial_can_rx_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |dial_can_rx_example.m5f2| 项目。"
+
+#: ../../source/unit/can.rst:43 ../../source/unit/can.rst:75
+#: 5a55619f25734ef890009c6650527287 94f860b493b8405ba731e13775a46fcd
+msgid "This example demonstrates how to receive data using CAN Unit."
+msgstr "该示例演示如何使用 CAN Unit 接收数据。"
+
+#: ../../source/unit/can.rst:47 2bd8b737a91e4d46be202ab8ef9b7947
+msgid "|rx_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.can.ref:27 510ab27590c14921b702cd563a58250d
+msgid "rx_example.png"
+msgstr ""
+
+#: ../../source/unit/can.rst:52 ../../source/unit/can.rst:85
+#: 331819c370fc4ab4942ecf4c7d8001c7 5822b04a5d61473d99fee8fd7c74c90a
+msgid "Screen will display the received CAN data."
+msgstr "屏幕将显示接收到的 CAN 数据。"
+
+#: ../../source/unit/can.rst:55 a5119def6790431fb0ebe501f13a227c
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/can.rst:62 ../../source/unit/can.rst:77
+#: ../../source/unit/can.rst:106 ../../source/unit/can.rst:137
+#: 77ca5fd1d6d54a6896ca65607f27c621 9e008187001841dcad0611f7e6faa6c0
+#: dc749022e93c4b86acb5a76fa235736f ed4d846e925b486680a33fa407892b58
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/can.rst:88 5f33bcbf954d4fa59dbe056270f07f6d
+msgid "API"
+msgstr "API参考"
+
+#: ../../source/unit/can.rst:95 c1c8fdf9ec844303b01ecf6b42c5a422
+msgid "Create a CANUnit object."
+msgstr "创建一个 CANUnit 对象。"
+
+#: ../../source/unit/can.rst 3931b7f44f1a4e6d835198b5c8b98b97
+#: 7080ec34463943cb90573f5640be3498
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/can.rst:97 ../../source/unit/can.rst:124
+#: 72781ad5544b4de2a3e18ae252138ce7 d4eb5e586ff94be199a7e548e76c1130
+msgid "The CAN ID."
+msgstr "CAN ID。"
+
+#: ../../source/unit/can.rst:98 ../../source/unit/can.rst:125
+#: 3148dba586ee4d1691baf873ba5f13e3 53f912c3f97e4edb84da6a4e1cc0c081
+msgid "The port pins (tx, rx)."
+msgstr "端口引脚（tx、rx）。"
+
+#: ../../source/unit/can.rst:99 ../../source/unit/can.rst:126
+#: 12bff1730dec4c12902f783f754a4070 633358d3c19e431aa4638a4367017897
+msgid "One of CAN.NORMAL, CAN.NO_ACKNOWLEDGE, CAN.LISTEN_ONLY."
+msgstr "CAN.NORMAL、CAN.NO_ACKNOWLEDGE、CAN.LISTEN_ONLY 之一。"
+
+#: ../../source/unit/can.rst:100 353f2004fcf54a37801851c776c7feaf
+msgid "The baudrate of CANUnit."
+msgstr "CANUnit 的波特率。"
+
+#: ../../source/unit/can.rst:104 a14ef20c2ceb459fbaeb61fe9bcd4d0a
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.can.ref:11 36fc64baa7f747beae99a1fc78bce053
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/can.rst:116 ../../source/unit/can.rst:147
+#: 3572e1f0fbfd40429a40cbb3c6a3e038 f9b74e2264f34a37b7cd09136b7a916a
+msgid ""
+"CANUnit class inherits CAN class. See :class:`hardware.CAN "
+"<hardware.CAN>` for more details."
+msgstr "CANUnit 类继承自 CAN 类。更多详情请参阅 :class:`hardware.CAN <hardware.CAN>`。"
+
+#: ../../source/unit/can.rst:122 1d73e48a2cbe49d9806574a325ba9b1a
+msgid "Initialise the CAN bus with the given parameters."
+msgstr "使用给定参数初始化 CAN 总线。"
+
+#: ../../source/unit/can.rst:127 ac59357a799c4dc1bb2d3291f6e5ebb4
+msgid ""
+"The value by which the CAN input clock is divided to generate the nominal"
+" bit time quanta. The prescaler can be a value between 1 and 1024 "
+"inclusive for classic CAN."
+msgstr "CAN 输入时钟被分频以生成标称位时间量子（time quanta）的分频值。对于经典 CAN，预分频器的取值范围为 1 到 1024（含）。"
+
+#: ../../source/unit/can.rst:128 3bceb9c2c2f442a3b141497d6afdd4da
+msgid ""
+"The resynchronisation jump width in units of time quanta for nominal "
+"bits; it can be a value between 1 and 4 inclusive for classic CAN."
+msgstr ""
+"用于标称位（nominal bits）的重同步跳宽（resynchronisation jump width），单位为时间量子（time "
+"quanta）；对于经典 CAN，其取值范围为 1 到 4（含）之间。"
+
+#: ../../source/unit/can.rst:129 0265643f40a542a2961aa2a656dde9e9
+msgid ""
+"Defines the location of the sample point in units of the time quanta for "
+"nominal bits; it can be a value between 1 and 16 inclusive for classic "
+"CAN."
+msgstr "定义标称位中采样点的位置，单位为时间量子；对于经典 CAN，其取值范围为 1 到 16（含）。"
+
+#: ../../source/unit/can.rst:130 7c7983c726524193b32dd479f8a8b7ad
+msgid ""
+"Defines the location of the transmit point in units of the time quanta "
+"for nominal bits; it can be a value between 1 and 8 inclusive for classic"
+" CAN."
+msgstr "以标称位的时间量子为单位定义发送点的位置；对于经典 CAN，其取值范围为 1 到 8（含）。"
+
+#: ../../source/unit/can.rst:131 68d15d56ebac44829ca7e2fa339a0c19
+msgid "is Enables triple sampling when the TWAI controller samples a bit."
+msgstr "启用三重采样，当 TWAI 控制器对一个位进行采样时。"
+
+#: ../../source/unit/can.rst:135 499af8de329d43988f6124f662a948eb
+msgid "|init1.png|"
+msgstr ""
+
+#: ../../source/refs/unit.can.ref:13 8d1e7ff1675843ba8e9a307118256954
+msgid "init1.png"
+msgstr ""
+

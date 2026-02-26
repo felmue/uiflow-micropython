@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/chain/key.rst:2 ../../source/refs/chain.key.ref
 #: 5d954d5909a54f20b7d55d93cb3a3b24 8e699b731f2a4c3187e0ce5d58411467
 msgid "Chain Key"
-msgstr ""
+msgstr "Chain Key"
 
 #: ../../source/chain/key.rst:6 b4ceeacbbadb4219ae342bc620fc5407
 msgid ""
@@ -122,11 +122,11 @@ msgstr "API参考"
 
 #: ../../source/chain/key.rst:52 8694d475941d473eb9f18c12733e607d
 msgid "KeyChain"
-msgstr ""
+msgstr "KeyChain"
 
 #: chain.key.KeyChain:1 f7d81274619b48ccbc17e1fb5643601e of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: 1893bf67bb7a45f5974b888081d219aa chain.key.KeyChain:1 of
 msgid "Create a KeyChain object."

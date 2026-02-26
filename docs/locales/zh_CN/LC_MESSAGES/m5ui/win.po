@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/m5ui/win.rst:4 5620992a311d4cd798d37f5884821191
 msgid "M5Window"
-msgstr ""
+msgstr "M5Window"
 
 #: ../../en/m5ui/win.rst:8 b8ccbd2a8c0c4a3dac3a86a426372fe0
 msgid ""
@@ -142,7 +142,7 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/m5ui/win.rst:49 b1ee14c8140c4b3ca92c9d2459852be3
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: ../../en/m5ui/win.rst:51 1c933015b3d54231a3b3b8d140112292
 msgid "M5Win"
@@ -150,7 +150,7 @@ msgstr "M5Win"
 
 #: feabfdc3713a46e3b04e8d90875f9e44 m5ui.win.M5Win:1 of
 msgid "Bases: :py:class:`~lvgl.win`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.win`"
 
 #: 2d2aedf337314784a679e84d753543a8 m5ui.win.M5Win:1 of
 msgid "Create a window object."
@@ -197,33 +197,38 @@ msgid ""
 msgstr "window 要附加到的父对象。如果未指定，则 window 会附加到默认屏幕。"
 
 #: ../../en/m5ui/win.rst:68 4fe526d38c81437fa4f701e87abeaec2
-#: 5d9414d2e98c4f5db1f2272f525021a6 m5ui.win.M5Win.add_button:11 of
+#: 5d9414d2e98c4f5db1f2272f525021a6 a0af2d491ef440689c14b2abb69322e5
+#: m5ui.win.M5Win.add_button:11 of
 msgid "The created button object :ref:`m5ui.M5Button <m5ui.M5Button>`."
 msgstr "创建的按钮对象 :ref:`m5ui.M5Button <m5ui.M5Button>`。"
 
-#: ../../en/m5ui/win.rst 6b58733f23c64e03bab3e9f23a8165a4
-#: 87eb70039a9e4711ba46472613126bf4 c473ad5c77c1455fa06f926fc7a46770
+#: ../../en/m5ui/win.rst 20a9c7c04f1a484e9e77ad99abfe8024
+#: 286bd797005b4d0cbef9d3b5144e7170 645820f773bd4c13b13b1335fcf9c46b
+#: 6b58733f23c64e03bab3e9f23a8165a4 87eb70039a9e4711ba46472613126bf4
+#: c473ad5c77c1455fa06f926fc7a46770 d1a7cd822445480ca330642fcfc12ec9
 #: eda35e820c4d4e7c9bbdb4e1f46f75c5 f7ee5a4f650841debd6aa2efe6ce47ec
 #: m5ui.win.M5Win.add_button m5ui.win.M5Win.add_text m5ui.win.M5Win.add_title
 #: of
 msgid "Return type"
 msgstr "返回类型"
 
-#: ../../en/m5ui/win.rst:73 d4c3ff034a9948fdaa8efaf04bd36938
+#: ../../en/m5ui/win.rst:73 1399e94b513640d9a65cd16a8ef3f7be
+#: d4c3ff034a9948fdaa8efaf04bd36938 m5ui.win.M5Win.add_button:16 of
 msgid "|add_button.png|"
 msgstr ""
 
 #: ../../en/refs/m5ui.win.ref:1 4cb2926d3d894626b556c65fe7ab0418
-#: 63a37297a40941c4a8eeccddbf4ec93d
+#: 63a37297a40941c4a8eeccddbf4ec93d 8b451815050f4bb88cd48016d9f870ad
 msgid "add_button.png"
 msgstr ""
 
 #: ../../en/m5ui/win.rst:75 0c127bccaebd4074bb307465be5047d7
+#: 8ad225b3a1914410b2f38dea3957193d m5ui.win.M5Win.add_button:18 of
 msgid "|add_button2.png|"
 msgstr ""
 
 #: ../../en/refs/m5ui.win.ref:2 5c6144762bd34df697633cda9a61828f
-#: dc6bc7a032ca4fe983babee7cb54074f
+#: 8e60b385a6b1402db028f83839270678 dc6bc7a032ca4fe983babee7cb54074f
 msgid "add_button2.png"
 msgstr ""
 
@@ -600,6 +605,7 @@ msgstr "为标签/标题设置阴影。"
 #: ../../en/m5ui/win.rst:389 313e382842694d7a950fe781c479f81a
 msgid "The color of the shadow in hexadecimal format or an integer."
 msgstr "阴影的颜色，十六进制格式或整数。"
+
 #: ../../en/m5ui/win.rst:390 444b28adaa614086ba1f6bb68af4f789
 msgid "The opacity of the shadow (0-255)."
 msgstr "阴影的不透明度（0-255）。"
@@ -658,14 +664,7 @@ msgstr "获取按钮/标签/标题的文本。"
 
 #: ../../en/m5ui/win.rst:428 c5f7ae5d75524409afb5238c8c7ab3e4
 msgid "The text of the button/label/title."
-msgstr ""
-
-#: ../../en/m5ui/win.rst 20a9c7c04f1a484e9e77ad99abfe8024
-#: 286bd797005b4d0cbef9d3b5144e7170 645820f773bd4c13b13b1335fcf9c46b
-#: d1a7cd822445480ca330642fcfc12ec9 m5ui.win.M5Win.add_button
-#: m5ui.win.M5Win.add_text m5ui.win.M5Win.add_title of
-msgid "Return type"
-msgstr ""
+msgstr "按钮/标签/标题的文本。"
 
 #: ../../en/m5ui/win.rst:433 006b1f123f0b4da889b72dc6e063a5b4
 msgid "|button_get_text.png|"
@@ -853,24 +852,4 @@ msgstr "按钮文本的不透明度（0-255）。"
 #: 5d487fa1c17a4eaaa8d34bb7a9b16045 m5ui.win.M5Win.add_button:10 of
 msgid "The font to use for the button text."
 msgstr "按钮文本所使用的字体。"
-
-#: a0af2d491ef440689c14b2abb69322e5 m5ui.win.M5Win.add_button:11 of
-msgid "The created button object :ref:`m5ui.M5Button <m5ui.M5Button>`."
-msgstr "创建的按钮对象 :ref:`m5ui.M5Button <m5ui.M5Button>`。"
-
-#: 1399e94b513640d9a65cd16a8ef3f7be m5ui.win.M5Win.add_button:16 of
-msgid "|add_button.png|"
-msgstr ""
-
-#: ../../en/refs/m5ui.win.ref:1 8b451815050f4bb88cd48016d9f870ad
-msgid "add_button.png"
-msgstr ""
-
-#: 8ad225b3a1914410b2f38dea3957193d m5ui.win.M5Win.add_button:18 of
-msgid "|add_button2.png|"
-msgstr ""
-
-#: ../../en/refs/m5ui.win.ref:2 8e60b385a6b1402db028f83839270678
-msgid "add_button2.png"
-msgstr ""
 

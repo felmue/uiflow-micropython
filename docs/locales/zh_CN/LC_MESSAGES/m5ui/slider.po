@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/m5ui/slider.rst:4 ../../en/m5ui/slider.rst:52
 #: 1397854c521d487690d3b990e9efa6c1 19be2e4ea65b4c36948da65f7ca2742f
 msgid "M5Slider"
-msgstr ""
+msgstr "M5Slider"
 
 #: ../../en/m5ui/slider.rst:8 8b35ebbe69da40938fd001afb28305ce
 msgid ""
@@ -39,7 +39,7 @@ msgstr "UiFlow2 应用示例"
 #: ../../en/m5ui/slider.rst:14 ../../en/m5ui/slider.rst:33
 #: 017b653fa2e943b897a0ee9183086543 04a3cea74a864e858effd9c0a145530d
 msgid "basic slider"
-msgstr ""
+msgstr "基础滑块"
 
 #: ../../en/m5ui/slider.rst:16 d05430de994d4f269c407e13fb9724e2
 msgid "Open the |cores3_slider_basic_example.m5f2| project in UiFlow2."
@@ -121,7 +121,7 @@ msgstr "API参考"
 
 #: 16a861e9c0ab42acbf2cda652c59b7fe m5ui.slider.M5Slider:1 of
 msgid "Bases: :py:class:`~lvgl.slider`"
-msgstr ""
+msgstr "继承自：:py:class:`~lvgl.slider`"
 
 #: 23299e21f5734e0a8b2b353b929268b3 m5ui.slider.M5Slider:1 of
 msgid "Create a slider widget."
@@ -639,3 +639,4 @@ msgstr ""
 #: ../../en/refs/m5ui.slider.ref:9 1b02b5696ba14e5cad528f61709d783a
 msgid "get_height.png"
 msgstr ""
+

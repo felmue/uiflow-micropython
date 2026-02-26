@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/m5ui/spinbox.rst:4 ../../en/m5ui/spinbox.rst:55
 #: 4c4d49a533e54005a93490d3a75ecdf0 b40fec91acbf431baf03013474563f9f
 msgid "M5Spinbox"
-msgstr ""
+msgstr "M5Spinbox"
 
 #: ../../en/m5ui/spinbox.rst:8 f95a12e4dfe04f5888cbfd5f83dd134a
 msgid ""
@@ -32,10 +32,7 @@ msgid ""
 "adjusted by clicking the + and - buttons or by typing directly. The "
 "spinbox supports both integer and floating-point numbers with "
 "customizable digit count and decimal precision."
-msgstr ""
-"M5Spinbox是一个提供数字输入界面的控件，具有递增和递减按钮。"
-"它显示一个数字值，可以通过单击+和-按钮或直接输入来调整。"
-"数字输入框支持整数和浮点数，具有可自定义的数字位数和小数精度。"
+msgstr "M5Spinbox是一个提供数字输入界面的控件，具有递增和递减按钮。它显示一个数字值，可以通过单击+和-按钮或直接输入来调整。数字输入框支持整数和浮点数，具有可自定义的数字位数和小数精度。"
 
 #: ../../en/m5ui/spinbox.rst:14 9073c63fbadd4280b15aabd5e8528969
 msgid "UiFlow2 Example"
@@ -129,7 +126,7 @@ msgstr "API参考"
 
 #: d1bf6b9387a44250ad5ebaaaf395defb m5ui.spinbox.M5Spinbox:1 of
 msgid "Bases: :py:class:`~lvgl.obj`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.obj`。"
 
 #: f1c87c53952f4cff905de9f6077d3d1a m5ui.spinbox.M5Spinbox:1 of
 msgid "Create a spinbox widget."
@@ -198,9 +195,7 @@ msgstr "数字输入框的父对象。"
 msgid ""
 "Set a flag on the object. If ``value`` is True, the flag is added; if "
 "False, the flag is removed."
-msgstr ""
-"在对象上设置标志。如果 ``value`` 为True，则添加标志；"
-"如果为False，则移除标志。"
+msgstr "在对象上设置标志。如果 ``value`` 为True，则添加标志；如果为False，则移除标志。"
 
 #: ../../en/m5ui/spinbox.rst:65 b9681eb7a2144d9092be78b9e09511f6
 msgid "The flag to set."
@@ -229,9 +224,7 @@ msgstr ""
 msgid ""
 "Toggle a flag on the object. If the flag is set, it is removed; if not "
 "set, it is added."
-msgstr ""
-"切换对象上的标志。如果标志已设置，则将其移除；"
-"如果未设置，则将其添加。"
+msgstr "切换对象上的标志。如果标志已设置，则将其移除；如果未设置，则将其添加。"
 
 #: ../../en/m5ui/spinbox.rst:83 a5a9fa6d48e94afea397c1ea982bccd3
 msgid "The flag to toggle."
@@ -249,9 +242,7 @@ msgstr ""
 msgid ""
 "Set the state of the spinbox. If ``value`` is True, the state is set; if "
 "False, the state is unset."
-msgstr ""
-"设置数字输入框的状态。如果 ``value`` 为True，则设置状态；"
-"如果为False，则取消设置状态。"
+msgstr "设置数字输入框的状态。如果 ``value`` 为True，则设置状态；如果为False，则取消设置状态。"
 
 #: ../../en/m5ui/spinbox.rst:100 b91ea714f42847d598feddb260623a67
 msgid "The state to set."
@@ -273,9 +264,7 @@ msgstr ""
 msgid ""
 "Toggle the state of the spinbox. If the state is set, it is unset; if not"
 " set, it is set."
-msgstr ""
-"切换数字输入框的状态。如果状态已设置，则取消设置；"
-"如果未设置，则将其设置。"
+msgstr "切换数字输入框的状态。如果状态已设置，则取消设置；如果未设置，则将其设置。"
 
 #: ../../en/m5ui/spinbox.rst:118 0a9d2ed0258049718e0049a2a0564e94
 msgid "The state to toggle."
@@ -604,3 +593,4 @@ msgstr ""
 #: ../../en/refs/m5ui.spinbox.ref:18 8f3f6093d4b84a2394a17a454e98d965
 msgid "set_step.png"
 msgstr ""
+

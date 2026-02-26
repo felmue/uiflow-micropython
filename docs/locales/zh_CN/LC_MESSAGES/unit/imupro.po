@@ -1,0 +1,322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/imupro.rst:2 fcbe0d6004364ab8b9c194e4f34bd03a
+msgid "IMU Pro Unit"
+msgstr "IMU Pro Unit"
+
+#: ../../source/unit/imupro.rst:6 eff9e808582d49729befeb30f13c263f
+msgid ""
+"The ``IMU Pro Unit`` is a versatile and integrated inertial motion unit. "
+"It incorporates advanced six-axis attitude sensors (BMI270), a three-axis"
+" geomagnetic sensor (BMM150), and an atmospheric pressure sensor (BMP280)"
+" to provide comprehensive measurement and detection capabilities for "
+"users. Whether it is measuring acceleration and angular velocity, "
+"detecting the direction and intensity of the geomagnetic field, or "
+"measuring atmospheric pressure."
+msgstr ""
+"``IMU Pro Unit`` 是一款多功能且高度集成的惯性运动单元。它集成了先进的六轴姿态传感器 (BMI270)、三轴地磁传感器 "
+"(BMM150) 以及气压传感器 "
+"(BMP280)，为用户提供全面的测量与检测能力。无论是测量加速度与角速度、检测地磁场的方向与强度，还是测量大气压。"
+
+#: ../../source/unit/imupro.rst:8 01f5a3b8f0ad4533b642ae45a15a02a3
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/imupro.rst:10 529d099b33df45a7bacd192f9b6e7102
+msgid "|IMUProUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref 6941bc8c1a8042018c1b8febb06930f8
+msgid "IMUProUnit"
+msgstr "IMUProUnit"
+
+#: ../../source/unit/imupro.rst:12 1be4b255179e4be6916145d6a1f878f6
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/imupro.rst:34 b55388d0376845b1b10cdee2307304bc
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/imupro.rst:36 a8f97388b0764c14aed14f6f4df9cd88
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:7 a619db6f8fea41e193757a5955650436
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:40 dde8b7e0c3bc4c42810a05bdaad54402
+msgid "|unit-imu-pro-demo.m5f2|"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:44 7f8e28d2da47472ba5d3b2b394300d3d
+msgid "class IMUProUnit"
+msgstr "class IMUProUnit"
+
+#: ../../source/unit/imupro.rst:47 71964622548c45f8877097cf91bc3f0b
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:51 6e9b059295a54db2ac83b710e031508f
+msgid "Create a IMUProUnit object"
+msgstr "创建一个 IMUProUnit 对象"
+
+#: ../../source/unit/imupro.rst 06447acec06940bf87f2a83262bc51ec
+#: 28e2a6ae73734bac9c9683fdaf59293e 311a3dac45884bbd9576e6fd2cd72def
+#: 788f25e7c63d4c7a813076bb336a8d3a 95762edd3f0d4e708398cdb198a4e53c
+#: dd83f6c684c345d7b0c53b4e67183386
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:53 31ede4910d1d47f29d09316c7f072b37
+msgid "the I2C object."
+msgstr "I2C 对象。"
+
+#: ../../source/unit/imupro.rst:55 ../../source/unit/imupro.rst:69
+#: ../../source/unit/imupro.rst:80 ../../source/unit/imupro.rst:91
+#: ../../source/unit/imupro.rst:102 ../../source/unit/imupro.rst:113
+#: ../../source/unit/imupro.rst:124 ../../source/unit/imupro.rst:135
+#: ../../source/unit/imupro.rst:149 ../../source/unit/imupro.rst:161
+#: ../../source/unit/imupro.rst:173 ../../source/unit/imupro.rst:185
+#: ../../source/unit/imupro.rst:201 086d7a51057b4697a1a99ed490137d2a
+#: 256565d762aa4edcbd99323a18c1f70e 2873a228af3c458e8e3c959ffc3ddbe0
+#: 37b23f27786b4429ba9061ee39fd1c80 5cba3be0166a4d879800dda28fbce9c7
+#: 8e02af61981549f88126316c9f044183 8e389bd50f634a55b4dcd121e9f3d309
+#: d1945e3642fb46b199d25af1c3b9a363 da6cc8531abe4884a39bb2cdbfdd5939
+#: dbdda0e721504709a27d4e0bc14b9979 ebb95eb36c1f4957884832324a7a26df
+#: ef2b3a898c5a4e049917839578b803c4 f0691af7879747a09215791b9802a820
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/imupro.rst:57 007bf4e87ca24fc8a718fd828327eab4
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:6 c37e0012df7e4f7aaabfafb25fd230a3
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:61 af3ac079e15d4909a204ec6f9cf26898
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:65 1ed011041cf5409e948787e84c3df35f
+msgid ""
+"Get the tuple of x, y, and z values of the accelerometer and acceleration"
+" vector in gravity units (9.81m/s^2)."
+msgstr "获取加速度计的 x、y 和 z 值元组，以及以重力单位（9.81 m/s^2）的加速度向量。"
+
+#: ../../source/unit/imupro.rst:67 ../../source/unit/imupro.rst:78
+#: ../../source/unit/imupro.rst:89 ../../source/unit/imupro.rst:111
+#: 84073e867ddb499da54ed36c85c9976b 8948f945797e4e219b6e966895e70cd5
+#: d0a341db9df84259a5dca3262278bdca eefcc93e6d7d45119f9b0734eaadd06e
+msgid "Return: ``tuple``:  (float, float, float)"
+msgstr "Return: ``tuple``： (float, float, float)"
+
+#: ../../source/unit/imupro.rst:71 57391acf2dd64cda9978a4dd538e556d
+msgid "|get_accelerometer.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:8 c08d4ca0f79f41c380f2d17ba3e10e4a
+msgid "get_accelerometer.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:76 b24fcfa7b5494ea89c92841d921bb9c4
+msgid ""
+"Get the tuple of x, y, and z values of the gyroscope and gyroscope vector"
+" in rad/sec."
+msgstr "获取以 rad/sec 为单位的陀螺仪 x、y、z 值元组以及陀螺仪矢量。"
+
+#: ../../source/unit/imupro.rst:82 726b1811280c4d739a0fdc8517467734
+msgid "|get_gyroscope.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:9 4fd129d488d541a0887152fa3e7bf191
+msgid "get_gyroscope.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:87 03352e63525b4485b8c81dd5b7fdb7a6
+msgid ""
+"Get the tuple of x, y, and z values of the magnetometer and magnetometer "
+"vector in uT."
+msgstr "获取磁力计的 x、y、z 值元组，以及以 uT 为单位的磁力计矢量。"
+
+#: ../../source/unit/imupro.rst:93 9546f73f65cb4930986a492978b92687
+msgid "|get_magnetometer.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:10 d752b5b7ef7c4fb9ab1a2dbdb360f682
+msgid "get_magnetometer.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:98 b0486fa266c944ffb588c341e63e758b
+msgid "Get the compass heading value is in range of 0º ~ 360º."
+msgstr "获取罗盘航向角值，范围为 0º ~ 360º。"
+
+#: ../../source/unit/imupro.rst:100 183c124c8279496480be92b31c566e36
+msgid "Return: ``float``:  0 ~ 360"
+msgstr "返回： ``float``： 0 ~ 360"
+
+#: ../../source/unit/imupro.rst:104 00da24cbcaf34aab996c635310869e93
+msgid "|get_compass.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:11 c958317e875b4fcaaf3cb62e8e34be03
+msgid "get_compass.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:109 cd518c210d264a91be92252b1a0e71c7
+msgid "Get the attitude angles as yaw, pitch, and roll in degrees."
+msgstr "以度为单位获取姿态角：yaw、pitch 和 roll。"
+
+#: ../../source/unit/imupro.rst:115 a2b606697df94c30b67a476ce0314aa0
+msgid "|get_attitude.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:12 8152d9364db2430392174bcc8eeebb43
+msgid "get_attitude.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:120 36f9510899414f5cb15877615df96873
+msgid "Get the temperature value in degrees celsius from the BMP280 sensor."
+msgstr "从 BMP280 传感器获取以摄氏度为单位的温度值。"
+
+#: ../../source/unit/imupro.rst:122 44aad6be01bd4a69ba3c650217e2fce3
+msgid "Return: ``float``:  -40 ~ +85 °C"
+msgstr "返回：``float``：-40 ~ +85 °C"
+
+#: ../../source/unit/imupro.rst:126 c65145948f294839a0d96a42f1929da7
+msgid "|get_temperature.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:13 fd15c712b86a4e3f92725e4996d71706
+msgid "get_temperature.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:131 934ee9a7befd479bb3069814ef493034
+msgid "Get the pressure value in pascals from the BMP280 sensor."
+msgstr "从 BMP280 传感器获取以帕斯卡（Pa）为单位的压力值。"
+
+#: ../../source/unit/imupro.rst:133 472050c66541426fa4d53acce0da046f
+msgid "Return: ``float``:  300 ~ 1100 hPa"
+msgstr "返回：``float``：300 ~ 1100 hPa"
+
+#: ../../source/unit/imupro.rst:137 6e9b5d3496ef4b48991a48d7bffd82aa
+msgid "|get_pressure.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:14 f7543f7db9784a81a2b8a95bd065c75d
+msgid "get_pressure.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:142 5c5c304920784dd280a57ff566c99f62
+msgid ""
+"Set the accelerometer and gyroscope output data rate(ODR): 0.78 Hz … 1.6 "
+"kHz (accelerometer) and 25 Hz … 6.4 kHz (gyroscope)."
+msgstr "设置加速度计和陀螺仪输出数据速率（ODR）：0.78 Hz … 1.6 kHz（加速度计）以及 25 Hz … 6.4 kHz（陀螺仪）。"
+
+#: ../../source/unit/imupro.rst:144 468c89c6385f407aa24e7b6c12eeaa25
+msgid "range of 0.78 Hz … 1.6 kHz."
+msgstr "0.78 Hz … 1.6 kHz 的范围。"
+
+#: ../../source/unit/imupro.rst:146 90ff340e9b284c7f9c9bc02349e394e2
+msgid "range of 25 Hz … 6.4 kHz."
+msgstr "25 Hz … 6.4 kHz 的范围。"
+
+#: ../../source/unit/imupro.rst:151 509785fbd8fc4accaff4fb025c270d12
+msgid "|set_accel_gyro_odr.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:15 0d1a328d6f7a4e8fba94753777ea1365
+msgid "set_accel_gyro_odr.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:156 fc146369109a406daa08c9e533e1b6da
+msgid ""
+"Set the magnetometer output data rate(ODR): 2, 6, 8, 10(default), 15, 20,"
+" 25, 30Hz."
+msgstr "设置磁力计输出数据速率 (ODR)：2、6、8、10（默认）、15、20、25、30 Hz。"
+
+#: ../../source/unit/imupro.rst:158 86f5ccf3797a49c192cadb7cfb6a4fb4
+msgid "range of 2Hz … 30Hz."
+msgstr "2 Hz … 30 Hz 范围内。"
+
+#: ../../source/unit/imupro.rst:163 52653ce59065453b8db7015f98f7195f
+msgid "|set_magnet_odr.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:16 69cc2725839c48c680d3d272f8c3b234
+msgid "set_magnet_odr.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:168 fe2054be697249cc9a0f695136f5392a
+msgid "Set the accelerometer scale range."
+msgstr "设置加速度计量程范围。"
+
+#: ../../source/unit/imupro.rst:170 a1f3ba454fdd4978b1e0186139893d9c
+msgid "scale range of ±2g, ±4g, ±8g and ±16g."
+msgstr "量程范围为 ±2g、±4g、±8g 和 ±16g。"
+
+#: ../../source/unit/imupro.rst:175 a7fb806361d640fb85e3b43d9773bbd5
+msgid "|set_accel_range.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:17 402b9bccc45b49a89e838d793d342e8a
+msgid "set_accel_range.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:180 e7878145ce4e408e82dd6ac50a2fe382
+msgid "Set the gyroscope scale range."
+msgstr "设置陀螺仪量程范围。"
+
+#: ../../source/unit/imupro.rst:182 8c3184ad3bd74080b6973d7ce1e2b45c
+msgid "scale range of ±125 dps, ±250 dps, ±500 dps, ±1000 dps, and ±2000 dps."
+msgstr "量程范围：±125 dps、±250 dps、±500 dps、±1000 dps 和 ±2000 dps。"
+
+#: ../../source/unit/imupro.rst:187 900c318c32834ba19d7c4c6324e7beea
+msgid "|set_gyro_range.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:18 c315057a15474a129f1f7c11d0464b56
+msgid "set_gyro_range.png"
+msgstr ""
+
+#: ../../source/unit/imupro.rst:192 fc580e0af4cb4fc99fb3a6d9266df12e
+msgid "Set the manual gyro calibrations offsets value"
+msgstr "设置手动陀螺仪校准偏移值"
+
+#: ../../source/unit/imupro.rst:194 ../../source/unit/imupro.rst:196
+#: ../../source/unit/imupro.rst:198 c694cc8a913349f486c4a6b8be60d561
+#: dd55542f19db4695b4826dbf62d4d85c f2d8b8d1daf742a896a323482a5f57be
+msgid "0.0"
+msgstr "0.0"
+
+#: ../../source/unit/imupro.rst:203 440daf6de9514f8988302afba263cf27
+msgid "|set_gyro_offsets.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imupro.ref:19 c025c6c1098d4188b2c5aeac3e9ff566
+msgid "set_gyro_offsets.png"
+msgstr ""
+

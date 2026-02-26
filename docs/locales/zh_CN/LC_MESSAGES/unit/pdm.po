@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/pdm.rst:4 7e7d2096cd6e478faa569f0834a5b969
+msgid "PDM Unit"
+msgstr "PDM Unit"
+
+#: ../../source/unit/pdm.rst:10 be0b42517de34d15bb4a7f424233a08e
+msgid ""
+"This is the driver library of PDM Unit, which is provides a set of "
+"methods to control the PDM microphone. Through the I2S interface, the "
+"module can record audio data and save it as WAV files."
+msgstr "这是 PDM Unit 的驱动库，提供了一组用于控制 PDM 麦克风的方法。通过 I2S 接口，该模块可以录制音频数据并将其保存为 WAV 文件。"
+
+#: ../../source/unit/pdm.rst:13 f7cb2794740646f8b76fce68f832161e
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/pdm.rst:15 66465c5974314edaadb9e0d8321d007f
+msgid "|PDM|"
+msgstr ""
+
+#: ../../source/refs/unit.pdm.ref 4d623304ba494c098e52085e7f572a0a
+msgid "pdm"
+msgstr "pdm"
+
+#: ../../source/unit/pdm.rst:19 5fc12bfbcf724f97a1f9d9c7f0995a0a
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/pdm.rst:22 ../../source/unit/pdm.rst:40
+#: 2b6ff0bc05a34356ab3f03466f090822 ddc3c9e3932d41d7a729a36dd33bffaa
+msgid "record voice and play voice"
+msgstr "录制语音并播放语音"
+
+#: ../../source/unit/pdm.rst:24 b0d50174fa064caab6e2a6a5f030b8cd
+msgid "Open the |pdm_cores3_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |pdm_cores3_example.m5f2| 项目。"
+
+#: ../../source/unit/pdm.rst:26 ../../source/unit/pdm.rst:42
+#: 92ae0100ee854fa58ccb2fe493207591 bbf23de72a104725b90ca844312ce78c
+msgid "This example records voice and plays voice."
+msgstr "该示例录制语音并播放语音。"
+
+#: ../../source/unit/pdm.rst:28 3754bf924e3c443da54341d9adaa1d7a
+#: bb24c7fb8f1f43e2ad7b7817b03818b7 of unit.pdm.PDMUnit:7
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/pdm.rst:30 23e61e613bff475da77ae6d9f9c6d222
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.pdm.ref:15 34e5812ce5c14480ae2e8aa474238c82
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/pdm.rst:32 ../../source/unit/pdm.rst:50
+#: 40e2f789ad474c1eb41103f7acc334c4 7f4f2f5c8be944c180f0b13c2ffa6371
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/pdm.rst:34 ../../source/unit/pdm.rst:52
+#: dc38378240d0495aa2169ac60745302a e685409a3cd24134bff536111e456aff
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/pdm.rst:37 b48e9fda37b048a684529a90e4d9216c
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/pdm.rst:44 493e14b5fbda4951b39da5e2f7bf18f1
+#: d919f12274024a6188f074c4416ae737 of unit.pdm.PDMUnit:11
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/pdm.rst:56 46fdc238e5bd41d89148e85cc60d19e5
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/pdm.rst:59 b3210b6f4a79400098398164e12858eb
+msgid "PDMUnit"
+msgstr "PDMUnit"
+
+#: 1dd1179b182a41f7a7ab16d31b88bfcb of unit.pdm.PDMUnit:1
+msgid "Bases: :py:class:`object`"
+msgstr "Bases: :py:class:`object`"
+
+#: 324d494f689f422f84a1459958f447f4 of unit.pdm.PDMUnit:1
+msgid "PDM Unit class."
+msgstr "PDM Unit 类。"
+
+#: ../../source/unit/pdm.rst 9e188198fc5f49c381ce933287fc9596
+msgid "Parameters"
+msgstr ""
+
+#: 1c9546059821483ea6ed340f28282037 of unit.pdm.PDMUnit:3
+msgid "Connect to the PDM Unit."
+msgstr "连接到 PDM Unit。"
+
+#: 9b7cd650635444b7b5b722f370c77cd0 of unit.pdm.PDMUnit:4
+msgid "I2S port number(0 or 1, 2 is automatic select of available ports)."
+msgstr "I2S 端口号（0 或 1，2 为自动选择可用端口）。"
+
+#: deef29bf389e42f68be2a6157c046196 of unit.pdm.PDMUnit:5
+msgid "Sample rate."
+msgstr "采样率。"
+
+#: b126207f248a4edbbe8e7e904cac383e of unit.pdm.PDMUnit:9
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.pdm.ref:7 b820a2e6468648e3a03008ad9e0d331f
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/pdm.rst:64 82e1e47698544921904700619a90e874
+msgid ""
+"PDMUnit class inherits Mic class, See :ref:`hardware.Mic <hardware.Mic>` "
+"for more details."
+msgstr "PDMUnit 类继承自 Mic 类，详情请参阅 :ref:`hardware.Mic <hardware.Mic>`。"
+

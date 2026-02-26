@@ -22,33 +22,33 @@ msgstr ""
 
 #: ../../en/hardware/ir.rst:2 c4b207bd81b84f8790d794399198ac59
 msgid "IR"
-msgstr ""
+msgstr "IR"
 
 #: ../../en/hardware/ir.rst:6 58fec6ecab7045438c2f62bb3f800d59
 msgid ""
 "IR is used to control the infrared receiving/transmitting tube built into"
 " the host device."
-msgstr ""
+msgstr "IR 用于控制主机设备内置的红外接收/发射管。"
 
 #: ../../en/hardware/ir.rst:8 c844b8cba8e04a7ea6fc4742e5da043b
 msgid "The specific support of the host for IR is as follows:"
-msgstr ""
+msgstr "主机对 IR 的具体支持如下："
 
 #: ../../en/hardware/ir.rst:15 3e665c05165e4299aef03d693b4471a8
 msgid "Controller"
-msgstr ""
+msgstr "控制器"
 
 #: ../../en/hardware/ir.rst:15 6c5bea20fd864067848d3517af69c35e
 msgid "IR Transmitter"
-msgstr ""
+msgstr "IR 发射器"
 
 #: ../../en/hardware/ir.rst:15 c1279e016ec34f1e8b64a11da1438e15
 msgid "IR Receiver"
-msgstr ""
+msgstr "IR Receiver"
 
 #: ../../en/hardware/ir.rst:17 885b357355c6451f93d570bdd6121344
 msgid "Atom Lite"
-msgstr ""
+msgstr "Atom Lite"
 
 #: ../../en/hardware/ir.rst:17 ../../en/hardware/ir.rst:19
 #: ../../en/hardware/ir.rst:21 ../../en/hardware/ir.rst:23
@@ -65,47 +65,47 @@ msgstr ""
 
 #: ../../en/hardware/ir.rst:19 f80077f6ad5e48a98f7b1a0115e0c230
 msgid "Atom Matrix"
-msgstr ""
+msgstr "Atom Matrix"
 
 #: ../../en/hardware/ir.rst:21 08516d55687b4cc4965eb8cef918d352
 msgid "Atom U"
-msgstr ""
+msgstr "Atom U"
 
 #: ../../en/hardware/ir.rst:23 aef0639d43fb42b2a1b7a7b2109fb34a
 msgid "AtomS3 Lite"
-msgstr ""
+msgstr "AtomS3 Lite"
 
 #: ../../en/hardware/ir.rst:25 4d7e216247c340fbb4635767fa3472e4
 msgid "AtomS3U"
-msgstr ""
+msgstr "AtomS3U"
 
 #: ../../en/hardware/ir.rst:27 0fb77f3da6fe4c709802f5a7c5ad8bd9
 msgid "M5StickC"
-msgstr ""
+msgstr "M5StickC"
 
 #: ../../en/hardware/ir.rst:29 f5e09a66659340f699e2800e3ebfb0d3
 msgid "M5StickC PLUS"
-msgstr ""
+msgstr "M5StickC PLUS"
 
 #: ../../en/hardware/ir.rst:31 189bc1476a304e5b9c531cd734b99832
 msgid "M5StickC PLUS2"
-msgstr ""
+msgstr "M5StickC PLUS2"
 
 #: ../../en/hardware/ir.rst:33 f476759de82e4ddfa60867cf38f50dba
 msgid "Cardputer"
-msgstr ""
+msgstr "Cardputer"
 
 #: ../../en/hardware/ir.rst:35 e609490e687a472b9721361b03bdca82
 msgid "M5Capsule"
-msgstr ""
+msgstr "M5Capsule"
 
 #: ../../en/hardware/ir.rst:40 1c7f6aa53ac741069ea77f289be94752
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/hardware/ir.rst:46 2d1948f2fcd24599b94300a5188d08f6
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/hardware/ir.rst:48 5a5d391a021f487b9461b98b16b4a485
 msgid "|example.png|"
@@ -121,22 +121,22 @@ msgstr ""
 
 #: ../../en/hardware/ir.rst:58 e662e9a9fc49479ebf0ce89cf75c0ceb
 msgid "class IR"
-msgstr ""
+msgstr "class IR"
 
 #: ../../en/hardware/ir.rst:61 db99a9d9ab224b029e97e60b85b9bdf3
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/hardware/ir.rst:65 7627ccf00a7e478ba7ff15464f6208d3
 msgid ""
 "Initializes the IR unit with the appropriate pins based on the M5Stack "
 "board type."
-msgstr ""
+msgstr "根据 M5Stack 开发板类型，使用相应的引脚初始化 IR 单元。"
 
 #: ../../en/hardware/ir.rst:68 ../../en/hardware/ir.rst:83
 #: 4eb9d3fcf12c47048f73c42aa7adb68b 574f159f67a24892952e8139f464c05b
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2："
 
 #: ../../en/hardware/ir.rst:70 a7307bfc73bb46008001d9dc3fabd87c
 msgid "|init.png|"
@@ -154,7 +154,7 @@ msgstr ""
 msgid ""
 "Transmits an IR signal with the specified command and data using the NEC "
 "protocol."
-msgstr ""
+msgstr "使用 NEC 协议，通过指定的命令和数据发送 IR 信号。"
 
 #: ../../en/hardware/ir.rst f337c3e7904649769697f7c6fc5ef45f
 msgid "Parameters"
@@ -162,11 +162,11 @@ msgstr ""
 
 #: ../../en/hardware/ir.rst:80 fe4da876d4f84421b2a420bcc32837c1
 msgid "The command code to be transmitted."
-msgstr ""
+msgstr "要传输的命令代码。"
 
 #: ../../en/hardware/ir.rst:81 b996ca91c20847808ca3b16b612793f9
 msgid "The data associated with the command."
-msgstr ""
+msgstr "与该命令关联的数据。"
 
 #: ../../en/hardware/ir.rst:85 e7e6a1ee3daa4146a20be68ab615fbb5
 msgid "|tx.png|"

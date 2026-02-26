@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../en/m5ui/msgbox.rst:30 7e28d37c4e3c45cbb2721796e24ea5d7
 msgid "MicroPython Example"
-msgstr ""
+msgstr "MicroPython 应用示例"
 
 #: ../../en/m5ui/msgbox.rst:37 ../../en/m5ui/msgbox.rst:66
 #: ../../en/m5ui/msgbox.rst:82 ../../en/m5ui/msgbox.rst:104
@@ -140,11 +140,11 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/m5ui/msgbox.rst:49 e663be305c0b4440aaa9a6da3a69b99a
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: 8f82413b826c42fb8ebb54b1dbc9f8b1 m5ui.msgbox.M5Msgbox:1 of
 msgid "Bases: :py:class:`~lvgl.msgbox`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.msgbox`。"
 
 #: db04dd5d578f41cda69c62a35e55caef m5ui.msgbox.M5Msgbox:1 of
 msgid "Create a msgbox object."

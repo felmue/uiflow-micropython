@@ -22,14 +22,16 @@ msgstr ""
 
 #: ../../en/module/display.rst:3 0e7ad055e4c64b77b61c51951b615786
 msgid "Display Module"
-msgstr ""
+msgstr "显示模块"
 
 #: ../../en/module/display.rst:9 97b47c837deb46d1a384cf5a0631fdcc
 msgid ""
 "Display Module 13.2 is an expansion module for HD audio and video, using "
 "GAOYUN GW1NR series FPGA chip to output display signals, and employing "
 "the LT8618S chip for signal output conditioning."
-msgstr "Display Module 13.2 为高清音视频的扩展模块，采用GAOYUN GW1NR系列FPGA芯片输出显示信号，采用LT8618S芯片进行信号输出调理。"
+msgstr ""
+"Display Module 13.2 为高清音视频的扩展模块，采用GAOYUN "
+"GW1NR系列FPGA芯片输出显示信号，采用LT8618S芯片进行信号输出调理。"
 
 #: ../../en/module/display.rst:11 655d2ad845904108abf63dc626dad8ed
 msgid "Support the following products:"
@@ -41,7 +43,7 @@ msgstr ""
 
 #: ../../en/refs/module.display.ref 59f7de96d8de4c0ba386952cc538d984
 msgid "DisplayModule"
-msgstr ""
+msgstr "DisplayModule"
 
 #: ../../en/module/display.rst:17 283deafa52394941a166297e02685cba
 msgid "UiFlow2 Example"
@@ -98,11 +100,11 @@ msgstr "API参考"
 
 #: ../../en/module/display.rst:55 48493f6894ed4d1d90c9fe74f6b02d4b
 msgid "Class DisplayModule"
-msgstr ""
+msgstr "Class DisplayModule"
 
 #: c3efbbb859a14be281e0877cf11f5941 module.display.DisplayModule:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: 84a73d5dc605435a87fdd1604052450a module.display.DisplayModule:1 of
 msgid "Initialize the Display Module."
@@ -156,4 +158,7 @@ msgstr ""
 msgid ""
 "DisplayModule class inherits Display class, See :ref:`hardware.Display "
 "<hardware.Display>` for more details."
-msgstr "DisplayModule 类继承了 Display 类，更多详细信息请参阅 :ref:`hardware.Display <hardware.Display>` 。"
+msgstr ""
+"DisplayModule 类继承了 Display 类，更多详细信息请参阅 :ref:`hardware.Display "
+"<hardware.Display>` 。"
+

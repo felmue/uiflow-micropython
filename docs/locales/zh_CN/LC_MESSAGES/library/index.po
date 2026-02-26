@@ -18,13 +18,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/library/index.rst:2 b9ea5ff314d24bd1b897c8bf77591086
 msgid "MicroPython libraries"
-msgstr ""
+msgstr "MicroPython 库"
 
 #: ../../en/library/index.rst:4 6011667f27694578847363091d3b41d2
 msgid "https://docs.micropython.org/en/v1.22.0/library/index.html"
-msgstr ""
+msgstr "https://docs.micropython.org/en/v1.22.0/library/index.html"
 

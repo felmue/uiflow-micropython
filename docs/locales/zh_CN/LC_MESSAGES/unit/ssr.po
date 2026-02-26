@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/ssr.rst:3 8d65ae01c2954b0f84d469298ee5e550
+msgid "SSR Unit"
+msgstr "SSR Unit"
+
+#: ../../source/unit/ssr.rst:7 45dd3efb32004541843a808aa6b9f0c3
+msgid ""
+"UNIT SSR Solid-state relays are different from traditional "
+"electromagnetic relays in that their switching life are much longer than "
+"that of electromagnetic relays. With integrated MOC3043M optocoupler "
+"isolation and zero-crossing detection,It supports input 3.3-5V DC control"
+" signal, and control output single-phase 220-250V AC power."
+msgstr ""
+"UNIT SSR 固态继电器与传统电磁继电器不同，其开关寿命比电磁继电器长得多。它集成 MOC3043M 光耦隔离和过零检测，支持输入 "
+"3.3-5V DC 控制信号，并控制输出单相 220-250V AC 电源。"
+
+#: ../../source/unit/ssr.rst:9 4517e0e8bfca4ff5bbac0911c43e1bd8
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/ssr.rst:11 faa31bdd19a64bd080682290a713f06d
+msgid "|SSRUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.ssr.ref 8b4f3120627343c1b970758f0c36eb64
+msgid "SSRUnit"
+msgstr "SSRUnit"
+
+#: ../../source/unit/ssr.rst:13 ef285fa760394013887f7933bf710c2c
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/ssr.rst:20 903584a56f5a400a94101666bc12f59e
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/ssr.rst:22 50329d049b7241e484d28b2f0da7bc83
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ssr.ref:12 d2860aa2c27249159c5e72fdca2113d6
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/ssr.rst:27 a4a0c394c8f54596943b72e78ec26ee0
+msgid "|cores3_ssr_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/ssr.rst:31 2f5755fea0274f4b8a485a6be304b6fa
+msgid "class SSRUnit"
+msgstr "class SSRUnit"
+
+#: ../../source/unit/ssr.rst:34 915112404f214e35a302834be4bd0b46
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/ssr.rst:38 00293987456f40f2ae1a244038cddafe
+msgid "Initialize the SSR."
+msgstr "初始化 SSR。"
+
+#: ../../source/unit/ssr.rst:40 d1d4dc350eb242c7b9fbdaaf6aa16166
+msgid "``port``: The port to which the Fader is connected. port[1]: control pin"
+msgstr "``port``：Fader 连接的端口。port[1]：控制引脚"
+
+#: ../../source/unit/ssr.rst:42 ../../source/unit/ssr.rst:55
+#: ../../source/unit/ssr.rst:64 ../../source/unit/ssr.rst:74
+#: 3e38d463d2f64545b4eb68b544c71b1f 60153fe37b9746e8b5f3b232f7b64621
+#: 6dd8a673c8f64d04b59a3ebe60547dfd 797d1dfe78c84ccbbf4770d9919fbe1a
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/ssr.rst:44 45109501bfe6499eb02ab7f7e4372ba6
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ssr.ref:7 6a6c9d0f19bd4b4ea1754a5727e01f3d
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/ssr.rst:48 ca5c6af0644241a0941676510e855d2f
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/ssr.rst:52 156ad6fbfb2c4f3e84cd2f498db32c93
+msgid "Turn on the SSR."
+msgstr "打开 SSR。"
+
+#: ../../source/unit/ssr.rst:57 7c611e0d067b4606b1557ba4c5942fe1
+msgid "|on.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ssr.ref:8 a379cd838773440eb3eb1cca52ff8d88
+msgid "on.png"
+msgstr ""
+
+#: ../../source/unit/ssr.rst:61 3fb7a8299dad4475953d0ad55549bc71
+msgid "Turn off the SSR."
+msgstr "关闭 SSR。"
+
+#: ../../source/unit/ssr.rst:66 96179356d7f14fd384f74bfb28016024
+msgid "|off.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ssr.ref:9 5abbf15bb3d94001b604df54a2ac6125
+msgid "off.png"
+msgstr ""
+
+#: ../../source/unit/ssr.rst:70 b94d4be188f5476184e104a5954dfb29
+msgid "Set the state of the SSR."
+msgstr "设置 SSR 的状态。"
+
+#: ../../source/unit/ssr.rst:72 72299cf487dc4a6fbeea57a9be47d97c
+msgid "``state``: The state of the SSR."
+msgstr "``state``：SSR 的状态。"
+
+#: ../../source/unit/ssr.rst:76 f4b9b6c80b4a40a5ae8479f555ed15b8
+msgid "|set_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ssr.ref:10 0488ce0c936c44079556fea571fdab69
+msgid "set_state.png"
+msgstr ""
+

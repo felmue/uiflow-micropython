@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/nbiot2.rst:2 5d359b39a7574ebcb66275640eb50afe
+msgid "NB-IoT2 Unit"
+msgstr "NB-IoT2 Unit"
+
+#: ../../source/unit/nbiot2.rst:8 8e4143859042435fa1bcece6a9a441b9
+msgid ""
+"The ``NB-IOT2 Unit`` is a wireless communication module suitable for "
+"global Cat-NB frequency bands. It features an integrated SIM7028 "
+"communication module, utilizing serial communication (controlled via AT "
+"commands)."
+msgstr ""
+"``NB-IOT2 Unit`` 是一款适用于全球 Cat-NB 频段的无线通信模块。它集成了 SIM7028 通信模块，并采用串口通信（通过 "
+"AT commands 进行控制）。"
+
+#: ../../source/unit/nbiot2.rst:10 b9d21ef16a844178883e66a49fc968ce
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/nbiot2.rst:12 0d55c2ffa7c841dea7b5b3d0a94385d8
+msgid "|NB-IOT2Unit|"
+msgstr ""
+
+#: ../../source/refs/unit.nbiot2.ref 1643d6ea83f947858a4e79849c74ea46
+msgid "NB-IOT2Unit"
+msgstr "NB-IOT2Unit"
+
+#: ../../source/unit/nbiot2.rst:16 c377e51ed0fa40ae84ca773847f1b50f
+msgid ""
+"Please ensure that the device supports the NB-IoT frequency bands in your"
+" area before use."
+msgstr "使用前请确保设备支持您所在地区的 NB-IoT 频段。"
+
+#: ../../source/unit/nbiot2.rst:20 f640e42d211144f1a2657632456e5452
+msgid ""
+"Please ensure that the firmware version of SIM7028 is greater than or "
+"equal to **2110B07SIM7028**."
+msgstr "请确保 SIM7028 的固件版本大于或等于 **2110B07SIM7028**。"
+
+#: ../../source/unit/nbiot2.rst:22 9193633771ad47689fe6f2dd88ca4f33
+msgid "|get_version.png| can be used to check the firmware version."
+msgstr "|get_version.png| 可用于检查固件版本。"
+
+#: ../../source/refs/unit.nbiot2.ref:25 22d64aea56b74f638afaf69d1e15f932
+msgid "get_version.png"
+msgstr ""
+
+#: ../../source/unit/nbiot2.rst:25 45fa500e375f461fa8d971122e87d783
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/nbiot2.rst:28 ../../source/unit/nbiot2.rst:65
+#: 417ccafbe8d14cffb9f5382ed916c20a b0eaf6db3d8f439a94a4810ba7841299
+msgid "NBIoT HTTP Example"
+msgstr "NBIoT HTTP 应用示例"
+
+#: ../../source/unit/nbiot2.rst:30 6222e5c143cc4df89f1b97eafaf5b11d
+msgid "Open the |cores3_unit_nbiot2_http_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |cores3_unit_nbiot2_http_example.m5f2| 项目。"
+
+#: ../../source/unit/nbiot2.rst:32 ../../source/unit/nbiot2.rst:67
+#: 18972965292644fa8a77323a8e05ff9e a5edfb8588aa4092ac6213a1b316c2f9
+msgid "This example shows how to send HTTP request using the NBIoT2 Unit."
+msgstr "该示例演示如何使用 NBIoT2 Unit 发送 HTTP 请求。"
+
+#: ../../source/unit/nbiot2.rst:34 adb1bf5212064304bd3e073f38b0e0af
+msgid ""
+"click **Send** button to send HTTP request. Response data will be printed"
+" in the textarea."
+msgstr "点击 **Send** 按钮发送 HTTP 请求。响应数据将打印在文本区域中。"
+
+#: ../../source/unit/nbiot2.rst:36 ../../source/unit/nbiot2.rst:52
+#: 6e9a809f2bec4d718f7b2d358c3b676e 7b6532ae322f4d9db935753363497a86
+#: bf8463636adf4dc684aa311f9a726314 of unit.nbiot2.NBIOT2Unit:8
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/nbiot2.rst:38 f69e7b256de94da894eec41423e18cd2
+msgid "|cores3_unit_nbiot2_http_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.nbiot2.ref:8 6e8cc8f853f1415f8d609a87aba9a3e7
+msgid "cores3_unit_nbiot2_http_example.png"
+msgstr ""
+
+#: ../../source/unit/nbiot2.rst:40 ../../source/unit/nbiot2.rst:56
+#: ../../source/unit/nbiot2.rst:75 ../../source/unit/nbiot2.rst:91
+#: 1619f1b94d1b46e3abb357de8d496444 36f8015e9ccb43be99ea8f2f0dc712ac
+#: d9413170f17840bebbe527e490c8c8ae f908e9dda0664f3196ddb225375be308
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/nbiot2.rst:42 ../../source/unit/nbiot2.rst:58
+#: ../../source/unit/nbiot2.rst:77 ../../source/unit/nbiot2.rst:93
+#: 2b7fb8458dcb476a9413e134971d505c 637161372bc847f0ba00dbeb24d773e1
+#: 7c6e1bac60664ff596fb9c900498a948 f0f6ffdf49e342de91c63c40903eeed3
+msgid "Output of received NBIoT message data on screen."
+msgstr "在屏幕上输出接收到的 NBIoT 消息数据。"
+
+#: ../../source/unit/nbiot2.rst:46 ../../source/unit/nbiot2.rst:81
+#: e804cab181a84c25aa093c4198b11fbb fbbb684e95784da9b20d25c8f36319f4
+msgid "MQTT Example"
+msgstr "MQTT 示例"
+
+#: ../../source/unit/nbiot2.rst:48 c1cc579b0e1f49d39259cb17cf378ca8
+msgid "Open the |cores3_unit_nbiot2_mqtt_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |cores3_unit_nbiot2_mqtt_example.m5f2| 项目。"
+
+#: ../../source/unit/nbiot2.rst:50 ../../source/unit/nbiot2.rst:83
+#: 0fb9af40a9564c4ebde6c57051867641 c9e7ac1569d448d08d06e2e674a5c517
+msgid "This example shows how to send MQTT message using the NBIoT2 Unit."
+msgstr "该示例演示如何使用 NBIoT2 Unit 发送 MQTT 消息。"
+
+#: ../../source/unit/nbiot2.rst:54 df22eb36ca7f479b80dde09ae77b1a71
+msgid "|cores3_unit_nbiot2_mqtt_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.nbiot2.ref:9 ab86fab1d9d2473f929ea872a731c4bb
+msgid "cores3_unit_nbiot2_mqtt_example.png"
+msgstr ""
+
+#: ../../source/unit/nbiot2.rst:62 a63a151710f64fcca50b984f4802f7e8
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/nbiot2.rst:69 ../../source/unit/nbiot2.rst:85
+#: 10dd9953d3ca4eef936468eb7fdd2b72 2c617580802d43fc8e7be9a745003c5c
+#: 4b370df64cfd47a5a9b49673793c886c of unit.nbiot2.NBIOT2Unit:12
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/nbiot2.rst:97 d40c2f85cf164dd49ccdf2b38f3831b3
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/nbiot2.rst:100 fe4746095bf24c78ae810c1ed2b1a605
+msgid "NBIOT2Unit"
+msgstr "NBIOT2Unit"
+
+#: df0b2f6b458342eaad477a4452a5f96d of unit.nbiot2.NBIOT2Unit:1
+msgid "Bases: :py:class:`~driver.simcom.sim7028.SIM7028`"
+msgstr "Bases: :py:class:`~driver.simcom.sim7028.SIM7028`"
+
+#: b7c0ba86cc624f65adf535ee74dbc381 of unit.nbiot2.NBIOT2Unit:1
+msgid "Create an NBIOT2Unit object."
+msgstr "创建一个 NBIOT2Unit 对象。"
+
+#: ../../source/unit/nbiot2.rst 924f9c0424e849128dffc27ae8d9f4f8
+msgid "Parameters"
+msgstr ""
+
+#: ad1d63da6fe64c319ff8c3f3f719e9b6 of unit.nbiot2.NBIOT2Unit:3
+msgid "The UART ID."
+msgstr "UART ID。"
+
+#: f22751a3051645dc991388b23a2e7ab2 of unit.nbiot2.NBIOT2Unit:4
+msgid "A list or tuple containing the RX and TX pin numbers."
+msgstr "包含 RX 和 TX 引脚编号的列表或元组。"
+
+#: 6ee602f1f68b48caa84517dbc600ab9c of unit.nbiot2.NBIOT2Unit:6
+msgid "Whether to print debug information."
+msgstr "是否打印调试信息。"
+
+#: 8b46e1e44bcf424f881fd3877363816e of unit.nbiot2.NBIOT2Unit:10
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.nbiot2.ref:34 730b1643ef2d40fa8057088b287f7f95
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/nbiot2.rst:107 6f4ca30adb5245dd9467faa6e552062a
+msgid "See :class:`NBIOTUnit <unit.nbiot.NBIOTUnit>` for more details."
+msgstr "更多详细信息请参阅 :class:`NBIOTUnit <unit.nbiot.NBIOTUnit>`。"
+

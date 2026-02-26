@@ -18,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/controllers/coreink.rst:3 257ce5bb51534259b16dd93d85116483
 msgid "CoreInk"
-msgstr ""
+msgstr "CoreInk"
 
 #: ../../en/refs/controllers.coreink.ref:1 c387799faa2c489cb2cb2143e8ca4eaf
 #: f35ff93c91424b53a4cc617aab880e89
@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../../en/controllers/coreink.rst:9 cf8e5183ecff4d04a72e4ed1146fa17a
 msgid "UI"
-msgstr ""
+msgstr "UI"
 
 #: ../../en/controllers/coreink.rst:11 449790e181674272ac94cd3bc8f27175
 msgid "|op.png|"

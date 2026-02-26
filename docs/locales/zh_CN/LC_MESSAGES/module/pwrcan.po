@@ -18,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/module/pwrcan.rst:4 987fd9ee8b104ed3be78b9b4c777dffc
 msgid "PwrCAN"
-msgstr ""
+msgstr "PwrCAN"
 
 #: ../../source/module/pwrcan.rst:8 fbc335b69e6943cbb4ec5efa23454025
 msgid ""
@@ -42,14 +42,11 @@ msgid ""
 "communication systems, intelligent transportation, and building "
 "automation."
 msgstr ""
-"PwrCAN Module 13.2是一款针对PwrCAN总线设计的多功能模块，集成了隔离CAN通信和"
-"直流9-24V电源总线。模块同时具备带隔离的Pwr485总线功能，并可为M5主机提供隔离"
-"5V电源。CAN通信部分采用CA-IS3050G隔离型收发器，RS485部分采用CA-IS3082W隔离型"
-"收发器。与CAN和RS485通信相关的GPIO可通过拨码开关选择，CAN与RS485输出端的120欧"
-"姆终端电阻也可通过拨码开关选择。模块的电源总线支持直流9-24V宽压输入，DC插座"
-"与HT3.96及XT30电源端直接相连。内置的隔离电源模块F0505S-2WR3为M5主机供电。本"
-"模块适用于机器人控制、协议转换、工业自动化、汽车通信系统、智能交通及楼宇自"
-"动化等领域。"
+"PwrCAN Module "
+"13.2是一款针对PwrCAN总线设计的多功能模块，集成了隔离CAN通信和直流9-24V电源总线。模块同时具备带隔离的Pwr485总线功能，并可为M5主机提供隔离5V电源"
+"。CAN通信部分采用CA-IS3050G隔离型收发器，RS485部分采用CA-"
+"IS3082W隔离型收发器。与CAN和RS485通信相关的GPIO可通过拨码开关选择，CAN与RS485输出端的120欧姆终端电阻也可通过拨码开关选择。模块的电源总线支持直流9-24V宽压输入，DC插座与HT3.96及XT30电源端直接相连"
+"。内置的隔离电源模块F0505S-2WR3为M5主机供电。本模块适用于机器人控制、协议转换、工业自动化、汽车通信系统、智能交通及楼宇自动化等领域。"
 
 #: ../../source/module/pwrcan.rst:10 22d1a84d4e884c7ea0bccdbccd22b01f
 msgid "Supported Products:"
@@ -62,7 +59,7 @@ msgstr ""
 #: ../../source/module/pwrcan.rst:58 ../../source/refs/module.pwrcan.ref
 #: 987fd9ee8b104ed3be78b9b4c777dffc b3ec68d334b847c98c48a6f1fe75443c
 msgid "PwrCANModule"
-msgstr ""
+msgstr "PwrCANModule"
 
 #: ../../source/module/pwrcan.rst:15 7e79bc6504744e65aaeda02892f6fbbd
 msgid "UiFlow2 Example"
@@ -215,7 +212,7 @@ msgstr "PwrCANModule类继承自CAN类，更多细节请参阅 :class:`hardware.
 
 #: ../../source/module/pwrcan.rst:90 f5c2de468abe4e3ca1ba8b7f935ade93
 msgid "PwrCANModuleRS485"
-msgstr ""
+msgstr "PwrCANModuleRS485"
 
 #: ../../source/module/pwrcan.rst:94 4038759647aa4a81839472d94c0348b6
 msgid "Construct a UART object of the given id."
@@ -316,10 +313,7 @@ msgid ""
 "peripheral to serve different devices attached to different GPIO pins. "
 "Only one device can be served at a time in that case. Also do not call "
 "``deinit()`` as it will prevent calling ``init()`` again."
-msgstr ""
-"可以在同一对象上多次调用``init()``以便动态重新配置UART，从而用单个UART外设服"
-"务于接在不同GPIO引脚上的不同设备，但同一时间只能服务一个设备。此外不要调用"
-"``deinit()``，否则无法再次调用``init()``。"
+msgstr "可以在同一对象上多次调用``init()``以便动态重新配置UART，从而用单个UART外设服务于接在不同GPIO引脚上的不同设备，但同一时间只能服务一个设备。此外不要调用``deinit()``，否则无法再次调用``init()``。"
 
 #: ../../source/module/pwrcan.rst:142 a0a1a952b564438f8f839b8632710ff1
 msgid "|setup.png|"
@@ -337,8 +331,7 @@ msgstr "关闭UART总线。"
 msgid ""
 "You will not be able to call ``init()`` on the object after ``deinit()``."
 " A new instance needs to be created in that case."
-msgstr ""
-"调用``deinit()``后将无法再对该对象调用``init()``，如需继续使用需新建实例。"
+msgstr "调用``deinit()``后将无法再对该对象调用``init()``，如需继续使用需新建实例。"
 
 #: ../../source/module/pwrcan.rst:160 58375e11a65b4c50bbbbad1e6a974ab5
 msgid "|deinit.png|"
@@ -362,7 +355,7 @@ msgstr ""
 #: ../../source/module/pwrcan.rst:244 38aeeb0ebb4f4680bfc6afb68d83f0da
 #: 7a29e4d53b8844a6afa4783be4eecdf7 f3127938b75a417cb6fe6ef443d9c467
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../source/module/pwrcan.rst:177 0192e81bf4c04194a7797ccde9f60e01
 msgid "|any.png|"
@@ -385,7 +378,7 @@ msgstr "指定时最多读取相应字节数，否则尽可能多地读取数据
 #: ../../source/module/pwrcan.rst:190 ../../source/module/pwrcan.rst:227
 #: 4f23ac8a031a4ed9bc81d6add96474ee e487e8d6c3b648ca9c456ce7df7b788e
 msgid "bytes"
-msgstr ""
+msgstr "bytes"
 
 #: ../../source/module/pwrcan.rst:194 3c9beb9555ef4bcaa58eefe2627b9b40
 msgid "|read_all.png|"
@@ -499,7 +492,7 @@ msgstr "指示所有数据是否已发送。"
 
 #: ../../source/module/pwrcan.rst:292 a59633c941ee4cd483cc28f2add17c25
 msgid "bool"
-msgstr ""
+msgstr "bool"
 
 #: ../../source/module/pwrcan.rst:296 9fd80d3f37364913a9e4bf5c9afb0168
 msgid "|txdone.png|"

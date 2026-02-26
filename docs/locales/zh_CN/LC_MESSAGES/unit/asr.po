@@ -1,0 +1,429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/asr.rst:3 b0c7e02889fb4096b58c2f700fa1ae4a
+msgid "ASR Unit"
+msgstr "ASR Unit"
+
+#: ../../source/unit/asr.rst:7 bb372f2a3a4d45cc9f086cbef59eb6d1
+msgid ""
+"**Unit ASR** is an **AI** offline speech recognition unit, featuring the "
+"built-in AI smart offline speech module **CI-03T**. This unit offers "
+"powerful functions such as speech recognition, voiceprint recognition, "
+"speech enhancement, and speech detection. It supports AEC (Acoustic Echo "
+"Cancellation) to effectively eliminate echoes and noise interference, "
+"improving the accuracy of speech recognition. Additionally, it supports "
+"mid-speech interruption, allowing for flexible interruption during the "
+"recognition process and quick response to new commands. The product is "
+"pre-configured with wake-up words and feedback commands at the factory. "
+"The device uses **UART** serial communication for data transmission and "
+"also supports waking up the device via UART or voice keywords. This unit "
+"supports user customization of the **wake-up** recognition word and can "
+"recognize up to 300 command words. It is equipped with a **microphone** "
+"for clear audio capture and includes a **speaker** for high-quality audio"
+" feedback. This product is widely used in AI assistants, smart homes, "
+"security monitoring, automotive systems, robotics, smart hardware, "
+"healthcare, and other fields, making it an ideal choice for realizing "
+"smart voice interactions."
+msgstr ""
+"**Unit ASR** 是一款 **AI** 离线语音识别单元，内置 AI 智能离线语音模块 **CI-"
+"03T**。该单元提供语音识别、声纹识别、语音增强、语音检测等强大功能。支持 AEC（Acoustic Echo "
+"Cancellation，声学回声消除），可有效消除回声与噪声干扰，提高语音识别准确率。此外，支持语音中途打断，可在识别过程中灵活中断并快速响应新指令。产品出厂已预置唤醒词与反馈指令。设备使用"
+" **UART** 串口通信进行数据传输，同时也支持通过 UART 或语音关键词唤醒设备。该单元支持用户自定义 **wake-up** "
+"唤醒识别词，并可识别最多 300 个命令词。内置 **microphone** 用于清晰拾音，并配备 **speaker** "
+"提供高品质语音反馈。本产品广泛应用于 AI 助手、智能家居、安防监控、车载系统、机器人、智能硬件、医疗健康等领域，是实现智能语音交互的理想选择。"
+
+#: ../../source/unit/asr.rst:9 f2388b99467d47c68992644ce4240877
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/asr.rst:11 979c81479cc745828313351dd4d0ccc2
+msgid "|ASRUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref ../../source/unit/asr.rst:54
+#: 3aa7f9df60ff41bab172eda832af9f4a 77d198dc89b3461d98df0e5649f21c91
+msgid "ASRUnit"
+msgstr "ASRUnit"
+
+#: ../../source/unit/asr.rst:15 66e405ad96c44243917930ce21cc658b
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/asr.rst:18 ../../source/unit/asr.rst:36
+#: 3c392652f48f41fdb58befeb5b6dff4b 93caaa0fb6fc48be879f67d09c0b7328
+msgid "ASR Example"
+msgstr "ASR 应用示例"
+
+#: ../../source/unit/asr.rst:20 d73f4758d6f94cd78be26d0817e560f8
+msgid "Open the |asr_cores3_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |asr_cores3_example.m5f2| 项目。"
+
+#: ../../source/unit/asr.rst:22 ../../source/unit/asr.rst:38
+#: 0b195ffa724642b3a0c5a70f85a6e240 6c9608f3c36d4055a3934ebd8f5e4bc2
+msgid ""
+"This example shows how to use Unit ASR to get the current command word, "
+"command number, and trigger an event when you say hello to do something "
+"you want to do."
+msgstr "该示例演示如何使用 Unit ASR 获取当前命令词和命令编号，并在你说 “hello” 时触发事件，以执行你想要执行的操作。"
+
+#: ../../source/unit/asr.rst:24 065d8e094a43476398b48ef4012075ec
+#: 150c82dec6af4140a9d99f160f1e71e3 1f0b6be22475442cb07df6fb5e509969
+#: 2c157388a6d14b4d9d094aa8ad83fcf0 36ee2e6061af4fb2949da6134d40f2c9
+#: 4fc8e514a78d466b97902706f2c36b36 52137dd339ae4ea585d4bc9b4df07d48
+#: 98bc9bbd59c5429abbdbfdafe7b1b57e a237a7c3a0024467b4d7ef434d67856a
+#: b1b790502409426eaad2affc1c3d8844 b479966fa6d048e8876a696bc6c14c0a
+#: e957c5f04c9641dd8bd943615436693b fbb2772390b840dcbc55da88b8c14bb4 of
+#: unit.asr.ASRUnit:6 unit.asr.ASRUnit.add_command_word:7
+#: unit.asr.ASRUnit.get_command_handler:6 unit.asr.ASRUnit.get_command_list:6
+#: unit.asr.ASRUnit.get_current_command_num:6
+#: unit.asr.ASRUnit.get_current_command_word:6
+#: unit.asr.ASRUnit.get_current_raw_message:6
+#: unit.asr.ASRUnit.get_received_status:6
+#: unit.asr.ASRUnit.remove_command_word:5 unit.asr.ASRUnit.search_command_num:7
+#: unit.asr.ASRUnit.search_command_word:7 unit.asr.ASRUnit.send_message:5
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/asr.rst:26 c433388bf1924754afead57b73ce2c12
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:22 f160e769318e4c919b9530ebc6dc88af
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/asr.rst:28 ../../source/unit/asr.rst:46
+#: 1b1ab26ddcae48838fc3b98e10450574 d656683824804791905d72046ce7493e
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/asr.rst:30 ../../source/unit/asr.rst:48
+#: 03e9d66da14f4cde93b979a688ab2289 e4e979aa4db344b3b529287e415159d4
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/asr.rst:33 c9b0ce6ac89d4507bf587047cda72eb0
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/asr.rst:40 1606825499c84c6a9186a7b8b1f17297
+#: 1822e1f78b0c496f9c96192ff0a18787 2b9989ca2f174047965ba7ef76c14e81
+#: 35a8ba9201264454921d341f8f6ba3c6 4b92d9a6993b44d2903ccef2cfa6dfcd
+#: 597a767be31747f9a4f4e8a2ce469878 88844b702581416c92eb5346d64aa622
+#: 920b660b0b6a47418a80c1d26d369360 95043695011c4a1caf23eb4a767c3d2d
+#: 9c624543215e450d9260a54f1c5d6fb7 a2a5c8a670144bbba6511b7856884d7a
+#: ab660071bfcf48ba91ea1fa85d6d0a65 c97403585c3d430381ac6c3c62d0b8f6
+#: fb26136ef53547038cd3bc054258223c of unit.asr.ASRUnit:10
+#: unit.asr.ASRUnit.add_command_word:11 unit.asr.ASRUnit.check_tick_callback:6
+#: unit.asr.ASRUnit.get_command_handler:10 unit.asr.ASRUnit.get_command_list:10
+#: unit.asr.ASRUnit.get_current_command_num:10
+#: unit.asr.ASRUnit.get_current_command_word:10
+#: unit.asr.ASRUnit.get_current_raw_message:10
+#: unit.asr.ASRUnit.get_received_status:10
+#: unit.asr.ASRUnit.remove_command_word:9
+#: unit.asr.ASRUnit.search_command_num:11
+#: unit.asr.ASRUnit.search_command_word:11 unit.asr.ASRUnit.send_message:9
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/asr.rst:51 0bd316ef8d1e436a850e6392e586060d
+msgid "**API**"
+msgstr "API参考"
+
+#: c2a4d4c89de64fe985412a4664bd9b22 of unit.asr.ASRUnit:1
+msgid "Bases: :py:class:`object`"
+msgstr "Bases: :py:class:`object`"
+
+#: 889d9ed207774d62bdc882ee86a58c93 of unit.asr.ASRUnit:1
+msgid "Voice recognition hardware module."
+msgstr "语音识别硬件模块。"
+
+#: ../../source/unit/asr.rst 160c638a9c2a4b709f6e7b63f18d0b24
+#: 1ba5820db957417cbc1ead25c491e718 a289975efcce4e2182f24ef4f3dc7aef
+#: a2b6b2241dba480f9776666347ea619a c674f4d8a609442cb39d6c37115ae324
+#: dbebce0212c14c2cb325e4a35e5cbd2f of unit.asr.ASRUnit.add_command_word
+#: unit.asr.ASRUnit.remove_command_word unit.asr.ASRUnit.search_command_num
+#: unit.asr.ASRUnit.search_command_word unit.asr.ASRUnit.send_message
+msgid "Parameters"
+msgstr ""
+
+#: 63c02b4e94984b3eb2f7ac3a4f6c121a of unit.asr.ASRUnit:3
+msgid "UART port ID for communication. Default is 2."
+msgstr "用于通信的 UART 端口 ID。默认值为 2。"
+
+#: 22ef3ce7a43a4c2091aeafc9451e16aa of unit.asr.ASRUnit:4
+msgid "Tuple containing TX and RX pin numbers."
+msgstr "包含 TX 和 RX 引脚编号的元组。"
+
+#: a7e3a836533d438ca7dd20e766db4137 of unit.asr.ASRUnit:8
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:7 8373014f78454a25a6dd079d2b2d8c8a
+msgid "init.png"
+msgstr ""
+
+#: 92690dfd7c0940aaab86bc25fe866b27 of unit.asr.ASRUnit.get_received_status:1
+msgid "Get message reception status."
+msgstr "获取消息接收状态。"
+
+#: 031815b407094e0db3a7c41c7e6e0534 0de72cce8d694b04b11993c825275736
+#: 2d96ff6911a54cb1a72422b1d36a2d89 3d999b33e4be496282b31b3736f208ad
+#: 580d600ef4fd45a3ba45aee13f19de51 9b04f58a30e64ed79e75c6a166b7ec0d
+#: b79fff69a6f74059b337cefa029f0af1 d0b98f850d7540bc8229b9ed01965577
+#: d6bb840d7acd4158a6277943d46392d7 of unit.asr.ASRUnit.check_tick_callback
+#: unit.asr.ASRUnit.get_command_handler unit.asr.ASRUnit.get_command_list
+#: unit.asr.ASRUnit.get_current_command_num
+#: unit.asr.ASRUnit.get_current_command_word
+#: unit.asr.ASRUnit.get_current_raw_message
+#: unit.asr.ASRUnit.get_received_status unit.asr.ASRUnit.search_command_num
+#: unit.asr.ASRUnit.search_command_word
+msgid "Returns"
+msgstr ""
+
+#: ecc903eb508c4d909c74b771cbdf4964 of unit.asr.ASRUnit.get_received_status:3
+msgid "True if a message is received, False otherwise."
+msgstr "如果接收到消息则为 True，否则为 False。"
+
+#: 1aab4c97ef8b437fadc71051a246f975 28c5de04bca64dc29e3e4b3096f1a414
+#: 5c0b91809c7e447284af58729f961c16 6590eb7cdb6b44b3b730f05978efab8e
+#: 71a2d2bf5ea243e5ae860c3010917937 8c2f75a644994d098adedb60adcf11f0
+#: b2839ff9fa844d3da47a338a5a9b1cd9 b7c5df989b184fdc871788dcd358aab8
+#: dd83da39004e46bd9df640748b9dc297 e60077ab32a34fcdb7250456c6b7f742
+#: ecf6a8bd4caa4ee8a30a53561855966e ef2947b3d1d44df595ca0bd89f401117 of
+#: unit.asr.ASRUnit.add_command_word unit.asr.ASRUnit.check_tick_callback
+#: unit.asr.ASRUnit.get_command_handler unit.asr.ASRUnit.get_command_list
+#: unit.asr.ASRUnit.get_current_command_num
+#: unit.asr.ASRUnit.get_current_command_word
+#: unit.asr.ASRUnit.get_current_raw_message
+#: unit.asr.ASRUnit.get_received_status unit.asr.ASRUnit.remove_command_word
+#: unit.asr.ASRUnit.search_command_num unit.asr.ASRUnit.search_command_word
+#: unit.asr.ASRUnit.send_message
+msgid "Return type"
+msgstr ""
+
+#: e3b27d4d7281474ea7ec44905c06c35e of unit.asr.ASRUnit.get_received_status:8
+msgid "|get_received_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:9 d58dea328a904119bba6f68ff397261c
+msgid "get_received_status.png"
+msgstr ""
+
+#: c298c584c4e340dd9a4bab2262a2df3a of unit.asr.ASRUnit.send_message:1
+msgid "Send command via UART."
+msgstr "通过 UART 发送命令。"
+
+#: 0051138827a441598e5984d31dc837a9 of unit.asr.ASRUnit.send_message:3
+msgid "Command number to send (0-255)"
+msgstr "要发送的命令编号（0-255）"
+
+#: e6d46a88537f442ab9b298670afd6d15 of unit.asr.ASRUnit.send_message:7
+msgid "|send_message.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:10 2f203f58b5134b838aa41948846b0062
+msgid "send_message.png"
+msgstr ""
+
+#: 3b030e4992ab4fc097d347a3285364b4 of
+#: unit.asr.ASRUnit.get_current_raw_message:1
+msgid "Get the raw message received in hexadecimal format."
+msgstr "获取以十六进制格式接收的原始消息。"
+
+#: dd6885ef65554e7e9ee2c894dc90fe98 of
+#: unit.asr.ASRUnit.get_current_raw_message:3
+msgid "The raw message as a string in hexadecimal format."
+msgstr "以十六进制格式表示的原始消息字符串。"
+
+#: 1ff70f40e0b34ce78a85d6b5c78f332c of
+#: unit.asr.ASRUnit.get_current_raw_message:8
+msgid "|get_current_raw_message.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:11 f5f3e79842d441d984aeb711360c02ea
+msgid "get_current_raw_message.png"
+msgstr ""
+
+#: d005d3cb1f4d4d84ac203db901e07599 of
+#: unit.asr.ASRUnit.get_current_command_word:1
+msgid "Get the command word corresponding to the current command number."
+msgstr "获取与当前命令编号对应的命令字。"
+
+#: ef4d06e5dfa447abb77fc3eefa995db8 of
+#: unit.asr.ASRUnit.get_current_command_word:3
+msgid "The command word as a string."
+msgstr "命令字（字符串）。"
+
+#: f07acfc29c9e40c8a77f075834c6c84b of
+#: unit.asr.ASRUnit.get_current_command_word:8
+msgid "|get_current_command_word.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:12 a080fae1e387478f9ad5cce5412aab8b
+msgid "get_current_command_word.png"
+msgstr ""
+
+#: 75187d4e926a41f5b8ae8414389fd479 of
+#: unit.asr.ASRUnit.get_current_command_num:1
+msgid "Get the current command number."
+msgstr "获取当前命令编号。"
+
+#: 15ce28daf645454da2cacdbde7606be6 of
+#: unit.asr.ASRUnit.get_current_command_num:3
+msgid "The current command number as a string."
+msgstr "当前命令编号的字符串形式。"
+
+#: 2de54ed54cbc411283f0c7f99eac9d2e of
+#: unit.asr.ASRUnit.get_current_command_num:8
+msgid "|get_current_command_num.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:13 89e4ee762d2843219732152eba3ab596
+msgid "get_current_command_num.png"
+msgstr ""
+
+#: 04114377ca1646aea4c4eb2cc1c464bc of unit.asr.ASRUnit.get_command_handler:1
+msgid "Check if the current command has an associated handler."
+msgstr "检查当前命令是否有关联的处理程序。"
+
+#: 73567d651358413194391d9e31e298cc of unit.asr.ASRUnit.get_command_handler:3
+msgid "True if the command has an associated handler, False otherwise."
+msgstr "如果该命令具有关联的处理程序则为 True，否则为 False。"
+
+#: 491bc2975d2b4632aa6e0ce287ea49f8 of unit.asr.ASRUnit.get_command_handler:8
+msgid "|get_command_handler.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:14 1a1f9de567d0465384c418a04025390f
+msgid "get_command_handler.png"
+msgstr ""
+
+#: a7eb2a608de8474392d092462521b636 of unit.asr.ASRUnit.add_command_word:1
+msgid "Register custom command and handler."
+msgstr "注册自定义命令和处理器。"
+
+#: b20c20e84637487398512172a4eecdf4 of unit.asr.ASRUnit.add_command_word:3
+msgid "Command number (0-255)"
+msgstr "命令编号（0-255）"
+
+#: e244b2c7c5184a66bccec31fc7ff0c3d of unit.asr.ASRUnit.add_command_word:4
+msgid "Voice command text"
+msgstr "语音命令文本"
+
+#: 39b39cf98f75414e8bae477c232e058e of unit.asr.ASRUnit.add_command_word:5
+msgid "Handler function"
+msgstr "处理函数"
+
+#: 50b3b8cd264341d8991e176b6616b0e7 of unit.asr.ASRUnit.add_command_word:9
+msgid "|add_command_word.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:15 ccf01590b1924191ae25618537b36b13
+msgid "add_command_word.png"
+msgstr ""
+
+#: ce4861ca5bf540c789ccd78a6d99f2a8 of unit.asr.ASRUnit.remove_command_word:1
+msgid "Remove a command word from the command list by its word."
+msgstr "通过命令词从命令列表中移除一个命令词。"
+
+#: 09afd3273ff14520b47bb48ff7d27bfb of unit.asr.ASRUnit.remove_command_word:3
+msgid "Command word to remove"
+msgstr "移除命令词"
+
+#: 91e02ce9683b49f79632e114ea8edba1 of unit.asr.ASRUnit.remove_command_word:7
+msgid "|remove_command_word.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:17 6587b9c817cf4438ad80accbf4231fc8
+msgid "remove_command_word.png"
+msgstr ""
+
+#: b9d0a7b41357404db7cf6d5f2b517ee4 of unit.asr.ASRUnit.search_command_num:1
+msgid "Search for the command number associated with a command word."
+msgstr "搜索与命令字对应的命令编号。"
+
+#: 0ac41541635c4cf7810d9643dc242678 of unit.asr.ASRUnit.search_command_num:3
+msgid "Command word to search for"
+msgstr "用于搜索的命令词"
+
+#: 7c23579327ac429c8b24709010890b92 of unit.asr.ASRUnit.search_command_num:4
+msgid "The command number if found, otherwise -1"
+msgstr "如果找到则返回命令编号，否则返回 -1"
+
+#: 22b0c04fc5824e72bf44c37f8fe47df7 of unit.asr.ASRUnit.search_command_num:9
+msgid "|search_command_num.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:18 f4809044d5404805b676258fee66b373
+msgid "search_command_num.png"
+msgstr ""
+
+#: 4607c238fa8a45539a47b9eedd8fd0d2 of unit.asr.ASRUnit.search_command_word:1
+msgid "Search for the command word associated with a command number."
+msgstr "搜索与命令编号关联的命令词。"
+
+#: 591647679ace44e990580ae828f3c650 of unit.asr.ASRUnit.search_command_word:3
+msgid "Command number to search for"
+msgstr "用于搜索的命令编号"
+
+#: 19fb0964daf04573a1ba2cd4118d7829 of unit.asr.ASRUnit.search_command_word:4
+msgid "The command word if found, otherwise \"Unknown command word\""
+msgstr "如果找到命令字，则返回该命令字；否则返回 \"Unknown command word\""
+
+#: 5ee17ade144c465f864dc2663fe2b301 of unit.asr.ASRUnit.search_command_word:9
+msgid "|search_command_word.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:19 2557fb25d6874c03a8c3e416cf2eb0ce
+msgid "search_command_word.png"
+msgstr ""
+
+#: f382713d112643cbb94fdf4b5e9454d8 of unit.asr.ASRUnit.get_command_list:1
+msgid "Get the list of all commands and their associated handlers."
+msgstr "获取所有命令及其关联的处理程序列表。"
+
+#: 4016b4f8e741419aaf6cbd162e3b08ff of unit.asr.ASRUnit.get_command_list:3
+msgid ""
+"A dictionary of command numbers and their corresponding command words and"
+" handlers."
+msgstr "命令编号及其对应的命令字和处理程序的字典。"
+
+#: 3a0673ad0c6a46e68b319eb44107c894 of unit.asr.ASRUnit.get_command_list:8
+msgid "|get_command_list.png|"
+msgstr ""
+
+#: ../../source/refs/unit.asr.ref:20 3ea78644f7e547e39d39aea419edfc97
+msgid "get_command_list.png"
+msgstr ""
+
+#: 2f13c4cfa9d14d8d8720f6112fb81212 of unit.asr.ASRUnit.check_tick_callback:1
+msgid ""
+"Check if a handler is defined for the current command and schedule its "
+"execution."
+msgstr "检查是否为当前命令定义了处理程序，并安排其执行。"
+
+#: 5b9a13572dbd49d6bc5bb1c686b923f1 of unit.asr.ASRUnit.check_tick_callback:3
+msgid "The handler if defined, otherwise None"
+msgstr "如果定义了 handler，则返回该 handler，否则返回 None。"
+

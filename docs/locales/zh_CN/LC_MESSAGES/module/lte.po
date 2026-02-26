@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/lte.rst:2 4aacb152b57443bbabb204081cc8644c
 msgid "COMX LTE Module"
-msgstr ""
+msgstr "COMX LTE Module"
 
 #: ../../en/module/lte.rst:8 6d8cf62df5774d8386ffaab2e4ac6e75
 msgid ""
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../en/refs/module.lte.ref 18a43d2d99534ce4915aa9c5e6fcd4c8
 msgid "COMX LTE"
-msgstr ""
+msgstr "COMX LTE"
 
 #: ../../en/module/lte.rst:18 796dad9c14764edcad793eecdeb78acb
 msgid "UiFlow2 Example"
@@ -133,11 +133,11 @@ msgstr "API参考"
 
 #: ../../en/module/lte.rst:90 a0b18a50b39742b599f034c8cd96b48e
 msgid "LTEModule"
-msgstr ""
+msgstr "LTEModule"
 
 #: 0577fc8cc331452296ec4baac7790a9c module.lte.LTEModule:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "基类：:py:class:`object`。"
 
 #: 05c10f776c1f457fbbe89b2e9e145da5 module.lte.LTEModule:1 of
 msgid "LTE module class."

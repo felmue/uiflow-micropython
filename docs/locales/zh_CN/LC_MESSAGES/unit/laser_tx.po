@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/laser_tx.rst:3 d3db7035a3b140e3b505fb8028afd56c
+msgid "LaserTX Unit"
+msgstr "LaserTX Unit"
+
+#: ../../source/unit/laser_tx.rst:7 294ab6c972a742e4825674b05872c50e
+msgid ""
+"LASER.TX is one of the communication devices among the M5Units family - a"
+" Laser emitter with adjustable focal length.It is mainly built with a "
+"laser diode Laser communications devices are wireless connections through"
+" the atmosphere. They work similarly to fiber-optic links, except the "
+"beam is transmitted through free space. While the transmitter and "
+"receiver must require line-of-sight conditions, they have the benefit of "
+"eliminating the need for broadcast rights and buried cables."
+msgstr ""
+"LASER.TX 是 M5Units 系列中的通信设备之一 —— "
+"一款具有可调焦距的激光发射器。它主要由激光二极管构成。激光通信设备通过大气进行无线连接，其工作方式类似于光纤链路，但光束是在自由空间中传输。虽然发射端与接收端必须满足视距"
+"（line-of-sight）条件，但其优势在于无需申请广播许可，也无需铺设埋地电缆。"
+
+#: ../../source/unit/laser_tx.rst:9 c5ea083cfa114b78a8ce36a9509d816d
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/laser_tx.rst:11 e297997e5d5344fb9506166dce839ac3
+msgid "|LaserTXUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_tx.ref 94fde929b2cf4fe39de9e7f870dcb206
+msgid "LaserTXUnit"
+msgstr "LaserTXUnit"
+
+#: ../../source/unit/laser_tx.rst:13 ded412fc60744d2c85da4be8198bbf87
+msgid "LaserTX Example:"
+msgstr "LaserTX 示例："
+
+#: ../../source/unit/laser_tx.rst:19 3883ba2838924c7f96e2aa4a30bc05e8
+msgid "LaserRX Example:"
+msgstr "LaserRX 示例："
+
+#: ../../source/unit/laser_tx.rst:25 d0452118990c40a6ba92d02517bb88c4
+msgid "LaserTX UIFLOW2 Example:"
+msgstr "LaserTX UiFlow2 应用示例："
+
+#: ../../source/unit/laser_tx.rst:27 f5e2d55e216a48dc928af9429f21a185
+msgid "|example_tx.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_tx.ref:13 7a31516df22f4ce9a334ae1db96df3a8
+msgid "example_tx.png"
+msgstr ""
+
+#: ../../source/unit/laser_tx.rst:29 dbc31a0d2cb94a32a4128587c0226328
+msgid "LaserRX UIFLOW2 Example:"
+msgstr "LaserRX UiFlow2 应用示例："
+
+#: ../../source/unit/laser_tx.rst:31 bb0f22f8f0f34d888065711500a8b77e
+msgid "|example_rx.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_tx.ref:14 b7ebab32d54548faaf3e1131b6e77d13
+msgid "example_rx.png"
+msgstr ""
+
+#: ../../source/unit/laser_tx.rst:35 0a77cc6c97844115810330e488a80341
+msgid "|laserrx_core2_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/laser_tx.rst:37 2812683031fb4c8ca955563499b4debf
+msgid "|lasertx_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/laser_tx.rst:40 5afe7fe2cf094e3aaddcb6c92629c835
+msgid "class LaserTXUnit"
+msgstr "class LaserTXUnit"
+
+#: ../../source/unit/laser_tx.rst:43 442f40a3679541a9b516736aa6c9ea0f
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/laser_tx.rst:47 3061ae5d67de4e73aa7cb659bd1c9dc0
+msgid ""
+"Initialize the LaserTXUnit with the specified port, communication mode, "
+"and UART ID."
+msgstr "使用指定的端口、通信模式和 UART ID 初始化 LaserTXUnit。"
+
+#: ../../source/unit/laser_tx.rst 214fa40052ea4a55a96a54f27a114ba2
+#: 60a9f914d6e6499596d5c477a4c3b8e7 a649dd331e91441b866399749338f1d2
+#: cd8db9bde3f14fccb9fb2941787d8689
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/laser_tx.rst:49 90eb317066bb46cab112e91df8d77baa
+msgid "A tuple containing pin numbers for TX and RX."
+msgstr "一个包含 TX 和 RX 引脚编号的元组。"
+
+#: ../../source/unit/laser_tx.rst:50 98cfd87e02df4263a39fc5e0531c26a0
+msgid "Communication mode; use PIN_MODE or UART_MODE."
+msgstr "通信模式；使用 PIN_MODE 或 UART_MODE。"
+
+#: ../../source/unit/laser_tx.rst:51 4bb8552da9dd4bc382eaf72fbdc64b52
+msgid "UART ID, either 1 or 2."
+msgstr "UART ID，可为 1 或 2。"
+
+#: ../../source/unit/laser_tx.rst:53 ../../source/unit/laser_tx.rst:70
+#: ../../source/unit/laser_tx.rst:80 ../../source/unit/laser_tx.rst:89
+#: ../../source/unit/laser_tx.rst:98 22923c7530ad408a8163b866a84a8013
+#: 352b987f843945c0bfb6030425498337 85cda6d8a2a345189a164a8fb6c3f641
+#: ad8f79ffaa084de7a0f20be8d6b699b4 e528e35baa344470bb5c64852c0cdb2a
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/laser_tx.rst:55 3ed90eb5a0a648caa56a36674d6dcc03
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_tx.ref:7 f03621dc92a947ffa053dc9fc3d8616c
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/laser_tx.rst:59 d1d48db3696c48f190a43a105ba2a283
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/laser_tx.rst:63 663be9d4769d4160aaf56374d7d807cd
+msgid "Initialize UART communication with specified parameters."
+msgstr "使用指定参数初始化 UART 通信。"
+
+#: ../../source/unit/laser_tx.rst:65 dab21517998348819cf9c4bbb3c30085
+msgid "The baud rate for UART communication. Default is 115200."
+msgstr "UART 通信的波特率。默认值为 115200。"
+
+#: ../../source/unit/laser_tx.rst:66 11db230c94af422f910d0f7f1fa9d32e
+msgid "The number of data bits; 7, 8, or 9. Default is 8."
+msgstr "数据位的数量；7、8 或 9。默认值为 8。"
+
+#: ../../source/unit/laser_tx.rst:67 7e97f95d8edf462aafbaffb15f0d1773
+msgid "Parity setting; None, 0, or 1. Default is 8."
+msgstr "奇偶校验设置：None、0 或 1。默认值为 8。"
+
+#: ../../source/unit/laser_tx.rst:68 a05ada2fb00543b6b2ee731f29b925a3
+msgid "The number of stop bits; 1 or 2. Default is 1."
+msgstr "停止位数量；可选 1 或 2。默认值为 1。"
+
+#: ../../source/unit/laser_tx.rst:72 e00a72a30a654299b2d1545a8049dcbf
+msgid "|init_uart.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_tx.ref:8 16973641cc114c81b33697a9f2c0198e
+msgid "init_uart.png"
+msgstr ""
+
+#: ../../source/unit/laser_tx.rst:76 826756de1370418fbc2a09c60b443b36
+msgid "Transmit data through UART."
+msgstr "通过 UART 传输数据。"
+
+#: ../../source/unit/laser_tx.rst:78 c68ec204e9844c49b9f51ee4146aa5cc
+msgid "The data to be transmitted via UART."
+msgstr "要通过 UART 传输的数据。"
+
+#: ../../source/unit/laser_tx.rst:82 84b0d0c73c3a441d915375357475c097
+msgid "|write.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_tx.ref:9 e2f038607ffe44f99d093fb5652d631e
+msgid "write.png"
+msgstr ""
+
+#: ../../source/unit/laser_tx.rst:86 8ceb71a852974ab482496e88bbeea87e
+msgid "Turn on the laser when using PIN_MODE."
+msgstr "使用 PIN_MODE 时打开激光。"
+
+#: ../../source/unit/laser_tx.rst:91 08946555d6c74f05aa6a0532bbbb457c
+msgid "|on.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_tx.ref:10 39de1c1c36064beab85695099a231909
+msgid "on.png"
+msgstr ""
+
+#: ../../source/unit/laser_tx.rst:95 34682ca5084047f99e223df2e1bf308c
+msgid "Turn off the laser when using PIN_MODE."
+msgstr "使用 PIN_MODE 时关闭激光。"
+
+#: ../../source/unit/laser_tx.rst:100 1ce0302dda63414ba28fbca814236485
+msgid "|off.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_tx.ref:11 848c588b5f1e456dab429508a17e9e97
+msgid "off.png"
+msgstr ""
+
+#: ../../source/unit/laser_tx.rst:104 a7908acccc5a4951ad707431b7b03280
+msgid "Set the laser state to either on or off using PIN_MODE."
+msgstr "使用 PIN_MODE 将激光状态设置为开启或关闭。"
+
+#: ../../source/unit/laser_tx.rst:106 6efe926e3b3b4ae392835591fa96ddff
+msgid "A boolean value; True turns the laser on, False turns it off."
+msgstr "布尔值；True 打开激光，False 关闭激光。"
+

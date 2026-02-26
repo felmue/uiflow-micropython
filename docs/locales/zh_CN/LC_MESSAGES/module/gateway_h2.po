@@ -18,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/module/gateway_h2.rst:2 99f35ce766be4396a7b3074601e7cddf
 msgid "GatewayH2 Module"
-msgstr ""
+msgstr "GatewayH2 Module"
 
 #: ../../source/module/gateway_h2.rst:8 87691265505c481299e52e80f0349786
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../source/refs/module.gateway_h2.ref 52f40b6f9fa5464c8c77c74130918919
 msgid "Module Gateway H2"
-msgstr ""
+msgstr "Module Gateway H2"
 
 #: ../../source/module/gateway_h2.rst:14 442a48fe670641f39cac3c9c410d66d7
 msgid ""
@@ -184,7 +184,7 @@ msgstr ""
 #: ../../source/module/gateway_h2.rst:85 ../../source/module/gateway_h2.rst:100
 #: 270ae0e90afd469cabb8573aef66eb69 96793a5c8e3442e0a1763bc51e729841
 msgid "SwitchEndpoint"
-msgstr ""
+msgstr "SwitchEndpoint"
 
 #: ../../source/module/gateway_h2.rst:104 323b830e4baf4d38b9706e1e40933941
 msgid ""

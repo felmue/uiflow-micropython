@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/m5ui/arc.rst:4 ../../source/m5ui/arc.rst:52
 #: 1577699b78fe42faaa66fcae11e5df78 bd104499e0154a848ee19c9a771090cf
 msgid "M5Arc"
-msgstr ""
+msgstr "M5Arc"
 
 #: ../../source/m5ui/arc.rst:8 252764fe17214b1ba3c8d2d59350806a
 msgid ""
@@ -38,7 +38,7 @@ msgstr "UiFlow2 示例"
 #: ../../source/m5ui/arc.rst:14 ../../source/m5ui/arc.rst:33
 #: dacd38f9992543c1a1bf6d87167221dc dc2317caa2fb4496ba5efaad72f93951
 msgid "event arc"
-msgstr ""
+msgstr "事件弧"
 
 #: ../../source/m5ui/arc.rst:16 b5241d48d6584fe2804d5451f27ab55b
 msgid "Open the |cores3_arc_event_example.m5f2| project in UiFlow2."
@@ -115,7 +115,7 @@ msgstr "API参考"
 
 #: 8151fd5c875c48b6bc20dab46c0874a3 m5ui.arc.M5Arc:1 of
 msgid "Bases: :py:class:`~lvgl.arc`"
-msgstr ""
+msgstr "基类：:py:class:`~lvgl.arc`"
 
 #: 8a42903df1e94220ab7a77886a3dbccc m5ui.arc.M5Arc:1 of
 msgid "Create a arc object."
@@ -261,7 +261,9 @@ msgid ""
 "The mode of the arc.  Option:     - lv.arc.MODE.NORMAL: Normal mode.     "
 "- lv.arc.MODE.REVERSE: Reverse mode.     - lv.arc.MODE.SYMMETRICAL: "
 "Symmetrical mode."
-msgstr "弧形的模式。选项：- lv.arc.MODE.NORMAL：正常模式；- lv.arc.MODE.REVERSE：反向模式；- lv.arc.MODE.SYMMETRICAL：对称模式。"
+msgstr ""
+"弧形的模式。选项：- lv.arc.MODE.NORMAL：正常模式；- lv.arc.MODE.REVERSE：反向模式；- "
+"lv.arc.MODE.SYMMETRICAL：对称模式。"
 
 #: ../../source/m5ui/arc.rst:129 bdcf30e03dc7468bafcf6a84323b8db3
 msgid "The mode of the arc."

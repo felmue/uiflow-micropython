@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/ultrasonic.rst:2 7cc4e7448d60428ca124fd1d02f90f9a
+msgid "Ultrasonic Unit"
+msgstr "Ultrasonic Unit"
+
+#: ../../source/unit/ultrasonic.rst:6 de9354cb9f654a5c8df78e7575b50524
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/ultrasonic.rst:8 2c3e4e9d2a7c4792a717537afb273ed1
+msgid "|Ultrasonic|"
+msgstr ""
+
+#: ../../source/refs/unit.ultrasonic.ref 323c9328c992401d94ac089fd981d8cf
+msgid "Ultrasonic"
+msgstr "Ultrasonic"
+
+#: ../../source/unit/ultrasonic.rst:11 d204bee93254473ea3fb0ce99fe3d229
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/ultrasonic.rst:18 76787aa1ab154937855afaf38d30233c
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/ultrasonic.rst:20 6ae7273e9e914f4ea5db127e31485aad
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ultrasonic.ref:7 8b9e8f4a67ad4c86b3f1b0a7353dd370
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/ultrasonic.rst:25 9894b1d676604aeb8d8a68f30523c87b
+msgid "|ultrasonic_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/ultrasonic.rst:29 ae1466d299234190876a5b672d9de9e0
+msgid "class ULTRASONIC_I2C"
+msgstr "class ULTRASONIC_I2C"
+
+#: ../../source/unit/ultrasonic.rst:32 b84c223047ad4196bc2a1cbad2294f6b
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/ultrasonic.rst:36 6f1b190f83b2453f8295726991f1a188
+msgid "Create a ULTRASONIC I2C object."
+msgstr "创建一个 ULTRASONIC I2C 对象。"
+
+#: ../../source/unit/ultrasonic.rst:39 893d1513068543259e8444d939254177
+msgid "The parameters is:"
+msgstr "参数为："
+
+#: ../../source/unit/ultrasonic.rst:39 a2e953dedb0e46f0b175130e73b4df64
+msgid "``PORT`` Define an i2c port."
+msgstr "``PORT`` 定义一个 i2c 端口。"
+
+#: ../../source/unit/ultrasonic.rst:41 ../../source/unit/ultrasonic.rst:53
+#: b9a395a5ed5e4d51aed9fe64ad3767fa e9db2187735b4902926252b1dab4fe6f
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/ultrasonic.rst:43 5d455c6dd8864efe96949041efcf59ff
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ultrasonic.ref:9 7c84f5e1f18347cbba21baa459134180
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/ultrasonic.rst:47 2a1a3ac68ee4491688d5c790661c63f9
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/ultrasonic.rst:51 63741cdfba9c450890b4cc0cb606ae5f
+msgid "Acquire transmitting distance"
+msgstr "获取传输距离"
+
+#: ../../source/unit/ultrasonic.rst:55 ce7be0497ad14e8aa121df1a74e06a3c
+msgid "|get_target_distance.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ultrasonic.ref:11 ed70e21dfaeb4bb4bf5ab3adbbf9dc0a
+msgid "get_target_distance.png"
+msgstr ""
+

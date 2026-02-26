@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:3 21de77f79dd7488ab182b8a5956d8f0a
 msgid "GPS V2.0 Module"
-msgstr ""
+msgstr "GPS V2.0 Module"
 
 #: ../../en/module/gpsv2.rst:7 02e54706da414846aaeedbf64caeb473
 msgid ""
@@ -43,10 +43,16 @@ msgid ""
 "positioning devices, remote monitoring, smart cities, and home and "
 "industrial automation."
 msgstr ""
+"GPS v2.0 模块是一款高性能 GNSS 全球定位模块，集成高性能 AT6668 芯片，可提供精准、可靠的卫星定位服务。该模块支持多频、多模式"
+" GNSS 信号接收，兼容多种卫星导航系统，包括 GPS、BD2、BD3、GLONASS、GALILEO 和 "
+"QZSS，可实现高精度的多系统联合定位或单系统独立定位，并具备出色的抗干扰能力。在弱信号区域，也能快速获取更高精度的定位信息。模块配备外置 SMA"
+" 天线，并带有拨码开关，便于用户灵活切换 TX/RX 通信引脚，同时提供 PPS "
+"信号输出，用于精确定时校准。支持多堆叠使用，提供更多定制与灵活性，适用于车载导航、IoT "
+"定位设备、远程监控、智慧城市以及家庭与工业自动化等高精度定位应用场景。"
 
 #: ../../en/module/gpsv2.rst:10 63a4d5242a5c4d95a13977af0bc10b4d
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/gpsv2.rst:12 e0f1c48094c94520aa98be6cbf740d71
 msgid "|GPSV2Module|"
@@ -54,15 +60,15 @@ msgstr ""
 
 #: ../../en/refs/module.gpsv2.ref 055bde5a824f44258ab59ff412a293cb
 msgid "GPSV2Module"
-msgstr ""
+msgstr "GPSV2Module"
 
 #: ../../en/module/gpsv2.rst:14 5f708e53f494488fb5cd4df390b59f4c
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/gpsv2.rst:21 77901c8d4cbb45dcb6af8bd519be47c2
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/module/gpsv2.rst:23 bb19eaa4f98b40829d92624c21374dac
 msgid "|example.png|"
@@ -78,17 +84,17 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:30 65829eef4ba24f929b7486652066f294
 msgid "class GPSV2Module"
-msgstr ""
+msgstr "class GPSV2Module"
 
 #: ../../en/module/gpsv2.rst:33 baceb65e637147149524f196db1feb79
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/module/gpsv2.rst:37 9278e2412cba48059192f3090e7c5bfd
 msgid ""
 "Initialize the GPSV2Module with a specific UART id and port for "
 "communication."
-msgstr ""
+msgstr "使用指定的 UART id 和端口初始化 GPSV2Module 以进行通信。"
 
 #: ../../en/module/gpsv2.rst 0c0c039927594218b32919cf264cf5e5
 #: 0ee24f202606461aa372557624b19654 554acd39b182449f831d632b84d2e9f1
@@ -99,15 +105,15 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:39 982c8e2db9084f25914e2de0986426bd
 msgid "The UART ID for communication with the GPS module. It can be 0, 1, or 2."
-msgstr ""
+msgstr "用于与 GPS 模块通信的 UART ID。它可以是 0、1 或 2。"
 
 #: ../../en/module/gpsv2.rst:40 c44ea421b25d43cb9fe3227f84720ab0
 msgid "The RX pin of the UART."
-msgstr ""
+msgstr "UART 的 RX 引脚。"
 
 #: ../../en/module/gpsv2.rst:41 60d4cd5980564a609059a939c8df03df
 msgid "The TX pin of the UART."
-msgstr ""
+msgstr "UART 的 TX 引脚。"
 
 #: ../../en/module/gpsv2.rst:43 ../../en/module/gpsv2.rst:57
 #: ../../en/module/gpsv2.rst:67 ../../en/module/gpsv2.rst:77
@@ -128,7 +134,7 @@ msgstr ""
 #: e49094bb951d4e3185693d611731a8ab eca20f10151a4fe88fcd5741a313d354
 #: f4d29553ef174be9be9141bce812bb10 ff1c9107f8614af2bf9fcde9f8b55bba
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2"
 
 #: ../../en/module/gpsv2.rst:45 6731056ed25c428c825f6ecbad01ea13
 msgid "|init.png|"
@@ -144,11 +150,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:53 dc2264db72444ac9842390650ad64fcc
 msgid "Set the working mode of the GPS module."
-msgstr ""
+msgstr "设置 GPS 模块的工作模式。"
 
 #: ../../en/module/gpsv2.rst:55 ac3ceb3342664710ae9fb6ecb5c9e664
 msgid "The mode to set, defined by the GPS module."
-msgstr ""
+msgstr "要设置的模式，由 GPS 模块定义。"
 
 #: ../../en/module/gpsv2.rst:59 6d7a3732a3654818907c1a620e566cfc
 msgid "|set_work_mode.png|"
@@ -160,7 +166,7 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:63 156ae96c3e2e46a5a1903d0f55b48b2e
 msgid "Get the current working mode of the GPS module."
-msgstr ""
+msgstr "获取 GPS 模块当前的工作模式。"
 
 #: ../../en/module/gpsv2.rst 04a3035e30564012b0b472d1ce6a678f
 #: 0d917aa8254d4f378fb7914aae554bb5 152a23bfaa504edd9a7fb3f0b832144f
@@ -175,7 +181,7 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:65 40609afa976b40cda9746fd4fa94e4b3
 msgid "The current working mode of the GPS module."
-msgstr ""
+msgstr "GPS 模块的当前工作模式。"
 
 #: ../../en/module/gpsv2.rst:69 2448a148280c49af876ff9cd1f33344c
 msgid "|get_work_mode.png|"
@@ -187,11 +193,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:73 b25955704fd14473bd77512e73f2ff2d
 msgid "Get the state of the antenna."
-msgstr ""
+msgstr "获取天线的状态。"
 
 #: ../../en/module/gpsv2.rst:75 172d101ce43f46fd86a8d8ca0c4587ea
 msgid "The antenna state."
-msgstr ""
+msgstr "天线状态。"
 
 #: ../../en/module/gpsv2.rst:79 3e34bf27270e4bca80ddb4af77687a7c
 msgid "|get_antenna_state.png|"
@@ -203,11 +209,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:83 3ede215c31c540f7b033722a1e934efe
 msgid "Get the current GPS time."
-msgstr ""
+msgstr "获取当前 GPS 时间。"
 
 #: ../../en/module/gpsv2.rst:85 9db72bbbcdc944e1a6a35e19d121b86a
 msgid "The GPS time as a list of strings [hour, minute, second]."
-msgstr ""
+msgstr "GPS 时间，以字符串列表形式表示 [hour, minute, second]。"
 
 #: ../../en/module/gpsv2.rst:89 c27043c978a1462f8bdaa27dc6ebc63e
 msgid "|get_gps_time.png|"
@@ -219,11 +225,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:93 b1e6bf029fff4c0da36af346ac9719c8
 msgid "Get the current GPS date."
-msgstr ""
+msgstr "获取当前 GPS 日期。"
 
 #: ../../en/module/gpsv2.rst:95 d3ae2addce8a4753befe88a767e7d184
 msgid "The GPS date as a list of strings [day, month, year]."
-msgstr ""
+msgstr "GPS 日期，以字符串列表形式表示 [day, month, year]。"
 
 #: ../../en/module/gpsv2.rst:99 93a3e3f240e34859bd89915b8af699ef
 msgid "|get_gps_date.png|"
@@ -235,13 +241,13 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:103 ecbbca736f1a41508a9c3b72013cfffd
 msgid "Get the current GPS date and time combined."
-msgstr ""
+msgstr "获取当前 GPS 日期和时间（组合）。"
 
 #: ../../en/module/gpsv2.rst:105 a24016b7797d45fbae4db1e1814d2b49
 msgid ""
 "The GPS date and time as a list of strings [year, month, day, hour, "
 "minute, second]."
-msgstr ""
+msgstr "GPS 日期和时间，以字符串列表形式表示 [year, month, day, hour, minute, second]。"
 
 #: ../../en/module/gpsv2.rst:109 bc43cbb925304b4b93ff3959777fb962
 msgid "|get_gps_date_time.png|"
@@ -253,11 +259,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:113 0fe4e43e796b4d6d8916334e7a12e208
 msgid "Get the timestamp of the current GPS time."
-msgstr ""
+msgstr "获取当前 GPS 时间的时间戳。"
 
 #: ../../en/module/gpsv2.rst:115 edb7efa0fab04841b765a9a9c4fe070c
 msgid "The timestamp representing the current GPS time."
-msgstr ""
+msgstr "表示当前 GPS 时间的时间戳。"
 
 #: ../../en/module/gpsv2.rst:119 ba147e7109b143b1962e1d2b27a0b259
 msgid "|get_timestamp.png|"
@@ -269,11 +275,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:123 20a307c61d84416fb5d8731f7fb1e766
 msgid "Get the current latitude."
-msgstr ""
+msgstr "获取当前纬度。"
 
 #: ../../en/module/gpsv2.rst:125 4f8cf9a91d414d3f849fb5f4405e5d83
 msgid "The current latitude in string format."
-msgstr ""
+msgstr "当前纬度的字符串格式。"
 
 #: ../../en/module/gpsv2.rst:129 725a71aa8d52484184a5aafd636cc6a6
 msgid "|get_latitude.png|"
@@ -285,11 +291,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:133 8a53b7290b7b458cb9fcf118aa2196ad
 msgid "Get the current longitude."
-msgstr ""
+msgstr "获取当前经度。"
 
 #: ../../en/module/gpsv2.rst:135 6da18b7b813e418eac118e650f60a72c
 msgid "The current longitude in string format."
-msgstr ""
+msgstr "当前经度的字符串格式。"
 
 #: ../../en/module/gpsv2.rst:139 fde79b47e1a241b8b36ab4f5507b3f26
 msgid "|get_longitude.png|"
@@ -301,11 +307,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:143 9297a4d418db44b0b60a0c8b9ce57f0e
 msgid "Get the current altitude."
-msgstr ""
+msgstr "获取当前海拔高度。"
 
 #: ../../en/module/gpsv2.rst:145 fe4385aa44ac44c381277cbe449bf124
 msgid "The current altitude in string format."
-msgstr ""
+msgstr "当前海拔的字符串格式。"
 
 #: ../../en/module/gpsv2.rst:149 b8ab150b75c64a539c178eb7b09eb3b5
 msgid "|get_altitude.png|"
@@ -317,11 +323,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:153 86ad9606193e4de6a8cd35c082f7328e
 msgid "Get the number of satellites used for positioning."
-msgstr ""
+msgstr "获取用于定位的卫星数量。"
 
 #: ../../en/module/gpsv2.rst:155 4c916e29a30846d196bad9cc4791e3ad
 msgid "The number of satellites."
-msgstr ""
+msgstr "卫星数量。"
 
 #: ../../en/module/gpsv2.rst:159 880e994a114442678a7e6bcb006c101b
 msgid "|get_satellite_num.png|"
@@ -333,11 +339,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:163 93930c2593674580a6faf7f063b87edc
 msgid "Get the quality of the GPS position."
-msgstr ""
+msgstr "获取 GPS 位置的质量。"
 
 #: ../../en/module/gpsv2.rst:165 4fd2d7bfd3ae4903a1f69d276288bd81
 msgid "The position quality indicator."
-msgstr ""
+msgstr "位置质量指示器。"
 
 #: ../../en/module/gpsv2.rst:169 92313e1e5fe9488b81662e76ced5e9a9
 msgid "|get_pos_quality.png|"
@@ -349,11 +355,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:173 72c5307b8f134f0faeafc0c742cccca6
 msgid "Get the course over ground (COG)."
-msgstr ""
+msgstr "获取地面航向（COG）。"
 
 #: ../../en/module/gpsv2.rst:175 ebbb6e1a522b4522a3e552abc358d47b
 msgid "The course over ground in degrees."
-msgstr ""
+msgstr "地面航向，单位为度。"
 
 #: ../../en/module/gpsv2.rst:179 42edf62a03de40f79cb9ab179bb823cc
 msgid "|get_corse_over_ground.png|"
@@ -365,11 +371,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:183 a917e2f02fc94e3187c25d7b40ac42ea
 msgid "Get the speed over ground (SOG)."
-msgstr ""
+msgstr "获取对地速度（SOG）。"
 
 #: ../../en/module/gpsv2.rst:185 ce8d4f9ece404bd3b64ba6c1261eb20e
 msgid "The speed over ground in knots."
-msgstr ""
+msgstr "地面速度，单位为节。"
 
 #: ../../en/module/gpsv2.rst:189 5e62e46a628a426ca2993871dc5b9c5c
 msgid "|get_speed_over_ground.png|"
@@ -381,11 +387,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:193 892228a3f7af444b8bcf4ec7b1eee417
 msgid "Set the time zone offset for the GPS time."
-msgstr ""
+msgstr "设置 GPS 时间的时区偏移量。"
 
 #: ../../en/module/gpsv2.rst:195 05cb89b9df434553a56072127f2b49c0
 msgid "The time zone offset value to set."
-msgstr ""
+msgstr "要设置的时区偏移值。"
 
 #: ../../en/module/gpsv2.rst:199 e15ce0dd4cd74db98a7d8188fdf35399
 msgid "|set_time_zone.png|"
@@ -397,11 +403,11 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:203 9f2c4da0db504090b7e273485db0eddd
 msgid "Get the current time zone offset."
-msgstr ""
+msgstr "获取当前时区偏移量。"
 
 #: ../../en/module/gpsv2.rst:205 90f40111d1b04a84b3864bd7a454af2e
 msgid "The current time zone offset."
-msgstr ""
+msgstr "当前时区偏移量。"
 
 #: ../../en/module/gpsv2.rst:209 c42654e669704320bd0f06deaa83c2e1
 msgid "|get_time_zone.png|"
@@ -415,7 +421,7 @@ msgstr ""
 msgid ""
 "Deinitialize the GPS unit, stopping any running tasks and releasing "
 "resources."
-msgstr ""
+msgstr "反初始化 GPS 单元，停止任何正在运行的任务并释放资源。"
 
 #: ../../en/module/gpsv2.rst:217 08d9654ab5d14646bfa794f8bb609836
 msgid "|deinit.png|"
@@ -427,45 +433,45 @@ msgstr ""
 
 #: ../../en/module/gpsv2.rst:222 b9b4110ff5964270934a4ed5b759294b
 msgid "Add checksum to the message for communication with the GPS module."
-msgstr ""
+msgstr "为与 GPS 模块通信的消息添加校验和。"
 
 #: ../../en/module/gpsv2.rst:224 58a0a9cf427248f58319f088e1048a02
 msgid "The message to which the checksum will be added."
-msgstr ""
+msgstr "将要添加校验和的消息。"
 
 #: ../../en/module/gpsv2.rst:226 c82f4143e0204cb99ffa5ba0c71e2dbb
 msgid "The message with added checksum."
-msgstr ""
+msgstr "添加了校验和的消息。"
 
 #: ../../en/module/gpsv2.rst:231 a41d6e45c6f845d49a3e467fcd19a50a
 msgid ""
 "Decode the GGA sentence to extract GPS quality, number of satellites, and"
 " altitude."
-msgstr ""
+msgstr "解码 GGA 语句以提取 GPS 质量、卫星数量和海拔高度。"
 
 #: ../../en/module/gpsv2.rst:233 e48e72867257466ab69be601a2929be9
 msgid "The GGA sentence to decode."
-msgstr ""
+msgstr "要解码的 GGA 语句。"
 
 #: ../../en/module/gpsv2.rst:238 6dfd5e3eaab842d1b7fd8ac2a441ce07
 msgid ""
 "Decode the RMC sentence to extract GPS time, latitude, longitude, speed, "
 "course, and date."
-msgstr ""
+msgstr "解码 RMC 语句以提取 GPS 时间、纬度、经度、速度、航向和日期。"
 
 #: ../../en/module/gpsv2.rst:240 2d462dc18f2444259ce107c1e420e0ee
 msgid "The RMC sentence to decode."
-msgstr ""
+msgstr "要解码的 RMC 语句。"
 
 #: ../../en/module/gpsv2.rst:245 6637ee7de7be483bb6e3805ade92875e
 msgid "Decode the TXT sentence to extract antenna state."
-msgstr ""
+msgstr "解码 TXT 句子以提取天线状态。"
 
 #: ../../en/module/gpsv2.rst:247 a5348872d0e44740927ed1937b622bef
 msgid "The TXT sentence to decode."
-msgstr ""
+msgstr "用于解码的 TXT 语句。"
 
 #: ../../en/module/gpsv2.rst:252 1a7f905541ef4bde94c2bfcaa94ea70c
 msgid "Monitor the GPS data and decode incoming sentences."
-msgstr ""
+msgstr "监控 GPS 数据并解码传入的语句。"
 

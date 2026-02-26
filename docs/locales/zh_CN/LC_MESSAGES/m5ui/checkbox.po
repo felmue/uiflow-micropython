@@ -18,20 +18,19 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/m5ui/checkbox.rst:4 ../../en/m5ui/checkbox.rst:52
 #: b569382d86f2482aad9259cc59c0ba5a c77ef40216de4a7db2d8ba6770921bea
 msgid "M5Checkbox"
-msgstr ""
+msgstr "M5Checkbox"
 
 #: ../../en/m5ui/checkbox.rst:8 4e102ce876694f449ceab21b9ba42867
 msgid ""
 "M5Checkbox is a widget that can be used to create checkboxes in the user "
 "interface. It can be used to allow users to select or deselect options "
 "with a visual indicator."
-msgstr ""
-"M5Checkbox是一个可以在用户界面中创建复选框的控件。它可以用来允许用户通过可视化指示器选择或取消选择选项。"
+msgstr "M5Checkbox是一个可以在用户界面中创建复选框的控件。它可以用来允许用户通过可视化指示器选择或取消选择选项。"
 
 #: ../../en/m5ui/checkbox.rst:11 dc9719ff45b94a0d9ada8d773074d970
 msgid "UiFlow2 Example"
@@ -40,7 +39,7 @@ msgstr "UiFlow2 应用示例"
 #: ../../en/m5ui/checkbox.rst:14 ../../en/m5ui/checkbox.rst:33
 #: 2808d32e80744a68a11cff2eb2d6f416 5e4964b0d16e49fa8acae6caf915e86b
 msgid "basic checkbox"
-msgstr ""
+msgstr "基础复选框"
 
 #: ../../en/m5ui/checkbox.rst:16 ff909c6af17a4d71a21d3ade2e3b99b1
 msgid "Open the |cores3_checkbox_basic_example.m5f2| project in UiFlow2."
@@ -150,7 +149,7 @@ msgstr "API参考"
 
 #: 2c7ab26586ba48b7ae5791a70b3336b9 m5ui.checkbox.M5Checkbox:1 of
 msgid "Bases: :py:class:`~lvgl.checkbox`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.checkbox`"
 
 #: 9b851b66f64c4605929de7b810884666 m5ui.checkbox.M5Checkbox:1 of
 msgid "Create a checkbox object."
@@ -205,17 +204,13 @@ msgstr "复选框方块的背景颜色（十六进制格式）。"
 msgid ""
 "The parent object to attach the checkbox to. If not specified, the "
 "checkbox will be attached to the default screen."
-msgstr ""
-"要附加复选框的父对象。如果未指定，"
-"复选框将被附加到默认屏幕。"
+msgstr "要附加复选框的父对象。如果未指定，复选框将被附加到默认屏幕。"
 
 #: ../../en/m5ui/checkbox.rst:59 235e5199149c4dc7a32e488ad9d71088
 msgid ""
 "Set a flag on the object. If ``value`` is True, the flag is added; if "
 "False, the flag is removed."
-msgstr ""
-"设置对象上的标志。如果 ``value`` 为True，则添加标志；如果为"
-"False，则移除标志。"
+msgstr "设置对象上的标志。如果 ``value`` 为True，则添加标志；如果为False，则移除标志。"
 
 #: ../../en/m5ui/checkbox.rst:61 5322959247214ea78f9e39d4d50b61a9
 msgid "The flag to set."
@@ -251,9 +246,7 @@ msgstr ""
 msgid ""
 "Toggle a flag on the object. If the flag is set, it is removed; if not "
 "set, it is added."
-msgstr ""
-"切换对象上的标志。如果标志已设置，则移除它；如果未设置，"
-"则添加它。"
+msgstr "切换对象上的标志。如果标志已设置，则移除它；如果未设置，则添加它。"
 
 #: ../../en/m5ui/checkbox.rst:80 f3243db50802473bb88d5900153eec15
 msgid "The flag to toggle."
@@ -271,9 +264,7 @@ msgstr ""
 msgid ""
 "Set the state of the checkbox. If ``value`` is True, the state is set; if"
 " False, the state is unset."
-msgstr ""
-"设置复选框的状态。如果 ``value`` 为True，则设置状态；如果为"
-"False，则取消设置状态。"
+msgstr "设置复选框的状态。如果 ``value`` 为True，则设置状态；如果为False，则取消设置状态。"
 
 #: ../../en/m5ui/checkbox.rst:98 e18bd2de9622468ba850de56303c3f7d
 msgid "The state to set."
@@ -295,9 +286,7 @@ msgstr ""
 msgid ""
 "Toggle the state of the checkbox. If the state is set, it is unset; if "
 "not set, it is set."
-msgstr ""
-"切换复选框的状态。如果状态已设置，则取消设置；如果未设置，"
-"则设置。"
+msgstr "切换复选框的状态。如果状态已设置，则取消设置；如果未设置，则设置。"
 
 #: ../../en/m5ui/checkbox.rst:117 3f43158056af42f39c0b3bc155cb78a6
 msgid "The state to toggle."
@@ -348,9 +337,7 @@ msgstr "要设置的颜色。"
 msgid ""
 "The opacity of the color. The value should be between 0 (transparent) and"
 " 255 (opaque)."
-msgstr ""
-"颜色的不透明度。值应在0（透明）和"
-"255（不透明）之间。"
+msgstr "颜色的不透明度。值应在0（透明）和255（不透明）之间。"
 
 #: ../../en/m5ui/checkbox.rst:160 b9bcc113c2bc45c0baa7d7f1157ecc0a
 msgid "|set_text_color.png|"
@@ -593,9 +580,7 @@ msgstr ""
 msgid ""
 "Add an event callback to the checkbox. The callback will be called when "
 "the specified event occurs."
-msgstr ""
-"为复选框添加事件回调。当指定事件发生时，"
-"将调用回调函数。"
+msgstr "为复选框添加事件回调。当指定事件发生时，将调用回调函数。"
 
 #: ../../en/m5ui/checkbox.rst:423 184ea050158b474c9a4ea752db2c7fa5
 msgid "The callback function to call."

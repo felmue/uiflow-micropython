@@ -1,0 +1,569 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/step16.rst:2 6356ce6bb2294ef9a97e1da106c70747
+msgid "Step16 Unit"
+msgstr "Step16 Unit"
+
+#: ../../source/unit/step16.rst:8 942b892e3949486a8cdf1c2dd6fac910
+msgid "This library is the driver for Unit Step16."
+msgstr "该库是 Unit Step16 的驱动程序。"
+
+#: ../../source/unit/step16.rst:10 004abfeb8e67466584b512cb8209279e
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/step16.rst:12 ba8869130a294aa3959f84bd37be91bf
+msgid "|Unit Step16|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref b1a6de49eda34ac2861408ce59711225
+msgid "Unit step16"
+msgstr "Unit step16"
+
+#: ../../source/unit/step16.rst:15 f71be2c9037645158c15aceb248150fa
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/step16.rst:18 ../../source/unit/step16.rst:37
+#: 18b2d25a38894795bf351307939b085d 63a5b362922f457a99cd10bb1e2c5681
+msgid "Read Encoder"
+msgstr "读取编码器"
+
+#: ../../source/unit/step16.rst:20 0f53cab542344c19a1b551632d66a805
+msgid "Open the |cores3_step16_unit_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |cores3_step16_unit_example.m5f2| 项目。"
+
+#: ../../source/unit/step16.rst:22 ../../source/unit/step16.rst:39
+#: 062fbaf1cecf459482885c07a2b488a2 31031d8666a740fabd753f267fd746f9
+msgid "This example shows how to read and display encoder readings."
+msgstr "该示例演示如何读取并显示编码器读数。"
+
+#: ../../source/unit/step16.rst:24 24a48640b5d54e318f610db16ac31b82
+#: 2db8060178034d098ab0bb777dc94bf6 2eaa335796b14a2caf35031664b1e45b
+#: 30b9980592af4090b34c158aba150fa1 3d65340cdcdb49ed8c197d9129998de2
+#: 4c7a1a39c6ef4b0b90137850d0824278 5098d0c0f54848b0a297b11f3aa7a78f
+#: 5732d381446c4a79bb64828b226033db 6f12f28f6d14453084dc9b23bbc8ffa1
+#: 7cd30af16ba64ff28dfc807dd2777dbf 819e72819f6447b1bde6a69f6ffd4305
+#: a0215464c08b49c5b42f926d96e88bc8 a5f8143286ff4573a7a9c13c21667d46
+#: b41d22ebcde644baa8954a41a13d7d65 bd3d68c7957a4c7f8903588f44be6997
+#: c3f6efb793134adc8409f9e534dc4d31 ccfe031ac4914c7ca4940dd25019a7c4
+#: cf7443d154bd4770a590bd736ce51add d44cdc1492f140629b6bcfa91af9d14b
+#: db13eee49a524493833c897df12127b2 of unit.step16.Step16Unit:6
+#: unit.step16.Step16Unit.get_addr:6
+#: unit.step16.Step16Unit.get_encoder_cw_increase:6
+#: unit.step16.Step16Unit.get_encoder_value:6
+#: unit.step16.Step16Unit.get_firmware_version:6
+#: unit.step16.Step16Unit.get_led_brightness:6
+#: unit.step16.Step16Unit.get_led_mode:12
+#: unit.step16.Step16Unit.get_rgb_brightness:6
+#: unit.step16.Step16Unit.get_rgb_power:6
+#: unit.step16.Step16Unit.get_rgb_value:6
+#: unit.step16.Step16Unit.save_led_config:3
+#: unit.step16.Step16Unit.save_rgb_config:3 unit.step16.Step16Unit.set_addr:6
+#: unit.step16.Step16Unit.set_encoder_cw_increase:8
+#: unit.step16.Step16Unit.set_led_brightness:6
+#: unit.step16.Step16Unit.set_led_mode:11
+#: unit.step16.Step16Unit.set_rgb_brightness:6
+#: unit.step16.Step16Unit.set_rgb_power:6
+#: unit.step16.Step16Unit.set_rgb_value:6
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/step16.rst:26 c777fcde224b448c8ab0e4cf39ced2fc
+msgid "|cores3_step16_unit_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:28 3181e096d5e24f5ab2fc7a18cdb3b034
+msgid "cores3_step16_unit_example.png"
+msgstr ""
+
+#: ../../source/unit/step16.rst:28 ../../source/unit/step16.rst:47
+#: 387c9d52368f455184c708267d396dd4 9f1d5f659e604cd48c3a1f6fbbbadc62
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/step16.rst:30 ../../source/unit/step16.rst:49
+#: 1eab7b5f688847368b6daeacd8bd37d8 3a384c84f6b646c5a8379dc0151fa4aa
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/step16.rst:33 5758f7af1e474f9fb6144304eed912cb
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/step16.rst:41 09f7fa3e33da450f90205ae478a5bc2c
+#: 0b61ad1ea6c44f719496c8cb946480a5 20edfd8d7ab44a93b4739929f35a5bb0
+#: 2686dae12ddb4af98181626c1b45b07b 2ef399484e2f4dd899e254b3cc17cf74
+#: 3999409ff4094daaab88fb3537f33c15 5199804eecbe424d9f860e222a6fdd7c
+#: 56d4c3d4b19c4d518a3646b31e5018ff 60cf75f8675a4b96b4bbf5ec4dd1b593
+#: 610901fff30142188724d9da6c7d1e04 7d6ad869b5a44184a6175cab6b79957f
+#: 8185a45f5b304adb98ffdf90f49a193d ad91f07f18f4461eb358709b6b389345
+#: b80ef793c00b40729045276bc9e4ed73 ca1ed284d0c94d86bbaed7548ae655fe
+#: cb0dee4fd68a42008490d46d0e03e68f d459d676606a4de892bd9c7573d58173
+#: d8a93b39f94747899b07917b7141beba eb6dee546b974411a4e5e81f309106fe
+#: ef8cff0d4150450db5564f74dea9c90a of unit.step16.Step16Unit:10
+#: unit.step16.Step16Unit.get_addr:10
+#: unit.step16.Step16Unit.get_encoder_cw_increase:10
+#: unit.step16.Step16Unit.get_encoder_value:10
+#: unit.step16.Step16Unit.get_firmware_version:10
+#: unit.step16.Step16Unit.get_led_brightness:10
+#: unit.step16.Step16Unit.get_led_mode:16
+#: unit.step16.Step16Unit.get_rgb_brightness:10
+#: unit.step16.Step16Unit.get_rgb_power:10
+#: unit.step16.Step16Unit.get_rgb_value:10
+#: unit.step16.Step16Unit.save_led_config:7
+#: unit.step16.Step16Unit.save_rgb_config:7 unit.step16.Step16Unit.set_addr:10
+#: unit.step16.Step16Unit.set_encoder_cw_increase:12
+#: unit.step16.Step16Unit.set_led_brightness:10
+#: unit.step16.Step16Unit.set_led_mode:15
+#: unit.step16.Step16Unit.set_rgb_brightness:10
+#: unit.step16.Step16Unit.set_rgb_power:10
+#: unit.step16.Step16Unit.set_rgb_value:10
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/step16.rst:52 277932bf1da2471197336ab0cc70177f
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/step16.rst:55 fdafd6ba0f7e44e5b697d55829ffb7b0
+msgid "Step16Unit"
+msgstr "Step16Unit"
+
+#: 55887378b9784a43a1516eb8d348fd97 of unit.step16.Step16Unit:1
+msgid "Bases: :py:class:`object`"
+msgstr "Bases: :py:class:`object`"
+
+#: 4534f17f995d4ed791f7d6dc2fab0354 of unit.step16.Step16Unit:1
+msgid "Create an Step16Unit object."
+msgstr "创建一个 Step16Unit 对象。"
+
+#: ../../source/unit/step16.rst 1b299b58f92d42b59bb6bdd70e414a06
+#: 2ff721d19e3f43a0baf6c313cecdc227 65fffea429034a5faf1f7122f61f5d93
+#: a45b0225598d429d839dcbe286755294 b7147965b07443f9bcad63d8255d710f
+#: b961c0d85e924feca1a5c0d332105852 def1f089b705414f951aadd84943a702
+#: fe53912579a84c5c95bb029bdb5dad04 of unit.step16.Step16Unit.set_addr
+#: unit.step16.Step16Unit.set_encoder_cw_increase
+#: unit.step16.Step16Unit.set_led_brightness
+#: unit.step16.Step16Unit.set_led_mode
+#: unit.step16.Step16Unit.set_rgb_brightness
+#: unit.step16.Step16Unit.set_rgb_power unit.step16.Step16Unit.set_rgb_value
+msgid "Parameters"
+msgstr ""
+
+#: 56e9d0f8ca9a435e82c320dd1c235d7d of unit.step16.Step16Unit:3
+msgid "I2C port,"
+msgstr "I2C 端口，"
+
+#: e747ab503c2b4934969795d08db3a542 of unit.step16.Step16Unit:4
+msgid "Step16Unit Slave Address"
+msgstr "Step16Unit 从机地址"
+
+#: ce160f10632740478af62b39408fc9a3 of unit.step16.Step16Unit:8
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:6 6e6a18b146e4419f96d7132c7db66fbd
+msgid "init.png"
+msgstr ""
+
+#: 3e64d5b658eb4334937230de5c5088fa of
+#: unit.step16.Step16Unit.get_encoder_value:1
+msgid "Get the current encoder value (0~15)."
+msgstr "获取当前编码器值（0~15）。"
+
+#: 03a8793e37f54b548e535626785e6da5 0415d494a9974665a85343e83f9e1dc7
+#: 446842dc93504ba5bf00c355dc5377de 78e160d086d34c38a898d13f01b67060
+#: 9ab9cd21344b49b4a6b4626a54c5c8c8 aea2b543db4745b794d418da8f7bfa86
+#: b40246eb9848414fbcdcec2c1f1ccfa9 d55bb1ee61354c42974e60cdd78477d3
+#: ec16e85d51384f77b5738d793d6cc920 of unit.step16.Step16Unit.get_addr
+#: unit.step16.Step16Unit.get_encoder_cw_increase
+#: unit.step16.Step16Unit.get_encoder_value
+#: unit.step16.Step16Unit.get_firmware_version
+#: unit.step16.Step16Unit.get_led_brightness
+#: unit.step16.Step16Unit.get_led_mode
+#: unit.step16.Step16Unit.get_rgb_brightness
+#: unit.step16.Step16Unit.get_rgb_power unit.step16.Step16Unit.get_rgb_value
+msgid "Returns"
+msgstr ""
+
+#: 23a39ea68b3946a8b900b79f31d74b99 of
+#: unit.step16.Step16Unit.get_encoder_value:3
+msgid "Encoder value."
+msgstr "编码器值。"
+
+#: 1419bfc52aa74321a79f7ecf6ca09679 246be72ed4c749c48f4586ffad932860
+#: 2579f4d33e064724828dbca94f28e9f7 40573cd080064b07a147f90046ea5613
+#: 50d78a7db47741cc9ff4477eb3d034b0 54bb6e0450fd4e84bfdc4d6ec5efbabc
+#: 5cd6589e540a4b86aae96a0ff7585cf6 6718062ef77f4510ab5249f03cd0093b
+#: 7164c4f249d74b969e0881b72e790ee6 72dd9bb0dd414b72a41a30784148f1a5
+#: 798502ae77ae42e78a5611f10dcbb18e 9971e7094ff4485e841da4347b6246d4
+#: 9c71c3bdb1ec4707a107d32665fc0eb8 a7869d01a22c411fb487af0362f43c32
+#: b689d6473fe24b829526b38ea3ec22c2 d96d5466246f4abea9e4f09648b51d43
+#: fe54d9ac07784fcda0116ff86ba88a2f ff4f9a0f4d454281bc44458b0e9c30b1 of
+#: unit.step16.Step16Unit.get_addr
+#: unit.step16.Step16Unit.get_encoder_cw_increase
+#: unit.step16.Step16Unit.get_encoder_value
+#: unit.step16.Step16Unit.get_firmware_version
+#: unit.step16.Step16Unit.get_led_brightness
+#: unit.step16.Step16Unit.get_led_mode
+#: unit.step16.Step16Unit.get_rgb_brightness
+#: unit.step16.Step16Unit.get_rgb_power unit.step16.Step16Unit.get_rgb_value
+#: unit.step16.Step16Unit.save_led_config
+#: unit.step16.Step16Unit.save_rgb_config unit.step16.Step16Unit.set_addr
+#: unit.step16.Step16Unit.set_encoder_cw_increase
+#: unit.step16.Step16Unit.set_led_brightness
+#: unit.step16.Step16Unit.set_led_mode
+#: unit.step16.Step16Unit.set_rgb_brightness
+#: unit.step16.Step16Unit.set_rgb_power unit.step16.Step16Unit.set_rgb_value
+msgid "Return type"
+msgstr ""
+
+#: 4e0f9599bc584723aa71fb4d47dfebc2 of
+#: unit.step16.Step16Unit.get_encoder_value:8
+msgid "|get_encoder_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:19 9172f9e6ece249a8bd9f26e86a142458
+msgid "get_encoder_value.png"
+msgstr ""
+
+#: 1435618320e741d5b20a6a9b048ba421 of
+#: unit.step16.Step16Unit.set_encoder_cw_increase:1
+msgid "Configure whether clockwise rotation increases encoder value."
+msgstr "配置顺时针旋转是否会增加编码器值。"
+
+#: d47df0b592f543dc843e016e2c28b747 of
+#: unit.step16.Step16Unit.set_encoder_cw_increase:3
+msgid ""
+"- True: Clockwise rotation increases the encoder value. - False: "
+"Clockwise rotation decreases the encoder value."
+msgstr "- True：顺时针旋转会增加编码器值。- False：顺时针旋转会减少编码器值。"
+
+#: a81ccc987bb645c79eeaf042b76c9f30 of
+#: unit.step16.Step16Unit.set_encoder_cw_increase:4
+msgid "True: Clockwise rotation increases the encoder value."
+msgstr "True：顺时针旋转会增加编码器值。"
+
+#: fc19beb36c47456ba827b80f76f7638b of
+#: unit.step16.Step16Unit.set_encoder_cw_increase:5
+msgid "False: Clockwise rotation decreases the encoder value."
+msgstr "False：顺时针旋转会减少编码器的值。"
+
+#: a3aecf41b6df4301a0579b182ae2a434 of
+#: unit.step16.Step16Unit.set_encoder_cw_increase:10
+msgid "|set_encoder_cw_increase.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:21 0a24f55b997441a3a28431919e531cc7
+msgid "set_encoder_cw_increase.png"
+msgstr ""
+
+#: b9a3fb8b268b459a93298d941dfffac4 of
+#: unit.step16.Step16Unit.get_encoder_cw_increase:1
+msgid "Get current encoder direction mode."
+msgstr "获取当前编码器方向模式。"
+
+#: 7489c8fc83074e34b7696cc6ab5731e1 of
+#: unit.step16.Step16Unit.get_encoder_cw_increase:3
+msgid "1 for increasing clockwise, 0 for decreasing."
+msgstr "1 表示顺时针递增，0 表示递减。"
+
+#: 63e0581cc7aa48efb966d4302ea32cd1 of
+#: unit.step16.Step16Unit.get_encoder_cw_increase:8
+msgid "|get_encoder_cw_increase.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:20 900d8994905544fc9b2f6751a049027c
+msgid "get_encoder_cw_increase.png"
+msgstr ""
+
+#: ea7a59e578c74b48a80e6cd3cc19b23e of unit.step16.Step16Unit.set_led_mode:1
+msgid "Set LED display mode."
+msgstr "设置 LED 显示模式。"
+
+#: 2d84f19f1dcd45dabd5b14d2fed2656d of unit.step16.Step16Unit.set_led_mode:3
+msgid ""
+"LED mode type. 0 = always off, 1 = always on, 2 = auto-off mode with "
+"`seconds` as timeout."
+msgstr "LED 模式类型。0 = 始终关闭，1 = 始终开启，2 = 自动关闭模式，`seconds` 作为超时时间。"
+
+#: b3f2413ed183468b83b85add2f78efe0 of unit.step16.Step16Unit.set_led_mode:8
+msgid "Timeout in seconds if `mode` is 2 (auto-off)."
+msgstr "当 `mode` 为 2（自动关闭）时的超时时间（单位：秒）。"
+
+#: 4d40b092238f4d19be12ac3802336acd of unit.step16.Step16Unit.set_led_mode:13
+msgid "|set_led_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:9 5ddfa36b131a408b92d2bd1fd4f6fcf4
+msgid "set_led_mode.png"
+msgstr ""
+
+#: 8c8624ac81474461bfc27589e89d2792 of unit.step16.Step16Unit.get_led_mode:1
+msgid "Get LED display mode."
+msgstr "获取 LED 显示模式。"
+
+#: e04badab944d4daba088e8e70b58d2f8 of unit.step16.Step16Unit.get_led_mode:3
+msgid "The LED mode values:"
+msgstr "LED 模式值："
+
+#: f11e7609e1b241859146d5c7a734b6f2 of unit.step16.Step16Unit.get_led_mode:5
+msgid "`0x00` : Always Off."
+msgstr "`0x00`：始终关闭。"
+
+#: 01185ce889ea4ce7acba98c91875081c of unit.step16.Step16Unit.get_led_mode:6
+msgid "`0xFE` : Always On."
+msgstr "``0xFE``：始终开启。"
+
+#: 07ae6a7b62b84b018be0cc60f099d17c of unit.step16.Step16Unit.get_led_mode:7
+msgid "`0x00` ~ `0xFD` : Auto off times in seconds."
+msgstr "`0x00` ~ `0xFD`：以秒为单位的自动关闭时间。"
+
+#: 320233ca44b1443ea217bf2cf11fdd39 of unit.step16.Step16Unit.get_led_mode:9
+msgid "LED display mode."
+msgstr "LED 显示模式。"
+
+#: c7a7e3c8f22348cd9a60e7f63256d3cf of unit.step16.Step16Unit.get_led_mode:14
+msgid "|get_led_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:7 e7b7b80c0a174255b50771291c96763e
+msgid "get_led_mode.png"
+msgstr ""
+
+#: 55291fb963014a6c880ad99fd2fa9103 of
+#: unit.step16.Step16Unit.set_led_brightness:1
+msgid "Set LED brightness (0~100)."
+msgstr "设置 LED 亮度（0~100）。"
+
+#: 078c49e4e6fe4ffa86ddac3d7f051580 b4e761df448b468bb6f8ecf84d3a1e8e of
+#: unit.step16.Step16Unit.get_led_brightness:3
+#: unit.step16.Step16Unit.set_led_brightness:3
+msgid "Brightness level."
+msgstr "亮度等级。"
+
+#: da17eca3ffb74737a535b0e2273a7135 of
+#: unit.step16.Step16Unit.set_led_brightness:8
+msgid "|set_led_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:10 d4e9b5c1683e4b6b9cefcb06ad4e4b92
+msgid "set_led_brightness.png"
+msgstr ""
+
+#: d76436d804cd4b08ab286b758fcca993 of
+#: unit.step16.Step16Unit.get_led_brightness:1
+msgid "Get current LED brightness."
+msgstr "获取当前 LED 亮度。"
+
+#: 849c7442304b45bf8680f69bdf19dca2 of
+#: unit.step16.Step16Unit.get_led_brightness:8
+msgid "|get_led_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:8 b8c96c111eac487c83849c86da09e96e
+msgid "get_led_brightness.png"
+msgstr ""
+
+#: f3c8330beb074d73a9943890478b1fcf of unit.step16.Step16Unit.set_rgb_power:1
+msgid "Turn the RGB light power ON or OFF."
+msgstr "打开或关闭 RGB 灯电源。"
+
+#: b51bfd882dd34869853acfecaeeceaf2 of unit.step16.Step16Unit.set_rgb_power:3
+msgid "True to turn on the RGB light, False to turn it off."
+msgstr "True 用于打开 RGB 灯，False 用于关闭。"
+
+#: 8b9c1c8a1d3248178181bec5eae7ba1f of unit.step16.Step16Unit.set_rgb_power:8
+msgid "|set_rgb_power.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:15 1cafbed5f0ca436ab6affdf2cb1b9a8f
+msgid "set_rgb_power.png"
+msgstr ""
+
+#: fc36d3c696a6457b88fd9d8280831deb of unit.step16.Step16Unit.get_rgb_power:1
+msgid "Get the current power status of the RGB light."
+msgstr "获取 RGB 灯的当前电源状态。"
+
+#: b2dcda39110349f8bd7c793ff789f4d5 of unit.step16.Step16Unit.get_rgb_power:3
+msgid "True if the RGB light is ON, False if OFF."
+msgstr "如果 RGB light 处于 ON 状态则为 True，如果处于 OFF 状态则为 False。"
+
+#: d1c7e74e2dc24a24bc36fee17b2918a8 of unit.step16.Step16Unit.get_rgb_power:8
+msgid "|get_rgb_power.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:12 8dd03ee84d0742eba95f7b18f4e831f8
+msgid "get_rgb_power.png"
+msgstr ""
+
+#: 4e0d9f10ba944d34812a1276ae2451cb of
+#: unit.step16.Step16Unit.set_rgb_brightness:1
+msgid "Set the brightness of the RGB light (0~100%)."
+msgstr "设置 RGB 灯的亮度（0~100%）。"
+
+#: e36f3ccd226d4bc482cfd342eb508769 of
+#: unit.step16.Step16Unit.set_rgb_brightness:3
+msgid "Brightness percentage (0~100)."
+msgstr "亮度百分比（0~100）。"
+
+#: ebd998445c9d4c9daf0efbb115adf9e4 of
+#: unit.step16.Step16Unit.set_rgb_brightness:8
+msgid "|set_rgb_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:16 4f09821c62c44946adf6c59c753f3eff
+msgid "set_rgb_brightness.png"
+msgstr ""
+
+#: 43341cb60b2b436a8ec1b60b8788f4d7 of
+#: unit.step16.Step16Unit.get_rgb_brightness:1
+msgid "Get the current RGB brightness level (0~100%)."
+msgstr "获取当前 RGB 亮度级别（0~100%）。"
+
+#: 0384bec542de4a68a02ab8d7814097aa of
+#: unit.step16.Step16Unit.get_rgb_brightness:3
+msgid "Current RGB brightness percentage (0~100)."
+msgstr "当前 RGB 亮度百分比（0~100）。"
+
+#: b3f804a3174c4cdcbbaecf5f18d98a08 of
+#: unit.step16.Step16Unit.get_rgb_brightness:8
+msgid "|get_rgb_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:13 235cd0f326274d3ab530d45602abe1a0
+msgid "get_rgb_brightness.png"
+msgstr ""
+
+#: 82f547e1ce0f41dbb2d499e7b2d38a7a of unit.step16.Step16Unit.set_rgb_value:1
+msgid "Set RGB LED color using a 24-bit integer."
+msgstr "使用 24 位整数设置 RGB LED 颜色。"
+
+#: e0cdb5f84c194fcb8b0362e449580921 of unit.step16.Step16Unit.set_rgb_value:3
+msgid ""
+"A 24-bit integer representing the RGB color (e.g., 0xFF8040 for R=255, "
+"G=128, B=64). Format is (R << 16) | (G << 8) | B."
+msgstr ""
+"一个 24 位整数，用于表示 RGB 颜色（例如 0xFF8040 表示 R=255、G=128、B=64）。格式为 (R << 16) | (G"
+" << 8) | B。"
+
+#: bc722438b32d47ed8f5486407119ec70 of unit.step16.Step16Unit.set_rgb_value:8
+msgid "|set_rgb_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:17 73f70610e96742c794006898f4f6c021
+msgid "set_rgb_value.png"
+msgstr ""
+
+#: ede5f7dd931d4e0b99e660e1aa8cdf8a of unit.step16.Step16Unit.get_rgb_value:1
+msgid "Get current RGB LED color."
+msgstr "获取当前 RGB LED 颜色。"
+
+#: f540932b68a94606b5193d96cec90522 of unit.step16.Step16Unit.get_rgb_value:3
+msgid "Tuple of (r, g, b)"
+msgstr "(r, g, b) 元组"
+
+#: 931c991406494ee7b546a40ee978361d of unit.step16.Step16Unit.get_rgb_value:8
+msgid "|get_rgb_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:14 c4790908c8464338880c769b05fe6a8a
+msgid "get_rgb_value.png"
+msgstr ""
+
+#: 0d523bd0bc0542399ed9e7f577e48d90 of unit.step16.Step16Unit.save_led_config:1
+msgid "Save current LED mode and brightness settings."
+msgstr "保存当前 LED 模式和亮度设置。"
+
+#: 228f68b7d2244b4e81cc64147898c45e of unit.step16.Step16Unit.save_led_config:5
+msgid "|save_led_config.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:11 3d606e729a0642989b84fdf837855b41
+msgid "save_led_config.png"
+msgstr ""
+
+#: 1c0b63e4a65b4937ba05c7ccbcd84d24 of unit.step16.Step16Unit.save_rgb_config:1
+msgid "Save current RGB color settings."
+msgstr "保存当前 RGB 颜色设置。"
+
+#: 5541a6cb4470445da061a945cb43ecdf of unit.step16.Step16Unit.save_rgb_config:5
+msgid "|save_rgb_config.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:18 8bd8dcb390f94033ac3f29f2fce9bd8f
+msgid "save_rgb_config.png"
+msgstr ""
+
+#: 6f93c7003aa04e518d63b0cd64c5a02a of unit.step16.Step16Unit.set_addr:1
+msgid "Set the device's I2C address."
+msgstr "设置设备的 I2C 地址。"
+
+#: 82f1bdb1c7b64f3cb672c001c67b5eba of unit.step16.Step16Unit.set_addr:3
+msgid "New I2C address (0x08~0x77)."
+msgstr "新的 I2C 地址（0x08 ~ 0x77）。"
+
+#: af72ba4ba1c349ff97b35f21c2be7e6b of unit.step16.Step16Unit.set_addr:8
+msgid "|set_addr.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:24 8c9c3bf99ce447aaad78fc2cdfba37af
+msgid "set_addr.png"
+msgstr ""
+
+#: 796527a81f254eb6aca9405f1968735c of unit.step16.Step16Unit.get_addr:1
+msgid "Get the current I2C device address."
+msgstr "获取当前 I2C 设备地址。"
+
+#: 137d1bf4bb374d648f4fdd59fd835751 of unit.step16.Step16Unit.get_addr:3
+msgid "I2C address."
+msgstr "\"\"\"I2C 地址。\"\"\""
+
+#: 31912e208f5f4a7386be92546025ad8f of unit.step16.Step16Unit.get_addr:8
+msgid "|get_addr.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:23 49d9b31d605946a8bbb843b58c8bbfff
+msgid "get_addr.png"
+msgstr ""
+
+#: 9d634cdebd47460eb85fe295a6ab9895 of
+#: unit.step16.Step16Unit.get_firmware_version:1
+msgid "Get the firmware version."
+msgstr "获取固件版本。"
+
+#: c041b1d4b72e40108ed05b81c260fd22 of
+#: unit.step16.Step16Unit.get_firmware_version:3
+msgid "firmware version."
+msgstr "固件版本。"
+
+#: ce95a510c983451fb8902c0b1e5503b7 of
+#: unit.step16.Step16Unit.get_firmware_version:8
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.step16.ref:22 03b9a42913cb42e188d5c2200f6b2534
+msgid "get_firmware_version.png"
+msgstr ""
+

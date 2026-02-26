@@ -18,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/controllers/airq.rst:3 16570d9ee0c74f0ba95b803fecc902d2
 msgid "AirQ"
-msgstr ""
+msgstr "AirQ"
 
 #: ../../en/refs/controllers.airq.ref:1 1d2db5a35cfd4dfeba7461f540ca1312
 #: df231ddab4e548309116a7da02731775
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../en/controllers/airq.rst:9 80e04c94d19a488ca91b508ffcda9c3b
 msgid "UI"
-msgstr ""
+msgstr "UI"
 
 #: ../../en/controllers/airq.rst:11 030a85f29e754112813fc2a0a2e244d1
 msgid "|flow.png|"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../en/controllers/airq.rst:17 24b95659f8c74a3e9aaca5879149057b
 msgid "**B** key toggles between available servers."
-msgstr ""
+msgstr "**B** 按键在可用服务器之间切换。"
 
 #: ../../en/controllers/airq.rst:21 6e3e69882c3142c3b0227db896c958fb
 msgid "|applist.png|"

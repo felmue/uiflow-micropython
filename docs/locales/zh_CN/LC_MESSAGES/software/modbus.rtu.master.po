@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/software/modbus.rtu.master.rst:4
 #: ../../en/software/modbus.rtu.master.rst:50 702c0bb20e01475b9b653c68105833b0
 msgid "ModbusRTUMaster"
-msgstr ""
+msgstr "ModbusRTUMaster"
 
 #: ../../en/software/modbus.rtu.master.rst:8 b30f9a8c4bd84b839afa2f56811fb039
 msgid ""
@@ -33,9 +33,9 @@ msgid ""
 "Single Holding Register), 15 (Write Multiple Coils), and 16 (Write "
 "Multiple Holding Registers)."
 msgstr ""
-"ModbusRTUMaster 实现了 Modbus RTU 主站。ModbusRTUMaster 支持功能码 1（读线圈）"
-"、2（读离散输入）、3（读保持寄存器）、4（读输入寄存器）、5（写单线圈）、6"
-"（写单保持寄存器）、15（写多线圈）和 16（写多保持寄存器）。"
+"ModbusRTUMaster 实现了 Modbus RTU 主站。ModbusRTUMaster 支持功能码 "
+"1（读线圈）、2（读离散输入）、3（读保持寄存器）、4（读输入寄存器）、5（写单线圈）、6（写单保持寄存器）、15（写多线圈）和 "
+"16（写多保持寄存器）。"
 
 #: ../../en/software/modbus.rtu.master.rst:11 2c9c1c0a4fa440eb9cb12347c07aeffd
 msgid "UiFlow2 Example"
@@ -238,8 +238,7 @@ msgstr "保持寄存器起始地址，范围为 0x0000 至 0xFFFF。"
 msgid ""
 "list - A list of holding registers. The item of the list is 0x0000 to "
 "0xFFFF."
-msgstr ""
-"list - 保持寄存器列表，每一项为 0x0000 至 0xFFFF。"
+msgstr "list - 保持寄存器列表，每一项为 0x0000 至 0xFFFF。"
 
 #: ../../en/software/modbus.rtu.master.rst:126 ca6e7fc64277468ebd80fd03d4e7848b
 msgid "|read_holding_registers.png|"
@@ -262,8 +261,7 @@ msgstr "输入寄存器起始地址，范围为 0x0000 至 0xFFFF。"
 msgid ""
 "list - A list of input registers. The item of the list is 0x0000 to "
 "0xFFFF."
-msgstr ""
-"list - 输入寄存器列表，每一项为 0x0000 至 0xFFFF。"
+msgstr "list - 输入寄存器列表，每一项为 0x0000 至 0xFFFF。"
 
 #: ../../en/software/modbus.rtu.master.rst:147 40248a410d86426c81360a3b65a91933
 msgid "|read_input_registers.png|"

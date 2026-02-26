@@ -1,0 +1,1219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/roller485.rst:3 53d1780e46714149ad2989d6b7a3b2b8
+msgid "Roller485 Unit"
+msgstr "Roller485 Unit"
+
+#: ../../source/unit/roller485.rst:7 6430997e55df446dbc382a45ff5740d0
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/roller485.rst:9 dfdd3fdd22764ca0b6be68df7b0a80aa
+msgid "|Roller485|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref 59befbc8ad064aed89f222aa7e9979b2
+msgid "Roller485"
+msgstr "Roller485"
+
+#: ../../source/unit/roller485.rst:11 556ee01a800149cc9e35e2bfa1308274
+msgid "Roller485 I2C Example:"
+msgstr "Roller485 I2C 应用示例："
+
+#: ../../source/unit/roller485.rst:17 45ce61272ef147619b8dbd185d64dd05
+msgid "Roller485 I2C UIFLOW2 Example:"
+msgstr "Roller485 I2C UiFlow2 应用示例："
+
+#: ../../source/unit/roller485.rst:19 25c8e312cc7e444985d3255160e9dc74
+msgid "|i2c_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:57 3123054b9f8a4c039da23f21e6051492
+msgid "i2c_example.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:23 fe020ea32cf94e88b533d48dd98a1a50
+msgid "|roller485_i2c_fire_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:25 a6f7466fb6464cc5a6dbe94fc2fe01a6
+msgid "Roller485 RS485 Example:"
+msgstr "Roller485 RS485 应用示例："
+
+#: ../../source/unit/roller485.rst:31 336c8adc03e3477c94f84084aa895ff3
+msgid "Roller485 RS485 UIFLOW2 Example:"
+msgstr "Roller485 RS485 UiFlow2 应用示例："
+
+#: ../../source/unit/roller485.rst:33 25ae0e4af37348c5b0532e840a83b32e
+msgid "|rs485_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:58 c9ccfe940725450f9bd11cc01edc655c
+msgid "rs485_example.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:37 3890b97909a149458a133c2bc578b821
+msgid "|roller485_485_fire_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:39 8cfebb6cf671493da2f8dbea2dd86c59
+msgid "Roller485 RS485ToI2C Example:"
+msgstr "Roller485 RS485ToI2C 应用示例："
+
+#: ../../source/unit/roller485.rst:45 c1ccf4548e5c425ea13c195cf180ccfd
+msgid "Roller485 RS485ToI2C UIFLOW2 Example:"
+msgstr "Roller485 RS485ToI2C UiFlow2 应用示例："
+
+#: ../../source/unit/roller485.rst:47 c3ea0b5c758a4a73baf97a4590808bdb
+msgid "|rs485_i2c_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:59 cf85f297f5ec4a5ca18cd2ad23ee0f60
+msgid "rs485_i2c_example.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:51 5a6af7c724a64f74b86279fafba82911
+msgid "|roller485_485toi2c_fire_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:55 482fc33b55414ae98ca1fd0723cce52d
+msgid "class Roller485Unit"
+msgstr "class Roller485Unit"
+
+#: ../../source/unit/roller485.rst:58 ../../source/unit/roller485.rst:76
+#: ../../source/unit/roller485.rst:571 ../../source/unit/roller485.rst:608
+#: ../../source/unit/roller485.rst:674 3bf03c08d31d4d3b89931c5a9358e18b
+#: 488cf1de7be946d78c8eda23f6cc4a69 57671867a94244aa9778c41804326430
+#: 93fd848d99814685b13454aa99467a3d d0d92e3046c04b2796b053b5ab4ed232
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:62 9a4a838adae94f5c9dd27f22b0bde7cc
+msgid "Initialize the Roller485Unit object based on communication mode."
+msgstr "根据通信模式初始化 Roller485Unit 对象。"
+
+#: ../../source/unit/roller485.rst 02af9d18ffd64ec4b4e21ef9863371e4
+#: 07d0bba9e6f242d4a4118d6b614e05b2 15832ee386ed42629319d45c90bf5d6b
+#: 1cf3145d5dd14e47a34c72299f59f111 1dc00435be2b40a788b82ac7d4346d1b
+#: 22d4e519a97a43fbaa96a454052fedc9 2433d2997e2d47f4a919c4a34b51b5aa
+#: 263e5d2df5ba48fd83231696ace96800 2e456b7c42c846fbaf5a4d6b7c25ccdb
+#: 326ed462ff494b3bb25d4d389b51f0fd 34b8bfebc8bb436fbc761585f05f6355
+#: 3dd9964ed4ca406b86cf279d0dac88f6 51881edbbdc443f29b6dfd0a0d0cf45f
+#: 5306b257239a42ecac6cd3777ee67e16 6352b1b24aff4e4f9717cce1f6a78951
+#: 6de95e38910a427faca2e813961be4cd 6f2d3c1557ac41cfa42ce6a58ab8d55e
+#: 747bcd626b8741a18fcdc4c3937f4ddf 791167d72e394e79a6bd1cb17ba4efbb
+#: 816a02f74bf04dd396622e695b4f1959 91aef569a08b4b7bab0acd2fb11188fa
+#: 9384c8323086485ba8113b025e27a319 a65cebfe17f3499199e1102220b002cc
+#: b4bba5451d8348c591f64eff352500f7 c09c7472b7244ac9ad50e1575974b9e6
+#: c2b48da5525f4cb895a3ca385265ac8a c582f2eb5fc54512abe56bbd6faf39ef
+#: cbaaa480ea374bcfb51143589b58ee39 d4cba4a2d1164dbabe28f50bcec4e96a
+#: d8afeddb41144c88b02f2c072f4a344d db94c44674b349e8afe004531765074a
+#: de40ab10f7a74521bbea9c0607559f72 de56c9dc471a4bd3b44b7631266edb12
+#: dfe42f65f358422881e2d5b45921a403 e57199e7d97d4f02b9f4dc5e1af6758d
+#: e6ae8716ce5f42d39600d429e40a7adc ff52ba088914485280dd51df28c71798
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:64 4b8787337f9746d7aed55180e8338de6
+msgid "The I2C/RS485 bus instance."
+msgstr "I2C/RS485 总线实例。"
+
+#: ../../source/unit/roller485.rst:65 ../../source/unit/roller485.rst:615
+#: ../../source/unit/roller485.rst:681 04a89d1cc50e4699ae41fc0f36623e2a
+#: 12a7845c35a3446eba5e069cb227fb35 e7ac164b11aa469bb36c86714c1a4cfe
+msgid "The motor's RS485 address. Defaults to _ROLLER485_RS485_ADDR."
+msgstr "电机的 RS485 地址。默认为 _ROLLER485_RS485_ADDR。"
+
+#: ../../source/unit/roller485.rst:66 94e1abba8f114aecbdff33fbf23a8790
+msgid "The Roller485 communication mode."
+msgstr "Roller485 通信模式。"
+
+#: ../../source/unit/roller485.rst:68 ../../source/unit/roller485.rst:90
+#: ../../source/unit/roller485.rst:100 ../../source/unit/roller485.rst:110
+#: ../../source/unit/roller485.rst:120 ../../source/unit/roller485.rst:130
+#: ../../source/unit/roller485.rst:140 ../../source/unit/roller485.rst:149
+#: ../../source/unit/roller485.rst:159 ../../source/unit/roller485.rst:169
+#: ../../source/unit/roller485.rst:179 ../../source/unit/roller485.rst:189
+#: ../../source/unit/roller485.rst:199 ../../source/unit/roller485.rst:209
+#: ../../source/unit/roller485.rst:219 ../../source/unit/roller485.rst:229
+#: ../../source/unit/roller485.rst:239 ../../source/unit/roller485.rst:249
+#: ../../source/unit/roller485.rst:259 ../../source/unit/roller485.rst:269
+#: ../../source/unit/roller485.rst:279 ../../source/unit/roller485.rst:289
+#: ../../source/unit/roller485.rst:299 ../../source/unit/roller485.rst:309
+#: ../../source/unit/roller485.rst:319 ../../source/unit/roller485.rst:331
+#: ../../source/unit/roller485.rst:341 ../../source/unit/roller485.rst:351
+#: ../../source/unit/roller485.rst:361 ../../source/unit/roller485.rst:371
+#: ../../source/unit/roller485.rst:381 ../../source/unit/roller485.rst:391
+#: ../../source/unit/roller485.rst:401 ../../source/unit/roller485.rst:413
+#: ../../source/unit/roller485.rst:423 ../../source/unit/roller485.rst:433
+#: ../../source/unit/roller485.rst:443 ../../source/unit/roller485.rst:453
+#: ../../source/unit/roller485.rst:463 ../../source/unit/roller485.rst:473
+#: ../../source/unit/roller485.rst:483 ../../source/unit/roller485.rst:493
+#: ../../source/unit/roller485.rst:503 ../../source/unit/roller485.rst:513
+#: ../../source/unit/roller485.rst:523 ../../source/unit/roller485.rst:532
+#: ../../source/unit/roller485.rst:542 ../../source/unit/roller485.rst:552
+#: ../../source/unit/roller485.rst:562 ../../source/unit/roller485.rst:580
+#: 057eb9cb6a144c1c83b0f7d6f8f71340 06a13012819f42d18d75daf8cf3548a8
+#: 1bb2bc8237dd474ebd9b407aae1132b8 20545efde2464670a9cffd9fe6049d32
+#: 20bf48a30e574de88522046eeea505cb 23c3247a21434543aa0fffaa7c5fe349
+#: 285b384e78734a85a1f197f3607f3643 3136869dc8804b37b48710aa3f52a343
+#: 32a283f9fad042f1a585921e8615beed 393589c1255f4ddc9bded8d1715199e8
+#: 3c2f24889c13450a8fe1ae208cbb6d2b 3f2357af01af43c88f8b87ac7d07dffe
+#: 3fc80f396efb413db7cb2adbdc7d57bc 406719f21fa44a0ab467f541442a636e
+#: 40f4517f5fb54cff8b8ed9d8b4192c2b 41915e2a4efb4c5c8b93ad11c21214d7
+#: 456f67d5edcd4cf9bb72fcc25d3829ba 4b167a583f9441f6a2d69208cddf480a
+#: 4fb27e9aad174b0f9b57efef99b57039 653546d052b542218bfa1ed91bb95a68
+#: 753e0dc99ad744a9b409461aa1402192 75846a858796494e8f00762c412dd044
+#: 77ec8b1818fb477ca9804941e9f2bb74 832b429f2115425084d4b724ae2d7965
+#: 83edb2ec7ff34297b656cb2c5d48db3d 8d1afa05af9e47359390aa4aa69a3a5e
+#: 92c28682c2e54d229021529ab5106089 96e94020b60f41b2942ed5519d2aa0d0
+#: 971a7f21766444e7b6c486240f844c84 a35f40c321ac4519bed66432b7535270
+#: acc48a6b609b4be896125abe1ef74081 b0badace1a2245dbb085abb268af6bb8
+#: b9bc4ffa030a4b4d9d668f70a7828d3e bb613970b5b44d83ab44fec1ede8d63d
+#: bfd4ea55c8b340d7922aa5936c2d7af4 c04b367231164cc8a942e8c2c7f9b700
+#: c109bd4872164c9c813fe7c785a3c340 c25fdaec3df24eadaaffe3b64380b3a5
+#: c2cf7b60e1bb482b8799e8cf564e1d10 c5dd88b420544afbbdd3d44677596938
+#: c67c14f8b5d14b808f118b58237eeb6c c91d67d3e0ad408ca60fb21914b95ed3
+#: ceb8183eebaf4d92add9e75779dd6697 cfa4dac7c3094deda0a2f6388a7759bf
+#: d336b0e5531e4575928bbabd124a50d9 d4af088597e84d5b98b0c2f31ec68ed4
+#: d52a99f7dd1846f581623bdd1232ac5c db99087e01ac4317ae2e17e1b66971b1
+#: e2951847c22d43b0967140c7c6af31b5 e7de2121355f4de5ba7df7a4f657da57
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/roller485.rst:70 ../../source/unit/roller485.rst:582
+#: 0c4edecf0de841889d82dbe12c3fbc82 c15723fb01794930bc23fb8ce7ff5fbd
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:7 21d4945c0b554089b09b2736fa366483
+#: c396a305d7c64cea965aa7efceba2c34
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:73 5019cbf97f43411996e9c2fadd443469
+msgid "class RollerBase"
+msgstr "class RollerBase"
+
+#: ../../source/unit/roller485.rst:82 ../../source/unit/roller485.rst:586
+#: ../../source/unit/roller485.rst:618 ../../source/unit/roller485.rst:684
+#: 0a795e5e4f374789aa2fa5bfd71e2b70 6d1003bb1e7a4ae9a2102b5b21a590e5
+#: c6ec15c44f2e4fbeb9afb3c5976ef386 e7d2003b045243babcc408eb7646edcd
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:86 7a2154ed84764804a4bb990d80c2ed35
+msgid "Set the motor output state."
+msgstr "设置电机输出状态。"
+
+#: ../../source/unit/roller485.rst:88 33f5ac9d3c4947dc83e76b5f7927d50f
+msgid "Control value for the motor output."
+msgstr "电机输出的控制值。"
+
+#: ../../source/unit/roller485.rst:92 e5a17d01bf77403e83e9a42cdab63341
+msgid "|set_motor_output_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:8 2fe54198cee64ce08279e52d566931ff
+msgid "set_motor_output_state.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:96 7636b9f9de6b4c23853abcb477e22f8c
+msgid "Get the motor output status."
+msgstr "获取电机输出状态。"
+
+#: ../../source/unit/roller485.rst 0aa76b9570f64091a404a59b12a963fc
+#: 0d2a94a3b7734203a63c38dc646fd6f6 23fd1444c6e34f13acb17d734494073e
+#: 2447f90157094299a47adef8013301dd 2f27d65e791e4071975af51983dcc413
+#: 370777f8f3c74f349766c7b7a4a2d6ea 3ad968ca94d14d5aa9c6e11efb3fda0b
+#: 3b9d7c35fbef45e88228ce3a3008c6ff 3e880edf72134aae97b0b46f8e6a9efa
+#: 44ff1b6b0e4149e4881f81dda3c72816 5083afb55f56465c90f3171aa95105fe
+#: 5787690d12ec41019edace1841fb0542 62a7c3a6ed9e49db840df68929d5d34e
+#: 65a36e4085e542018f789a628c4f6d40 6a3eeb423f8149a98031c5c8745e1419
+#: 7600fefe39304cbfa1af50f7e31c7cb3 78c6894322d74cceb66985873501b35d
+#: 7bfe32951570447ea306998c4c5c5751 7fb67eaf68974e1f92bcb1f0fd25d9ed
+#: 86e86c6e046d43ecbc232fa78c507163 8fff2e17d10c43dd8a001540b16c09cd
+#: 9141cc2aaaf24f319a7a47fe1d8d3983 9266d157ac5d47e697f0b499b6e502f8
+#: a0a219ad924041658b47332f8a254bad a52795343e9c40de8091a789e9602a28
+#: a607e481eac54b829bb58f66756d33e4 b3392bdd699f4d2c8eae5b217389296b
+#: bb457350a0fa4d7ab925980d79a4dd68 bb86e33b68f24200ad452ce26ddd0b73
+#: be7aafd420b244dfb9536f0c34c8d39c c0037e3e782b4e02987ec763914fbffc
+#: c6b03a3d454549e6b8b3dcdf9f0e411d d2b41f2b23ce489bb1e3de95cad36512
+#: eebf507d0ddf44f88c6498c10b33fb61 f24910188b6f4ec698de0df3808f490c
+#: fd188dae6dce4b8e8b3b0aef40f95390
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:98 4d860e7e364b4f4984265f82f026268d
+msgid "True if the motor output is active, False otherwise."
+msgstr "如果电机输出处于激活状态，则为 True，否则为 False。"
+
+#: ../../source/unit/roller485.rst:102 8b46cdc3ca3d450da0a49a3a51d745b2
+msgid "|get_motor_output_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:9 4f6517be813d4211811e9c1d575c23c2
+msgid "get_motor_output_state.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:106 c0235d7c84ac4ffb9e0bbb442f2f18af
+msgid "Set the motor mode."
+msgstr "设置电机模式。"
+
+#: ../../source/unit/roller485.rst:108 243f68c507f04828a73631054dca4d90
+msgid "The mode to set for the motor."
+msgstr "为电机设置的模式。"
+
+#: ../../source/unit/roller485.rst:112 f44eb4fe78fd4591b6539a4f2cea4869
+msgid "|set_motor_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:10 06293f9a9269492cb1be023ffba23218
+msgid "set_motor_mode.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:116 59bfea14d9fa4224b793fe5722d23ec4
+msgid "Get the motor mode."
+msgstr "获取电机模式。"
+
+#: ../../source/unit/roller485.rst:118 269ad374d91442a3b73f2b1e2957c79f
+msgid "The current motor mode."
+msgstr "当前电机模式。"
+
+#: ../../source/unit/roller485.rst:122 c42999e594a64c87b36400ceacc9d12c
+msgid "|get_motor_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:11 63dec6d917bf4eaeb7d3d8bf6445d5f5
+msgid "get_motor_mode.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:126 48b1d6f486c94d3398844fe43ead4869
+msgid "Set the motor over range protection state."
+msgstr "设置电机超量程保护状态。"
+
+#: ../../source/unit/roller485.rst:128 ../../source/unit/roller485.rst:197
+#: a5f2bc23330348fe890c27ecb6c9de18 c3d17f1786c745c1bf223bb3f2adc7b9
+msgid "Protection state value (1 to enable, 0 to disable)."
+msgstr "保护状态值（1 表示启用，0 表示禁用）。"
+
+#: ../../source/unit/roller485.rst:132 a8932ba4b19043a3bc197414225ffe92
+msgid "|set_motor_over_range_protect_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:12 ca435a0550b542f0b1f4af013b7ac7fa
+msgid "set_motor_over_range_protect_state.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:136 1a744bae20f74d01aeb6c55e05893ae3
+msgid "Get the motor over range protection status."
+msgstr "获取电机超范围保护状态。"
+
+#: ../../source/unit/roller485.rst:138 df68004331c74f6b9f79b61048bc6828
+msgid "True if protection is enabled, False otherwise."
+msgstr "如果已启用保护则为 True，否则为 False。"
+
+#: ../../source/unit/roller485.rst:142 c27f6046c22a43f1bac9af7b303b600e
+msgid "|get_motor_over_range_protect_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:13 70e353159ff94154bc7c62619ae2f5f2
+msgid "get_motor_over_range_protect_state.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:146 5f025f45190e4e919e0eabb6aaa59fa0
+msgid "Set the motor jam release protection."
+msgstr "设置电机卡滞释放保护。"
+
+#: ../../source/unit/roller485.rst:151 bfbb96c2667d43d5b5366aa2a8f7deeb
+msgid "|remove_motor_jam_protect.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:14 623ea716426b4208a7815c0fbde0a398
+msgid "remove_motor_jam_protect.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:155 4504513e61cd4d50b1f2c3c73398d975
+msgid "Get the motor status."
+msgstr "获取电机状态。"
+
+#: ../../source/unit/roller485.rst:157 4ec8936655e4444f83a9440bd0d909a3
+msgid "The current status of the motor."
+msgstr "电机的当前状态。"
+
+#: ../../source/unit/roller485.rst:161 e58bd6c94b3947bc9563ae01b7ed3238
+msgid "|get_motor_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:15 03c95ffe5f6a43918370b996ae477dcd
+msgid "get_motor_status.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:165 33727c2508b743c1a8a16b95ccce229c
+msgid "Get the motor error code."
+msgstr "获取电机错误代码。"
+
+#: ../../source/unit/roller485.rst:167 7c9d5d2015ba41abb27cbe0a962a29ed
+msgid "The current error code of the motor."
+msgstr "电机的当前错误代码。"
+
+#: ../../source/unit/roller485.rst:171 e0bdbc1517724b0081c333b72d50cd38
+msgid "|get_motor_error_code.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:16 080ecd0f4e414cc7bd74d21790e4e1ff
+msgid "get_motor_error_code.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:175 2d6eb75f67064c8487fd9bd6e42be57e
+msgid "Set the button change mode."
+msgstr "设置按钮切换模式。"
+
+#: ../../source/unit/roller485.rst:177 5e6c0c881e004cf4a292df6b31ba21ff
+msgid "Change mode state value (1 to enable, 0 to disable)."
+msgstr "更改模式状态值（1 表示启用，0 表示禁用）。"
+
+#: ../../source/unit/roller485.rst:181 7acff297c42941f69276e268a07ffc29
+msgid "|set_button_change_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:17 f3e42fbc97684c7797f5c6c208ef11f4
+msgid "set_button_change_mode.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:185 7e1875d46bdc4cbba43ae7976cbfddd8
+msgid "Get the button change mode."
+msgstr "获取按键切换模式。"
+
+#: ../../source/unit/roller485.rst:187 591a0aed2faf4fa68fe5262d8c92e655
+msgid "The current button change mode value."
+msgstr "当前按钮更改模式值。"
+
+#: ../../source/unit/roller485.rst:191 416ede827a634365a8a9cdb7e4469b2f
+msgid "|get_button_change_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:18 d60bb561c0c84f8092d1b1996b78dba5
+msgid "get_button_change_mode.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:195 b1decae02df64e6d8a6743f4e9777279
+msgid "Set the motor jam protection enable/disable."
+msgstr "设置电机堵转保护启用/禁用。"
+
+#: ../../source/unit/roller485.rst:201 052aad4b8a7c421bb64e713cc328d0f7
+msgid "|set_motor_jam_protect_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:19 926e5c136af247ca80e495872d55bd0f
+msgid "set_motor_jam_protect_state.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:205 78b012f48bad4509bc4c404b45556237
+msgid "Get the motor jam protection status."
+msgstr "获取电机卡滞保护状态。"
+
+#: ../../source/unit/roller485.rst:207 cc3da545f016415f86443f6f7e53e106
+msgid "True if jam protection is enabled, False otherwise."
+msgstr "如果启用了防夹保护，则为 True，否则为 False。"
+
+#: ../../source/unit/roller485.rst:211 40fafa1a21af4157a95013c7506bc81d
+msgid "|get_motor_jam_protect_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:20 22b82b42cad746ca91f52ec654c99f6b
+msgid "get_motor_jam_protect_state.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:215 15ef8c85bb2142fe9541080aee76bb12
+msgid "Set the motor ID."
+msgstr "设置电机 ID。"
+
+#: ../../source/unit/roller485.rst:217 b0017dd8a7744e9a8433e1a13eecea25
+msgid "The ID to assign to the motor."
+msgstr "要分配给电机的 ID。"
+
+#: ../../source/unit/roller485.rst:221 9ed44be0cfc141ecbcdc046277232d4c
+msgid "|set_motor_id.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:21 cadc9a7473754775bf9e065b4173aea3
+msgid "set_motor_id.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:225 dedc947f838a4574bc94f7c0cd03960f
+msgid "Get the motor ID."
+msgstr "获取电机 ID。"
+
+#: ../../source/unit/roller485.rst:227 84a525128d3942858f1212bc664f1cfc
+msgid "The current motor ID."
+msgstr "当前电机 ID。"
+
+#: ../../source/unit/roller485.rst:231 b50a2d7333d34feab8a996dede0bea53
+msgid "|get_motor_id.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:22 81cb429f93dc4d2187e294efd7d24c26
+msgid "get_motor_id.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:235 693fa5448d484076a82a8244d1619f56
+msgid "Set the 485 baudrate."
+msgstr "设置 485 波特率。"
+
+#: ../../source/unit/roller485.rst:237 5d8a5c5dbb3e421eb95b0e50ccc1d781
+msgid "Baud rate value."
+msgstr "波特率值。"
+
+#: ../../source/unit/roller485.rst:241 62e85120a10e450fab2c75b3b12ce422
+msgid "|set_485_baudrate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:23 d02a43c4099849eda0b366506452dedf
+msgid "set_485_baudrate.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:245 2bbdf016c1024401a71b378fce27c978
+msgid "Get the 485 baudrate."
+msgstr "获取 485 波特率。"
+
+#: ../../source/unit/roller485.rst:247 cb081502dc1a460eaa8dd44559ee0a53
+msgid "The current 485 baudrate."
+msgstr "当前 485 波特率。"
+
+#: ../../source/unit/roller485.rst:251 bee96baca58c4d4f9547cdbf7635d989
+msgid "|get_485_baudrate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:24 506ef4ee03e640aba5bc45024bb446fa
+msgid "get_485_baudrate.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:255 68f408aa204840409abf4a2777acc98b
+msgid "Set RGB brightness."
+msgstr "设置 RGB 亮度。"
+
+#: ../../source/unit/roller485.rst:257 d0330e9b1a3542f4ab1aad08f206bf45
+msgid "Brightness value."
+msgstr "亮度值。"
+
+#: ../../source/unit/roller485.rst:261 5cb6bde36b12491990da120451d20de1
+msgid "|set_rgb_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:25 6ba31949488047b4b32c5b4a9d15f1cf
+msgid "set_rgb_brightness.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:265 00acc35af7bf4e7cb599d4806373226f
+msgid "Get RGB brightness."
+msgstr "获取 RGB 亮度。"
+
+#: ../../source/unit/roller485.rst:267 0bec56cf880a4a57a1bb76688968aa36
+msgid "The current RGB brightness value."
+msgstr "当前 RGB 亮度值。"
+
+#: ../../source/unit/roller485.rst:271 debcb1de015343f8a0f0680dc28287d6
+msgid "|get_rgb_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:26 3a86f52e97774821853a23f87db438ae
+msgid "get_rgb_brightness.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:275 ../../source/unit/roller485.rst:295
+#: 6943202a2def44bba1233e14d4ba6ea0 ddfa3a754d124acc89c551ab032c5c1c
+msgid "Set the motor speed and max current setting."
+msgstr "设置电机速度和最大电流设置。"
+
+#: ../../source/unit/roller485.rst:277 8dad347785b3491e9bdca5340f5c76fb
+msgid "The speed value to set."
+msgstr "要设置的速度值。"
+
+#: ../../source/unit/roller485.rst:281 2d7872ebf5234b5b957fcf7081f278a5
+msgid "|set_motor_speed.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:27 14cc12807ca34c48935749487f8ba02d
+msgid "set_motor_speed.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:285 ../../source/unit/roller485.rst:305
+#: 19492182352a435ca94b54e61b969216 671cd48f62ff425aa04b0e31e0e28e1d
+msgid "Get the motor speed and max current setting."
+msgstr "获取电机速度和最大电流设置。"
+
+#: ../../source/unit/roller485.rst:287 ec51aab207084fcb82b3a9574f176edb
+msgid "The current motor speed."
+msgstr "当前电机速度。"
+
+#: ../../source/unit/roller485.rst:291 cbb2a94d7b38429db8979fc9dd9ce91e
+msgid "|get_motor_speed.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:28 f9574c83ffb84fb9a262a9f9bb08d78b
+msgid "get_motor_speed.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:297 ../../source/unit/roller485.rst:369
+#: 689c7c02eb8c4d5e846da1f3eeee0b3b 996118ee5ae74a98b22fe4d3e8bef848
+msgid "The max current value to set."
+msgstr "要设置的最大电流值。"
+
+#: ../../source/unit/roller485.rst:301 7d346dad497640bbbea4b74b3e849d09
+msgid "|set_speed_max_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:29 6aa7d981d35246268f0d15a726cea244
+msgid "set_speed_max_current.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:307 ../../source/unit/roller485.rst:379
+#: a1c416a1a3f147c0a871f7ed84ad02b4 fdd7663fe2b5494ab9d24779fff39a36
+msgid "The current max current setting."
+msgstr "当前最大电流设置。"
+
+#: ../../source/unit/roller485.rst:311 fac3619020f14ba0b5dcb6d0804fdd58
+msgid "|get_speed_max_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:30 75a627c33803433e9aa8614b5d8b9e12
+msgid "get_speed_max_current.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:315 2c89f4b43af7475398396553e609a007
+msgid "Get the motor speed readback."
+msgstr "获取电机速度回读值。"
+
+#: ../../source/unit/roller485.rst:317 7433e303e65d48b18113f18e66ce864d
+msgid "The readback value of the motor speed."
+msgstr "电机速度的读回值。"
+
+#: ../../source/unit/roller485.rst:321 f30a440bfbff490aa26e8a6fc0667dfc
+msgid "|get_motor_speed_readback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:31 0252df10185e4c1399be63b3dd9063b2
+msgid "get_motor_speed_readback.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:325 157bac10ddda483c8ae4e0494c1e84bb
+msgid "Set the motor speed PID."
+msgstr "设置电机速度 PID。"
+
+#: ../../source/unit/roller485.rst:327 ../../source/unit/roller485.rst:409
+#: 985e21dcb7ee4f3b854e1442908111c9 e5a49ab5b3c14c878aca50abb419106b
+msgid "Proportional gain."
+msgstr "比例增益。"
+
+#: ../../source/unit/roller485.rst:328 ../../source/unit/roller485.rst:410
+#: 393c6f781e494752a3eeeafe3054e1b7 84b367150a0245b78e65774a80f6da1c
+msgid "Integral gain."
+msgstr "积分增益。"
+
+#: ../../source/unit/roller485.rst:329 ../../source/unit/roller485.rst:411
+#: 3b21ba886e3b43ab85325ecd7d1ae970 da301c40032a44e7832c72fb4050ae8e
+msgid "Derivative gain."
+msgstr "微分增益。"
+
+#: ../../source/unit/roller485.rst:333 278584c5bcea48e8bc5428bb47bc47cc
+msgid "|set_motor_speed_pid.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:32 957a351c03e24ec1a190d69dfabd0e04
+msgid "set_motor_speed_pid.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:337 7b9c53aff51c4b42803b8b3c463f3a62
+msgid "Get the motor speed PID."
+msgstr "获取电机速度 PID。"
+
+#: ../../source/unit/roller485.rst:339 8ff3f7c741974e18919dd77acc373658
+msgid "A tuple containing the PID values."
+msgstr "一个包含 PID 值的元组。"
+
+#: ../../source/unit/roller485.rst:343 849f96e2e46646b4849e853d1b6aa3d5
+msgid "|get_motor_speed_pid.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:33 19cc186fec354e79a075f3b85cb2b347
+msgid "get_motor_speed_pid.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:347 ../../source/unit/roller485.rst:367
+#: 5f9d5d2cda8b44eebd8002354b739ca8 c1643246f3ac44ce8384ca8c8fa3ed44
+msgid "Set the motor position and max current setting."
+msgstr "设置电机位置和最大电流设置。"
+
+#: ../../source/unit/roller485.rst:349 59b5419de8a64014a9386b6bfd930699
+msgid "The position value to set."
+msgstr "要设置的位置值。"
+
+#: ../../source/unit/roller485.rst:353 3c459cb44fbe4d7d9cc051213b219161
+msgid "|set_motor_position.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:34 cee1c9e052b04a3b983a02f6de76c0bc
+msgid "set_motor_position.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:357 ../../source/unit/roller485.rst:377
+#: 5e3acd50bda34e019976b631bfe7a54b c365097fb4424547a6e74c7e3a81dc3b
+msgid "Get the motor position and max current setting."
+msgstr "获取电机位置和最大电流设置。"
+
+#: ../../source/unit/roller485.rst:359 4ef5ea0fed3d419895353f4076aa39a2
+msgid "The current motor position."
+msgstr "当前电机位置。"
+
+#: ../../source/unit/roller485.rst:363 cfecd77b90b340baad0d07a159b32d65
+msgid "|get_motor_position.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:35 4b767e00314a44a58d9b553e46ec810e
+msgid "get_motor_position.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:373 f0b6d0e48b7e42a4b4a0f3a9253ce33b
+msgid "|set_position_max_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:36 9af4d02f605d47ff921179a677a3274d
+msgid "set_position_max_current.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:383 4a39526bb2214fddb09c300b9b947ced
+msgid "|get_position_max_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:37 a6e93c9db9b24e24a3a153d765daaa86
+msgid "get_position_max_current.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:387 2362244c8c1f4f9fa69fc839b4c8f331
+msgid "Get the motor position readback."
+msgstr "获取电机位置回读值。"
+
+#: ../../source/unit/roller485.rst:389 1db30be6e0bb450f8545a651264ca2ff
+msgid "The readback value of the motor position."
+msgstr "电机位置的回读值。"
+
+#: ../../source/unit/roller485.rst:393 416a5f7d99af48bea751fe81d327578f
+msgid "|get_motor_position_readback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:38 3ca3fe1571354d1e9b1c7a30c270192f
+msgid "get_motor_position_readback.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:397 d94912a996c44f078e6639a1dabdece8
+msgid "Get the motor position PID."
+msgstr "获取电机位置 PID。"
+
+#: ../../source/unit/roller485.rst:399 5130beb6543a4f078c0d670813dd6d7e
+msgid "A tuple containing the PID values for position."
+msgstr "一个包含位置 PID 值的元组。"
+
+#: ../../source/unit/roller485.rst:403 46f220922b734218a133790381a964b8
+msgid "|get_motor_position_pid.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:39 5a94d17e6d5d4738b25068b3634893aa
+msgid "get_motor_position_pid.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:407 4bfa5d0eea57468da0575ac71134bb17
+msgid "Set the motor position PID."
+msgstr "设置电机位置 PID。"
+
+#: ../../source/unit/roller485.rst:415 e8c9e5655542410fafc1858523b0e9cf
+msgid "|set_motor_position_pid.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:40 f84046721cd344d39feabab199d8b4d0
+msgid "set_motor_position_pid.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:419 cfc4e7ead473494f8aaec1ccdd2af5c2
+msgid "Set the motor max current."
+msgstr "设置电机最大电流。"
+
+#: ../../source/unit/roller485.rst:421 8fb5298915a54a3fbb5a2d0e6b205366
+msgid "The maximum current for the motor, multiplied by 100 before sending."
+msgstr "电机的最大电流，在发送前乘以 100。"
+
+#: ../../source/unit/roller485.rst:425 3d597ce5354e45878b0ea27838fd0e9b
+msgid "|set_motor_max_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:41 99b367d999c44179a8cdae9a7d92c50d
+msgid "set_motor_max_current.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:429 a2fcb071c2e045bd92c081ef794adea6
+msgid "Get the motor max current."
+msgstr "获取电机最大电流。"
+
+#: ../../source/unit/roller485.rst:431 1aeec10bd1154564817b83074a40f8d7
+msgid "The motor max current, divided by 100 after reading."
+msgstr "电机最大电流，读取后除以 100。"
+
+#: ../../source/unit/roller485.rst:435 3523373582ad490996dccf6259ebe4e8
+msgid "|get_motor_max_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:42 c97c772d009343cc8f1c182af738a011
+msgid "get_motor_max_current.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:439 dafde11f67d040a49ff52368feb0be2b
+msgid "Get the motor current readback."
+msgstr "获取电机电流回读值。"
+
+#: ../../source/unit/roller485.rst:441 7bcd6e28dc11400ba26dae41066065cb
+msgid "The motor current readback value, divided by 100 after reading."
+msgstr "电机电流回读值，读取后除以 100。"
+
+#: ../../source/unit/roller485.rst:445 f1812fe267fb4c449e13cbfa4b80b0e8
+msgid "|get_motor_current_readback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:43 e91e66ec52cc42579ad60e383e2d58ec
+msgid "get_motor_current_readback.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:449 b7d0cd5b46bb467785bc5689dd7eb91e
+msgid "Set the system RGB color."
+msgstr "设置系统 RGB 颜色。"
+
+#: ../../source/unit/roller485.rst:451 7d1e9851e61b47a2bfef8cdca3eb5308
+msgid "The RGB color value, where the format is 0xRRGGBB."
+msgstr "RGB 颜色值，格式为 0xRRGGBB。"
+
+#: ../../source/unit/roller485.rst:455 a4fbc9b4b5b14ff3b6a946eaf51d3975
+msgid "|set_rgb_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:44 b8b30376756e474282dc97197e445ced
+msgid "set_rgb_color.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:459 d0fbdce2b57942fbb2b1d4be71b321f1
+msgid "Get the system RGB color."
+msgstr "获取系统 RGB 颜色。"
+
+#: ../../source/unit/roller485.rst:461 fcaf3172a55b4f7bb94de5490c9176c7
+msgid "The RGB color as a tuple (R, G, B)."
+msgstr "RGB 颜色，格式为元组 (R, G, B)。"
+
+#: ../../source/unit/roller485.rst:465 e110956926324ecea18075d3addf402b
+msgid "|get_rgb_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:45 ab560956430a4e7389f05d23391cd860
+msgid "get_rgb_color.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:469 d27da04c3ccb466fa2df30ef7c7f4fd6
+msgid "Set the system RGB mode."
+msgstr "设置系统 RGB 模式。"
+
+#: ../../source/unit/roller485.rst:471 9af8fa99f5bd45e599ef02baeb179c34
+msgid "The RGB mode value."
+msgstr "RGB 模式的值。"
+
+#: ../../source/unit/roller485.rst:475 5830c08b93fc4e89b1466c8acc56887b
+msgid "|set_rgb_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:46 2478af2f0a004d03a0602b6dcd697136
+msgid "set_rgb_mode.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:479 bc7456a5004e4ff486c9054e3e2a069c
+msgid "Get the system RGB mode."
+msgstr "获取系统 RGB 模式。"
+
+#: ../../source/unit/roller485.rst:481 00f32d7a35ce409a9af67bb172c99b2c
+msgid "The current RGB mode value."
+msgstr "当前 RGB 模式值。"
+
+#: ../../source/unit/roller485.rst:485 b2bb5637a54e4febba3496a525bd2536
+msgid "|get_rgb_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:47 4dba3e72524a4bbbbc1ead7626448bfa
+msgid "get_rgb_mode.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:489 105422ea05764ef6beb9b0e55ba7a556
+msgid "Get the system VIN voltage."
+msgstr "获取系统 VIN 电压。"
+
+#: ../../source/unit/roller485.rst:491 afdf1c85b9504b0aa7a93bb709f21528
+msgid "The system VIN voltage value, multiplied by 10 after reading."
+msgstr "读取系统 VIN 电压值后，将其乘以 10。"
+
+#: ../../source/unit/roller485.rst:495 67bbb134a1034929844bd1435868810d
+msgid "|get_vin_voltage.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:48 b848fbe15e304c8d939552c0ef1d2a07
+msgid "get_vin_voltage.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:499 187233eb8907474387ddb4467c2e6795
+msgid "Get the system temperature."
+msgstr "获取系统温度。"
+
+#: ../../source/unit/roller485.rst:501 57dbdb789f904e26a8d2f751474a3a32
+msgid "The current system temperature value."
+msgstr "当前系统温度值。"
+
+#: ../../source/unit/roller485.rst:505 c65c904feda94f37b8b674197bedf79b
+msgid "|get_temperature_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:49 3cac80cf9574449eae3f2c4f11e7bea8
+msgid "get_temperature_value.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:509 9a1a1ba56cf643df8dacae444533099e
+msgid "Set the system encoder value."
+msgstr "设置系统编码器的值。"
+
+#: ../../source/unit/roller485.rst:511 c939517a72f748a38820d8429729f438
+msgid "The encoder count value."
+msgstr "编码器计数值。"
+
+#: ../../source/unit/roller485.rst:515 052c5d7d4c654adda5291141bd62fba4
+msgid "|set_encoder_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:50 866f51e5520a4043ad75a5d3cb825a20
+msgid "set_encoder_value.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:519 3ab227a8c99c4742a282b2af8e45c5e4
+msgid "Get the system encoder value."
+msgstr "获取系统编码器值。"
+
+#: ../../source/unit/roller485.rst:521 5d72455185154f0796989020900481ba
+msgid "The current encoder value."
+msgstr "当前编码器的值。"
+
+#: ../../source/unit/roller485.rst:525 a07293ded5ae448da3941365883029d1
+msgid "|get_encoder_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:51 d1aa3d633185423f99e1448109e1f2a0
+msgid "get_encoder_value.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:529 e30f6d0066dc47f997c7cc26099b461d
+msgid "Save the motor data to flash."
+msgstr "将电机数据保存到 flash。"
+
+#: ../../source/unit/roller485.rst:534 0100d3aefbee476c91b23e097edee321
+msgid "|save_param_to_flash.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:52 b058a8f43b1342c2963ecc8f64f38ae2
+msgid "save_param_to_flash.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:538 6c1fc60c242544859d429b7e706244c4
+msgid "Get the device firmware version."
+msgstr "获取设备固件版本。"
+
+#: ../../source/unit/roller485.rst:540 597b1ec2cc16451b88699cf8bb16bbae
+msgid "The current firmware version."
+msgstr "当前固件版本。"
+
+#: ../../source/unit/roller485.rst:544 65b427cfb9a74dcdaddca6cc1dc2941d
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:53 9f46ffbc310447e1a8faad7d165d58a0
+msgid "get_firmware_version.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:548 4641b1f5266e48408fe991ec487e4fc6
+msgid "Set the I2C address."
+msgstr "设置 I2C 地址。"
+
+#: ../../source/unit/roller485.rst:550 5a41919b254a41f4b29ecaf8f0899cb0
+msgid "The new I2C address. Must be between 0x08 and 0x77."
+msgstr "新的 I2C 地址。必须介于 0x08 和 0x77 之间。"
+
+#: ../../source/unit/roller485.rst:554 86d603bc4564423f9ae9fc34ef171550
+msgid "|set_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:54 ac5a6232a7cc44829b56e48447c63713
+msgid "set_i2c_address.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:558 7b901cf22798428ebb9e0ad030012ea7
+msgid "Get the current I2C address."
+msgstr "获取当前 I2C 地址。"
+
+#: ../../source/unit/roller485.rst:560 1104121d765e49b08a2880f91e672ae7
+msgid "The current I2C address."
+msgstr "当前 I2C 地址。"
+
+#: ../../source/unit/roller485.rst:564 4fc866861ea54c2ea5692743ba316d20
+msgid "|get_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.roller485.ref:55 f1203e7fa8a9427f99bfb3724d73e516
+msgid "get_i2c_address.png"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:568 246c88d7f7224f44b84940496653039c
+msgid "class RollerI2C(RollerBase)"
+msgstr "class RollerI2C(RollerBase)"
+
+#: ../../source/unit/roller485.rst:575 b904193c60f84e63a9ef5a99c8397831
+msgid "Initialize the RollerI2C object."
+msgstr "初始化 RollerI2C 对象。"
+
+#: ../../source/unit/roller485.rst:577 e2aa98c42a1a4ba7a861fbbf8603d24a
+msgid "I2C bus instance or PAHUBUnit instance."
+msgstr "I2C 总线实例或 PAHUBUnit 实例。"
+
+#: ../../source/unit/roller485.rst:578 009640a826a7499c9b2d4cda8b6cfd68
+msgid "I2C address of the device. Defaults to _ROLLER485_I2C_ADDR."
+msgstr "设备的 I2C 地址。默认为 _ROLLER485_I2C_ADDR。"
+
+#: ../../source/unit/roller485.rst:590 0b4120a75c944c7d8b1fa3424f54df41
+msgid "Read data from a specified register on the I2C device."
+msgstr "从 I2C 设备上的指定寄存器读取数据。"
+
+#: ../../source/unit/roller485.rst:592 ../../source/unit/roller485.rst:624
+#: 02e5478d74d848ac8325c36eac04e7bf 569396bb569c4842aebdcda242ea6b88
+msgid "The name of the register to read from."
+msgstr "要读取的寄存器名称。"
+
+#: ../../source/unit/roller485.rst:593 ../../source/unit/roller485.rst:625
+#: ../../source/unit/roller485.rst:692 ../../source/unit/roller485.rst:719
+#: 25f9088d9c6442a680736d913ebc7415 a01b5a43bbd845a4af7f91ab020abb2f
+#: b89f9c7968e44d0492459c59c6e0d4c1 e3480fffd3334fe8a0e98713a983608a
+msgid "The number of bytes to read."
+msgstr "要读取的字节数。"
+
+#: ../../source/unit/roller485.rst:594 0e516685fad64a08be4aea64116526d0
+msgid "The data read from the device as a bytes object."
+msgstr "从设备读取的数据，以 bytes 对象的形式返回。"
+
+#: ../../source/unit/roller485.rst:598 3fa7bb209d8a42bda30d4853190b130e
+msgid "Write data to a specified register on the I2C device."
+msgstr "向 I2C 设备的指定寄存器写入数据。"
+
+#: ../../source/unit/roller485.rst:600 ../../source/unit/roller485.rst:640
+#: 4c4287ccb8e241e2b5a8bb52d434bcc6 9ba7451a0b7247ca8480dad6f6903350
+msgid "The name of the register to write to."
+msgstr "要写入的寄存器名称。"
+
+#: ../../source/unit/roller485.rst:601 ../../source/unit/roller485.rst:641
+#: 688bd8b5df1e4a7ebc95f1d7a4a264f3 742681b6bff14d9892eab31574af71ae
+msgid "The data to write to the register as a bytes object."
+msgstr "要写入寄存器的数据，格式为 bytes 对象。"
+
+#: ../../source/unit/roller485.rst:605 83fc61d45afd4c03bd0fbb80455b1cbc
+msgid "class Roller485(RollerBase)"
+msgstr ""
+
+#: ../../source/unit/roller485.rst:612 379275b8515a49bf9825983f0cfe5bf6
+msgid "Initialize the Roller485 object."
+msgstr "初始化 Roller485 对象。"
+
+#: ../../source/unit/roller485.rst:614 ../../source/unit/roller485.rst:680
+#: 09f5c7664b1e4d849027d4727cd6b637 494f51a88f614f1f9ed1dd505496fae3
+msgid "The RS485 bus instance."
+msgstr "RS485 总线实例。"
+
+#: ../../source/unit/roller485.rst:622 3ebc3d18a6584a5a92dc051a29ad282b
+msgid "Read data from a specified register via RS485."
+msgstr "通过 RS485 从指定寄存器读取数据。"
+
+#: ../../source/unit/roller485.rst:630 9af5c775f04b4ea1889180b59f3b8cb5
+msgid "Create a command frame with the given command and motor ID."
+msgstr "根据给定的命令和电机 ID 创建命令帧。"
+
+#: ../../source/unit/roller485.rst:632 ../../source/unit/roller485.rst:648
+#: ../../source/unit/roller485.rst:658 057728816f2a4dad9aa7c891031f3457
+#: 15a7978d602640d5869735da67a0b291 c6e473f370634b7787b56a7ce5ff620a
+msgid "The command byte."
+msgstr "命令字节。"
+
+#: ../../source/unit/roller485.rst:633 d4533bf5fce84d32ba961e52369ede86
+msgid "The ID of the motor."
+msgstr "电机的 ID。"
+
+#: ../../source/unit/roller485.rst:634 2ab6b2699e0242dc9c560d64f21d9453
+msgid "Additional data bytes to include in the frame."
+msgstr "要包含在帧中的额外数据字节。"
+
+#: ../../source/unit/roller485.rst:638 bf84cbd5f61247ca91fb54268cffb23f
+msgid "Write data to a specified register via RS485."
+msgstr "通过 RS485 将数据写入指定寄存器。"
+
+#: ../../source/unit/roller485.rst:642 550b9d7a26334e76ba6d41bd10437f4a
+msgid "The response after writing the data."
+msgstr "写入数据后的响应。"
+
+#: ../../source/unit/roller485.rst:646 ../../source/unit/roller485.rst:656
+#: 3b324ae0e522408394366da8a2bc3d79 6e8f5de150c9489cbdb55970d987ee5b
+msgid "Send a command via RS485."
+msgstr "通过 RS485 发送命令。"
+
+#: ../../source/unit/roller485.rst:649 ../../source/unit/roller485.rst:659
+#: c3f32954d49a4b2fb3554a12e80c1bf4 c43c22505c2641b8b897a168d1695326
+msgid "The motor ID."
+msgstr "电机 ID。"
+
+#: ../../source/unit/roller485.rst:650 715bfd67471544f4ba29820761574d18
+msgid "The data to send along with the command."
+msgstr "与命令一起发送的数据。"
+
+#: ../../source/unit/roller485.rst:651 c1902ae2ad164232b5d1b44edbdf6aee
+msgid "The length of the buffer."
+msgstr "缓冲区的长度。"
+
+#: ../../source/unit/roller485.rst:660 24fc01904fdf4a06a86d163d23f13871
+msgid ""
+"A tuple (success, response). Success is True if the response is valid, "
+"and response is the data read."
+msgstr "一个元组 (success, response)。如果 response 有效，则 success 为 True，response 为读取到的数据。"
+
+#: ../../source/unit/roller485.rst:664 685909aebfda4bf2a003c543e1ffccd6
+msgid "Calculate CRC8 checksum."
+msgstr "计算 CRC8 校验和。"
+
+#: ../../source/unit/roller485.rst:666 e5c74175449942858f256cf7ce6d2955
+msgid "The data buffer to compute the checksum for."
+msgstr "用于计算校验和的数据缓冲区。"
+
+#: ../../source/unit/roller485.rst:667 f4e32f1e96d345bd954292a088101629
+msgid "The computed CRC8 value."
+msgstr "计算得到的 CRC8 值。"
+
+#: ../../source/unit/roller485.rst:671 98c1848977f644df855a9f2d6bba71fe
+msgid "class Roller485ToI2CBus(RollerBase)"
+msgstr "class Roller485ToI2CBus(RollerBase)"
+
+#: ../../source/unit/roller485.rst:678 ed6218168b184c6eb400a94e4a45055f
+msgid "Initialize the Roller485ToI2CBus object."
+msgstr "初始化 Roller485ToI2CBus 对象。"
+
+#: ../../source/unit/roller485.rst:688 ../../source/unit/roller485.rst:698
+#: 5c61aa77d3c14eb18c355c907d5be64c d9969ecef3764663bee4453bde572a6a
+msgid "Read data from a specific register of the I2C slave device."
+msgstr "从 I2C 从设备的指定寄存器读取数据。"
+
+#: ../../source/unit/roller485.rst:690 ../../source/unit/roller485.rst:700
+#: ../../source/unit/roller485.rst:718 18029fec71c44f6f95cefb9fc5acb1f9
+#: d0aa71a16d65464e8e03f5007e7a9026 d18fe6c5a0204ce3b74a0c61956c54f7
+msgid "The I2C slave address to read from."
+msgstr "要读取的 I2C 从机地址。"
+
+#: ../../source/unit/roller485.rst:691 ../../source/unit/roller485.rst:701
+#: ../../source/unit/roller485.rst:709 16f899de590446bca65fdc102a7403a8
+#: 3c1c9b005480416a8309f627413fa12e 7d97a02880a442ee9e5148188b657c7f
+msgid "Memory register address."
+msgstr "内存寄存器地址。"
+
+#: ../../source/unit/roller485.rst:693 6c7e40a055844395b843a5f86bb8049a
+msgid "The data read from the register."
+msgstr "从寄存器读取的数据。"
+
+#: ../../source/unit/roller485.rst 5755fca090414216977abaf33eefc27b
+#: 6f3e628bb1894993b7a2166251d83130 7dc6836e8f5a4cbfa2eda6319f0a10fc
+#: bf889e94d3d84156bed8e827500a6191
+msgid "throws Exception"
+msgstr "抛出 Exception 异常"
+
+#: ../../source/unit/roller485.rst:694 ../../source/unit/roller485.rst:721
+#: 57119daed23749a99bf90e2c42c1104e 892b2a0551b545af9744a302ee0ebe52
+msgid "If the read operation fails."
+msgstr "如果读取操作失败。"
+
+#: ../../source/unit/roller485.rst:702 ../../source/unit/roller485.rst:728
+#: 6cc05747958445f3861d54a9b57dab8e fb0f586836004faf9cde4bd5e42c860b
+msgid "Buffer to store the data."
+msgstr "用于存储数据的缓冲区。"
+
+#: ../../source/unit/roller485.rst:706 bc8afd5a6aff443980f75b07d63a7a5f
+msgid "Write data to a specific register of the I2C slave device."
+msgstr "将数据写入 I2C 从设备的指定寄存器。"
+
+#: ../../source/unit/roller485.rst:708 ../../source/unit/roller485.rst:734
+#: ee2cd7bc5e674568ab1b39d240d09c78 f809f2601e3d49babee2a48f1d166a63
+msgid "The I2C slave address to write to."
+msgstr "要写入的 I2C 从设备地址。"
+
+#: ../../source/unit/roller485.rst:710 ../../source/unit/roller485.rst:735
+#: 7fd1ea6092d4446a8dbb134aa4631f88 f9baf65694a5490495070e986ce77bf5
+msgid "The data bytes to write."
+msgstr "要写入的数据字节。"
+
+#: ../../source/unit/roller485.rst:711 ../../source/unit/roller485.rst:737
+#: 34025d1e0e3348ada6e538e004f64b2c 9947a84b1e3d40db8784a8c992f943dd
+msgid "True if the write operation is successful."
+msgstr "如果写入操作成功，则为 True。"
+
+#: ../../source/unit/roller485.rst:712 ../../source/unit/roller485.rst:738
+#: 356683f5ac094226a5540bc62351a5e7 7887c816fdc84ed6885f147d662aa50c
+msgid "If the write operation fails."
+msgstr "如果写入操作失败。"
+
+#: ../../source/unit/roller485.rst:716 ../../source/unit/roller485.rst:725
+#: 247683a7ff994e6e84774acd7aea8716 eaac05358f944300aa21ee154259b1bc
+msgid "Read data from the I2C slave device via RS485."
+msgstr "通过 RS485 从 I2C 从设备读取数据。"
+
+#: ../../source/unit/roller485.rst:720 7a4131dd57c345d0b6bb885bbfa2c68e
+msgid "The data read from the I2C slave."
+msgstr "从 I2C 从设备读取的数据。"
+
+#: ../../source/unit/roller485.rst:727 01067534e92845b8bee9c1332e989112
+msgid "I2C device address."
+msgstr "I2C 设备地址。"
+
+#: ../../source/unit/roller485.rst:732 13d8e8b8291d426bb98df31d185d0d5f
+msgid "Write data to the I2C slave device via RS485."
+msgstr "通过 RS485 向 I2C 从设备写入数据。"
+
+#: ../../source/unit/roller485.rst:736 3fa93ce6fd2d4d208db969cacbab28a5
+msgid "Whether to send a stop bit after writing."
+msgstr "写入后是否发送停止位。"
+
+#: ../../source/unit/roller485.rst:743 18d138519e2b4aa9bd72ba107817f309
+msgid "Scan for I2C devices on the bus."
+msgstr "扫描 I2C 总线上的设备。"
+
+#: ../../source/unit/roller485.rst:745 97ff659a1089426f876163c1b58c2ef7
+msgid "A list of addresses of the found I2C devices."
+msgstr "找到的 I2C 设备地址列表。"
+

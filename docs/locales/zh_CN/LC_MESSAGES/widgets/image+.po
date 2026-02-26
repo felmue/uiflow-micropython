@@ -22,21 +22,21 @@ msgstr ""
 
 #: ../../en/widgets/image+.rst:4 f3e259c4d3124ca7a81fb1b1e575a582
 msgid "class ImagePlus -- display remote image"
-msgstr ""
+msgstr "class ImagePlus —— 显示远程图像"
 
 #: ../../en/widgets/image+.rst:6 86f32f984fed4565bc782d335f2b3ec9
 msgid ""
 "The `ImagePlus` class extends the `Widgets.Image` class to provide "
 "additional functionalities for handling images with dynamic updates."
-msgstr ""
+msgstr "`ImagePlus` 类继承自 `Widgets.Image` 类，用于提供处理支持动态更新的图像的附加功能。"
 
 #: ../../en/widgets/image+.rst:10 d58fc55ef45e42ff84359766aa5e71c7
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/widgets/image+.rst:16 d8771f34424048f89ef02bf63cac2461
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/widgets/image+.rst:18 4e410653d5e344d3bbc134a2621dd0a2
 msgid "|example.png|"
@@ -52,33 +52,33 @@ msgstr ""
 
 #: ../../en/widgets/image+.rst:25 3b7f17a702ec4a7bb3594b34f17687c7
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/widgets/image+.rst:29 41be2c5fcd8649b19e75ff539d0a7a5b
 msgid "Create an `ImagePlus` object. It accepts the following parameters:"
-msgstr ""
+msgstr "创建一个 `ImagePlus` 对象。它接受以下参数："
 
 #: ../../en/widgets/image+.rst:31 5fde28368b1444fd85af0de6570b9692
 msgid "``url`` is the URL of the image to be fetched and displayed."
-msgstr ""
+msgstr "``url`` 是要获取并显示的图像的 URL。"
 
 #: ../../en/widgets/image+.rst:32 2709251b24d84113a7ae2eaf45f2545e
 msgid "``x`` is the starting X-axis coordinate where the image will be displayed."
-msgstr ""
+msgstr "``x`` 是图像将要显示的起始 X 轴坐标。"
 
 #: ../../en/widgets/image+.rst:33 85cf43aa8aed4ea59265188ad2d1a08d
 msgid "``y`` is the starting Y-axis coordinate where the image will be displayed."
-msgstr ""
+msgstr "``y`` 是将显示图像的起始 Y 轴坐标。"
 
 #: ../../en/widgets/image+.rst:34 5da068326af64402acbb6b47e59391a0
 msgid ""
 "``enable`` is a boolean indicating whether periodic updates of the image "
 "are enabled."
-msgstr ""
+msgstr "``enable`` 是一个布尔值，用于指示是否启用图像的定期更新。"
 
 #: ../../en/widgets/image+.rst:35 63a101a3b3d24ba3bf0598774cedd691
 msgid "``period`` is the update period in milliseconds when `enable` is `True`."
-msgstr ""
+msgstr "``period`` 是当 `enable` 为 `True` 时的更新周期，单位为毫秒。"
 
 #: ../../en/widgets/image+.rst:36 e8103988061a4d81831e4ae3aac06870
 msgid ""
@@ -86,12 +86,14 @@ msgid ""
 "the URL fetch fails. Supported formats are BMP, JPG, and PNG. Default is "
 "`\"res/img/default.jpg\"`."
 msgstr ""
+"``default_img`` 是默认图片文件的路径，当 URL 获取失败时将显示该图片。支持的格式为 BMP、JPG 和 PNG。默认值为 "
+"`\"res/img/default.jpg\"`。"
 
 #: ../../en/widgets/image+.rst:37 976dfb86ac1842708def6298b5f3dc96
 msgid ""
 "``parent`` is the graphical object on which the image will be drawn. If "
 "not provided, the default display will be used."
-msgstr ""
+msgstr "``parent`` 是绘制图像的图形对象。如果未提供，则将使用默认显示器。"
 
 #: ../../en/widgets/image+.rst:40 900e7a85ab8340a4bcf54b43c77f65a7
 msgid "Methods"
@@ -101,11 +103,11 @@ msgstr ""
 msgid ""
 "Enable or disable periodic updates of the image. Accept the following "
 "parameters:"
-msgstr ""
+msgstr "启用或禁用图像的周期性更新。接受以下参数："
 
 #: ../../en/widgets/image+.rst:46 ebc31c9e4ece491c89a568e472f3101b
 msgid "``enable`` is a boolean indicating whether updates should be enabled."
-msgstr ""
+msgstr "``enable`` 是一个布尔值，用于指示是否应启用更新。"
 
 #: ../../en/widgets/image+.rst:48 ../../en/widgets/image+.rst:58
 #: ../../en/widgets/image+.rst:69 ../../en/widgets/image+.rst:79
@@ -113,7 +115,7 @@ msgstr ""
 #: 4bddde65b5ea46b4bb3d69401af0f78f c697838baf0c4f898d7aa3b02455794f
 #: d3075455db954b2b851bc4406815900d e6340cab674346bba6632ac9252dd548
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/widgets/image+.rst:50 41623dd65e194c32b5f7e2f99ec2cdd8
 msgid "|set_update_enable.png|"
@@ -127,11 +129,11 @@ msgstr ""
 msgid ""
 "Set the update period for fetching and displaying the image. Accept the "
 "following parameters:"
-msgstr ""
+msgstr "设置用于获取并显示图像的更新周期。接受以下参数："
 
 #: ../../en/widgets/image+.rst:56 a69bb64f2f664d0cb0d877753249441e
 msgid "``period`` is the update period in milliseconds."
-msgstr ""
+msgstr "``period`` 为更新周期，单位为毫秒。"
 
 #: ../../en/widgets/image+.rst:60 89d253da798b414ebd73d57f311fdb98
 msgid "|set_update_period.png|"
@@ -143,15 +145,15 @@ msgstr ""
 
 #: ../../en/widgets/image+.rst:64 842d51b02c0c4429bc9b01e96ef44e71
 msgid "Set the position of the ImagePlus object. Accept the following parameters:"
-msgstr ""
+msgstr "设置 ImagePlus 对象的位置。接受以下参数："
 
 #: ../../en/widgets/image+.rst:66 b167f825b1284e6c86864facd9e5b191
 msgid "``x`` is the starting X-axis coordinate displayed."
-msgstr ""
+msgstr "``x`` 是显示的 X 轴起始坐标。"
 
 #: ../../en/widgets/image+.rst:67 4540bdf070c74ec99b9fd5074d8108ca
 msgid "``y`` is the starting Y-axis coordinate displayed."
-msgstr ""
+msgstr "``y`` 为显示的起始 Y 轴坐标。"
 
 #: ../../en/widgets/image+.rst:71 ab91890a8090415a885b645bdca4603b
 msgid "|setCursor.png|"
@@ -165,11 +167,11 @@ msgstr ""
 msgid ""
 "Set the visibility of the ImagePlus object. Accept the following "
 "parameters:"
-msgstr ""
+msgstr "设置 ImagePlus 对象的可见性。接受以下参数："
 
 #: ../../en/widgets/image+.rst:77 09343ff591bb4329ab8d05d69bde08b0
 msgid "``visible`` is the visibility of the displayed iamge."
-msgstr ""
+msgstr "``visible`` 是显示图像的可见性。"
 
 #: ../../en/widgets/image+.rst:81 544c22eb2b3542f0a153d19ecf4eba75
 msgid "|setVisible.png|"
@@ -183,7 +185,7 @@ msgstr ""
 msgid ""
 "Check if the fetched image is valid. Returns `True` if the image is "
 "valid, otherwise `False`."
-msgstr ""
+msgstr "检查获取的图像是否有效。如果图像有效则返回 `True`，否则返回 `False`。"
 
 #: ../../en/widgets/image+.rst:90 400d9bd23f8d409ea49a91dfdcc08859
 msgid "|is_valid_image.png|"

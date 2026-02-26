@@ -22,50 +22,50 @@ msgstr ""
 
 #: ../../en/contribute/template.rst:3 da44443ef0be4c1d966c2563369c0623
 msgid "API Documentation Template"
-msgstr ""
+msgstr "API 文档模板"
 
 #: ../../en/contribute/template.rst:7 23997d54e6aa44dbb27efc722a68a21c
 msgid "Please follow the template below to write your API documentation;"
-msgstr ""
+msgstr "请按照下面的模板编写你的 API 文档；"
 
 #: ../../en/contribute/template.rst:8 741973b0e4b84c5691997dd5f274b9e4
 msgid "Strict use of reStructuredText syntax;"
-msgstr ""
+msgstr "严格使用 reStructuredText 语法；"
 
 #: ../../en/contribute/template.rst:9 5956dfca3dfb4aec93f838785a83cd79
 msgid "Write strictly according to the various tags of the template"
-msgstr ""
+msgstr "严格按照模板的各类标签编写。"
 
 #: ../../en/contribute/template.rst:10 f97e4a74bcd54ccf9d47cc9e5e1a84f4
 msgid ""
 "When you are finished, delete all instructions (similar to this one) and "
 "any extra header information."
-msgstr ""
+msgstr "当你完成后，删除所有说明（类似本条）以及任何额外的头部信息。"
 
 #: ../../en/contribute/template.rst:16 45e55d6d06444a3797be567dbcf4c6ba
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/contribute/template.rst:19 77d39f81534b4330a43c74f11ad87a12
 #: c0e26a1f635a4d69806a29dbf4671fdc
 msgid "xxx Unit"
-msgstr ""
+msgstr "xxx 单位"
 
 #: ../../en/contribute/template.rst:24 8a321c05ab7847459e16909845cbcb8c
 msgid "Below is the detailed support for Speaker on the host:"
-msgstr ""
+msgstr "以下是主机端 Speaker 的详细支持："
 
 #: ../../en/contribute/template.rst:30 c48393686d504df69dbe8060f69c705d
 msgid "Controller"
-msgstr ""
+msgstr "控制器"
 
 #: ../../en/contribute/template.rst:30 9422e61e7d804529b6670496edb9ce70
 msgid "Atomic Echo Base"
-msgstr ""
+msgstr "Atomic Echo Base"
 
 #: ../../en/contribute/template.rst:32 28484ae14e7b40c992af9c8fb60c1aae
 msgid "Atom Echo"
-msgstr ""
+msgstr "Atom Echo"
 
 #: ../../en/contribute/template.rst:32 5cd069f994b14507a389ce6aac3966d9
 msgid "|O|"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../en/contribute/template.rst:34 fb5b0295e7af44c7a6933a52317e2c97
 msgid "Atom Lite"
-msgstr ""
+msgstr "Atom Lite"
 
 #: ../../en/contribute/template.rst:34 3cd3d349cace4ee2b73a7204bd0857cb
 msgid "|S|"
@@ -81,42 +81,46 @@ msgstr ""
 
 #: ../../en/contribute/template.rst:37 12958e4a177d42baa492ff9e98d596b8
 msgid "|S|: Supported."
-msgstr ""
+msgstr "|S|：支持。"
 
 #: ../../en/contribute/template.rst:38 e79b9cd7beeb4db893d467d6940adad8
 msgid "|O|: Optional, It conflicts with some internal resource of the host."
-msgstr ""
+msgstr "|O|：可选，它与主机的某些内部资源冲突。"
 
 #: ../../en/contribute/template.rst:45 881dfed6643b420680ae46e970fbf410
 msgid "UiFlow2 Example"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/contribute/template.rst:49 828f7ffa6eea4864aee9589ef1291370
 msgid ""
 "Prepare one or more examples that fully demonstrate the functionality of "
 "the API. Delete this part of the description when you are done."
-msgstr ""
+msgstr "准备一个或多个示例，充分演示 API 的功能。完成后请删除描述中的此部分。"
 
 #: ../../en/contribute/template.rst:53 ../../en/contribute/template.rst:68
 #: 51e123fd465d4b9eac450650b3023299
 msgid "Example1"
-msgstr ""
+msgstr "UiFlow2 应用示例 1"
 
 #: ../../en/contribute/template.rst:65 51f63c977db94b859bea736dd17bf151
 msgid "MicroPython Example"
-msgstr ""
+msgstr "MicroPython 应用示例"
 
 #: ../../en/contribute/template.rst:78 02bc0a23ddf547e1a366857fb2fc517d
 msgid "API"
-msgstr ""
+msgstr "API参考"
 
 #: ../../en/contribute/template.rst:81 3d3b77431dae44d3991a37af16af1d1e
 msgid "Function"
-msgstr ""
+msgstr "Function"
 
 #: ../../en/contribute/template.rst:87 85566c0fee6c4a288710d8c3d67c1cdb
 msgid "Function 1, please write a detailed description of the function."
 msgstr ""
+"请提供需要翻译的 PO 条目中 “Function 1” 对应的 ``msgid`` "
+"原文（最好连同该条目的上下文，如模块/类名、前后段落或完整条目）。目前只有 “Function 1, please write a "
+"detailed description of the function.” 这句话，无法确定要描述的是哪个具体函数，也无法按 UIFlow2 /"
+" MicroPython 文档风格产出准确的 ``msgstr``。"
 
 #: ../../en/contribute/template.rst ee3e8840243a4309b654a6a5fb3c07aa
 msgid "Parameters"
@@ -126,13 +130,13 @@ msgstr ""
 #: ../../en/contribute/template.rst:128 ../../en/contribute/template.rst:170
 #: ../../en/contribute/template.rst:192 53139202f4bc49cb8192f55c300ca14c
 msgid "Parameter 1."
-msgstr ""
+msgstr "参数 1。"
 
 #: ../../en/contribute/template.rst:91 ../../en/contribute/template.rst:130
 #: ../../en/contribute/template.rst:172 ../../en/contribute/template.rst:194
 #: 4a70d0c27a7e4e63881de0982e21ae64
 msgid "Parameter 2."
-msgstr ""
+msgstr "参数 2。"
 
 #: ../../en/contribute/template.rst 336de6971fdd44c6a459f8e50184d512
 msgid "Returns"
@@ -142,7 +146,7 @@ msgstr ""
 #: ../../en/contribute/template.rst:174 ../../en/contribute/template.rst:196
 #: e8484da110784d3c8033eb45d6deeda0
 msgid "Return value."
-msgstr ""
+msgstr "返回值。"
 
 #: ../../en/contribute/template.rst 245fbede3e054437826c1e33634d6aaf
 msgid "Return type"
@@ -153,53 +157,58 @@ msgstr ""
 #: ../../en/contribute/template.rst:199 ../../en/contribute/template.rst:217
 #: ../../en/contribute/template.rst:233 2afd6f06f11c4262935de7169f77d55f
 msgid "UiFlow2 Code Block:"
-msgstr ""
+msgstr "UiFlow2 代码块："
 
 #: ../../en/contribute/template.rst:102 ../../en/contribute/template.rst:141
 #: ../../en/contribute/template.rst:159 ../../en/contribute/template.rst:181
 #: ../../en/contribute/template.rst:203 ../../en/contribute/template.rst:221
 #: ../../en/contribute/template.rst:237 e90ab767b91e4a249a094d41dfcf9c7b
 msgid "MicroPython Code Block:"
-msgstr ""
+msgstr "MicroPython 代码块："
 
 #: ../../en/contribute/template.rst:110 c3278ef0f4f2497d8f5880fb311f7ec4
 msgid "Class1"
-msgstr ""
+msgstr "Class1"
 
 #: ../../en/contribute/template.rst:116 ../../en/contribute/template.rst:248
 #: 1940e128cfc94155927bd9e525d3a562 85e9f7b7aa0347d8b487324e30fe2300
 msgid "Constructor."
-msgstr ""
+msgstr "构造函数。"
 
 #: ../../en/contribute/template.rst:126 79d53d69dc1e4765adf66fb7a128b8f7
 msgid "Method 1, please write a detailed description of the method."
-msgstr ""
+msgstr "方法 1：请编写该方法的详细说明。"
 
 #: ../../en/contribute/template.rst:151 1e97b9c364ac4dd4ac0ba9ba996ca64d
 msgid "Property 1, please write a detailed description of the property."
-msgstr ""
+msgstr "属性 1：请编写该属性的详细描述。"
 
 #: ../../en/contribute/template.rst:168 ede0299f58e048b4b89898aff20c4ad6
 msgid "Static method 1, please write a detailed description of the static method."
-msgstr ""
+msgstr "静态方法 1：请编写该静态方法的详细描述。"
 
 #: ../../en/contribute/template.rst:190 981187dc465b408bad9996f9b2e5942f
 msgid "Class method 1, please write a detailed description of the class method."
 msgstr ""
+"请提供需要翻译的 PO 条目（至少包含该方法对应的 `msgid` 原文；最好连同前后文、方法名/签名、参数说明一起贴出）。目前只有 “Class"
+" method 1” 这一句，无法确定具体类方法内容与术语，无法按 UIFlow2 / MicroPython 文档规范写出准确的中文详细描述。"
 
 #: ../../en/contribute/template.rst:213 1e58be099b8848598df54778fcc8e86a
 msgid "Attribute b, please write a detailed description of the attribute."
-msgstr ""
+msgstr "属性 b：请编写该属性的详细描述。"
 
 #: ../../en/contribute/template.rst:231 0eaba5cc8ad54bcfa1039062b3aaf66c
 msgid ""
 "Constant 1, Please write a detailed description of the constant. "
 "Constants are named using uppercase letters."
 msgstr ""
+"常量 1：用于表示一个固定不变的取值（数值为 "
+"`1`），通常用于在程序中表达明确的逻辑含义或作为配置/标志位使用。常量采用全大写命名，以便与普通变量区分并强调其只读语义。在运行过程中，该常量的值不应被修改；将"
+" `1` 抽象为具名常量可以提升代码可读性与可维护性，避免在多处直接使用“魔法数字”导致含义不清或后期修改困难。"
 
 #: ../../en/contribute/template.rst:244 c3278ef0f4f2497d8f5880fb311f7ec4
 msgid "Class2"
-msgstr ""
+msgstr "Class2"
 
 #~ msgid "UIFLOW2 Example"
 #~ msgstr ""

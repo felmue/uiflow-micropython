@@ -22,49 +22,49 @@ msgstr ""
 
 #: ../../en/system/audio.rst:2 d2ea4d9f2db24e118efc744113cb8937
 msgid ":mod:`audio` --- player and recorder"
-msgstr ""
+msgstr ":mod:`audio` --- 播放器和录音机"
 
 #: ../../en/system/audio.rst:9 828b55247a374a129da8ede5e526aa58
 msgid "This module implements player and recorder"
-msgstr ""
+msgstr "此模块实现播放器和录音机。"
 
 #: ../../en/system/audio.rst:11 c4899479abce41f0b22ef50460be934a
 msgid ""
 "player: encapsulates the ADF esp_audio, support local and online "
 "resources."
-msgstr ""
+msgstr "player：封装了 ADF esp_audio，支持本地和在线资源。"
 
 #: ../../en/system/audio.rst:12 b184585650ec4115baecc59dd904427e
 msgid "recorder: record and encoding the voice into file."
-msgstr ""
+msgstr "recorder：录制并将语音编码到文件中。"
 
 #: ../../en/system/audio.rst:14 db949a493e434f26aed8e39382705f2c
 msgid "Below is the detailed audio support for the host:"
-msgstr ""
+msgstr "以下是主机的详细音频支持："
 
 #: ../../en/system/audio.rst:21 cfdfcdb0dd7049a2be2f4dbc3e2c788b
 msgid "AW88298"
-msgstr ""
+msgstr "AW88298"
 
 #: ../../en/system/audio.rst:21 f3968c0bdf784fb783438b71d70c7b31
 msgid "ES7210"
-msgstr ""
+msgstr "ES7210"
 
 #: ../../en/system/audio.rst:21 e7bc5fd2f5fd41ee925c9d0c294a1d72
 msgid "ES8311"
-msgstr ""
+msgstr "ES8311"
 
 #: ../../en/system/audio.rst:21 fef72ada182a405c887d5faf76ffb796
 msgid "I2S Philips"
-msgstr ""
+msgstr "I2S Philips"
 
 #: ../../en/system/audio.rst:21 a52f402ad61d4875b6160e31831121fe
 msgid "I2S PDM"
-msgstr ""
+msgstr "I2S PDM"
 
 #: ../../en/system/audio.rst:23 ec3831f366d94483a9e4d98e38bbfc5c
 msgid "CoreS3"
-msgstr ""
+msgstr "CoreS3"
 
 #: ../../en/system/audio.rst:23 ../../en/system/audio.rst:25
 #: 10a71da3a3cd4eb7a18a943dd5fc7868 1744953933c8454d816c608726c7075a
@@ -74,15 +74,15 @@ msgstr ""
 
 #: ../../en/system/audio.rst:25 6a63c107822441cc91a3f40f9337224e
 msgid "BOX3"
-msgstr ""
+msgstr "BOX3"
 
 #: ../../en/system/audio.rst:31 c5bcaeaa75c44c28bbb8f9a8670c31ab
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/system/audio.rst:38 e69e0f8cebe74f1db0411ee6bd4db8d1
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/system/audio.rst:40 cbbcac10f7284d199bdc352cd8951ce2
 msgid "|example.png|"
@@ -98,5 +98,5 @@ msgstr ""
 
 #: ../../en/system/audio.rst:49 3483d1575a3846fd826f1afc1d1510e9
 msgid "Classes"
-msgstr ""
+msgstr "Classes"
 

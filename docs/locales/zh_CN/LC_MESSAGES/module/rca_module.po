@@ -18,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/module/rca_module.rst:2 7e088bc0c27841af8226330de4fe35f6
 msgid "RCA Module"
-msgstr ""
+msgstr "RCA Module"
 
 #: ../../en/module/rca_module.rst:6 b8ecc68e127a46979360c4123c3c74fa
 msgid ""
@@ -36,7 +36,10 @@ msgid ""
 "The module contains a DC socket and a 9-24V to 5V DCDC circuit to supply "
 "power to the whole machine. This product is suitable for audio and video "
 "equipment that drives the S-terminal interface."
-msgstr "模块RCA是一个音视频复合信号扩展模块，使用常见的S端子RCA连接器，分为两个（左右声道）音频和一个视频输出。音频部分采用I2S功放芯片PCM5102APWR方案，能够实现32位立体声音频信号输出；在视频方面，应用了主控ESP32的DAC模拟视频信号功能，能够生成分辨率不超过864 x 576（PAL，PAL_M）的模拟视频信号；该模块包含一个直流插座和一个9-24V转5V的DCDC电路，以供应整机电力。该产品适用于驱动S端子接口的音视频设备。"
+msgstr ""
+"模块RCA是一个音视频复合信号扩展模块，使用常见的S端子RCA连接器，分为两个（左右声道）音频和一个视频输出。音频部分采用I2S功放芯片PCM5102APWR方案，能够实现32位立体声音频信号输出；在视频方面，应用了主控ESP32的DAC模拟视频信号功能，能够生成分辨率不超过864"
+" x "
+"576（PAL，PAL_M）的模拟视频信号；该模块包含一个直流插座和一个9-24V转5V的DCDC电路，以供应整机电力。该产品适用于驱动S端子接口的音视频设备。"
 
 #: ../../en/module/rca_module.rst:8 a2c454efe3c148d2bb93b402639769e0
 msgid "Supported products:"
@@ -48,7 +51,7 @@ msgstr ""
 
 #: ../../en/refs/module.rca.ref 000940b4ff714fec889f30057a4bff1b
 msgid "RCAModule"
-msgstr ""
+msgstr "RCAModule"
 
 #: ../../en/module/rca_module.rst:12 fa783064d39a473aa4f7c78e94742a22
 msgid "Micropython example::"

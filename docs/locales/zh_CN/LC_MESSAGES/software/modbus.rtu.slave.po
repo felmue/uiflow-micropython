@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/software/modbus.rtu.slave.rst:4
 #: ../../en/software/modbus.rtu.slave.rst:50 6c65be4648b1419183281f9bee9bbbbd
 msgid "ModbusRTUSlave"
-msgstr ""
+msgstr "\"\""
 
 #: ../../en/software/modbus.rtu.slave.rst:8 209b1a567c2848a8b7df7facfb4b6200
 msgid ""
@@ -33,9 +33,9 @@ msgid ""
 "Single Holding Register), 15 (Write Multiple Coils), and 16 (Write "
 "Multiple Holding Registers)."
 msgstr ""
-"ModbusRTUSlave 实现了 Modbus RTU 从站。ModbusRTUSlave 支持功能码 1（读线圈）、"
-"2（读离散输入）、3（读保持寄存器）、4（读输入寄存器）、5（写单线圈）、6（"
-"写单保持寄存器）、15（写多线圈）和 16（写多保持寄存器）。"
+"ModbusRTUSlave 实现了 Modbus RTU 从站。ModbusRTUSlave 支持功能码 "
+"1（读线圈）、2（读离散输入）、3（读保持寄存器）、4（读输入寄存器）、5（写单线圈）、6（写单保持寄存器）、15（写多线圈）和 "
+"16（写多保持寄存器）。"
 
 #: ../../en/software/modbus.rtu.slave.rst:11 d86d312aa3d6492cb34bedfd4b8dcb6d
 msgid "UiFlow2 Example"
@@ -219,8 +219,7 @@ msgstr "是否启用详细日志。"
 msgid ""
 "``context`` is a dictionary that contains the Modbus server context. the "
 "format is as follows::"
-msgstr ""
-"``context`` 是一个包含 Modbus 服务器上下文的字典，格式如下::"
+msgstr "``context`` 是一个包含 Modbus 服务器上下文的字典，格式如下::"
 
 #: ../../en/software/modbus.rtu.slave.rst:93 5020026542334fe6ab5832ed3317e55d
 msgid "|init.png|"

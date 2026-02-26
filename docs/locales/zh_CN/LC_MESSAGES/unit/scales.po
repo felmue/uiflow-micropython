@@ -1,0 +1,340 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/scales.rst:3 028f5276076348bfa6f1b95e7ab163a6
+msgid "Scales Unit"
+msgstr "秤单位"
+
+#: ../../source/unit/scales.rst:7 f689cff3beb14dc3abf57549381115a4
+msgid ""
+"UNIT Scales is a high precision low-cost I2C port weighing sensor, with a"
+" total weighing range of 20kgs. Adopt STM32F030 as the controller, HX711 "
+"as sampling chip and 20 kgs weighing sensor. With tare button and "
+"programable RGB LED. This Unit offers the customer with a highly "
+"integrated weighing solution, suitable for the applications of weighing, "
+"item counting, item movement Checking and so on."
+msgstr ""
+"UNIT Scales 是一款高精度、低成本的 I2C 端口称重传感器，总称重范围为 20 kg。采用 STM32F030 作为控制器、HX711"
+" 作为采样芯片，并配备 20 kg 称重传感器。带有去皮（tare）按键和可编程 RGB LED。该 Unit "
+"为用户提供高度集成的称重解决方案，适用于称重、物品计数、物品移动检测等应用场景。"
+
+#: ../../source/unit/scales.rst:9 60ae588ac64f4600b3b5337395797ff0
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/scales.rst:11 536fb332de9d467793677b8c04ad39c6
+msgid "|ScalesUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref 1a43ec608ab5429a96a7e09b40deca4c
+msgid "ScalesUnit"
+msgstr "\"\"\"ScalesUnit\"\"\""
+
+#: ../../source/unit/scales.rst:13 74c4e2ab322f41f08160c4d02eac0c43
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/scales.rst:20 9944b3e5ffba45dd918f8a4effad31aa
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/scales.rst:22 5338a631d8f0488dbf6da705ddc0cbb2
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:22 117225a815cb45758d229e847d480a0a
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:26 bfd766f1dddc48c08e5ac7605b79b34d
+msgid "|scales_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/scales.rst:29 54bd701c198648a7973da3b8c4ba4142
+msgid "class ScalesUnit"
+msgstr "class ScalesUnit"
+
+#: ../../source/unit/scales.rst:32 61956eb07fb44288957c0207cdcf0a51
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/scales.rst:36 61b72dc3b1eb4075bd355e3919b67246
+msgid ""
+"Initialize the ScalesUnit with I2C communication and an optional I2C "
+"address."
+msgstr "使用 I2C 通信并可选指定 I2C 地址来初始化 ScalesUnit。"
+
+#: ../../source/unit/scales.rst 00f40c28724c484aa3c1df4907ac5552
+#: 2ae2d3dec08e4eeea0bec9f5f7d9f4f2 486ce466952442f8a5c6623bab902e46
+#: 4e9d602f3630408aa7846d32661c414e 79a63cc1e08e405aad6b617ed3c2f1e6
+#: 83dfce92ec8d40b3868ddd3ad8ade3cb 8c9459656ebf4953abb74ee76cde2fe6
+#: c37203f013ef441d874f94cf9acb2a75 cb53fa31474941fbbfad591775cef87a
+#: f2637f1e361d44d8a9f7622ccefbdeb9
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/scales.rst:38 8e1e80ad627c4f8282c361e48431245d
+msgid "The I2C or PAHUBUnit instance for communication."
+msgstr "用于通信的 I2C 或 PAHUBUnit 实例。"
+
+#: ../../source/unit/scales.rst:39 411a498a790f43d19cd1529c588599d3
+msgid "The I2C address or a list/tuple of addresses for the scales unit."
+msgstr "用于称重单元的 I2C 地址，或包含多个地址的 list/tuple。"
+
+#: ../../source/unit/scales.rst:41 ../../source/unit/scales.rst:57
+#: ../../source/unit/scales.rst:67 ../../source/unit/scales.rst:77
+#: ../../source/unit/scales.rst:93 ../../source/unit/scales.rst:103
+#: ../../source/unit/scales.rst:115 ../../source/unit/scales.rst:125
+#: ../../source/unit/scales.rst:134 ../../source/unit/scales.rst:143
+#: ../../source/unit/scales.rst:153 ../../source/unit/scales.rst:165
+#: ../../source/unit/scales.rst:175 2c3a7ef533af455e975bcf2f3b0d75b5
+#: 333b34d7b2b04b8e8839c44b3cb11093 5113b906c315425aa9d4536b0980db54
+#: 66260133f9e2436cb93295b085adcd14 6e4840f1ea5942178383c4e9ac5b96ec
+#: 7eae6cf6d7c549f8a52f36d5685efa37 80a85754cd684cf1829ae905ae6e1125
+#: 9b4c8a39ef024d1aaea46c0d0a7c21ca b08bc3ca392045a392e4f82ef77766e6
+#: d149c07059714308bb7567cb2f452074 d1df7e34118e4ced963112ea3833684e
+#: d92696fb626049c8975d1fbce9450c12 ddbe2e8feebe42f09725a212ed28bf20
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/scales.rst:43 f2e6e353527a47da8ec064c1654c7342
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:7 87f7a31c6a33447db2c847eadb54da6d
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:47 b46fa720d53942d582e65c15a2eee05b
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/scales.rst:51 ba5c512091dc4d53b20d20bc608dbe29
+msgid "Retrieve the status of a button on the scales unit."
+msgstr "获取称重单元上按钮的状态。"
+
+#: ../../source/unit/scales.rst:53 1a946b7adf0c49cebd64caf2f0faf5eb
+msgid "The button status identifier."
+msgstr "按钮状态标识符。"
+
+#: ../../source/unit/scales.rst 1a794e7052eb421ca862437eb13a82df
+#: 2a883f40baaf49f9aaaa9cdfd4fa2f97 403e6e26088a4480be10a573dd64d6b0
+#: 49dea39b5b82497396cd8b714c2c548e b8b2b72919be45afbfe44f116546a35e
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/scales.rst:55 fb775c452e224e638f81528fdc1000c2
+msgid "The current status of the specified button."
+msgstr "指定按钮的当前状态。"
+
+#: ../../source/unit/scales.rst:59 8c04de9aa7d54619835e888873db7563
+msgid "|get_button_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:9 9e3f24234ac1445e9c9a1d2e107adb03
+msgid "get_button_status.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:63 f22d46e8cfb147fe9b430c53fecf791f
+msgid "Enable or disable the button offset for the scales unit."
+msgstr "启用或禁用 scales unit 的按键偏移。"
+
+#: ../../source/unit/scales.rst:65 bb444ca67b9943c0aacb3685201fb5b7
+msgid "The offset enable value (1 to enable, 0 to disable)."
+msgstr "偏移使能值（1 表示启用，0 表示禁用）。"
+
+#: ../../source/unit/scales.rst:69 f85e87ab61024834ae1b3c44d7a437fc
+msgid "|set_button_offset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:10 6c574377206841c7bd5bf8ed7917f136
+msgid "set_button_offset.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:73 14475accce844d2c8cb1e87146657d5a
+msgid "Set synchronization mode for the RGB LED."
+msgstr "设置 RGB LED 的同步模式。"
+
+#: ../../source/unit/scales.rst:75 452f670d45384d62aa1d5394b4178b99
+msgid "The control value for synchronization."
+msgstr "用于同步的控制值。"
+
+#: ../../source/unit/scales.rst:79 9604a4bdcc2a4277b162afc65988ab98
+msgid "|set_rgbled_sync.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:11 381137789fd64a9882c6c8c080d935ef
+msgid "set_rgbled_sync.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:83 edffb1b32ef7483ebf908e890c753b65
+msgid "Retrieve the synchronization mode of the RGB LED."
+msgstr "获取 RGB LED 的同步模式。"
+
+#: ../../source/unit/scales.rst:85 eaa2ca5434f9409e8dbdb7ebae203504
+msgid "The synchronization mode value."
+msgstr "同步模式的值。"
+
+#: ../../source/unit/scales.rst:89 f1f8f701f8d94b2e9872affadc282585
+msgid "Set the RGB values for the LED."
+msgstr "设置 LED 的 RGB 值。"
+
+#: ../../source/unit/scales.rst:91 c79f22e88d034fd885c7724ab9a47567
+msgid "The RGB value as a 24-bit integer."
+msgstr "RGB 值，以 24 位整数表示。"
+
+#: ../../source/unit/scales.rst:95 726a3daab9b84bf5bfcf310f96c61188
+msgid "|set_rgb_led.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:12 1571c0a560444f02bdccbcf7cfaddf60
+msgid "set_rgb_led.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:99 55d35f1008624d57a8af9c11a914b447
+msgid "Retrieve the current RGB values of the LED."
+msgstr "获取 LED 当前的 RGB 值。"
+
+#: ../../source/unit/scales.rst:101 e1beac9435844f6cb2b62f855deec052
+msgid "A list containing the RGB values."
+msgstr "包含 RGB 值的列表。"
+
+#: ../../source/unit/scales.rst:105 c1000682de4a4f6c8ea9b0cabb0d216b
+msgid "|get_rgb_led.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:13 cf3fcef94d234f5f9f3c18e0a88f2cdd
+msgid "get_rgb_led.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:109 0364b81578c2481ca590a34e4ddfb801
+msgid "Get the scale value for the specified scale type."
+msgstr "获取指定比例类型的比例值。"
+
+#: ../../source/unit/scales.rst:111 c7e391fbd1c249e7a25cb5dee43cdd49
+msgid "The scale type identifier."
+msgstr "缩放类型标识符。"
+
+#: ../../source/unit/scales.rst:113 ad75bbb135bd42e48199cf2db8380358
+msgid "The scale value as an integer."
+msgstr "缩放值（整数）。"
+
+#: ../../source/unit/scales.rst:117 ecd4d0b74b284d67aecf0af222c16a8c
+msgid "|get_scale_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:14 39008d974c8a4ba4824309c72edf4d80
+msgid "get_scale_value.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:121 68f5a2b471ee44a2810430fd105e005f
+msgid "Set the raw offset for the scales unit."
+msgstr "为称重单元设置原始偏移量。"
+
+#: ../../source/unit/scales.rst:123 4d3f2d93be924bca88d97acacd018809
+msgid "The raw offset value as an integer."
+msgstr "原始偏移量值，类型为整数。"
+
+#: ../../source/unit/scales.rst:127 5d74523c48d1444bbec3ce5d37d9f0cb
+msgid "|set_raw_offset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:15 a20ecdec2600490f97a3f29549445390
+msgid "set_raw_offset.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:131 fabb5d36845848afbbdc8e7afc62557f
+msgid "Set the current raw offset value for the scales unit."
+msgstr "设置称重单位的当前原始偏移值。"
+
+#: ../../source/unit/scales.rst:136 3c310d5dcd46487c801afabca818c00a
+msgid "|set_current_raw_offset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:16 d3fe9ec05e68445c8d5198eee883c5ce
+msgid "set_current_raw_offset.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:140 9bee1549c19344a39bfad0e992b13ee0
+msgid "Calibrate the scales unit for zero weight."
+msgstr "校准秤的单位为零重量。"
+
+#: ../../source/unit/scales.rst:145 6a8dec1a386640a1af0312a1c9097aab
+msgid "|set_calibration_zero.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:17 e4c30a098ff04381b3995793d7dc0562
+msgid "set_calibration_zero.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:149 f69b89609b954f32a6d557ab4b987b87
+msgid "Calibrate the scales unit with a specified weight."
+msgstr "使用指定重量对 scales unit 进行校准。"
+
+#: ../../source/unit/scales.rst:151 500be7b9e1d24d4ab9140eccff155d78
+msgid "The weight value in grams for calibration."
+msgstr "用于校准的重量值（单位：克）。"
+
+#: ../../source/unit/scales.rst:155 1bd658b997dd4440b6bf8ff273c71383
+msgid "|set_calibration_load.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:18 47bf08018a504aeb9dc12a0d93559189
+msgid "set_calibration_load.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:159 6dfb00be31ca4e708f43f63b5be67338
+msgid "Get the device information for a specified mode."
+msgstr "获取指定模式的设备信息。"
+
+#: ../../source/unit/scales.rst:161 b97e92856ba542e7ae6aa5d337104a33
+msgid "The mode identifier for the requested information."
+msgstr "所请求信息的模式标识符。"
+
+#: ../../source/unit/scales.rst:163 19e0ca5cc6ff4b3380d5c1398e77da1c
+msgid "The device information value."
+msgstr "设备信息值。"
+
+#: ../../source/unit/scales.rst:167 4a7e63e2f78f49ddb65413b5b33ae3f5
+msgid "|get_device_inform.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:19 b1522fe4080f4593ab165fd614ae4f2c
+msgid "get_device_inform.png"
+msgstr ""
+
+#: ../../source/unit/scales.rst:171 6a1b109941054306bd14ef67dba103fe
+msgid "Change the I2C address of the scales unit."
+msgstr "更改称重单元的 I2C 地址。"
+
+#: ../../source/unit/scales.rst:173 b1421e25923644c2b06cc2e47a9132bc
+msgid "The new I2C address value."
+msgstr "新的 I2C 地址值。"
+
+#: ../../source/unit/scales.rst:177 c6908b69dbf04197978d3cae57b86bfb
+msgid "|set_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scales.ref:20 c40c57e68125431eadae4547877daf71
+msgid "set_i2c_address.png"
+msgstr ""
+

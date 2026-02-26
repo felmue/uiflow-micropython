@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/m5ui/calendar.rst:4 ../../en/m5ui/calendar.rst:52
 #: 217f50617093415fae7abf285574dab5 b6d947862be6415588b41c19a38223e2
 msgid "M5Calendar"
-msgstr ""
+msgstr "M5Calendar"
 
 #: ../../en/m5ui/calendar.rst:8 c2e5003f06b444de9874b83d3fcc4acc
 msgid ""
@@ -42,7 +42,7 @@ msgstr "事件日历"
 
 #: ../../en/m5ui/calendar.rst:16 c906ef0de21f4ac1b83b1690231083bf
 msgid "Open the |calendar_core2_example.m5f2| project in UiFlow2."
-msgstr ""
+msgstr "在 UiFlow2 中打开 |calendar_core2_example.m5f2| 项目。"
 
 #: ../../en/m5ui/calendar.rst:18 ../../en/m5ui/calendar.rst:35
 #: ee44763896324c1b8a064c54c6537062
@@ -93,11 +93,11 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/m5ui/calendar.rst:49 8d8a8b8cbd8844d4a77dff79fabb53df
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: 365fff94cd484cfa940c50d770cccff1 m5ui.calendar.M5Calendar:1 of
 msgid "Bases: :py:class:`~lvgl.calendar`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.calendar`"
 
 #: ee47ae855f95467c9fcef4b9125a15d3 m5ui.calendar.M5Calendar:1 of
 msgid "Create a calendar object."

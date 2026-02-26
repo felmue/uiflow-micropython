@@ -1,0 +1,1190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/rollercan.rst:3 2b73e0420b574701bd56f4787f73b244
+msgid "RollerCAN Unit"
+msgstr "RollerCAN Unit"
+
+#: ../../source/unit/rollercan.rst:7 6e06df59abe0428c98a628c8d81ec56e
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/rollercan.rst:9 87099e82b19d4dd2ad13883a26427d02
+msgid "|RollerCAN|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref 4d0d0fa6bafd4b5f9fb91880ff7936d7
+msgid "RollerCAN"
+msgstr "RollerCAN"
+
+#: ../../source/unit/rollercan.rst:11 e47eb1d3ed2649ef86a17e191de2b88b
+msgid "RollerCAN I2C Example:"
+msgstr "RollerCAN I2C 应用示例："
+
+#: ../../source/unit/rollercan.rst:17 2df948fe36c947b0b0959dc93c8460a5
+msgid "RollerCAN I2C UIFLOW2 Example:"
+msgstr "RollerCAN I2C UiFlow2 应用示例："
+
+#: ../../source/unit/rollercan.rst:19 9bab1f102d5c4b29aa5ea5bc3773fbf7
+msgid "|i2c_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:57 7ecb80523e2447249472f8515843468b
+msgid "i2c_example.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:23 ec2a7760839544ca95678677c073f534
+msgid "|rollercan_i2c_fire_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:25 2c6870c9b60c4d9badea5e9da824371b
+msgid "RollerCAN CAN Example:"
+msgstr "RollerCAN CAN 应用示例："
+
+#: ../../source/unit/rollercan.rst:31 97037100621e4ccf888f023111840c91
+msgid "RollerCAN CAN UIFLOW2 Example:"
+msgstr "RollerCAN CAN UiFlow2 应用示例："
+
+#: ../../source/unit/rollercan.rst:33 ea166cc6c84f4d31880199d98f5dd1bb
+msgid "|can_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:58 17ed922853e0443badb2a9f21118fda1
+msgid "can_example.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:37 5812a079fa8049f0b72fb626314257da
+msgid "|rollercan_can_fire_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:39 c4038a6f9c424ac19ba5bc049c6d030e
+msgid "RollerCAN CANToI2C Example:"
+msgstr "RollerCAN CANToI2C 应用示例："
+
+#: ../../source/unit/rollercan.rst:45 a5d717dc762446829d683ae3cadf634f
+msgid "RollerCAN CANToI2C UIFLOW2 Example:"
+msgstr "RollerCAN CANToI2C UiFlow2 应用示例："
+
+#: ../../source/unit/rollercan.rst:47 bc9ccf81916144b3918d583359c10809
+msgid "|can_i2c_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:59 dc625f1fa78c4b39acccd85133ca5b8a
+msgid "can_i2c_example.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:51 93728a3aa3194e63b39f4a43ea60b698
+msgid "|rollercan_cantoi2c_fire_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:55 a93c139f4dce44ed91c52cfd6df2e84d
+msgid "class RollerCANUnit"
+msgstr "class RollerCANUnit"
+
+#: ../../source/unit/rollercan.rst:58 ../../source/unit/rollercan.rst:76
+#: ../../source/unit/rollercan.rst:617 ../../source/unit/rollercan.rst:652
+#: ../../source/unit/rollercan.rst:712 711ac5b82c4647389deec5bac6fb0301
+#: 79600ac9502c497685550edacf6a98f4 dc552500803e46b1be6e1744048d1af7
+#: df9c725f8edb433191025bc8ffd0bdcd fc56908547084991a341b2cba1024258
+msgid "Constructors"
+msgstr "构造函数"
+
+#: ../../source/unit/rollercan.rst:62 854b288023d64e72a03b2eaa439565c1
+msgid "Initialize the RollerCANUnit object based on communication mode."
+msgstr "根据通信模式初始化 RollerCANUnit 对象。"
+
+#: ../../source/unit/rollercan.rst 1058870f9afd4e3aa7ecbfcf9663c09f
+#: 1718497e7c4347799ad27881f0d493f8 1a1bb7999c744ad9b185acc5500e9312
+#: 2cf7aae54d4b4fce9e2252517f704ed5 3577773b105542ca871f01606f011995
+#: 47be25f7d75e4374a50a10ec8e01068c 4a36b357dc7d4d7d9d0bbcfb9d45cd30
+#: 50e14a12143449ba96fa5de01d5c241b 52268d7ee66343b8b163efe62217f42d
+#: 585a6c37480848f2bb3b25e778145e9a 5d1f459f19a04a0fb13c4cce5687e643
+#: 69fbe76253ea400a852612ee8c63f9e0 6d1e2dc33d2141f38b3c21cb65432ceb
+#: 73040efe98ac4cf59ad29feded0034ee 73ca985dc73549679c4083c10c2cdedf
+#: 754f293f9af144d185f000c8980fda93 78456c5047f140a59e6e76e9ba927203
+#: 7b72386ed22a4ad3879dd47f1de06cf9 7f1cb5b6d77a433dab19c1e55e4fee3e
+#: 8224a014b1524f6993e2b3323db6a5d5 8d3e829468bc4ef38d5cf1c2928d4bc5
+#: 8db2da2f73d44bbf9bb598dd0f5b0db9 90e447a5c419400f942e2e3eacc0cadf
+#: 93daaac1c1ff43f0b66d1ef5c7503ea2 945c66574eff4ddeafce9dd356d7d66d
+#: a48a642ffd7747278f04f0e00405aba0 a507801ef1544d2c93c1720579d82eba
+#: bb09531938e54d00afbdf9ff01e97691 bf3a037eb2484bba8093e6611f42104a
+#: c6dca59b793f47119f2810f34dd6abc4 c7621f6ca0fd4ba598a6e6696e97e30c
+#: d91e0d17ad3a446988a5ec9ca38e859b d9ebb1fcf46d4c23aea9353c5b36031e
+#: dc947aef0b934d5a8c442509ed19dee4 f002d4080fe24f78882977d4968a4474
+#: f87b126e499c4e7ebc746b63924759b1
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:64 8efdfdbfbaf94ea8a8dd0f686d70f125
+msgid "The I2C/CAN bus instance."
+msgstr "I2C/CAN 总线实例。"
+
+#: ../../source/unit/rollercan.rst:65 ../../source/unit/rollercan.rst:659
+#: 62691574ffe6478e8b753bf9baaf1672 80f4dc9cc1d94ebbbce918eae4775dfb
+msgid "The motor's CAN address. Defaults to _ROLLERCAN_CAN_ADDR."
+msgstr "电机的 CAN 地址。默认为 _ROLLERCAN_CAN_ADDR。"
+
+#: ../../source/unit/rollercan.rst:66 92f7c960db004f558599eea6dee87f91
+msgid "The RollerCAN communication mode."
+msgstr "RollerCAN 通信模式。"
+
+#: ../../source/unit/rollercan.rst:68 ../../source/unit/rollercan.rst:92
+#: ../../source/unit/rollercan.rst:103 ../../source/unit/rollercan.rst:114
+#: ../../source/unit/rollercan.rst:125 ../../source/unit/rollercan.rst:136
+#: ../../source/unit/rollercan.rst:147 ../../source/unit/rollercan.rst:156
+#: ../../source/unit/rollercan.rst:167 ../../source/unit/rollercan.rst:178
+#: ../../source/unit/rollercan.rst:189 ../../source/unit/rollercan.rst:200
+#: ../../source/unit/rollercan.rst:211 ../../source/unit/rollercan.rst:222
+#: ../../source/unit/rollercan.rst:233 ../../source/unit/rollercan.rst:244
+#: ../../source/unit/rollercan.rst:254 ../../source/unit/rollercan.rst:264
+#: ../../source/unit/rollercan.rst:275 ../../source/unit/rollercan.rst:286
+#: ../../source/unit/rollercan.rst:297 ../../source/unit/rollercan.rst:308
+#: ../../source/unit/rollercan.rst:319 ../../source/unit/rollercan.rst:330
+#: ../../source/unit/rollercan.rst:341 ../../source/unit/rollercan.rst:354
+#: ../../source/unit/rollercan.rst:365 ../../source/unit/rollercan.rst:376
+#: ../../source/unit/rollercan.rst:387 ../../source/unit/rollercan.rst:398
+#: ../../source/unit/rollercan.rst:409 ../../source/unit/rollercan.rst:420
+#: ../../source/unit/rollercan.rst:431 ../../source/unit/rollercan.rst:444
+#: ../../source/unit/rollercan.rst:455 ../../source/unit/rollercan.rst:466
+#: ../../source/unit/rollercan.rst:477 ../../source/unit/rollercan.rst:488
+#: ../../source/unit/rollercan.rst:499 ../../source/unit/rollercan.rst:510
+#: ../../source/unit/rollercan.rst:521 ../../source/unit/rollercan.rst:532
+#: ../../source/unit/rollercan.rst:543 ../../source/unit/rollercan.rst:554
+#: ../../source/unit/rollercan.rst:565 ../../source/unit/rollercan.rst:575
+#: ../../source/unit/rollercan.rst:586 ../../source/unit/rollercan.rst:597
+#: ../../source/unit/rollercan.rst:608 00b1e567e340403b98aad5620a4f05ec
+#: 01fe8f3acbe241a49a629cd8fc953aad 0e86b4a44e6b465b9f2b68e33b4a18e0
+#: 13bf4bb74bcc4df28aca516be0644f01 13e41428c38d4731a754604a57f238f1
+#: 16c13ae2265744dea9989c14f6611882 18c6672729df4e619d623062b2e60fa0
+#: 1f21e04884d54c87a6fd3cf4e6c67344 22b55c36e6b84c42be034d909f6835ad
+#: 30569cf334034ab99730c95b5674fa4b 3375f259e48a459987571316257018a5
+#: 418716daa59942429b31829f7e503c47 483f750baeef44188109574b1e03ee8d
+#: 4ac564bf15bd455dbbd5dd52e2fab5b2 4cf6c48d54b4488fadc3d6d7b6fda56a
+#: 5119d23cd633403ca21611f40060ae1d 551b5d69306144d783fec825e22f22a1
+#: 5ed5c45d6fe14445bc4a1491ad573031 5fc81a3284ad45c3ab9cc285c04c8ab6
+#: 62a33824a60b479da42d97336990e51e 6350373caf734ef0a5fc8826514666d2
+#: 67bc75e7c0544974af3dbe45733cf215 6e9a9c29c38647f1834a0a761eea7942
+#: 6ee7d54ad98c4f43b086353e204f1ce9 711ba50cbfdb4511a9d9f47169ffb87c
+#: 71d9ce603bf24260851afbf6d49def91 7a51791318b14b709a637f8f53111947
+#: 9042c70c27a648dfacd726062c7574b4 9168f25ad38a4032ae0ed35800416d00
+#: 9e44d7aa7c814dc28bf1f07152b6153b ac6a5bd04a1142db9eb7bb1ebd78128b
+#: b28c08ea208e47d0ab5a20a0ca2578c6 b67b0396c61343d58fb500883d0f3c08
+#: b6c5d7a6adb14b3894db737ef052609a b9d0d10178c34ea7beaed594d16e4297
+#: bc5cd82da07e4c2fbc30f765091c8eaa c930cedc3bf7494587e0df609960c2e8
+#: cbc5ffecbf5145ae99a5142e6463d65b d925041ef12a497c81c8c4fd6ac9b293
+#: dbee4a417aeb48d98a1bcdfd93ee6e9f dd9a0bdffb9248c48ac9d4231527a148
+#: e0823c9d300f4d0b894428053472bd1c e268d62f98694541b2008fd337e76164
+#: e77b142477514d37b582a05b86067ff6 e8d058d0147e4e91aec2cbf1bdb90daa
+#: ef10d78866984696892c6e33cf91a353 f3e8bae882d346ffb92078e30e9997c8
+#: fa20e08144844a3f89c1cf453270febf fff6c1b063cf4f1d80c30a06df15b953
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/rollercan.rst:70 1007fdc3191c452b9ff6b61440745156
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:7 c284200373ef473aa5c862a37356631f
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:73 372b802c0ebd4e7e854a24c1bc130bb0
+msgid "class RollerBase"
+msgstr "class RollerBase"
+
+#: ../../source/unit/rollercan.rst:83 ../../source/unit/rollercan.rst:628
+#: ../../source/unit/rollercan.rst:663 ../../source/unit/rollercan.rst:723
+#: 3e5ff54409a24779b2add9742884a895 8bceaa86d8034f3eb210ebb44a189e4e
+#: b00376d0fa5d4c6ca534a5f119b65e5f f267c5d0895d4a57b7cd15a1d079de3e
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:88 466da063c1ce49c796e9b9414e44ec8d
+msgid "Set the motor output state."
+msgstr "设置电机输出状态。"
+
+#: ../../source/unit/rollercan.rst:90 46b19ed79e46449e91ca3fe1db455aa1
+msgid "Control value for the motor output."
+msgstr "电机输出的控制值。"
+
+#: ../../source/unit/rollercan.rst:94 e7b3943eefe34e3cbbd752b7d71ec72c
+msgid "|set_motor_output_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:8 c8193741943a4f00aa64fb3f796f9039
+msgid "set_motor_output_state.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:99 121c0ad3c3254869b1f9979d823203b3
+msgid "Get the motor output status."
+msgstr "获取电机输出状态。"
+
+#: ../../source/unit/rollercan.rst 11c7845b42344c9dad5713f2d2ab467a
+#: 2eee9e1415df4cc0a4bf7a386ed18791 3ce38d43af6e4483830a03e9d76076c2
+#: 41c98603221948fe96dda8013b62dca9 425440a55b5b44d6b2d80ee23fb6c084
+#: 429b24f0e7fd44cfa5ab65c09190eb0c 4514725c4f964dcd837aff9a407af85e
+#: 474f83f4bf3547ed98c6ed4735fa7df6 4b65cb5ac09146568e598b7e14fb4e9b
+#: 4cf0669e13024aaba61e31e2044d0edd 545e77a2f6c944899a873b5ade01ae71
+#: 54f13082c9524d7f98d06eb288dca1cf 564322c585fb4215bdb0ad0476fcf3ff
+#: 5e2781c7b10d4c85b9cb158e8a4d0b9f 64053abef77c4e3195850d8aaf058433
+#: 78a0a54959364d528c3a18ebee82ec20 876cd1eac61048f693a801db9356c8ef
+#: a490d0e1c86745afbaa6a72d819dd138 bcc9b493ec9d483088ac19aba4df233a
+#: d44378e7cb904c0fae9c0dab31f699e1 d69af370a260416d9ecc1e55df1c5e44
+#: d77431efff114f4ea54471d88a06cfac dd241a320ce943d787e65625e7085ef9
+#: e95614fe306c4d8daaef373934ab0323 ebcd1be1bb3d42c0a2cb080e71e2de72
+#: ed3e8aadb34e43fd80af3cb27e43b63f fb6786d9706a4b0e82782f32949c1e61
+#: febb7db227254cd7bafc5243afa37c42
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:101 dcef8968c1f543afa1445d436d6078af
+msgid "True if the motor output is active, False otherwise."
+msgstr "如果电机输出处于激活状态，则为 True；否则为 False。"
+
+#: ../../source/unit/rollercan.rst:105 e7e4f9eb9d1146be8fae1cd797fbe4ad
+msgid "|get_motor_output_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:9 f79018cdbaad43a996ed2033352f53eb
+msgid "get_motor_output_state.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:110 d63380257fb942b3b3648ca3346dbfd8
+msgid "Set the motor mode."
+msgstr "设置电机模式。"
+
+#: ../../source/unit/rollercan.rst:112 b8530c912d5d410aa7c411e51c9b26fe
+msgid "The mode to set for the motor."
+msgstr "用于设置电机的模式。"
+
+#: ../../source/unit/rollercan.rst:116 5f830df38be14d39b03f60d303c3c23f
+msgid "|set_motor_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:10 ae220ae2ce0b43888d111b38af0aa932
+msgid "set_motor_mode.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:121 6093cec3626043beace96657abad813a
+msgid "Get the motor mode."
+msgstr "获取电机模式。"
+
+#: ../../source/unit/rollercan.rst:123 95f58643375d4e3399d3539514e99d5c
+msgid "The current motor mode."
+msgstr "当前电机模式。"
+
+#: ../../source/unit/rollercan.rst:127 61222189b301495ba0ebb7113b924249
+msgid "|get_motor_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:11 589d131ecc37460f8433bcdbf6ba633e
+msgid "get_motor_mode.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:132 fc2f1bf940244b35973d383de32719d4
+msgid "Set the motor over range protection state."
+msgstr "设置电机超量程保护状态。"
+
+#: ../../source/unit/rollercan.rst:134 ../../source/unit/rollercan.rst:209
+#: 5cc4f0d41947479db0b077839ff24c56 ccc7e6211ab246c58ca03be7d3ad764b
+msgid "Protection state value (1 to enable, 0 to disable)."
+msgstr "保护状态值（1 表示启用，0 表示禁用）。"
+
+#: ../../source/unit/rollercan.rst:138 7e513c6822e94d00ab23f09fc02b7f1b
+msgid "|set_motor_over_range_protect_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:12 5cc46171e4fe44169069ae2d1daaea71
+msgid "set_motor_over_range_protect_state.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:143 8f6f5dbe20f54bc89d69565643df2e24
+msgid "Get the motor over range protection status."
+msgstr "获取电机超范围保护状态。"
+
+#: ../../source/unit/rollercan.rst:145 406ca158f8464dd4a9169b4cb233a2a1
+msgid "True if protection is enabled, False otherwise."
+msgstr "如果启用了保护，则为 True；否则为 False。"
+
+#: ../../source/unit/rollercan.rst:149 105a896896cf4028bbe910899ca2603f
+msgid "|get_motor_over_range_protect_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:13 94038b1c34064a05b4b22ddb8af081f9
+msgid "get_motor_over_range_protect_state.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:154 7c96cc3c86594d75bd2e786951dd27c3
+msgid "Set the motor jam release protection."
+msgstr "设置电机卡滞释放保护。"
+
+#: ../../source/unit/rollercan.rst:158 1f873b9ceda141c8b409687c8b374814
+msgid "|remove_motor_jam_protect.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:14 aae51ba2d70e41ffbdbf3721a59deb5f
+msgid "remove_motor_jam_protect.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:163 4caa2eccc75948d3aaa16d5b3b715fc4
+msgid "Get the motor status."
+msgstr "获取电机状态。"
+
+#: ../../source/unit/rollercan.rst:165 7034d54689b6458890808da19b303567
+msgid "The current status of the motor."
+msgstr "电机的当前状态。"
+
+#: ../../source/unit/rollercan.rst:169 c707dd9ee0bb4001b392b509268537c5
+msgid "|get_motor_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:15 8be0f2b4c9954e5e953a7ab7def200a7
+msgid "get_motor_status.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:174 23784ea96a90406ba856c36334d35acc
+msgid "Get the motor error code."
+msgstr "获取电机错误代码。"
+
+#: ../../source/unit/rollercan.rst:176 2c069c6314774415a985369f8f304e56
+msgid "The current error code of the motor."
+msgstr "电机的当前错误代码。"
+
+#: ../../source/unit/rollercan.rst:180 6b0fef86bd9c49d2a1fc8e416d0f3679
+msgid "|get_motor_error_code.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:16 b4d45788eb74459a967beb7146dd0820
+msgid "get_motor_error_code.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:185 26220260396147eda24b93a8ed8c0729
+msgid "Set the button change mode."
+msgstr "设置按键切换模式。"
+
+#: ../../source/unit/rollercan.rst:187 cf0af30278cc4b0e9a9e0b1a28f9d24a
+msgid "Change mode state value (1 to enable, 0 to disable)."
+msgstr "更改模式状态值（1 为启用，0 为禁用）。"
+
+#: ../../source/unit/rollercan.rst:191 d045d46691d9496598db8396dae8b539
+msgid "|set_button_change_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:17 81513f97c75c41bebbbe9cb43d745263
+msgid "set_button_change_mode.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:196 8e66e822fd7e4e439942ca7375c3a9f3
+msgid "Get the button change mode."
+msgstr "获取按钮切换模式。"
+
+#: ../../source/unit/rollercan.rst:198 9b015c53ac54453aaebd653f46eead51
+msgid "The current button change mode value."
+msgstr "当前按钮用于切换模式值。"
+
+#: ../../source/unit/rollercan.rst:202 d1c8b6bfaecd4990bb76521d69b8024a
+msgid "|get_button_change_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:39 5a19f0086d464e46bfe549576808e31b
+msgid "get_button_change_mode.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:207 cebd618cc1c6499aa335090f83dac7ea
+msgid "Set the motor jam protection enable/disable."
+msgstr "设置电机卡滞保护启用/禁用。"
+
+#: ../../source/unit/rollercan.rst:213 9badece6701347e088db72e62cdee75d
+msgid "|set_motor_jam_protect_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:18 98afb89e731c4b9dbcf2f060eccae4b0
+msgid "set_motor_jam_protect_state.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:218 2a106de83a1e40e0aa9b343e8aebb26a
+msgid "Get the motor jam protection status."
+msgstr "获取电机堵转保护状态。"
+
+#: ../../source/unit/rollercan.rst:220 c19fd3c5a0014e8b9f55996fcacc503c
+msgid "True if jam protection is enabled, False otherwise."
+msgstr "如果启用了防夹保护则为 True，否则为 False。"
+
+#: ../../source/unit/rollercan.rst:224 f23f29fef42b42d8bb36d45092f363a9
+msgid "|get_motor_jam_protect_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:19 a8b31316339b4a91a20c4e22dfb015bf
+msgid "get_motor_jam_protect_state.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:229 b3cc47924cbd47348a797580654f93ec
+msgid "Set the motor ID."
+msgstr "设置电机 ID。"
+
+#: ../../source/unit/rollercan.rst:231 deea2b5ad7fb4321be687a12899df0f9
+msgid "The ID to assign to the motor."
+msgstr "要分配给电机的 ID。"
+
+#: ../../source/unit/rollercan.rst:235 278e936aa2514ec8a7b23bf46fe41ad8
+msgid "|set_motor_id.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:20 7dfff43702274874abfa74ac35c8d164
+msgid "set_motor_id.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:240 dc404256143b457482a80abb037ca056
+msgid "Get the motor ID."
+msgstr "获取电机 ID。"
+
+#: ../../source/unit/rollercan.rst:242 99d6fb3ffe1e4949970727daa6ec0fc6
+msgid "The current motor ID."
+msgstr "当前电机 ID。"
+
+#: ../../source/unit/rollercan.rst:246 3f98fddd650149d89e18cd1384281536
+msgid "|get_motor_id.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:21 6e3aa0f20ab74df59d49e560fbea039d
+msgid "get_motor_id.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:250 02c4fb78aa0b4a0d8f740cd595a855ee
+msgid "Set the can baudrate."
+msgstr "设置 CAN 波特率。"
+
+#: ../../source/unit/rollercan.rst:252 bf1019d01f9f4b15a8186f0a9f60f669
+msgid "Baud rate value."
+msgstr "波特率值。"
+
+#: ../../source/unit/rollercan.rst:256 1e11e91a07d54153b60f66fd1975a20d
+msgid "|set_can_baudrate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:22 bdcc9ff653544108ac8e7ffb0a82af68
+msgid "set_can_baudrate.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:260 65dbb09257f64094845b8395b1b57fff
+msgid "Get the can baudrate."
+msgstr "获取 CAN 波特率。"
+
+#: ../../source/unit/rollercan.rst:262 1528b7ce44da42818c9547a6101f3e63
+msgid "The current can baudrate."
+msgstr "当前 CAN 波特率。"
+
+#: ../../source/unit/rollercan.rst:266 51df83938b4d41ba981ad328996c7ccc
+msgid "|get_can_baudrate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:23 ff9819833099417ab4bedc8acaafa22e
+msgid "get_can_baudrate.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:271 9536b99670a04165948fa51a8316dc28
+msgid "Set RGB brightness."
+msgstr "设置 RGB 亮度。"
+
+#: ../../source/unit/rollercan.rst:273 0f196b6663184103b2e70bbe8a07d82f
+msgid "Brightness value."
+msgstr "亮度值。"
+
+#: ../../source/unit/rollercan.rst:277 73429b9710334bc8bb6383d252ac0606
+msgid "|set_rgb_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:24 cfcdc968d516412daf6e64ef491e64cf
+msgid "set_rgb_brightness.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:282 5e265f0748984de4ba68f035147dffb2
+msgid "Get RGB brightness."
+msgstr "获取 RGB 亮度。"
+
+#: ../../source/unit/rollercan.rst:284 67bffc3448774d06a91f0ef254bbccb3
+msgid "The current RGB brightness value."
+msgstr "当前 RGB 亮度值。"
+
+#: ../../source/unit/rollercan.rst:288 306aaa88f69a451daa0deadadb01fe7c
+msgid "|get_rgb_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:25 f18331e03a62410c89a65bdc07e9bc2c
+msgid "get_rgb_brightness.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:293 ../../source/unit/rollercan.rst:315
+#: 58a02da29f744afcbe5148c93546c0b6 b223eb31333c4f5d9d6fe89dc6d2e268
+msgid "Set the motor speed and max current setting."
+msgstr "设置电机速度和最大电流配置。"
+
+#: ../../source/unit/rollercan.rst:295 4f55bf0f0a984045872ad4f51f492b12
+msgid "The speed value to set."
+msgstr "要设置的速度值。"
+
+#: ../../source/unit/rollercan.rst:299 84ed7b9a425f48ee94900993d5529db6
+msgid "|set_motor_speed.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:26 cb93a7df3da14d1abe57c7120cfca828
+msgid "set_motor_speed.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:304 ../../source/unit/rollercan.rst:326
+#: 5f70b9219da24eeca729f32af4c27457 bbf9d3010fe14530925061ce5da0a339
+msgid "Get the motor speed and max current setting."
+msgstr "获取电机速度和最大电流设置。"
+
+#: ../../source/unit/rollercan.rst:306 bed6e2f448bd4e4eb03e21f2827760d9
+msgid "The current motor speed."
+msgstr "当前电机速度。"
+
+#: ../../source/unit/rollercan.rst:310 56ac73e30780466c80bc4c19b3312450
+msgid "|get_motor_speed.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:27 a2555a1f3a6047d3a7856f7b41f44e92
+msgid "get_motor_speed.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:317 ../../source/unit/rollercan.rst:396
+#: 27bbe72b6b5c4ea298218ab856eb5525 3f027345c1ba4f589488b9cbaead2577
+msgid "The max current value to set."
+msgstr "要设置的最大电流值。"
+
+#: ../../source/unit/rollercan.rst:321 1b2eaadc849248e59cdc5841fbcfe564
+msgid "|set_speed_max_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:28 5be33b32eb434ff8a1dbd69ccd087408
+msgid "set_speed_max_current.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:328 ../../source/unit/rollercan.rst:407
+#: 3da147e4b9ac4ba5844826ab02281280 a9d785b06b524fffbb1051fd4d94f5f1
+msgid "The current max current setting."
+msgstr "当前最大电流设置。"
+
+#: ../../source/unit/rollercan.rst:332 6f71112f171948e5a9acfc6605d58500
+msgid "|get_speed_max_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:29 ed36c50313d1401684faa5f3d43d7401
+msgid "get_speed_max_current.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:337 19de49a38ae6457d8544d0cb98c62227
+msgid "Get the motor speed readback."
+msgstr "获取电机速度回读值。"
+
+#: ../../source/unit/rollercan.rst:339 9e41b9a2f6c24aeeabc284841a547903
+msgid "The readback value of the motor speed."
+msgstr "电机转速的回读值。"
+
+#: ../../source/unit/rollercan.rst:343 3ae4dd9b0f9b4cb2b81ccdb67d35b7f7
+msgid "|get_motor_speed_readback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:30 4217c9c88ff845a2908e7d89c0e75646
+msgid "get_motor_speed_readback.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:348 7f716025e82f49438a8fb1c94cd773cf
+msgid "Set the motor speed PID."
+msgstr "设置电机速度 PID。"
+
+#: ../../source/unit/rollercan.rst:350 ../../source/unit/rollercan.rst:440
+#: 0f0ae3eb3e134b26b4eb00bec55837a0 34497cebc1a141d0bd24bb5508d3fbcb
+msgid "Proportional gain."
+msgstr "比例增益。"
+
+#: ../../source/unit/rollercan.rst:351 ../../source/unit/rollercan.rst:441
+#: 6e9eb9ee77084297b686c000b40e226a 8af7df01ce6648759f403d665bf299f4
+msgid "Integral gain."
+msgstr "积分增益。"
+
+#: ../../source/unit/rollercan.rst:352 ../../source/unit/rollercan.rst:442
+#: 2f56cf2cfba84736bdf9387e0cc2d187 5e824301e82945d89699b8441fd3048c
+msgid "Derivative gain."
+msgstr "微分增益。"
+
+#: ../../source/unit/rollercan.rst:356 4b92c127eedc415fa3041a852ad8d119
+msgid "|set_motor_speed_pid.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:31 bf3ac0ba71394745abfb7d08df233023
+msgid "set_motor_speed_pid.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:361 fc686037289f4a59aac29070ecbec1eb
+msgid "Get the motor speed PID."
+msgstr "获取电机速度 PID。"
+
+#: ../../source/unit/rollercan.rst:363 97f912e4d80d43ab85b0f2c7b3c5866b
+msgid "A tuple containing the PID values."
+msgstr "包含 PID 值的元组。"
+
+#: ../../source/unit/rollercan.rst:367 8fc502dd8b394086b57de7c09d8ef026
+msgid "|get_motor_speed_pid.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:32 d5bddefac36f4d49be40502f8b09874f
+msgid "get_motor_speed_pid.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:372 ../../source/unit/rollercan.rst:394
+#: 6c25c6777954497a86de6c3ccd97bc04 776b1e4e2b2b400b80efc46d95b10fb0
+msgid "Set the motor position and max current setting."
+msgstr "设置电机位置和最大电流设置。"
+
+#: ../../source/unit/rollercan.rst:374 a1437e6aba794653a5f846c2d3e33d5d
+msgid "The position value to set."
+msgstr "要设置的位置值。"
+
+#: ../../source/unit/rollercan.rst:378 6fd23464650045a4bc5205e7349f3ddd
+msgid "|set_motor_position.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:33 4938e218a7024167ab9d7f5f4ff638e2
+msgid "set_motor_position.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:383 ../../source/unit/rollercan.rst:405
+#: 0fa3bcc7d9394210ac61bc4e621206e8 51d2a87c1bde4209bde71c3a45df38ad
+msgid "Get the motor position and max current setting."
+msgstr "获取电机位置和最大电流设置。"
+
+#: ../../source/unit/rollercan.rst:385 337d32aab6a240228b16012cd30a8a9f
+msgid "The current motor position."
+msgstr "当前电机位置。"
+
+#: ../../source/unit/rollercan.rst:389 46e1c51b35304ed4a660a4f52422fb27
+msgid "|get_motor_position.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:34 586afa719db34ec88f2fd4101a109e00
+msgid "get_motor_position.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:400 ab42a27dd83d46d4bdadaf91ee411383
+msgid "|set_position_max_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:35 482028a4734d45baaa9c41b46c6ea112
+msgid "set_position_max_current.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:411 6473b03657154a768feb87e4713837ef
+msgid "|get_position_max_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:36 c4ac54439b564d28b83abb321bbce61d
+msgid "get_position_max_current.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:416 07c7bb5390ff4f518b35787ff2859cff
+msgid "Get the motor position readback."
+msgstr "获取电机位置反馈值。"
+
+#: ../../source/unit/rollercan.rst:418 904f09f2b1cb44a2b52189a655273ec4
+msgid "The readback value of the motor position."
+msgstr "电机位置的回读值。"
+
+#: ../../source/unit/rollercan.rst:422 1a795629d9bd4ebd9d8924cffb6a1e2e
+msgid "|get_motor_position_readback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:37 c0c2569be2e04d8ebe99100a0663455b
+msgid "get_motor_position_readback.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:427 a9572b86d12946e78546e0e72d20cb4d
+msgid "Get the motor position PID."
+msgstr "获取电机位置 PID。"
+
+#: ../../source/unit/rollercan.rst:429 7bfabffa78f2471da71498e96b4d7fe7
+msgid "A tuple containing the PID values for position."
+msgstr "一个包含位置 PID 值的元组。"
+
+#: ../../source/unit/rollercan.rst:433 79b64ae3556045a5ac19de54063edc14
+msgid "|get_motor_position_pid.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:38 573b13dc34df4d3abaeb7519dc8603b8
+msgid "get_motor_position_pid.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:438 02e1ef15097f4219b6feb30f3de3ab32
+msgid "Set the motor position PID."
+msgstr "设置电机位置 PID。"
+
+#: ../../source/unit/rollercan.rst:446 861d807477bf4d52b8f96b4f132d18bf
+msgid "|set_motor_position_pid.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:40 135bfc518aa446449fbb5a4ba189a776
+msgid "set_motor_position_pid.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:451 a5bb7cdedbb14897b1cbd1978c4d4d59
+msgid "Set the motor max current."
+msgstr "设置电机最大电流。"
+
+#: ../../source/unit/rollercan.rst:453 eea2da10a3644db0bcf9a60dfee958fb
+msgid "The maximum current for the motor, multiplied by 100 before sending."
+msgstr "电机的最大电流，在发送前乘以 100。"
+
+#: ../../source/unit/rollercan.rst:457 0e57b3a9c2704ef09fea0079adcba027
+msgid "|set_motor_max_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:41 7e78a02557df4f32b0489d5e06efeda5
+msgid "set_motor_max_current.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:462 69e6c60f6d5b4f64ace50a3f6d5ee81f
+msgid "Get the motor max current."
+msgstr "获取电机最大电流。"
+
+#: ../../source/unit/rollercan.rst:464 f12f749d744147eda6ea9a42fa8c986f
+msgid "The motor max current, divided by 100 after reading."
+msgstr "电机最大电流，读取后除以 100。"
+
+#: ../../source/unit/rollercan.rst:468 b98934921a3442aaab82f931430512d2
+msgid "|get_motor_max_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:42 b4eb47a3793c45eb851f60d15e8112e4
+msgid "get_motor_max_current.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:473 f91dca407e0c466794b89129f25b34d2
+msgid "Get the motor current readback."
+msgstr "获取电机电流读回值。"
+
+#: ../../source/unit/rollercan.rst:475 a7854941bd594b3493558fd87c02f0ab
+msgid "The motor current readback value, divided by 100 after reading."
+msgstr "电机电流回读值，读取后除以 100。"
+
+#: ../../source/unit/rollercan.rst:479 7a8e45c4981246bda0303a1915bb71c3
+msgid "|get_motor_current_readback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:43 2f366aedc9fe42c181821854f3866da9
+msgid "get_motor_current_readback.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:484 e81d8efe086e41d2a9aef89824c1d744
+msgid "Set the system RGB color."
+msgstr "设置系统 RGB 颜色。"
+
+#: ../../source/unit/rollercan.rst:486 709e0f726a074f9da297f0318b0219bd
+msgid "The RGB color value, where the format is 0xRRGGBB."
+msgstr "RGB 颜色值，格式为 0xRRGGBB。"
+
+#: ../../source/unit/rollercan.rst:490 4d7eca951f0b4977a8c026ba091f167a
+msgid "|set_rgb_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:44 e7f2e6c6908b4a90bf26feb272355f55
+msgid "set_rgb_color.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:495 24e8d7cbeb68461297360673d9f47241
+msgid "Get the system RGB color."
+msgstr "获取系统 RGB 颜色。"
+
+#: ../../source/unit/rollercan.rst:497 9b0e4136948c4bfabc26a6b141575a79
+msgid "The RGB color as a tuple (R, G, B)."
+msgstr "RGB 颜色，以元组 (R, G, B) 表示。"
+
+#: ../../source/unit/rollercan.rst:501 0d53a5ce39e8447dae1fda2b089a458f
+msgid "|get_rgb_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:45 5369ccc8fe854c279b687cb476d7399f
+msgid "get_rgb_color.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:506 a7e5ad3d3e574dfa8ac2d915066a1c46
+msgid "Set the system RGB mode."
+msgstr "设置系统 RGB 模式。"
+
+#: ../../source/unit/rollercan.rst:508 66fe42de0cf048a0bdcd4e53c38fa3e4
+msgid "The RGB mode value."
+msgstr "RGB 模式值。"
+
+#: ../../source/unit/rollercan.rst:512 d1fbc5d8bf6346c0b8fa2e8d4333b4e2
+msgid "|set_rgb_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:46 3cc00dc55515434d91387475ba63528f
+msgid "set_rgb_mode.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:517 e43a484e83f14e8098f9371aa1b3ad6d
+msgid "Get the system RGB mode."
+msgstr "获取系统 RGB 模式。"
+
+#: ../../source/unit/rollercan.rst:519 97b99752158940eb877579a9d76e07a6
+msgid "The current RGB mode value."
+msgstr "当前的 RGB 模式值。"
+
+#: ../../source/unit/rollercan.rst:523 3c501f953f8d4e2288762a8f9d531c4b
+msgid "|get_rgb_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:47 a106134dfa6049a791847e13b2e94562
+msgid "get_rgb_mode.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:528 c0a05e75af084161acafbb6b94643638
+msgid "Get the system VIN voltage."
+msgstr "获取系统 VIN 电压。"
+
+#: ../../source/unit/rollercan.rst:530 36c3af24669746b8ac492bac870eb4e5
+msgid "The system VIN voltage value, multiplied by 10 after reading."
+msgstr "系统 VIN 电压值，读取后乘以 10。"
+
+#: ../../source/unit/rollercan.rst:534 7b3be90f02b54fcdbc5fcaf4a81d21db
+msgid "|get_vin_voltage.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:48 35cfbed1738f45f1a6908b6cbb88a186
+msgid "get_vin_voltage.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:539 79323a11e2d74fd8ac1f593022dbd871
+msgid "Get the system temperature."
+msgstr "获取系统温度。"
+
+#: ../../source/unit/rollercan.rst:541 f71cf5ee7f2e4ea696e8dc0498db8a7c
+msgid "The current system temperature value."
+msgstr "当前系统温度值。"
+
+#: ../../source/unit/rollercan.rst:545 bb381a5aa13b49e2812fe8440f082444
+msgid "|get_temperature_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:49 6f1fcba21677498396cc3283eae9ad5f
+msgid "get_temperature_value.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:550 df3c28f3ffc44ac1a2b11825a6c59ff0
+msgid "Set the system encoder value."
+msgstr "设置系统编码器的值。"
+
+#: ../../source/unit/rollercan.rst:552 a8a36001ebb14ed2afb1f99ad9733d4e
+msgid "The encoder count value."
+msgstr "编码器计数值。"
+
+#: ../../source/unit/rollercan.rst:556 b800159bb4534b9cb2b4239ea4e661c2
+msgid "|set_encoder_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:50 cd0cd000908b433483770018f8622cf6
+msgid "set_encoder_value.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:561 6a161a53c4ee4ab49065aa5218cc44d3
+msgid "Get the system encoder value."
+msgstr "获取系统编码器的值。"
+
+#: ../../source/unit/rollercan.rst:563 669175dc038b4edba72ec0882c69b7ef
+msgid "The current encoder value."
+msgstr "当前的编码器值。"
+
+#: ../../source/unit/rollercan.rst:567 f1e45388d8d14d829670278926832ce3
+msgid "|get_encoder_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:51 2155c59395874cb581a2f44f0a674141
+msgid "get_encoder_value.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:572 447e2714955c409b9f92e5346a817bd6
+msgid "Save the motor data to flash."
+msgstr "将电机数据保存到 flash。"
+
+#: ../../source/unit/rollercan.rst:577 9f4f7514ed4d44d699778a2d9532d984
+msgid "|save_param_to_flash.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:52 8951919756be40bba7a8a995a44ff500
+msgid "save_param_to_flash.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:582 a25c48fba5144986a865777fe70d4be2
+msgid "Get the device firmware version."
+msgstr "获取设备固件版本。"
+
+#: ../../source/unit/rollercan.rst:584 dc33c0e2772c44d482a26b1c43026f44
+msgid "The current firmware version."
+msgstr "当前固件版本。"
+
+#: ../../source/unit/rollercan.rst:588 1347458e40f14afb9ecdd23a45bade57
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:53 a259d73b486f4dc784b3060df0798dd4
+msgid "get_firmware_version.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:593 4cb7114ff55044999eefe27665bffd1f
+msgid "Set the I2C address."
+msgstr "设置 I2C 地址。"
+
+#: ../../source/unit/rollercan.rst:595 9a25f57f1b444951a8377dd2cb1b108c
+msgid "The new I2C address. Must be between 0x08 and 0x77."
+msgstr "新的 I2C 地址。必须在 0x08 到 0x77 之间。"
+
+#: ../../source/unit/rollercan.rst:599 60f6580d3f62458cab74e9c05a38b016
+msgid "|set_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:54 cabdbbb4f2c14b48b7566a66dc745456
+msgid "set_i2c_address.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:604 9a6d2ccc0fc4453e932120e75b8ffb24
+msgid "Get the current I2C address."
+msgstr "获取当前 I2C 地址。"
+
+#: ../../source/unit/rollercan.rst:606 dc1966a57b6a42f4aec6158793cc1f07
+msgid "The current I2C address."
+msgstr "当前 I2C 地址。"
+
+#: ../../source/unit/rollercan.rst:610 ce695e3f8b1a479b97c8a97da9adb3db
+msgid "|get_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rollercan.ref:55 51292b5464e24a2e95feb9a894ae8a71
+msgid "get_i2c_address.png"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:614 c1ea870500314041b79e705ec8dab3d1
+msgid "class RollerI2C(RollerBase)"
+msgstr ""
+
+#: ../../source/unit/rollercan.rst:622 123ccc13873d4172bb0c0b89153d3b2a
+msgid "Initialize the RollerI2C object."
+msgstr "初始化 RollerI2C 对象。"
+
+#: ../../source/unit/rollercan.rst:624 c28384478f184e2488e471bb91579e5e
+msgid "I2C bus instance or PAHUBUnit instance."
+msgstr "I2C 总线实例或 PAHUBUnit 实例。"
+
+#: ../../source/unit/rollercan.rst:625 3a0225204cb64db799d67a150208e33c
+msgid "I2C address of the device. Defaults to _ROLLER485_I2C_ADDR."
+msgstr "设备的 I2C 地址。默认为 _ROLLER485_I2C_ADDR。"
+
+#: ../../source/unit/rollercan.rst:633 bb615969ce044327974f421b08da834d
+msgid "Read data from a specified register on the I2C device."
+msgstr "从 I2C 设备上的指定寄存器读取数据。"
+
+#: ../../source/unit/rollercan.rst:635 6401dcc0159d4dfd88b95d8fd978fe09
+msgid "The name of the register to read from."
+msgstr "要读取的寄存器名称。"
+
+#: ../../source/unit/rollercan.rst:636 ee69a860a5f749c28879cf41feb791c2
+msgid "The number of bytes to read."
+msgstr "要读取的字节数。"
+
+#: ../../source/unit/rollercan.rst:637 a3349d3c06ed4196ad5ebf8c36f71af8
+msgid "The data read from the device as a bytes object."
+msgstr "从设备读取的数据，以 bytes 对象形式返回。"
+
+#: ../../source/unit/rollercan.rst:642 6f7547f654794bb29b44ef603321d865
+msgid "Write data to a specified register on the I2C device."
+msgstr "将数据写入 I2C 设备上的指定寄存器。"
+
+#: ../../source/unit/rollercan.rst:644 ce55a6d09c9a464083ff26850c9494a4
+msgid "The name of the register to write to."
+msgstr "要写入的寄存器名称。"
+
+#: ../../source/unit/rollercan.rst:645 fe6aeaef9f5b4684baf61aa5d6cd8a95
+msgid "The data to write to the register as a bytes object."
+msgstr "要写入寄存器的数据，格式为 bytes 对象。"
+
+#: ../../source/unit/rollercan.rst:649 898ab819eb8c46afac2fcd81b13c4d01
+msgid "class RollerCAN(RollerBase)"
+msgstr "class RollerCAN(RollerBase)"
+
+#: ../../source/unit/rollercan.rst:656 8af722c813ee469e8ecf3499d0f51b10
+msgid "Initialize the RollerCAN object."
+msgstr "初始化 RollerCAN 对象。"
+
+#: ../../source/unit/rollercan.rst:658 ../../source/unit/rollercan.rst:718
+#: 8b8af6118fa94f3986f068627039ea76 b61ea218f52742f9a607343b45bab38d
+msgid "The CAN bus instance."
+msgstr "CAN 总线实例。"
+
+#: ../../source/unit/rollercan.rst:660 ../../source/unit/rollercan.rst:720
+#: 6d97a39e269b441c835665ccf024292f bdaef8f791ff45e19206b89821854359
+msgid "Optional mode for setting specific operational mode."
+msgstr "用于设置特定运行模式的可选模式。"
+
+#: ../../source/unit/rollercan.rst:667 68457f15ab38407c802066539fc555db
+msgid "Create a CAN frame for sending commands."
+msgstr "创建一个用于发送命令的 CAN 帧。"
+
+#: ../../source/unit/rollercan.rst:669 7bf03627e1704e3d870d60c15dc8f475
+msgid "The register for command identification."
+msgstr "用于命令识别的寄存器。"
+
+#: ../../source/unit/rollercan.rst:670 34b33ce0565f421ba88674327224f42b
+msgid "Command option to specify the data."
+msgstr "用于指定数据的命令选项。"
+
+#: ../../source/unit/rollercan.rst:671 daffe7c19ced4746b8ef975408dc0421
+msgid "Data payload for the frame."
+msgstr "帧的数据负载。"
+
+#: ../../source/unit/rollercan.rst:672 c72359a4f1fa42918a986bd2bc3bfd2e
+msgid "Whether this frame is for a read command."
+msgstr "该帧是否为读命令。"
+
+#: ../../source/unit/rollercan.rst:676 03fd1916b5f84e64b9217698fa2d0ad7
+msgid "Send a read command to a specific register."
+msgstr "向指定寄存器发送读命令。"
+
+#: ../../source/unit/rollercan.rst:678 faa4cf17e11d45ffa927ad93649545b5
+msgid "The register address to read from."
+msgstr "要读取的寄存器地址。"
+
+#: ../../source/unit/rollercan.rst:679 be922d0f09c14af79736ec38837ce171
+msgid "Length of data to read."
+msgstr "要读取的数据长度。"
+
+#: ../../source/unit/rollercan.rst:683 7153dafe9c58418ebdcf69231975e56c
+msgid "Read data from an I2C slave via CAN."
+msgstr "通过 CAN 从 I2C 从机读取数据。"
+
+#: ../../source/unit/rollercan.rst:685 b2b4e08a166d42d5badeb9131804bc1d
+msgid "The I2C register address to read from."
+msgstr "要读取的 I2C 寄存器地址。"
+
+#: ../../source/unit/rollercan.rst:686 ../../source/unit/rollercan.rst:731
+#: ../../source/unit/rollercan.rst:754 2cf2574d9baf400bb675b8d782b12da5
+#: 5a83b4d453a549d3a59a360dbd4b243f a242ef1cc5314d5eb22397a5b1a74207
+msgid "Number of bytes to read."
+msgstr "要读取的字节数。"
+
+#: ../../source/unit/rollercan.rst:690 f20387bc2e1d4eb5924b98b9f995d0bf
+msgid "Write data to an I2C slave via CAN."
+msgstr "通过 CAN 向 I2C 从设备写入数据。"
+
+#: ../../source/unit/rollercan.rst:692 ac87449a2a3e4c7ca279d5605c85540b
+msgid "The I2C register address to write to."
+msgstr "要写入的 I2C 寄存器地址。"
+
+#: ../../source/unit/rollercan.rst:693 67e09be964d44a2f88f74ad28e7a24da
+msgid "The data to write."
+msgstr "要写入的数据。"
+
+#: ../../source/unit/rollercan.rst:694 ../../source/unit/rollercan.rst:769
+#: d819e3ca84e84b24bce4c19cbd8f9698 fb60ec40485c4b4baa901b37240be693
+msgid "Whether to end the transaction with a stop condition."
+msgstr "是否使用停止条件结束传输。"
+
+#: ../../source/unit/rollercan.rst:698 94361b735b7e45bdb69a3aed2ff8fbb9
+msgid "Write data to a specific register."
+msgstr "将数据写入指定寄存器。"
+
+#: ../../source/unit/rollercan.rst:700 f5524f56be3c4b80a8fbbcf1ee31ce86
+msgid "The register address to write to."
+msgstr "要写入的寄存器地址。"
+
+#: ../../source/unit/rollercan.rst:701 f603a1367efc47e3b5a55334438bc44e
+msgid "Data payload to send to the register."
+msgstr "要发送到寄存器的数据负载。"
+
+#: ../../source/unit/rollercan.rst:705 fd0be19be6bc4360af72be97ec3df1b9
+msgid "Read the response data from the CAN bus."
+msgstr "从 CAN 总线读取响应数据。"
+
+#: ../../source/unit/rollercan.rst:709 c2f8fb31cd504457ba189c37467d15de
+msgid "class RollerCANToI2CBus(RollerBase)"
+msgstr "class RollerCANToI2CBus(RollerBase)"
+
+#: ../../source/unit/rollercan.rst:716 f620ad19f16e4b73855766ebdddb57a5
+msgid "Initialize RollerCANToI2CBus object with CAN bus and address."
+msgstr "使用 CAN 总线和地址初始化 RollerCANToI2CBus 对象。"
+
+#: ../../source/unit/rollercan.rst:719 589d605dd9bf441793209b74ca53dd0d
+msgid "The I2C device address, default is _ROLLERCAN_I2C_ADDR."
+msgstr "I2C 设备地址，默认为 _ROLLERCAN_I2C_ADDR。"
+
+#: ../../source/unit/rollercan.rst:727 6db32beb12b54e7b87011b4897d5d0b3
+msgid "Read data from an I2C memory register."
+msgstr "从 I2C 内存寄存器读取数据。"
+
+#: ../../source/unit/rollercan.rst:729 ../../source/unit/rollercan.rst:737
+#: ../../source/unit/rollercan.rst:745 ../../source/unit/rollercan.rst:753
+#: ../../source/unit/rollercan.rst:760 ../../source/unit/rollercan.rst:767
+#: 3dc942c923e54a909165b87dd0110903 4a3c8be5be4c463090d4a82f45132b78
+#: 6445ab65a0f84b02923e96f649baded3 8358472abe0a45019588a5244a207c18
+#: 9138f953a2aa4f4bacc264fe0783b99b d9fb9e3326f4436b89a25ed98272022c
+msgid "I2C device address."
+msgstr "I2C 设备地址。"
+
+#: ../../source/unit/rollercan.rst:730 ../../source/unit/rollercan.rst:738
+#: ../../source/unit/rollercan.rst:746 30ba41d860d54ddd9538df351112347d
+#: ae6adb86921c478282589eccb5e147ca b16d578e8e7d490dbb9ff5bb44d33770
+msgid "Memory register address."
+msgstr "存储器寄存器地址。"
+
+#: ../../source/unit/rollercan.rst:735 5994253e3e6548e0bbb472edb83eeb56
+msgid "Read data from an I2C memory register and store it in the provided buffer."
+msgstr "从 I2C 存储器寄存器读取数据，并将其存储到提供的缓冲区中。"
+
+#: ../../source/unit/rollercan.rst:739 ../../source/unit/rollercan.rst:761
+#: 57ce75668754424ebba61bd8b3b4e05c c2316b065a02471aa5f1c6f8f8841803
+msgid "Buffer to store the data."
+msgstr "用于存储数据的缓冲区。"
+
+#: ../../source/unit/rollercan.rst:743 e9363ccc036f4d43ab358b0f54826b58
+msgid "Write data to an I2C memory register."
+msgstr "写入数据到 I2C 存储器寄存器。"
+
+#: ../../source/unit/rollercan.rst:747 ../../source/unit/rollercan.rst:768
+#: 8d79fd818623480d9419e7a139b65dcc f619da93d1de4d208c58370f7741b6d0
+msgid "Data to write."
+msgstr "要写入的数据。"
+
+#: ../../source/unit/rollercan.rst:751 226a2cfa8123429d9dc98ba2a70840d2
+msgid "Read data from an I2C device."
+msgstr "从 I2C 设备读取数据。"
+
+#: ../../source/unit/rollercan.rst:758 dbaab6d74a3a4ee791f7deb8db2a9a03
+msgid "Read data from an I2C device and store it in the provided buffer."
+msgstr "从 I2C 设备读取数据，并将其存储到提供的缓冲区中。"
+
+#: ../../source/unit/rollercan.rst:765 4d241731b9694e07b279fd0906f8b2d3
+msgid "Write data to an I2C device in chunks."
+msgstr "将数据分块写入 I2C 设备。"
+
+#: ../../source/unit/rollercan.rst:773 f837a73e2e684001bec9bf7b7aa1c8c3
+msgid "Scan for I2C devices on the bus."
+msgstr "扫描 I2C 总线上的设备。"
+

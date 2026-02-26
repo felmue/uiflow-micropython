@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/dc_motor.rst:2 ebb43f8043544fc39c9c76c5576f4683
 msgid "DCMotor Module"
-msgstr ""
+msgstr "DCMotor 模块"
 
 #: ../../en/module/dc_motor.rst:8 a5adc7dee4aa45a9acec8be86e0aa94e
 msgid ""
@@ -40,12 +40,11 @@ msgstr ""
 
 #: ../../en/refs/module.dc_motor.ref 571cb040b67440b2a58e24ed143c163c
 msgid "Module DCMotor"
-msgstr ""
+msgstr "Module DCMotor"
 
 #: ../../en/module/dc_motor.rst:15 8da532073e1d4472b8e077c63028b339
-#, fuzzy
 msgid "UiFlow2 Example"
-msgstr "UiFlow2 应用示例："
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/module/dc_motor.rst:18 ../../en/module/dc_motor.rst:37
 #: 1ff7eea4bf474ef8a9d19b094f9895f5 61923d9f525e4fcaa355c7a0579aaec9
@@ -98,9 +97,8 @@ msgid "None"
 msgstr "无"
 
 #: ../../en/module/dc_motor.rst:34 a77c6f7506444733bee119b70a5f7a80
-#, fuzzy
 msgid "MicroPython Example"
-msgstr "MicroPython 应用示例："
+msgstr "MicroPython 应用示例"
 
 #: ../../en/module/dc_motor.rst:42 1b3d2932e7ca4b1489863d6e1b76550b
 #: 3d924687477547ceb56dcd4b7c69897a 61fc37bba4a34354afa4aa122f0f49f3
@@ -119,11 +117,11 @@ msgstr "API应用"
 
 #: ../../en/module/dc_motor.rst:56 980d2ee4a01b4818a3bb8ea4cb26be42
 msgid "DCMotorModule"
-msgstr ""
+msgstr "DCMotorModule"
 
 #: bc0f297a04834a6eb424d24793df110b module.dc_motor.DCMotorModule:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: b8f981f3589d487ba1e9fbbe6bac9b76 module.dc_motor.DCMotorModule:1 of
 msgid "Create an DCMotorModule object."

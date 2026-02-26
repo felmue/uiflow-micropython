@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/base/dtu_lorawan.rst:2 a9d6721cebaf48b18af1a13cfc3ee68f
 msgid "Atom DTU LoRaWAN-Series Base"
-msgstr ""
+msgstr "Atom DTU LoRaWAN 系列底座"
 
 #: ../../en/base/dtu_lorawan.rst:8 d2fc2c808a424bf38f4757b9198a837c
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../en/refs/base.dtu_lorawan.ref c456771d00b94a359f75f4083c49a2db
 msgid "Atom DTU LoRaWAN470"
-msgstr ""
+msgstr "Atom DTU LoRaWAN470"
 
 #: ../../en/base/dtu_lorawan.rst:13 b1f10446da74426fb610641074d2a07f
 msgid "|Atom DTU LoRaWAN868|"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../en/refs/base.dtu_lorawan.ref e41298704f6f44339eb8b9a7686f3a1b
 msgid "Atom DTU LoRaWAN868"
-msgstr ""
+msgstr "Atom DTU LoRaWAN868"
 
 #: ../../en/base/dtu_lorawan.rst:13 beac1e93f8e34f979995384b241148f0
 msgid "|Atom DTU LoRaWAN915|"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: ../../en/refs/base.dtu_lorawan.ref e1ecf4fa4cde4c5a8a144e696738f745
 msgid "Atom DTU LoRaWAN915"
-msgstr ""
+msgstr "Atom DTU LoRaWAN915"
 
 #: ../../en/base/dtu_lorawan.rst:17 bfdf89bbb9b64102b590718ff191e24d
 msgid "UiFlow2 Example"
@@ -141,15 +141,15 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/base/dtu_lorawan.rst:53 3bbbc1bb771b434baf662d6ce997e279
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: ../../en/base/dtu_lorawan.rst:56 5fa8395d2d924490a1d790e1e1ba49ee
 msgid "AtomDTULoRaWANBase"
-msgstr ""
+msgstr "AtomDTULoRaWANBase"
 
 #: base.dtu_lorawan.AtomDTULoRaWANBase:1 e6f29a1127274972bf070ca7d845a300 of
 msgid "Bases: :py:class:`~driver.asr650x.LoRaWAN_470`"
-msgstr ""
+msgstr "Bases: :py:class:`~driver.asr650x.LoRaWAN_470`"
 
 #: base.dtu_lorawan.AtomDTULoRaWANBase:1 dcead66aab1147f890a9e9c165fbc286 of
 msgid "Create an AtomDTULoRaWANBase object"
@@ -188,7 +188,7 @@ msgstr ""
 
 #: 2da51ecd7e544d9abe14cfe095181f10 driver.asr650x.LoRaWAN_470:1 of
 msgid "Bases: :py:class:`~driver.asr650x.LoRaWAN_Asr650x`"
-msgstr ""
+msgstr "Bases: :py:class:`~driver.asr650x.LoRaWAN_Asr650x`"
 
 #: a5417dbdc0d84bcea32ad6030c2214ca driver.asr650x.LoRaWAN_470:1
 #: driver.asr650x.LoRaWAN_Asr650x:1 of
@@ -376,7 +376,7 @@ msgstr ""
 
 #: c88482d320d64266b899e1e7e0786059 driver.asr650x.LoRaWAN_Asr650x:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: 947e007eb7364ce5b7c3a407bd1fb41d driver.asr650x.LoRaWAN_Asr650x:3 of
 msgid "The UART object."

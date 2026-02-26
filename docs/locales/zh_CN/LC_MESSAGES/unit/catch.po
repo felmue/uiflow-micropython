@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/catch.rst:2 002cf68eda554dabbcb9a8f690ec2fcc
+msgid "Catch Unit"
+msgstr "Catch Unit"
+
+#: ../../source/unit/catch.rst:7 c20e1450c2764402a19f4fe6ec5a2bea
+msgid ""
+"Catch is a gripper that uses a SG92R servo as a power source. The servo "
+"uses a PWM signal to drive the gripper gear to rotate and control the "
+"gripper for clamping and releasing operations. The structure adopts a "
+"design compatible with Lego 8mm round holes. You can combine it with "
+"other Lego components to build creative control structures, such as "
+"robotic arms, gripper carts, etc."
+msgstr ""
+"Catch 是一款以 SG92R 舵机作为动力源的夹爪。该舵机使用 PWM 信号驱动夹爪齿轮旋转，从而控制夹爪进行夹持和释放操作。其结构采用兼容 "
+"Lego 8 mm 圆孔的设计。你可以将其与其他 Lego 组件组合，搭建富有创意的控制结构，例如机械臂、夹爪小车等。"
+
+#: ../../source/unit/catch.rst:14 ab08f1e475dd4058bf31a63aea005095
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/catch.rst:16 0a073740b12d476ca525bd0682744b46
+msgid "|CatchUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.catch.ref 5ecd28f6f52c444d89a894b2bef81a42
+msgid "CatchUnit"
+msgstr "CatchUnit"
+
+#: ../../source/unit/catch.rst:19 fea1a1cb959a49df8f7b0e02cd2a9e0b
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例："
+
+#: ../../source/unit/catch.rst:26 41cb585329494349840d01649dbf923f
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/catch.rst:28 730f36e9229a49e4aacd1cdca3fa966e
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.catch.ref:14 f257302de69f4a1ba5f51c0ad84040d4
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/catch.rst:33 9a649941c132451a8e57ebaac79cc3c8
+msgid "|cores3_catch_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/catch.rst:37 17d6f835a613424a8859b05ba4adf063
+msgid "class CatchUnit"
+msgstr "class CatchUnit"
+
+#: ../../source/unit/catch.rst:40 1a58080a509f4424ab767fcf89aaec6f
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/catch.rst:44 3906b812c1654ea79f854376014b6bd6
+msgid "Initialize the Servo."
+msgstr "初始化 Servo。"
+
+#: ../../source/unit/catch.rst 1c0076a3a6224c87bf0b3308c0c80022
+#: 4cc115e680e04652850d363d31d1b368 d5747c4cbe4948b2902dde2ed8f515bc
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/catch.rst:46 46a95fccc2d3497299d7a1353ea56cd9
+msgid "The port to which the Servo is connected."
+msgstr "Servo 连接到的端口。"
+
+#: ../../source/unit/catch.rst:48 ../../source/unit/catch.rst:60
+#: ../../source/unit/catch.rst:69 ../../source/unit/catch.rst:80
+#: ../../source/unit/catch.rst:91 ../../source/unit/catch.rst:100
+#: 007c0f846ed846fd8a37872c40e546c3 1fde9cb1782a41e19732389d6dde9543
+#: 2ab72724312a4b08bf382d7cb296869b 2b587f85fad3423ebb2dcb1c6a2b07a0
+#: 6a5bfbc338f94f41b22e77a56a314e61 f34df76610af480f9fcdf8ec7dd95d35
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/catch.rst:50 64a3ea117239418bbeabb87653ae4290
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.catch.ref:7 0252c42a61f44a15b76289aa3762dcbe
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/catch.rst:54 d518ba3564db472cbcf6972ce9a131be
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/catch.rst:58 0d1ebf00fee44c36906428f3c92e643a
+msgid "Clamp the gripper."
+msgstr "夹紧夹爪。"
+
+#: ../../source/unit/catch.rst:62 6011f98f58624f2f8ab8c4cb997dbbf3
+msgid "|clamp.png|"
+msgstr ""
+
+#: ../../source/refs/unit.catch.ref:8 8d46cac5326b4360955e8648b416afa3
+msgid "clamp.png"
+msgstr ""
+
+#: ../../source/unit/catch.rst:67 3c9649984ceb4d1c8cf8274c77be7ea5
+msgid "Release the gripper."
+msgstr "释放夹爪。"
+
+#: ../../source/unit/catch.rst:71 eca3d128ce9c41ed89568c0e77f5dade
+msgid "|release.png|"
+msgstr ""
+
+#: ../../source/refs/unit.catch.ref:9 b6e8b768ca374207b508d1eb471a76be
+msgid "release.png"
+msgstr ""
+
+#: ../../source/unit/catch.rst:76 666dcbc876b543b6be8556b740348afe
+msgid "Set the duty cycle."
+msgstr "设置占空比。"
+
+#: ../../source/unit/catch.rst:78 8104d1837d0c4d9ba864f11b14d6e752
+msgid "The duty cycle. from 20 to 54."
+msgstr "占空比：从 20 到 54。"
+
+#: ../../source/unit/catch.rst:82 86091151376e4ef0be0954beca77c077
+msgid "|set_duty.png|"
+msgstr ""
+
+#: ../../source/refs/unit.catch.ref:10 3a3f3e931fac41b9b943e3350374d113
+msgid "set_duty.png"
+msgstr ""
+
+#: ../../source/unit/catch.rst:87 7e6c3ba570394f1285c5aa7144d83283
+msgid "Set the clamping percentage."
+msgstr "设置夹紧百分比。"
+
+#: ../../source/unit/catch.rst:89 45991ca84666416f968d14776f3d14c2
+msgid "The clamping percentage. from 0 to 100."
+msgstr "夹持百分比，从 0 到 100。"
+
+#: ../../source/unit/catch.rst:93 2959acb75f8c4161ac864fce92fb1ba7
+msgid "|set_clamp_percent.png|"
+msgstr ""
+
+#: ../../source/refs/unit.catch.ref:11 63615d6a4c564cadab634f0564a95131
+msgid "set_clamp_percent.png"
+msgstr ""
+
+#: ../../source/unit/catch.rst:98 c17f0b38ed8a47639239d6c36f8df453
+msgid "Deinitialize the Servo."
+msgstr "反初始化 Servo。"
+
+#: ../../source/unit/catch.rst:102 3153f5aa6696407cbae0646f18e006c1
+msgid "|deinit.png|"
+msgstr ""
+
+#: ../../source/refs/unit.catch.ref:12 be98566b214e4e3d8acaf92cc0c30392
+msgid "deinit.png"
+msgstr ""
+

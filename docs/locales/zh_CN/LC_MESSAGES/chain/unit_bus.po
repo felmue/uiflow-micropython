@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/chain/unit_bus.rst:2 ../../en/refs/chain.unit_bus.ref
 #: 25c088ab48ce4ec1a63b8c8bf2cc5b43 c9a549390b504b0c9baad223d0de98e0
 msgid "Unit Chain Bus"
-msgstr ""
+msgstr "Unit Chain Bus"
 
 #: ../../en/chain/unit_bus.rst:6 f7d90ac9f6bf40cc8d0e6198773dac25
 msgid ""
@@ -197,7 +197,7 @@ msgstr "**API**"
 
 #: ../../en/chain/unit_bus.rst:121 26c7e78e32f7464ea67edfe6ee745f47
 msgid "BusChainUnit"
-msgstr ""
+msgstr "BusChainUnit"
 
 #: chain.unit_bus.BusChainUnit:1 f30e4bd7d6bf437e8bf4c196ba7b1b3f of
 msgid "Bases: :py:class:`~chain.key.KeyChain`"
@@ -259,32 +259,32 @@ msgstr "工作模式值："
 #: 30f9d913c115446baf3acbabd9d4de50 chain.unit_bus.BusChainUnit.get_work_mode:6
 #: of
 msgid ":attr:`BusChainUnit.WORK_MODE_UNCONFIGURED`"
-msgstr ""
+msgstr ":attr:`BusChainUnit.WORK_MODE_UNCONFIGURED`"
 
 #: 25bfea9a26c94fbabf823734aafa011a chain.unit_bus.BusChainUnit.get_work_mode:7
 #: of
 msgid ":attr:`BusChainUnit.WORK_MODE_GPIO_OUTPUT`"
-msgstr ""
+msgstr ":attr:`BusChainUnit.WORK_MODE_GPIO_OUTPUT`"
 
 #: 9a305eb1a9324418ac1b3e306a795536 chain.unit_bus.BusChainUnit.get_work_mode:8
 #: of
 msgid ":attr:`BusChainUnit.WORK_MODE_GPIO_INPUT`"
-msgstr ""
+msgstr ":attr:`BusChainUnit.WORK_MODE_GPIO_INPUT`"
 
 #: b4b9efb0bb8d44659d0908ea7733c7d0 chain.unit_bus.BusChainUnit.get_work_mode:9
 #: of
 msgid ":attr:`BusChainUnit.WORK_MODE_EXIT`"
-msgstr ""
+msgstr ":attr:`BusChainUnit.WORK_MODE_EXIT`"
 
 #: 99c870baf1ce4e829493dbb0a2f9d0f7
 #: chain.unit_bus.BusChainUnit.get_work_mode:10 of
 msgid ":attr:`BusChainUnit.WORK_MODE_ADC`"
-msgstr ""
+msgstr ":attr:`BusChainUnit.WORK_MODE_ADC`"
 
 #: 5d55fa58419248a9b3297f11b28df1a3
 #: chain.unit_bus.BusChainUnit.get_work_mode:11 of
 msgid ":attr:`BusChainUnit.WORK_MODE_I2C`"
-msgstr ""
+msgstr ":attr:`BusChainUnit.WORK_MODE_I2C`"
 
 #: a8988ba9b8544c0599d8e706c1676eb9
 #: chain.unit_bus.BusChainUnit.get_gpio_input_value:3

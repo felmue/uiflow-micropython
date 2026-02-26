@@ -1,0 +1,438 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/finger.rst:2 b17b9129c845414ea849867ef98bdd40
+msgid "Finger Unit"
+msgstr "Finger Unit"
+
+#: ../../source/unit/finger.rst:6 aa68f253879a43948f3950374ba473f7
+msgid "The following products are supported:"
+msgstr "以下产品受支持："
+
+#: ../../source/unit/finger.rst:8 8e65300c329340d4b3ce42c6a3325447
+msgid "|FingerUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref 89b1ffc74036403cb4116f38c2e33a76
+msgid "FingerUnit"
+msgstr "FingerUnit"
+
+#: ../../source/unit/finger.rst:11 6ef4efc0766c4b70b1332337a2ecd70e
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/finger.rst:18 d8ca7b42902847d3a751fbfd0a5a76f5
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/finger.rst:20 c3909898e7d648ac8e209e8af70ec60c
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:42 f55bf5c445034964b9b1713f26676fa8
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:25 af2ee670c4a8425f9cf284ea0ad86359
+msgid "|cores3_finger_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/finger.rst:29 c4e2195a1dd14310925eb6f3e962385d
+msgid "class FingerUnit"
+msgstr "class FingerUnit"
+
+#: ../../source/unit/finger.rst:32 fa3c15cfeb144339b653d72057dbe41b
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/finger.rst:36 963c0792c07a4549a08971380bbdb4de
+msgid "Create a FingerUnit object."
+msgstr "创建一个 FingerUnit 对象。"
+
+#: ../../source/unit/finger.rst 06bf29fc7c224d6eac1366020680fdd6
+#: 195d6ba0e178495b8243e2e10deb6e17 348026d548654119b4a297d320a7f2de
+#: 370c9884f46d42459e1304f34cb09390 5b59ecefd48d40f9aa9f7069a66489cb
+#: 66fd2d7c72c44b4ba0a0d0416ccf8ebe 710c567176864074b0b00301597ecb70
+#: 92790442037c4baba5714301eafb5a5d 9cf3747fb2a34eafbefcb3a2decd3ee9
+#: ea1b5ff8d0d749e9ad6753d86b77a5ab fee2fbbdfcb042438c43b08ffa6553da
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/finger.rst:38 f7ca0421cdc84a0e9d54c90e0a687e2b
+msgid "The ID of the UART, 0 or 1 or 2."
+msgstr "UART 的 ID，取值为 0、1 或 2。"
+
+#: ../../source/unit/finger.rst:39 dc5c8380b3774e2784c3b6c00ef8307e
+msgid "UART pin numbers."
+msgstr "UART 引脚编号。"
+
+#: ../../source/unit/finger.rst:41 ../../source/unit/finger.rst:57
+#: ../../source/unit/finger.rst:70 ../../source/unit/finger.rst:85
+#: ../../source/unit/finger.rst:101 ../../source/unit/finger.rst:114
+#: ../../source/unit/finger.rst:125 ../../source/unit/finger.rst:136
+#: ../../source/unit/finger.rst:147 ../../source/unit/finger.rst:160
+#: ../../source/unit/finger.rst:171 ../../source/unit/finger.rst:182
+#: ../../source/unit/finger.rst:195 ../../source/unit/finger.rst:208
+#: ../../source/unit/finger.rst:221 ../../source/unit/finger.rst:237
+#: ../../source/unit/finger.rst:257 ../../source/unit/finger.rst:270
+#: 08e6a39ef7bf47eca5b223cb034b3b9f 0a73c8f2ea8447dc8ca0d14e3a93f1b0
+#: 2b8bc12d225e45968ebde4073d382ce9 3db88da9e8c045d5976438129632136b
+#: 4ab0ea483e134600a4dad87d962f6ef8 5faaf2b2748945129415407d95f571f2
+#: 66beac6e703a4a3e8be4253e933a0674 7f06e95dd95643e982a0b6ab4c72ac0b
+#: 81499c66468b411cb4a7c8e2face7352 84313376faf948dfb498c29d86235b4d
+#: a8992379affc42b6a4c277ae7bab800e ab9d2bcffd0c4287a8ab3a228b112056
+#: b458ca8a8d254fecb3ead2f5b3849716 b9cb1dbd6e4e4233a25816cc81aac495
+#: c70cde91ec3345909582f4c296c72ab3 c8e9508100f448dda7455d9d6c8889e8
+#: ca29e4903e7a497fa8eddcf63a644dc3 f3cd486a153e43f292838cf88ea6f1c9
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/finger.rst:43 48f2c12bce054baf86e4f96e6d9b759c
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:6 bfd8e9b3e748414bae5886f329b11e63
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:49 9f5a6adf541344c89f9c2e30a6e2a079
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/finger.rst:53 09edaf2e5dbe4684958056f43a04574a
+msgid ""
+"After calling this method successfully, FPC1020A will not be able to "
+"respond to any messages."
+msgstr "成功调用此方法后，FPC1020A 将无法响应任何消息。"
+
+#: ../../source/unit/finger.rst 03c341ca9ee84b53bd3e9caa79382811
+#: 22dce457ffda4af281fffb2021cd5acd 2818743c71314f7595252bb738fb6eb1
+#: 471b7a96656b4b69ad7ae3817c4ee7c3 56f6f1add8694c80a50d682e7a85f21b
+#: 59c56284f6854e808d770504e54211aa 62fcb4d3656544c4b6de51f4a476b39f
+#: 63c421badfe741dba49c035996a1a46e 66051e67bf844c59bf10fbf7bc460906
+#: 6d653b94894e412996ec8517b1b0d521 8150cba6bfda44188a40c5ef0e0dc77b
+#: 86d99aac361f41d9970e75d11f5ef3e9 c5b7baab0ada4b05a23a9824653ed095
+#: c66f7e08f935447f9ad915373be0276d c9802df4ff45489c8bf98bca42fab4a5
+#: ca991c55c3e7422b80591c2ee2d07bec e1fabc3aa9ca4f8fa59804754e165915
+#: ea1376e93d25476b9fb1914591d2b998 eb22e5e9a57940bea389e4dbe6521d7f
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/finger.rst:55 ../../source/unit/finger.rst:123
+#: ../../source/unit/finger.rst:235 3cb49373d0bf43f9a173ea29c63489be
+#: 7b7fb4cb213f4c8cbc5013dfdd2e0192 95a1ac451281424aa0a416dfe6f8fe5d
+msgid "True if the command was successful, False otherwise."
+msgstr "如果命令执行成功则为 True，否则为 False。"
+
+#: ../../source/unit/finger.rst:59 17f0a7c4916f445f8090413e9abc299c
+msgid "|sleep.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:8 b1fff85d21da449890b9871a1021ead6
+msgid "sleep.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:64 ../../source/unit/finger.rst:77
+#: c66d878e0a7a40c6ab6f615f831ade2a d04a6981a51c488b888869e630d08d0a
+msgid ""
+"In the no-repeat mode, only one user can be added with the same finger, "
+"and an error message will be returned if the second round of adding is "
+"forced."
+msgstr "在不重复模式下，同一手指只能添加 1 个用户；如果强制进行第二次添加，将返回错误信息。"
+
+#: ../../source/unit/finger.rst:68 ../../source/unit/finger.rst:81
+#: ../../source/unit/finger.rst:83 d0054ddc12904db781f9b95278d00a4a
+#: d9a02ac2f24a46efb03c7aca494bbf5e d9ebe1187e794b48bbfcf0fc2be5f965
+msgid "mode (0: no-repeat mode, 1: repeat mode)"
+msgstr "模式（0：不重复模式，1：重复模式）"
+
+#: ../../source/unit/finger.rst:72 e0fe9fa3499e4766833a26889ad3092c
+msgid "|get_add_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:10 8f6b2a08e104404fab85a225b6ce7015
+msgid "get_add_mode.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:87 35be999001c542a88d629e4b1be78679
+msgid "|set_add_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:12 ea69661d89f0488e808caf5137078d2c
+msgid "set_add_mode.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:92 fef108e761544a308289cbeb936c4265
+msgid "add new user"
+msgstr "添加新用户"
+
+#: ../../source/unit/finger.rst:94 abeb624957744a79bddaef25f26a0e7e
+msgid ""
+"After calling this method, you need to put your finger on the fingerprint"
+" module."
+msgstr "调用此方法后，需要将手指放在指纹模块上。"
+
+#: ../../source/unit/finger.rst:96 ../../source/unit/finger.rst:110
+#: ../../source/unit/finger.rst:156 ../../source/unit/finger.rst:191
+#: ../../source/unit/finger.rst:204 ../../source/unit/finger.rst:217
+#: ../../source/unit/finger.rst:230 35830f79d1db4eaea570bb68a8de83a8
+#: 4ff46d9a907f48269af724164f9c4283 785dacd096a74430bcec3d4bb38c17cf
+#: 82a9b4362ac244ce804c850c3bc4b030 85d2545ce4014724b76ef681dbc47b97
+#: c6cbe9375601478585bf3e73848daa94 e924ee5650c840f49bc4107ff1316582
+msgid "user id (0-149)"
+msgstr "用户 ID（0-149）"
+
+#: ../../source/unit/finger.rst:97 ../../source/unit/finger.rst:231
+#: 1a35b0666d374d67bab6e9a20277b6c9 be312d70a42f43c7b18e14139a982c0f
+msgid "user permission (1: normal, 2: admin, 3: super admin)"
+msgstr "用户权限（1：普通，2：管理员，3：超级管理员）"
+
+#: ../../source/unit/finger.rst:99 ../../source/unit/finger.rst:112
+#: ../../source/unit/finger.rst:158 ../../source/unit/finger.rst:169
+#: 00e5fec8a5bc4833be2a8e1271cb4748 6fe65def10ab40ef9459c5012624032b
+#: c85b1b17215349dca072835a9274ee37 fd7a015e18f445af8541bc9e07657f53
+msgid "-1 if the command was unsuccessful, otherwise the user id."
+msgstr "如果命令执行失败则返回 -1，否则返回用户 id。"
+
+#: ../../source/unit/finger.rst:103 60e8a048970c4f44965473000c0a7b32
+msgid "|add_user.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:14 38c2ba589893467b832630249e253c5d
+msgid "add_user.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:108 a28dfd218b854c5ea4b83e949de62b34
+msgid "Delete the user with the specified id."
+msgstr "删除指定 id 的用户。"
+
+#: ../../source/unit/finger.rst:116 04dc04cfd3674ea1b670d8ec2b2eda53
+msgid "|delete_user.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:16 b72cb51db57f41bb982f3c093c817982
+msgid "delete_user.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:121 552a826f19134a0f944d70a40aa89f14
+msgid "Delete all users."
+msgstr "删除所有用户。"
+
+#: ../../source/unit/finger.rst:127 ad393a55f29845a4a5388c58bd497f8c
+msgid "|delete_all_user.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:18 8b728a498f7042f7ac952b963f65a89e
+msgid "delete_all_user.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:132 6304220873be47149ab5e13d91a84534
+msgid "Get registered users count."
+msgstr "获取已注册用户数量。"
+
+#: ../../source/unit/finger.rst:134 718a053b741a4aa48bcc9e620d4397ce
+msgid ""
+"-1 if the command was unsuccessful, otherwise the number of registered "
+"users."
+msgstr "如果命令执行失败，则返回 -1；否则返回已注册用户的数量。"
+
+#: ../../source/unit/finger.rst:138 739dd2b0f60e432cb3fa2294d8ac1f57
+msgid "|get_user_count.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:20 f34dec51b80146e8ae279a65dc0aff89
+msgid "get_user_count.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:143 6bd7a74a3c5a46dc9a01753b723b44a3
+msgid "Get the maximum number of users that can be registered."
+msgstr "获取可注册的最大用户数量。"
+
+#: ../../source/unit/finger.rst:145 6bb14a83710d406c9722639b98657aa5
+msgid ""
+"-1 if the command was unsuccessful, otherwise the maximum number of users"
+" that can be registered."
+msgstr "如果命令执行失败则返回 -1，否则返回可注册的最大用户数量。"
+
+#: ../../source/unit/finger.rst:149 61243679cd34498fbdb63afc61eec1d8
+msgid "|get_user_capacity.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:22 524faa1cc4d348d0ba9b2331639269b5
+msgid "get_user_capacity.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:154 93f496b7a57a4bcca6318bf2a19a8a4e
+msgid ""
+"Check whether the currently collected fingerprint matches the specified "
+"user id."
+msgstr "检查当前采集的指纹是否与指定的用户 id 匹配。"
+
+#: ../../source/unit/finger.rst:162 364f4853a0264c789c601cb3a62d72e4
+msgid "|compare_id.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:24 eb75c1689cd84cb1b387fe86782080cd
+msgid "compare_id.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:167 72388a6f967940ff837551df4bc8f925
+msgid "Detect whether the currently collected fingerprint is a registered user."
+msgstr "检测当前采集的指纹是否为已注册用户。"
+
+#: ../../source/unit/finger.rst:173 e7e32999017f49dd87a6b0b7adbf1f2f
+msgid "|compare_finger.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:26 3a20a7ee963143b6aeb0b20bb1a081ad
+msgid "compare_finger.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:178 1463040e7ea948b7ad9037ac8734a42d
+msgid "Get the list of registered users."
+msgstr "获取已注册用户列表。"
+
+#: ../../source/unit/finger.rst:180 7e66e91efe75468fb33bae171b444d24
+msgid "list of registered users."
+msgstr "已注册用户列表。"
+
+#: ../../source/unit/finger.rst:184 2b4b2e8894b746bab518dd420904f9c4
+msgid "|get_user_list.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:28 e2039da5b30246048f046474362aabc9
+msgid "get_user_list.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:189 54ae88dc0ffc4e788ff65cff67e0ad0f
+msgid "Get the information of the user with the specified id."
+msgstr "获取指定 id 的用户信息。"
+
+#: ../../source/unit/finger.rst:193 ec82bbde5a904563933076f1d00e5a35
+msgid "tuple of (id, permission) if the command was successful, None otherwise."
+msgstr "如果命令执行成功，则返回 (id, permission) 元组；否则返回 None。"
+
+#: ../../source/unit/finger.rst:197 4824aa82fb4d448b99fd430bde0c428a
+msgid "|get_user_info.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:30 f91964704ca446c09eaa7f96dd30110d
+msgid "get_user_info.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:202 d7b35d939b014621a3a0cf8bb7fa2db8
+msgid "Get the permission of the user with the specified id."
+msgstr "获取指定 id 的用户权限。"
+
+#: ../../source/unit/finger.rst:206 c420f1d6badf4e25bc2372a9f0106224
+msgid "-1 if the command was unsuccessful, otherwise the permission of the user."
+msgstr "如果命令执行不成功则返回 -1，否则返回该用户的权限。"
+
+#: ../../source/unit/finger.rst:210 8b5ff28554744b40becb57dfe159c20b
+msgid "|get_user_permission.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:32 ade4df4974eb4577ab448b1667486eba
+msgid "get_user_permission.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:215 5dd5fef51481442aa5355fdaf553ee21
+msgid "Get the characteristics of the user with the specified id."
+msgstr "获取指定 id 的用户特征。"
+
+#: ../../source/unit/finger.rst:219 ../../source/unit/finger.rst:248
+#: ac6babd19aa14192b96a08b710e613e6 d1089ce460224f1fa023e3d9cd6c954e
+msgid ""
+"bytes of the characteristics if the command was successful, None "
+"otherwise."
+msgstr "如果命令成功，则返回特征的字节；否则返回 None。"
+
+#: ../../source/unit/finger.rst:223 ffb2609650fb40589986a151c541f3f2
+msgid "|get_user_characteristic.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:34 1d534b9e642d486a8c979ede28690583
+msgid "get_user_characteristic.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:228 c42bc85ccd2c40f19c15a36446ebf202
+msgid "Register a new user with FPC1020A."
+msgstr "使用 FPC1020A 注册新用户。"
+
+#: ../../source/unit/finger.rst:232 8e4d4bf7e42245998b268dc2a8a4f53c
+msgid "user characteristics"
+msgstr "用户特征"
+
+#: ../../source/unit/finger.rst:233 ../../source/unit/finger.rst:246
+#: 97f9aa792b0240c4ae8605835d56785b b8ecb50a29f140dc894b9f77dd74cfc7
+msgid "timeout in milliseconds"
+msgstr "超时时间（毫秒）"
+
+#: ../../source/unit/finger.rst:239 2b70c8cac02544f887f6b12d037cf43f
+msgid "|add_user_info.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:36 1e13c47fad1243feb40d93630dbf0d9b
+msgid "add_user_info.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:244 f9b60d6405774b1e82f289f03adfa297
+msgid "Capture the characteristics of the fingerprint."
+msgstr "采集指纹特征。"
+
+#: ../../source/unit/finger.rst:253 ../../source/unit/finger.rst:264
+#: 78c8c2e6f76c494f90b230717b8500f5 9d3ffcdf134f4663bc45fd03b81d1817
+msgid ""
+"The comparison level ranges from 0 to 9, the larger the value, the "
+"stricter the comparison, and the default value is 5."
+msgstr "比较级别范围为 0 到 9，数值越大，比较越严格，默认值为 5。"
+
+#: ../../source/unit/finger.rst:255 ../../source/unit/finger.rst:266
+#: ../../source/unit/finger.rst:268 12de458be79f49299258ced2b1789aab
+#: 1c98c6eb38ba43be9e93e6b34e7b37be a0a1d75b6865431ba6e486e42b174f36
+msgid "match level (0-9)"
+msgstr "匹配等级（0-9）"
+
+#: ../../source/unit/finger.rst:259 fd6fc466ebd1438ebdc79fa8f0e42218
+msgid "|get_match_level.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:38 3286d6731b724753b23dcdff5586d7b7
+msgid "get_match_level.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:272 fac642b1b6834ec4b76ae80529fe5a76
+msgid "|set_match_level.png|"
+msgstr ""
+
+#: ../../source/refs/unit.finger.ref:40 8183a905aabc41b69a9920dc2c750d89
+msgid "set_match_level.png"
+msgstr ""
+
+#: ../../source/unit/finger.rst:277 0d92d7125bc34f7186eb623c59e4dc5d
+msgid "Get the version information of FPC1020A."
+msgstr "获取 FPC1020A 的版本信息。"
+
+#: ../../source/unit/finger.rst:279 06ad2ff1481345a692158dbfb03f429d
+msgid "version information."
+msgstr "版本信息。"
+

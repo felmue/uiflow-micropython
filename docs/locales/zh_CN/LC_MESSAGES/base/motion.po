@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/base/motion.rst:2 fd8dedb467204d8aad20c0b3bd456f89
 msgid "Atomic Motion Base"
-msgstr ""
+msgstr "Atomic Motion Base"
 
 #: ../../en/base/motion.rst:8 eeecc50c868f40d78926304c8570b684
 msgid ""
@@ -54,7 +54,7 @@ msgstr ""
 #: ../../en/base/motion.rst:90 ../../en/refs/base.motion.ref
 #: 1eec9cb863df4dc3a3889dcc98ab4e9d b9e14124cdc246e0997167470b93ff16
 msgid "Motion"
-msgstr ""
+msgstr "Motion"
 
 #: ../../en/base/motion.rst:15 a2ff1e45f0ec46aea14ca22f07539960
 msgid "|Motion Base v1.1|"
@@ -64,7 +64,7 @@ msgstr ""
 #: ../../en/refs/base.motion.ref 2054097f13b242f092b0f7bf5f81f7b9
 #: 377d48bb9a7e4f558c37ec720138ceb3 416e7b09aae44a2d98fcccf1c1595623
 msgid "Motion Base v1.1"
-msgstr ""
+msgstr "Motion Base v1.1"
 
 #: ../../en/base/motion.rst:20 c805b4cd38d84ef8aa6b06a663c7ec94
 msgid "UiFlow2 Example:"
@@ -73,7 +73,7 @@ msgstr "UiFlow2 应用示例："
 #: ../../en/base/motion.rst:23 ../../en/base/motion.rst:56
 #: 05b2997d19d246669cb52a9798e35fe0 6540d2c198d844d2b76d6930a9eafd3f
 msgid "Motion Base"
-msgstr ""
+msgstr "Motion Base"
 
 #: ../../en/base/motion.rst:25 223f49310c50438cbfccaa8115c973ac
 msgid "Open the |atoms3_lite_motion_base_example.m5f2| project in UiFlow2."
@@ -121,7 +121,7 @@ msgstr "示例输出："
 #: 0e5d45e7d4a04a449e6527abe02efd45 27deaff71d72471880edda9c5a076de3
 #: 99522afe7ff546768748f39741a5a194 d8922ccc5bf742fabf9716071d950844
 msgid "None"
-msgstr "无"
+msgstr ""
 
 #: ../../en/base/motion.rst:40 a5efb829fc13496884b57110339a367c
 msgid "Open the |atoms3_motion_base_v1.1_example.m5f2| project in UiFlow2."
@@ -164,7 +164,7 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/base/motion.rst:87 1ba4f32cd42e47918b73882050fa7999
 msgid "**API**"
-msgstr "API应用"
+msgstr "API参考"
 
 #: ../../en/base/motion.rst:94 b290c15ab97248c7b04eadcb03905baf
 msgid "Create an Motion object."

@@ -18,9 +18,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/controllers/atoms3u.rst:2 93b42bcc4e6b4b7a95edd7e6e6cb75aa
 msgid "AtomS3U"
-msgstr ""
+msgstr "AtomS3U"
 

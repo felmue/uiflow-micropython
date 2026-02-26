@@ -1,0 +1,467 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/miniscale.rst:2 82b1882517df4acfab97220e795da950
+msgid "Miniscale Unit"
+msgstr "Miniscale Unit"
+
+#: ../../source/unit/miniscale.rst:6 1a04b5f2180d4a06bd2d4de9a80340f5
+msgid ""
+"The ``Miniscale`` class is designed for interfacing with a mini scale "
+"weight sensor, which includes a HX711 22-bit ADC. This sensor is capable "
+"of measuring weight and also includes additional functionalities like LED"
+" control and various filters."
+msgstr ""
+"``Miniscale`` 类用于与迷你称重传感器进行接口连接，该传感器包含一个 HX711 22-bit "
+"ADC。该传感器能够测量重量，并且还包含 LED 控制以及多种滤波等附加功能。"
+
+#: ../../source/unit/miniscale.rst:8 5548e52e8b524e259447050bb87f3d5b
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/miniscale.rst:11 5bcddd2f809a47fc99b5a97894fa75a6
+msgid "|MINISCALE|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref 1f560d7072fe4071b814ed0af9112910
+msgid "MINISCALE"
+msgstr "MINISCALE"
+
+#: ../../source/unit/miniscale.rst:16 de83eb3888af44afa37bc968be69482a
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/miniscale.rst:19 ../../source/unit/miniscale.rst:52
+#: 41a20b3d5079420babab139c3449c1ee cc7f556fa71047eca529186a6601a73f
+msgid "Basic Example"
+msgstr "基本示例"
+
+#: ../../source/unit/miniscale.rst:21 3dfad7d66cb34e79864548a37880ebe1
+msgid "Open the |m5cores3_miniscales_base_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |m5cores3_miniscales_base_example.m5f2| 项目。"
+
+#: ../../source/unit/miniscale.rst:23 ../../source/unit/miniscale.rst:54
+#: 27dd95c798f94411b11ba6f29683347a 65d0dc5533254ebb9e1544e08a454f6a
+msgid ""
+"This example demonstrates how to read and display weight values from the "
+"MiniScale unit. It sets up an average filter level of 10 for smoother "
+"readings and updates the weight display every second."
+msgstr "该示例演示如何从 MiniScale unit 读取并显示重量值。它将平均滤波等级设置为 10，以获得更平滑的读数，并每 1 秒更新一次重量显示。"
+
+#: ../../source/unit/miniscale.rst:25 ../../source/unit/miniscale.rst:40
+#: ../../source/unit/miniscale.rst:95 ../../source/unit/miniscale.rst:116
+#: ../../source/unit/miniscale.rst:133 ../../source/unit/miniscale.rst:150
+#: ../../source/unit/miniscale.rst:164 ../../source/unit/miniscale.rst:182
+#: ../../source/unit/miniscale.rst:196 ../../source/unit/miniscale.rst:223
+#: ../../source/unit/miniscale.rst:239 ../../source/unit/miniscale.rst:256
+#: ../../source/unit/miniscale.rst:273 ../../source/unit/miniscale.rst:290
+#: ../../source/unit/miniscale.rst:309 ../../source/unit/miniscale.rst:326
+#: 15432404a1cf4054945fbd4130c75e41 169eb1b5c05c4c509f8ee1bbeb9e4312
+#: 3ede00890dac48728bcc6d8d1587274c 51e5af29a1094fe2ace91aa1e343dbcd
+#: 69169dc44e9c4285a06fa1e329cb8a09 6f0b3c1ffe294a6ebd244eb65b7f29fc
+#: 72f23797fb81452fadbe9a3f86720e83 74fe90a3c5e64d4a8e3fde1bd04c59f7
+#: 765235516d794fa1b744e9f3e38d5400 781134ac19f0468ab62ce450afe0f8c1
+#: c8084bd3c3c8411c9996a23ee8d5e806 ca389e7303a8449ea7aaa908aaabaf17
+#: d1d84a86b9ce4f5ab61493febd94fa47 d3290e5c5989496490ac61be1391bcad
+#: f00da97becdd4e1e8ab6271c7af40552 f04961c545d146e887ae4d63ce537d5c
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/miniscale.rst:27 e70656a1f60f43f6a839d85c74b9305d
+msgid "|m5cores3_miniscales_base_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:21 b3e33e6ed92942899a008015aafc3e0a
+msgid "m5cores3_miniscales_base_example.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:29 ../../source/unit/miniscale.rst:44
+#: ../../source/unit/miniscale.rst:62 ../../source/unit/miniscale.rst:77
+#: 1796518d60c54dd39af124700837902b 28fe45e3d594430ab562d3296a2abfad
+#: c17e6232802346b6aa76215190901a63 ce9c8c6d69b747a1bf3a1d492e98e180
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/miniscale.rst:31 ../../source/unit/miniscale.rst:46
+#: ../../source/unit/miniscale.rst:64 ../../source/unit/miniscale.rst:79
+#: 6db88ce406ab4a08967d0c86588a15da 898bf53184894572b76051cebbbcdd36
+#: a01a308a622143fe877bbd23de9bfc40 b70cb8c2f4514f6081801bb26a21b149
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:34 ../../source/unit/miniscale.rst:67
+#: 011a3e60cbdd425398b2c1ecea9fee4e 7e5ebe438e9a420baffb08d2cd478756
+msgid "Calibration Example"
+msgstr "校准示例"
+
+#: ../../source/unit/miniscale.rst:36 d3e44ce3e1e84ed98b919da383abc2e7
+msgid "Open the |m5cores3_miniscales_calibrate_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |m5cores3_miniscales_calibrate_example.m5f2| 项目。"
+
+#: ../../source/unit/miniscale.rst:38 ../../source/unit/miniscale.rst:69
+#: 6c58d56b4a324ef6a765d8c708faa5f5 8ef74f35b18b412e814548656f30122b
+msgid ""
+"This example demonstrates the complete calibration process for the "
+"MiniScale unit. It guides users through a three-step calibration: first "
+"removing all items and recording the zero-point ADC value, then placing a"
+" 100g weight and recording that ADC value, and finally performing tare "
+"operation to set the zero point. After calibration, the weight is "
+"displayed with an average filter level of 5."
+msgstr ""
+"该示例演示 MiniScale 单元的完整校准流程。它引导用户完成三步校准：首先移除所有物品并记录零点 ADC 值，然后放置 100 g "
+"砝码并记录该 ADC 值，最后执行 tare 操作以设置零点。校准完成后，将以平均滤波等级 5 显示重量。"
+
+#: ../../source/unit/miniscale.rst:42 d52fafcafc744cbb9bf7a6f50512e941
+msgid "|m5cores3_miniscales_calibrate_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:23 a755069e9db2485c9fca401245e58d0f
+msgid "m5cores3_miniscales_calibrate_example.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:49 7304020d817749ea8ef99e3a409c0203
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/miniscale.rst:56 ../../source/unit/miniscale.rst:71
+#: ../../source/unit/miniscale.rst:99 ../../source/unit/miniscale.rst:120
+#: ../../source/unit/miniscale.rst:137 ../../source/unit/miniscale.rst:154
+#: ../../source/unit/miniscale.rst:168 ../../source/unit/miniscale.rst:186
+#: ../../source/unit/miniscale.rst:200 ../../source/unit/miniscale.rst:227
+#: ../../source/unit/miniscale.rst:243 ../../source/unit/miniscale.rst:260
+#: ../../source/unit/miniscale.rst:277 ../../source/unit/miniscale.rst:294
+#: ../../source/unit/miniscale.rst:313 ../../source/unit/miniscale.rst:330
+#: 11312c02db5146da8987fd148d2a2040 63292f44e55542c3bc9a512f26e65fad
+#: 70ecc5f1f0ec42af89b6a0d4241869de 718c046d37184316b95f0b383dc384f2
+#: 746ba0895c134ec190517fa91953a70d 7fc936628d5843859bd2ae2491e44958
+#: 9c76adade9e94de9bc88745de5452af0 a2db50957d714471956a266d9f7ef0ac
+#: a51d782aad2143e59a33dc449ca8c7bb aefc6a2630394cbbb99df4639e9d6a66
+#: b219772e8eaf4a14885478cca20a070b cb5d1fccd63c4c7eb9e943f1dec6e15c
+#: d68650490aeb4771b1df3f778f93997b eda04ee75fed459ea29a92c09b7dd213
+#: f467c025d62b447ab79005985378614d fb42e71722ba4c5fa587f24e81b479f0
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/miniscale.rst:83 efee0023bf4949caa183db529362cb75
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/miniscale.rst:86 8e1f143379624287b14ce0380d659084
+msgid "class MiniScaleUnit"
+msgstr "MiniScaleUnit"
+
+#: ../../source/unit/miniscale.rst:90 be9488023b8b47d399d71e2ddf7c4a9d
+msgid "Create a MiniScaleUnit object."
+msgstr "创建一个 MiniScaleUnit 对象。"
+
+#: ../../source/unit/miniscale.rst 0ee6d0dfb3e64cee98edd539795c1f7a
+#: 1454356690b142718cb21789353d2da4 8bdc9115f94a4175be2d3af383cc0b14
+#: 8edaa3f2ccac4e4f9f92d0d8d0531f87 9d006e3c39e94d8bb59aaa677189574a
+#: b8e1c1e34409426e8d43117927b11b8c
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:92 0e1c68e4c3e34340b7e8819c6ac7d3d5
+msgid "The I2C or PAHUBUnit instance for communication."
+msgstr "用于通信的 I2C 或 PAHUBUnit 实例。"
+
+#: ../../source/unit/miniscale.rst:93 4f455a6581e34a81b5c6d68040ab0a8c
+msgid "The I2C address of the MiniScale unit, default is 0x26."
+msgstr "MiniScale 单元的 I2C 地址，默认为 0x26。"
+
+#: ../../source/unit/miniscale.rst:97 95adeaf43fcd4e9c8dd010c9792e1988
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:6 a6e167befaea40fcb5a26082179642c4
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:111 76613c3d40fe416195c9d7ea07b4368a
+msgid "Read raw ADC value (unprocessed)."
+msgstr "读取原始 ADC 值（未处理）。"
+
+#: ../../source/unit/miniscale.rst 28d736a71b1249b7a05746194199219d
+#: 5c41676045334891a15cf9e437e969c1 bded86d923cf4df3b3ba8300fde64b54
+#: cc7b4b0921554c2b86aeb75da9159e93 d7727c6110104459a4281402c45cbb9d
+#: f9e101e5132047b7bb751f5fed91dad7
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:113 1ef4b21e02dc4678af074aede44016b6
+msgid "Raw ADC value (integer)."
+msgstr "原始 ADC 值（整数）。"
+
+#: ../../source/unit/miniscale.rst 3304f96bf86841bcb8055605454d8ce4
+#: 5d25d7d23a5f4a93aa7c49ca62502749 81be73a6a6374a60a4114d01f101c5dc
+#: 8960a21b83014d2c99df48056ab7929b a190d2e2231541a689be53604e19fe06
+#: b4346329b92b4550898484a7e0df1670
+msgid "Return type"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:118 d947c1451abb4154982b8001f9c2ddb1
+msgid "|get_adc.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:12 0327dc9f356b40ce9e7707cbc0b2d348
+msgid "get_adc.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:128 64f60022f89841659569a2becd07f24f
+msgid "Read current weight (grams)."
+msgstr "读取当前重量（克）。"
+
+#: ../../source/unit/miniscale.rst:130 f484bd54e867419fb15eeb43dca06baf
+msgid "Actual weight (float after subtracting tare value)."
+msgstr "实际重量（扣除皮重值后的 float）。"
+
+#: ../../source/unit/miniscale.rst:135 41bbfbbcb5f9439ca11cb8df0b93d404
+msgid "|get_weight.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:14 84051f5bd70145cbb3316fc6b838342d
+msgid "get_weight.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:145 3aa639c8ad3d41df90be48df8093bec0
+msgid "Read button state."
+msgstr "读取按钮状态。"
+
+#: ../../source/unit/miniscale.rst:147 ced30671098e4b02804fb2102459f9e4
+msgid "True if pressed, False if not pressed."
+msgstr "按下时为 True，未按下时为 False。"
+
+#: ../../source/unit/miniscale.rst:152 d884f2a0d8c842f8826eab191d52778c
+msgid "|get_button.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:13 00cbf1ff06da4dd9bfd1a371e3366647
+msgid "get_button.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:162 22e0ccaf88ae4fc4aa0d7fa664baf324
+msgid ""
+"Tare operation. Record current weight as offset value, so subsequent "
+"weight readings use current as zero point."
+msgstr "去皮操作。将当前重量记录为偏移值，使后续重量读数以当前值为零点。"
+
+#: ../../source/unit/miniscale.rst:166 53b316ee66d74a59b820b0e956757fbf
+msgid "|tare.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:8 d2b3fa50017049899ea7be46720e7eb5
+msgid "tare.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:176 7f4af8b9962a40a38f5fa21976820db5
+msgid "Set RGB indicator color."
+msgstr "设置 RGB 指示灯颜色。"
+
+#: ../../source/unit/miniscale.rst:178 008b4a62c401446685da81556d1b40ec
+msgid "Red component (0~255)."
+msgstr "红色分量（0~255）。"
+
+#: ../../source/unit/miniscale.rst:179 aa491771338a488eb459b1e99b6d079b
+msgid "Green component (0~255)."
+msgstr "绿色分量（0~255）。"
+
+#: ../../source/unit/miniscale.rst:180 9019bc87c0974faa94a657c27da2bd14
+msgid "Blue component (0~255)."
+msgstr "蓝色分量（0~255）。"
+
+#: ../../source/unit/miniscale.rst:184 55367ce3552740b792bf02a8d70b5b7b
+msgid "|set_led.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:18 004feb4775724ce5b598f47818b7abcf
+msgid "set_led.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:194 41b401034495499da45e58a7089f9667
+msgid "Reset module internal weight register (clear to zero)."
+msgstr "重置模块内部重量寄存器（清零）。"
+
+#: ../../source/unit/miniscale.rst:198 7ad8c9f1c09c4228a1f445ea74d069ad
+msgid "|reset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:15 f5c3d42f74254eac9933ec0384acd9d2
+msgid "reset.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:208 8296ec36dd3f4acd86d715e71b06bbfc
+msgid "Calibrate module gain (GAP value)."
+msgstr "校准模块增益（GAP 值）。"
+
+#: ../../source/unit/miniscale.rst:210 18876768f48748428c52606841faa621
+msgid ""
+"Calibration process example: 1. Reset offset 2. Read no-load ADC "
+"(RawADC_0g) 3. Place known weight (e.g., 100g) and read ADC (RawADC_100g)"
+" 4. Calculate GAP = (RawADC_100g - RawADC_0g) / 100 5. Write to module to"
+" save calibration coefficient"
+msgstr ""
+"校准流程示例：1. 重置 offset 2. 读取空载 ADC（RawADC_0g）3. 放置已知重量（例如 100 g）并读取 "
+"ADC（RawADC_100g）4. 计算 GAP = (RawADC_100g - RawADC_0g) / 100 5. "
+"写入模块以保存校准系数"
+
+#: ../../source/unit/miniscale.rst:217 38dafdde911140839382c078a0d935ef
+msgid "Weight at first point (unit: g)."
+msgstr "第一个点的重量（单位：g）。"
+
+#: ../../source/unit/miniscale.rst:218 530ca7fd8d154a7298e4ae641df3cda4
+msgid "ADC value at first point."
+msgstr "第一个点的 ADC 值。"
+
+#: ../../source/unit/miniscale.rst:219 34e451d4b84f4671a185a00c91bd3bf8
+msgid "Weight at second point (unit: g)."
+msgstr "第二个点的重量（单位：g）。"
+
+#: ../../source/unit/miniscale.rst:220 9cf450f22d3545ab9789745d1cdc3d19
+msgid "ADC value at second point."
+msgstr "第二个点的 ADC 值。"
+
+#: ../../source/unit/miniscale.rst 04a9d5033653467a93f4cefde7518679
+#: 1ac0065aebc846d08bfb93f3bad080fe 5b78e03924f940ebb0667f97cbb17e72
+msgid "Raises"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:221 e53fd8d09efe4d75ad4b7b1338a1d746
+msgid "If two weights are equal."
+msgstr "如果两个权重相等。"
+
+#: ../../source/unit/miniscale.rst:225 88c199ccbb1744f29c8b1b5ee4d3b16f
+msgid "|calibration.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:7 4d97899233da4712a4cf929497a9530e
+msgid "calibration.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:235 5b2ae342f9d44d3f9edad9b850692ff5
+msgid "Enable or disable low-pass filter."
+msgstr "启用或禁用低通滤波器。"
+
+#: ../../source/unit/miniscale.rst:237 692792e96b15433a9eac754441aada02
+msgid "True to enable filter, False to disable filter."
+msgstr "True 用于启用过滤器，False 用于禁用过滤器。"
+
+#: ../../source/unit/miniscale.rst:241 488a5099563c421e866be6e5defc0ec4
+msgid "|set_low_pass_filter.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:19 3af8a777b9ae4a2e8a072913528d5a64
+msgid "set_low_pass_filter.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:251 605851010ced40abac8885da8bd953ff
+msgid "Get low-pass filter status."
+msgstr "获取低通滤波器状态。"
+
+#: ../../source/unit/miniscale.rst:253 acd156e648254381863566ea120af890
+msgid "True if filter is enabled."
+msgstr "如果已启用过滤器，则为 True。"
+
+#: ../../source/unit/miniscale.rst:258 fe4aaa7e73a34023911f9dcc2b40eb1b
+msgid "|get_low_pass_filter.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:11 d997f7801ba94d99ab5fe4f7e7549861
+msgid "get_low_pass_filter.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:268 256240379e234fd8af9e99a9d53408fb
+msgid "Set average filter level."
+msgstr "设置平均滤波等级。"
+
+#: ../../source/unit/miniscale.rst:270 8ed79897abd2451abc8f245ccd62a58c
+msgid "Average count level (0~50), higher value means smoother but more delay."
+msgstr "平均计数等级（0~50），数值越高表示越平滑，但延迟越大。"
+
+#: ../../source/unit/miniscale.rst:271 ../../source/unit/miniscale.rst:307
+#: 010994243ddd4b779ec644fc3e97979d 4a64c6b7c3f34ebb92641f1838416c1f
+msgid "If out of range."
+msgstr "如果超出范围。"
+
+#: ../../source/unit/miniscale.rst:275 b7bcac7b264849f0b6b8da5a91d9389d
+msgid "|set_average_filter_level.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:16 3c9987cc70c34ca5ab72cf099d22e0b3
+msgid "set_average_filter_level.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:285 828595b5af1a45508cc194ac34e53cae
+msgid "Get average filter level."
+msgstr "获取平均滤波等级。"
+
+#: ../../source/unit/miniscale.rst:287 54fa7aa99b0146fe8d381060c8027f1b
+msgid "Current average filter level (integer)."
+msgstr "当前平均滤波等级（整数）。"
+
+#: ../../source/unit/miniscale.rst:292 a7f42842f343420f991705c66ac1c906
+msgid "|get_average_filter_level.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:9 3d30bda3c210491398aeaa08d8133815
+msgid "get_average_filter_level.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:302 8afd407cf33d4f16a32e4a1a55b53300
+msgid "Set exponential moving average (EMA) filter parameter."
+msgstr "设置指数移动平均（EMA）滤波器参数。"
+
+#: ../../source/unit/miniscale.rst:304 214bab4a641b40d0a9c7f54ae121fef1
+msgid ""
+"The EMA (Exponential Moving Average) filter is more sensitive to changes "
+"in data compared to the average filter."
+msgstr "EMA（指数移动平均）滤波器相比平均滤波器对数据变化更敏感。"
+
+#: ../../source/unit/miniscale.rst:306 d4d17c98388a4a54a747e3bbfbb1792f
+msgid ""
+"EMA filter coefficient (0~99), smaller value means smoother but more "
+"response delay."
+msgstr "EMA 滤波系数 (0~99)，数值越小越平滑，但响应延迟越大。"
+
+#: ../../source/unit/miniscale.rst:311 dff1645a5c354aac80c404fd306f3a62
+msgid "|set_ema_filter_alpha.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:17 1776f554e57341339c2082689c0b58bb
+msgid "set_ema_filter_alpha.png"
+msgstr ""
+
+#: ../../source/unit/miniscale.rst:321 1d8e2d97247c468089662ef107bca98d
+msgid "Get EMA filter coefficient."
+msgstr "获取 EMA 滤波器系数。"
+
+#: ../../source/unit/miniscale.rst:323 7a83c2e05a23451dad7b3c136d681865
+msgid "Current EMA alpha value (integer)."
+msgstr "当前 EMA alpha 值（整数）。"
+
+#: ../../source/unit/miniscale.rst:328 c3e704f070b14351ba3d0e63b6f9a35f
+msgid "|get_ema_filter_alpha.png|"
+msgstr ""
+
+#: ../../source/refs/unit.miniscale.ref:10 424c102f824e489386dc8edae04f7e59
+msgid "get_ema_filter_alpha.png"
+msgstr ""
+

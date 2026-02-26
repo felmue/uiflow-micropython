@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/refs/unit.acssr.ref ../../source/unit/acssr.rst:2
+#: 43d62b4cc56d4c2ebbf53638b319efac 6efba0e4fc8d4a218c1968607299da13
+msgid "ACSSR Unit"
+msgstr "ACSSR Unit"
+
+#: ../../source/unit/acssr.rst:6 97d04e1891a743f5a6a00d2a6fc0a184
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/acssr.rst:8 bdcced3bb5274479a49c866794b58871
+msgid "|ACSSR Unit|"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:11 a01b96261b724829a5d376f54463b7a4
+msgid "Micropython I2C Example:"
+msgstr "MicroPython I2C 应用示例："
+
+#: ../../source/unit/acssr.rst:18 7e272004fec543af84f073ad9f83cf54
+msgid "Micropython Modbus Example:"
+msgstr "MicroPython Modbus 应用示例："
+
+#: ../../source/unit/acssr.rst:25 e20c7ee0c89947568f538b32a1b4e687
+msgid "UIFLOW2 I2C Example:"
+msgstr "UIFLOW2 I2C 示例："
+
+#: ../../source/unit/acssr.rst:27 32bed61c0fe04c0fa2b8fd08941f0524
+msgid "|i2c_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.acssr.ref:15 5de3c31ee8cf42aa8cb5c1b16bcebeb1
+msgid "i2c_example.png"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:30 e72d9baf79b746d7970cc5e19ceb9a51
+msgid "UIFLOW2 Modbus Example:"
+msgstr "UIFLOW2 Modbus 应用示例："
+
+#: ../../source/unit/acssr.rst:32 0b6d2d1cc71c492e9665dbcaf30a81e5
+msgid "|modbus_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.acssr.ref:16 85396f44a45548fa800b0c8868549b72
+msgid "modbus_example.png"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:37 947acda2d54c4bc2925515eb38740964
+msgid "|cores3_acssr_i2c_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:39 a48f7eb3896e4733949a7836ad9a003d
+msgid "|cores3_acssr_modbus_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:43 2f35e21fe5614cc3b16d795a52a9b7c9
+msgid "class ACSSRUnit"
+msgstr "class ACSSRUnit"
+
+#: ../../source/unit/acssr.rst:46 681d99f5c92f411c8d6b3c62b766a4e9
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:50 4cf0de77501041afbe35c044324caa4b
+msgid "Create an ACSSRUnit object."
+msgstr "创建一个 ACSSRUnit 对象。"
+
+#: ../../source/unit/acssr.rst 0a6cd211acc1413f948142b34b1e3bcf
+#: 2def311906a64757943f5bd6945e59c8 43d99bef42704bd5a65f87a64725bc85
+#: 6e0869e1a03247d4893951587d249c48 93f54fe85dcb431ca175ee25a541548f
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:52 6f65ddf73b7a4d00a66af36b7b98953f
+msgid "I2C bus or Modbus."
+msgstr "I2C 总线或 Modbus。"
+
+#: ../../source/unit/acssr.rst:53 746497aa954a411b81f69206ecfd20c6
+msgid ""
+"Slave address. Default is 0x50 in I2C mode. Default is 0x04 in Modbus "
+"mode."
+msgstr "从机地址。在 I2C 模式下默认值为 0x50。在 Modbus 模式下默认值为 0x04。"
+
+#: ../../source/unit/acssr.rst:55 ../../source/unit/acssr.rst:69
+#: ../../source/unit/acssr.rst:78 ../../source/unit/acssr.rst:89
+#: ../../source/unit/acssr.rst:100 ../../source/unit/acssr.rst:111
+#: ../../source/unit/acssr.rst:122 ../../source/unit/acssr.rst:133
+#: 11ebfd82f1974631847b8dbd5000926f 7196791dd1b24216a1a520e014295c7f
+#: 7e07ea865d5445cab52ac34980e8bba9 8c97b32d3641430e9113324aad7f4dda
+#: 8caeb5ccb856452fbea08d5fa6cf6f68 8ea8b2b5a94c417fa5ad09acfbac85de
+#: 9c5aa1c965da4c79ac027dba8d213652 fc3f953b505c40b2bcdd0a63d3f987df
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/acssr.rst:57 ed6342bcfca746388d6d70c8d90d16f7
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.acssr.ref:6 1762066a01b24f23b2ae96917061765b
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:63 bd7b48af39094623834789f0e791c884
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:67 1302c10285d046f594b322eff2d75d7c
+msgid "Turn on the relay."
+msgstr "打开继电器。"
+
+#: ../../source/unit/acssr.rst:71 52b3434a8de1475da081514a8188a8e1
+msgid "|on.png|"
+msgstr ""
+
+#: ../../source/refs/unit.acssr.ref:7 99ba1ca74d694e67a9fd628045aedbe5
+msgid "on.png"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:76 a76d854f56e840faa79256f7de100eba
+msgid "Turn off the relay."
+msgstr "关闭继电器。"
+
+#: ../../source/unit/acssr.rst:80 fd92c83bb9ce4be69a2c4be97625c0b1
+msgid "|off.png|"
+msgstr ""
+
+#: ../../source/refs/unit.acssr.ref:10 d63c1318844d411c95a6b088a3e8f3ef
+msgid "off.png"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:85 ../../source/unit/acssr.rst:96
+#: 0650ac72ea3c493fa254742c6a2f05bd eea271871c4c4bad80efc8e019576b8b
+msgid "Turn on the relay if x is True, otherwise turn off the relay."
+msgstr "如果 x 为 True，则开启继电器；否则关闭继电器。"
+
+#: ../../source/unit/acssr.rst:87 ../../source/unit/acssr.rst:98
+#: 114a4d5264ce422d97d1229bd7ff46e3 951ed9a03cc3447a8eeaa73ad9fa24d8
+msgid "True or False."
+msgstr "True or False."
+
+#: ../../source/unit/acssr.rst:91 ebed10c4467744e9a9ab94e580adfb13
+msgid "|call.png|"
+msgstr ""
+
+#: ../../source/refs/unit.acssr.ref:8 aeb4199e11d44ad487b96fa3d352d82f
+msgid "call.png"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:102 2c0bf31c0c4f445caca20ea820c84b43
+msgid "|value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.acssr.ref:9 7b73f0c92c8548029cc37e6ce43ce5e4
+msgid "value.png"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:107 08df67fe939b43e5b82f58d2a118f9de
+msgid "Set the color of the LED."
+msgstr "设置 LED 的颜色。"
+
+#: ../../source/unit/acssr.rst:109 293b391df3234eb7ab44b6a5fa5e2a03
+msgid "RGB color value. Default is 0."
+msgstr "RGB 颜色值。默认为 0。"
+
+#: ../../source/unit/acssr.rst:113 99e03d18e82f4f0d88efb58c19bb8a3d
+msgid "|fill_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.acssr.ref:11 6b6b35ad15e1416eb17b82d9a54e994e
+msgid "fill_color.png"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:118 be570533ec6f4f7da25d348aae880d1c
+msgid "Get the firmware version of the unit."
+msgstr "获取设备的固件版本。"
+
+#: ../../source/unit/acssr.rst 43f4d1e9f5a14adc9da20971556ef96a
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:120 3b5add879e8649d2acf55ee6c6536836
+msgid "Firmware version."
+msgstr "固件版本。"
+
+#: ../../source/unit/acssr.rst:124 3b849829736447ba9d7d655ee2ca599a
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.acssr.ref:12 1fd0195cb4c945e7b5929eaa955856c7
+msgid "get_firmware_version.png"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:129 40ee3a68284b48f0b549985c906d3110
+msgid "Set the I2C address of the unit."
+msgstr "设置 unit 的 I2C 地址。"
+
+#: ../../source/unit/acssr.rst:131 d27b86b665c0434fbfd119a164560787
+msgid "New I2C address. The range is 0x01-0x7f."
+msgstr "新的 I2C 地址。范围为 0x01-0x7f。"
+
+#: ../../source/unit/acssr.rst:135 215e5c66bcf941d290bbb2f6b07df910
+msgid "|set_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.acssr.ref:13 0d6d4fbcc9654ea9986f2e700200253f
+msgid "set_address.png"
+msgstr ""
+
+#: ../../source/unit/acssr.rst:137 8e3f271196884ce9a018d1004ca6471e
+msgid "|set_address1.png|"
+msgstr ""
+
+#: ../../source/refs/unit.acssr.ref:14 3fdcde0b0c4f4b9fa145fe09f0c69567
+msgid "set_address1.png"
+msgstr ""
+

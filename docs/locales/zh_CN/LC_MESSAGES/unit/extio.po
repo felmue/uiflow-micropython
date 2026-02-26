@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/extio.rst:2 9ebc2c9afa6c4831a9b711763b45d638
+msgid "EXTIO Unit"
+msgstr "EXTIO Unit"
+
+#: ../../source/unit/extio.rst:6 a703ba3e4f0447daa7437111b96411aa
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/extio.rst:8 5bcea85af2484392a839c10271b3fcf8
+msgid "|EXTIOUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.extio.ref b6a6c4388107470fb3006785364e05f4
+msgid "EXTIOUnit"
+msgstr "EXTIOUnit"
+
+#: ../../source/unit/extio.rst:27 a732fa16c1c64193b90f7407233706ef
+msgid "class EXTIOUnit"
+msgstr "class EXTIOUnit"
+
+#: ../../source/unit/extio.rst:30 ../../source/unit/extio.rst:123
+#: 8cdfb66e1de84cd182ebb935e1772ed5 ebbc55212c3a4577b674e2d19c298aa8
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/extio.rst:34 190a6358d2844352b24936538c58e899
+msgid "Initialize the PCA9554 device."
+msgstr "初始化 PCA9554 设备。"
+
+#: ../../source/unit/extio.rst 2012584f53ab49f3a98d7912c7608575
+#: 231ef3b8e5174afbb9b0dde287fa32d5 2865738e17894f0f9ed9e7913e689a7a
+#: 445615ca81044c7cb0ae56d0db6dc3dd 87237924ff1b47cd9621e3d6d45e0777
+#: 87321f53d9134096b9e1678856f54569 9ad5d408708a479d9aae8d7fc94e6ffd
+#: 9b4979f0b8d2401c93b5d529798528ec a9d815c3f75b4e68972605f55a5a6179
+#: df88cb709fe44c73937f6a99e6b7710e
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/extio.rst:36 f1bd7cc847134d58a69c3329bcbe7ac5
+msgid "An instance of the I2C bus to communicate with the device."
+msgstr "用于与设备通信的 I2C 总线实例。"
+
+#: ../../source/unit/extio.rst:37 410fb416fe5e475eb3f761a22dd04a61
+msgid ""
+"The I2C address of the PCA9554 device (default is "
+"_PCA9554_DEFAULT_ADDRESS)."
+msgstr "PCA9554 设备的 I2C 地址（默认值为 _PCA9554_DEFAULT_ADDRESS）。"
+
+#: ../../source/unit/extio.rst:39 ../../source/unit/extio.rst:53
+#: ../../source/unit/extio.rst:64 ../../source/unit/extio.rst:74
+#: ../../source/unit/extio.rst:85 ../../source/unit/extio.rst:95
+#: ../../source/unit/extio.rst:106 ../../source/unit/extio.rst:135
+#: 0610f833bd254f79a900b5f7b0f30495 224687c6612f455eacc247e8015f24d2
+#: 3c84c784db884ff88f8d178567e7c6f5 55213626f95544c19ef4ad57d8198874
+#: 5993eb9a431f420f82d79b3fa795c80b 6ae82e50e7bc410e9241f1c40982dc9a
+#: 843dde80a5504ca09359056af891bdd2 c44e3c03be1d4f5e8036c0f0b6ca0685
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/extio.rst:41 ../../source/unit/extio.rst:137
+#: 3b80b49fa2e441ac92613d5ec37d9266 3c4c6dcf2f9940a8a9b9228a1756d02b
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.extio.ref:7 c57825025580419db288ab5127758456
+#: d658b384ea9143b2ab1b5612fcf44ab5
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/extio.rst:45 ../../source/unit/extio.rst:141
+#: c6f05c2686ee4dd083db6ae46c249227 deb2fadf12574170bcb0ef88e1d58391
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/extio.rst:49 42247c52971d441792c87838f2017e8c
+msgid "Set the mode of the entire port."
+msgstr "设置整个端口的模式。"
+
+#: ../../source/unit/extio.rst:51 ../../source/unit/extio.rst:62
+#: 925c67af3a0b4b739d5b1b9689a75b53 c834197739fa479ba2e6393f5f754899
+msgid ""
+"The mode to set, either PCA9554.IN (input, 0x00) or PCA9554.OUT (output, "
+"0x01)."
+msgstr "要设置的模式，可以是 PCA9554.IN（输入，0x00）或 PCA9554.OUT（输出，0x01）。"
+
+#: ../../source/unit/extio.rst:55 48b13e754880498ba43dfd13852da2b5
+msgid "|set_port_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.extio.ref:8 3dbea8f80251449b8d4dd87d75bb961a
+msgid "set_port_mode.png"
+msgstr ""
+
+#: ../../source/unit/extio.rst:59 b5e1a368bef6435c9570a96fc3c8fede
+msgid "Set the mode of a specific pin."
+msgstr "设置指定引脚的模式。"
+
+#: ../../source/unit/extio.rst:61 ../../source/unit/extio.rst:82
+#: ../../source/unit/extio.rst:103 36676f56bf8946dfba74b9826de21ab1
+#: 98849d3d5930410396c99595610ce8df be600895c4944ac7b2f169f0b3818ec9
+msgid "The pin number (0-7)."
+msgstr "引脚编号（0-7）。"
+
+#: ../../source/unit/extio.rst:66 776c90e7b8f04061a7fcac7ecf468ae4
+msgid "|set_pin_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.extio.ref:9 59aa3601a389457392ce93518d4151e2
+msgid "set_pin_mode.png"
+msgstr ""
+
+#: ../../source/unit/extio.rst:70 b59532922e4148c8b94fe1e7cd7046a3
+msgid "Set a value to the entire port."
+msgstr "设置整个端口的值。"
+
+#: ../../source/unit/extio.rst:72 3665c28bd46843de8ae1b48b1e417955
+msgid "An 8-bit value to set to the port."
+msgstr "要设置到端口的 8 位值。"
+
+#: ../../source/unit/extio.rst:76 448bc7849bf240cebe8d2e6c32316296
+msgid "|digit_write_port.png|"
+msgstr ""
+
+#: ../../source/refs/unit.extio.ref:10 0e8e6a425474468ca15c49fc45b7e567
+msgid "digit_write_port.png"
+msgstr ""
+
+#: ../../source/unit/extio.rst:80 f402052d677f4343944e0582ee29cdb5
+msgid "Set a value to a specific pin."
+msgstr "设置一个值到指定的引脚。"
+
+#: ../../source/unit/extio.rst:83 a67ed3f508444711b0a4093b3ef1c26b
+msgid "The value to set, either 0 (low) or 1 (high)."
+msgstr "要设置的值，可以是 0（低电平）或 1（高电平）。"
+
+#: ../../source/unit/extio.rst:87 b5cf87fd345c48df890079b91a17bc31
+msgid "|digit_write.png|"
+msgstr ""
+
+#: ../../source/refs/unit.extio.ref:11 a9f0640de6bb446083458d2146d78043
+msgid "digit_write.png"
+msgstr ""
+
+#: ../../source/unit/extio.rst:91 f756960f469d4cab9056bf8ec1c3e73f
+msgid "Read the value from the entire port."
+msgstr "从整个端口读取值。"
+
+#: ../../source/unit/extio.rst cff98a6d5fc0493c9ed40f35c579f3ce
+#: f7151d20af5548be8a3a033aee64b34c ff215da5c84548bda8612f51c4dad52d
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/extio.rst:93 7a10c68bd0134699bba501b3d0c1be01
+msgid "An 8-bit value representing the state of the port."
+msgstr "表示端口状态的 8 位值。"
+
+#: ../../source/unit/extio.rst:97 a1f8f3d73e0d40f0b1d23bb04ca71403
+msgid "|digit_read_port.png|"
+msgstr ""
+
+#: ../../source/refs/unit.extio.ref:12 373e8804ad5247a8a4993811f7549a62
+msgid "digit_read_port.png"
+msgstr ""
+
+#: ../../source/unit/extio.rst:101 b8ed0bbc413d4365ba2a277be3a3f81c
+msgid "Read the value from a specific pin."
+msgstr "从指定引脚读取值。"
+
+#: ../../source/unit/extio.rst:104 7dec6767a72f437eb74523d0a6b7b6ec
+msgid "The value of the pin, either 0 (low) or 1 (high)."
+msgstr "引脚的值，可以是 0（低电平）或 1（高电平）。"
+
+#: ../../source/unit/extio.rst:108 31e0d4ff803749a18dcbc00b42b8d99a
+msgid "|digit_read.png|"
+msgstr ""
+
+#: ../../source/refs/unit.extio.ref:13 b6b4a4627d824b88834a8d5e396f5719
+msgid "digit_read.png"
+msgstr ""
+
+#: ../../source/unit/extio.rst:112 16e12664f1a34dcaa961b94f48012559
+msgid "Provide a MicroPython-style interface for handling GPIO pins."
+msgstr "提供一个 MicroPython 风格的接口，用于处理 GPIO 引脚。"
+
+#: ../../source/unit/extio.rst:114 19834e037e32492e89ae78c5b77adbcb
+msgid "The GPIO pin number to configure and control."
+msgstr "要配置和控制的 GPIO 引脚编号。"
+
+#: ../../source/unit/extio.rst:115 676c7ebf249c42e6980b3e06d66db971
+msgid "The pin mode, either `Pin.IN` (default) or `Pin.OUT`."
+msgstr "引脚模式，可以是 `Pin.IN`（默认）或 `Pin.OUT`。"
+
+#: ../../source/unit/extio.rst:116 3b548784d415498a8024e498ac14db80
+msgid ""
+"The initial value to set for the pin if in `OUT` mode. Use `None` for no "
+"initial value."
+msgstr "如果处于 `OUT` 模式，要为引脚设置的初始值。使用 `None` 表示不设置初始值。"
+
+#: ../../source/unit/extio.rst:117 6249d63e2f204677b07373c4d2ec594d
+msgid ""
+"A `Pin` object for further pin operations such as reading or writing "
+"values."
+msgstr "一个用于后续引脚操作（例如读取或写入值）的 `Pin` 对象。"
+
+#: ../../source/unit/extio.rst:120 f0fe150fd1914ce89c7b50272151ad25
+msgid "class Pin"
+msgstr "class Pin"
+
+#: ../../source/unit/extio.rst:128 6b71bf1c13ef406da491a69eb3d206b0
+msgid "Initialize the Pin object with specified parameters."
+msgstr "使用指定参数初始化 Pin 对象。"
+
+#: ../../source/unit/extio.rst:130 74a2d89ab706454e84b5437e9fe952f9
+msgid "The port object controlling the pin."
+msgstr "控制该引脚的端口对象。"
+
+#: ../../source/unit/extio.rst:131 fd4b6be50d684dee8932f2fbf30240f4
+msgid "The pin identifier (e.g., GPIO number)."
+msgstr "引脚标识符（例如 GPIO 编号）。"
+
+#: ../../source/unit/extio.rst:132 1e9bd1cfc61043a7b513853c64a9b72f
+msgid "The mode of the pin, either `Pin.IN` (default) or `Pin.OUT`."
+msgstr "引脚的模式，可以是 `Pin.IN`（默认）或 `Pin.OUT`。"
+
+#: ../../source/unit/extio.rst:133 a5e1edf823b147e59756bff802f0d7a0
+msgid "Optional initial value for the pin, 0 or 1."
+msgstr "引脚的可选初始值，0 或 1。"
+
+#: ../../source/unit/extio.rst:145 27680382d3e64487837b5971990cf99f
+msgid "Reinitialize the pin with a new mode or value."
+msgstr "使用新的模式或值重新初始化引脚。"
+
+#: ../../source/unit/extio.rst:147 1659ac8107c54a15b29f0fcf2310f2ee
+msgid "New mode for the pin, `Pin.IN` (default) or `Pin.OUT`."
+msgstr "引脚的新模式：`Pin.IN`（默认）或 `Pin.OUT`。"
+
+#: ../../source/unit/extio.rst:148 42b60e24a81c452caea4d1a3711ad99e
+msgid "New value for the pin, 0 or 1."
+msgstr "引脚的新值，0 或 1。"
+
+#: ../../source/unit/extio.rst:153 00b74ea5601f4c0a9fff3870a20b5bbe
+msgid "Get or set the digital value of the pin."
+msgstr "获取或设置引脚的数字值。"
+
+#: ../../source/unit/extio.rst:155 353d319b0508411884f7c995a8accc48
+msgid ""
+"If no arguments are passed, the method returns the current value of the "
+"pin. If one argument is passed, it sets the pin to the specified value."
+msgstr "如果未传入参数，该方法将返回引脚的当前值。如果传入一个参数，则将引脚设置为指定值。"
+
+#: ../../source/unit/extio.rst:158 f585003868d546c1bf718664829dda26
+msgid "Optional argument to set the pin value."
+msgstr "用于设置引脚值的可选参数。"
+
+#: ../../source/unit/extio.rst:163 f8fca8d13f014a28a1ce29a676df455b
+msgid "Set the pin to a high state (1)."
+msgstr "将引脚设置为高电平状态 (1)。"
+
+#: ../../source/unit/extio.rst:168 01e5d04736574ce38c237f39fd4007e9
+msgid "Set the pin to a low state (0)."
+msgstr "将引脚设置为低电平状态（0）。"
+

@@ -22,13 +22,13 @@ msgstr ""
 
 #: ../../en/software/modbus.rst:2 04b0d4eb3ac64ef58befe78d77e94cdd
 msgid ":py:mod:`modbus` -- a Modbus library"
-msgstr ""
+msgstr ":py:mod:`modbus` -- 一个 Modbus 库"
 
 #: ../../en/software/modbus.rst:4 20e638faafbc40dfbf367b966a268866
 msgid "a Modbus library for MicroPython."
-msgstr ""
+msgstr "一个适用于 MicroPython 的 Modbus 库。"
 
 #: ../../en/software/modbus.rst:7 9d29ce09ad794a078604269c1991e285
 msgid "Classes"
-msgstr ""
+msgstr "Classes"
 

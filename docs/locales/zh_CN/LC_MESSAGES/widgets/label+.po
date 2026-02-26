@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/widgets/label+.rst:4 e49b3673babe4197b89484ac93bc9444
 msgid "class LabelPlus -- display remote text"
@@ -102,11 +102,11 @@ msgstr "API参考"
 
 #: ../../en/widgets/label+.rst:52 4d801252417f49109111fa80cd8bf383
 msgid "LabelPlus"
-msgstr ""
+msgstr "LabelPlus"
 
 #: 479bdf87c85a4fae9030078cc3977b0d label_plus.LabelPlus:1 of
 msgid "Bases: :py:class:`~M5.Widgets.Label`"
-msgstr ""
+msgstr "Bases: :py:class:`~M5.Widgets.Label`"
 
 #: 6d2a22cb2f2d45bdbb2d6b50999fcedc label_plus.LabelPlus:1 of
 msgid "Create a LabelPlus object that can fetch and display text from a URL."

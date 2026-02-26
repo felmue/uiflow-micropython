@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/key.rst:2 8c03d22f7d3f4c099e15908e32ab26b1
+msgid "Key Unit"
+msgstr "Key Unit"
+
+#: ../../source/unit/key.rst:7 f058d1e9d44c46f599d91f627ac429ff
+msgid ""
+"Unit Key is a single mechanical key input unit with built-in RGB LED. The"
+" key shaft adopts Blue switch with tactile bump and audible click "
+"features. Embedded with one programable RGB LED - SK6812, supports 256 "
+"level brightness. Two digital IOs are available for key status and LED "
+"control key status and lighting control. Suitable for multiple HMI "
+"applications."
+msgstr ""
+"Unit Key 是一款内置 RGB LED 的单机械按键输入单元。按键轴体采用 Blue switch，具备段落感与清脆点击声特性。内嵌 1 "
+"颗可编程 RGB LED - SK6812，支持 256 级亮度调节。提供 2 路数字 IO，用于按键状态与 LED "
+"控制，实现按键状态检测与灯光控制。适用于多种 HMI 应用场景。"
+
+#: ../../source/unit/key.rst:14 0d80110ad45043f4a783cac0f6eed343
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/key.rst:16 33b6f316882349a192160521025601f8
+msgid "|KeyUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref cdb351f5a57f4b7ead78e7b21f69ff3e
+msgid "KeyUnit"
+msgstr "KeyUnit"
+
+#: ../../source/unit/key.rst:19 8aae5e276ffb4d26bdddaad5d09fd83d
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/key.rst:26 2a81bf482d794e4bb3c16e0784b666ef
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/key.rst:28 13e3ccefbe1f447a9f4c7e5cffd72883
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:32 911b662a6194447b893e2b78e071bc2e
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:33 3c84725d1c9548a39eb380d830c082bc
+msgid "|cores3_key_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/key.rst:37 8a13eedbcf734deebcf102ad6d7eb3a7
+msgid "class KeyUnit"
+msgstr "class KeyUnit"
+
+#: ../../source/unit/key.rst:40 f1301ff1bbe44f7db56e2aca0f575f87
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/key.rst:44 13f20fe21ec34e65a19e947653f5b4c2
+msgid "Initialize the KeyUnit."
+msgstr "初始化 KeyUnit。"
+
+#: ../../source/unit/key.rst 2d2d831521144892bd2cea03182a6094
+#: 4bb31b0b9896463da5d04098e8fb3bc9 fb16918870f34f6d8a0bc424483d140f
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/key.rst:46 72895c4835394a0887e43282cf6b02e6
+msgid ""
+"The port to which the KeyUnit is connected. port[0]: key pin, port[1]: "
+"LEDs pin."
+msgstr "KeyUnit 连接的端口。port[0]：按键引脚，port[1]：LED 引脚。"
+
+#: ../../source/unit/key.rst:48 ../../source/unit/key.rst:62
+#: ../../source/unit/key.rst:73 ../../source/unit/key.rst:84
+#: ../../source/unit/key.rst:93 ../../source/unit/key.rst:102
+#: ../../source/unit/key.rst:111 ../../source/unit/key.rst:120
+#: ../../source/unit/key.rst:129 ../../source/unit/key.rst:138
+#: ../../source/unit/key.rst:147 ../../source/unit/key.rst:156
+#: ../../source/unit/key.rst:165 ../../source/unit/key.rst:177
+#: 036f4b5d220342be934e90c4093e3039 03f9717fa95646fdbca1aba5ce79f2da
+#: 246619d0dd7f4870a5025729e9b7d74b 269252a9bda74113804d17fd868b67e8
+#: 2c271a981d5b46b084d7e88520f55beb 4736f34daaa44680b6d17b6e89b3a66b
+#: 5e71ebb2742445e6a7bc2c242a4ff794 73262301bbeb4b738493d635b5808b51
+#: 7c2cd584fe634d92a59eb01c6a5dd87f a8ee3d178deb4a2d891ab64c0f7bc44e
+#: cd41e7ff4fd3417f985b934881ee9c32 d9b2bc3b45b94417b3563ebae733138e
+#: fa91a0aa9d7a4092baefca8cadefc8a4 fd45948e4e34476499736a3b8ada8794
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/key.rst:50 a312b57212b847a1900fd128e7edab59
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:7 3793d1a9360d4d8d930cf020b4ce7942
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:54 f3b68a1df8ee47e7ae1db7265899e86d
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/key.rst:58 99db713a297f4954b5d79e4c2ec7c842
+msgid "Get the state of the key."
+msgstr "获取按键的状态。"
+
+#: ../../source/unit/key.rst 52fcf35291a14d4bb5e581a510e3d9f9
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/key.rst:60 c05071b3a7a14e0b9ccbd8dcfc2c5419
+msgid "0: released, 1: pressed, 2: long pressed."
+msgstr "0：已释放，1：按下，2：长按。"
+
+#: ../../source/unit/key.rst:64 7773d7d9c63f46e8ade2af1466a4082a
+msgid "|get_key_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:8 d5cb1ff8c4b04c559da8f9dd05082456
+msgid "get_key_state.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:69 27ed1d6b01ff48209846f35084b531c2
+msgid "Set the color of the LED."
+msgstr "设置 LED 的颜色。"
+
+#: ../../source/unit/key.rst:71 e6f2ee01d5b24e25aa1c67bb76f025da
+msgid "The color of the LED."
+msgstr "LED 的颜色。"
+
+#: ../../source/unit/key.rst:75 c468f3a49e1a4cd7b7f56900e626fe93
+msgid "|set_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:9 eb96ff7f13574a6cac7261a94218a205
+msgid "set_color.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:80 de72b4fafd1942629be081b74622f7a3
+msgid "Set the brightness of the LED."
+msgstr "设置 LED 的亮度。"
+
+#: ../../source/unit/key.rst:82 777ae8f85bc245789c61a61001c8a030
+msgid "The brightness of the LED, range from 0 to 100."
+msgstr "LED 的亮度，范围为 0 到 100。"
+
+#: ../../source/unit/key.rst:86 1fbc90c151b846ddbc96e367cbeb2a76
+msgid "|set_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:10 18b49275bca74fd1a4cf99de672f3726
+msgid "set_brightness.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:91 14caae9c94904848b42da06240aaa675
+msgid "Returns whether the Button object is in a long press state."
+msgstr "返回 Button 对象是否处于长按状态。"
+
+#: ../../source/unit/key.rst:95 e5a17712272a4424b04af7a4d852f1c1
+msgid "|isHolding.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:12 6b96dfb6c1a2464abd9889037ae91d4f
+msgid "isHolding.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:100 27e1860d3be0498f83c0d8290679ba18
+msgid "Returns whether the Button object is in a pressed state."
+msgstr "返回 Button 对象是否处于按下状态。"
+
+#: ../../source/unit/key.rst:104 ff7e877065b14155ad02466cf682ba78
+msgid "|isPressed.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:14 80b1b898a16143f18ed7a7de0465ebe2
+msgid "isPressed.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:109 4180db7946864380b41a8933f78917a4
+msgid "Returns whether the Button object is in a released state."
+msgstr "返回 Button 对象是否处于释放状态。"
+
+#: ../../source/unit/key.rst:113 1e2e91ae97514273a01fbbcc2b20dd80
+msgid "|isReleased.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:16 a91d3fe218904d2bbcf0ad2427182cb3
+msgid "isReleased.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:118 b80ba29271fa44f5b067dbe3a5ed81c2
+msgid "Returns True when the Button object is briefly pressed and released."
+msgstr "当 Button 对象被短按并释放时返回 True。"
+
+#: ../../source/unit/key.rst:122 183bf1a61a834849bbba7613da991edf
+msgid "|wasClicked.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:18 a30ae99a57d549bb8a5ba8eee15fa52c
+msgid "wasClicked.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:127 a65e7999e33c4e0fa0832af21d095946
+msgid ""
+"Returns True when the Button object is double-clicked after a certain "
+"amount of time."
+msgstr "当 Button 对象在一定时间内被双击时返回 True。"
+
+#: ../../source/unit/key.rst:131 b227fcd9e77f4d80868c6b676d8731ac
+msgid "|wasDoubleClicked.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:20 1221a7537af84fc08a81bc1fb21568a5
+msgid "wasDoubleClicked.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:136 b12831618dbb4d7182cff46638777300
+msgid ""
+"Returns True when the Button object is held down for a certain amount of "
+"time."
+msgstr "当 Button 对象被按住一段时间时返回 True。"
+
+#: ../../source/unit/key.rst:140 af5b26be129d476c8527da6139777ea5
+msgid "|wasHold.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:22 bf159bcfabaa4783a875a1d2d8727782
+msgid "wasHold.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:145 4c111f5e3b9d4ef38143f85df35bc2cf
+msgid "Returns True when the Button object is pressed."
+msgstr "当按下 Button 对象时返回 True。"
+
+#: ../../source/unit/key.rst:149 47aca82410e34e7b89a0a838253597cb
+msgid "|wasPressed.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:24 ef9779cf04db441c9a202a74d54d6eac
+msgid "wasPressed.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:154 f2a3664bbbd144e4bb4b4f98a66f0dd4
+msgid "Returns True when the Button object is released."
+msgstr "当 Button 对象释放时返回 True。"
+
+#: ../../source/unit/key.rst:158 372b8c0551124d79a1ed54effe44c1bc
+msgid "|wasReleased.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:26 37b92b3c79ba49c8b44af0f080077067
+msgid "wasReleased.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:163 2a58c7ddeea44c7184e9235dfe6cda7f
+msgid ""
+"Returns True when the Button object is single-clicked after a certain "
+"amount of time."
+msgstr "当 Button 对象在一定时间后被单击时，返回 True。"
+
+#: ../../source/unit/key.rst:167 bd535c880dce49e0af4b6c93483a2124
+msgid "|wasSingleClicked.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:28 f249f92aea814b41b630c72bfeafcd25
+msgid "wasSingleClicked.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:171 76623e85f50741448f34417387a5e6ad
+msgid "Event Handling"
+msgstr "Event Handling"
+
+#: ../../source/unit/key.rst:175 34b7bc3884d247c4b2cd47612965c2d0
+msgid "Sets the event callback function."
+msgstr "设置事件回调函数。"
+
+#: ../../source/unit/key.rst:179 09ebb233f6cb4fabade3d1b131ee7ce9
+msgid "|setCallback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.key.ref:30 51810a2f02b441da9abc96ebd78c0304
+msgid "setCallback.png"
+msgstr ""
+
+#: ../../source/unit/key.rst:183 ../../source/unit/key.rst:194
+#: 349eef39d18f4364a1be218e94d7dcc1 cf1f501d52a54aa388cb4a2cb51c108e
+msgid "Constants"
+msgstr ""
+
+#: ../../source/unit/key.rst:187 b2c98b0628fa413586b16ac235be7a33
+msgid "A CB_TYPE object."
+msgstr "一个 CB_TYPE 对象。"
+
+#: ../../source/unit/key.rst:191 ad574032654f4691b97eec4c22566b1e
+msgid "class CB_TYPE"
+msgstr "class CB_TYPE"
+
+#: ../../source/unit/key.rst:198 67280437e7fb414793b080c73bc5ca1b
+msgid "Single click event type."
+msgstr "单击事件类型。"
+
+#: ../../source/unit/key.rst:203 cbdd60c964ab49c0be9824bc4a93bd2e
+msgid "Double click event type."
+msgstr "双击事件类型。"
+
+#: ../../source/unit/key.rst:208 6a609cf5a92f49d186cc08c7e39dfa55
+msgid "Long press event type."
+msgstr "长按事件类型。"
+
+#: ../../source/unit/key.rst:212 3265629c782842f8834c28fa641cf233
+msgid "Press event type"
+msgstr "按下事件类型"
+
+#: ../../source/unit/key.rst:216 5cccada3c7ad4085993a84c84b2cdd83
+msgid "Release event type"
+msgstr "释放事件类型"
+

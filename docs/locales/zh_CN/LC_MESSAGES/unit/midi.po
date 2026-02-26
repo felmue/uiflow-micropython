@@ -1,0 +1,630 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/midi.rst:3 53897f9a1c0943549d9fc5b3ea51d33b
+msgid "MIDI Unit"
+msgstr "MIDI 单元"
+
+#: ../../source/unit/midi.rst:7 3276dc4e6f07469890eba0a184a1bfdf
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/midi.rst:9 9ff49aa726274b5d9ec8df9d57f9917a
+msgid "|MIDIUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref b0fead78b33e4288a8d9e4bb78abdff2
+msgid "MIDIUnit"
+msgstr "MIDIUnit"
+
+#: ../../source/unit/midi.rst:16 3a531cc2d1a4470c91aaf3c2d58e034d
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/midi.rst:18 936f293db7f14a45a5e88d5b8a609fb1
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:32 660b1e94e26f43ec80a6ed579ab45e1c
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:22 153f5d1847e840efa60749ba53d7fb14
+msgid "|midi_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/midi.rst:25 3ab593fefc6541deb4942b3537ad4b04
+msgid "class MIDIUnit"
+msgstr "class MIDIUnit"
+
+#: ../../source/unit/midi.rst:28 00caa9f7442f4e4db9455665651eb3c7
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/midi.rst:33 8d9f6a7f07bd4d6bb454fe2e2be16e2d
+msgid "Initializes the MIDI unit with a specified UART ID and port pins."
+msgstr "使用指定的 UART ID 和端口引脚初始化 MIDI 单元。"
+
+#: ../../source/unit/midi.rst:33 e5ebd8148b094541b50d33c8d47053e0
+msgid "The UART interface is used to transmit MIDI messages."
+msgstr "UART 接口用于传输 MIDI 消息。"
+
+#: ../../source/unit/midi.rst 030b712bcaae4d16bed0df6b70aeeae8
+#: 0911fcb746424ec2b14896067716160d 0b797f38e9e04ff5b03766bce4c7177c
+#: 0e1dfdb8c33a43e383355a7a7b9617c4 0e3cc4f1f6204da4a4993b0b6481e53a
+#: 1ad772d9771142039b45c7f49d15bd74 2e0358ff28874a8aa6fb3d33db61b371
+#: 347940c081844346bf69737868d76ab8 36978e8e242b47edb4960bf8b2e406cb
+#: 4adeef71c13f4878802c854eaecef47b 5234f84dce3349338e9d046f32f43b56
+#: 59288c3e0dd14bd1ac90626434b3b1d2 60a5cd0c2c51415a88a8afab873f8bb7
+#: 6117a324f83a44f3bf056873023c4bde 6ceefe2249c94b39bfc50d960d3013a2
+#: afa6a37d11594542a17245be6d1d2415 b3bc933c3d4f45d182663d740f7805e6
+#: c6225beb55b348f0b44641152134363c c63ec9f2ad904e0889f1378faf3fe345
+#: da4d42637e4d419fa114fbf71912e0e9 ef51eef7f26d4cf5bb8aa20f235e7451
+#: ef795a6e493d4673b6439d7e8e85381a
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/midi.rst:35 27fd477df16445bca32b4245a771a628
+msgid "UART device ID."
+msgstr "UART 设备 ID。"
+
+#: ../../source/unit/midi.rst:36 5ba169609d8146388ea40e0333e77539
+msgid "UART TX and RX pins."
+msgstr "UART TX 和 RX 引脚。"
+
+#: ../../source/unit/midi.rst:38 ../../source/unit/midi.rst:54
+#: ../../source/unit/midi.rst:65 ../../source/unit/midi.rst:77
+#: ../../source/unit/midi.rst:88 ../../source/unit/midi.rst:99
+#: ../../source/unit/midi.rst:110 ../../source/unit/midi.rst:119
+#: ../../source/unit/midi.rst:130 ../../source/unit/midi.rst:140
+#: ../../source/unit/midi.rst:150 ../../source/unit/midi.rst:163
+#: ../../source/unit/midi.rst:177 ../../source/unit/midi.rst:188
+#: ../../source/unit/midi.rst:206 ../../source/unit/midi.rst:218
+#: ../../source/unit/midi.rst:231 ../../source/unit/midi.rst:243
+#: ../../source/unit/midi.rst:256 ../../source/unit/midi.rst:267
+#: ../../source/unit/midi.rst:284 ../../source/unit/midi.rst:293
+#: 11294073cdb140f99d7ffccd50e307d8 13bb85e93c07486f9446adfc0ddf56a2
+#: 194c8a4635164a56ad7cf145d16bf44b 1b419571a45b44f5b0219a0c61e64794
+#: 20b72e09a7d04b598e6fcdc44568e5f9 2300cfb3fe7f4c74b387bdbe0e997884
+#: 242cb9be3b064241a230e09f1550cee0 2ef55de5e46e49dabee6abe4e643b8e0
+#: 2f470e8bcaab4337a6f900df437223c9 31f6b1c8214149a285b45c852d88c9cc
+#: 438796f7c3934b82bc0f9dbd7f1b6702 7ac464d678934d67b09bc0831ef65983
+#: 91fe18a096f644ffa01226ae7dfe3674 a678a12354394f1f9153435cca91282e
+#: ac0dd00a3cd74ec28cc70cfb10f1b80d b289373335b747938dda2b1c9d1764ce
+#: c06786646b2545928117de3570f315b7 cb93de82f05940dfbd0b5844ee4d6118
+#: dabfeb24ee834820ac8484fa33998851 e731b366461843ba8ef88fb364ea9d0c
+#: f5152824506a4aae82a5c0dd270df67f fd050ac89e09471da44713411cfd0b20
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/midi.rst:40 3dbf453b625c4191aa32fa2e97279761
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:6 0cab0ee56dd6414c963a9da44e590845
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:44 a62208fff73a4bc887272ab6bb4fd375
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/midi.rst:48 7acaaba359b140ae8169b7ffca11bfa6
+msgid "Sends a MIDI Note On message to the specified channel."
+msgstr "向指定通道发送 MIDI Note On 消息。"
+
+#: ../../source/unit/midi.rst:50 ../../source/unit/midi.rst:62
+#: ../../source/unit/midi.rst:74 ../../source/unit/midi.rst:96
+#: ../../source/unit/midi.rst:107 ../../source/unit/midi.rst:127
+#: ../../source/unit/midi.rst:138 ../../source/unit/midi.rst:158
+#: ../../source/unit/midi.rst:171 ../../source/unit/midi.rst:185
+#: ../../source/unit/midi.rst:196 ../../source/unit/midi.rst:214
+#: 032a2445b62d495aba209ea938f6d990 3d801b9e8c4144d28aacc49f93f34994
+#: 6014cffa5d0a46fa889d7cd26f54b907 6fc3b8c76d37425aa522f2cf0454ec10
+#: 740ee7ddf99d414b9ad99b0d048536ca 752d60444d364a4386e65df00fac5c43
+#: 80d17db9f383487e80f0358e3e53c5f3 c4ace9fabb3442f9b5b6618c8375def4
+#: ca1e145cafe440dc95b509abb3697c65 de08e87125a54ecbab061c56dad79c09
+#: ef4a1e563eaa40249017c475423f2cc0 fc4d8100f3414f60855a1e22acd88961
+msgid "MIDI channel (0-15)."
+msgstr "MIDI 通道（0-15）。"
+
+#: ../../source/unit/midi.rst:51 ../../source/unit/midi.rst:63
+#: a930871678b24eee93a3530417ccb33e a93d377718ec4c7e9ffb11c5c079d337
+msgid "Note pitch (0-127)."
+msgstr "音符音高（0-127）。"
+
+#: ../../source/unit/midi.rst:52 ../../source/unit/midi.rst:86
+#: 07aab2852d814ae999f4de0279b5a61d 43d5d5c72f194f488126713dbb540a34
+msgid "Note velocity (0-127)."
+msgstr "音符力度（0-127）。"
+
+#: ../../source/unit/midi.rst:56 3a06c360e76043a6a2b0bb43847afe31
+msgid "|set_note_on.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:20 e651ba8cd52e4f60b992ba717702e592
+msgid "set_note_on.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:60 ed291fd2537248e8a50502a6a38f3587
+msgid "Sends a MIDI Note Off message to the specified channel."
+msgstr "向指定通道发送 MIDI Note Off 消息。"
+
+#: ../../source/unit/midi.rst:67 f05ec85b4d5b4ea4901dc8cb33000bb1
+msgid "|set_note_off.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:19 349abdb012fd4fa1afb47d33c7ff03e3
+msgid "set_note_off.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:71 eeb1a702d0994da39bbe9c19b8ca99a2
+msgid "Changes the program (instrument) on the specified channel."
+msgstr "更改指定通道上的程序（乐器）。"
+
+#: ../../source/unit/midi.rst:73 bd666164b6214ad282e79abb4352a925
+msgid "Bank selector (MSB) for the program change."
+msgstr "用于程序更改的 Bank selector（MSB）。"
+
+#: ../../source/unit/midi.rst:75 83c361a1cd0c41328f12f8f8fad0979d
+msgid "Program number (0-127)."
+msgstr "程序编号（0-127）。"
+
+#: ../../source/unit/midi.rst:79 9fb7dae4cf46432480c9d92706fa5926
+msgid "|set_instrument.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:15 abeaeb7a405a437a911b71bc8ab2f4df
+msgid "set_instrument.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:83 f7c59eecbd2047b1804778e8dd719e13
+msgid "Sets a drum instrument and plays a note on MIDI channel 10."
+msgstr "设置鼓组乐器，并在 MIDI 通道 10 上播放一个音符。"
+
+#: ../../source/unit/midi.rst:85 8eafe2908694460da735889a123d5cb9
+msgid "Drum pitch number."
+msgstr "鼓音高编号。"
+
+#: ../../source/unit/midi.rst:90 600bf51f61d24a5ba64fbf1d44588259
+msgid "|set_drums_instrument.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:11 6f266aa398c8450fbf61e1f4ceec1bcf
+msgid "set_drums_instrument.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:94 acdef611d00a422ebe66919f43f466a7
+msgid "Sends a MIDI Pitch Bend message to the specified channel."
+msgstr "向指定通道发送 MIDI Pitch Bend 消息。"
+
+#: ../../source/unit/midi.rst:97 05bafab89277448a820e5b35c6372f31
+msgid "Pitch bend value (0-16383)."
+msgstr "弯音值（0-16383）。"
+
+#: ../../source/unit/midi.rst:101 4aab6515067b49cb83003154ca8d7678
+msgid "|set_pitch_bend.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:24 0c41885098554ed68d6a10fecb07ee87
+msgid "set_pitch_bend.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:105 6d643748607d40e1bfc07888f23c3a8c
+msgid "Sets the pitch bend range on the specified channel."
+msgstr "在指定通道上设置弯音范围。"
+
+#: ../../source/unit/midi.rst:108 3d683e653f754bb795b7e22ddb4f78a5
+msgid "Pitch bend range in semitones."
+msgstr "弯音范围（单位：半音）。"
+
+#: ../../source/unit/midi.rst:112 57bfb2f3fb144cb2affcd4d18e8d8788
+msgid "|set_pitch_bend_range.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:23 b9f9b2a1c8454eceb6706037a625c33c
+msgid "set_pitch_bend_range.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:116 e9c8e144202c4d8bb34ddb0282beda46
+msgid "Sends a MIDI System Exclusive Reset command."
+msgstr "发送 MIDI System Exclusive Reset 命令。"
+
+#: ../../source/unit/midi.rst:121 b88171b52f23410c82434f1916ee6017
+msgid "|midi_reset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:7 d496e0e86ca841b784fd2fc8eb4f82d3
+msgid "midi_reset.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:125 a36abe512b9b4b20a7906f4cbad97776
+msgid "Sets the channel volume for the specified channel."
+msgstr "设置指定通道的通道音量。"
+
+#: ../../source/unit/midi.rst:128 ../../source/unit/midi.rst:148
+#: a7a2ea0422ff44a284c331a836522da0 bf723ddc17504a0e9fcfed3c7f7af367
+msgid "Volume level (0-127)."
+msgstr "音量等级（0-127）。"
+
+#: ../../source/unit/midi.rst:132 493e297e00824103ad3e6a212eef38d7
+msgid "|set_channel_volume.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:9 7266155ab3c94ede9c80a5b2d0e44d67
+msgid "set_channel_volume.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:136 f8fe3ec7d2c94cb78321956324fafdb2
+msgid ""
+"Sends a MIDI Control Change message to turn off all notes on the "
+"specified channel."
+msgstr "发送 MIDI Control Change 消息，在指定通道上关闭所有音符。"
+
+#: ../../source/unit/midi.rst:142 2a3927fcccb943199c2c09ba8932e9e5
+msgid "|set_all_notes_off.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:8 1efdab3fa1554ac082cc08c20e869f95
+msgid "set_all_notes_off.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:146 becf24073e8b405db3ccd97fa82392b9
+msgid "Sets the master volume using a standard System Exclusive message."
+msgstr "使用标准 System Exclusive 消息设置主音量。"
+
+#: ../../source/unit/midi.rst:152 e7c47c58ab5b47ee8a671e432ace4656
+msgid "|set_master_volume.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:16 30437b7311fd42f4b9260850c0547405
+msgid "set_master_volume.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:156 6f6fe20bd6b64938aa9ee166bf1a616e
+msgid "Configures reverb effect on the specified channel."
+msgstr "配置在指定通道上的混响效果。"
+
+#: ../../source/unit/midi.rst:159 f7789470f7134e45a67c8cf0382ad1ab
+msgid "Reverb program number (0-7)."
+msgstr "混响程序编号（0 - 7）。"
+
+#: ../../source/unit/midi.rst:160 12768709569d478a9b7ed9a887ea4435
+msgid "Reverb level (0-127)."
+msgstr "混响级别（0-127）。"
+
+#: ../../source/unit/midi.rst:161 4f302a380ecd4e09963676c7310bf0e6
+msgid "Delay feedback amount (0-127)."
+msgstr "延迟反馈量（0-127）。"
+
+#: ../../source/unit/midi.rst:165 0bd6ad79d56944b896f22a579159b815
+msgid "|set_reverb.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:25 4a0fa30e87554b3595e479d0cd4be15b
+msgid "set_reverb.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:169 c1e55c049b2b4c2cad5d31d352e584c2
+msgid "Configures chorus effect on the specified channel."
+msgstr "在指定通道上配置合唱效果。"
+
+#: ../../source/unit/midi.rst:172 e471e1163c0d49f18c334a3f77809c80
+msgid "Chorus program number (0-7)."
+msgstr "合唱程序编号（0-7）。"
+
+#: ../../source/unit/midi.rst:173 4c61602a2cf44252949ce4bc2809400a
+msgid "Chorus level (0-127)."
+msgstr "合唱级别（0-127）。"
+
+#: ../../source/unit/midi.rst:174 ff35589b5bed480097f91b167a00edaf
+msgid "Chorus feedback amount (0-127)."
+msgstr "合唱反馈量（0-127）。"
+
+#: ../../source/unit/midi.rst:175 9d430019894a4788ad4889506f0be6cd
+msgid "Chorus delay amount (0-127)."
+msgstr "合唱延迟量（0-127）。"
+
+#: ../../source/unit/midi.rst:179 15f90c45fefe4ed2af3da1b5e5e8232a
+msgid "|set_chorus.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:10 94a7758640fb433ca66bac68f04d7c97
+msgid "set_chorus.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:183 37d9beeeda19428082233cbae727e281
+msgid "Sets the pan position for the specified channel."
+msgstr "设置指定通道的 pan 位置。"
+
+#: ../../source/unit/midi.rst:186 56121133b1d9463cbdec0a71613a4dff
+msgid "Pan position (0-127)."
+msgstr "平移位置（0-127）。"
+
+#: ../../source/unit/midi.rst:190 560a552487dd4302a899c0d48727efa0
+msgid "|set_pan.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:22 7117c9b068744c148319a80dd2c29298
+msgid "set_pan.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:194 528d6e595c64452688bd0cb8ca143638
+msgid "Sets the equalizer levels and frequencies for the specified channel."
+msgstr "设置指定通道的均衡器电平和频率。"
+
+#: ../../source/unit/midi.rst:197 1ba02107b9e54cc4b2a3f421828eb7e7
+msgid "Low band level (-12dB to +12dB)."
+msgstr "低频电平（-12 dB 到 +12 dB）。"
+
+#: ../../source/unit/midi.rst:198 5327da409ef04af08e0269217a8b5535
+msgid "Mid-low band level (-12dB to +12dB)."
+msgstr "中低频段电平（-12 dB 到 +12 dB）。"
+
+#: ../../source/unit/midi.rst:199 c40085ee2a6747e1b2f4f2fae31a2e17
+msgid "Mid-high band level (-12dB to +12dB)."
+msgstr "中高频段电平（-12 dB 至 +12 dB）。"
+
+#: ../../source/unit/midi.rst:200 dcabafb2b4ed4815b6a367e63894e41a
+msgid "High band level (-12dB to +12dB)."
+msgstr "高频增益等级（-12 dB 至 +12 dB）。"
+
+#: ../../source/unit/midi.rst:201 19d976a3bcce4fecad1583cf237f0e86
+msgid "Low band frequency (Hz)."
+msgstr "低频段频率 (Hz)。"
+
+#: ../../source/unit/midi.rst:202 5e42b8f19ba64c32a91f47b9b59bec6d
+msgid "Mid-low band frequency (Hz)."
+msgstr "中低频段频率 (Hz)。"
+
+#: ../../source/unit/midi.rst:203 9ed9de66cab040a5a9b60512cb7c4fbe
+msgid "Mid-high band frequency (Hz)."
+msgstr "中高频段频率 (Hz)。"
+
+#: ../../source/unit/midi.rst:204 55581969dbd845c5bf805b5b4c688cca
+msgid "High band frequency (Hz)."
+msgstr "高频段频率 (Hz)。"
+
+#: ../../source/unit/midi.rst:208 d6c9ceae89a64dde86ba3cc1b4ca69a9
+msgid "|set_equalizer.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:13 3f883233f08044eab62015a3ef12300e
+msgid "set_equalizer.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:212 7b09fdc1804d4089954e2a6d94ccc63c
+msgid "Sets the tuning for the specified channel."
+msgstr "设置指定通道的调谐参数。"
+
+#: ../../source/unit/midi.rst:215 1217cc8d31784d119f44246782926724
+msgid "Fine tuning value (cents)."
+msgstr "微调值（分）。"
+
+#: ../../source/unit/midi.rst:216 897c5347cff84dc89615a477c10239da
+msgid "Coarse tuning value (semitones)."
+msgstr "粗调值（半音）。"
+
+#: ../../source/unit/midi.rst:220 857eeddd6c204089b945c8e5b8eb523e
+msgid "|set_tuning.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:27 3714dd242c114db6801e42c397fd9f9a
+msgid "set_tuning.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:224 c2ff6bc2fc834006b13209b482d00335
+msgid "Sets the vibrato effect parameters on the specified channel."
+msgstr "设置指定通道上的颤音效果参数。"
+
+#: ../../source/unit/midi.rst:226 db203b863a2b4064b056a36de341a6ef
+msgid "The MIDI channel to apply the vibrato effect to (0-15)."
+msgstr "应用颤音效果的 MIDI 通道（0-15）。"
+
+#: ../../source/unit/midi.rst:227 8bacae0078b0452c92d38b63e4e34220
+msgid "The vibrato rate (0-127)."
+msgstr "颤音速率（0 - 127）。"
+
+#: ../../source/unit/midi.rst:228 8b6591c21b744153b1d1338bcaecec1e
+msgid "The vibrato depth (0-127)."
+msgstr "颤音深度（0-127）。"
+
+#: ../../source/unit/midi.rst:229 fb4e4671647142149f7ca530c7fbdc67
+msgid "The vibrato delay (0-127)."
+msgstr "颤音延迟（0-127）。"
+
+#: ../../source/unit/midi.rst:233 6115610e0601420facf719d56ce59f45
+msgid "|set_vibrate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:29 b4325fff046c4b0b9d57314c0aefa27d
+msgid "set_vibrate.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:237 ad7ea31d395a42b5a298f89527e68ac0
+msgid ""
+"Sets the parameters for a TVF (Tone-Voltage Filter) on the specified "
+"channel."
+msgstr "设置指定通道上的 TVF（Tone-Voltage Filter，音调-电压滤波器）参数。"
+
+#: ../../source/unit/midi.rst:239 c98ec5427ac54f55a8556fd1a5467233
+msgid "The MIDI channel to apply the filter to (0-15)."
+msgstr "要应用筛选器的 MIDI 通道（0-15）。"
+
+#: ../../source/unit/midi.rst:240 a08c599334e34c4e9eb6a5473a279d0f
+msgid "The filter cutoff frequency (0-127)."
+msgstr "滤波器截止频率 (0-127)。"
+
+#: ../../source/unit/midi.rst:241 3c5ccf8741fb4d8b9da48b5a58746e50
+msgid "The filter resonance (0-127)."
+msgstr "滤波器共振（0-127）。"
+
+#: ../../source/unit/midi.rst:245 3d8cf3f91b044b1d97a1e67af2bfefcf
+msgid "|set_tvf.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:28 d40ffccf6a5243c9ac2f13eda37d45e2
+msgid "set_tvf.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:249 fe6af9f288c8481383889413b5df1794
+msgid ""
+"Sets the ADSR (Attack, Decay, Sustain, Release) envelope parameters on "
+"the specified channel."
+msgstr "在指定通道上设置 ADSR（Attack、Decay、Sustain、Release）包络参数。"
+
+#: ../../source/unit/midi.rst:251 e4b7b78804f44be68638f89022d8cd5b
+msgid "The MIDI channel to apply the envelope to (0-15)."
+msgstr "要应用包络的 MIDI 通道（0-15）。"
+
+#: ../../source/unit/midi.rst:252 dd3d093362d843bca63dee899efe5a13
+msgid "The attack time (0-127)."
+msgstr "攻击时间（0-127）。"
+
+#: ../../source/unit/midi.rst:253 c9c6dfdc047a46b49e7a3168610cd397
+msgid "The decay time (0-127)."
+msgstr "衰减时间（0-127）。"
+
+#: ../../source/unit/midi.rst:254 6a7b396b9bbf4df99aad5f7641a155b5
+msgid "The release time (0-127)."
+msgstr "释放时间 (0-127)。"
+
+#: ../../source/unit/midi.rst:258 8f8dc1c230664dc9bbf170b8cc62e718
+msgid "|set_envelope.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:12 ba8c5350896d43fbba1496424e741211
+msgid "set_envelope.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:262 0fe15ee7640f43378b4bbb85f03bf1b6
+msgid "Sets scale tuning for the specified channel."
+msgstr "为指定通道设置比例调谐。"
+
+#: ../../source/unit/midi.rst:264 b0ed201d871c4bb193fad155e2634a09
+msgid "The MIDI channel to apply the scale tuning to (0-15)."
+msgstr "要应用音阶调音的 MIDI 通道（0-15）。"
+
+#: ../../source/unit/midi.rst:265 af232ccc583243fbaf4135db4c04e263
+msgid "Tuning values for each note in the scale (0-127)."
+msgstr "为音阶中的每个音符（0-127）调整数值。"
+
+#: ../../source/unit/midi.rst:269 8a1940e76c8342ada1301080cd916f3e
+msgid "|set_scale_tuning.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:26 1ff6e023159549ab97f6c4c197bd75f4
+msgid "set_scale_tuning.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:273 bd3627593f0c489fa3fef6039d0cb27a
+msgid ""
+"Sets modulation wheel parameters that affect various effects on the "
+"specified channel."
+msgstr "设置调制轮参数，这些参数会影响指定通道上的各种效果。"
+
+#: ../../source/unit/midi.rst:275 c0302978764c44e0bd99828b42657e44
+msgid "The MIDI channel to apply the modulation to (0-15)."
+msgstr "要将调制应用到的 MIDI 通道（0-15）。"
+
+#: ../../source/unit/midi.rst:276 66e15fca074846af801e7c762c3ab446
+msgid "Pitch modulation depth."
+msgstr "音高调制深度。"
+
+#: ../../source/unit/midi.rst:277 a398c9ecf94d4dd695c67cd26a744d45
+msgid "Cutoff frequency modulation depth."
+msgstr "截止频率调制深度。"
+
+#: ../../source/unit/midi.rst:278 4eeef2b6a73b43d8803296a3af0adbc6
+msgid "Amplitude modulation depth."
+msgstr "调幅深度。"
+
+#: ../../source/unit/midi.rst:279 0ff943db55ac45c796a843d112aae9fe
+msgid "Modulation rate."
+msgstr "调制速率。"
+
+#: ../../source/unit/midi.rst:280 f71015294f4645a09f7b3701f8c2dfa6
+msgid "Depth of pitch modulation."
+msgstr "音高调制深度。"
+
+#: ../../source/unit/midi.rst:281 b8a4e9dd78db46f3a7b700dba9f27493
+msgid "Depth of TVF modulation."
+msgstr "TVF 调制深度。"
+
+#: ../../source/unit/midi.rst:282 9a1158c1c57344a4855e391879105ecb
+msgid "Depth of TVA (Tone-Voltage Amplifier) modulation."
+msgstr "TVA（Tone-Voltage Amplifier）调制深度。"
+
+#: ../../source/unit/midi.rst:286 0c5b5745bad2448aa27500c31a713f99
+msgid "|set_mod_wheel.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:17 576a0b45ee754b63880126ef82fc0f43
+msgid "set_mod_wheel.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:290 f05d9c9f6b3c4185a9e57ba42e734898
+msgid ""
+"Sends a System Exclusive message to set all drums on channel 10 to "
+"default values."
+msgstr "发送一条 System Exclusive 消息，将通道 10 上的所有鼓设置为默认值。"
+
+#: ../../source/unit/midi.rst:295 21d3df54aae74e47ab93197f40e7bf04
+msgid "|set_all_drums.png|"
+msgstr ""
+
+#: ../../source/refs/unit.midi.ref:30 d9992ee3fb654f318e376a7ae62858a2
+msgid "set_all_drums.png"
+msgstr ""
+
+#: ../../source/unit/midi.rst:299 39e8a3304122414f91765d88287d5dab
+msgid "Writes a MIDI command to the UART interface."
+msgstr "将 MIDI 命令写入 UART 接口。"
+
+#: ../../source/unit/midi.rst:301 7dba807634c04fde96d10859c6217e66
+msgid "List of MIDI command bytes."
+msgstr "MIDI 命令字节列表。"
+
+#: ../../source/unit/midi.rst:305 ae7e3f42514d4c40881557b6d9375bb8
+msgid "Maps a value from one range to another."
+msgstr "将一个值从一个范围映射到另一个范围。"
+
+#: ../../source/unit/midi.rst:307 c8eb881fcdbb47258f099e12229f37a7
+msgid "Value to map."
+msgstr "要映射的值。"
+
+#: ../../source/unit/midi.rst:308 a71d0d2dfa7a49a684fab60694b53083
+msgid "Minimum value of the input range."
+msgstr "输入范围的最小值。"
+
+#: ../../source/unit/midi.rst:309 ec550f10555441d7933012d322744398
+msgid "Maximum value of the input range."
+msgstr "输入范围的最大值。"
+
+#: ../../source/unit/midi.rst:310 2cbb9b53795a4ab8bbe342206d9a1bb5
+msgid "Minimum value of the output range."
+msgstr "输出范围的最小值。"
+
+#: ../../source/unit/midi.rst:311 90758231cf6c4baa8b8fbf0665b99fad
+msgid "Maximum value of the output range."
+msgstr "输出范围的最大值。"
+

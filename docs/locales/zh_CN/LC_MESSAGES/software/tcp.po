@@ -18,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/software/tcp.rst:2 8beeddeafd1248a186e7f6a549f993e5
 msgid ":py:mod:`easysocket` -- a lightweight network library"
-msgstr ""
+msgstr ":py:mod:`easysocket` -- 轻量级网络库"
 
 #: ../../en/software/tcp.rst:4 2e48501b6c3f43619539e9d0e7b007b5
 msgid ""
@@ -32,7 +32,10 @@ msgid ""
 "based API. Currently, it supports TCP (Transmission Control Protocol) for"
 " building robust clients and servers, with UDP (User Datagram Protocol) "
 "support planned for future releases."
-msgstr "easysocket 是一个专为 MicroPython 设计的轻量级、非阻塞、事件驱动的网络库。它封装了原始套接字操作和 ``select.poll`` 机制的复杂性，提供了一个简单的基于回调的 API。目前，它支持 TCP（传输控制协议）用于构建健壮的客户端和服务器，并计划在未来版本中支持 UDP（用户数据报协议）。"
+msgstr ""
+"easysocket 是一个专为 MicroPython 设计的轻量级、非阻塞、事件驱动的网络库。它封装了原始套接字操作和 "
+"``select.poll`` 机制的复杂性，提供了一个简单的基于回调的 API。目前，它支持 "
+"TCP（传输控制协议）用于构建健壮的客户端和服务器，并计划在未来版本中支持 UDP（用户数据报协议）。"
 
 #: ../../en/software/tcp.rst:7 7cf38de52932435cb92bb9fba50fe8ce
 msgid "Features"
@@ -44,7 +47,9 @@ msgid ""
 "mechanism, all socket operations are non-blocking. Events are dispatched "
 "via periodic ``check_event()`` calls, preventing network I/O from "
 "blocking the main thread—ideal for MicroPython."
-msgstr "**非阻塞与事件驱动**：基于 ``select.poll()`` 机制，所有套接字操作都是非阻塞的。事件通过定期的 ``check_event()`` 调用分发，防止网络 I/O 阻塞主线程——非常适合 MicroPython。"
+msgstr ""
+"**非阻塞与事件驱动**：基于 ``select.poll()`` 机制，所有套接字操作都是非阻塞的。事件通过定期的 "
+"``check_event()`` 调用分发，防止网络 I/O 阻塞主线程——非常适合 MicroPython。"
 
 #: ../../en/software/tcp.rst:12 afde28ee18994bb799b86932aa1d3943
 msgid ""
@@ -52,7 +57,10 @@ msgid ""
 "``on_data_received``, ``on_disconnect``) and servers "
 "(``on_client_connect``, ``on_data_received``, ``on_client_disconnect``). "
 "Callbacks are safely scheduled using ``micropython.schedule``."
-msgstr "**基于回调**：为客户端（``on_connect``, ``on_data_received``, ``on_disconnect``）和服务器（``on_client_connect``, ``on_data_received``, ``on_client_disconnect``）提供简单的事件钩子。回调使用 ``micropython.schedule`` 安全调度。"
+msgstr ""
+"**基于回调**：为客户端（``on_connect``, ``on_data_received``, "
+"``on_disconnect``）和服务器（``on_client_connect``, ``on_data_received``, "
+"``on_client_disconnect``）提供简单的事件钩子。回调使用 ``micropython.schedule`` 安全调度。"
 
 #: ../../en/software/tcp.rst:15 0fe1046299a94a57a081db4911804684
 msgid ""
@@ -76,7 +84,7 @@ msgstr "**健壮性**：处理非阻塞错误（如 ``EAGAIN``），并确保在
 
 #: ../../en/software/tcp.rst:25 32a24877ea1f4616b863e404cb747c0c
 msgid "Classes"
-msgstr ""
+msgstr "Classes"
 
 #~ msgid "TCP"
 #~ msgstr ""

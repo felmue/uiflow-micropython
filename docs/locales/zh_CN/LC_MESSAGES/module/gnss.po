@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:3 eefa95ca11904919b6fbfbdff3eb8e86
 msgid "GNSS Module"
-msgstr ""
+msgstr "GNSS Module"
 
 #: ../../en/module/gnss.rst:7 36f70ab434574308a2060a1a962dd736
 msgid ""
@@ -30,10 +30,12 @@ msgid ""
 "featuring the NEO-M9N-00B GPS module. It incorporates BMI270, BMM150 and "
 "a barometric pressure sensor."
 msgstr ""
+"GNSS Module 是一款全球定位无线通信模块，搭载 NEO-M9N-00B GPS 模块。它集成了 BMI270、BMM150 "
+"以及气压传感器。"
 
 #: ../../en/module/gnss.rst:9 fca8ff9b80a94036af877a28974695c4
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/gnss.rst:11 5cc219d321c04b578db575f62a964126
 msgid "|GNSSModule|"
@@ -45,11 +47,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:13 d3639d501f154e1e9f6ee0898b1fc2e3
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例"
 
 #: ../../en/module/gnss.rst:20 e529a4118b1f4fef895c5f80267dfade
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/module/gnss.rst:22 8977d84c0e6347809691e79e05658bb0
 msgid "|example.png|"
@@ -65,15 +67,15 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:29 3225af5284a349918f7d80253e892c65
 msgid "class GNSSModule"
-msgstr ""
+msgstr "class GNSSModule"
 
 #: ../../en/module/gnss.rst:32 75fb107bc40b42b7b64d2a4ff3b0d48c
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/module/gnss.rst:36 5845c9c3cfea472aa175b8192b2460dd
 msgid "initialize Function."
-msgstr ""
+msgstr "初始化函数。"
 
 #: ../../en/module/gnss.rst 38352f2a1c1f4e439e344623aae106dd
 #: 5669ab3f4516440bae1c2053b9a861a1 5f42ba26851a47df85f5b9e2f2b09c7c
@@ -85,15 +87,15 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:38 fd035a41afed44efbe050cce95170c43
 msgid "UART controllers id, the range is 0 to 2."
-msgstr ""
+msgstr "UART 控制器 id，范围为 0 到 2。"
 
 #: ../../en/module/gnss.rst:39 79e2443dca90441583785849bf436899
 msgid "UART rx pin."
-msgstr ""
+msgstr "UART rx 引脚。"
 
 #: ../../en/module/gnss.rst:40 51cc486055ba40e2b322ecfe02c3be66
 msgid "UART tx pin."
-msgstr ""
+msgstr "UART tx 引脚。"
 
 #: ../../en/module/gnss.rst:43 ../../en/module/gnss.rst:80
 #: ../../en/module/gnss.rst:95 ../../en/module/gnss.rst:111
@@ -122,7 +124,7 @@ msgstr ""
 #: c70f253ad21448dabbc7f9dcc2ad0142 d5c372c434ca46758d46cb94e3f3638e
 #: e696f13bd4ef469c83632226af722577 f6ee8462a0a9493ea1fc276c960ca818
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2:"
 
 #: ../../en/module/gnss.rst:45 c8a8bf00d09c45049e49e6a76f1f363c
 msgid "|init.png|"
@@ -134,11 +136,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:49 8b0065990ba441ceb6bfe9d1a8536cff
 msgid "Methods"
-msgstr ""
+msgstr "方法"
 
 #: ../../en/module/gnss.rst:53 5c52ae2185e44cb9877ee4941d19fa56
 msgid "Set the accelerometer and gyroscope output data rate."
-msgstr ""
+msgstr "设置加速度计和陀螺仪输出数据速率。"
 
 #: ../../en/module/gnss.rst:55 c244cdb220da4b96bee5d535221895d5
 msgid ""
@@ -147,6 +149,9 @@ msgid ""
 "``0.78``: 0.78 - ``1.5``: 1.5 - ``3.1``: 3.1 - ``6.25``: 6.25 - ``12.5``:"
 " 12.5"
 msgstr ""
+"范围为 0.78 Hz … 1.6 kHz。选项：- ``25``：25 - ``50``：50 - ``100``：100 - "
+"``200``：200 - ``400``：400 - ``800``：800 - ``1600``：1600 - ``0.78``：0.78 -"
+" ``1.5``：1.5 - ``3.1``：3.1 - ``6.25``：6.25 - ``12.5``：12.5"
 
 #: ../../en/module/gnss.rst:69 424504ca80874490a68dc53965794991
 msgid ""
@@ -154,6 +159,8 @@ msgid ""
 "100 - ``200``: 200 - ``400``: 400 - ``800``: 800 - ``1600``: 1600 - "
 "``3200``: 3200"
 msgstr ""
+"范围为 25 Hz … 6.4 kHz。可选项：- ``25``：25 - ``50``：50 - ``100``：100 - "
+"``200``：200 - ``400``：400 - ``800``：800 - ``1600``：1600 - ``3200``：3200"
 
 #: ../../en/module/gnss.rst:82 360e599854fd45e691134880cc843846
 msgid "|set_accel_gyro_odr.png|"
@@ -165,13 +172,13 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:86 f5ba7c5353c54e4b93dc2a582c228923
 msgid "Set the accelerometer scale range."
-msgstr ""
+msgstr "设置加速度计量程范围。"
 
 #: ../../en/module/gnss.rst:88 094b860da11d43b688d5a4f3fcd3dfce
 msgid ""
 "scale range of ±2g, ±4g, ±8g and ±16g. Options: - ``2``: 2 - ``4``: 4 - "
 "``8``: 8 - ``16``: 16"
-msgstr ""
+msgstr "量程范围为 ±2g、±4g、±8g 和 ±16g。选项：- ``2``：2 - ``4``：4 - ``8``：8 - ``16``：16"
 
 #: ../../en/module/gnss.rst:97 1cc3b71956e34e699f014da287b58d30
 msgid "|set_accel_range.png|"
@@ -183,13 +190,15 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:101 cd37385ddfd9498ab5813bc52cc7e0bb
 msgid "Set the gyroscope scale range."
-msgstr ""
+msgstr "设置陀螺仪量程范围。"
 
 #: ../../en/module/gnss.rst:103 7ab0853775c8482eb97970d1c2f0788a
 msgid ""
 "Options: - ``125``: 125 - ``250``: 250 - ``500``: 500 - ``1000``: 1000 - "
 "``2000``: 2000"
 msgstr ""
+"选项：- ``125``：125 - ``250``：250 - ``500``：500 - ``1000``：1000 - "
+"``2000``：2000"
 
 #: ../../en/module/gnss.rst:113 48083c5b6dc7469d901d32e32e557345
 msgid "|set_gyro_range.png|"
@@ -204,6 +213,8 @@ msgid ""
 "Options: - ``2``: 2 - ``6``: 6 - ``8``: 8 - ``10``: 10 - ``15``: 15 - "
 "``20``: 20 - ``25``: 25 - ``30``: 30"
 msgstr ""
+"选项：- ``2``：2 - ``6``：6 - ``8``：8 - ``10``：10 - ``15``：15 - ``20``：20 - "
+"``25``：25 - ``30``：30"
 
 #: ../../en/module/gnss.rst:131 815bb034d2804101a0c39883d2108edb
 msgid "|set_magnet_odr.png|"
@@ -215,19 +226,19 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:135 95d5994b3f1b43fbb4ae10f9e4c00708
 msgid "Set the manual gyro calibrations offsets value."
-msgstr ""
+msgstr "设置手动陀螺仪校准的偏移量值。"
 
 #: ../../en/module/gnss.rst:137 c85173453dcf454d90671c2e21c4e362
 msgid "gyro calibrations offsets value of X-axis"
-msgstr ""
+msgstr "陀螺仪校准的 X 轴偏移量值。"
 
 #: ../../en/module/gnss.rst:138 0f27c721a77d4571abfa6cdbaf18e144
 msgid "gyro calibrations offsets value of Y-axis"
-msgstr ""
+msgstr "陀螺仪校准的 Y 轴偏移值。"
 
 #: ../../en/module/gnss.rst:139 9cf6b3a6cc104121aeb6abf79673ca75
 msgid "gyro calibrations offsets value of Z-axis"
-msgstr ""
+msgstr "陀螺仪校准 Z 轴的偏移值。"
 
 #: ../../en/module/gnss.rst:143 6421c2b7b2574fef9b32b4221d36aa04
 msgid "|set_gyro_offsets.png|"
@@ -241,7 +252,7 @@ msgstr ""
 msgid ""
 "Get the tuple of x, y, and z values of the gyroscope and gyroscope vector"
 " in rad/sec."
-msgstr ""
+msgstr "获取陀螺仪的 x、y 和 z 值元组，以及陀螺仪矢量，单位为 rad/sec。"
 
 #: ../../en/module/gnss.rst 6ea018f2a68d4f7d9844b0c03827aaa7
 #: bf916c6bf3d748b7ae645ad20c02966e e576cba587fb4859a04aa44aec9faedd
@@ -251,7 +262,7 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:149 8cbb5ec8052d41cd92089ce5f7751420
 msgid "gyroscope tuple (float, float, float)"
-msgstr ""
+msgstr "陀螺仪元组（float, float, float）"
 
 #: ../../en/module/gnss.rst:153 0cd89e863bbe4b5580fc09534f4d10e7
 msgid "|get_gyroscope.png|"
@@ -265,11 +276,11 @@ msgstr ""
 msgid ""
 "Get the tuple of x, y, and z values of the accelerometer and acceleration"
 " vector in gravity units (9.81m/s^2)."
-msgstr ""
+msgstr "以重力单位（9.81 m/s^2）获取加速度计的 x、y 和 z 值元组以及加速度向量。"
 
 #: ../../en/module/gnss.rst:159 88d3f75fa3fa4f85a6654342a940df4b
 msgid "accelerometer tuple (float, float, float)"
-msgstr ""
+msgstr "加速度计元组（float, float, float）"
 
 #: ../../en/module/gnss.rst:163 83c64bbdb57546fc9cf22c9ce4424e33
 msgid "|get_accelerometer.png|"
@@ -283,11 +294,11 @@ msgstr ""
 msgid ""
 "Get the tuple of x, y, and z values of the magnetometer and magnetometer "
 "vector in uT."
-msgstr ""
+msgstr "获取磁力计的 x、y 和 z 值元组，以及以 uT 为单位的磁力计矢量。"
 
 #: ../../en/module/gnss.rst:169 19440bd3c39143899e639bf8243f6de8
 msgid "magnetometer tuple (float, float, float)"
-msgstr ""
+msgstr "magnetometer 元组（float、float、float）"
 
 #: ../../en/module/gnss.rst:173 cca595bca7304639b6e68ee6a3b6e10d
 msgid "|get_magnetometer.png|"
@@ -299,17 +310,17 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:177 883ccaaa87b240adb2c6ac2f0b4c857e
 msgid "Get the compass heading value is in range of 0º ~ 360º."
-msgstr ""
+msgstr "获取罗盘航向角的值，范围为 0º ~ 360º。"
 
 #: ../../en/module/gnss.rst 0a4ce44681ee463fae6ec0af1e1b833c
 #: 1c0d6bc925914f7198f28b0a2b733e40 beda121d9f18409683e5d38f12435b8e
 #: dd3d4834887d49479d16051ca165b091 f211e132223e4f2c8474e1dfefb4ad56
 msgid "return (float)"
-msgstr ""
+msgstr "return (float)"
 
 #: ../../en/module/gnss.rst:179 96c590abec694a75a212f9d5e53e244c
 msgid "range is 0 to 360 degree"
-msgstr ""
+msgstr "范围为 0 至 360 度。"
 
 #: ../../en/module/gnss.rst:183 3a653b74bfd44f74abcce4ebcda1f5a1
 msgid "|get_compass.png|"
@@ -321,11 +332,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:187 4469846776504279a9e7d48eb971b39a
 msgid "Get the attitude angles as yaw, pitch, and roll in degrees."
-msgstr ""
+msgstr "以度为单位获取偏航角、俯仰角和横滚角姿态角。"
 
 #: ../../en/module/gnss.rst:189 509aad421931469f8b1e70ec8352a22a
 msgid "tuple of yaw, pitch, and roll (float, float, float)"
-msgstr ""
+msgstr "偏航角、俯仰角和横滚角的元组（float, float, float）"
 
 #: ../../en/module/gnss.rst:193 afc61ef897bb45749d337eccda2fb2f9
 msgid "|get_attitude.png|"
@@ -337,11 +348,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:197 b78aaf6cd1b549cc8d4991987baf47ed
 msgid "Get the temperature value in degrees celsius from the BMP280 sensor."
-msgstr ""
+msgstr "从 BMP280 传感器获取以摄氏度为单位的温度值。"
 
 #: ../../en/module/gnss.rst:199 e081b1577279440a96b7dbba354275b1
 msgid "range is -40 ~ +85 °C."
-msgstr ""
+msgstr "范围为 -40 ~ +85 °C。"
 
 #: ../../en/module/gnss.rst:203 ff0d3d36c47d453794d9ed41afb546ea
 msgid "|get_temperature.png|"
@@ -353,11 +364,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:207 f6075ab4ac6d4ccea9acd63ed4252478
 msgid "Get the pressure value in pascals from the BMP280 sensor."
-msgstr ""
+msgstr "从 BMP280 传感器获取以帕斯卡为单位的压力值。"
 
 #: ../../en/module/gnss.rst:209 c07b54b13e0840bd8042df30a55b227d
 msgid "range is 300 ~ 1100 hPa."
-msgstr ""
+msgstr "范围为 300 ~ 1100 hPa。"
 
 #: ../../en/module/gnss.rst:213 f857ed7f53664bd695f1be2ba25fcc05
 msgid "|get_pressure.png|"
@@ -369,12 +380,12 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:217 5475389c96124a67ad5983946e693a27
 msgid "set timezone function."
-msgstr ""
+msgstr "设置时区函数。"
 
 #: ../../en/module/gnss.rst:219 ../../en/module/gnss.rst:229
 #: 6375b3caa48a4e74bb85cc044c7db7e9 8a6179eaf5f34f778ecb537f0c6d4db8
 msgid "timezone value"
-msgstr ""
+msgstr "timezone 值"
 
 #: ../../en/module/gnss.rst:223 1985b7ecb6cc40c5a1560d9fc147626c
 msgid "|set_time_zone.png|"
@@ -386,11 +397,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:227 f5e416479b4e452eaac81b99dbb36c8e
 msgid "get timezone function."
-msgstr ""
+msgstr "获取时区函数。"
 
 #: ../../en/module/gnss.rst a48a06947fd44e84a5c5af345688c1c1
 msgid "return (int)"
-msgstr ""
+msgstr "return (int)"
 
 #: ../../en/module/gnss.rst:233 646702a6e902428aa47cc61a311e78f0
 msgid "|get_time_zone.png|"
@@ -402,7 +413,7 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:237 df21e926c1f74df0a92fb05f9a79165a
 msgid "get satellite numbers."
-msgstr ""
+msgstr "获取卫星数量。"
 
 #: ../../en/module/gnss.rst 28fa61794ac844dba788125ddbbef94f
 #: 2e64a190704b425a9d358d4cd52a2af7 52e88b3400de40ebb4e74a6efaf803f0
@@ -410,11 +421,11 @@ msgstr ""
 #: 964f1e2274604255b1b6d0c2572a20f0 ac6324d5810241a49b48daf958a0c517
 #: fad0e199877f4a1f84f09dbfad77d06b
 msgid "return (str)"
-msgstr ""
+msgstr "return (str)"
 
 #: ../../en/module/gnss.rst:239 0f0527426d8a4572be58f5ed3f08152c
 msgid "satellite numbers value."
-msgstr ""
+msgstr "卫星数量值。"
 
 #: ../../en/module/gnss.rst:243 776cf7c351e44c7fbb77ce4a3998f155
 msgid "|get_satellite_num.png|"
@@ -426,11 +437,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:247 2cdeb4cf0f5c4da29dde5d51bc46c626
 msgid "get altitude."
-msgstr ""
+msgstr "获取海拔高度。"
 
 #: ../../en/module/gnss.rst:249 a2e4a1ccbc84477aafce65ff28a463a1
 msgid "altitude unit is meter."
-msgstr ""
+msgstr "高度单位为米。"
 
 #: ../../en/module/gnss.rst:253 53549923b4004d289f86ced4c2d89549
 msgid "|get_altitude.png|"
@@ -442,11 +453,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:257 933e9d49a17043f6953cc9d666400ca7
 msgid "get time."
-msgstr ""
+msgstr "获取时间。"
 
 #: ../../en/module/gnss.rst:259 cea80cc2a1df410ebeb7c0e76bdfc799
 msgid "time(hh:mm:ss)"
-msgstr ""
+msgstr "时间（hh:mm:ss）"
 
 #: ../../en/module/gnss.rst:263 a4a0220fc80c48d19e9e28b8dcaff740
 msgid "|get_time.png|"
@@ -458,11 +469,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:267 00b868a9d27e496886e849b8213ac801
 msgid "get date."
-msgstr ""
+msgstr "获取日期。"
 
 #: ../../en/module/gnss.rst:269 8ff3d8a82c3e404dbcf09f830700deae
 msgid "date(dd/mm/yy)"
-msgstr ""
+msgstr "date（日/月/年）"
 
 #: ../../en/module/gnss.rst:273 62a29990e5bf4e8d94c6003477c78417
 msgid "|get_date.png|"
@@ -474,11 +485,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:277 058596d1b2b14719b563b14495c87593
 msgid "get latitude."
-msgstr ""
+msgstr "获取纬度。"
 
 #: ../../en/module/gnss.rst:279 a62ff0c483ab4eb989309a599f69b11c
 msgid "latitude, using degrees minutes format (ddmm.mmmmmN/S)."
-msgstr ""
+msgstr "纬度，使用度分格式（ddmm.mmmmmN/S）。"
 
 #: ../../en/module/gnss.rst:283 12b9076a343c4790af10c345569753e6
 msgid "|get_latitude.png|"
@@ -490,11 +501,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:287 5a8759e33a524da4b3e737b5dc42a759
 msgid "get longitude."
-msgstr ""
+msgstr "获取经度。"
 
 #: ../../en/module/gnss.rst:289 d39b86dfc7e54783bdcc5d56cb60069a
 msgid "longitude, using degrees minutes format (ddmm.mmmmmE/W)."
-msgstr ""
+msgstr "经度，使用度分格式（ddmm.mmmmmE/W）。"
 
 #: ../../en/module/gnss.rst:293 eb46a5269f5f4bc9adc66c221e9e8bd4
 msgid "|get_longitude.png|"
@@ -506,11 +517,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:297 455d098359d0457d9d0a4f25c2cbbc4e
 msgid "get latitude decimal."
-msgstr ""
+msgstr "获取十进制纬度。"
 
 #: ../../en/module/gnss.rst:299 bb52bea4ac9b4d3694ec6d2a16fb9975
 msgid "latitude decimal(dd.dddd)."
-msgstr ""
+msgstr "纬度十进制（dd.dddd）。"
 
 #: ../../en/module/gnss.rst:303 e51af53bade7457e96bcb97ada08aa28
 msgid "|get_latitude_decimal.png|"
@@ -522,11 +533,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:307 12c0785d11db48b5b2c86ecc956c3015
 msgid "get longitude decimal."
-msgstr ""
+msgstr "获取经度（十进制度）。"
 
 #: ../../en/module/gnss.rst:309 16665aa48226478db5a427db0e2eea7c
 msgid "longitude decimal(dd.dddd)."
-msgstr ""
+msgstr "经度十进制（dd.dddd）。"
 
 #: ../../en/module/gnss.rst:313 72a56d07062145c3ad056e67804a4c1c
 msgid "|get_longitude_decimal.png|"
@@ -538,15 +549,15 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:317 02ab9c55d16844f5b6623d81e8b760b2
 msgid "get speed."
-msgstr ""
+msgstr "获取速度。"
 
 #: ../../en/module/gnss.rst:319 bf67fcb557b04175b3cb6a7d6fb4408b
 msgid "speed."
-msgstr ""
+msgstr "速度。"
 
 #: ../../en/module/gnss.rst:320 aa105ce294e64c5ead9b0cbd49a7832b
 msgid "speed type, 0 km/h, 1 knot/h Options: - ``km/h``: 0 - ``knot/h``: 1"
-msgstr ""
+msgstr "速度类型，0 为 km/h，1 为 knot/h。选项：- ``km/h``：0 - ``knot/h``：1"
 
 #: ../../en/module/gnss.rst:327 90c4b4e5097a407cb4864099f4fb3a36
 msgid "|get_speed.png|"
@@ -558,11 +569,11 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:331 ef8a38fa4a43466f98d244e03907d72a
 msgid "get course."
-msgstr ""
+msgstr "获取课程。"
 
 #: ../../en/module/gnss.rst:333 bb61cd78ecc14afa82dc613a1cc9727e
 msgid "course unit is °."
-msgstr ""
+msgstr "课程单位为 °。"
 
 #: ../../en/module/gnss.rst:337 7d463cd2c7214728899101a2f72fed20
 msgid "|get_course.png|"
@@ -574,7 +585,7 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:341 a7a61265f00a46b5b2af59c41e59b301
 msgid "get locate status."
-msgstr ""
+msgstr "获取定位状态。"
 
 #: ../../en/module/gnss.rst f28220d260af4947ae4f3ffcd000b341
 msgid "return (bool)"
@@ -582,7 +593,7 @@ msgstr ""
 
 #: ../../en/module/gnss.rst:343 82e0ce4af56342f2a648db44fa27ec1e
 msgid "locate status, true is locate, false is not locate."
-msgstr ""
+msgstr "定位状态，true 表示已定位，false 表示未定位。"
 
 #: ../../en/module/gnss.rst:347 1dbbfb5cca8e49a097bc8955fc630488
 msgid "|is_locate_valid.png|"

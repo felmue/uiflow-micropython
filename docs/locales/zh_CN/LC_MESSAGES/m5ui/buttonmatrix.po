@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/m5ui/buttonmatrix.rst:4 ../../en/m5ui/buttonmatrix.rst:55
 #: 82e37b7d30594c8c8999d9db2da4df34 b24eea0e529b4ac7a8269c25b974bd6c
 msgid "M5ButtonMatrix"
-msgstr ""
+msgstr "M5ButtonMatrix"
 
 #: ../../en/m5ui/buttonmatrix.rst:8 19d08bf79ea84336ac04342e7effcd7f
 msgid ""
@@ -146,7 +146,7 @@ msgstr "API参考"
 
 #: 2ec9ca4946b442fb93a6a1cf98fc5d17 m5ui.buttonmatrix.M5ButtonMatrix:1 of
 msgid "Bases: :py:class:`~lvgl.buttonmatrix`"
-msgstr ""
+msgstr "基类：:py:class:`~lvgl.buttonmatrix`"
 
 #: f209024a98df4c39b70ee83307697861 m5ui.buttonmatrix.M5ButtonMatrix:1 of
 msgid "Create a button matrix object."

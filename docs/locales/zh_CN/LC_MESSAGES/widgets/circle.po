@@ -22,19 +22,19 @@ msgstr ""
 
 #: ../../en/widgets/circle.rst:4 bab4df581fe6463d96d00d214dab9f8d
 msgid "class Circle -- display circle"
-msgstr ""
+msgstr "class Circle —— 显示圆形。"
 
 #: ../../en/widgets/circle.rst:6 7258dc58695f4ff788d5767f7cefa403
 msgid "Circle is the basic object type used to display text."
-msgstr ""
+msgstr "Circle 是用于显示文本的基本对象类型。"
 
 #: ../../en/widgets/circle.rst:10 132943678da143bb9c9a156ad13e5448
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/widgets/circle.rst:16 b76773b977124b5d93196d2c20d92c11
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/widgets/circle.rst:18 c2d08cab748f4b358dda635a96d615df
 msgid "|example.png|"
@@ -50,36 +50,36 @@ msgstr ""
 
 #: ../../en/widgets/circle.rst:25 4cd745ddedd54fcab48bacbd8df8a4d7
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/widgets/circle.rst:29 f703b6478eff446fbbebf79eeff97f73
 msgid "Create a Circle object. It accepts the following parameters:"
-msgstr ""
+msgstr "创建一个 Circle 对象。它接受以下参数："
 
 #: ../../en/widgets/circle.rst:31 ../../en/widgets/circle.rst:56
 #: 7bbe2f7ac0774f81bb9e6878fbdaaee3 a74c71c4489945999836b3178dfe01b4
 msgid "``x`` is the starting X-axis coordinate displayed."
-msgstr ""
+msgstr "``x`` 是显示的起始 X 轴坐标。"
 
 #: ../../en/widgets/circle.rst:32 ../../en/widgets/circle.rst:57
 #: 657a9907f11244078cf37a90c5ac6cf8 994f79adfbc0491ba1a46164b5f54a31
 msgid "``y`` is the starting Y-axis coordinate displayed."
-msgstr ""
+msgstr "``y`` 是显示的起始 Y 轴坐标。"
 
 #: ../../en/widgets/circle.rst:33 ../../en/widgets/circle.rst:67
 #: 1af9eb843de84eafaa112dbe747ed58a c9639dcef491488a8fba2a16c193f353
 msgid "``r`` is the radius of the circle."
-msgstr ""
+msgstr "``r`` 是圆的半径。"
 
 #: ../../en/widgets/circle.rst:34 ../../en/widgets/circle.rst:44
 #: 0f7ee676eebc453383509eb0e16d1577 6fb41e7006eb4d14a6c1b6b724fee078
 msgid "``fg_color`` is the foreground color of the displayed circle."
-msgstr ""
+msgstr "``fg_color`` 是所显示圆形的前景色。"
 
 #: ../../en/widgets/circle.rst:35 ../../en/widgets/circle.rst:45
 #: 6627dbaecfd44d4a82da6822c5729305 d25a8dbfc0804f1d958d84927314f2b0
 msgid "``bg_color`` is the background color of the displayed circle."
-msgstr ""
+msgstr "``bg_color`` 是显示的圆的背景颜色。"
 
 #: ../../en/widgets/circle.rst:38 84ab346358eb4fa0b96e0e0dd6bccf85
 msgid "Methods"
@@ -87,14 +87,14 @@ msgstr ""
 
 #: ../../en/widgets/circle.rst:42 a56b891dcd604855818eceeeef08a446
 msgid "Set the color of the Circle object. Accept the following parameters:"
-msgstr ""
+msgstr "设置 Circle 对象的颜色。接受以下参数："
 
 #: ../../en/widgets/circle.rst:47 ../../en/widgets/circle.rst:59
 #: ../../en/widgets/circle.rst:69 ../../en/widgets/circle.rst:79
 #: 649ded1a597a4580b49b8eb0a81bf3f8 77c81a5cb71e4abbaa39471e055b6c12
 #: 7cc91ed6f27e40c383d6c1e2338d5020 9acae2b897ea4172be96764b898029f7
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2:"
 
 #: ../../en/widgets/circle.rst:49 e395e54e5f2b4f5c93e025d08741da19
 msgid "|setColor.png|"
@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../en/widgets/circle.rst:54 7e6f896d912347f98050d2707559530b
 msgid "Set the position of the Circle object. Accept the following parameters:"
-msgstr ""
+msgstr "设置 Circle 对象的位置。接受以下参数："
 
 #: ../../en/widgets/circle.rst:61 0e434fbe2ce149818c912d04ea5b7817
 msgid "|setCursor.png|"
@@ -118,7 +118,7 @@ msgstr ""
 
 #: ../../en/widgets/circle.rst:65 a9a8ea0c2b314904bd637122ad6ba6d4
 msgid "Set the radius of the Circle object. Accept the following parameters:"
-msgstr ""
+msgstr "设置 Circle 对象的半径。接受以下参数："
 
 #: ../../en/widgets/circle.rst:71 5efe2df928ad4b7b90f139922984b938
 msgid "|setRadius.png|"
@@ -130,11 +130,11 @@ msgstr ""
 
 #: ../../en/widgets/circle.rst:75 c0f140b921964a87bbb9f043fbae341f
 msgid "Set the visibility of the Circle object. Accept the following parameters:"
-msgstr ""
+msgstr "设置 Circle 对象的可见性。接受以下参数："
 
 #: ../../en/widgets/circle.rst:77 749b3577738d4a6c9191292de1f5d499
 msgid "``visible`` is the visibility of the displayed circle."
-msgstr ""
+msgstr "``visible`` 是显示的圆的可见性。"
 
 #: ../../en/widgets/circle.rst:81 c1561ccedf1e42d380211e74d3b9ce65
 msgid "|setVisible.png|"

@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/base/rs485.rst:2 ee290ad7c5ab4d31a73ace6e4ed361f2
 msgid "Atomic RS485 Base"
-msgstr ""
+msgstr "Atomic RS485 Base"
 
 #: ../../en/base/rs485.rst:8 77e37f45632c482882a7fbc3321f406c
 msgid ""
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../en/refs/base.rs485.ref 748e5e5f62444b809023de7ee2cd2352
 msgid "rs485 base"
-msgstr ""
+msgstr "RS485 底座"
 
 #: ../../en/base/rs485.rst:15 dfbc626f3d174fd6bcb1eec1f94f8aba
 msgid "|RS485|"
@@ -49,16 +49,16 @@ msgstr ""
 
 #: ../../en/refs/base.rs485.ref bd068a159f17448e88a0c6dd1111b70f
 msgid "rs485"
-msgstr ""
+msgstr "rs485"
 
 #: ../../en/base/rs485.rst:19 16d7ef133227420eb6b13a3cc007361f
 msgid "UiFlow2 Example"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/base/rs485.rst:22 ../../en/base/rs485.rst:40
 #: 65491f14bb3a46c391b0d604e13fb11e
 msgid "RS485 Example"
-msgstr ""
+msgstr "RS485 应用示例"
 
 #: ../../en/base/rs485.rst:24 31378ab24c8e4e38a80ad94986c14796
 msgid "Open the |atoms3r_rs485_example.m5f2| project in UiFlow2."
@@ -80,9 +80,8 @@ msgid "|example.png|"
 msgstr ""
 
 #: ../../en/refs/base.rs485.ref:31 034b1645bf5249108b1eb1bd3a7f16d7
-#, fuzzy
 msgid "example.png"
-msgstr "示例输出："
+msgstr ""
 
 #: ../../en/base/rs485.rst:32 ../../en/base/rs485.rst:50
 #: a6db2056c23e47a299f7cfca81abf8b4
@@ -104,11 +103,11 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/base/rs485.rst:55 da8db4ddeb0b4a61b30b2c17a19227b7
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: ../../en/base/rs485.rst:58 f2106ddacf184824a32066e547ceb69e
 msgid "AtomRS485"
-msgstr ""
+msgstr "AtomRS485"
 
 #~ msgid ""
 #~ "This example demonstrates how to send"

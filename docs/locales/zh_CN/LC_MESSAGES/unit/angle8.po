@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/angle8.rst:3 9f1003da8d6045b6b97ae31f5721bfdd
+msgid "Angle8 Unit"
+msgstr "Angle8 Unit"
+
+#: ../../source/unit/angle8.rst:7 d49807c430e9457eab4b9f0be9372fbf
+msgid ""
+"UNIT 8Angle is an input unit integrating 8 adjustable potentiometers, "
+"internal STM32F030 microcomputer as acquisition and communication "
+"processor, and the host computer adopts I2C communication interface, each"
+" adjustable potentiometer corresponds to 1 RGB LED light, and there is "
+"also a physical toggle switch and its corresponding RGB LED light, "
+"containing 5V->3V3 DCDC circuit."
+msgstr ""
+"UNIT 8Angle 是一款输入单元，集成 8 个可调电位器，内部采用 STM32F030 单片机作为采集与通信处理器；与主控通过 I2C "
+"通信接口连接。每个可调电位器对应 1 颗 RGB LED 灯，同时还包含 1 个物理拨动开关及其对应的 RGB LED 灯，并内置 5V -> "
+"3V3 的 DCDC 电路。"
+
+#: ../../source/unit/angle8.rst:9 5060133996d34f8ebfa54f3239b05b01
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/angle8.rst:11 d70cbb561ad841939a8e491c51481c7f
+msgid "|Angle8Unit|"
+msgstr ""
+
+#: ../../source/refs/unit.angle8.ref f80f789c66e746469ea4f33fb9a27a6f
+msgid "Angle8Unit"
+msgstr "Angle8Unit"
+
+#: ../../source/unit/angle8.rst:13 48453ce5c60b417097c3c57e4fc393da
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/angle8.rst:20 126a4be464fc45af97852ebe52758081
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/angle8.rst:22 c296ae66885a46ae842d7cd4cdbe918f
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle8.ref:17 737ea96f738e47dbac08173e67fb3cbc
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:26 2d08354ccd364ccd98c197287f06ac0b
+msgid "|angle8unit_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:29 7b518db460454c70a58d0574a426a517
+msgid "class Angle8Unit"
+msgstr "class Angle8Unit"
+
+#: ../../source/unit/angle8.rst:32 d5351fea4e874fd2b7e199bc86a7a777
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/angle8.rst:36 073d56d7417f4140abcfe0f2f1d3e2cf
+msgid "Initialize the Angle8Unit with the specified I2C interface and address."
+msgstr "使用指定的 I2C 接口和地址初始化 Angle8Unit。"
+
+#: ../../source/unit/angle8.rst 1458b7fc0c1e4d028f9fb618fb395db6
+#: 1a786f3c3f86438cade525253c32a3b8 670f9f175aeb48b99f56b4da617a74c7
+#: 824185318a834a1eb46c2b3154ceca2c 8d2536eaa72d4d659febab1b71ba996f
+#: 97f1897f5cfd44e68b9c67c892119b82 bcfc276cbe804a8e9935957a39f1ad8b
+#: d7531ce5065140249276651184b30546 de28d11c934e44d48967b374ea07d72e
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:38 44f88edf503b4e6d80aeeabdad56351e
+msgid "The I2C or PAHUBUnit instance for communication."
+msgstr "用于通信的 I2C 或 PAHUBUnit 实例。"
+
+#: ../../source/unit/angle8.rst:39 e38a4f12c53b42f9ad6f49df3f5419d8
+msgid "The I2C address of the device (default is ANGLE8_ADDR)."
+msgstr "设备的 I2C 地址（默认为 ANGLE8_ADDR）。"
+
+#: ../../source/unit/angle8.rst:41 ../../source/unit/angle8.rst:59
+#: ../../source/unit/angle8.rst:69 ../../source/unit/angle8.rst:78
+#: ../../source/unit/angle8.rst:90 ../../source/unit/angle8.rst:104
+#: ../../source/unit/angle8.rst:115 ../../source/unit/angle8.rst:125
+#: ../../source/unit/angle8.rst:135 1ae76f7a4f8e4594bbcf10962c2ab748
+#: 29056ce46ed147df8e5a410a3d3eae0f 3b27a3ac9cad43a0a671ece5c1b91edd
+#: 505c6a3ca6d549dda897d50dcad4e72b 7b2473d7034b41b7a25dae47c590796d
+#: a772630e5a9f4b2baf26adc5373afd3c b496978f8ebd48ac86328de4927a6d99
+#: e619d1f6419d44f2bebd07e126b77338 e94083d709dd4eeaa1acb39b774dcd57
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/angle8.rst:43 4029a522b3b84942a4eca1e7bf2633d0
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle8.ref:7 d035db7073904afbb313b4204cc495d6
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:47 22dc4a045fcf472cbb6c28b2124a22d3
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:51 f6900b2f0d044b3282c8bf00a8972e90
+msgid "Check if the device is available on the I2C bus."
+msgstr "检查设备是否在 I2C 总线上可用。"
+
+#: ../../source/unit/angle8.rst:55 39f13166a3a1402c8716c548a319a43f
+msgid "Get the raw 12-bit ADC value from the specified channel."
+msgstr "从指定通道获取原始 12-bit ADC 值。"
+
+#: ../../source/unit/angle8.rst:57 ../../source/unit/angle8.rst:67
+#: 7d05cbdc5040459b95a91a27ab1be255 bb3b36e777fa4bb7bcee4fd545006abf
+msgid "The channel number (1 to 8)."
+msgstr "通道编号（1 到 8）。"
+
+#: ../../source/unit/angle8.rst:61 50a87bba85114875962e682002d10280
+msgid "|get_adc12_raw.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle8.ref:8 a0690af8dfed467e8b1c4862a43d9296
+msgid "get_adc12_raw.png"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:65 0fd643026ed3458f80c2fec380939cde
+msgid "Get the raw 8-bit ADC value from the specified channel."
+msgstr "从指定通道获取原始 8 位 ADC 值。"
+
+#: ../../source/unit/angle8.rst:71 49da30be7bc54cebaceb5c60f9d55b77
+msgid "|get_adc8_raw.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle8.ref:9 a7e4dad1393f4d89ba68589bf14dd21d
+msgid "get_adc8_raw.png"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:75 99dd2659744241cda861c0213c289856
+msgid "Get the status of the switch button."
+msgstr "获取开关按钮的状态。"
+
+#: ../../source/unit/angle8.rst:80 3053c78aae914767a6bae926f6355658
+msgid "|get_switch_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle8.ref:10 2a5b0a9b9bc14d0d925dcf0d87d06a47
+msgid "get_switch_status.png"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:84 fd8283317f494d548b98aa5a4ca40c1d
+msgid "Set the RGB color and brightness of the specified LED channel."
+msgstr "设置指定 LED 通道的 RGB 颜色和亮度。"
+
+#: ../../source/unit/angle8.rst:86 ../../source/unit/angle8.rst:112
+#: 0d25010653ca4d4594c48f3660866d3b b1437fe4806b425dbb72bfda0e8f08d2
+msgid "The LED channel number (0 to 8)."
+msgstr "LED 通道编号（0 到 8）。"
+
+#: ../../source/unit/angle8.rst:87 ../../source/unit/angle8.rst:100
+#: ../../source/unit/angle8.rst:113 0a356756cdba43ad9275f52b2c3866d2
+#: 6cf6bb2f59264d45b57e5acdc6596c05 ebe572a5efe74ce0b5867f66386d78dd
+msgid "The RGB color value (0x00 to 0xFFFFFF)."
+msgstr "RGB 颜色值（0x00 到 0xFFFFFF）。"
+
+#: ../../source/unit/angle8.rst:88 ../../source/unit/angle8.rst:101
+#: 228ad70b636f4d578095080da3e6c854 825e8b1c468145d2984e9d6232793a88
+msgid "The brightness level (0 to 100, default is 50)."
+msgstr "亮度等级（0 到 100，默认值为 50）。"
+
+#: ../../source/unit/angle8.rst:92 562567ca1cc946b3bc85b8a6bb7a85b3
+msgid "|set_led_rgb.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle8.ref:11 ff7170e430d742aebef5c21f2a2923b6
+msgid "set_led_rgb.png"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:96 c2416d21b2e54069aeb8c3e77b9cad48
+msgid "Set the RGB color and brightness for a range of LED channels."
+msgstr "设置一段 LED 通道范围内的 RGB 颜色和亮度。"
+
+#: ../../source/unit/angle8.rst:98 58ccf12b185748c998d8bbaea0e71cd0
+msgid "The starting LED channel (0 to 8)."
+msgstr "起始 LED 通道（0 到 8）。"
+
+#: ../../source/unit/angle8.rst:99 b9bba60a07834b79bd3d34c06540e343
+msgid "The ending LED channel (0 to 8)."
+msgstr "结束 LED 通道（0 到 8）。"
+
+#: ../../source/unit/angle8.rst:102 ab6db60355ce4ea4b14b48675a6369fa
+msgid "The delay in milliseconds between setting each channel (default is 0)."
+msgstr "设置每个通道之间的延迟时间（单位为毫秒，默认为 0）。"
+
+#: ../../source/unit/angle8.rst:106 5f7594387b6f4f549fdd00dd85311bc2
+msgid "|set_led_rgb_from.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle8.ref:12 ac43eb2f20de45369a7a23c5b94d70a2
+msgid "set_led_rgb_from.png"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:110 4f807fa34c7844bebc3f73eac4912879
+msgid "Set the LED brightness synchronized with the angle value."
+msgstr "将 LED 亮度与角度值同步设置。"
+
+#: ../../source/unit/angle8.rst:117 b697b9af230345ffa27e63c9957b2463
+msgid "|set_angle_sync_bright.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle8.ref:13 9d99978f21ec4c61938f8e077174f1f7
+msgid "set_angle_sync_bright.png"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:121 ae324905edc8416b81de64ac496e27eb
+msgid "Get device specifications such as firmware version or I2C address."
+msgstr "获取设备规格信息，例如固件版本或 I2C 地址。"
+
+#: ../../source/unit/angle8.rst:123 1365034c51524e0dba7afe78142a1b9f
+msgid "The register to read (FW_VER_REG or I2C_ADDR_REG)."
+msgstr "要读取的寄存器（FW_VER_REG 或 I2C_ADDR_REG）。"
+
+#: ../../source/unit/angle8.rst:127 23dc82c1afa949789d07e64cd84d4531
+msgid "|get_device_spec.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle8.ref:14 32fc9366577e4e579706872a99acc6cc
+msgid "get_device_spec.png"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:131 4178f29080a344609e7c627e596ce742
+msgid "Set a new I2C address for the device."
+msgstr "为设备设置一个新的 I2C 地址。"
+
+#: ../../source/unit/angle8.rst:133 97023dcd32744de1995ef700bfc31dfb
+msgid "The new I2C address (1 to 127)."
+msgstr "新的 I2C 地址（1 到 127）。"
+
+#: ../../source/unit/angle8.rst:137 615736ed074a4f5ea69fd81af43d6d14
+msgid "|set_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle8.ref:15 c1236b38b9744100854219ed4f997637
+msgid "set_i2c_address.png"
+msgstr ""
+
+#: ../../source/unit/angle8.rst:141 2f677ad18fbe45e3bfa33c8cf1cf2c02
+msgid "Read a specified number of bytes from a device register."
+msgstr "从设备寄存器读取指定数量的字节。"
+
+#: ../../source/unit/angle8.rst:143 b1e022855a3a4ce9a7a03db9130cd62b
+msgid "The register address to read from."
+msgstr "要读取的寄存器地址。"
+
+#: ../../source/unit/angle8.rst:144 2e7b400862e3422d957defe3c02b6af9
+msgid "The number of bytes to read."
+msgstr "要读取的字节数。"
+

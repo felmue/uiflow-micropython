@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/stamplc/ac.rst:2 d873f99d33d649bf81b44776fd4290d1
 msgid "StamPLC AC"
-msgstr ""
+msgstr "StamPLC AC"
 
 #: ../../en/stamplc/ac.rst:8 d7d70e3911094b6993089dabd571bb81
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../en/refs/stamplc.ac.ref a7771f573d224366b048b89e17ebb644
 msgid "StampPLC"
-msgstr ""
+msgstr "StampPLC"
 
 #: ../../en/stamplc/ac.rst:15 f3a1ab71316e468a8dede7058dfbee17
 msgid "UiFlow2 Example"

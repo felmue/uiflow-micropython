@@ -18,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/controllers/dinmeter.rst:3 9f89479f4e004b86869d3c46e22e0789
 msgid "DinMeter"
-msgstr ""
+msgstr "DinMeter"
 
 #: ../../en/refs/controllers.dinmeter.ref:1 ce7d697850ff4a178750fb755c44d2bb
 #: d1354beb8fca4fa7894d92ecbf0e9733
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../en/controllers/dinmeter.rst:9 d12223f7ec0f4bfba18b151d1aa72ef0
 msgid "Startup UI"
-msgstr ""
+msgstr "启动界面"
 
 #: ../../en/controllers/dinmeter.rst:12 12c31691d9aa4764be5e842ad7531829
 msgid "``ENCODER`` is used for menu selection."
@@ -87,7 +87,7 @@ msgstr "``CardKB Unit`` 用于输入。"
 
 #: ../../en/controllers/dinmeter.rst:18 09222134db1547628099eb91301e6eda
 msgid "Launcher"
-msgstr ""
+msgstr "启动器"
 
 #: ../../en/controllers/dinmeter.rst:20 0fa2c915675f4247bf64bb6b28bc8f19
 msgid "|launcher.png|"
@@ -106,7 +106,7 @@ msgstr "``BtnA`` 单击启动选定的应用程序。"
 
 #: ../../en/controllers/dinmeter.rst:27 9a1b0b232818413a8a7bf762286d8e4c
 msgid "Setting"
-msgstr ""
+msgstr "Setting"
 
 #: ../../en/controllers/dinmeter.rst:29 17328dfb46c44851b30d3586a5a695cd
 msgid "|setting.png|"
@@ -114,7 +114,7 @@ msgstr ""
 
 #: ../../en/controllers/dinmeter.rst:38 4e3762e0ec1f48108a4aa959fbc935bd
 msgid "WLAN"
-msgstr ""
+msgstr "WLAN"
 
 #: ../../en/controllers/dinmeter.rst:40 d0e52338538f4754a40e70418cebf140
 msgid "|wlan.png|"
@@ -130,7 +130,7 @@ msgstr "``BtnA`` 单击执行相应的动作。"
 
 #: ../../en/controllers/dinmeter.rst:49 e6bbd68c65cf4dd4ad4e7d5291b3538d
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: ../../en/controllers/dinmeter.rst:51 d97e76a4b1d444faa56db243633ad285
 msgid "|general.png|"
@@ -146,7 +146,7 @@ msgstr "``BtnA`` 单击设置。"
 
 #: ../../en/controllers/dinmeter.rst:60 cfe9233c083643928ef452229e999629
 msgid "Develop"
-msgstr ""
+msgstr "Develop"
 
 #: ../../en/controllers/dinmeter.rst:62 44cbf34089174995b654e5a5300dd9b6
 msgid "|develop.png|"
@@ -154,7 +154,7 @@ msgstr ""
 
 #: ../../en/controllers/dinmeter.rst:67 aea71bdf307647efb64718c4e0ef90c8
 msgid "APP.RUN"
-msgstr ""
+msgstr "APP.RUN"
 
 #: ../../en/controllers/dinmeter.rst:69 58d2e16572c249eda559feb60ff154cb
 msgid "|apprun.png|"
@@ -170,7 +170,7 @@ msgstr "``BtnA`` 单击按照对应的动作运行 main.py 。"
 
 #: ../../en/controllers/dinmeter.rst:78 f9b930dcf10f4090995ecee6b70a3983
 msgid "APP.LIST"
-msgstr ""
+msgstr "APP.LIST"
 
 #: ../../en/controllers/dinmeter.rst:80 2b7f452925784dcfa3e4ee495977b807
 msgid "|applist.png|"

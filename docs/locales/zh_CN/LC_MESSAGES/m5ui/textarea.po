@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/m5ui/textarea.rst:4 ../../en/m5ui/textarea.rst:53
 #: 7380ff9976a540fcaf17d4c27c3c2a05 9b8f71d6573846afb89b2d939b2fe19d
 msgid "M5TextArea"
-msgstr ""
+msgstr "M5TextArea"
 
 #: ../../en/m5ui/textarea.rst:8 9b051f6a671649e3b2f45d7b45f79414
 msgid ""
@@ -39,7 +39,7 @@ msgstr "UiFlow2 应用示例"
 #: ../../en/m5ui/textarea.rst:15 ../../en/m5ui/textarea.rst:34
 #: 4764b19f5dc549eea34131ccc1c063a7 afa2d5d5481a42e8be1024b1eaedc76f
 msgid "basic textarea"
-msgstr ""
+msgstr "基础文本区域"
 
 #: ../../en/m5ui/textarea.rst:17 38f25dfcdd3b44838b608a6b2c5d71a3
 msgid "Open the |cores3_textarea_basic_example.m5f2| project in UiFlow2."
@@ -172,7 +172,7 @@ msgstr "API参考"
 
 #: a5b97698450d4f6d8a7a3faa6ba5a672 m5ui.textarea.M5TextArea:1 of
 msgid "Bases: :py:class:`~lvgl.textarea`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.textarea`"
 
 #: 7e67257605834333b4944c6d38f505a2 m5ui.textarea.M5TextArea:1 of
 msgid "Create a text area widget."
@@ -461,7 +461,7 @@ msgstr ""
 
 #: ../../en/m5ui/textarea.rst:268 95976a5b8f794489b79487c85e8fd22c
 msgid "Set the color of the text."
-msgstr ""
+msgstr "设置文本的颜色。"
 
 #: ../../en/m5ui/textarea.rst:277 5968289dcee24a04b343bf38a58534e9
 msgid "|set_text_color.png|"
@@ -497,11 +497,11 @@ msgstr ""
 
 #: ../../en/m5ui/textarea.rst:308 346a598a987141618afd574e624b2733
 msgid "Set the text alignment of the textarea."
-msgstr ""
+msgstr "设置 textarea 的文本对齐方式。"
 
 #: ../../en/m5ui/textarea.rst:310 404666e3b5b84f0dbf96cb215cbeddb7
 msgid "The alignment to set (e.g., lv.TEXT_ALIGN.LEFT, lv.TEXT_ALIGN.CENTER)."
-msgstr ""
+msgstr "要设置的对齐方式（例如，lv.TEXT_ALIGN.LEFT、lv.TEXT_ALIGN.CENTER）。"
 
 #: ../../en/m5ui/textarea.rst:316 1372db4a715a4a6a9e7402a3627a710b
 msgid "|set_placeholder_align.png|"
@@ -785,3 +785,4 @@ msgstr ""
 #: ../../en/refs/m5ui.textarea.ref:8 6f954704af704ac7877d440dc6fbcae6
 msgid "get_height.png"
 msgstr ""
+

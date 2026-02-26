@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/rfid.rst:3 923b084a804e4bcca6474399a21ceef0
+msgid "RFID Unit"
+msgstr "RFID Unit"
+
+#: ../../source/unit/rfid.rst:7 d9755b1aab404f02a54b47006ea3384d
+msgid ""
+"RFIDUnit is a hardware module designed for RFID card reading and writing "
+"operations. It extends the MFRC522 driver, supporting card detection, "
+"reading, writing, and advanced features like selecting and waking up RFID"
+" cards."
+msgstr ""
+"RFIDUnit 是一款用于 RFID 卡读写操作的硬件模块。它扩展了 MFRC522 驱动，支持卡片检测、读取、写入，以及选择和唤醒 RFID "
+"卡等高级功能。"
+
+#: ../../source/unit/rfid.rst:9 ca78aa6bc59747208b24252c875dfa41
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/rfid.rst:11 25cb2417331e49b390051ecb49c5a5cc
+msgid "|RFIDUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.rfid.ref 16777fca739c4f06810019ba878a92a6
+msgid "RFIDUnit"
+msgstr "RFIDUnit"
+
+#: ../../source/unit/rfid.rst:13 b5fd4ee4512c4371abfee313e2e0d32f
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/rfid.rst:20 f1ddb359372c448880205d420b3f7976
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/rfid.rst:22 e3da3ddc375d4a578c6be5ba7fabc92c
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rfid.ref:14 d572a5fd103540d685551ae5a482d40d
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/rfid.rst:26 dd2acfd91b664bcd81bcc364e98b9a79
+msgid "|rfid_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/rfid.rst:29 f43b730f5e5e43ffb8be9acd7b2fbd4e
+msgid "class RFIDUnit"
+msgstr "class RFIDUnit"
+
+#: ../../source/unit/rfid.rst:32 36ae93f78c6341d88e64b5a7c1416e21
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/rfid.rst:36 e8d9ef8c859c4d6bbe2af3c0b16b0660
+msgid "Initialize the RFIDUnit with I2C communication and an optional address."
+msgstr "使用 I2C 通信初始化 RFIDUnit，并可选指定地址。"
+
+#: ../../source/unit/rfid.rst 2473b1a99a3d4bd58dd56553daa43fda
+#: 85bc9169a999403e98539e8f2af7d1f6 b9f5ee493c3a4cd989595204626c24ec
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/rfid.rst:38 dc8701d60b164326b396679f73698a73
+msgid "The I2C interface instance."
+msgstr "I2C 接口实例。"
+
+#: ../../source/unit/rfid.rst:39 3ebdbeee39c84fe4a63748b26604b851
+msgid "The I2C address of the RFIDUnit. Default is 0x28."
+msgstr "RFIDUnit 的 I2C 地址。默认值为 0x28。"
+
+#: ../../source/unit/rfid.rst:41 ../../source/unit/rfid.rst:54
+#: ../../source/unit/rfid.rst:63 ../../source/unit/rfid.rst:73
+#: ../../source/unit/rfid.rst:84 ../../source/unit/rfid.rst:93
+#: 54ab8711118e49ff936a669da99f04ba 58ff67ea7b77458aab9e8c3fb9c3a316
+#: 9a472dc13ed848f78057160362d5eb02 a65436c14d7f44f990c5805cb36c4aec
+#: ab2c1effbc8b4aa8a175718d61041090 d72b22e09c6e49a2b420d9e36e8b83cf
+msgid "UIFLOW2:"
+msgstr "UIFLOW2"
+
+#: ../../source/unit/rfid.rst:43 37dc48870d3f4520a4677ecb3e48a48e
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rfid.ref:7 ce957a5434ae4a4584cb90fe9776686f
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/rfid.rst:47 70e2fb8d016748829d04d7e6f3adc703
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/rfid.rst:51 a374384a25694bc0b71a63be44da5f70
+msgid "Check if a new RFID card is present."
+msgstr "检查是否存在新的 RFID 卡。"
+
+#: ../../source/unit/rfid.rst:56 54f2f2cad80c4269a6ddb9df2252687f
+msgid "|is_new_card_present.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rfid.ref:8 636eaf45eec643fbaba2c36bd65d482a
+msgid "is_new_card_present.png"
+msgstr ""
+
+#: ../../source/unit/rfid.rst:60 6957ed1b3bcb4a2fa8fcba13937cd1dc
+msgid "Read the UID of the RFID card if available."
+msgstr "如果 RFID 卡可用，则读取其 UID。"
+
+#: ../../source/unit/rfid.rst:65 22f96a3e915b4f8ebbf87b9e00f5d3b7
+msgid "|read_card_uid.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rfid.ref:9 1cc2a2807c9a408a8cd7e5bfc8785304
+msgid "read_card_uid.png"
+msgstr ""
+
+#: ../../source/unit/rfid.rst:69 f28108d41e1b4e15a875022abdba2097
+msgid "Read a specific block from the RFID card."
+msgstr "从 RFID 卡中读取指定块。"
+
+#: ../../source/unit/rfid.rst:71 89a3ad63b7b4409ba34e0e7c63a95cbb
+msgid "The block address to read data from."
+msgstr "用于读取数据的块地址。"
+
+#: ../../source/unit/rfid.rst:75 276779d7c2964c5b8f42bff523c379c4
+msgid "|read.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rfid.ref:10 d235d0f80848416d9498e6aa22fd63f9
+msgid "read.png"
+msgstr ""
+
+#: ../../source/unit/rfid.rst:79 f36081580150424a8051411400a5fc28
+msgid "Write data to a specific block on the RFID card."
+msgstr "将数据写入 RFID 卡的指定块。"
+
+#: ../../source/unit/rfid.rst:81 2ecb26830ccd47b1b08ea01125fe835d
+msgid "The block address to write data to."
+msgstr "写入数据的块地址。"
+
+#: ../../source/unit/rfid.rst:82 ef632c16c2334e48baa42a15694c92df
+msgid "The data buffer to write to the block."
+msgstr "要写入该块的数据缓冲区。"
+
+#: ../../source/unit/rfid.rst:86 b20fd936741d4bdb94cb25b329bf5fb6
+msgid "|write.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rfid.ref:11 01a332398ab243328af1da49e3fe95ba
+msgid "write.png"
+msgstr ""
+
+#: ../../source/unit/rfid.rst:90 49ff5adc79794651ad0ba87160eaf3d5
+msgid "Halt the PICC and stop the encrypted communication session."
+msgstr "使 PICC 进入 Halt 状态，并停止加密通信会话。"
+
+#: ../../source/unit/rfid.rst:95 9beb0da2ca5646da9f3ec1fcd321baed
+msgid "|close.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rfid.ref:12 f2d23fb4c17a4465a8fc5178f28ec85c
+msgid "close.png"
+msgstr ""
+
+#: ../../source/unit/rfid.rst:99 bf46eb6f599345e6b602a0288b39d700
+msgid "Wake up all RFID cards within range."
+msgstr "唤醒范围内的所有 RFID 卡。"
+
+#: ../../source/unit/rfid.rst:103 301a8c7380c14e7cbe3c2cec7b0730a4
+msgid "Select the currently active RFID card."
+msgstr "选择当前处于活动状态的 RFID 卡。"
+

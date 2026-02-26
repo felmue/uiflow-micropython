@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/digi_clock.rst:2 42e26fd7bc45433fb0a143e2af4e03be
+msgid "DigiClock Unit"
+msgstr "DigiClock Unit"
+
+#: ../../source/unit/digi_clock.rst:6 e9bae1cdb96d45a39ebe34e2d10a8c32
+msgid ""
+"UNIT-Digi-Clock is a 2.1 inch 4-digit 7-segment display module. There are"
+" decimal points on each digit and an extra wire for colon-dots in the "
+"center, which can display Decimals and Clock. This module adopts TM1637 "
+"as the driver IC, and STM32F030 as I2C communication. I2C address can be "
+"modified per 4-bit dip switch. The red LED supports 8 brightness. And we "
+"have reserved 4 fixing holes there."
+msgstr ""
+"UNIT-Digi-Clock 是一款 2.1 英寸 4 "
+"位数码管（7-segment）显示模块。每一位数字都带有小数点，并额外提供一根用于中间冒号点的连线，可用于显示小数与时钟。该模块采用 TM1637"
+" 作为驱动 IC，并使用 STM32F030 进行 I2C 通信。I2C 地址可通过 4-bit 拨码开关修改。红色 LED 支持 8 "
+"档亮度，并预留了 4 个固定孔位。"
+
+#: ../../source/unit/digi_clock.rst:14 acc1cf4a9d6f41f9b6cb01bfbf0bdf61
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/digi_clock.rst:16 59fdabb2496d4cf88902f1e65276097d
+msgid "|DigiClockUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.digi_clock.ref 5f0e2130c0fc41e999bc69e156e30da2
+msgid "DigiClockUnit"
+msgstr "DigiClockUnit"
+
+#: ../../source/unit/digi_clock.rst:19 14fa4517b8f94b2499f5773d1f93a116
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/digi_clock.rst:26 b8f0c73e0bdf42f6a5433111d7a7b3c2
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/digi_clock.rst:28 7c7022f6f2fb474cbcaf641f1ef04322
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.digi_clock.ref:15 566be5fb16cf405a8c609c007babb550
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/digi_clock.rst:33 fdf11169fb3640aab50c75a23bbe9c59
+msgid "|cores3_digi_clock_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/digi_clock.rst:37 fa5cec19ea2548568b54385e53fcb632
+msgid "class DigiClockUnit"
+msgstr "class DigiClockUnit"
+
+#: ../../source/unit/digi_clock.rst:40 beb872cf7a6c46f0a9cc2f877ef8b5cc
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/digi_clock.rst:44 2865f32a1fd94f349f505b25e5d78947
+msgid "Initialize the DigiClockUnit."
+msgstr "初始化 DigiClockUnit。"
+
+#: ../../source/unit/digi_clock.rst 4087d2d48dd9403084c5329b9086aaea
+#: 6072d47efa7e45f4b7435a2a6c8cfc14 66e32edc45f94b53ab0721245b7f1abb
+#: b62dbc39c84d401187912effff299625 fe7a9be653ad4769b0e4b8c0a847dece
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/digi_clock.rst:46 93f4cec986c1471d9c7d48c72f8f9a15
+msgid "I2C port to use."
+msgstr "要使用的 I2C 端口。"
+
+#: ../../source/unit/digi_clock.rst:47 028e47bd816d4a1398bd301dac9edefb
+msgid "I2C address of the DigiClockUnit."
+msgstr "DigiClockUnit 的 I2C 地址。"
+
+#: ../../source/unit/digi_clock.rst:49 ../../source/unit/digi_clock.rst:61
+#: ../../source/unit/digi_clock.rst:72 ../../source/unit/digi_clock.rst:84
+#: ../../source/unit/digi_clock.rst:96 ../../source/unit/digi_clock.rst:107
+#: ../../source/unit/digi_clock.rst:118 0748440f149a41ff808da400b4006d83
+#: 18d56bbe807846a2ab48d89769b2a67a 7131d6fc90bc4e7f869972d99a26aee2
+#: aa48221b340c4a249f8cf3b61aedd5c2 ab235e60508345c3b1ae430512d63848
+#: b77251f1032c404a826eaeba77727a0d d107ae1e33c440ce9f5a68f885e472aa
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/digi_clock.rst:51 3a93706e33c64b6d99d6f2102bb9bd93
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.digi_clock.ref:7 35d99270848e4588851620ee6bf93e74
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/digi_clock.rst:55 459b3bc8db494ff7b77f6b94c6f241f7
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/digi_clock.rst:59 5186a6c4d2ea417784d8c813c55f101a
+msgid "Clear the display."
+msgstr "清除显示屏。"
+
+#: ../../source/unit/digi_clock.rst:63 7cb6055f04254fff95ea2bd18a61ab26
+msgid "|clear.png|"
+msgstr ""
+
+#: ../../source/refs/unit.digi_clock.ref:8 500566b0682e41f2bab54597067236e7
+msgid "clear.png"
+msgstr ""
+
+#: ../../source/unit/digi_clock.rst:68 adb2c999005142bc88939cb2b764ed77
+msgid "Set the brightness of the display."
+msgstr "设置显示屏的亮度。"
+
+#: ../../source/unit/digi_clock.rst:70 66c594adcd2042848e8687e7e0170836
+msgid "The brightness of the display, range from 0 to 8."
+msgstr "显示屏亮度，范围为 0 到 8。"
+
+#: ../../source/unit/digi_clock.rst:74 654706704cd1410a9fde136ec83abfa1
+msgid "|set_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.digi_clock.ref:9 cde8185e917c4b62b87e375cf530d8b7
+msgid "set_brightness.png"
+msgstr ""
+
+#: ../../source/unit/digi_clock.rst:79 541b600460db46b4a788fe4a40ff653c
+msgid "Write raw data to the display."
+msgstr "将原始数据写入显示屏。"
+
+#: ../../source/unit/digi_clock.rst:81 377b344753d44ec69242381c8211b936
+msgid "The data to write."
+msgstr "要写入的数据。"
+
+#: ../../source/unit/digi_clock.rst:82 bc7bff62ceba489cad2099853e0a60ee
+msgid "The index of the data, range from 0 to 4."
+msgstr "数据的索引，范围为 0 到 4。"
+
+#: ../../source/unit/digi_clock.rst:86 ce9e7fd4703d41ee9deb402b30b853a0
+msgid "|set_raw.png|"
+msgstr ""
+
+#: ../../source/refs/unit.digi_clock.ref:10 3170fa9defd04bf2bd00593dfc1de518
+msgid "set_raw.png"
+msgstr ""
+
+#: ../../source/unit/digi_clock.rst:91 76d68eb447c147e3871acf52196f392f
+msgid "Write a character to the display."
+msgstr "向显示屏写入一个字符。"
+
+#: ../../source/unit/digi_clock.rst:93 f3c83b831082406b868a6cf61918ba36
+msgid "The character to write."
+msgstr "要写入的字符。"
+
+#: ../../source/unit/digi_clock.rst:94 7507307d0efd4bb9807ba76076936b94
+msgid "The index of the character, range from 0 to 4."
+msgstr "字符的索引，范围为 0 到 4。"
+
+#: ../../source/unit/digi_clock.rst:98 01f70c9311eb43df873bf3e6f95d7f28
+msgid "|set_char.png|"
+msgstr ""
+
+#: ../../source/refs/unit.digi_clock.ref:11 0655a6a2a982448e96033e6a04f09b6e
+msgid "set_char.png"
+msgstr ""
+
+#: ../../source/unit/digi_clock.rst:103 3c3ab13d5ab8401eaa05c223fe95056c
+msgid "Write a string to the display."
+msgstr "将字符串写入显示屏。"
+
+#: ../../source/unit/digi_clock.rst:105 ee6d220176184e66974501335d509393
+msgid "The string to write."
+msgstr "要写入的字符串。"
+
+#: ../../source/unit/digi_clock.rst:109 91e1537ce373431bb1ae3d1b6db0d06d
+msgid "|set_string.png|"
+msgstr ""
+
+#: ../../source/refs/unit.digi_clock.ref:12 36c6012cd1894cfcac507e961ead4934
+msgid "set_string.png"
+msgstr ""
+
+#: ../../source/unit/digi_clock.rst:114 584466f79f06450f87398f9bff39d48d
+msgid "Get the firmware version of the DigiClockUnit."
+msgstr "获取 DigiClockUnit 的固件版本。"
+
+#: ../../source/unit/digi_clock.rst 73d9e7ab600c481ba2a447328700aba6
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/digi_clock.rst:116 428acdc029da4ac59770c82e88af74d7
+msgid "The firmware version."
+msgstr "固件版本。"
+
+#: ../../source/unit/digi_clock.rst:120 37757e8fc3b54581bf1108bce5ef54ad
+msgid "|get_fw_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.digi_clock.ref:13 5ce0b91cb7494e16986900c2e11577b8
+msgid "get_fw_version.png"
+msgstr ""
+

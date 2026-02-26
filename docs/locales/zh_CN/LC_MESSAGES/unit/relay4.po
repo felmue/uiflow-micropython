@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/relay4.rst:2 6628be32c4a64421b0a834fb70fd9607
+msgid "Relay4 Unit"
+msgstr "Relay4 Unit"
+
+#: ../../source/unit/relay4.rst:6 cc2aa818baa74095b4721fa0924b2b9e
+msgid ""
+"4-Relay unit is an integrated 4-way relay module which can be controlled "
+"by I2C protocol. The maximum control voltage of each relay is AC-250V/DC-"
+"28V, the rated current is 10A and the instantaneous current can hold up "
+"to 16A. Each relay can be controlled independently, each on it's own. "
+"Each relay has status (LED) indictor as well to show the state of the "
+"relay at any given time."
+msgstr ""
+"4-Relay unit 是一款集成式 4 路继电器模块，可通过 I2C 协议进行控制。每个继电器的最大控制电压为 AC-250V/DC-"
+"28V，额定电流为 10A，瞬时电流最高可达 "
+"16A。每个继电器都可独立控制，互不影响。每个继电器还带有状态（LED）指示灯，用于在任意时刻显示继电器的状态。"
+
+#: ../../source/unit/relay4.rst:13 b8d51e0a187c488aaef2936d9763d7fe
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/relay4.rst:15 c57614031f5c41d19488b7ddd2b79429
+msgid "|Relay4Unit|"
+msgstr ""
+
+#: ../../source/refs/unit.relay4.ref dd0d8048d32d41eea6a51be04660cdc4
+msgid "Relay4Unit"
+msgstr "Relay4Unit"
+
+#: ../../source/unit/relay4.rst:18 15268e15143f458582bfdf56c3c0ef3e
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/relay4.rst:25 508565a860804257a0371133542cf376
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/relay4.rst:27 ae690b979fd8457e906aee79eb2a0a3d
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay4.ref:16 2f369aaf6dc547a592ac256d80ae754e
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:31 01e59900433946b6ae3010d6220d5b75
+msgid "|cores3_relay4_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:35 b0328171f76e431ba195128e057f547b
+msgid "class Relay4Unit"
+msgstr "class Relay4Unit"
+
+#: ../../source/unit/relay4.rst:38 14b466b8a28741219c5eacc9d92751a4
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:42 65d659f5e24540bd956ec82eb8b905e0
+msgid "Initialize the Relay4Unit object."
+msgstr "初始化 Relay4Unit 对象。"
+
+#: ../../source/unit/relay4.rst 3873b8d870b34e10b962230019b8e116
+#: 5104a1781b9047c084d523dc5a9e2850 59a4e5ba4638439ab1bb6ecb633ba090
+#: 6e1b95b642824d27bb3825ec77d69287 913c37e3102247dc9a31930855319aa3
+#: bbd22654897e49ad91b8f1d1f0efdad6 cad666f756074e1198a7430a8a4ae55a
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:44 0376338341d141bd9dcdb466082dd89b
+msgid "I2C port to use."
+msgstr "要使用的 I2C 端口。"
+
+#: ../../source/unit/relay4.rst:45 69e98a8662014b99a49190e0dc509db8
+msgid "I2C address of the Relay4Unit."
+msgstr "Relay4Unit 的 I2C 地址。"
+
+#: ../../source/unit/relay4.rst:47 ../../source/unit/relay4.rst:65
+#: ../../source/unit/relay4.rst:80 ../../source/unit/relay4.rst:91
+#: ../../source/unit/relay4.rst:103 ../../source/unit/relay4.rst:116
+#: ../../source/unit/relay4.rst:128 ../../source/unit/relay4.rst:139
+#: 23d197dc5b9f49ab8faadaec44438e32 3df20b31f85e4a668b779c953a762cca
+#: 5296ead2cae347ab8a384ffea2731c86 6c89f3fdffcc49c89ef8e2c267ba71f5
+#: bb58e2d97be044a9aed054ae95bc1bdc d54f68a0131e46799fcdc69d87c8abcd
+#: e4213ae10dc54870ab5113acef3083ca f9422e4555124b8e9445f385cd17f47c
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/relay4.rst:49 62158c9e2e534e73a95cad3a7ca32d08
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay4.ref:7 67465c295e9442f2b096e6f05fea8a5f
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:53 ca51af202da24a54b087949af724f751
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:57 d1e5b8b997b34baba175fd706139ddfc
+msgid "Set the mode of the relay."
+msgstr "设置继电器的模式。"
+
+#: ../../source/unit/relay4.rst:59 ../../source/unit/relay4.rst:74
+#: 1491351cb6b44a4398466d0b5527e05b b5ee16a8093a406b8aaca4d0364d9d33
+msgid ""
+"The mode of the relay  Options: - ``Relay4Unit.ASYNC_MODE``: async - "
+"``Relay4Unit.SYNC_MODE``: sync"
+msgstr ""
+"继电器的模式。选项：- ``Relay4Unit.ASYNC_MODE``：async - "
+"``Relay4Unit.SYNC_MODE``：sync"
+
+#: ../../source/unit/relay4.rst:59 ../../source/unit/relay4.rst:74
+#: 0a5930b28ccf4c43a6cbb0e9be25cedb 7329c4444427417f8a554d3f462cc513
+msgid "The mode of the relay"
+msgstr "继电器的模式"
+
+#: ../../source/unit/relay4.rst:61 ../../source/unit/relay4.rst:76
+#: 5d7ecd4402ab40929dbbb258e414c97c 7a5db279e0ff44379a68cdf1b67e31f0
+msgid ""
+"Options: - ``Relay4Unit.ASYNC_MODE``: async - ``Relay4Unit.SYNC_MODE``: "
+"sync"
+msgstr "选项：- ``Relay4Unit.ASYNC_MODE``：async - ``Relay4Unit.SYNC_MODE``：sync"
+
+#: ../../source/unit/relay4.rst:67 45fb007322dc46e2a61216b3dc5e7202
+msgid "|set_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay4.ref:8 4cba054a25e7405bb1f18e2f121228f7
+msgid "set_mode.png"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:72 909cc1be20d24fcab81536df032a0219
+msgid "Get the mode of the relay."
+msgstr "获取继电器的模式。"
+
+#: ../../source/unit/relay4.rst 4964ac30366b40739abcb3cef8d66f46
+#: 720a369c6f1349b0841e3959d16c5a86
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:82 569f2aeef4df4e49bcd28880ad5e7735
+msgid "|get_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay4.ref:9 66ca1d7743a54717a4941d7d8dc92354
+msgid "get_mode.png"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:87 46dcc5e9b89f494bb8390882758ae5da
+msgid "Get the state of the LED."
+msgstr "获取 LED 的状态。"
+
+#: ../../source/unit/relay4.rst:89 ../../source/unit/relay4.rst:100
+#: a630ed2896eb4e6faf79aa254608b7c5 e031de51657548c49db96d561bfa403f
+msgid "The number of the LED."
+msgstr "LED 的编号。"
+
+#: ../../source/unit/relay4.rst:93 f0f3af24f82347179610043dc53af9ea
+msgid "|get_led_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay4.ref:10 af7e122065924743b4ea542c017c12fc
+msgid "get_led_state.png"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:98 cad83665ad954dbf96bfb4a95cb6db03
+msgid "Set the state of the LED."
+msgstr "设置 LED 的状态。"
+
+#: ../../source/unit/relay4.rst:101 5412d92006a2426f8efb11abecb26b57
+msgid "The state of the LED."
+msgstr "LED 的状态。"
+
+#: ../../source/unit/relay4.rst:105 21ec247e4d554f11bb28527eeda5abf7
+msgid "|set_led_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay4.ref:11 515a10ed19ec45c28644e930207c6fe2
+msgid "set_led_state.png"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:110 ed5ed93787bd480ab234ccbfe7c1ed47
+msgid "Get the state of the relay."
+msgstr "获取继电器的状态。"
+
+#: ../../source/unit/relay4.rst:112 ../../source/unit/relay4.rst:125
+#: 1843d00a5fb5400e9ab86c2d695bf2a4 3c3b2f4cb1cd4d39b747daf09dff82ac
+msgid "The number of the relay."
+msgstr "继电器编号。"
+
+#: ../../source/unit/relay4.rst:114 ../../source/unit/relay4.rst:126
+#: ../../source/unit/relay4.rst:137 6e65e84a5e794a70bafc9b07aff0634b
+#: ccfafaf959cd4e7cbbf9ea7cb1c06889 f08e3c4442624aa7b08cc5afc64e4f43
+msgid "The state of the relay."
+msgstr "继电器的状态。"
+
+#: ../../source/unit/relay4.rst:118 f682140d1fc34edaaf569ba87768b8d9
+msgid "|get_relay_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay4.ref:12 d06a453988ec46679b86851fb2a75fb2
+msgid "get_relay_state.png"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:123 c7f1f8e710334907a9b28a8409dd207d
+msgid "Set the state of the relay."
+msgstr "设置继电器的状态。"
+
+#: ../../source/unit/relay4.rst:130 55fb7ba07d59453999d879bbe55d26d3
+msgid "|set_relay_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay4.ref:13 b95f465ec94640018f63a8b414484f30
+msgid "set_relay_state.png"
+msgstr ""
+
+#: ../../source/unit/relay4.rst:135 bb941343f56446b5990efce3a584b340
+msgid "Set the state of all the relay."
+msgstr "设置所有继电器的状态。"
+
+#: ../../source/unit/relay4.rst:141 9334f89ddf2e406bae1ebf76b1b7009c
+msgid "|set_relay_all.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay4.ref:14 50f8bcfbaa244ce2a734389b8c4396d1
+msgid "set_relay_all.png"
+msgstr ""
+

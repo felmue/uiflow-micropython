@@ -22,15 +22,15 @@ msgstr ""
 
 #: ../../en/quick-reference/usb-mode.rst:2 764b782faa264875bd46cd837acdf21c
 msgid "USB Mode"
-msgstr ""
+msgstr "USB 模式。"
 
 #: ../../en/quick-reference/usb-mode.rst:8 3715a9b416ea4f6b9cb525d3e0e59f7c
 msgid "Switch to USB Mode"
-msgstr ""
+msgstr "切换到 USB 模式。"
 
 #: ../../en/quick-reference/usb-mode.rst:10 868d3b3e74154c328d0cefee29f35dc0
 msgid "Select the device under ``USB Device`` to enter USB mode."
-msgstr ""
+msgstr "在 ``USB Device`` 下选择设备以进入 USB 模式。"
 
 #: ../../en/quick-reference/usb-mode.rst:12 48a75d47bc4e4ece82c577728c16053a
 msgid "|usb-mode-1.gif|"
@@ -42,11 +42,11 @@ msgstr ""
 
 #: ../../en/quick-reference/usb-mode.rst:16 3204a7f456244815afa5cc90219288a7
 msgid "Run the Program"
-msgstr ""
+msgstr "运行程序。"
 
 #: ../../en/quick-reference/usb-mode.rst:18 e4fb88ed4b3245a28f59196d57a8e46f
 msgid "Click the run button to execute the current program."
-msgstr ""
+msgstr "点击运行按钮以执行当前程序。"
 
 #: ../../en/quick-reference/usb-mode.rst:20 e9dc5cdd6d0845f5bad73634abec29ea
 msgid "|usb-mode-2.gif|"
@@ -58,11 +58,11 @@ msgstr ""
 
 #: ../../en/quick-reference/usb-mode.rst:24 ecacab009ec344309f94e1a9398faac7
 msgid "Terminate the Program Execution"
-msgstr ""
+msgstr "终止程序执行。"
 
 #: ../../en/quick-reference/usb-mode.rst:26 ed866400d9024af9a2df65baa0d674ce
 msgid "Use ``Ctrl + C`` to terminate the execution of the program."
-msgstr ""
+msgstr "使用 ``Ctrl + C`` 终止程序的执行。"
 
 #: ../../en/quick-reference/usb-mode.rst:28 d2944f6588dc4108967d11ae12066b6c
 msgid "|usb-mode-3.gif|"
@@ -74,11 +74,11 @@ msgstr ""
 
 #: ../../en/quick-reference/usb-mode.rst:32 c1bd79ab21794906b9d8003a06b1ef95
 msgid "Save the Program to the Device and Run"
-msgstr ""
+msgstr "将程序保存到设备并运行。"
 
 #: ../../en/quick-reference/usb-mode.rst:34 85ef444f0144486facbd76031c0e4125
 msgid "Click the save button to save the program to the device and run it."
-msgstr ""
+msgstr "单击保存按钮，将程序保存到设备并运行。"
 
 #: ../../en/quick-reference/usb-mode.rst:36 7103df4eec6f434997ca4c4923ca6433
 msgid "|usb-mode-4.gif|"
@@ -90,14 +90,14 @@ msgstr ""
 
 #: ../../en/quick-reference/usb-mode.rst:40 79e13950a9bd49faa3ff6dc981cedcd0
 msgid "File Operations"
-msgstr ""
+msgstr "文件操作"
 
 #: ../../en/quick-reference/usb-mode.rst:42 e4bb638525ec494db4c41e86ca509f9f
 msgid ""
 "Click the ``Get File`` button to export the program from the device to "
 "the computer. Click the ``Delete File`` button to delete the program from"
 " the device."
-msgstr ""
+msgstr "单击 ``Get File`` 按钮将程序从设备导出到计算机。单击 ``Delete File`` 按钮将程序从设备中删除。"
 
 #: ../../en/quick-reference/usb-mode.rst:45 e2aaefd798df4815976f46bd252d46e5
 msgid "|usb-mode-5.gif|"
@@ -109,13 +109,13 @@ msgstr ""
 
 #: ../../en/quick-reference/usb-mode.rst:49 f748740ab9794ccd8a294c9304007a30
 msgid "Browse Directories"
-msgstr ""
+msgstr "浏览目录。"
 
 #: ../../en/quick-reference/usb-mode.rst:51 2405c1034fc54f4ca834ce8fe61e0565
 msgid ""
 "Double-click with the mouse to enter a directory; single-click on the "
 "path bar to return to the previous directory level."
-msgstr ""
+msgstr "用鼠标双击进入目录；单击路径栏返回上一级目录。"
 
 #: ../../en/quick-reference/usb-mode.rst:53 4d7bbeceb7a84bfbba62dabf29ff2fa4
 msgid "|usb-mode-6.gif|"
@@ -127,18 +127,18 @@ msgstr ""
 
 #: ../../en/quick-reference/usb-mode.rst:57 6115fbbcff6041c1b0b695ad4b364dca
 msgid "Upload an Image to the Device"
-msgstr ""
+msgstr "将图像上传到设备。"
 
 #: ../../en/quick-reference/usb-mode.rst:59 c2153af82d7047388c364907dab10a3f
 msgid ""
 "Navigate to a specific directory within the device, click the ``Send File"
 " to Here`` button, select an image from your computer, and then upload it"
 " to that directory."
-msgstr ""
+msgstr "在设备中进入指定目录，点击 ``Send File to Here`` 按钮，从电脑中选择一张图片，然后将其上传到该目录中。"
 
 #: ../../en/quick-reference/usb-mode.rst:61 016c52151d5d467eb3125b62abb3e459
 msgid "Image resources need to be saved under the ``res/img`` directory."
-msgstr ""
+msgstr "图片资源需要保存在 ``res/img`` 目录下。"
 
 #: ../../en/quick-reference/usb-mode.rst:63 0976d18029424afe96faa5b5205243e5
 msgid "|usb-mode-7.gif|"
@@ -150,13 +150,13 @@ msgstr ""
 
 #: ../../en/quick-reference/usb-mode.rst:67 9c75c1283f354a31b6821ae616601e93
 msgid "Use Images from the Device"
-msgstr ""
+msgstr "使用设备中的图像。"
 
 #: ../../en/quick-reference/usb-mode.rst:69 6abf15e6e29749ecbea609f7c55268f1
 msgid ""
 "Use the |setImage.png| block to set the filename of the image to be "
 "displayed, and show the image on the screen."
-msgstr ""
+msgstr "使用 |setImage.png| 块来设置要显示的图片文件名，并在屏幕上显示该图片。"
 
 #: ../../en/refs/qr.usb-mode.ref:10 402ed7420fde4df6b2ff1d35b9496351
 msgid "setImage.png"

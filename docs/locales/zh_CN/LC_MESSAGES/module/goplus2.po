@@ -23,11 +23,11 @@ msgstr ""
 #: ../../en/module/goplus2.rst:3 ../../en/refs/module.goplus2.ref
 #: bfd112f73c464a31bcf949ffa4569141 da02b4d6fedd454e97d3ac42ee877be9
 msgid "GoPlus2Module"
-msgstr ""
+msgstr "GoPlus2Module"
 
 #: ../../en/module/goplus2.rst:7 e7e08011d12841fc8c21aebd845653d0
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/goplus2.rst:9 79013412919c4742b514cd8648c83d80
 msgid "|GoPlus2Module|"
@@ -35,11 +35,11 @@ msgstr ""
 
 #: ../../en/module/goplus2.rst:11 5d3938b8a5b14c7ab733912d45e3c348
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/goplus2.rst:17 ce48c61113a04805a66346c2071fd17e
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/module/goplus2.rst:19 f84523d6c1314eb5815c91a636d01869
 msgid "|example.png|"
@@ -55,15 +55,15 @@ msgstr ""
 
 #: ../../en/module/goplus2.rst:26 4aaf8f1dda4443c3b78830db3bf38bcb
 msgid "class GoPlus2Module"
-msgstr ""
+msgstr "class GoPlus2Module"
 
 #: ../../en/module/goplus2.rst:29 d5e61e70aa4041dda7b7ad0f2e7d4696
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/module/goplus2.rst:33 01da43c6803a4186aebc9bea7bfe138c
 msgid "Initialize the GoPlus2Module."
-msgstr ""
+msgstr "初始化 GoPlus2Module。"
 
 #: ../../en/module/goplus2.rst 14e96316212f4ba98c1af71b8c1be534
 #: 1890b59e15bc4c48aa5f5a1ee888ed0a 55d2cf0082dd49f18bf775a6de43a43a
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../en/module/goplus2.rst:35 9d0132314d5f400195da8d6c671cd9dc
 msgid "The I2C address of the GoPlus2 module (default is 0x38)."
-msgstr ""
+msgstr "GoPlus2 模块的 I2C 地址（默认值为 0x38）。"
 
 #: ../../en/module/goplus2.rst:37 ../../en/module/goplus2.rst:52
 #: ../../en/module/goplus2.rst:63 ../../en/module/goplus2.rst:74
@@ -84,7 +84,7 @@ msgstr ""
 #: b9e8dc94f3b9436293e3a8694362869d e3f98ac6464a44ea84149a5d48e02f27
 #: e6d6586addd941a093d7d960bda201a9 f8018bc5909a4f2e9c7dfd0458612693
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2:"
 
 #: ../../en/module/goplus2.rst:39 b299b7af4a284108b721f51e1198079e
 msgid "|init.png|"
@@ -96,20 +96,20 @@ msgstr ""
 
 #: ../../en/module/goplus2.rst:43 bb259392883742de80d682d520967870
 msgid "Methods"
-msgstr ""
+msgstr "Methods"
 
 #: ../../en/module/goplus2.rst:47 fa61ffda4be74793a105ec2a06224acb
 msgid "Set the angle of the specified servo."
-msgstr ""
+msgstr "设置指定舵机的角度。"
 
 #: ../../en/module/goplus2.rst:49 ../../en/module/goplus2.rst:60
 #: 4d592ce1db1e4a81a359b5128d0c0024 5362f656bf9c4ff68650a6cc2396fa7d
 msgid "The number of the servo (1 to 4)."
-msgstr ""
+msgstr "舵机的编号（1 到 4）。"
 
 #: ../../en/module/goplus2.rst:50 f36561636b7c4e219e2f34d844dadd55
 msgid "The angle to set the servo to (0 to 180 degrees)."
-msgstr ""
+msgstr "设置舵机的角度（0 到 180 度）。"
 
 #: ../../en/module/goplus2.rst:54 ec08730be2634f778a06315e5e638f45
 msgid "|set_servo_angle.png|"
@@ -121,11 +121,11 @@ msgstr ""
 
 #: ../../en/module/goplus2.rst:58 504753786fc8473a8064a852638d6e4e
 msgid "Set the pulse width for the specified servo."
-msgstr ""
+msgstr "为指定的舵机设置脉冲宽度。"
 
 #: ../../en/module/goplus2.rst:61 6bc55857615c4b258dd0649cdef1460e
 msgid "The pulse width to set (in microseconds)."
-msgstr ""
+msgstr "要设置的脉宽（单位：微秒）。"
 
 #: ../../en/module/goplus2.rst:65 86abcddf61ce49059b3aef05cb1309b6
 msgid "|set_servo_pulse_width.png|"
@@ -137,15 +137,15 @@ msgstr ""
 
 #: ../../en/module/goplus2.rst:69 1f61cd5afe10445480f3577db0fb7786
 msgid "Set the speed of the specified motor."
-msgstr ""
+msgstr "设置指定电机的速度。"
 
 #: ../../en/module/goplus2.rst:71 733d2765a0a043388579e7f8a8c789f0
 msgid "The number of the motor (1 or 2)."
-msgstr ""
+msgstr "电机编号（1 或 2）。"
 
 #: ../../en/module/goplus2.rst:72 ba0d33a604894097bc62b819a74d85bd
 msgid "The speed to set (negative for reverse)."
-msgstr ""
+msgstr "要设置的速度（负值表示反向）。"
 
 #: ../../en/module/goplus2.rst:76 b810638d9e6b4491988ba05001a10a5c
 msgid "|set_motor_speed.png|"
@@ -157,17 +157,17 @@ msgstr ""
 
 #: ../../en/module/goplus2.rst:80 15df7caffeb84e3c92d5c4daef2d835e
 msgid "Set the digital output for the specified pin."
-msgstr ""
+msgstr "设置指定引脚的数字输出。"
 
 #: ../../en/module/goplus2.rst:82 ../../en/module/goplus2.rst:93
 #: ../../en/module/goplus2.rst:103 a2d66b056af14ab29d02a98863f44653
 #: d5ce98311c984faa834e3109eb1233f3 ff5412407fda45b893cb93101326e2b8
 msgid "The number of the pin (1 to 3)."
-msgstr ""
+msgstr "引脚编号（1 到 3）。"
 
 #: ../../en/module/goplus2.rst:83 119c46193130405f8005d52d1302c268
 msgid "The value to set (0 or 1)."
-msgstr ""
+msgstr "要设置的值（0 或 1）。"
 
 #: ../../en/module/goplus2.rst:87 0bc8e8e440634bc3b2f742110610cb1b
 msgid "|set_digital_output.png|"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../../en/module/goplus2.rst:91 1d4ba5524f294244a41312743f1d7ae8
 msgid "Get the digital input value of the specified pin."
-msgstr ""
+msgstr "获取指定引脚的数字输入值。"
 
 #: ../../en/module/goplus2.rst:97 13110a6974104e8a8421c8cf65f9e587
 msgid "|get_digital_input.png|"
@@ -191,7 +191,7 @@ msgstr ""
 
 #: ../../en/module/goplus2.rst:101 fdeb7cffd002423783d00338a818d49d
 msgid "Get the analog input value of the specified pin."
-msgstr ""
+msgstr "获取指定引脚的模拟输入值。"
 
 #: ../../en/module/goplus2.rst:107 3feb8d2177d24f9f994dda7ce95440b4
 msgid "|get_analog_input.png|"

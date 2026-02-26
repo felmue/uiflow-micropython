@@ -1,0 +1,481 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/ac_measure.rst:3 e8fede9192c44b5c8964004bf14bf478
+msgid "ACMeasure Unit"
+msgstr "ACMeasure 单元"
+
+#: ../../source/unit/ac_measure.rst:7 78321d74cf3644dfb3e311e886417d58
+msgid ""
+"C Measure Unit is a single-phase AC measurement module with isolation "
+"capabilities. It utilizes the STM32+HLW8032 scheme to monitor high-"
+"precision current, voltage, power, and other data in real time. The "
+"module features a built-in AC isolation chip, B0505ST16-W5, and "
+"communicates with the STM32 through the EL357 optocoupler isolation chip."
+msgstr ""
+"C Measure Unit 是一款具备隔离能力的单相 AC 测量模块。它采用 STM32+HLW8032 "
+"方案，可实时监测高精度的电流、电压、功率等数据。该模块内置 AC 隔离芯片 B0505ST16-W5，并通过 EL357 光耦隔离芯片与 "
+"STM32 通信。"
+
+#: ../../source/unit/ac_measure.rst:9 0a21aa14766b4af79483046c54190d3d
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/ac_measure.rst:11 5a9de813c32747babef469dd70b14527
+msgid "|ACMeasureUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref 8de6fce7938f438f9720e554854519a0
+msgid "ACMeasureUnit"
+msgstr "ACMeasureUnit"
+
+#: ../../source/unit/ac_measure.rst:13 2e10448d62344e3494e709b656584540
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/ac_measure.rst:20 6e225061a2dc4d68b77e165e9fcf6327
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/ac_measure.rst:22 082cc2d1937a4ea88c07981785ca5144
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:29 5b8424d019ef4f989732627ede656943
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:26 4d898af7dbd5400bb11aa224a445b971
+msgid "|acmeasure_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:29 42c2523af02547aaa8a065bcb41859a9
+msgid "class ACMeasureUnit"
+msgstr "class ACMeasureUnit"
+
+#: ../../source/unit/ac_measure.rst:32 068be28c93cf499a8a0611e48b2e03d4
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/ac_measure.rst:36 9375f9b654a043fd90ae5c51da38f618
+msgid ""
+"Initialize the AC Measure unit by setting the I2C port and the AC Measure"
+" slave address."
+msgstr "通过设置 I2C 端口和 AC Measure 从机地址来初始化 AC Measure 单元。"
+
+#: ../../source/unit/ac_measure.rst 119fdd6bc9c54e948a0948310bee4295
+#: 173c2ae6156049d8ba5867f10f5183a3 6b833d62da76457088655911076bff31
+#: 8874744410b0476da26bde5c57f6ae99 e4b7f187d0874b55902e19ae2a77ed99
+#: e5efabe552564ed0b3b53466a32fae8b
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:38 9e821bcc6e4f4320999ef6f8eb179048
+msgid "The I2C interface object or PAHUBUnit used for communication."
+msgstr "用于通信的 I2C 接口对象或 PAHUBUnit。"
+
+#: ../../source/unit/ac_measure.rst:39 1d5a0834c7574af7a4cfbfba403d38b8
+msgid "The I2C address of the AC Measure unit, default is 0x42."
+msgstr "AC Measure 单元的 I2C 地址，默认为 0x42。"
+
+#: ../../source/unit/ac_measure.rst:41 ../../source/unit/ac_measure.rst:61
+#: ../../source/unit/ac_measure.rst:72 ../../source/unit/ac_measure.rst:83
+#: ../../source/unit/ac_measure.rst:94 ../../source/unit/ac_measure.rst:105
+#: ../../source/unit/ac_measure.rst:116 ../../source/unit/ac_measure.rst:127
+#: ../../source/unit/ac_measure.rst:138 ../../source/unit/ac_measure.rst:149
+#: ../../source/unit/ac_measure.rst:160 ../../source/unit/ac_measure.rst:170
+#: ../../source/unit/ac_measure.rst:180 ../../source/unit/ac_measure.rst:190
+#: ../../source/unit/ac_measure.rst:200 ../../source/unit/ac_measure.rst:211
+#: ../../source/unit/ac_measure.rst:221 ../../source/unit/ac_measure.rst:230
+#: ../../source/unit/ac_measure.rst:241 ../../source/unit/ac_measure.rst:257
+#: ../../source/unit/ac_measure.rst:267 02d7a461c0b741518d8bca2e7a09b168
+#: 0d939a2897af4d70a5fba3b36d128410 2c1f2a697a5d4da89660fdae26aa2e39
+#: 32bdff66426d4e1a8b53766d48fca3e4 37f2163b3e13488ea29312600bc2df9f
+#: 4e1695762a6643c5884ecc8e5defb859 5d46eae1880b417eb758a505f0e28e2e
+#: 63c63ef573cb4b8287c4c84a1fd02ac9 735608b58b9545b29e8357afc89174a1
+#: 77e19ea4c40f4d319a5010c861501fcc 7e7f65f91d7a4c9d988b32a0f53b9313
+#: 7fc4f04c5a334750acc8637a382cb680 8608a99f2a74409195c07746a8c86c23
+#: 87705df5a7eb487598564f20c6f04ddd 8a04ccca49bf446d9605d27849d490b5
+#: 8fed378daa974b09af4c9a9539908732 912681dd564b479bbdffb465cd85a746
+#: a59ea9a20a1a4fe286ffda0d546518b8 bc66c225bb494c479078177d8dcf382e
+#: bcf7637d0a4c4439b932c90ce3dc7bd3 d4cfa40d47134bafa1c859450520d41e
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/ac_measure.rst:43 9d98825486fc49b1afed4c49af65b3aa
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:7 01d79356cacd41cca6d33de0d494a9a6
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:47 fac2828c236744d19b75950ffe9077a8
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:51 c5f373c54b7840ec89479b0e090b1570
+msgid "Initialize the I2C address for the AC Measure unit."
+msgstr "初始化 AC Measure Unit 的 I2C 地址。"
+
+#: ../../source/unit/ac_measure.rst:53 ffc4d097050647ad874e7d39c3388467
+msgid "The I2C address of the AC Measure unit, should be between 1 and 127."
+msgstr "AC Measure Unit 的 I2C 地址应在 1 到 127 之间。"
+
+#: ../../source/unit/ac_measure.rst:57 c0f3f22e72824c5792bd2fbe4e89c425
+msgid "Get the voltage string value from the AC Measure unit."
+msgstr "从 AC Measure 单元获取电压字符串值。"
+
+#: ../../source/unit/ac_measure.rst 1d82ef8512ee4092afaee86fe6e55d7a
+#: 2097dd137b1345bdb149a1cec4b794b8 570a9b4c6e77412197896bd6ed29d523
+#: 6e3fdd6ecdf64c6891e78797890bc39e 7bf8cbadc92b47e8911a0a7e2197f6f5
+#: 7f419b4fa7d1477189bb93d10007bd05 919c70c0ceb74f83b06f8076628052ee
+#: 96015f33cc8e41eeb4d5a08bd956f0ed a36efe7bfa1a483a9f36e2d7ace66cec
+#: a76f53e7b7db420f976a6f0e09971d54 d132b6cc1b564587b2f4ae2d76a04b84
+#: d45b308e18824bd6a8c283a751037431 d59115bc79d34f62b31a693744aa5053
+#: de65ff449fd94e27bd596c7915b552b1 e2c4918a4f0d40af8c8aa6b971f60d23
+#: ee278ebeba6d4adfb01d238d258f003b
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:59 eb9f6e5337934434914ac572dcc88bac
+msgid "The voltage value as a string."
+msgstr "电压值的字符串。"
+
+#: ../../source/unit/ac_measure.rst:63 4339b1a650a148eb819d28a3220b4c54
+msgid "|get_voltage_str.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:8 13d40a30851b475c8c2755114b903762
+msgid "get_voltage_str.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:67 d25775f3c1994725ac5ec0bb07846ba1
+msgid "Get the current string value from the AC Measure unit."
+msgstr "从 AC Measure 单元获取当前字符串值。"
+
+#: ../../source/unit/ac_measure.rst:70 453127d966a241d0bf7afe6fa652992b
+msgid "The current value as a string."
+msgstr "当前值的字符串。"
+
+#: ../../source/unit/ac_measure.rst:74 c62969788a4f41a3a9f69477926c5a4b
+msgid "|get_current_str.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:9 12ddea3315ec4523bb5c45f34fefc7dc
+msgid "get_current_str.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:78 5f119123804a46898fe7c52b83b79a85
+msgid "Get the active power string value from the AC Measure unit."
+msgstr "从 AC Measure 单元获取有功功率字符串值。"
+
+#: ../../source/unit/ac_measure.rst:81 b3324610dde2462ab68d65df56bb80e2
+msgid "The active power value as a string."
+msgstr "有功功率值的字符串。"
+
+#: ../../source/unit/ac_measure.rst:85 3d5780f3403243a08b9a1161d8243596
+msgid "|get_active_power_str.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:10 8251087091b74463b73c6abec16601d2
+msgid "get_active_power_str.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:89 74aa7241944e4dd48838640d3ec87822
+msgid "Get the apparent power string value from the AC Measure unit."
+msgstr "从 AC Measure 单元获取视在功率的字符串值。"
+
+#: ../../source/unit/ac_measure.rst:92 823f9ae4407b473a89fc8099bfcd6a40
+msgid "The apparent power value as a string."
+msgstr "视在功率值的字符串。"
+
+#: ../../source/unit/ac_measure.rst:96 a0d38e0f44144ed08cb0e260374ada1f
+msgid "|get_apparent_power_str.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:11 16c60ab4a27b44be8633b7d3fd15dc39
+msgid "get_apparent_power_str.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:100 fe77492810524160825c2eacbb426714
+msgid "Get the power factor string value from the AC Measure unit."
+msgstr "从 AC Measure 单元获取功率因数字符串值。"
+
+#: ../../source/unit/ac_measure.rst:103 fec4821c197145e9b218c696f559e25a
+msgid "The power factor value as a string."
+msgstr "作为字符串的功率因数值。"
+
+#: ../../source/unit/ac_measure.rst:107 c5ea6f6c2e974317b968293e2edb06c4
+msgid "|get_power_factor_str.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:12 41b10a59022c44fbbbd03f0dabbfd8cb
+msgid "get_power_factor_str.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:111 1ceccf5d9d28458a98dc3e21b16ef73b
+msgid "Get the kWh string value from the AC Measure unit."
+msgstr "从 AC Measure 单元获取 kWh 字符串值。"
+
+#: ../../source/unit/ac_measure.rst:114 058649c5abf3476b983b7ba399f65f0b
+msgid "The kWh value as a string."
+msgstr "kWh 值的字符串。"
+
+#: ../../source/unit/ac_measure.rst:118 07793d967ea8483786f86026dae4e007
+msgid "|get_kwh_str.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:13 e8b621620c084f638b5d09967c9fb103
+msgid "get_kwh_str.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:122 7c5a1eaf99474a349973e2f503fe7211
+msgid "Get the raw voltage value from the AC Measure unit."
+msgstr "从 AC Measure Unit 获取原始电压值。"
+
+#: ../../source/unit/ac_measure.rst:125 190bbae184d64c15aec97b81e6dd445e
+msgid "The raw voltage value as an integer."
+msgstr "原始电压值（整数）。"
+
+#: ../../source/unit/ac_measure.rst:129 42a7b7c7f5484d53b5187b0fdaab9689
+msgid "|get_voltage_byte.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:14 99b0700c7b0c40d7b96616408ea2008c
+msgid "get_voltage_byte.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:133 5d0dd0092a8440bab4e1ed407182994a
+msgid "Get the raw current value from the AC Measure unit."
+msgstr "从 AC Measure 单元获取原始电流值。"
+
+#: ../../source/unit/ac_measure.rst:136 402a2683e12440ebaee475af636f3d86
+msgid "The raw current value as an integer."
+msgstr "原始电流值，类型为整数。"
+
+#: ../../source/unit/ac_measure.rst:140 7126bd1dc5334ad3b1bf2683663ab424
+msgid "|get_current_byte.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:15 c7fd3dff76d44bb8af891dd41416a103
+msgid "get_current_byte.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:144 594d5b5643334edba6be5ed75bb5dd40
+msgid "Get the raw active power value from the AC Measure unit."
+msgstr "从 AC Measure 单元获取原始有功功率值。"
+
+#: ../../source/unit/ac_measure.rst:147 3efdc68fe3444d08943eea7863fc65fa
+msgid "The raw active power value as an integer."
+msgstr "原始有功功率值（整数）。"
+
+#: ../../source/unit/ac_measure.rst:151 b9c7b5ae9f1c48b0a5200846ab73d2f1
+msgid "|get_active_power_byte.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:16 4223b81f3ccd441eba31db787548a0b3
+msgid "get_active_power_byte.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:155 4ebe71c0c02d4ebf8bc916ce1b5748bf
+msgid "Get the raw apparent power value from the AC Measure unit."
+msgstr "从 AC Measure Unit 获取原始视在功率值。"
+
+#: ../../source/unit/ac_measure.rst:158 b115b2540b5f47b49938c2faebad93b4
+msgid "The raw apparent power value as an integer."
+msgstr "原始视在功率值（整数）。"
+
+#: ../../source/unit/ac_measure.rst:162 871e3f74841f43919e5a8b99f79df596
+msgid "|get_apparent_power_byte.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:17 0f86edadb56048a4a69825b0da73a1c7
+msgid "get_apparent_power_byte.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:166 b4db023ada624637a343951ae646777c
+msgid "Get the raw power factor value from the AC Measure unit."
+msgstr "从 AC Measure 单元获取原始功率因数值。"
+
+#: ../../source/unit/ac_measure.rst:168 9c9c3f4f96f348cab8addaf01beee8a2
+msgid "The raw power factor value as an integer."
+msgstr "原始功率因数值（整数）。"
+
+#: ../../source/unit/ac_measure.rst:172 e3423f1282a14344b7650602f3d44dfa
+msgid "|get_power_factor_byte.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:18 d973b207099a4cc9898b826af1f6181b
+msgid "get_power_factor_byte.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:176 36c406735abf4903b357951866a24192
+msgid "Get the raw kWh value from the AC Measure unit."
+msgstr "从 AC Measure 单元获取原始的 kWh 值。"
+
+#: ../../source/unit/ac_measure.rst:178 4acb4aa99d814277b6b2871cd5efab21
+msgid "The raw kWh value as an integer."
+msgstr "原始 kWh 值，类型为整数。"
+
+#: ../../source/unit/ac_measure.rst:182 663610c0a536476c9d74b1d65951625f
+msgid "|get_kwh_byte.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:19 8d1331b2ef514a86a930c8a0b14db1cd
+msgid "get_kwh_byte.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:186 abec34ecadbb4017bdffca838d97bca3
+msgid "Get the voltage coefficient value from the AC Measure unit."
+msgstr "从 AC Measure 单元获取电压系数值。"
+
+#: ../../source/unit/ac_measure.rst:188 9ba527f0cde1490899f3497fbc3e81a5
+msgid "The voltage coefficient value as an integer."
+msgstr "电压系数值，类型为整数。"
+
+#: ../../source/unit/ac_measure.rst:192 e1a98640a37641f0acd696dbd5411762
+msgid "|get_voltage_coeff.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:20 84a7b32a617e44788e1c7e13a1f56e56
+msgid "get_voltage_coeff.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:196 58aa47533bcc45c19564b38eefaebf2b
+msgid "Set the voltage coefficient value for the AC Measure unit."
+msgstr "设置 AC Measure 单元的电压系数值。"
+
+#: ../../source/unit/ac_measure.rst:198 fc68bb6b888d4380a23fd43ba6f54d08
+msgid "The voltage coefficient value to set, between 0 and 255."
+msgstr "要设置的电压系数值，范围为 0 到 255。"
+
+#: ../../source/unit/ac_measure.rst:202 c71a780e51374f11b7705962f243de03
+msgid "|set_voltage_coeff.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:21 d62e402beea0476089d48297aabd6eb2
+msgid "set_voltage_coeff.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:206 1bf9492270d042b6ac9ce5c43f31a981
+msgid "Get the current coefficient value from the AC Measure unit."
+msgstr "从 AC Measure 单元获取当前系数值。"
+
+#: ../../source/unit/ac_measure.rst:209 cfaaafc7f06a4cd2ba1d0ca1ff65d18e
+msgid "The current coefficient value as an integer."
+msgstr "当前系数值（整数）。"
+
+#: ../../source/unit/ac_measure.rst:213 869db4d2c88d4842affcbdcadd21056e
+msgid "|get_current_coeff.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:22 beb84d7cede9429ab5379dd8121ae25b
+msgid "get_current_coeff.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:217 82fb4d47483842b9b7051c94d1c5d49e
+msgid "Set the current coefficient value for the AC Measure unit."
+msgstr "设置 AC Measure 单元的当前系数值。"
+
+#: ../../source/unit/ac_measure.rst:219 c46ee58b92c144489df62825cfc46520
+msgid "The current coefficient value to set, between 0 and 255."
+msgstr "要设置的当前系数值，范围为 0 到 255。"
+
+#: ../../source/unit/ac_measure.rst:223 ae0fc04ed63a47db93ddf3f4fe987f61
+msgid "|set_current_coeff.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:23 7a7065b0c3de44a181d7251b53dce778
+msgid "set_current_coeff.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:227 0664fc9c435d45f4940400f03c27611a
+msgid "Save the voltage and current coefficient values to flash memory."
+msgstr "将电压和电流系数值保存到 flash 存储器中。"
+
+#: ../../source/unit/ac_measure.rst:232 5075961c4fa64c0f9ca4fbbe7d3bdee2
+msgid "|set_save_coeff.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:24 22dc86a6c9704c26ba7091ee4cc8704d
+msgid "set_save_coeff.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:236 853a77abf6b54817ac6728c742c09a28
+msgid "Check if the AC Measure unit data is ready."
+msgstr "检查 AC Measure 单元数据是否已准备好。"
+
+#: ../../source/unit/ac_measure.rst:239 cf6ed3d7a1814d8bb466fa6f4c2ac988
+msgid "True if data is ready, False otherwise."
+msgstr "如果数据已准备好，则为 True，否则为 False。"
+
+#: ../../source/unit/ac_measure.rst:243 ab10bdb1baf94e9f9836588809daa783
+msgid "|get_data_ready.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:25 7ac7ee2bcaf64a7f870c46ca597c5872
+msgid "get_data_ready.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:247 4808632b80b741b1a0bf0dd69305a38a
+msgid "Set the AC Measure unit to jump to the bootloader."
+msgstr "将 AC Measure 单元设置为跳转到 bootloader。"
+
+#: ../../source/unit/ac_measure.rst:251 508686b5952e4d21a10e46b5501c7a08
+msgid "Get the firmware version or I2C address based on the specified mode."
+msgstr "根据指定的模式获取固件版本或 I2C 地址。"
+
+#: ../../source/unit/ac_measure.rst:253 1b17afe17f1344a0b5b14dd71750bb92
+msgid ""
+"The mode to select the desired status (0xFE for firmware version, 0xFF "
+"for I2C address)."
+msgstr "用于选择所需状态的模式（0xFE 表示固件版本，0xFF 表示 I2C 地址）。"
+
+#: ../../source/unit/ac_measure.rst:255 a5c0a90f26a54e9b95834d58240c9662
+msgid "The requested device status as an integer."
+msgstr "以整数形式返回所请求的设备状态。"
+
+#: ../../source/unit/ac_measure.rst:259 731336dec7db4004958621e5362fe000
+msgid "|get_device_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:26 dfd2f983bd5c4c42a6176be4a090045c
+msgid "get_device_status.png"
+msgstr ""
+
+#: ../../source/unit/ac_measure.rst:263 c1d8fb0ab25d4833aa8cad989578c37e
+msgid "Set a new I2C address for the AC Measure unit."
+msgstr "为 AC Measure 单元设置新的 I2C 地址。"
+
+#: ../../source/unit/ac_measure.rst:265 b988993496454efa9bac437e0cca36ec
+msgid "The new I2C address to set, between 0x01 and 0x7F."
+msgstr "要设置的新 I2C 地址，范围为 0x01 到 0x7F。"
+
+#: ../../source/unit/ac_measure.rst:269 247a264a15244dd4bc174d7d2a1318b4
+msgid "|set_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ac_measure.ref:27 21e348f35a3140aaad622c8537ab6659
+msgid "set_i2c_address.png"
+msgstr ""
+

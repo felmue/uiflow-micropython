@@ -1,4 +1,3 @@
-
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
 # This file is distributed under the same license as the UIFlow2 Programming
@@ -19,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/software/udp.server.rst:2 015b863a61e649ce957178765dc61ce8
 msgid "EasyUDPServer"
-msgstr ""
+msgstr "EasyUDPServer"
 
 #: ../../en/software/udp.server.rst:6 f26af97ca7504557aca1bd6d25c7608c
 msgid ""
@@ -38,7 +37,7 @@ msgstr "UiFlow2 示例"
 #: ../../en/software/udp.server.rst:12 ../../en/software/udp.server.rst:30
 #: 2cb3b47f39ec4d44b6bdc63230214d03
 msgid "simple server"
-msgstr ""
+msgstr "简单服务器"
 
 #: ../../en/software/udp.server.rst:14 06a932d6de5a4b72bc93687df2a1ee9d
 msgid "Open the |udp_server_core2_example.m5f2| project in UiFlow2."
@@ -101,7 +100,7 @@ msgstr "API参考"
 #: 74baafccd90947c086569dd146088b90 of
 #: software.easysocket.udp_server.EasyUDPServer:1
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: 6650c8dbeed346c6b5799e7346f3bb08 of
 #: software.easysocket.udp_server.EasyUDPServer:1

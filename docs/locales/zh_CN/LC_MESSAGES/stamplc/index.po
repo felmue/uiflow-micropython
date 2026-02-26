@@ -22,5 +22,5 @@ msgstr ""
 
 #: ../../en/stamplc/index.rst:2 11ac510d71ed49da9109e11e38e68c88
 msgid "StamPLC"
-msgstr ""
+msgstr "StamPLC"
 

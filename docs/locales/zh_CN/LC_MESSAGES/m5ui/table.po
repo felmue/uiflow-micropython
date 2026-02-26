@@ -123,7 +123,7 @@ msgstr "**API 应用**"
 
 #: 137dcace5699442c96b5021d5ef0e762 m5ui.table.M5Table:1 of
 msgid "Bases: :py:class:`~lvgl.table`"
-msgstr ""
+msgstr "继承自：:py:class:`~lvgl.table`。"
 
 #: 69adc1b05b8b4543a548c13fbad3d246 m5ui.table.M5Table:1 of
 msgid "Create a table object."
@@ -187,23 +187,23 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:58 47cc6b246ea444c69e7f2cc8af4feda7
 msgid "Set the value of a cell."
-msgstr ""
+msgstr "设置单元格的值。"
 
 #: ../../en/m5ui/table.rst:60 83e3a39136fc4327a04324ba68a011e5
 msgid "New rows/columns are added automatically if required."
-msgstr ""
+msgstr "如果需要，将自动添加新行/列。"
 
 #: ../../en/m5ui/table.rst:62 d379218f7db34b859052e16bfa044456
 msgid "Row index [0 .. row_cnt - 1]"
-msgstr ""
+msgstr "行索引 [0 .. row_cnt - 1]"
 
 #: ../../en/m5ui/table.rst:63 a6acb828eb2943aba2604b2f12903ee0
 msgid "Column index [0 .. col_cnt - 1]"
-msgstr ""
+msgstr "列索引 [0 .. col_cnt - 1]"
 
 #: ../../en/m5ui/table.rst:64 0ed250cb641745e4a0766b90b850886d
 msgid "Text to display in the cell"
-msgstr ""
+msgstr "单元格中要显示的文本。"
 
 #: ../../en/m5ui/table.rst 01e4208c16d04b7f90f4c322facde6e6
 #: 0c883c4fdc2a43408c2a270a49bc0053 1c87c51b13c647d3a4a023d290e0c2df
@@ -225,19 +225,19 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:80 f064ed7be834493db94b8262670b439c
 msgid "Get the value of a cell."
-msgstr ""
+msgstr "获取单元格的值。"
 
 #: ../../en/m5ui/table.rst:82 0a50e2b10d2c49d2894493ab6cf18700
 msgid "Row index"
-msgstr ""
+msgstr "行索引"
 
 #: ../../en/m5ui/table.rst:83 a75704b1f38d4f85bbdf32a20bb22a36
 msgid "Column index"
-msgstr ""
+msgstr "列索引"
 
 #: ../../en/m5ui/table.rst:84 a7d9d00324fe43f0b33ca14158a313c0
 msgid "Text in the cell"
-msgstr ""
+msgstr "单元格中的文本。"
 
 #: ../../en/m5ui/table.rst 8b66f2c97d8c49ff88298b09250cbcfa
 #: 8f069428379d40f1ac0117f956d73df9 8f2cf237606b4d348efe9f6209788d98
@@ -256,7 +256,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:99 1891eb7ba51744c088fc9f8a6a746f8f
 msgid "Set the number of rows."
-msgstr ""
+msgstr "设置行数。"
 
 #: ../../en/m5ui/table.rst:106 1c590fab774249d4a47cc97337b60424
 msgid "|set_row_count.png|"
@@ -268,7 +268,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:116 ec85a468353e44c9babaf079cb2800af
 msgid "Set the number of columns."
-msgstr ""
+msgstr "设置列数。"
 
 #: ../../en/m5ui/table.rst:123 cfe9c187bff7411b93fdb969b0707925
 msgid "|set_column_count.png|"
@@ -280,11 +280,11 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:133 861b4f4ba67a4e14b5024498d0f96d4e
 msgid "Get the number of rows."
-msgstr ""
+msgstr "获取行数。"
 
 #: ../../en/m5ui/table.rst:135 888294566d7d4bc884e6c195ec4f23ac
 msgid "Number of row."
-msgstr ""
+msgstr "行数。"
 
 #: ../../en/m5ui/table.rst:140 29bac22238484e9c848116f54bf7b88e
 msgid "|get_row_count.png|"
@@ -296,7 +296,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:150 9e86001b933042629eb5e45ab4ea6c24
 msgid "Get the number of columns."
-msgstr ""
+msgstr "获取列数。"
 
 #: ../../en/m5ui/table.rst:157 3cfda23e464c4347956d4b86d9854793
 msgid "|get_column_count.png|"
@@ -308,17 +308,17 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:167 9d4c6bd4137544c7bf325c719f97647e
 msgid "Set the width of a column."
-msgstr ""
+msgstr "设置列的宽度。"
 
 #: ../../en/m5ui/table.rst:169 ../../en/m5ui/table.rst:187
 #: ab197548bc7f47d787c961c10ec635a3 dd6758f6075f46e6bd4636b4291dc5d2
 msgid "Column index [0 .. LV_TABLE_COL_MAX - 1]."
-msgstr ""
+msgstr "列索引 [0 .. LV_TABLE_COL_MAX - 1]。"
 
 #: ../../en/m5ui/table.rst:170 ../../en/m5ui/table.rst:188
 #: 1b0dfd80ce644746a5d0fffd45eb14da 5d7d7e76882541208c15119cad40628c
 msgid "Column width."
-msgstr ""
+msgstr "列宽。"
 
 #: ../../en/m5ui/table.rst:175 219727761f8e4d82bc3905d3c0309f59
 msgid "|set_column_width.png|"
@@ -330,7 +330,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:185 bb1436c530ca4aa4b74078eaefb3572b
 msgid "Get the width of a column."
-msgstr ""
+msgstr "获取列的宽度。"
 
 #: ../../en/m5ui/table.rst:193 bc9f553d76914269abdf58fa128e6308
 msgid "|get_column_width.png|"
@@ -342,31 +342,31 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:203 8342172b09bf482c81e30a8394f5af9d
 msgid "Set the position of the Table."
-msgstr ""
+msgstr "设置 Table 的位置。"
 
 #: ../../en/m5ui/table.rst 9680a5fc62a546adb5619e652d43c540
 msgid "param int x"
-msgstr ""
+msgstr "参数 int x"
 
 #: ../../en/m5ui/table.rst:205 ../../en/m5ui/table.rst:223
 #: ../../en/m5ui/table.rst:257 52cd890b996943d78e9c53b0bd54767e
 #: 93d2ef7b54cb4cb891ff7934aac34ab1 f8f5886fdd1745b5b432cb47fdfd85d2
 msgid "The x position of the Table."
-msgstr ""
+msgstr "表格的 x 位置。"
 
 #: ../../en/m5ui/table.rst d7a7b6cebd34431cb3eba7a9ff142ae5
 msgid "param int y"
-msgstr ""
+msgstr "参数 int y"
 
 #: ../../en/m5ui/table.rst:206 ../../en/m5ui/table.rst:240
 #: ../../en/m5ui/table.rst:274 5ea4bed923764c46890c7705a470d730
 #: da8387086ec145fbab3f1c2ff0a52d82 e76da59ee4344048b2c8ba4f9a0b33d2
 msgid "The y position of the Table."
-msgstr ""
+msgstr "表格的 y 位置。"
 
 #: ../../en/m5ui/table.rst b7dfa5becd0d4f94abb49648858951e9
 msgid "return"
-msgstr ""
+msgstr "return"
 
 #: ../../en/m5ui/table.rst:211 08f03019ec5d4258863864ea116b994a
 msgid "|set_pos.png|"
@@ -378,7 +378,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:221 996d244cacf7480797a43a1b6ed220bb
 msgid "Set the x position of the Table."
-msgstr ""
+msgstr "设置 Table 的 x 坐标位置。"
 
 #: ../../en/m5ui/table.rst:228 4ecf4f61a4e24d9c9bce6ddda4588663
 msgid "|set_x.png|"
@@ -390,7 +390,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:238 c2fa313b6ee445adb744034a992a21b7
 msgid "Set the y position of the Table."
-msgstr ""
+msgstr "设置 Table 的 y 坐标位置。"
 
 #: ../../en/m5ui/table.rst:245 c22f1eff60154e3894bbc0f38ff5717e
 msgid "|set_y.png|"
@@ -402,7 +402,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:255 7fdd15d1641749a4af72e9ecf5bf3707
 msgid "Get the x position of the Table."
-msgstr ""
+msgstr "获取 Table 的 x 位置。"
 
 #: ../../en/m5ui/table.rst:262 d81fca4ed77d4d378212d3364e4123d0
 msgid "|get_x.png|"
@@ -414,7 +414,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:272 ea8e835c3c0042ebad038f8ff9731fc0
 msgid "Get the y position of the Table."
-msgstr ""
+msgstr "获取 Table 的 y 坐标位置。"
 
 #: ../../en/m5ui/table.rst:279 02920fe09be14692a547cdbececafea6
 msgid "|get_y.png|"
@@ -426,17 +426,17 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:289 8f74f1eab49c497cb3fd244f05513edc
 msgid "Set the size of the Table."
-msgstr ""
+msgstr "设置 Table 的大小。"
 
 #: ../../en/m5ui/table.rst:291 ../../en/m5ui/table.rst:309
 #: ../../en/m5ui/table.rst:326 f8196371b0824aee8a91050045498065
 msgid "The width of the Table."
-msgstr ""
+msgstr "表格的宽度。"
 
 #: ../../en/m5ui/table.rst:292 ../../en/m5ui/table.rst:343
 #: ../../en/m5ui/table.rst:360 57207ce30027452fbbe809f8e9c364db
 msgid "The height of the Table."
-msgstr ""
+msgstr "表格的高度。"
 
 #: ../../en/m5ui/table.rst:297 ee276f2f58874e3ebe9e32eef1aa0a31
 msgid "|set_size.png|"
@@ -448,7 +448,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:307 f8eb07fc9d584333a3685bc664d67f3f
 msgid "Set the width of the Table."
-msgstr ""
+msgstr "设置 Table 的宽度。"
 
 #: ../../en/m5ui/table.rst:314 ca7fd165135d42caa3a670bf89bac9ac
 msgid "|set_width.png|"
@@ -460,7 +460,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:324 dab43bca977a479fb8f912d91ca9d044
 msgid "Get the width of the Table."
-msgstr ""
+msgstr "获取 Table 的宽度。"
 
 #: ../../en/m5ui/table.rst:331 eb542d6ce7564e7ead1bcfc86b80f8ad
 msgid "|get_width.png|"
@@ -472,7 +472,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:341 f9d55a23be9f41afbde4a405f7bf63f3
 msgid "Set the height of the Table."
-msgstr ""
+msgstr "设置 Table 的高度。"
 
 #: ../../en/m5ui/table.rst:348 c49333269b214e5e883b32323babd758
 msgid "|set_height.png|"
@@ -484,7 +484,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:358 9b601b1dd00a4a11a55736b08463bc74
 msgid "Get the height of the Table."
-msgstr ""
+msgstr "获取 Table 的高度。"
 
 #: ../../en/m5ui/table.rst:365 3320493d141348dd989366c0308511da
 msgid "|get_height.png|"
@@ -496,23 +496,23 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:375 f0a985a42b3b4b11a0aea7195d05ff36
 msgid "Align the Table relative to another object."
-msgstr ""
+msgstr "相对于另一个对象对齐表格。"
 
 #: ../../en/m5ui/table.rst:377 e453d640a32b43a19fee60efab6175f2
 msgid "The reference object (e.g. page0)."
-msgstr ""
+msgstr "引用对象（例如 page0）。"
 
 #: ../../en/m5ui/table.rst:378 c8962fc69c3e459da003315b31f927c8
 msgid "Alignment option (see lv.ALIGN constants below)."
-msgstr ""
+msgstr "对齐选项（请参阅下方的 lv.ALIGN 常量）。"
 
 #: ../../en/m5ui/table.rst:379 b6fbcaebd1a84d5698b5aa7fae3f3418
 msgid "X offset after alignment."
-msgstr ""
+msgstr "对齐后的 X 偏移量。"
 
 #: ../../en/m5ui/table.rst:380 e00df0ba46f14605a1a804590267ab2f
 msgid "Y offset after alignment."
-msgstr ""
+msgstr "对齐后的 Y 偏移量。"
 
 #: ../../en/m5ui/table.rst:385 be7d39b5dce2459e9d76965a98ff36cd
 msgid "|align_to.png|"
@@ -524,7 +524,7 @@ msgstr ""
 
 #: ../../en/m5ui/table.rst:395 225fb725e9104e9fba16fd9575f8cb3d
 msgid "Alignment options for positioning objects."
-msgstr ""
+msgstr "用于定位对象的对齐选项。"
 
 #: ../../en/m5ui/table.rst:397 30c212fc4b1543df9e76bf65fa76da23
 msgid "lv.ALIGN.DEFAULT"

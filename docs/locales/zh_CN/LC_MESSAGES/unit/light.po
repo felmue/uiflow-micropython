@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/light.rst:2 3836c29b5e8d496f807a561535044126
+msgid "Light Unit"
+msgstr "Light Unit"
+
+#: ../../source/unit/light.rst:6 282517fad8ed404f9982521479b3debd
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/light.rst:8 95e43e70ea334d069bb2ea41e07aa179
+msgid "|Light|"
+msgstr ""
+
+#: ../../source/refs/unit.light.ref f4740cb04ee24087a7e969dada20d96d
+msgid "Light"
+msgstr "Light"
+
+#: ../../source/unit/light.rst:11 5970cd6caae44ba9a7b5970ef5f60812
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/light.rst:18 fdf6a10f543c48b2b731e2e45228f365
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/light.rst:20 f5de9e8b9d924f82a729b0176b90eb98
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.light.ref:6 9f309bc8db1d4f88930129128801110f
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/light.rst:25 6cd1f472e76f40498b1ae239bfbd6ae9
+msgid "|light_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/light.rst:29 1cef820fbf3f4ac186f71d9ad9c7e49f
+msgid "class Light"
+msgstr "class Light"
+
+#: ../../source/unit/light.rst:32 ffe1981dcb614cab858f14213a9c3390
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/light.rst:36 f152632ee72945d2acebbc8602b85dd3
+msgid "Create a Light object."
+msgstr "创建一个 Light 对象。"
+
+#: ../../source/unit/light.rst:39 6a3e44974f4042a39f76a5c74ae7f8ea
+msgid "The parameters are:"
+msgstr "参数如下："
+
+#: ../../source/unit/light.rst:39 093657af9bc6445b9836e02c782f3b90
+msgid "``IO1,IO2`` Define digital and analog output pins."
+msgstr "``IO1,IO2`` 定义数字和模拟输出引脚。"
+
+#: ../../source/unit/light.rst:41 ../../source/unit/light.rst:53
+#: ../../source/unit/light.rst:62 ../../source/unit/light.rst:71
+#: 4c076c855f0b4191bd9382339f3856a6 5b4319744cf94e87b0fcbb800331a05f
+#: 65317f4e645d4406b8305c38f7d0d865 a97edd963ec545f78522b3af4ed4c355
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/light.rst:43 9893c7d5d67d4f4d9336480112c7f83e
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.light.ref:8 c3295cab87fc4e70837a08506e50943c
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/light.rst:47 9f72f0e4ee144997a133b30c11765d86
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/light.rst:51 2c34445a789b4c35b4170eb9eba73498
+msgid "Define digital and analog output pins."
+msgstr "定义数字输出和模拟输出引脚。"
+
+#: ../../source/unit/light.rst:55 4090cb6f9c954560a0773fe2e86292fd
+msgid "|get_digital_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.light.ref:10 4b079fe520d84374902f571dbe082845
+msgid "get_digital_value.png"
+msgstr ""
+
+#: ../../source/unit/light.rst:60 e52005841f244fb296e27c8be82b639c
+msgid "Gets the analog (returns 0-65535)."
+msgstr "获取模拟量（返回 0-65535）。"
+
+#: ../../source/unit/light.rst:64 fcfc9185fdff427294a6d0bae5eb383b
+msgid "|get_analog_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.light.ref:12 74c3494d781c4f9c9021035875f637ac
+msgid "get_analog_value.png"
+msgstr ""
+
+#: ../../source/unit/light.rst:69 68c17352c8324417b04274e9cd907473
+msgid "Gets the resistance value (returns an integer)."
+msgstr "获取电阻值（返回一个整数）。"
+
+#: ../../source/unit/light.rst:73 45f6ea7c3ef54620a89ff35a9a1c43fa
+msgid "|get_ohm.png|"
+msgstr ""
+
+#: ../../source/refs/unit.light.ref:14 69d0c74b9f324e1a884ffd3109e21789
+msgid "get_ohm.png"
+msgstr ""
+

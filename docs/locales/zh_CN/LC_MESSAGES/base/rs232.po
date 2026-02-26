@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/base/rs232.rst:2 d14d4450e5104e3ab4ed75ad6870ee7f
 msgid "Atomic RS232 Base"
-msgstr ""
+msgstr "Atomic RS232 Base"
 
 #: ../../en/base/rs232.rst:8 c6857c8e582043bd85e9d87289eb355c
 msgid ""
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../en/refs/base.rs232.ref 2c27b578cf2143b2826973f4e6a62386
 msgid "rs232 base"
-msgstr ""
+msgstr "rs232 base"
 
 #: ../../en/base/rs232.rst:15 c583a26e9f1b4e828fea31f9105b5c4a
 msgid "|RS232|"
@@ -49,18 +49,16 @@ msgstr ""
 
 #: ../../en/refs/base.rs232.ref 01f6b7d7b6764187b5cf634f0d047e98
 msgid "rs232"
-msgstr ""
+msgstr "rs232"
 
 #: ../../en/base/rs232.rst:19 65123ac4a8124bfe8a97bc1ea20300a5
-#, fuzzy
 msgid "UiFlow2 Example"
-msgstr "UIFLOW2 发送/接收应用示例："
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/base/rs232.rst:22 ../../en/base/rs232.rst:40
 #: 3a3ed69043db421290dd729d6b56c05b
-#, fuzzy
 msgid "RS232 Example"
-msgstr "UIFLOW2 发送/接收应用示例："
+msgstr "RS232 应用示例"
 
 #: ../../en/base/rs232.rst:24 552ea66f39da448ba4e491395908efbd
 msgid "Open the |atoms3r_rs232_example.m5f2| project in UiFlow2."
@@ -83,14 +81,12 @@ msgid "UiFlow2 Code Block:"
 msgstr "UiFlow2 代码块："
 
 #: ../../en/base/rs232.rst:30 12587e6c3eb6435db043e7b14ee4f135
-#, fuzzy
 msgid "|example.png|"
-msgstr "UIFLOW2 发送应用示例："
+msgstr ""
 
 #: ../../en/refs/base.rs232.ref:30 41340a2b1e0e4c199ad38222bb0824ba
-#, fuzzy
 msgid "example.png"
-msgstr "UIFLOW2 发送应用示例："
+msgstr ""
 
 #: ../../en/base/rs232.rst:32 ../../en/base/rs232.rst:50
 #: 136f42c640414beba3eccf531c369737
@@ -104,9 +100,8 @@ msgid "None"
 msgstr ""
 
 #: ../../en/base/rs232.rst:37 33705eb1532d46278d54b7a1b1a45f85
-#, fuzzy
 msgid "MicroPython Example"
-msgstr "MicroPython 发送应用示例："
+msgstr "MicroPython 应用示例"
 
 #: ../../en/base/rs232.rst:44 ../../en/base/rs232.rst:76
 #: ../../en/base/rs232.rst:90 ../../en/base/rs232.rst:107
@@ -118,17 +113,16 @@ msgid "MicroPython Code Block:"
 msgstr "MicroPython 代码块："
 
 #: ../../en/base/rs232.rst:55 46add43bde4c42559accc22b5723d665
-#, fuzzy
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: ../../en/base/rs232.rst:58 1f01d5d3e1e143e78caa686bac5ac756
 msgid "AtomRS232"
-msgstr ""
+msgstr "AtomRS232"
 
 #: 93ed676550904fe4a15abad1217ba261 base.rs232.AtomRS232:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`。"
 
 #: ../../en/base/rs232.rst:65 1d706932de374e2192ff4008070584a6
 msgid "Initialize the UART bus with the given parameters."

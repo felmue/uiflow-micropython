@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/servo2.rst:3 730d0d34346546b89fc33e4f6d092d6c
 msgid "Servo2 Module"
-msgstr ""
+msgstr "Servo2 Module"
 
 #: ../../en/module/servo2.rst:7 1171ae71372946e3889f6a82caa3da63
 msgid ""
@@ -31,10 +31,12 @@ msgid ""
 "channel servos at the same time. The power input is 6-12V DC and two "
 "SY8368AQQC chips are used for voltage reduction."
 msgstr ""
+"SERVO 2 是 M5Stack 可堆叠模块系列中更新的舵机驱动模块。它使用 PCA9685 16 通道 PWM 控制器，可同时控制 16 "
+"通道舵机。电源输入为 6-12V DC，并使用两颗 SY8368AQQC 芯片进行降压。"
 
 #: ../../en/module/servo2.rst:9 c10ba83d1afe4cb29b378260f771853d
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/servo2.rst:11 aa1473b78ce549ada902263709c260d7
 msgid "|Servo2Module|"
@@ -42,15 +44,15 @@ msgstr ""
 
 #: ../../en/refs/module.servo2.ref 6b750b87c88d45f3a328f7e92b0cd8f0
 msgid "Servo2Module"
-msgstr ""
+msgstr "Servo2Module"
 
 #: ../../en/module/servo2.rst:13 ceeac1f121944db19f980b74a918e48b
 msgid "Micropython Example::"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/servo2.rst:24 4a8563d371ff4d44bc41e672b4123ca2
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/module/servo2.rst:26 d705d10662c14b86a15eec5f35b94da3
 msgid "|example.png|"
@@ -62,15 +64,15 @@ msgstr ""
 
 #: ../../en/module/servo2.rst:31 ff7ef7d903f448d788d9ff315601c795
 msgid "class Servo2Module"
-msgstr ""
+msgstr "class Servo2Module"
 
 #: ../../en/module/servo2.rst:34 0c9d4325f0d7456d84fdaf4ac7c9d4e1
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/module/servo2.rst:38 5cf018cc93c54fa48b9ccf8f96646e98
 msgid "Create a Servo instance."
-msgstr ""
+msgstr "创建一个 Servo 实例。"
 
 #: ../../en/module/servo2.rst 02fe065e15d54fae80480bc009aad394
 #: dc31518a2fb64a7c82339d23428a9542 ee828eca6d0f46c4bb87bb9a0eaefbf3
@@ -79,29 +81,29 @@ msgstr ""
 
 #: ../../en/module/servo2.rst:40 4dde8f2f22414882beb55aaec8db96d2
 msgid "The I2C address."
-msgstr ""
+msgstr "I2C 地址。"
 
 #: ../../en/module/servo2.rst:41 5ae51cbfd35b4e31b0180fbde8bff7c9
 msgid "The PWM frequency in Hz."
-msgstr ""
+msgstr "PWM 频率，单位为 Hz。"
 
 #: ../../en/module/servo2.rst:42 439858f0606f424489f6162e57aea033
 msgid "The minimum pulse width in microseconds."
-msgstr ""
+msgstr "最小脉冲宽度，单位为微秒。"
 
 #: ../../en/module/servo2.rst:43 e9e76d8315ef49bd9d375ba2fe8ee87e
 msgid "The maximum pulse width in microseconds."
-msgstr ""
+msgstr "最大脉冲宽度（单位：微秒）。"
 
 #: ../../en/module/servo2.rst:44 5fb6070003774d3f99ceeb91825cba3b
 msgid "The maximum angle in degrees."
-msgstr ""
+msgstr "最大角度（单位：度）。"
 
 #: ../../en/module/servo2.rst:46 ../../en/module/servo2.rst:64
 #: ../../en/module/servo2.rst:80 49c884a8bd1343ef81ded072fea5a71b
 #: 5969b5f5c55d4c6d814a30027a38a072 eac0a351c8fb406f8035aa798747a9f4
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/module/servo2.rst:48 de09d93ec48c4d688e3c907b2515cb0d
 msgid "|init.png|"
@@ -117,28 +119,28 @@ msgstr ""
 
 #: ../../en/module/servo2.rst:56 d972f10495564f93818dfcae31090c70
 msgid "Set the servo position."
-msgstr ""
+msgstr "设置舵机位置。"
 
 #: ../../en/module/servo2.rst:58 ../../en/module/servo2.rst:78
 #: ec081c8114394659931e0caac1237e85 f147a8a6544343259630931fb87aa335
 msgid "The channel index."
-msgstr ""
+msgstr "通道索引。"
 
 #: ../../en/module/servo2.rst:59 7737aa27543548d3a29025505ac35887
 msgid "The angle in degrees."
-msgstr ""
+msgstr "角度（单位：度）。"
 
 #: ../../en/module/servo2.rst:60 61077fa7d69b4d3c818cfb28338444b0
 msgid "The angle in radians."
-msgstr ""
+msgstr "以弧度表示的角度。"
 
 #: ../../en/module/servo2.rst:61 aaac2c8f0a6148e79cf1f5e567980ca4
 msgid "The pulse width in microseconds."
-msgstr ""
+msgstr "脉冲宽度，单位为微秒。"
 
 #: ../../en/module/servo2.rst:62 70e509ea4dca4189890a5e123205a56c
 msgid "The duty cycle in percent."
-msgstr ""
+msgstr "占空比（百分比）。"
 
 #: ../../en/module/servo2.rst:66 67e60ae2c68b4a0e8c936cb7f9abe449
 msgid "|set_degrees.png|"
@@ -174,7 +176,7 @@ msgstr ""
 
 #: ../../en/module/servo2.rst:76 39920a4db3b642ef91cf1086f33b419d
 msgid "Release the servo."
-msgstr ""
+msgstr "释放舵机。"
 
 #: ../../en/module/servo2.rst:82 11aa275d74764f7683f50360b24cd92d
 msgid "|release.png|"

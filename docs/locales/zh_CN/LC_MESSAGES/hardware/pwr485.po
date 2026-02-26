@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/hardware/pwr485.rst:2 e723eb5673fc4269b7e4a8fe6e1896cd
 msgid "PWR485"
-msgstr ""
+msgstr "PWR485"
 
 #: ../../en/hardware/pwr485.rst:6 9e9bfb04ab414fb6a6d8d6fcb6da2fdb
 msgid ""
@@ -44,7 +44,7 @@ msgstr "状态"
 
 #: ../../en/hardware/pwr485.rst:17 f1d4ddc6b2964fce96d4b22774cea493
 msgid "StampPLC"
-msgstr ""
+msgstr "StampPLC"
 
 #: ../../en/hardware/pwr485.rst:17 9def5763653f41c88a6ed1f537f527ca
 msgid "|S|"
@@ -114,11 +114,11 @@ msgstr "API参考"
 
 #: ../../en/hardware/pwr485.rst:76 854f22f110fd4378ab2a73d05ee690cf
 msgid "class PWR485"
-msgstr ""
+msgstr "PWR485 类"
 
 #: 0d03b5990aa2447bb4daefb5092e9fcf hardware.pwr485.PWR485:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: abe30a8b7d1b4848b89d504f38001cb2 hardware.pwr485.PWR485:1 of
 msgid "Construct a PWR485 object of the given id."

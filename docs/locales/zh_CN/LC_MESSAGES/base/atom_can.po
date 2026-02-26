@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/base/atom_can.rst:2 ../../source/refs/base.can.ref
 #: 1f50f4b5784145be842757541e4e7dde d386d68b0eef41fca460dd486653c8ae
 msgid "Atomic CAN Base"
-msgstr ""
+msgstr "Atomic CAN Base"
 
 #: ../../source/base/atom_can.rst:8 295358546a03494fbc6566988ede4371
 msgid ""
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../source/refs/base.can.ref aeeec17961d049a9b8c3e22b8b57871c
 msgid "Atom CAN"
-msgstr ""
+msgstr "Atom CAN"
 
 #: ../../source/base/atom_can.rst:13 3b3fb0338c9248a08d16ad4eb931fadf
 msgid "|Atomic CAN Base|"
@@ -99,15 +99,15 @@ msgstr "MicroPython 代码块："
 
 #: ../../source/base/atom_can.rst:54 8530390a269844868a686a2866f49d4b
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: ../../source/base/atom_can.rst:57 2ef3c206f13e43d6b3701b699c0b59f0
 msgid "ATOMCANBase"
-msgstr ""
+msgstr "ATOMCANBase"
 
 #: 4be0e125a9a443c18435c47cabb14e6b base.atom_can.ATOMCANBase:1 of
 msgid "Bases: :py:class:`~m5can.CAN`"
-msgstr ""
+msgstr "Bases: :py:class:`~m5can.CAN`"
 
 #: 79243dcd09704ee693f328653d059b98 base.atom_can.ATOMCANBase:1 of
 msgid "Create an ATOMCANBase object"

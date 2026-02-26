@@ -103,7 +103,7 @@ msgstr "API参考"
 
 #: ../../en/hardware/plcio.digitalinput.rst:49 4bef4f6efac04da5a8bc54356726ddb2
 msgid "DigitalInput"
-msgstr ""
+msgstr "DigitalInput"
 
 #: ../../en/hardware/plcio.digitalinput.rst:53 7282b756d2ee4f8da186af006a963291
 msgid "Initialize a digital input object."

@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/buzzer.rst:2 40ff2c07a23f48f7be64728bb506e14f
+msgid "Buzzer Unit"
+msgstr "Buzzer Unit"
+
+#: ../../source/unit/buzzer.rst:6 507f7ab7b02446849b18b126be18bcff
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/buzzer.rst:8 8a645eeee45e4732ada7eb2712c68c7c
+msgid "|Buzzer|"
+msgstr ""
+
+#: ../../source/refs/unit.buzzer.ref ff7a26f5dd5749d18322b349d5f4e99f
+msgid "Buzzer"
+msgstr "Buzzer"
+
+#: ../../source/unit/buzzer.rst:11 50a318c01ffc492883902bf8b114ddeb
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/buzzer.rst:18 d2c55b13907a40fc91b21264aa811856
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/buzzer.rst:20 ee1e63e9b7774d7c9c035dd4cf162bbb
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.buzzer.ref:18 a380fe3a2a274e4392725b839b8ade0e
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/buzzer.rst:25 48fb53f3604b42b5a309262cb363551f
+msgid "|cores3_buzzer_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/buzzer.rst:29 50c776e4cfaf4d66b65f132e22d39935
+msgid "class BuzzerUnit"
+msgstr "class BuzzerUnit"
+
+#: ../../source/unit/buzzer.rst:32 cd15c76953a146a9947736dcd7823277
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/buzzer.rst:36 cf7482f31a7f4d458de9c1aa37b67161
+msgid "Create an BuzzerUnit object."
+msgstr "创建一个 BuzzerUnit 对象。"
+
+#: ../../source/unit/buzzer.rst:39 ab99b919987340c5a98c38479c168963
+msgid "The parameters are:"
+msgstr "参数如下："
+
+#: ../../source/unit/buzzer.rst:39 f5980c4dc9b64410a70e747f2d862c1e
+msgid "``port`` Is the pin number of the port"
+msgstr "``port`` 是端口的引脚编号"
+
+#: ../../source/unit/buzzer.rst:41 ../../source/unit/buzzer.rst:57
+#: ../../source/unit/buzzer.rst:68 ../../source/unit/buzzer.rst:79
+#: ../../source/unit/buzzer.rst:88 ../../source/unit/buzzer.rst:97
+#: 12aa4e00aeff4b1cb8fe1943b84807fd 783c304d0bbf464694cabe8d8a035173
+#: 7a02ef3da3dd4f1aa972249e378d2760 d0c1e8c80df74769a7cb1afcc6ffd8ee
+#: f5fef8d2be82480d8c7ad8dc976b04c6 fa33b4746d754d63b00ff5f0681c127b
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/buzzer.rst:43 d73e7f18f0a94256b74f85119986d7f7
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.buzzer.ref:6 d330d26720dd403a9f748bfa55809945
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/buzzer.rst:47 91fe975bba2a4a26b3822707c78a6d09
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/buzzer.rst:51 9fe98479aa14402cb090c58ee6bb182a
+msgid "Play buzzer once."
+msgstr "蜂鸣器响一次。"
+
+#: ../../source/unit/buzzer.rst 3b4b65332c5c405d8e7a923d16815a72
+#: 71d2fb3e7cb04c8aa4f2e6e243c6c7b7 7465c79f78704eff9e078051d34cf643
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/buzzer.rst:53 ../../source/unit/buzzer.rst:66
+#: a64f9c1bd0bc42d3a3e35c53206d6384 f2adc8ca73fc48329c2426113635ce75
+msgid "The frequency of the vibration, range is 100 - 10000Hz."
+msgstr "振动频率，范围为 100 - 10000 Hz。"
+
+#: ../../source/unit/buzzer.rst:54 ../../source/unit/buzzer.rst:77
+#: 035399d0a31b4094abfaac82210aa154 968dd3a523d946d68ee2aeb275f168a7
+msgid "The duty cycle of the vibration, range is 0 - 100."
+msgstr "振动的占空比，范围为 0 - 100。"
+
+#: ../../source/unit/buzzer.rst:55 1dc0161ea1f24a18b9c2265ba056be2e
+msgid "The duration of the vibration, range is 0 - 10000ms."
+msgstr "振动持续时间，范围为 0 - 10000 ms。"
+
+#: ../../source/unit/buzzer.rst:59 405f0a9d10ca4bcf81b43ee9ff53b478
+msgid "|once.png|"
+msgstr ""
+
+#: ../../source/refs/unit.buzzer.ref:8 3a438190f5bc49c7b22d0822d7df8608
+msgid "once.png"
+msgstr ""
+
+#: ../../source/unit/buzzer.rst:64 f78445408e614b64bf7bf06428156ebe
+msgid "Set the frequency of the buzzer."
+msgstr "设置蜂鸣器的频率。"
+
+#: ../../source/unit/buzzer.rst:70 4e74bdc46dc04a348f7115b39979e2e5
+msgid "|set_freq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.buzzer.ref:10 1737b192da464e35a401417cdf005fef
+msgid "set_freq.png"
+msgstr ""
+
+#: ../../source/unit/buzzer.rst:75 d48e9510e96844aeaceb38c8d3d2a916
+msgid "Set the duty cycle of the buzzer."
+msgstr "设置蜂鸣器的占空比。"
+
+#: ../../source/unit/buzzer.rst:81 6af3ef6bc1b54a77a37e93606eb46efd
+msgid "|set_duty.png|"
+msgstr ""
+
+#: ../../source/refs/unit.buzzer.ref:12 93136451f43c43009ebb8472546cbf2b
+msgid "set_duty.png"
+msgstr ""
+
+#: ../../source/unit/buzzer.rst:86 d8cc0dd326d44578b9af5b790098a1b9
+msgid "Turn off the buzzer."
+msgstr "关闭蜂鸣器。"
+
+#: ../../source/unit/buzzer.rst:90 ded6d96565c94857b8c612ea01f52063
+msgid "|turn_off.png|"
+msgstr ""
+
+#: ../../source/refs/unit.buzzer.ref:14 b982573065e44ae9a8ffca0aba9f8572
+msgid "turn_off.png"
+msgstr ""
+
+#: ../../source/unit/buzzer.rst:95 f552fed1f5824ab2875ba9f8bd71d15b
+msgid "Deinitialize the buzzer."
+msgstr "反初始化蜂鸣器。"
+
+#: ../../source/unit/buzzer.rst:99 e0273c2366874410a3f6f3114b8d65e3
+msgid "|deinit.png|"
+msgstr ""
+
+#: ../../source/refs/unit.buzzer.ref:16 fdb7854468e54922b4cf843742f665ee
+msgid "deinit.png"
+msgstr ""
+

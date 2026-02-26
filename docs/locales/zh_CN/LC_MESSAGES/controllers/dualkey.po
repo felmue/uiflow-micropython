@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/controllers/dualkey.rst:3 ../../en/refs/controllers.dualkey.ref
 #: e4c13a15d6874e16a42ab035bfe72ce8 f73c1408caa14e70acd68623e90f4e55
 msgid "DualKey"
-msgstr ""
+msgstr "DualKey"
 
 #: ../../en/controllers/dualkey.rst:7 154cd974d9d84778a6b0fcad1dc417d8
 msgid "Support the following products:"
@@ -54,9 +54,8 @@ msgid ""
 "0). When the right button (BtnB) is clicked, it toggles the right RGB LED"
 " (LED 1)."
 msgstr ""
-"该示例演示了使用按钮回调函数来切换 RGB LED 灯。当点击左侧按钮（BtnA）时，"
-"它会切换左侧 RGB LED（LED 0）。当点击右侧按钮（BtnB）时，它会切换右侧 RGB "
-"LED（LED 1）。"
+"该示例演示了使用按钮回调函数来切换 RGB LED 灯。当点击左侧按钮（BtnA）时，它会切换左侧 RGB LED（LED "
+"0）。当点击右侧按钮（BtnB）时，它会切换右侧 RGB LED（LED 1）。"
 
 #: ../../en/controllers/dualkey.rst:21 ../../en/controllers/dualkey.rst:36
 #: ../../en/controllers/dualkey.rst:51 ../../en/controllers/dualkey.rst:134
@@ -103,9 +102,7 @@ msgid ""
 "detection. It reads the switch position (left/middle/right) and displays "
 "corresponding RGB LED colors, while also periodically reading and "
 "displaying the battery voltage in millivolts."
-msgstr ""
-"该示例演示了电池电压监测和开关位置检测。它读取开关位置（左/中/右）并显示相应"
-"的 RGB LED 颜色，同时定期读取并显示电池电压（单位为毫伏）。"
+msgstr "该示例演示了电池电压监测和开关位置检测。它读取开关位置（左/中/右）并显示相应的 RGB LED 颜色，同时定期读取并显示电池电压（单位为毫伏）。"
 
 #: ../../en/controllers/dualkey.rst:38 6f560b6a97104145ae50c87fb134be54
 msgid "|dualkey_power_detection_example.png|"
@@ -133,9 +130,8 @@ msgid ""
 " is clicked, it sends a right mouse click and lights up the right RGB "
 "LED. The LEDs automatically turn off after 300ms."
 msgstr ""
-"该示例演示了通过按钮触发点击的 USB HID 鼠标功能。当点击左侧按钮（BtnA）时，"
-"它会发送左键点击并点亮左侧 RGB LED。当点击右侧按钮（BtnB）时，它会发送右键点"
-"击并点亮右侧 RGB LED。LED 会在 300ms 后自动熄灭。"
+"该示例演示了通过按钮触发点击的 USB HID 鼠标功能。当点击左侧按钮（BtnA）时，它会发送左键点击并点亮左侧 RGB "
+"LED。当点击右侧按钮（BtnB）时，它会发送右键点击并点亮右侧 RGB LED。LED 会在 300ms 后自动熄灭。"
 
 #: ../../en/controllers/dualkey.rst:53 9f2bf3a3a39e444b9d57bf4d7309adee
 msgid "|dualkey_usb_mouse_example.png|"
@@ -169,11 +165,11 @@ msgstr "API应用"
 
 #: ../../en/controllers/dualkey.rst:113 d3f40afa51564451a526289bf31cb2da
 msgid "class DualKey"
-msgstr ""
+msgstr "class DualKey"
 
 #: ../../en/controllers/dualkey.rst:117 e2cf79576cff4404bf41e79f157043a0
 msgid "DualKey module - voltage and switch detection (singleton)."
-msgstr "DualKey 模块
+msgstr "DualKey 模块 - 电压和开关检测（单例）。"
 
 #: ../../en/controllers/dualkey.rst:119 2e43741bbbf849ff88746031081b63fa
 msgid ""

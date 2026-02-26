@@ -1,0 +1,1262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/uhf_rfid.rst:2 9e36cb7b54214bf1a4a3145876845a7e
+msgid "UHF-RFID Unit"
+msgstr "UHF-RFID Unit"
+
+#: ../../source/unit/uhf_rfid.rst:6 09986ddd7f124ecd8714bc1640ad02f1
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/uhf_rfid.rst:8 6388f8172cbb4c6b8f0709330c66f2d5
+msgid "|UHFRFIDUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref c98451996b1f49719c64292b8e8c9a0a
+msgid "UHFRFIDUnit"
+msgstr "UHFRFIDUnit"
+
+#: ../../source/unit/uhf_rfid.rst:11 843613ce32844f1486c17f29a90e2289
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/uhf_rfid.rst:18 9a0ea4aa135a4e6caf6fe1ff92feb837
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/uhf_rfid.rst:20 ea9fbfefd36c4526b63efaa89e5562e6
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:6 6bc68ec398944630a621c59b226fe531
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:25 eeb64b741b3045d0bf833b5f07111e8b
+msgid "|cores3_uhf_rfid_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:29 d9bfedbb7865414a9da74897752f851f
+msgid "class UHFRFIDUnit"
+msgstr "class UHFRFIDUnit"
+
+#: ../../source/unit/uhf_rfid.rst:32 293259079a5a4b47ad1bc873ce02016b
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/uhf_rfid.rst:36 ca75fb84df7b4272bd0bf7a4b2a7c8ee
+msgid "Create a UHF-RFID unit."
+msgstr "创建一个 UHF-RFID 单元。"
+
+#: ../../source/unit/uhf_rfid.rst 15408fa4346444b79fb0289b10e99eac
+#: 167b26ad08ca4d7cb62c8861a4fa9038 2b827f6b300843008a5b01417eeb932e
+#: 31044b0c3cb14f77b095e6b0a8a187b0 34eb42918c93432c8885dddd07f2ee3f
+#: 39e5b140e65a4bd09d4cbbf626c9bc85 4795b1eaa67848c99257d64867612e0a
+#: 4decf5af6aea4e548fef7da60e231ca2 4e066d1261a44c87a09be5aa7fa4f432
+#: 6b83766693a14c51ac435c2afbe05ef9 6e8cc34abbc748408379e6d678ce4f9b
+#: 74b5d1c8caa14c8a803f4b72b71e0910 7fc1709c0dbd4698b80664c1d9f27fdc
+#: 8859923fd6b0400182b4be183b7d4a34 9096f9ef4e5c45e18513988965d20354
+#: 911667f228ca4cdbbfe028ea726c1417 9722c3dd0cd34cca8f146124ffe3220c
+#: aa4777273eca4e6fbacdbe521dc156bf b6cada1f8370499e8a8548f686494290
+#: b8fad7f4b4e84036a31f5e5a63b02e59 c22ff463cc8b45ff90c74119f507f47f
+#: c6c55fd436594a36b882ea92e993e10a cc14488394e24fc2a7596055091732b3
+#: d18661afb2b44d258d046a6e28674bbd d46b9acf50534ab7b29811274031634f
+#: de08aefa02654467abd613b28defb5fa e2f4b01a75c341dcbb3465d931b9ed95
+#: ee180b94cc2746e8b45a444afb014bef ee9b74827d5646068c368a463675f329
+#: fa449071d10d4f18944737b18306bbf2
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:38 2c8f35944d994aa1b33304aca59b3c31
+msgid "The ID of the unit."
+msgstr "单元的 ID。"
+
+#: ../../source/unit/uhf_rfid.rst:39 26ceba1054d5446caf2c27cbe6bd1aa1
+msgid "The port that the unit is connected to."
+msgstr "设备连接到的端口。"
+
+#: ../../source/unit/uhf_rfid.rst:40 517824d5c4434083a08fcf7e8f0f6c6a
+msgid "Print the log information. Default is True."
+msgstr "打印日志信息。默认为 True。"
+
+#: ../../source/unit/uhf_rfid.rst:42 ../../source/unit/uhf_rfid.rst:68
+#: ../../source/unit/uhf_rfid.rst:90 ../../source/unit/uhf_rfid.rst:111
+#: ../../source/unit/uhf_rfid.rst:134 ../../source/unit/uhf_rfid.rst:145
+#: ../../source/unit/uhf_rfid.rst:158 ../../source/unit/uhf_rfid.rst:179
+#: ../../source/unit/uhf_rfid.rst:199 ../../source/unit/uhf_rfid.rst:210
+#: ../../source/unit/uhf_rfid.rst:223 ../../source/unit/uhf_rfid.rst:236
+#: ../../source/unit/uhf_rfid.rst:247 ../../source/unit/uhf_rfid.rst:260
+#: ../../source/unit/uhf_rfid.rst:276 ../../source/unit/uhf_rfid.rst:289
+#: ../../source/unit/uhf_rfid.rst:300 ../../source/unit/uhf_rfid.rst:313
+#: ../../source/unit/uhf_rfid.rst:326 ../../source/unit/uhf_rfid.rst:340
+#: ../../source/unit/uhf_rfid.rst:351 ../../source/unit/uhf_rfid.rst:362
+#: ../../source/unit/uhf_rfid.rst:373 ../../source/unit/uhf_rfid.rst:384
+#: ../../source/unit/uhf_rfid.rst:397 ../../source/unit/uhf_rfid.rst:408
+#: ../../source/unit/uhf_rfid.rst:422 ../../source/unit/uhf_rfid.rst:440
+#: ../../source/unit/uhf_rfid.rst:458 ../../source/unit/uhf_rfid.rst:470
+#: ../../source/unit/uhf_rfid.rst:481 ../../source/unit/uhf_rfid.rst:494
+#: ../../source/unit/uhf_rfid.rst:512 ../../source/unit/uhf_rfid.rst:563
+#: ../../source/unit/uhf_rfid.rst:586 ../../source/unit/uhf_rfid.rst:607
+#: ../../source/unit/uhf_rfid.rst:624 ../../source/unit/uhf_rfid.rst:639
+#: ../../source/unit/uhf_rfid.rst:653 ../../source/unit/uhf_rfid.rst:668
+#: ../../source/unit/uhf_rfid.rst:682 ../../source/unit/uhf_rfid.rst:695
+#: ../../source/unit/uhf_rfid.rst:709 ../../source/unit/uhf_rfid.rst:723
+#: ../../source/unit/uhf_rfid.rst:739 01366e73b8424fbab58ef69cb279b933
+#: 04b67aa9f8f74e36a409ce641813a98a 076430bc8eb04cf1b666aaf7c45e29f1
+#: 0e0f3b68c6c042e2be957974528cb8ee 121ec10a5aea4eeb8f6252260d0ce707
+#: 12e871a1b6d2417889dedeabce9cc4d5 149bb74d1754451cab46bf9fcb20831d
+#: 150c61820ddb434db9a0175e7921d61c 225f79a3312f4480805c47f8c2dae87a
+#: 28d569b9b1564316aa4bc0d643202d1a 2c06d0f5f06b442caf424ec531a5814f
+#: 3f1dec2831964f0cba76aee5bd973fbf 43ff7d733fcd4393b997867c968ee042
+#: 44cd66057c194c2982ee60e180af961f 5b519ba2f4f94ac7b67f4c67d7c3ed90
+#: 698733352198422d92fa3f5d0ad1077e 721dc00dc8fa4b1eb18a54da1c869c65
+#: 7899c84166384b458ff12c43a74ea4d7 78c47d2502ae4f6489d52b9225b2c110
+#: 7c88366444764f9db44ba0aace92a065 7f5e97de32424b99aefdf08f14a4ad60
+#: 82d5aec6071245569929f961c35a30fa 84a6a7ae98ca47528352e95fade41223
+#: 867bbbf7b91c4469a71a2dc8625c89ea 915edaac47064062b47599e99265c9e4
+#: 9905ba56b6ae4783b59b1983fbc604da 9b7d0bcac8224b1ebe1f9b0cd453a4fa
+#: 9c4678aee1ad4223b18eeddc86983c4a 9f38d543d94c4f0880417499f0340175
+#: a865094aba56491e95817af741a9a9a2 ad7070eab52b431fa807fa3cf58d55d9
+#: aeff087d5e9940a386543dc2fa20a4c4 b32687956afc42d19c6f0f19007602f0
+#: b8cc23bbf5914dff8ccbd961eb1f1d24 baf8d0b377094606aafabbb61355b2ac
+#: c00d023e778e44939090144a8525f99d c7496a4fc2ec4b22a975ba0549e948a7
+#: cc4ce71433c64ed9b33a5a6ae3a25b4e cff081e7c4e74016801663c7f373c699
+#: d01c1782fd96420489fabd3c3108c1f5 dba11814421246249866c34740472565
+#: e1dee408e7ea44dfb3791eb38d1f628f e303b8229e35464aa3f327a55a93efe1
+#: f1a83cef12d54e29b190ead0a39808a8 f88be2b614584b6cba2fa48fedf8640c
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/uhf_rfid.rst:44 c07c90b552d24600ab5e446ba382d881
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:8 a6399bd2779f42c4a37c3c4db82ff9c3
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:48 8ae01df45caf4895a150118d4fdab7eb
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:51 c99e1b945f004190bd2f497aae899c31
+msgid "Demodulator"
+msgstr "解调器"
+
+#: ../../source/unit/uhf_rfid.rst:55 40b1399a4ca74f72b5e2a0c4a9cbcdbd
+msgid "Get demodulator mixer value."
+msgstr "获取解调器混频器数值。"
+
+#: ../../source/unit/uhf_rfid.rst 27535ff750cb4cb2b0b41bf967bb4530
+#: 334d80d161e242c7b49714a7066d19be 3c8defa890d94142844ae98f7e48973f
+#: 47c53790e437441ba46320298782ca2e 4a85d76e3ee142ad9125581f15316fa8
+#: 55b307dc18e044e3a9ad912d7bd5285a 7c77ad9ce22546519e63595940a59207
+#: d544a3b9eadc4f7b9fb06e66f2f78331 eb5f9a634498408da9ab0af2af9fbb63
+#: f9794203534e42e7abb4dd74c47fd5f5
+msgid "return int"
+msgstr "return int"
+
+#: ../../source/unit/uhf_rfid.rst:57 ../../source/unit/uhf_rfid.rst:77
+#: b84d575752c342fda93c10bfab229e72 c9bb72b7498d478db271a36a0bb3ade1
+msgid "demodulator mixer value."
+msgstr "解调器混频器值。"
+
+#: ../../source/unit/uhf_rfid.rst:66 ../../source/unit/uhf_rfid.rst:86
+#: ../../source/unit/uhf_rfid.rst:109 ../../source/unit/uhf_rfid.rst:130
+#: ../../source/unit/uhf_rfid.rst:177 ../../source/unit/uhf_rfid.rst:195
+#: ../../source/unit/uhf_rfid.rst:436 ../../source/unit/uhf_rfid.rst:527
+#: ../../source/unit/uhf_rfid.rst:535 ../../source/unit/uhf_rfid.rst:543
+#: ../../source/unit/uhf_rfid.rst:551 ../../source/unit/uhf_rfid.rst:559
+#: ../../source/unit/uhf_rfid.rst:578 ../../source/unit/uhf_rfid.rst:601
+#: 09fd44082154455a937627d97e0222eb 428a3c0b3d0444f4956bbeb1336bb1ad
+#: 48b93a5d631f45c8b2634f52b157572f 5e144f728ad74b3f982d8de27391f49d
+#: 76efe2368c79488fbd24b4fc02ff4285 7730ccd8d83943e181b0121df19b01bc
+#: adde8d56fa73424eb6a4432dc0382676 c44aab51dfc04f558f00dc9b3dfc6dc2
+#: c4e0e0d201734013882cdda89eea37b4 d08c7a7b234d4e478cfd880cbc6d3462
+#: d8403810ce2d4f90b0ab82716d0f9248 d98a9de7c98f4e54aab6942c392c074a
+#: ee069e623e604c038836bba058d9cfb1 f96300f8927d4acd91a800e4a803a5cd
+msgid "Options:"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:60 ../../source/unit/uhf_rfid.rst:80
+#: 474e1057ca544cc5906f3c89ffbfb872 750e819acf6848138f9108b9b3dd9397
+msgid "0x00: 0dB"
+msgstr "0x00：0 dB"
+
+#: ../../source/unit/uhf_rfid.rst:61 ../../source/unit/uhf_rfid.rst:81
+#: 9be029aea68a41ab8a308aa333efdbcf a3c1462b0b2049af91c735c9541fb736
+msgid "0x01: 3dB"
+msgstr "0x01：3 dB"
+
+#: ../../source/unit/uhf_rfid.rst:62 ../../source/unit/uhf_rfid.rst:82
+#: 1bc933af276d49b4ae828cb2c12271c6 3654665d867b4abfab2dde347d4466d9
+msgid "0x02: 6dB"
+msgstr "0x02：6 dB"
+
+#: ../../source/unit/uhf_rfid.rst:63 ../../source/unit/uhf_rfid.rst:83
+#: 6ec6fa8812144b23a943f20ed64c84c7 9654bb46c2b24338bdaf99e48dbdb934
+msgid "0x03: 9dB"
+msgstr "0x03：9 dB"
+
+#: ../../source/unit/uhf_rfid.rst:64 ../../source/unit/uhf_rfid.rst:84
+#: 3fb5cbc953af4cb880b4d6b153ad3e82 98aa164d6c4a4a4dadaf53ac5ea8ceda
+msgid "0x04: 12dB"
+msgstr "0x04：12 dB"
+
+#: ../../source/unit/uhf_rfid.rst:65 ../../source/unit/uhf_rfid.rst:85
+#: 2810a132aec1432e9defaf86796f53ed 6d257f7945ca4f969cdb82291ce0e3d7
+msgid "0x05: 15dB"
+msgstr "0x05：15 dB"
+
+#: ../../source/unit/uhf_rfid.rst:66 ../../source/unit/uhf_rfid.rst:86
+#: e20d85c07d124366828c335952215ccc f691698537674b2b8b01640228fb02d8
+msgid "0x06: 16dB"
+msgstr "0x06：16 dB"
+
+#: ../../source/unit/uhf_rfid.rst:70 e2ade9306c174b27a6fc2becee182ef8
+msgid "|get_demodulator_mixer.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:9 2b3d57b001ef42798e7f0811eaf8d4d1
+msgid "get_demodulator_mixer.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:75 1ecdc7fd1ceb449299d29274745fdede
+msgid "Set demodulator mixer value."
+msgstr "设置解调器混频器值。"
+
+#: ../../source/unit/uhf_rfid.rst 0acf0e4394e84fcdab5cf6cb4a5442db
+#: 0d13e7e17eaa4510b52e729e14247ba4 16919bc43b934cf7b0e758a90983475d
+#: 40453722ff4e48a39be3a10d52423b14 5fccd7ce659748bc9e116eb929068425
+#: 786961b17ecf4c798233f2f259b7707a 79e36d1db5764563921b1333d9ff104a
+#: 7c5dc0be0fc24fd7a94fa756f76412ee 849b54bea46d4115a0275121be028e4d
+#: 8aaf76c0c36949229d64c390ccf4a6c6 8e175644ac3040609cc55b07e65ce67a
+#: 9c7d3f2ba8d0433885c49e055ab88a52 b7e47fc2f9c64ecdaf113e6ca4b401b1
+#: ba283ec5adc742c599e237c2ca68bd66 c3ff89b1a9834f76b2b3bef88e303a54
+#: d144d88071a848bdb1bdaf8609556941 d91979cb20184d2e99de696cbc27a07e
+#: d9fc09557ce64baf813d55ba0d3f8043 f003e019d39b43f8a5f52ae9045c10c5
+#: f59e9c773d044eeeae34b706adffc269 f773acc773a64c8f915dca1758c770de
+#: f7e506d756d14fcc826002ddcbf92ff5 fb247bf7e9574d8eaaf80b8b4a33bfca
+#: fbb49c9866194b6996f0e45813ed15b5
+msgid "return bool"
+msgstr "return bool"
+
+#: ../../source/unit/uhf_rfid.rst:88 ../../source/unit/uhf_rfid.rst:132
+#: ../../source/unit/uhf_rfid.rst:156 ../../source/unit/uhf_rfid.rst:197
+#: ../../source/unit/uhf_rfid.rst:221 ../../source/unit/uhf_rfid.rst:234
+#: ../../source/unit/uhf_rfid.rst:245 ../../source/unit/uhf_rfid.rst:258
+#: ../../source/unit/uhf_rfid.rst:311 ../../source/unit/uhf_rfid.rst:324
+#: ../../source/unit/uhf_rfid.rst:371 ../../source/unit/uhf_rfid.rst:382
+#: ../../source/unit/uhf_rfid.rst:395 ../../source/unit/uhf_rfid.rst:406
+#: ../../source/unit/uhf_rfid.rst:438 ../../source/unit/uhf_rfid.rst:456
+#: ../../source/unit/uhf_rfid.rst:492 ../../source/unit/uhf_rfid.rst:510
+#: ../../source/unit/uhf_rfid.rst:637 ../../source/unit/uhf_rfid.rst:666
+#: ../../source/unit/uhf_rfid.rst:707 ../../source/unit/uhf_rfid.rst:721
+#: ../../source/unit/uhf_rfid.rst:737 017cf7fe11e6467e9f67cb4792f9b6df
+#: 04fed81cd4644379af5806311d8ea540 069b669f06c04056b42d57a301690419
+#: 0a1245aac5684cff8f776c72270b67e0 23c34a6d61d844858ffbcfe09470044f
+#: 340496ea71fa40c7a9b309db4a2174cf 5049a5e059734c4db5ee54c37e45b7ab
+#: 577d085589ad4a5e82814fcd4f70146e 598776571cbb4132a250d94a3715f8f2
+#: 78a7afbe736146aaa1ce8b4eba73bde8 7cbf5d5320d24867acaf7448e6f9e4d6
+#: 7ed00fb46adf4e7eb13425a794ff6772 7f8388482302420aa9a41c1292cb5435
+#: 86788d395e844959bcaa921ba50759c4 8792a1e20bb94419b54961db6e824007
+#: 8b10312e9cad48a6a3e9d40909096a7a 8b7ba30271d14b1ead01f5ee92de7f27
+#: d94a6565e18c4583a1fcb814f7205d4c dac7082349cf42b2811ee02a9ae3dadc
+#: dc1629a5387c4e7f935fee904b053e92 e0ab038ed37b4d8f81706222d960ee76
+#: eed33d87d1f347a3aebff4dbf9c9cd1a f3605933dd11417b88fb9c819884dd53
+msgid "True if success, False if failed."
+msgstr "如果成功则为 True，如果失败则为 False。"
+
+#: ../../source/unit/uhf_rfid.rst:92 1bef9aac5cca4a5eaa1f2773edbdcf3b
+msgid "|set_demodulator_mixer.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:10 337a33b6627044f185752ac1ce23a415
+msgid "set_demodulator_mixer.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:97 1009d4cd912d422b85216330cb9af6db
+msgid "Get demodulator amplifier value."
+msgstr "获取解调放大器值。"
+
+#: ../../source/unit/uhf_rfid.rst:99 ../../source/unit/uhf_rfid.rst:120
+#: 21694aa837b347a5a71b77dad5d37e13 edce9690a9a0488ab0919ddc30fd86da
+msgid "demodulator amplifier value."
+msgstr "解调放大器数值。"
+
+#: ../../source/unit/uhf_rfid.rst:102 ../../source/unit/uhf_rfid.rst:123
+#: 4ee3d433356145ddad288b38b383d80d 7c3d39733f39469195339d8ec3bccabd
+msgid "0x00: 12dB"
+msgstr "0x00：12 dB"
+
+#: ../../source/unit/uhf_rfid.rst:103 ../../source/unit/uhf_rfid.rst:124
+#: a15ef2ec197045faba2a022d0f99ab0f a8bf6c15bd2247ad91c44b46efc13926
+msgid "0x01: 18dB"
+msgstr "0x01：18 dB"
+
+#: ../../source/unit/uhf_rfid.rst:104 ../../source/unit/uhf_rfid.rst:125
+#: b84b9ce22a13455287456d1366a9b11e e870d2b702974e83a4134c7b30be5e88
+msgid "0x02: 21dB"
+msgstr "0x02：21 dB"
+
+#: ../../source/unit/uhf_rfid.rst:105 ../../source/unit/uhf_rfid.rst:126
+#: 780a79ee4fda473cbc28c013f1650df6 9fbe39dc2d0040ecbf5ab7c0db6052d8
+msgid "0x03: 24dB"
+msgstr "0x03：24 dB"
+
+#: ../../source/unit/uhf_rfid.rst:106 ../../source/unit/uhf_rfid.rst:127
+#: 36e97eb063e64a94b6cbfe2bf1d1b41e 8651c050df1b476f8b4946fbff891046
+msgid "0x04: 27dB"
+msgstr "0x04：27 dB"
+
+#: ../../source/unit/uhf_rfid.rst:107 ../../source/unit/uhf_rfid.rst:128
+#: 32810797c9c5450fbf5efc42be3e58f9 c9f198b45413475283875a76247ed2dc
+msgid "0x05: 30dB"
+msgstr "0x05：30 dB"
+
+#: ../../source/unit/uhf_rfid.rst:108 ../../source/unit/uhf_rfid.rst:129
+#: 9126963948c64853b48a8532c10c760b b95dee2f27e84638b8d2c9a973de56a0
+msgid "0x06: 36dB"
+msgstr "0x06：36 dB"
+
+#: ../../source/unit/uhf_rfid.rst:109 ../../source/unit/uhf_rfid.rst:130
+#: 81196ed61bc841a7947ac9454582ec74 df2648bf264340ef94ae7b50817a7bb0
+msgid "0x07: 40dB"
+msgstr "0x07：40 dB"
+
+#: ../../source/unit/uhf_rfid.rst:113 e580debdbf7c4705becf91f09ee63ac3
+msgid "|get_demodulator_amplifier.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:11 556a70136a9048f7bbd2cec3388ff95a
+msgid "get_demodulator_amplifier.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:118 f57197ce2a27400ab7e5e7cf2344c67a
+msgid "Set demodulator amplifier value."
+msgstr "设置解调器放大器值。"
+
+#: ../../source/unit/uhf_rfid.rst:136 d5e79b75f8374e9fba6d3ae3119c9295
+msgid "|set_demodulator_amplifier.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:12 737bd7c661e6425381f846f1e9ecd388
+msgid "set_demodulator_amplifier.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:141 c349415204be43b9867ee00046af1690
+msgid "Get demodulator threshold value."
+msgstr "获取解调器阈值。"
+
+#: ../../source/unit/uhf_rfid.rst:143 ../../source/unit/uhf_rfid.rst:154
+#: b0d09ae45a604a1f8b504fc2b67064d5 d80c06c364c740028e7b09e098a75cf6
+msgid "demodulator threshold value. the range is from 0x01B0 to 0xFFFF."
+msgstr "解调器阈值。范围为 0x01B0 到 0xFFFF。"
+
+#: ../../source/unit/uhf_rfid.rst:147 37450826925a4ffc84d04d69d851bba7
+msgid "|get_demodulator_threshold.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:13 9a60d6a4dad743639148a6ffcdb26872
+msgid "get_demodulator_threshold.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:152 a14b4f03b2734a3589ff159a6617f2eb
+msgid "Set demodulator threshold value."
+msgstr "设置解调器阈值。"
+
+#: ../../source/unit/uhf_rfid.rst:160 6ed71ab3961f439aaa6b72b2653ed6a8
+msgid "|set_demodulator_threshold.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:14 3cc53abf6a7e4939b070124ab05942e7
+msgid "set_demodulator_threshold.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:164 c577f650967f451fae180d49546040d1
+msgid "Working"
+msgstr "Working"
+
+#: ../../source/unit/uhf_rfid.rst:168 a6120c8c3ba2458e8bcb3d3ff8d76e97
+msgid "Get work region."
+msgstr "获取工作区域。"
+
+#: ../../source/unit/uhf_rfid.rst:170 ../../source/unit/uhf_rfid.rst:188
+#: 3b22cf0e762e4b9a90193e8492f431ab 51de81a0ade845a38fe82ead1f7f0d9a
+msgid "work region."
+msgstr "工作区域。"
+
+#: ../../source/unit/uhf_rfid.rst:173 ../../source/unit/uhf_rfid.rst:191
+#: 40c2daadfdf54fc29771286eb2de0923 774a4b7b52c24dcaa2f8be8d46c4cc69
+msgid "UHFRFIDUnit.CN_900MHZ: China 900MHz"
+msgstr "UHFRFIDUnit.CN_900MHZ：中国 900MHz"
+
+#: ../../source/unit/uhf_rfid.rst:174 ../../source/unit/uhf_rfid.rst:192
+#: 96d00a16483b46108490fc473341fc9f d012bd7c93f04eaeb3b4f5744c32e9ba
+msgid "UHFRFIDUnit.CN_800MHZ: China 800MHz"
+msgstr "中国 800MHz"
+
+#: ../../source/unit/uhf_rfid.rst:175 ../../source/unit/uhf_rfid.rst:193
+#: 696aa94d2088472d9f98405de07521fb 9c71e695dda04b038b165df6fba8155c
+msgid "UHFRFIDUnit.USA: USA"
+msgstr "USA"
+
+#: ../../source/unit/uhf_rfid.rst:176 ../../source/unit/uhf_rfid.rst:194
+#: 884641b818fa479f95447e10530591fb d5e10d6372744d53bd91cad176c8991e
+msgid "UHFRFIDUnit.EUR: EUR"
+msgstr "EUR"
+
+#: ../../source/unit/uhf_rfid.rst:177 ../../source/unit/uhf_rfid.rst:195
+#: 4515f71f89364aa58cf8201907b75671 cee6c030f36e41a491ffd3620dd60611
+msgid "UHFRFIDUnit.KR: KR"
+msgstr "UHFRFIDUnit.KR：KR"
+
+#: ../../source/unit/uhf_rfid.rst:181 e5959302d6a040d89874d9e9bc4bd3d8
+msgid "|get_working_region.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:15 dafa861fb335476f95f60e77080a2d8a
+msgid "get_working_region.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:186 704b906e07084defb49c9d63fcd3cab9
+msgid "Set work region."
+msgstr "设置工作区域。"
+
+#: ../../source/unit/uhf_rfid.rst:201 7902aa70f0624851a569f1d177b8f407
+msgid "|set_working_region.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:16 5f6940503ccc43c0abf7a5eac2f4fedf
+msgid "set_working_region.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:206 4fbd49376ca845a1833b3c37154cb25e
+msgid "Get work channel."
+msgstr "获取工作通道。"
+
+#: ../../source/unit/uhf_rfid.rst:208 ../../source/unit/uhf_rfid.rst:219
+#: ../../source/unit/uhf_rfid.rst:232 ../../source/unit/uhf_rfid.rst:272
+#: ../../source/unit/uhf_rfid.rst:285 13b1d89e23ae4e41a6f2a2b06ba71f86
+#: 1f2f8ada523a4e539d41d99d2de8bdf8 1f5a4f50053b46afacf603202c94eb5c
+#: 6d78c8f131a5473aa8311e8f66b15fd9 d821b0e659284b588c8fd8b86d37d3e6
+msgid "work channel. the range is from 0 to 19."
+msgstr "工作通道。范围为 0 到 19。"
+
+#: ../../source/unit/uhf_rfid.rst:212 72896c7a12fd4b268321b2b94f1895b4
+msgid "|get_working_channel.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:17 4dd85e9f75554a2584894d988cc58e78
+msgid "get_working_channel.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:217 43592dd10cf84aa6bb42e95c50f551f2
+msgid "Set work channel."
+msgstr "设置工作通道。"
+
+#: ../../source/unit/uhf_rfid.rst:225 44c741124e5c4bea85e894c5bf1fd5d2
+msgid "|set_working_channel.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:18 02a5da46a278436eb864995a3fb8594e
+msgid "set_working_channel.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:230 4f79b81922a94ec08ae8ec271ed1af5e
+msgid "Insert work channel."
+msgstr ""
+"请提供需要翻译的 PO 片段（包含 `msgid`/`msgstr`，以及可能的 `#, fuzzy` 标记）。我会按规则输出对应的 "
+"`msgstr` 中文文本。"
+
+#: ../../source/unit/uhf_rfid.rst:238 242c01863ceb4c82a22f84bf0d4a103f
+msgid "|insert_working_channel.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:19 bc4db74d09084da280f670ea427cdee8
+msgid "insert_working_channel.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:243 58d536e3a93b445599bd1a4c850607db
+msgid "Clear work channel."
+msgstr "清除工作通道。"
+
+#: ../../source/unit/uhf_rfid.rst:249 23371bc1a638440180628c414da42959
+msgid "|clear_working_channel.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:20 135b82cde99e4d6b828bbf31fc57feb7
+msgid "clear_working_channel.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:254 15c083c19e334737807e85d7c36279d3
+msgid "Set automatic hopping."
+msgstr "设置自动跳频。"
+
+#: ../../source/unit/uhf_rfid.rst:256 a7506e98a4654393b30a648ff5faa6fb
+msgid "enable automatic hopping."
+msgstr "启用自动跳频。"
+
+#: ../../source/unit/uhf_rfid.rst:262 f5f132ca246a4938a1da70f5969f51a5
+msgid "|set_automatic_hopping.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:21 ae25bf3370f948b7bd7f7de5fb14063e
+msgid "set_automatic_hopping.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:266 289836224e674e069a9795ef61b90847
+msgid "RF Power"
+msgstr "射频功率"
+
+#: ../../source/unit/uhf_rfid.rst:270 94f9026c12a14daa9348b8e89fe06989
+msgid "Get channel RSSI value."
+msgstr "获取通道 RSSI 值。"
+
+#: ../../source/unit/uhf_rfid.rst:274 425b939967f74f82bcbb9b44483a556f
+msgid "channel RSSI value. the unit is dBm."
+msgstr "通道 RSSI 值，单位为 dBm。"
+
+#: ../../source/unit/uhf_rfid.rst:278 ed2b90459cad46829db6763c58bee8f5
+msgid "|get_channel_rssi.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:22 76eb45572f8b48e6bdfcc017ac489cff
+msgid "get_channel_rssi.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:283 c859a14e9f3146748bd6c3d8ccaf62ff
+msgid "Get blocking signal strength."
+msgstr "获取阻塞式信号强度。"
+
+#: ../../source/unit/uhf_rfid.rst:287 2c529aa6176245ad9147c61d6161476f
+msgid "blocking signal strength. the unit is dBm."
+msgstr "阻塞信号强度，单位为 dBm。"
+
+#: ../../source/unit/uhf_rfid.rst:291 a348e5117e704a85a49c3c73c5e00e6c
+msgid "|get_blocking_signal_strength.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:23 88727727c1964bb9bfc6b803cc9682db
+msgid "get_blocking_signal_strength.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:296 485956e7efd5418bb5c9ddee5d745319
+msgid "Get TX power."
+msgstr "获取 TX 功率。"
+
+#: ../../source/unit/uhf_rfid.rst:298 fa8ca912dfc54872bab1b3958bd13f3c
+msgid "TX power. the unit is dBm. the range is from -7dBm to 30dBm."
+msgstr "发射功率。单位为 dBm。范围为 -7 dBm 到 30 dBm。"
+
+#: ../../source/unit/uhf_rfid.rst:302 3252200fe22a48b0a91f9490b60043fd
+msgid "|get_tx_power.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:24 8d7c3802e78a406d976a9cf8586fb54a
+msgid "get_tx_power.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:307 af5b18ee8fdb4841a195de2face27b28
+msgid "Set TX power."
+msgstr "设置 TX 功率。"
+
+#: ../../source/unit/uhf_rfid.rst:309 88545192c8894a489aea633089529aef
+msgid "TX power. the range is from -7dBm to 30dBm."
+msgstr "发射功率。范围为 -7 dBm 到 30 dBm。"
+
+#: ../../source/unit/uhf_rfid.rst:315 eaa4da8a269f423088f56cdfb2d172a3
+msgid "|set_tx_power.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:25 ee334f0adac543e5ae05338daca950c6
+msgid "set_tx_power.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:320 004fc709a666418997dd10d04d97b7fe
+msgid "Set continuous wave."
+msgstr "设置连续波。"
+
+#: ../../source/unit/uhf_rfid.rst:322 e2d337799b8a4284a4df22d2c026573d
+msgid "enable continuous wave."
+msgstr "启用连续波。"
+
+#: ../../source/unit/uhf_rfid.rst:328 d81f2e9644174d629ca9731ff56c744d
+msgid "|set_continuous_wave.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:26 2311beaf2e8d4a6a890d4cd74221f053
+msgid "set_continuous_wave.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:332 db9891b19d7f4b229b27ff0d9fa1b7ff
+msgid "Module Information and Settings"
+msgstr "模块信息与设置"
+
+#: ../../source/unit/uhf_rfid.rst:336 877b51977da74fb1b3061678e20cec0c
+msgid "Get manufacturer ID."
+msgstr "获取制造商 ID。"
+
+#: ../../source/unit/uhf_rfid.rst 55b6b1927e1b4e77a00a8aa426ac0d1f
+#: 6bbe8ab08047466ba858f571e6b6750e 7259fe080cc34dcaa4bda310dd008549
+#: 9f0127d7d0a3439582fe6b1c8d274da4 e408535cbeea43659a208916b5834ce9
+msgid "return str"
+msgstr "return str"
+
+#: ../../source/unit/uhf_rfid.rst:338 e805dbf13f3642eb90f300346a94fde4
+msgid "manufacturer ID."
+msgstr "制造商 ID。"
+
+#: ../../source/unit/uhf_rfid.rst:342 2bad68cd13104f1fb6f8f624e46e0798
+msgid "|get_manufacturer_id.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:27 88a814208db546799deaa36c307eb5d1
+msgid "get_manufacturer_id.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:347 840e0039a3bc4207a4245fbc57d70d44
+msgid "Get hardware version."
+msgstr "获取硬件版本。"
+
+#: ../../source/unit/uhf_rfid.rst:349 ae97dbbbff964262959e27fda7225877
+msgid "hardware version."
+msgstr "硬件版本。"
+
+#: ../../source/unit/uhf_rfid.rst:353 e1f3dbda380c4776921a70fb742d5811
+msgid "|get_hardware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:28 9f7b393c8bfe480a990cb8f241bb92d9
+msgid "get_hardware_version.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:358 248aadd149054fbba96daa9a63e15711
+msgid "Get firmware version."
+msgstr "获取固件版本。"
+
+#: ../../source/unit/uhf_rfid.rst:360 91c936259b434a18a3f27691f1716dfd
+msgid "firmware version."
+msgstr "固件版本。"
+
+#: ../../source/unit/uhf_rfid.rst:364 654b85343c6d473cb3d39b7c7071b7b2
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:29 4b7a83be2a864b65b05ba2f9dfb17899
+msgid "get_firmware_version.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:369 d87365b923474e75beab65d083699291
+msgid "Set sleep."
+msgstr "设置休眠。"
+
+#: ../../source/unit/uhf_rfid.rst:375 9242668731f840d5bb88c46535fab39b
+msgid "|sleep.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:30 27acfd1915e546ee8d0371a98c49531c
+msgid "sleep.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:380 b19e520f78794fa2a7c2a90b6a05e66a
+msgid "Set wake up."
+msgstr "设置唤醒。"
+
+#: ../../source/unit/uhf_rfid.rst:386 10a84e9e57d44114a39bfc2dadd6f3a9
+msgid "|wake.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:31 0191970115f9424c9b8d29e1ac6b8631
+msgid "wake.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:391 1c670e393576414f9e64d978c9fbcef7
+msgid "Set automatic sleep time."
+msgstr "设置自动休眠时间。"
+
+#: ../../source/unit/uhf_rfid.rst:393 842bc51e2109453fadaa843400a3f6ac
+msgid "automatic sleep time in minutes. the range is from 1 to 30."
+msgstr "自动休眠时间（单位：分钟）。范围为 1 到 30。"
+
+#: ../../source/unit/uhf_rfid.rst:399 a699a098e27e4b2eb2c6e9133206ab0b
+msgid "|set_automatic_sleep_time.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:32 a2ba1e2d27cf4656b09d836721593463
+msgid "set_automatic_sleep_time.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:404 bc9f8bea3a95449ea67334bd64f367e4
+msgid "Disable automatic sleep."
+msgstr "禁用自动休眠。"
+
+#: ../../source/unit/uhf_rfid.rst:410 730e87196d1f4fd39cd168e6658de3e3
+msgid "|disable_automatic_sleep.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:33 7fb7b3156bb14dbeb6818add171cf877
+msgid "disable_automatic_sleep.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:414 6de5056ac64a4e369a42df00a1988813
+msgid "Read and Write Tag"
+msgstr "读取和写入标签"
+
+#: ../../source/unit/uhf_rfid.rst:418 f1b75edb99664b278f927ebbf2ac9f01
+msgid "Get tag epc code. if no tag is found, return empty string."
+msgstr "获取 tag 的 epc 码。如果未找到 tag，则返回空字符串。"
+
+#: ../../source/unit/uhf_rfid.rst c9f919d870e9437fb7c52b4e9617671f
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:420 5e50567ca6f24ef19df832c3073e8744
+msgid "hexadecimal string of tag epc code."
+msgstr "标签 EPC 码的十六进制字符串。"
+
+#: ../../source/unit/uhf_rfid.rst:424 e3e959f296574731b44f9d1367e11fa0
+msgid "|inventory.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:34 954f713ce78e46e8a3edab34989fbe87
+msgid "inventory.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:429 0e114ba86cb14dfc8af0b0e263bfc964
+msgid "Set select mode."
+msgstr "设置选择模式。"
+
+#: ../../source/unit/uhf_rfid.rst:431 88e27cf3405b4746a5a59e303e03f0a2
+msgid "select mode."
+msgstr "选择模式。"
+
+#: ../../source/unit/uhf_rfid.rst:434 6902c8b02ae64839b4cd668c64365be5
+msgid "0x00: need select command"
+msgstr "0x00：需要选择命令"
+
+#: ../../source/unit/uhf_rfid.rst:435 7cec3f25febb49b19ec1110cb5e2aeac
+msgid "0x01: no need select command"
+msgstr "0x01：无需选择命令"
+
+#: ../../source/unit/uhf_rfid.rst:436 5c2fea0dd50c4e6db4c6222a6b873add
+msgid "0x02: part operation need select command"
+msgstr "0x02：部分操作需要选择命令"
+
+#: ../../source/unit/uhf_rfid.rst:442 613bcdfd744e4c9d97677297e30d5faf
+msgid "|set_select_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:35 b6430db0097e4eb5b688cd3d00733cb7
+msgid "set_select_mode.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:447 11e2b05feefe4f0f830cfa0847b031bb
+msgid "Set select tag."
+msgstr "设置 select 标签。"
+
+#: ../../source/unit/uhf_rfid.rst:449 eedd8c511ab645f5b82ea91aa822e4fa
+msgid "target."
+msgstr "target."
+
+#: ../../source/unit/uhf_rfid.rst:450 2663dc76a79749e7b5f1cc68c80e443b
+msgid "action."
+msgstr "action."
+
+#: ../../source/unit/uhf_rfid.rst:451 ../../source/unit/uhf_rfid.rst:572
+#: ../../source/unit/uhf_rfid.rst:595 6002fdc318944f35a444c739baa29d52
+#: 7d12added3074a83b895ca668a51d9ba bacfdcd5e44042b58d1ed25350ed71d2
+msgid "memory bank."
+msgstr "memory bank"
+
+#: ../../source/unit/uhf_rfid.rst:452 2a66713259104c959b85f7b8fe423d50
+msgid "pointer."
+msgstr "pointer."
+
+#: ../../source/unit/uhf_rfid.rst:453 c2432238a4da4ca78c4fccd9c65176c4
+msgid "truncate."
+msgstr "truncate。"
+
+#: ../../source/unit/uhf_rfid.rst:454 3f0c4cd78b6e46eb8efa7c1157783b68
+msgid "EPC code. hexadecimal string."
+msgstr "EPC 码，十六进制字符串。"
+
+#: ../../source/unit/uhf_rfid.rst:460 203adc7917e84943a4262c2facd4cdb7
+msgid "|select.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:36 a8d84b0b8d6b4147bba5c244bc8f66ed
+msgid "select.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:465 32db0b1767c242febe8c40f18b20ea87
+msgid "Set access password."
+msgstr "设置访问密码。"
+
+#: ../../source/unit/uhf_rfid.rst:467 539dd701f2db4c39a9f614cdd983890a
+msgid "old access password. hexadecimal string."
+msgstr "旧访问密码，十六进制字符串。"
+
+#: ../../source/unit/uhf_rfid.rst:468 998359b749044dfabc1ed60ee285bc3d
+msgid "new access password. hexadecimal string."
+msgstr "新的访问密码。十六进制字符串。"
+
+#: ../../source/unit/uhf_rfid.rst:472 95b9e4f0ff7c4f21be3f68cde481c290
+msgid "|set_access_password.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:37 e43655b58cd542bebaf000c8b15a5276
+msgid "set_access_password.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:477 455f15318518477dbbd1f9701ac0b919
+msgid "Set kill password."
+msgstr "设置 kill 密码。"
+
+#: ../../source/unit/uhf_rfid.rst:479 ../../source/unit/uhf_rfid.rst:490
+#: 72dc7d8b8d0a41d291d0c8c4c152f5f9 9efbcb1813654a3c81b384b7c00d8e37
+msgid "kill password. hexadecimal string."
+msgstr "击杀密码：十六进制字符串。"
+
+#: ../../source/unit/uhf_rfid.rst:483 33641f56c7fa4f8a89a92d2e964404b6
+msgid "|set_kill_password.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:38 7f415dbc1cd24488b257751c859417b2
+msgid "set_kill_password.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:488 6ccd40470ca14906ac12cd73f547513d
+msgid "Kill tag."
+msgstr "杀死标签。"
+
+#: ../../source/unit/uhf_rfid.rst:496 0850b31bc03a4c5a8286948de06a3d6a
+msgid "|kill.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:39 5d4b7511e92e428ea1bcbb4a2c0f3242
+msgid "kill.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:500 620d45df3e1e4a82a1ef2ef81cab5c13
+msgid "Set query parameter."
+msgstr "设置查询参数。"
+
+#: ../../source/unit/uhf_rfid.rst:502 d84d24a524134ef78efeda14b18097da
+msgid "dr. fixed to 0."
+msgstr "dr. 固定为 0。"
+
+#: ../../source/unit/uhf_rfid.rst:503 b06f920b43ac4f809b60101b714a2a3e
+msgid "m. fixed to 0."
+msgstr "m. 修正为 0。"
+
+#: ../../source/unit/uhf_rfid.rst:503 1b616339ba564fad9ebf4a387d0f0800
+msgid "fixed to 0."
+msgstr "已修正为 0。"
+
+#: ../../source/unit/uhf_rfid.rst:504 11efbaa2525040acb92a59f14e1d2811
+msgid "tr_ext. fixed to 1."
+msgstr "tr_ext. 修复为 1。"
+
+#: ../../source/unit/uhf_rfid.rst:505 1907ca0c98fd4971b555ba2c017c7342
+msgid "sel. the range is from 0 to 3."
+msgstr "sel，范围是 0 到 3。"
+
+#: ../../source/unit/uhf_rfid.rst:506 0c1910b8c55b4d0cbdda32c4a15afd03
+msgid "session. the range is from 0 to 3."
+msgstr "会话。范围是从 0 到 3。"
+
+#: ../../source/unit/uhf_rfid.rst:507 44f297f57c754c9eb06e656b92f65370
+msgid "target. the range is from 0 to 1."
+msgstr "目标。范围是 0 到 1。"
+
+#: ../../source/unit/uhf_rfid.rst:508 5f2c2172f7bd4bb3bcfc3fc760ef2716
+msgid "q. the range is from 0 to 8."
+msgstr "范围是 0 到 8。"
+
+#: ../../source/unit/uhf_rfid.rst:508 f380b2f0e3314bc09ec5b80f839942ec
+msgid "the range is from 0 to 8."
+msgstr "范围是从 0 到 8。"
+
+#: ../../source/unit/uhf_rfid.rst:514 bfd4e4cbfbc548eeb786f1f83402d7f2
+msgid "|set_query_param.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:40 f74bac62cdf243449214783f039a8827
+msgid "set_query_param.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:519 5e5f8a8f56534c5ab675d0734687e3ce
+msgid "Lock memory bank."
+msgstr "锁定内存库。"
+
+#: ../../source/unit/uhf_rfid.rst:521 85d26a52c15c4117bb9a328b9eaf7686
+msgid ""
+"kill lock.  Options:     - UHFRFIDUnit.OPEN: open     - UHFRFIDUnit.LOCK:"
+" lock     - UHFRFIDUnit.PERMA_OPEN: perma open     - "
+"UHFRFIDUnit.PERMA_LOCK: perma lock"
+msgstr ""
+"关闭锁定。选项：     - UHFRFIDUnit.OPEN：打开     - UHFRFIDUnit.LOCK：锁定     - "
+"UHFRFIDUnit.PERMA_OPEN：永久打开     - UHFRFIDUnit.PERMA_LOCK：永久锁定"
+
+#: ../../source/unit/uhf_rfid.rst:521 80acc73370194528bdcc96815b194749
+msgid "kill lock."
+msgstr "kill lock."
+
+#: ../../source/unit/uhf_rfid.rst:524 ../../source/unit/uhf_rfid.rst:532
+#: ../../source/unit/uhf_rfid.rst:540 ../../source/unit/uhf_rfid.rst:548
+#: ../../source/unit/uhf_rfid.rst:556 23d22bc15a60480c885d6bf5a8ae208b
+#: 2de9b211df90454092d24b75d2f46ab3 96c2383d1cd04319a13d7f3e0bb12e54
+#: 98479930683b4f18b3071e8368bdf0c4 e2f1def5dd4c4a2295e7a0f75cb71ad3
+msgid "UHFRFIDUnit.OPEN: open"
+msgstr "打开"
+
+#: ../../source/unit/uhf_rfid.rst:525 ../../source/unit/uhf_rfid.rst:533
+#: ../../source/unit/uhf_rfid.rst:541 ../../source/unit/uhf_rfid.rst:549
+#: ../../source/unit/uhf_rfid.rst:557 08dfb3d7025b4932a45091d5cb97c657
+#: 75f42f78252849b89be7ef53fcaa3299 791148ad4bdc4bf38051bb9e8d4c3481
+#: b42d91afcecf47a6b4a49de80abf1a46 c884a431a04d4ec4b898c274040a0f3b
+msgid "UHFRFIDUnit.LOCK: lock"
+msgstr "锁定"
+
+#: ../../source/unit/uhf_rfid.rst:526 ../../source/unit/uhf_rfid.rst:534
+#: ../../source/unit/uhf_rfid.rst:542 ../../source/unit/uhf_rfid.rst:550
+#: ../../source/unit/uhf_rfid.rst:558 6545ae087302448fbe1f4f2003bb56fd
+#: 87b195154d6544f89dc60a38974e91ca 8d00f00c40ed40e4b07fc092c6306eac
+#: 990d14bbb94749569ad07c592d347cd3 f3d0651caad24ad5932442a95459b20f
+msgid "UHFRFIDUnit.PERMA_OPEN: perma open"
+msgstr "UHFRFIDUnit.PERMA_OPEN：永久开启"
+
+#: ../../source/unit/uhf_rfid.rst:527 ../../source/unit/uhf_rfid.rst:535
+#: ../../source/unit/uhf_rfid.rst:543 ../../source/unit/uhf_rfid.rst:551
+#: ../../source/unit/uhf_rfid.rst:559 39f0a5e5c0f446959d086df7a08b0d5a
+#: 6531aa30607647969478694d848e7fae b21d8af96b8c45849dec8be630052c54
+#: bed78b8f415145bfbff35d4cab163e07 d798ba516a02472d9f9b5c96cd9d83aa
+msgid "UHFRFIDUnit.PERMA_LOCK: perma lock"
+msgstr "UHFRFIDUnit.PERMA_LOCK：永久锁定"
+
+#: ../../source/unit/uhf_rfid.rst:529 74defc69002d4f75bfc62cc3aa5337f6
+msgid ""
+"access lock.  Options:     - UHFRFIDUnit.OPEN: open     - "
+"UHFRFIDUnit.LOCK: lock     - UHFRFIDUnit.PERMA_OPEN: perma open     - "
+"UHFRFIDUnit.PERMA_LOCK: perma lock"
+msgstr ""
+"访问锁。选项：     - UHFRFIDUnit.OPEN：打开     - UHFRFIDUnit.LOCK：锁定     - "
+"UHFRFIDUnit.PERMA_OPEN：永久打开     - UHFRFIDUnit.PERMA_LOCK：永久锁定"
+
+#: ../../source/unit/uhf_rfid.rst:529 a06dbde8f79d46b2901a698225977b21
+msgid "access lock."
+msgstr "访问锁。"
+
+#: ../../source/unit/uhf_rfid.rst:537 42d57bdd7ca449aba7f3468ab36572b4
+msgid ""
+"epc lock.  Options:     - UHFRFIDUnit.OPEN: open     - UHFRFIDUnit.LOCK: "
+"lock     - UHFRFIDUnit.PERMA_OPEN: perma open     - "
+"UHFRFIDUnit.PERMA_LOCK: perma lock"
+msgstr ""
+"epc 锁定。选项：     - UHFRFIDUnit.OPEN: 开放     - UHFRFIDUnit.LOCK: 锁定     - "
+"UHFRFIDUnit.PERMA_OPEN: 永久开放     - UHFRFIDUnit.PERMA_LOCK: 永久锁定"
+
+#: ../../source/unit/uhf_rfid.rst:537 912e42dbd08c401a88dc18ffa2e989ae
+msgid "epc lock."
+msgstr "EPC 锁定。"
+
+#: ../../source/unit/uhf_rfid.rst:545 b1b1b340d0ca4c3292f46a3f370511a5
+msgid ""
+"tid lock.  Options:     - UHFRFIDUnit.OPEN: open     - UHFRFIDUnit.LOCK: "
+"lock     - UHFRFIDUnit.PERMA_OPEN: perma open     - "
+"UHFRFIDUnit.PERMA_LOCK: perma lock"
+msgstr ""
+"tid 锁定。选项：     - UHFRFIDUnit.OPEN：开启     - UHFRFIDUnit.LOCK：锁定     - "
+"UHFRFIDUnit.PERMA_OPEN：永久开启     - UHFRFIDUnit.PERMA_LOCK：永久锁定"
+
+#: ../../source/unit/uhf_rfid.rst:545 ffbad1ab885247bc9a7946887a764f79
+msgid "tid lock."
+msgstr "tid 锁定。"
+
+#: ../../source/unit/uhf_rfid.rst:553 9dd668577e6842d3b4d9e8f3a0281b79
+msgid ""
+"user lock.  Options:     - UHFRFIDUnit.OPEN: open     - UHFRFIDUnit.LOCK:"
+" lock     - UHFRFIDUnit.PERMA_OPEN: perma open     - "
+"UHFRFIDUnit.PERMA_LOCK: perma lock"
+msgstr ""
+"用户锁定。选项：     - UHFRFIDUnit.OPEN：打开     - UHFRFIDUnit.LOCK：锁定     - "
+"UHFRFIDUnit.PERMA_OPEN：永久打开     - UHFRFIDUnit.PERMA_LOCK：永久锁定"
+
+#: ../../source/unit/uhf_rfid.rst:553 1c35d4e7d350454e83ea7402bb92a4fa
+msgid "user lock."
+msgstr "用户锁定。"
+
+#: ../../source/unit/uhf_rfid.rst:561 ../../source/unit/uhf_rfid.rst:582
+#: ../../source/unit/uhf_rfid.rst:605 ../../source/unit/uhf_rfid.rst:620
+#: ../../source/unit/uhf_rfid.rst:635 ../../source/unit/uhf_rfid.rst:649
+#: ../../source/unit/uhf_rfid.rst:664 ../../source/unit/uhf_rfid.rst:691
+#: ../../source/unit/uhf_rfid.rst:705 ../../source/unit/uhf_rfid.rst:719
+#: ../../source/unit/uhf_rfid.rst:735 071008d4b09e4f7da213284c8bff14a5
+#: 56770615e95e49f9b2d4dce958e947ca 60f5d5a55ae44bbbb6b8206590617691
+#: 66c84ad2c7974cae9e6768ca0b2c300d 8feafc221f0748f4883a487731b2850a
+#: 916d31af689b4ab4bdf44bf4db7e9002 cf363a3b591e462997da07c243b68965
+#: cf4dbe9698454a8d8c8fe37834b9a133 d55bb23bedb041fea60563f82939b32b
+#: dd6b6c4835244369a4d288e4ee5f02f1 f4ecdc417991427e8ca83f3978294737
+msgid "access password. hexadecimal string."
+msgstr "访问密码，十六进制字符串。"
+
+#: ../../source/unit/uhf_rfid.rst:565 11bd485a5cea4ab38e530b8b255fcc19
+msgid "|lock_mem_bank.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:41 705f6fe8490c41468ad11f0fd41c4892
+msgid "lock_mem_bank.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:570 4f671e530cc24de19e1a525d9c83dc37
+msgid "Read memory bank."
+msgstr "读取存储器组。"
+
+#: ../../source/unit/uhf_rfid.rst:572 ../../source/unit/uhf_rfid.rst:595
+#: a57f0ba279e04519afebbcdbf6fd9a3c bed7e551e81a4d8396d84154440f3a75
+msgid ""
+"memory bank.  Options:     - UHFRFIDUnit.RFU: reserved     - "
+"UHFRFIDUnit.EPC: epc     - UHFRFIDUnit.TID: tid     - UHFRFIDUnit.USER: "
+"user"
+msgstr ""
+"存储区。选项：     - UHFRFIDUnit.RFU：保留     - UHFRFIDUnit.EPC：epc     - "
+"UHFRFIDUnit.TID：tid     - UHFRFIDUnit.USER：user"
+
+#: ../../source/unit/uhf_rfid.rst:575 ../../source/unit/uhf_rfid.rst:598
+#: 3d7d0339f504409394c4b7461c492124 7e289a171de24ec5b9cccf011fffd94e
+msgid "UHFRFIDUnit.RFU: reserved"
+msgstr "UHFRFIDUnit.RFU：保留字段"
+
+#: ../../source/unit/uhf_rfid.rst:576 ../../source/unit/uhf_rfid.rst:599
+#: a4a664b76a9d474ba022033a3337be6d e7f348fbba464682b96265dcc5fef919
+msgid "UHFRFIDUnit.EPC: epc"
+msgstr "UHFRFIDUnit.EPC：epc"
+
+#: ../../source/unit/uhf_rfid.rst:577 ../../source/unit/uhf_rfid.rst:600
+#: 66f3ab99347946f991b0e787efbb2f46 8659a41d8e5446b9a8f47c3b7809f398
+msgid "UHFRFIDUnit.TID: tid"
+msgstr "UHFRFIDUnit.TID：tid"
+
+#: ../../source/unit/uhf_rfid.rst:578 ../../source/unit/uhf_rfid.rst:601
+#: 4e0d64270a014b37a1802967f3e43bf5 7eb577ca7cff4c80b5361266056125b3
+msgid "UHFRFIDUnit.USER: user"
+msgstr "user"
+
+#: ../../source/unit/uhf_rfid.rst:580 ../../source/unit/uhf_rfid.rst:603
+#: 578fd428f4cd444486ed7ce97a7f2aaa 75fa60f34fee4c37bc135ab9129b11ef
+msgid "offset."
+msgstr "offset。"
+
+#: ../../source/unit/uhf_rfid.rst:581 259eb7ec07e1452ba6d1c3f3c4ccbb80
+msgid "length."
+msgstr "length."
+
+#: ../../source/unit/uhf_rfid.rst:584 ../../source/unit/uhf_rfid.rst:604
+#: 084e077dfd4b41b096d1a213e5074863 631d91c042074e87ae340e353e33ad92
+msgid "data. hexadecimal string."
+msgstr "数据。十六进制字符串。"
+
+#: ../../source/unit/uhf_rfid.rst:588 e9ae182d4fbc4ccca4e7ca7e74a8a0b6
+msgid "|read_mem_bank.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:42 b066ada6530f4287a55a514cd55d52c1
+msgid "read_mem_bank.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:593 4517954580bf46ff849364741681ed2d
+msgid "Write memory bank."
+msgstr "写入内存库。"
+
+#: ../../source/unit/uhf_rfid.rst:609 712f6da3a477476e849199858b9a2463
+msgid "|write_mem_bank.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:43 da1579937b284905819eac5ad761cdd6
+msgid "write_mem_bank.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:613 7213f08ec3334e41be50228b6dd3a8ad
+msgid "Impinj Monza"
+msgstr "Impinj Monza"
+
+#: ../../source/unit/uhf_rfid.rst:617 9375b985b84347c483b450cadc286406
+msgid "Get Impinj Monza QT_SR."
+msgstr "获取 Impinj Monza QT_SR。"
+
+#: ../../source/unit/uhf_rfid.rst:619 ../../source/unit/uhf_rfid.rst:634
+#: ../../source/unit/uhf_rfid.rst:648 ../../source/unit/uhf_rfid.rst:663
+#: 03f4c41b5ca848ae8398d9fdc35bb020 562040eaf931487596fe2ce843457609
+#: b63f3e0d8575434d9e44317b53396b2b fd106e39b5a94427a2b06c35505448ff
+msgid "persistence. 0x00 is volatile memory, 0x01 is non-volatile memory."
+msgstr "持久性：0x00 为易失性存储器，0x01 为非易失性存储器。"
+
+#: ../../source/unit/uhf_rfid.rst:622 ../../source/unit/uhf_rfid.rst:633
+#: 7b760350f04044cc82727dc72cc4246b b9ba3be57ef94b0b880a93be610000ed
+msgid "QT_SR status."
+msgstr "QT_SR 状态。"
+
+#: ../../source/unit/uhf_rfid.rst:626 cbd27d9b3c3e437ba07c23fa51b7b075
+msgid "|get_impinj_monza_qt_sr.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:44 2df23b0dd1d14994b8f35bbc92f75dd7
+msgid "get_impinj_monza_qt_sr.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:631 ace9908aea25477ea685838f0780a1cc
+msgid "Set Impinj Monza QT_SR."
+msgstr "设置 Impinj Monza QT_SR。"
+
+#: ../../source/unit/uhf_rfid.rst:641 a849b5b3639d452ba3eb423f0cc53951
+msgid "|set_impinj_monza_qt_sr.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:45 78f9ebbb39ba4145931cf10f32cbae92
+msgid "set_impinj_monza_qt_sr.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:646 ../../source/unit/uhf_rfid.rst:660
+#: 2467da962ea54cafb7bdbfd80b0e5cbc eb0de0c6ffb4497f853653bca1910936
+msgid "Set Impinj Monza QT_MEM."
+msgstr "设置 Impinj Monza QT_MEM。"
+
+#: ../../source/unit/uhf_rfid.rst:651 ../../source/unit/uhf_rfid.rst:662
+#: 574d914ec21f4686846fbad8e43f6fd4 76f06807a0134e0aaa83fb6030060ad3
+msgid "QT_MEM status."
+msgstr "QT_MEM 状态。"
+
+#: ../../source/unit/uhf_rfid.rst:655 a5886c75d85b4f619769def67159606b
+msgid "|get_impinj_monza_qt_mem.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:46 2262a8eb916348d898b7421c5caa4353
+msgid "get_impinj_monza_qt_mem.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:670 a7bed057205f46b5908a290946b5df98
+msgid "|set_impinj_monza_qt_mem.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:47 ccfd1934334b43cca699a2fe07d853f8
+msgid "set_impinj_monza_qt_mem.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:674 d33c52a2d48546cd828d8c9bd2791d5d
+msgid "NXP"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:678 0c6549d94a854a818d5c1933f951fceb
+msgid "Get NXP EAS alarm code."
+msgstr "获取 NXP EAS 报警代码。"
+
+#: ../../source/unit/uhf_rfid.rst:680 4532971ad7f74faba963178478aa890c
+msgid "NXP EAS alarm code. hexadecimal string."
+msgstr "NXP EAS 报警代码（十六进制字符串）。"
+
+#: ../../source/unit/uhf_rfid.rst:684 bb87aef5e43542c9aea821eb3cef1be1
+msgid "|nxp_eas_alarm.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:48 687b8aa6bb7a46aeb64ef2407ab758e2
+msgid "nxp_eas_alarm.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:689 6988cb7bfbcd4b00ad84c97383899201
+msgid "Get NXP config word."
+msgstr "获取 NXP 配置字。"
+
+#: ../../source/unit/uhf_rfid.rst:693 ../../source/unit/uhf_rfid.rst:704
+#: 984687b82b35459aaba6f804309bf404 bfed18fb7402414eafa7c05569c55505
+msgid "NXP config word."
+msgstr "NXP 配置字。"
+
+#: ../../source/unit/uhf_rfid.rst:697 fa01ec52966946cba3162acc803382f8
+msgid "|get_nxp_config_word.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:49 4d6943d953cf4a07b0e08e8811de440c
+msgid "get_nxp_config_word.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:702 be79134893c4410f905015f4de901eda
+msgid "Set NXP config word."
+msgstr "设置 NXP 配置字。"
+
+#: ../../source/unit/uhf_rfid.rst:711 756aa0205376456ab037002f6e9067a1
+msgid "|set_nxp_config_word.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:50 db67028e09fc4b46b6adcccf06bb9a50
+msgid "set_nxp_config_word.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:716 cf4a6efa893d48568f378dcd7b1210b2
+msgid "Set NXP read protect."
+msgstr "设置 NXP 读取保护。"
+
+#: ../../source/unit/uhf_rfid.rst:718 496f03c0384049a48b1cd867ef9b3b63
+msgid "set read protect. 0x00 is set read protect, 0x01 is reset read protect."
+msgstr "设置读保护。0x00 表示设置读保护，0x01 表示解除读保护。"
+
+#: ../../source/unit/uhf_rfid.rst:725 e392b30437c443b3bd38b86093ccba44
+msgid "|nxp_read_protect.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:51 a5f4487da95945878b3be6eb108b67d4
+msgid "nxp_read_protect.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:727 69a7f342d7fe44c9a036052183344629
+msgid "|nxp_read_protect1.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:52 24ac3bc3b4584a74a0786a5e23b716a4
+msgid "nxp_read_protect1.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:732 81553d1ec5b64da8b53fe1ced50a8da1
+msgid "Change NXP EAS."
+msgstr "更改 NXP EAS。"
+
+#: ../../source/unit/uhf_rfid.rst:734 7e04224bf3b648f0b8ac82e2203137d9
+msgid "set EAS. 0x00 is set EAS, 0x01 is reset EAS."
+msgstr "设置 EAS。0x00 为设置 EAS，0x01 为重置 EAS。"
+
+#: ../../source/unit/uhf_rfid.rst:741 7b9321052c254967b5f2ee03004ad598
+msgid "|nxp_change_eas.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:53 d70faa031afa4b47b7dc14961afab1b6
+msgid "nxp_change_eas.png"
+msgstr ""
+
+#: ../../source/unit/uhf_rfid.rst:743 0d6861ec98714207b85d316f374b4f2c
+msgid "|nxp_change_eas1.png|"
+msgstr ""
+
+#: ../../source/refs/unit.uhf_rfid.ref:54 f81bd5910a794555a857570a10300fc3
+msgid "nxp_change_eas1.png"
+msgstr ""
+

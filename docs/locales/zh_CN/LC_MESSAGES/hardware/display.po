@@ -34,7 +34,7 @@ msgstr "M5 系列显示库说明"
 
 #: ../../en/hardware/display.rst:18 4c9baeb5cca147859fc647625b345d53
 msgid "1. Display"
-msgstr ""
+msgstr "1. 显示"
 
 #: ../../en/hardware/display.rst:19 04c5e28125404c9b9249cc14e085cb9a
 msgid ""
@@ -50,7 +50,7 @@ msgstr "可独立使用，适合只需要绘制图形或文字的场景。"
 
 #: ../../en/hardware/display.rst:23 244a08bd49414120adef46d24bc23cc5
 msgid "2. M5Widgets"
-msgstr ""
+msgstr "2. M5Widgets"
 
 #: ../../en/hardware/display.rst:24 13cf80da751f45a3813108cd96591932
 msgid ""
@@ -68,7 +68,7 @@ msgstr "适合需要简单交互控件的界面。"
 
 #: ../../en/hardware/display.rst:29 29f5438aa5ba44d78abe08b7b78b2f4f
 msgid "3. M5UI"
-msgstr ""
+msgstr "3. M5UI"
 
 #: ../../en/hardware/display.rst:30 4b3749defc644179a6cf38cd7a65bd85
 msgid "A high-level UI framework based on LVGL."
@@ -251,7 +251,7 @@ msgstr ""
 #: ../../en/hardware/display.rst:169 ../../en/hardware/display.rst:193
 #: 025ec47b364d4c78a4690fc0d08bfa32
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../en/hardware/display.rst:139 0d9c2b91685d43aebb2e6c174bfdc933
 msgid "|width.png|"
@@ -267,7 +267,7 @@ msgstr "获取显示屏垂直分辨率。"
 
 #: ../../en/hardware/display.rst 972d3e63a52e4492bde4895c8a78d624
 msgid "returns height"
-msgstr ""
+msgstr "returns height"
 
 #: ../../en/hardware/display.rst:151 66c4a484e863416d8c2120705120f4c9
 msgid "vertical resolution in pixels."
@@ -287,7 +287,7 @@ msgstr "获取显示屏旋转方向。"
 
 #: ../../en/hardware/display.rst 2612dcf96c664fd7911a389c23104356
 msgid "returns rotation"
-msgstr ""
+msgstr "returns rotation"
 
 #: ../../en/hardware/display.rst:168 e29d1a034ddf4ed3b295d7f2583e413a
 msgid "display rotation value."
@@ -295,23 +295,23 @@ msgstr "旋转方向值"
 
 #: ../../en/hardware/display.rst:171 5597921ea70f4e419d829203c290884c
 msgid "Rotation values:"
-msgstr ""
+msgstr "旋转值："
 
 #: ../../en/hardware/display.rst:173 192468d742e8415cb4f30fea865d2a40
 msgid "1: 0° rotation"
-msgstr ""
+msgstr "1：0° 旋转。"
 
 #: ../../en/hardware/display.rst:174 3333e630e02b497e821b00e030f4b270
 msgid "2: 90° rotation"
-msgstr ""
+msgstr "2：旋转 90°"
 
 #: ../../en/hardware/display.rst:175 29c5e0869e2b4d06ade7971890592979
 msgid "3: 180° rotation"
-msgstr ""
+msgstr "3：180° 旋转。"
 
 #: ../../en/hardware/display.rst:176 0ff00bc591434fe99a513e74f5e0a8ad
 msgid "4: 270° rotation"
-msgstr ""
+msgstr "4：270° 旋转。"
 
 #: ../../en/hardware/display.rst:180 4eb25c9ea536443080fa54d38cea09f7
 msgid "|getrotation.png|"
@@ -327,7 +327,7 @@ msgstr "获取显示屏颜色深度。"
 
 #: ../../en/hardware/display.rst d2b2c8fc5eef49938835ece4a56799c1
 msgid "returns depth"
-msgstr ""
+msgstr "returns depth"
 
 #: ../../en/hardware/display.rst:192 ae6b19bbe95a40cdbf60f80c0be8a870
 msgid "color depth in bits per pixel."
@@ -347,7 +347,7 @@ msgstr "获取显示屏绘图光标位置。"
 
 #: ../../en/hardware/display.rst b813425d979540feb08d4876e9d4f4be
 msgid "returns pos"
-msgstr ""
+msgstr "returns pos"
 
 #: ../../en/hardware/display.rst:209 e0d25d41b053471cbe4635348b474b31
 msgid "tuple (x, y) of cursor position."
@@ -355,7 +355,7 @@ msgstr "tuple (x, y) 光标位置。"
 
 #: ../../en/hardware/display.rst:210 54031592f0334761ac9d148a6feb1a6f
 msgid "tuple"
-msgstr ""
+msgstr "tuple"
 
 #: ../../en/hardware/display.rst:214 5fe30e8270444c6e856416cd5fe60ab5
 msgid "|getcursor.png|"
@@ -378,7 +378,7 @@ msgstr ""
 msgid ""
 "rotation value (1~4) - 1: 0° rotation - 2: 90° rotation - 3: 180° "
 "rotation - 4: 270° rotation"
-msgstr ""
+msgstr "旋转值（1～4）：- 1：旋转 0°。- 2：旋转 90°。- 3：旋转 180°。- 4：旋转 270°。"
 
 #: ../../en/hardware/display.rst:234 1656b2e2c6ad407099b798dfaf781fba
 msgid "|setrotation.png|"
@@ -420,6 +420,8 @@ msgid ""
 "M5.Lcd.EPDMode.EPD_TEXT - 2: M5.Lcd.EPDMode.EPD_FAST - 3: "
 "M5.Lcd.EPDMode.EPD_FASTEST"
 msgstr ""
+"所需 EPD 模式 - 0：M5.Lcd.EPDMode.EPD_QUALITY - 1：M5.Lcd.EPDMode.EPD_TEXT - "
+"2：M5.Lcd.EPDMode.EPD_FAST - 3：M5.Lcd.EPDMode.EPD_FASTEST"
 
 #: ../../en/hardware/display.rst:270 128a3332208f40d1b012f513d194674c
 msgid "Notes: Only applicable to devices with EPD capabilities."
@@ -439,7 +441,7 @@ msgstr "检查显示屏是否为电子墨水屏（EPD）。"
 
 #: ../../en/hardware/display.rst fcc7d9ee4d5b481981d78e04cf340032
 msgid "returns is_epd"
-msgstr ""
+msgstr "returns is_epd"
 
 #: ../../en/hardware/display.rst:286 418b6c3043d946238fa061b77a49a001
 msgid "True if the display is EPD, False otherwise."
@@ -447,7 +449,7 @@ msgstr "如果显示屏为 EPD，则返回 True，否则返回 False。"
 
 #: ../../en/hardware/display.rst:287 bfdb728c53cf4c9f87141c534ca10f73
 msgid "bool"
-msgstr ""
+msgstr "bool"
 
 #: ../../en/hardware/display.rst:291 75573cd4e50f4afb803152636de2bb61
 msgid "|isepd.png|"
@@ -469,6 +471,10 @@ msgid ""
 "M5.Lcd.FONTS.DejaVu72 - M5.Lcd.FONTS.EFontCN24 - M5.Lcd.FONTS.EFontJA24 -"
 " M5.Lcd.FONTS.EFontKR24"
 msgstr ""
+"字体类型。可用选项：- M5.Lcd.FONTS.ASCII7 - M5.Lcd.FONTS.DejaVu9 - "
+"M5.Lcd.FONTS.DejaVu12 - M5.Lcd.FONTS.DejaVu18 - M5.Lcd.FONTS.DejaVu24 - "
+"M5.Lcd.FONTS.DejaVu40 - M5.Lcd.FONTS.DejaVu56 - M5.Lcd.FONTS.DejaVu72 - "
+"M5.Lcd.FONTS.EFontCN24 - M5.Lcd.FONTS.EFontJA24 - M5.Lcd.FONTS.EFontKR24"
 
 #: ../../en/hardware/display.rst:303 27a9b9cc9dde4d7789bde8999c8d41c3
 msgid "font type. Available options:"
@@ -476,11 +482,11 @@ msgstr "字体类型，可选："
 
 #: ../../en/hardware/display.rst:305 3cdaebbbc3d2475d86c32bb047840fe0
 msgid "M5.Lcd.FONTS.ASCII7"
-msgstr ""
+msgstr "M5.Lcd.FONTS.ASCII7"
 
 #: ../../en/hardware/display.rst:306 9dc8f691fb824fbe8bb8755587047968
 msgid "M5.Lcd.FONTS.DejaVu9"
-msgstr ""
+msgstr "M5.Lcd.FONTS.DejaVu9"
 
 #: ../../en/hardware/display.rst:307 66da74f734974f3785c51f579b218c91
 msgid "M5.Lcd.FONTS.DejaVu12"
@@ -492,31 +498,31 @@ msgstr ""
 
 #: ../../en/hardware/display.rst:309 a67a9687461a46bb93457fb1319de008
 msgid "M5.Lcd.FONTS.DejaVu24"
-msgstr ""
+msgstr "M5.Lcd.FONTS.DejaVu24"
 
 #: ../../en/hardware/display.rst:310 704f9b783ae247aca62bbe49a3b982f2
 msgid "M5.Lcd.FONTS.DejaVu40"
-msgstr ""
+msgstr "M5.Lcd.FONTS.DejaVu40"
 
 #: ../../en/hardware/display.rst:311 2c1f120485034788833f21b00d827948
 msgid "M5.Lcd.FONTS.DejaVu56"
-msgstr ""
+msgstr "M5.Lcd.FONTS.DejaVu56"
 
 #: ../../en/hardware/display.rst:312 75f93476fb5b486d85e734d2aff306fd
 msgid "M5.Lcd.FONTS.DejaVu72"
-msgstr ""
+msgstr "M5.Lcd.FONTS.DejaVu72"
 
 #: ../../en/hardware/display.rst:313 4b97d6672b124144ac6806c837cf39ea
 msgid "M5.Lcd.FONTS.EFontCN24"
-msgstr ""
+msgstr "M5.Lcd.FONTS.EFontCN24"
 
 #: ../../en/hardware/display.rst:314 31f4157b748841b58d59bdf25cc6fa09
 msgid "M5.Lcd.FONTS.EFontJA24"
-msgstr ""
+msgstr "M5.Lcd.FONTS.EFontJA24"
 
 #: ../../en/hardware/display.rst:315 6b308500a2174f2e93f1036509560e80
 msgid "M5.Lcd.FONTS.EFontKR24"
-msgstr ""
+msgstr "M5.Lcd.FONTS.EFontKR24"
 
 #: ../../en/hardware/display.rst:319 4ea94b26cd5d43deb5a229faada57e19
 msgid "|setfont.png|"

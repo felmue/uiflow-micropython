@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/m5ui/canvas.rst:4 ../../en/m5ui/canvas.rst:53
 #: 8768b891c7a545dc912c9a8472b6df12 ac10d329627449579d9b3ab8edafe40f
@@ -40,7 +40,7 @@ msgstr "UiFlow2 应用示例"
 #: ../../en/m5ui/canvas.rst:15 ../../en/m5ui/canvas.rst:34
 #: ba95f12783044027bf4488985231b60b c0f6e1e6bb73487ab83465fa7b5d01f8
 msgid "draw basic shapes"
-msgstr ""
+msgstr "绘制基本形状"
 
 #: ../../en/m5ui/canvas.rst:17 6b880d58607249f1b48bea4ad2a64712
 msgid "Open the |cores3_canvas_basic_example.m5f2| project in UiFlow2."
@@ -121,7 +121,7 @@ msgstr "API参考"
 
 #: 0214bfcf5a814324a02b8e74abc11fac m5ui.canvas.M5Canvas:1 of
 msgid "Bases: :py:class:`~lvgl.canvas`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.canvas`"
 
 #: 098fce33424f41ba940e661611b4b165 m5ui.canvas.M5Canvas:1 of
 msgid "Create a canvas widget for drawing."
@@ -527,43 +527,43 @@ msgstr "要绘制的边框边（例如，lv.BORDER_SIDE.FULL）。"
 
 #: 7b840a66e7b148d0a9a23ffd528d21f2 m5ui.canvas.M5Canvas.draw_rect:14 of
 msgid "The outline color of the rectangle in hexadecimal format (e.g., 0xRRGGBB)."
-msgstr ""
+msgstr "矩形轮廓颜色的十六进制格式（例如 0xRRGGBB）。"
 
 #: ece6de775d134b1c9469d0e41a45e0f6 m5ui.canvas.M5Canvas.draw_rect:15 of
 msgid "The opacity of the outline (0-255)."
-msgstr ""
+msgstr "轮廓的不透明度（0-255）。"
 
 #: a4b7932be51546d0ae80060487ec142b m5ui.canvas.M5Canvas.draw_rect:16 of
 msgid "The width of the outline."
-msgstr ""
+msgstr "轮廓线的宽度。"
 
 #: ca396cceb3bf45c8aa743dd78c016723 m5ui.canvas.M5Canvas.draw_rect:17 of
 msgid "The padding of the outline."
-msgstr ""
+msgstr "轮廓的内边距。"
 
 #: 37d345b70ccf4a8c9d67aec31886f62a m5ui.canvas.M5Canvas.draw_rect:18 of
 msgid "The shadow color of the rectangle in hexadecimal format (e.g., 0xRRGGBB)."
-msgstr ""
+msgstr "矩形阴影颜色的十六进制格式（例如 0xRRGGBB）。"
 
 #: 888026b534194555934d4b8c1b43ecdc m5ui.canvas.M5Canvas.draw_rect:19 of
 msgid "The opacity of the shadow (0-255)."
-msgstr ""
+msgstr "阴影的不透明度（0-255）。"
 
 #: a2eb74b4ecbe48d4880f115efcf74a9a m5ui.canvas.M5Canvas.draw_rect:20 of
 msgid "The width of the shadow."
-msgstr ""
+msgstr "阴影的宽度。"
 
 #: c9ab1a4171ab41fb808c2b8393b36bfd m5ui.canvas.M5Canvas.draw_rect:21 of
 msgid "The horizontal offset of the shadow."
-msgstr ""
+msgstr "阴影的水平偏移量。"
 
 #: 111a4ad0857047f5957106ad819297b2 m5ui.canvas.M5Canvas.draw_rect:22 of
 msgid "The vertical offset of the shadow."
-msgstr ""
+msgstr "阴影的垂直偏移量。"
 
 #: 39bda1e17a724da0a83dc7a02ddf8693 m5ui.canvas.M5Canvas.draw_rect:23 of
 msgid "The spread of the shadow."
-msgstr ""
+msgstr "阴影的扩散。"
 
 #: 78f13e0eaed04248aea55db78018ba35 m5ui.canvas.M5Canvas.draw_rect:27 of
 msgid "|draw_rect.png|"
@@ -591,23 +591,23 @@ msgstr "绘制图像的y坐标。"
 
 #: 9d711cc54b0f4c9eb712f5dce27e2e93 m5ui.canvas.M5Canvas.draw_image:6 of
 msgid "The rotation angle of the image in degrees."
-msgstr ""
+msgstr "图像的旋转角度，单位为度。"
 
 #: a4401e020f644ac79f9de4531efa3229 m5ui.canvas.M5Canvas.draw_image:7 of
 msgid "The horizontal scaling factor of the image."
-msgstr ""
+msgstr "图像的水平缩放系数。"
 
 #: 99421428198f476bb7ef585200fcb2ef m5ui.canvas.M5Canvas.draw_image:8 of
 msgid "The vertical scaling factor of the image."
-msgstr ""
+msgstr "图像的垂直缩放系数。"
 
 #: fa775224d70a4961b471625a7981c895 m5ui.canvas.M5Canvas.draw_image:9 of
 msgid "The horizontal skew angle of the image in degrees."
-msgstr ""
+msgstr "图像的水平倾斜角度（单位：度）。"
 
 #: 5c40b6ac8b6b42b58a138e488f459912 m5ui.canvas.M5Canvas.draw_image:10 of
 msgid "The vertical skew angle of the image in degrees."
-msgstr ""
+msgstr "图像的垂直倾斜角度（单位：度）。"
 
 #: 88d82f7b7d19451fb87b8e283afffe61 m5ui.canvas.M5Canvas.draw_image:14 of
 msgid "|draw_image.png|"
@@ -639,15 +639,15 @@ msgstr "线条终点的y坐标。"
 
 #: 6e2bc3884501457c8f8bc9730ccace6c m5ui.canvas.M5Canvas.draw_line:7 of
 msgid "The color of the line in hexadecimal format (e.g., 0xRRGGBB)."
-msgstr ""
+msgstr "线条颜色，使用十六进制格式（例如 0xRRGGBB）。"
 
 #: b53ee5d8ebf24651a22a1b62d30c3e37 m5ui.canvas.M5Canvas.draw_line:8 of
 msgid "The opacity of the line (0-255)."
-msgstr ""
+msgstr "线条的不透明度（0-255）。"
 
 #: f755476911d04b6d9c187dcd691897d6 m5ui.canvas.M5Canvas.draw_line:9 of
 msgid "The width of the line."
-msgstr ""
+msgstr "线条宽度。"
 
 #: 9581bee11a4845218bf686076981f2b5 m5ui.canvas.M5Canvas.draw_line:13 of
 msgid "|draw_line.png|"
@@ -679,11 +679,11 @@ msgstr "用于标签的字体（默认为lv.font_montserrat_14）。"
 
 #: b7ccc0d8aeed46d2ac22895e13ea0e40 m5ui.canvas.M5Canvas.draw_label:7 of
 msgid "The color of the text in hexadecimal format (e.g., 0xRRGGBB)."
-msgstr ""
+msgstr "文本颜色的十六进制格式（例如 0xRRGGBB）。"
 
 #: ed7fa23dbfa243a28a83d5ad5981a037 m5ui.canvas.M5Canvas.draw_label:8 of
 msgid "The opacity of the text (0-255)."
-msgstr ""
+msgstr "文本的不透明度（0-255）。"
 
 #: 356ad1e49bf144c386bda0b6c47677e1 m5ui.canvas.M5Canvas.draw_label:12 of
 msgid "|draw_label.png|"
@@ -715,21 +715,21 @@ msgstr "第二个顶点的y坐标。"
 
 #: 4339fc24bd864389a1c52f71889b04c5 m5ui.canvas.M5Canvas.draw_triangle:7 of
 msgid "The x-coordinate of the third vertex."
-msgstr ""
+msgstr "第三个顶点的 x 坐标。"
 
 #: 9c57bb80b39947d6be62dfc7654c26b6 m5ui.canvas.M5Canvas.draw_triangle:8 of
 msgid "The y-coordinate of the third vertex."
-msgstr ""
+msgstr "第三个顶点的 y 坐标。"
 
 #: 2ba259696c374fdb9ed4ffba2ae2c71c m5ui.canvas.M5Canvas.draw_triangle:9 of
 msgid ""
 "The background color of the triangle in hexadecimal format (e.g., "
 "0xRRGGBB)."
-msgstr ""
+msgstr "三角形的背景颜色（十六进制格式，例如 0xRRGGBB）。"
 
 #: 1d77c2eef7c34a96aff6a00e0b84c1e6 m5ui.canvas.M5Canvas.draw_triangle:10 of
 msgid "The opacity of the triangle (0-255)."
-msgstr ""
+msgstr "三角形的不透明度（0-255）。"
 
 #: 3a7940d0372244aa8cfc053bbac61866 m5ui.canvas.M5Canvas.draw_triangle:14 of
 msgid "|draw_triangle.png|"

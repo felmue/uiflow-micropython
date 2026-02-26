@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/m5ui/scale.rst:4 ../../en/m5ui/scale.rst:53
 #: 3ff6b5f236d04ce2a6449f4da6387c40 7052ace6d4214bdcb2899784eff8e522
 msgid "M5Scale"
-msgstr ""
+msgstr "M5Scale"
 
 #: ../../en/m5ui/scale.rst:8 575ce3b73df842c2849925b4c9216672
 msgid ""
@@ -45,7 +45,7 @@ msgstr "刻度示例"
 
 #: ../../en/m5ui/scale.rst:17 5744f4d14a7b4d1083c074d58b68cf31
 msgid "Open the |scale_core2_example.m5f2| project in UiFlow2."
-msgstr ""
+msgstr "在 UiFlow2 中打开 |scale_core2_example.m5f2| 项目。"
 
 #: ../../en/m5ui/scale.rst:19 ../../en/m5ui/scale.rst:36
 #: 84c9c86cb2a64e518b7d9526b5d98525
@@ -108,11 +108,11 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/m5ui/scale.rst:50 51cccb56a82348af89037a7e613f0d4b
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: c389d08038954e6d94b953f102a0bb2b m5ui.scale.M5Scale:1 of
 msgid "Bases: :py:class:`~lvgl.scale`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.scale`"
 
 #: 6ec3f9868bda42d6ac8729e8ea0a651a m5ui.scale.M5Scale:1 of
 msgid "Create a scale object."
@@ -168,6 +168,11 @@ msgid ""
 "`lv.scale.MODE.ROUND_INNER`: Round inner scale.     - "
 "`lv.scale.MODE.ROUND_OUTER`: Round outer scale."
 msgstr ""
+"刻度的模式。可以是以下选项之一：选项：- `lv.scale.MODE.HORIZONTAL_TOP`：水平顶部刻度。- "
+"`lv.scale.MODE.HORIZONTAL_BOTTOM`：水平底部刻度。- "
+"`lv.scale.MODE.VERTICAL_LEFT`：垂直左侧刻度。- "
+"`lv.scale.MODE.VERTICAL_RIGHT`：垂直右侧刻度。- "
+"`lv.scale.MODE.ROUND_INNER`：圆形内侧刻度。- `lv.scale.MODE.ROUND_OUTER`：圆形外侧刻度。"
 
 #: 513c463e0be74568b4b48913f7ceea28 m5ui.scale.M5Scale:11 of
 msgid "The mode of the scale. It can be one of the following:"
@@ -316,6 +321,12 @@ msgid ""
 "`lv.scale.MODE.ROUND_INNER`: Round inner scale.     - "
 "`lv.scale.MODE.ROUND_OUTER`: Round outer scale."
 msgstr ""
+"显示模式。可选：      - `lv.scale.MODE.HORIZONTAL_TOP`：水平顶部刻度。     - "
+"`lv.scale.MODE.HORIZONTAL_BOTTOM`：水平底部刻度。     - "
+"`lv.scale.MODE.VERTICAL_LEFT`：垂直左侧刻度。     - "
+"`lv.scale.MODE.VERTICAL_RIGHT`：垂直右侧刻度。     - "
+"`lv.scale.MODE.ROUND_INNER`：圆形内侧刻度。     - "
+"`lv.scale.MODE.ROUND_OUTER`：圆形外侧刻度。"
 
 #: ../../en/m5ui/scale.rst:145 8b7fc8b1af3f4638af3c64e6ee13440c
 msgid "The display mode."

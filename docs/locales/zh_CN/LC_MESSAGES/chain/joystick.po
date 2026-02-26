@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/chain/joystick.rst:2 ../../source/refs/chain.joystick.ref
 #: 03a152def46b4646a7475b530d2f2bfd e0119b04f9c3404b9bd8c1ea1c9c22b9
 msgid "Chain Joystick"
-msgstr ""
+msgstr "Chain Joystick"
 
 #: ../../source/chain/joystick.rst:6 a6eca184445e40dd926084a10cfcd773
 msgid ""
@@ -116,11 +116,11 @@ msgstr "API参考"
 
 #: ../../source/chain/joystick.rst:53 1a75a2956f304495b5e2392fec4d45b4
 msgid "JoystickChain"
-msgstr ""
+msgstr "JoystickChain"
 
 #: 80a32f48547b4fc68d8faa277017042b chain.joystick.JoystickChain:1 of
 msgid "Bases: :py:class:`~chain.key.KeyChain`"
-msgstr ""
+msgstr "Bases: :py:class:`~chain.key.KeyChain`"
 
 #: chain.joystick.JoystickChain:1 f61fdd04ca494232b40369d69f404eef of
 msgid "Joystick Chain class for interacting with joystick devices over Chain bus."

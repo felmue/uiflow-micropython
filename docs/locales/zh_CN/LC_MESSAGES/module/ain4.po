@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../en/module/ain4.rst:3 006356093f7548828ebed27e10f9eadb
 msgid "AIN4 Module"
-msgstr ""
+msgstr "AIN4 Module"
 
 #: ../../en/module/ain4.rst:7 dbd916ee474c4cc983cb7ffd8ec9ec2a
 msgid "The following products are supported:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/ain4.rst:9 a91a8a101eef464a94fd88adcb4873a8
 msgid "|AIN4Module|"
@@ -38,11 +38,11 @@ msgstr ""
 
 #: ../../en/module/ain4.rst:11 7d83b76748914102b7c14286828c52d0
 msgid "Micropython Example::"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/ain4.rst:63 1afe7e11045e499c8717b8e5c8ea12a7
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/module/ain4.rst:65 2d8b4a4d961f41328ca1a4299728ec6f
 msgid "|example.png|"
@@ -58,15 +58,15 @@ msgstr ""
 
 #: ../../en/module/ain4.rst:72 52a8857ca66b41cfb042883689a79bf8
 msgid "class AIN4Module"
-msgstr ""
+msgstr "class AIN4Module"
 
 #: ../../en/module/ain4.rst:75 9d4fbcd9027a4ee79ed37d7c50d27b9a
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/module/ain4.rst:79 59e874b144c94ec7bc212aca9b7a6f66
 msgid "Init I2C Module AIN 4-20mA I2C Address."
-msgstr ""
+msgstr "初始化 I2C 模块 AIN 4-20mA 的 I2C 地址。"
 
 #: ../../en/module/ain4.rst 38f4135e081a4ba3bb2ea8228646f467
 #: 434b9c5f377740c59bb54bfd4b9f029f 7df6c20d74bd47fd9f9f70ae17603cff
@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../../en/module/ain4.rst:81 990ccd67e2b84685998f403e164cceb8
 msgid "I2C address of the AIN4Module."
-msgstr ""
+msgstr "AIN4Module 的 I2C 地址。"
 
 #: ../../en/module/ain4.rst:83 ../../en/module/ain4.rst:99
 #: ../../en/module/ain4.rst:112 ../../en/module/ain4.rst:123
@@ -86,7 +86,7 @@ msgstr ""
 #: 56414ba3f70a41538e97de17247d8091 b269240b7d084d87b64fa8cfa78f6a1d
 #: bae0a0e63f264c53b058188c06e64b95 d119ea768cbc4b2fb25c87c3bab02902
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/module/ain4.rst:85 b61179eaf16243879814adcacd597b29
 msgid "|init.png|"
@@ -102,11 +102,11 @@ msgstr ""
 
 #: ../../en/module/ain4.rst:93 42d4023f0a4e4aa096172f7e4f48504d
 msgid "Retrieves the raw ADC value from the specified channel."
-msgstr ""
+msgstr "从指定通道获取原始 ADC 值。"
 
 #: ../../en/module/ain4.rst:95 2d44d51a4e4a40e09a60b2ef817ab2bd
 msgid "The channel number (1 to 4) to read the ADC value from."
-msgstr ""
+msgstr "要从中读取 ADC 值的通道号（1 到 4）。"
 
 #: ../../en/module/ain4.rst 0e3e3a85bea240a88961448da42a8130
 #: 2c3a912e0468471cbf15f94082855fd9 49208f5cc8934b2dbee1ddb663213950
@@ -116,7 +116,7 @@ msgstr ""
 
 #: ../../en/module/ain4.rst:97 947fe66171cf409eabf10882c678f85e
 msgid "Raw ADC value as a 12-bit integer."
-msgstr ""
+msgstr "原始 ADC 值，作为 12 位整数。"
 
 #: ../../en/module/ain4.rst:101 347e39bc778e4819b37dbe734389ed2e
 msgid "|get_adc_raw_value.png|"
@@ -128,15 +128,15 @@ msgstr ""
 
 #: ../../en/module/ain4.rst:105 a117cbb5fdea4c1aa87696f36489c55b
 msgid "Retrieves the current value (in mA) from the specified channel."
-msgstr ""
+msgstr "从指定通道读取当前电流值（单位：mA）。"
 
 #: ../../en/module/ain4.rst:107 6fbea012dce2480a9087970d0a4307a2
 msgid "The channel number (1 to 4) to read the current value from."
-msgstr ""
+msgstr "用于读取当前值的通道编号（1 到 4）。"
 
 #: ../../en/module/ain4.rst:109 6d471872d688445587c214994fcbd838
 msgid "Current value in milliamperes (mA)."
-msgstr ""
+msgstr "以毫安（mA）为单位的当前值。"
 
 #: ../../en/module/ain4.rst:114 dfc18d8a4a3b4904b94b01f478d7c77d
 msgid "|get_current_value.png|"
@@ -148,15 +148,15 @@ msgstr ""
 
 #: ../../en/module/ain4.rst:118 c02a5cc3cb3a4a05a67e1d5acbbc25d2
 msgid "Sets the calibration current for the specified channel."
-msgstr ""
+msgstr "为指定通道设置校准电流。"
 
 #: ../../en/module/ain4.rst:120 45f3acaf56d2435ab3fd124e44cf9914
 msgid "The channel number (1 to 4) to set the calibration for."
-msgstr ""
+msgstr "要设置校准的通道编号（1 到 4）。"
 
 #: ../../en/module/ain4.rst:121 63c95286d62e4aad8f4b671edfbc2506
 msgid "The calibration current value, ranging from 4 to 20 mA."
-msgstr ""
+msgstr "校准电流值，范围为 4 到 20 mA。"
 
 #: ../../en/module/ain4.rst:125 582ebfba340b43d98980b5a527b470bd
 msgid "|set_cal_current.png|"
@@ -168,11 +168,11 @@ msgstr ""
 
 #: ../../en/module/ain4.rst:129 35ccf07aef5b4b32bf7213f687dcb6d5
 msgid "Retrieves the firmware version of the AIN 4-20mA module."
-msgstr ""
+msgstr "获取 AIN 4-20mA 模块的固件版本。"
 
 #: ../../en/module/ain4.rst:131 e9fc9c6f88fa41129f0e689d289cf646
 msgid "Firmware version."
-msgstr ""
+msgstr "固件版本。"
 
 #: ../../en/module/ain4.rst:135 8c2126e46b294985934ca0146b07ceea
 msgid "|get_firmware_version.png|"
@@ -184,11 +184,11 @@ msgstr ""
 
 #: ../../en/module/ain4.rst:139 904be0ae6d044fb9a852a3abaeb07aca
 msgid "Retrieves the current I2C address of the AIN 4-20mA module."
-msgstr ""
+msgstr "获取 AIN 4-20mA 模块的当前 I2C 地址。"
 
 #: ../../en/module/ain4.rst:141 a714969fa0754b23a22f0b5fdb1943aa
 msgid "I2C address as a string in hexadecimal format."
-msgstr ""
+msgstr "I2C 地址为十六进制格式的字符串。"
 
 #: ../../en/module/ain4.rst:145 a7779d927ac04b2996ec84549ae91378
 msgid "|get_i2c_address.png|"
@@ -200,11 +200,11 @@ msgstr ""
 
 #: ../../en/module/ain4.rst:149 f881c1d94ef9440aaec4035387c747a1
 msgid "Sets a new I2C address for the AIN 4-20mA module."
-msgstr ""
+msgstr "为 AIN 4-20mA 模块设置新的 I2C 地址。"
 
 #: ../../en/module/ain4.rst:151 57ab2e0c61554b1fa6412b9353839649
 msgid "The new I2C address, must be between 0x08 and 0x77."
-msgstr ""
+msgstr "新的 I2C 地址必须在 0x08 到 0x77 之间。"
 
 #: ../../en/module/ain4.rst:155 d8772b4d01fc4490824a379325824910
 msgid "|set_i2c_address.png|"

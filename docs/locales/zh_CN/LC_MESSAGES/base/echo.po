@@ -24,7 +24,7 @@ msgstr ""
 #: ../../en/refs/base.echo.ref 5f049f83a46a4b5f8e8240050b257f13
 #: c9a35e466d4642d1b5dc0c2f24ab5e15 ec8081641c774487b4794a4d9207ada2
 msgid "Atomic Echo Base"
-msgstr ""
+msgstr "Atomic Echo Base"
 
 #: ../../en/base/echo.rst:8 edcd69f7db224417885be92a1bc76f96
 msgid "The following products are supported:"
@@ -40,11 +40,11 @@ msgstr "以下是主机对 Atomic Echo Base 的详细支持："
 
 #: ../../en/base/echo.rst:19 fc1cc5d593f742d59aca2d01820b6c2d
 msgid "Controller"
-msgstr ""
+msgstr "控制器"
 
 #: ../../en/base/echo.rst:21 43581d4138e644fab1e7f01ae80d872a
 msgid "Atom Echo"
-msgstr ""
+msgstr "Atom Echo"
 
 #: ../../en/base/echo.rst:21 f30114af282c402d94658e4e92b090ab
 msgid "|O|"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../en/base/echo.rst:23 028c3647ca2c4f34a0716840c5bd60a5
 msgid "Atom Lite"
-msgstr ""
+msgstr "Atom Lite"
 
 #: ../../en/base/echo.rst:23 ../../en/base/echo.rst:25
 #: ../../en/base/echo.rst:27 ../../en/base/echo.rst:29
@@ -63,27 +63,27 @@ msgstr ""
 
 #: ../../en/base/echo.rst:25 95fdae71ffd34aeebc4ac573f752664c
 msgid "Atom Matrix"
-msgstr ""
+msgstr "Atom Matrix"
 
 #: ../../en/base/echo.rst:27 d4689bfef8334ffaac2abfa5afba9e1f
 msgid "AtomS3"
-msgstr ""
+msgstr "AtomS3"
 
 #: ../../en/base/echo.rst:29 fee8fa2f30e741d797e68f6d18d523f3
 msgid "AtomS3 Lite"
-msgstr ""
+msgstr "AtomS3 Lite"
 
 #: ../../en/base/echo.rst:31 5073dae9dec748289bb56307217bf002
 msgid "AtomS3R"
-msgstr ""
+msgstr "AtomS3R"
 
 #: ../../en/base/echo.rst:33 30c6384d664d4877a73ff47d5783bdbf
 msgid "AtomS3R-CAM"
-msgstr ""
+msgstr "AtomS3R-CAM"
 
 #: ../../en/base/echo.rst:35 350f587ba22b4d78a4737a51db6c6c6b
 msgid "AtomS3R-Ext"
-msgstr ""
+msgstr "AtomS3R-Ext"
 
 #: ../../en/base/echo.rst:43 22a3ceaf3bf7471f891599c815be1863
 msgid "UiFlow2 Example"
@@ -101,7 +101,7 @@ msgstr "在 UiFlow2 中打开 |atoms3_play_wav_example.m5f2| 项目。"
 #: ../../en/base/echo.rst:52 ../../en/base/echo.rst:72
 #: 24c49eedadda43479f1ca9b6837e7c13 d739d86b65de40d6aac623a559540130
 msgid ":download:`66.wav <../../../examples/module/audio/66.wav>`"
-msgstr ""
+msgstr ":download:`66.wav <../../../examples/module/audio/66.wav>`"
 
 #: ../../en/base/echo.rst:54 ../../en/base/echo.rst:109
 #: 46ac747d23af49c18cf8c508ab39ff00 563329cfe24e44ec86831fbef7fa3e66
@@ -211,7 +211,7 @@ msgstr ""
 
 #: ../../en/base/echo.rst:104 569c69c572b247a59559b1ad3c7c5439
 msgid "MicroPython Example"
-msgstr ""
+msgstr "MicroPython 应用示例"
 
 #: ../../en/base/echo.rst:111 ../../en/base/echo.rst:129
 #: ../../en/base/echo.rst:145 569c69c572b247a59559b1ad3c7c5439
@@ -227,11 +227,11 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/base/echo.rst:157 a8c372a35dea4b269ee7d70a9b167657
 msgid "AtomicEchoBase"
-msgstr ""
+msgstr "AtomicEchoBase"
 
 #: 73fe6a9dcb50490bbdd88f90090f2f48 base.echo.AtomicEchoBase:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`。"
 
 #: 73fe6a9dcb50490bbdd88f90090f2f48 base.echo.AtomicEchoBase:1 of
 msgid "Create an AtomicEchoBase object."
@@ -247,7 +247,7 @@ msgstr ""
 
 #: base.echo.AtomicEchoBase:3 d1f6a0a0a4bd47bea72a8019a488c609 of
 msgid "I2C object"
-msgstr ""
+msgstr "I2C 对象"
 
 #: af6de1136e454bd4898c6e0a64a5f610 base.echo.AtomicEchoBase:4 of
 msgid "The I2C address of the ES8311. Default is 0x18."
@@ -279,7 +279,7 @@ msgstr "I2S DO 引脚。默认值为 -1。"
 
 #: 8a1c994c008b44d28c2f7499f61bf178 base.echo.AtomicEchoBase:12 of
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2:"
 
 #: 550d7b3601174053a1f8a613d26ca00f base.echo.AtomicEchoBase:14 of
 msgid "|init.png|"
@@ -291,7 +291,7 @@ msgstr ""
 
 #: 7befb6ba64534ec4a86c216b397d31c6 base.echo.AtomicEchoBase:16 of
 msgid "Micropython::"
-msgstr ""
+msgstr "MicroPython::"
 
 #: ../../docstring b8f42cf422644b6f89d7abb93cbaaaec
 #: base.echo.AtomicEchoBase.MONO:1 of

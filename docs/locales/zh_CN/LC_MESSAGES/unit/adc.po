@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/adc.rst:2 35d39e41b8e3456ca8f927f5f36f5353
+msgid "ADC Unit"
+msgstr "ADC 单元"
+
+#: ../../source/unit/adc.rst:6 009cd9cd546f49d6b8ee3eba9ea5b7c6
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/adc.rst:8 96c2672957db4bc59010d68fe086cf38
+msgid "|ADC|"
+msgstr ""
+
+#: ../../source/refs/unit.adc.ref 3274882d98684f42b73bdc7bff9e3356
+msgid "ADC"
+msgstr ""
+
+#: ../../source/unit/adc.rst:11 a635d9352a1f43e2828811a41796b320
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/adc.rst:18 94b9dd87471a4338ad591c5b9fc05131
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/adc.rst:20 402e3984ca484d19b27461ec7e5e0c98
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc.ref:6 88f2d5231c9542b1a08d7eb296f8be7f
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/adc.rst:25 4053a307286940f78ab0220f18b16456
+msgid "|adc_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/adc.rst:29 b707503bb204492d8ad9882964a59bc8
+msgid "class ADCUnit"
+msgstr "class ADCUnit"
+
+#: ../../source/unit/adc.rst:32 6a3e088a700b4f87ac0b0fe6dff524ee
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/adc.rst:36 c1ccc942759643eebe931d509c14cb0f
+msgid "Create an ADCUnit object."
+msgstr "创建一个 ADCUnit 对象。"
+
+#: ../../source/unit/adc.rst:39 03bc70671d664a5d895888319952fb9f
+msgid "parameters is:"
+msgstr "parameters is:"
+
+#: ../../source/unit/adc.rst:39 3ed39ff7abeb40e7b9b5f1d641b1662f
+msgid "``I2C0`` is I2C Port."
+msgstr "``I2C0`` 是 I2C 端口。"
+
+#: ../../source/unit/adc.rst:41 ../../source/unit/adc.rst:55
+#: ../../source/unit/adc.rst:64 ../../source/unit/adc.rst:73
+#: ../../source/unit/adc.rst:82 ../../source/unit/adc.rst:91
+#: ../../source/unit/adc.rst:100 ../../source/unit/adc.rst:109
+#: ../../source/unit/adc.rst:118 097de82a677249dba67c2ce409efcf05
+#: 254bff54b6e54f568d5b5c68000484b9 30c36416a7ee43bfb87ad33d3376b7ba
+#: 5fe368c5aaec4d97993036a2dc38a103 8d463f289e0c4e278c6b50c8aa45651a
+#: a582d5b27ba84348a698bb874e1c2116 a89ffee4ff4743f8be9d8290eb8d17b2
+#: b6d881661f0c4a08b08a750c8f7702b2 bd09cb8994a04cf0878cc4963c6166b2
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/adc.rst:43 cb995c04f8b64f889c0134dcafe14aca
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc.ref:8 821b6ad6bf8c4b59b33c78cafcd7a663
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/adc.rst:49 8f02ff36b426444097f35a4efbbca0ff
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/adc.rst:53 a744ac85352e4d429e545797e901cfac
+msgid "Gets the original value read by the adc(16 bit)."
+msgstr "获取通过 adc（16 bit）读取的原始值。"
+
+#: ../../source/unit/adc.rst:57 958436444e8641da8ecc538347a9aef6
+msgid "|get_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc.ref:10 6fc9a52829be4553a9e08ccee8511179
+msgid "get_value.png"
+msgstr ""
+
+#: ../../source/unit/adc.rst:62 85422c32603741c1b4db13dabf63a2b0
+msgid "Get the voltage value."
+msgstr "获取电压值。"
+
+#: ../../source/unit/adc.rst:66 65adf0ca10b943ceab07581a58adef90
+msgid "|get_voltage.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc.ref:12 1011046354d742e0b251ba70e8fce38f
+msgid "get_voltage.png"
+msgstr ""
+
+#: ../../source/unit/adc.rst:71 bf8237d0a58b458384c31b88fc98658e
+msgid "Get working mode. (Single read or continuous read)"
+msgstr "获取工作模式。（单次读取或连续读取）"
+
+#: ../../source/unit/adc.rst:75 c564a6eb4c5047029dafef1b763e84f0
+msgid "|get_operating_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc.ref:16 ebc5b91950264d38a2a7632a4b6e504c
+msgid "get_operating_mode.png"
+msgstr ""
+
+#: ../../source/unit/adc.rst:80 3c4a81a43a8d459892ac32cd7e3d99a3
+msgid "Get the read rate of the data."
+msgstr "获取数据的读取速率。"
+
+#: ../../source/unit/adc.rst:84 2af1cba7e0a342c4875b80e32a51a5ec
+msgid "|get_data_rate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc.ref:18 e0431a8f86cb4da5837854d1d46313fe
+msgid "get_data_rate.png"
+msgstr ""
+
+#: ../../source/unit/adc.rst:89 207a95094233459a838b062abd53365e
+msgid "Get the gain multiple of the data."
+msgstr "获取数据的增益倍数。"
+
+#: ../../source/unit/adc.rst:93 8c35e3cc2351453fa98c5221d4319b1c
+msgid "|get_gain.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc.ref:20 8df4e1b7ebd046f99dd45d1354f1aac3
+msgid "get_gain.png"
+msgstr ""
+
+#: ../../source/unit/adc.rst:98 0134b698d17b4283b79e24e785ee669a
+msgid "Set working mode (single read or continuous read)"
+msgstr "设置工作模式（单次读取或连续读取）"
+
+#: ../../source/unit/adc.rst:102 21b5a01e1e38468e9eb94dbc32738a91
+msgid "|set_operating_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc.ref:22 25a7ce17c94d432e8b41c8344db43fdb
+msgid "set_operating_mode.png"
+msgstr ""
+
+#: ../../source/unit/adc.rst:107 15f09543277443ee8eaefef316f84e03
+msgid "Set the data acquisition rate."
+msgstr "设置数据采集速率。"
+
+#: ../../source/unit/adc.rst:111 265de63a89f5475d989394fe862fe242
+msgid "|set_data_rate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc.ref:24 a0aa4ccf3da04608bfed658a4eb5ee5d
+msgid "set_data_rate.png"
+msgstr ""
+
+#: ../../source/unit/adc.rst:116 268f3489aac24ad4b09b59abb2f9f139
+msgid "Set the gain multiple for reading data."
+msgstr "设置读取数据的增益倍数。"
+
+#: ../../source/unit/adc.rst:120 3018abcc4dd24bf4944b181dbdeeff8d
+msgid "|set_gain.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc.ref:26 95ce6b6390324554b9c531d2da7dacdc
+msgid "set_gain.png"
+msgstr ""
+

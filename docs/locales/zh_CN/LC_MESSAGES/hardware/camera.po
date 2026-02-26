@@ -22,28 +22,28 @@ msgstr ""
 
 #: ../../en/hardware/camera.rst:2 f2159191ff344c6aa4b76796773b6b46
 msgid "camera"
-msgstr ""
+msgstr "camera"
 
 #: ../../en/hardware/camera.rst:6 83bd35768d5c44159ab0db0e8ad18015
 msgid "The camera module is used for taking pictures."
-msgstr ""
+msgstr "摄像头模块用于拍照。"
 
 #: ../../en/hardware/camera.rst:8 0bcb23b1a41042c2a5db40bf07d8a032
 msgid "This module is only applicable to the CoreS3 Controller"
-msgstr ""
+msgstr "该模块仅适用于 CoreS3 Controller。"
 
 #: ../../en/hardware/camera.rst:14 7f65cb3591d645dca510342076722dc3
 msgid "Micropython Example"
-msgstr ""
+msgstr "MicroPython 应用示例"
 
 #: ../../en/hardware/camera.rst:17 ../../en/hardware/camera.rst:27
 #: 7034b744e806467cb894f9c9d092eae8 cb1f59c95f924b81876d605187e7d11a
 msgid "capture display"
-msgstr ""
+msgstr "捕获显示内容。"
 
 #: ../../en/hardware/camera.rst:24 d4cf293e86e947f187167898ee8ed7c1
 msgid "UIFlow2.0 Example"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/hardware/camera.rst:29 1bc0dbeec1be45c5a74e0e8fbe53c246
 msgid "|camera_display_example.png|"
@@ -59,15 +59,15 @@ msgstr ""
 
 #: ../../en/hardware/camera.rst:38 bd3abee363674f9f98756ff61bc8b2d0
 msgid "Functions"
-msgstr ""
+msgstr "Functions"
 
 #: ../../en/hardware/camera.rst:42 b2fea3e7ca2644e1882d9ca7113193cc
 msgid "Initializes the camera sensor."
-msgstr ""
+msgstr "初始化摄像头传感器。"
 
 #: ../../en/hardware/camera.rst:44 9ca8ef953d0740da8a379e777c5f1ae8
 msgid "The ``pixformat`` supports:"
-msgstr ""
+msgstr "``pixformat`` 支持："
 
 #: ../../en/hardware/camera.rst:46 0d2624dde34f40c5a5ad1e81c1696c2d
 msgid "``camera.RGB565``"
@@ -75,27 +75,27 @@ msgstr ""
 
 #: ../../en/hardware/camera.rst:48 3f2a856416964d229daf08f1d286e39e
 msgid "The ``framesize`` supports:"
-msgstr ""
+msgstr "``framesize`` 支持："
 
 #: ../../en/hardware/camera.rst:50 4e8cf3e0e10c485d966718e2e88a0578
 msgid "``camera.QQVGA``: 160x120"
-msgstr ""
+msgstr "``camera.QQVGA``：160x120"
 
 #: ../../en/hardware/camera.rst:51 a575dc11f8964cc186bdc4b7a2c13a9e
 msgid "``camera.QCIF``: 176x144"
-msgstr ""
+msgstr "``camera.QCIF``：176x144"
 
 #: ../../en/hardware/camera.rst:52 7fa6b530636f4d36ba69634ce698534a
 msgid "``camera.HQVGA``: 240x176"
-msgstr ""
+msgstr "``camera.HQVGA``：240x176"
 
 #: ../../en/hardware/camera.rst:53 0c072789e95d4a43b88846a81c5f8fe5
 msgid "``camera.FRAME_240X240``: 240x240"
-msgstr ""
+msgstr "``camera.FRAME_240X240``：240x240"
 
 #: ../../en/hardware/camera.rst:54 30a7c175f79f49e1907a919941fc990d
 msgid "``camera.QVGA``: 320x240"
-msgstr ""
+msgstr "``camera.QVGA``：320x240"
 
 #: ../../en/hardware/camera.rst:56 ../../en/hardware/camera.rst:66
 #: ../../en/hardware/camera.rst:74 ../../en/hardware/camera.rst:82
@@ -104,7 +104,7 @@ msgstr ""
 #: ccc0ef1d0eda444a879abcfb04b98f3d ccef822250964ea490361cf1fc328c3a
 #: e09b15ad3cfa4b32954a3349e63218ce fbf6e273c1c545d88f8ce36e3365b96c
 msgid "UIFlow2.0"
-msgstr ""
+msgstr "UIFlow2.0"
 
 #: ../../en/hardware/camera.rst:58 1d29ecf28038423bbb359e5c848f26e8
 msgid "|init.png|"
@@ -116,7 +116,7 @@ msgstr ""
 
 #: ../../en/hardware/camera.rst:62 f7db796b01c44bf78ba9c0f7dcb016f4
 msgid "Capture a single frame."
-msgstr ""
+msgstr "捕获单帧。"
 
 #: ../../en/hardware/camera.rst:64 4f2e0a50575145c2807af6c7ee3bd6cf
 msgid "Returns An ``image.Image`` object."
@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../en/hardware/camera.rst:72 4a4ca3b5d524422397945db816f78342
 msgid "Turns horizontal mirror mode on (True) or off (False). Defaults to on."
-msgstr ""
+msgstr "打开（True）或关闭（False）水平镜像模式。默认开启。"
 
 #: ../../en/hardware/camera.rst:76 61add92d36b74cb496ff737ae9b33873
 msgid "|set_hmirror.png|"
@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../../en/hardware/camera.rst:80 8dff0eb8e3aa4de6b6c818287d5157cf
 msgid "Turns vertical flip mode on (True) or off (False). Defaults to off."
-msgstr ""
+msgstr "开启（True）或关闭（False）垂直翻转模式。默认为关闭。"
 
 #: ../../en/hardware/camera.rst:84 b3dfa2c26c1646a584da354585d66e94
 msgid "|set_vflip.png|"
@@ -156,7 +156,7 @@ msgstr ""
 
 #: ../../en/hardware/camera.rst:88 cb6ca7da2390463dac9e3df4f4e18edf
 msgid "Returns if horizontal mirror mode is enabled."
-msgstr ""
+msgstr "返回是否启用水平镜像模式。"
 
 #: ../../en/hardware/camera.rst:92 b3dbc8fc762243cfaf39df34b25cde0a
 msgid "|get_hmirror.png|"
@@ -168,7 +168,7 @@ msgstr ""
 
 #: ../../en/hardware/camera.rst:96 1684a6f8127b46efb0c9a2b976dfe85c
 msgid "Returns if vertical flip mode is enabled."
-msgstr ""
+msgstr "如果启用了垂直翻转模式，则返回。"
 
 #: ../../en/hardware/camera.rst:100 c100bef85d9b4ee89c0345707b5e4606
 msgid "|get_vflip.png|"

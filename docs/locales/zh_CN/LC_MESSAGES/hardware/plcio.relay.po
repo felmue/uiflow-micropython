@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../en/hardware/plcio.relay.rst:55 149eb84bad914f36a952f70cbfb1a351
 msgid "The ID of the relay. The range of ID is 1-4."
-msgstr ""
+msgstr "继电器的 ID。ID 的范围为 1-4。"
 
 #: ../../en/hardware/plcio.relay.rst:59 272fd6a488674f9c9617b3c8f35d3590
 msgid "|init.png|"
@@ -181,7 +181,7 @@ msgstr "获取继电器的状态。"
 #: ../../en/hardware/plcio.relay.rst:125 ../../en/hardware/plcio.relay.rst:142
 #: 30ef1f85da644442b61c5c641ebd334f f42aee7d36ca47c89d913c7ff5c08303
 msgid "The status of the relay."
-msgstr ""
+msgstr "继电器的状态。"
 
 #: ../../en/hardware/plcio.relay.rst:130 abbf0c16f9b44299b984821c1a5a8697
 msgid "|get_status.png|"

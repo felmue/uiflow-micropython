@@ -18,13 +18,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/software/modbus.tcp.client.rst:4
 #: ../../en/software/modbus.tcp.client.rst:50 92612e98675f401d93856e1600011aab
 #: a7e73f5dcb924f229b03c27fea7e4765
 msgid "ModbusTCPClient"
-msgstr ""
+msgstr "ModbusTCPClient"
 
 #: ../../en/software/modbus.tcp.client.rst:8 bc89ab6fc1d348c1a6c48cbe13219fa7
 msgid ""

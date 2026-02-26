@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/refs/unit.dcssr.ref ../../source/unit/dcssr.rst:2
+#: aa43126f2d834f3aac04f8fc4e65612e ba6df7bc80bd4e13ac5c975347ec2a22
+msgid "DCSSR Unit"
+msgstr "DCSSR Unit"
+
+#: ../../source/unit/dcssr.rst:6 d4fd59d84ba840dd9370d13b443f7cd9
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/dcssr.rst:8 821589a52f4b42df975d620a407fffb7
+msgid "|DCSSR Unit|"
+msgstr ""
+
+#: ../../source/unit/dcssr.rst:12 e4dd54b656bd4602934e63f71ebe64d2
+msgid "class DCSSRUnit"
+msgstr "class DCSSRUnit"
+
+#: ../../source/unit/dcssr.rst:15 452a7a56f0af46b8846763f898a5dc95
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/dcssr.rst:19 366c59ed8eeb4e37b167dd662bf8c2d8
+msgid "Create an DCSSRUnit object."
+msgstr "创建 DCSSRUnit 对象。"
+
+#: ../../source/unit/dcssr.rst dbef5691f0c44a88a666abb512c76f4b
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/dcssr.rst:21 3bc0db8aca8242c689f2f4dd0bfa6672
+msgid "I2C bus or Modbus."
+msgstr "I2C 总线或 Modbus。"
+
+#: ../../source/unit/dcssr.rst:22 7c1549b6a6a44cc7af66e83e1832a0f1
+msgid ""
+"Slave address. Default is 0x50 in I2C mode. Default is 0x04 in Modbus "
+"mode."
+msgstr "从机地址。在 I2C 模式下默认值为 0x50。在 Modbus 模式下默认值为 0x04。"
+
+#: ../../source/unit/dcssr.rst:24 d61498251287440182a256e94d20c15e
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/dcssr.rst:26 ac8d4161c6fe4358a97612f4c2995d73
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dcssr.ref:6 202573d8cb964abd8d3a34285526f237
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/dcssr.rst:29 2e15733680bc4a1cba266c789fd11d01
+msgid ""
+"DCSSRUnit class inherits ACSSRUnit class, See "
+":ref:`unit.ACSSRUnit.Methods <unit.ACSSRUnit.Methods>` for more details."
+msgstr ""
+"DCSSRUnit 类继承自 ACSSRUnit 类，更多详情请参阅 :ref:`unit.ACSSRUnit.Methods "
+"<unit.ACSSRUnit.Methods>`。"
+

@@ -22,15 +22,15 @@ msgstr ""
 
 #: ../../en/quick-reference/get-started.rst:3 eb9c580940614275a8126bc2b5a4464e
 msgid "Get Started"
-msgstr ""
+msgstr "快速开始"
 
 #: ../../en/quick-reference/get-started.rst:9 b6afcb6996f84c9b87cc3d13ab0169bf
 msgid "Preparation"
-msgstr ""
+msgstr "Preparation"
 
 #: ../../en/quick-reference/get-started.rst:12 aa4c4bddeb6249a8afc97c14f649e65e
 msgid "Driver Installation"
-msgstr ""
+msgstr "驱动安装。"
 
 #: ../../en/quick-reference/get-started.rst:14 59793fb67fbc403e90038cf2b2f197aa
 msgid ""
@@ -40,54 +40,54 @@ msgid ""
 "the version you are using. After decompressing the compressed package, "
 "select the installation package corresponding to the number of operating "
 "systems to install."
-msgstr ""
+msgstr "点击下方链接下载与操作系统匹配的驱动程序。目前有两种驱动芯片版本（CP210X/CH9102）。请根据您正在使用的版本下载对应的驱动压缩包。解压压缩包后，选择与操作系统对应的安装包进行安装。"
 
 #: ../../en/quick-reference/get-started.rst:20 657b794a5cdf4e73a21afe3e3102fa6b
 msgid ""
 "If you are not sure of the USB chip used by your device, you can install "
 "both drivers at the same time."
-msgstr ""
+msgstr "如果您不确定设备使用的 USB 芯片，可以同时安装两个驱动程序。"
 
 #: ../../en/quick-reference/get-started.rst:25 11cba6f1da0e47aebd0bd5f7667cb953
 msgid ""
 "During the installation process of CH9102_VCP_SER_MacOS v1.7, an error "
 "may occur, but the installation is actually completed, just ignore it."
-msgstr ""
+msgstr "在安装 CH9102_VCP_SER_MacOS v1.7 的过程中，可能会出现错误，但实际上已完成安装，请直接忽略。"
 
 #: ../../en/quick-reference/get-started.rst:29 64aac2e96bf6418a9264f1670e7e68c9
 msgid "Driver name"
-msgstr ""
+msgstr "驱动名称。"
 
 #: ../../en/quick-reference/get-started.rst:29 d446847a187c4f0d9e9259de31374190
 msgid "Applicable driver chip"
-msgstr ""
+msgstr "适用的驱动芯片。"
 
 #: ../../en/quick-reference/get-started.rst:29 a2e66f892eb040f3a94e5b98afe2e263
 msgid "Download link"
-msgstr ""
+msgstr "下载链接。"
 
 #: ../../en/quick-reference/get-started.rst:31 89a30ec7bd58491ca95130fa40db5959
 msgid "CP210x_VCP_Windows"
-msgstr ""
+msgstr "CP210x_VCP_Windows"
 
 #: ../../en/quick-reference/get-started.rst:31
 #: ../../en/quick-reference/get-started.rst:33
 #: ../../en/quick-reference/get-started.rst:35 193660fc8dd84b9e93aa4843537f2016
 #: 9cf324d9c8664258821f483bf4869227 a4d016a1c9a74cfb8e4543dd8adc90c9
 msgid "CP2104"
-msgstr ""
+msgstr "CP2104"
 
 #: ../../en/quick-reference/get-started.rst:31 7e17327d74b445efbd34f629a7bb7e01
 msgid "|CP210x_VCP_Windows|_"
-msgstr ""
+msgstr "|CP210x_VCP_Windows|_"
 
 #: ../../en/quick-reference/get-started.rst:33 e7a8a69fb70549e4b12884811cac3d0a
 msgid "CP210x_VCP_MacOS"
-msgstr ""
+msgstr "\"\""
 
 #: ../../en/quick-reference/get-started.rst:33 5c4885be2aaf45be9a23f0794c75dd43
 msgid "|CP210x_VCP_MacOS|_"
-msgstr ""
+msgstr "|CP210x_VCP_MacOS|_"
 
 #: ../../en/quick-reference/get-started.rst:35 cd9bdef0bb264c57a73a6272780d9181
 msgid "CP210x_VCP_Linux"
@@ -95,86 +95,86 @@ msgstr ""
 
 #: ../../en/quick-reference/get-started.rst:35 d0ea85d16fc042368bfd648a86eb4d57
 msgid "|CP210x_VCP_Linux|_"
-msgstr ""
+msgstr "|CP210x_VCP_Linux|_"
 
 #: ../../en/quick-reference/get-started.rst:37 e4e6f2df5c374b6ba45abbb798e1aa0f
 msgid "CH9102_VCP_SER_Windows"
-msgstr ""
+msgstr "CH9102_VCP_SER_Windows"
 
 #: ../../en/quick-reference/get-started.rst:37
 #: ../../en/quick-reference/get-started.rst:39 0c692831798644c7ac61f4d7f69fab90
 #: c29ae5787a6c4cb38e39d2e6a905b66a
 msgid "CH9102"
-msgstr ""
+msgstr "CH9102"
 
 #: ../../en/quick-reference/get-started.rst:37 03f3bca251fb457d9005817902e20cd5
 msgid "|CH9102_VCP_SER_Windows|_"
-msgstr ""
+msgstr "|CH9102_VCP_SER_Windows|_"
 
 #: ../../en/quick-reference/get-started.rst:39 64a0f81acab94beabfbe406e3a90c2ea
 msgid "CH9102_VCP_SER_MacOS v1.7"
-msgstr ""
+msgstr "CH9102_VCP_SER_MacOS v1.7"
 
 #: ../../en/quick-reference/get-started.rst:39 28fd0722f2404771912e3f449cb8e8b9
 msgid "|CH9102_VCP_MacOS_v1.7|_"
-msgstr ""
+msgstr "|CH9102_VCP_MacOS_v1.7|_"
 
 #: ../../en/quick-reference/get-started.rst:43 20f11cfcbdc94684a333116dadf5cc4d
 msgid "M5Burner"
-msgstr ""
+msgstr "M5Burner"
 
 #: ../../en/quick-reference/get-started.rst:45 e81bf013853844e1a8e2e3b5f51cef5c
 msgid ""
 "Please click the button below to download the corresponding M5Burner "
 "firmware burning tool according to your operating system. Open the "
 "application after decompression."
-msgstr ""
+msgstr "请点击下方按钮，根据您的操作系统下载相应的 M5Burner 固件烧录工具。解压后打开该应用程序。"
 
 #: ../../en/quick-reference/get-started.rst:50 64c5817357f241a994221d673d77c9f8
 msgid "Software"
-msgstr ""
+msgstr "软件"
 
 #: ../../en/quick-reference/get-started.rst:50 82879a97b3774a808afbbfddab2a7b0b
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 #: ../../en/quick-reference/get-started.rst:52 0608ebf32f344c7f9929b5d7b94ec54a
 msgid "M5Burner_Windows"
-msgstr ""
+msgstr "M5Burner_Windows"
 
 #: ../../en/quick-reference/get-started.rst:52 9729581f9fc442cb87bc7ce5449bb46d
 msgid "|M5Burner-v3-beta-win-x64|_"
-msgstr ""
+msgstr "|M5Burner-v3-beta-win-x64|_"
 
 #: ../../en/quick-reference/get-started.rst:54 ef4881bea6b24559bd15c309b1f08e23
 msgid "M5Burner_MacOS"
-msgstr ""
+msgstr "M5Burner_MacOS"
 
 #: ../../en/quick-reference/get-started.rst:54 8d1bd3a3612d4c18b16ea2162b590df3
 msgid "|M5Burner-v3-beta-mac-x64|_"
-msgstr ""
+msgstr "|M5Burner-v3-beta-mac-x64|_"
 
 #: ../../en/quick-reference/get-started.rst:56 504cbb8f802448918678e78005986c3a
 msgid "M5Burner_Linux"
-msgstr ""
+msgstr "M5Burner_Linux"
 
 #: ../../en/quick-reference/get-started.rst:56 cf062e3bad154dcf9203ee29f05207d4
 msgid "|M5Burner-v3-beta-linux-x64|_"
-msgstr ""
+msgstr "|M5Burner-v3-beta-linux-x64|_"
 
 #: ../../en/quick-reference/get-started.rst:61 4a5d168cc56e44ceba2dc322eb99ea3b
 msgid "Installation UIFLOW2"
-msgstr ""
+msgstr "安装 UiFlow2"
 
 #: ../../en/quick-reference/get-started.rst:64 98b9e7a6cbcf403d9a6e8513dd27e74a
 msgid "Login M5Burner"
-msgstr ""
+msgstr "登录 M5Burner。"
 
 #: ../../en/quick-reference/get-started.rst:66 75fe685f83e249379da4d2ac0521441b
 msgid ""
 "Before using UIFlow2, you need to log in to your M5Stack account first. "
 "If you don't have an account yet, please register an account first."
-msgstr ""
+msgstr "在使用 UiFlow2 之前，您需要先登录您的 M5Stack 账号。如果您还没有账号，请先注册一个账号。"
 
 #: ../../en/quick-reference/get-started.rst:69 371448382f8e4350ba06c7e0ba2a2ec1
 msgid "|login-m5burner.gif|"
@@ -186,20 +186,20 @@ msgstr ""
 
 #: ../../en/quick-reference/get-started.rst:72 d158076cb7b7442d9872df38cee70a98
 msgid "Firmware Burning"
-msgstr ""
+msgstr "固件烧录。"
 
 #: ../../en/quick-reference/get-started.rst:74 d3de7c4f09d84c4b826adb3dd7ed6dc4
 msgid ""
 "Before burning firmware, first put the host into download mode. Each "
 "device has different ways of entering download mode. For details, please "
 "refer to the corresponding host product documentation."
-msgstr ""
+msgstr "在烧录固件之前，请先将主机置于下载模式。不同设备进入下载模式的方式不同。详情请参阅对应的主机产品文档。"
 
 #: ../../en/quick-reference/get-started.rst:78 efda8003e1b447589c18ebff988f653a
 msgid ""
 "Before burning, M5Burner will bind your host and M5Stack account. After "
 "binding, you can use your host in UIFlow2."
-msgstr ""
+msgstr "烧录前，M5Burner 将绑定您的主机和 M5Stack 账号。绑定完成后，您可以在 UIFlow2 中使用您的主机。"
 
 #: ../../en/quick-reference/get-started.rst:81 b2dcbc29c666427ab8c4da34124c68ba
 msgid "|burn-firmware.gif|"
@@ -211,15 +211,15 @@ msgstr ""
 
 #: ../../en/quick-reference/get-started.rst:85 c2192dfa762d4696ae86a8067f6d7614
 msgid "Start using UIFLOW2"
-msgstr ""
+msgstr "开始使用 UiFlow2。"
 
 #: ../../en/quick-reference/get-started.rst:88 9faa6498c72b4243b1f66bdce4de83d9
 msgid "Login UIFlow2"
-msgstr ""
+msgstr "登录 UiFlow2"
 
 #: ../../en/quick-reference/get-started.rst:90 3abcf4fff6554e31a29eb6d24cfabc6a
 msgid "Log in to https://uiflow2.m5stack.com/"
-msgstr ""
+msgstr "登录到 https://uiflow2.m5stack.com/ 。"
 
 #: ../../en/quick-reference/get-started.rst:92 6800c4dd4fab4369a2ae3f632ef30f6e
 msgid "|login-uiflow2.gif|"

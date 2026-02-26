@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/hall_effect.rst:2 b1b330eae71a4f5292fd439604b05127
+msgid "Hall Effect Unit"
+msgstr "霍尔效应 Unit"
+
+#: ../../source/unit/hall_effect.rst:6 48f1d038fd60469f9a5c8c6ffa437b08
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/hall_effect.rst:8 a720467f9e12481ea0682a50151c8128
+msgid "|HallEffect|"
+msgstr ""
+
+#: ../../source/refs/unit.hall_effect.ref e4622816a0fb4ce781383cf2e30d8686
+msgid "HallEffect"
+msgstr "HallEffect"
+
+#: ../../source/unit/hall_effect.rst:11 5f8a50990e56459b9d470157ebee5200
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/hall_effect.rst:18 8c2ab954bd8c4904bf50130a6eadf9c3
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/hall_effect.rst:20 ed574cd656e04720b05f75cc47e6d2eb
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hall_effect.ref:16 accdc7b437a941a7b0a49f8ee2fe3f85
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/hall_effect.rst:25 695254d356b348e791e5ae4370ea3ce1
+msgid "|cores3_hall_effect_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/hall_effect.rst:29 1f2cf55c51604d9e9f2974246cbdda33
+msgid "class HallEffectUnit"
+msgstr "class HallEffectUnit"
+
+#: ../../source/unit/hall_effect.rst:32 35b0098da315407794c913f32486764f
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/hall_effect.rst:36 ae0f6e823934410aafbd254ae2e748b0
+msgid "Create a HallEffectUnit object."
+msgstr "创建一个 HallEffectUnit 对象。"
+
+#: ../../source/unit/hall_effect.rst 1a0aab5d51b94047b9d4502ce2ceaf01
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/hall_effect.rst:38 6560e9480ea94a88a50adfbad6e363e6
+msgid "Specify the port number according to the label on the unit."
+msgstr "请根据设备上的标签指定端口号。"
+
+#: ../../source/unit/hall_effect.rst:40 ../../source/unit/hall_effect.rst:52
+#: ../../source/unit/hall_effect.rst:61 ../../source/unit/hall_effect.rst:70
+#: ../../source/unit/hall_effect.rst:79 1bb24711c7dc4e6aac7d349f96284ea9
+#: 73dab1f611614c0aaba2fb4491ebe7b3 aec72b9a0e6e482da638436d59f2cb7b
+#: c29c1e5b2d74498da53d0bfb9c82285d dd8edd98a1134de685f8e2f68c46981e
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/hall_effect.rst:42 50974d1663ac4db8b62e0bd10f613378
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hall_effect.ref:6 2fc00b2f3bf24d9db5d7637817e68ce4
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/hall_effect.rst:46 46d22e8e3cd84d0b8b198beba784b9c8
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/hall_effect.rst:50 7c40f3dc1e354244b38f9f5419718454
+msgid "Get the status of the Hall Effect sensor."
+msgstr "获取霍尔效应传感器的状态。"
+
+#: ../../source/unit/hall_effect.rst:54 68121e66314e40818cea490503a78fba
+msgid "|get_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hall_effect.ref:8 816846c831524f11b474876580652813
+msgid "get_status.png"
+msgstr ""
+
+#: ../../source/unit/hall_effect.rst:59 f11f5b03742a4acc93beb9f8e382f916
+msgid "Enable HAll Effect sensor interrupt."
+msgstr "启用霍尔效应传感器中断。"
+
+#: ../../source/unit/hall_effect.rst:63 d17013b360314484a47cc738f1c36283
+msgid "|enable_irq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hall_effect.ref:10 6ebca7e85ff049cba9b0f7ffda3b893a
+msgid "enable_irq.png"
+msgstr ""
+
+#: ../../source/unit/hall_effect.rst:68 2a063583c8324004b7495db2cb98e059
+msgid "Disable Hall Effect sensor interrupt."
+msgstr "禁用霍尔效应传感器中断。"
+
+#: ../../source/unit/hall_effect.rst:72 faad28e7c1694c6aad51460a1bce1c90
+msgid "|disable_irq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hall_effect.ref:12 581a31b2ec4c4d6ab2f9788429c912e7
+msgid "disable_irq.png"
+msgstr ""
+
+#: ../../source/unit/hall_effect.rst:77 b335a329b2754a9b8f49e9d6640d4f29
+msgid "Set the callback function."
+msgstr "设置回调函数。"
+
+#: ../../source/unit/hall_effect.rst:81 09be3c2787ac4d87a56d313cce85b76d
+msgid "|set_callback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hall_effect.ref:14 e79f29501f754e3a920ae79f38b8e3e8
+msgid "set_callback.png"
+msgstr ""
+
+#: ../../source/unit/hall_effect.rst:84 744d07b071314fccb0fa9ba4cb134ef6
+msgid "Constants"
+msgstr "Constants"
+
+#: ../../source/unit/hall_effect.rst:89 c09bb7e67943438b86a5912acc9d457c
+msgid "used to set the trigger mode of the interrupt."
+msgstr "用于设置中断的触发模式。"
+

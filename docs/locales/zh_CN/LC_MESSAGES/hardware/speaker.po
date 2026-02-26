@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/hardware/speaker.rst:2 e13c7649dd6444d4a2f94a530d571879
 msgid "Speaker"
-msgstr ""
+msgstr "Speaker"
 
 #: ../../en/hardware/speaker.rst:8 ea08cb022ac94184bc795abb7a2eb551
 msgid ""
@@ -32,23 +32,23 @@ msgstr "Speaker 用于控制主机内部集成的按键。以下是主机的 Spe
 
 #: ../../en/hardware/speaker.rst:16 57bfbc9034c5462ba22caae168b26ec9
 msgid "Controller"
-msgstr ""
+msgstr "控制器"
 
 #: ../../en/hardware/speaker.rst:16 e2eb0f4a3a6c4c43831332d4183d9f58
 msgid "NS4168"
-msgstr ""
+msgstr "NS4168"
 
 #: ../../en/hardware/speaker.rst:16 9604d1cf753e46198dad1d85d48e78aa
 msgid "AW88298"
-msgstr ""
+msgstr "AW88298"
 
 #: ../../en/hardware/speaker.rst:16 43b6623516784951b92079960eaa7451
 msgid "Buzzer"
-msgstr ""
+msgstr "Buzzer"
 
 #: ../../en/hardware/speaker.rst:18 e1401c13c4114e658a53e7b675aabdea
 msgid "AirQ"
-msgstr ""
+msgstr "AirQ"
 
 #: ../../en/hardware/speaker.rst:18 ../../en/hardware/speaker.rst:20
 #: ../../en/hardware/speaker.rst:36 ../../en/hardware/speaker.rst:38
@@ -68,107 +68,107 @@ msgstr ""
 
 #: ../../en/hardware/speaker.rst:20 576dba53fdcd4f3a9c36a500e6abde90
 msgid "Atom Echo"
-msgstr ""
+msgstr "Atom Echo"
 
 #: ../../en/hardware/speaker.rst:22 180fa40b603b4940beefbddd4e620989
 msgid "Atom Lite"
-msgstr ""
+msgstr "Atom Lite"
 
 #: ../../en/hardware/speaker.rst:24 53bfc5dda87c4e649e7347e60e31856c
 msgid "Atom Martrix"
-msgstr ""
+msgstr "Atom Martrix"
 
 #: ../../en/hardware/speaker.rst:26 264e5d8b629a49778e432b8dc38e4222
 msgid "AtomS3"
-msgstr ""
+msgstr "AtomS3"
 
 #: ../../en/hardware/speaker.rst:28 62b5ed44b4ce4361a03a1ba9a108b45e
 msgid "AtomS3 Lite"
-msgstr ""
+msgstr "AtomS3 Lite"
 
 #: ../../en/hardware/speaker.rst:30 915e55992c014c88944fc8a630af20eb
 msgid "AtomS3U"
-msgstr ""
+msgstr "AtomS3U"
 
 #: ../../en/hardware/speaker.rst:32 42e3a29f29d84a579ad7f1aa34c7353a
 msgid "AtomU"
-msgstr ""
+msgstr "AtomU"
 
 #: ../../en/hardware/speaker.rst:34 02aa6ff982c241b8b252a0b99fa74d52
 msgid "Basic"
-msgstr ""
+msgstr "基础"
 
 #: ../../en/hardware/speaker.rst:36 1d701154678840e39f2715e6291f5fa0
 msgid "Capsule"
-msgstr ""
+msgstr "胶囊"
 
 #: ../../en/hardware/speaker.rst:38 8e75709c28554419a298a038b950fde5
 msgid "Cardputer"
-msgstr ""
+msgstr "Cardputer"
 
 #: ../../en/hardware/speaker.rst:40 48eb8d06291d4abda7804f8d85b509a2
 msgid "Core2"
-msgstr ""
+msgstr "Core2"
 
 #: ../../en/hardware/speaker.rst:42 e369cc9e5127479a8cea3c8e49336277
 msgid "CoreInk"
-msgstr ""
+msgstr "CoreInk"
 
 #: ../../en/hardware/speaker.rst:44 912260cb1b2e430295a9b1fc6b07bc8a
 msgid "CoreS3"
-msgstr ""
+msgstr "CoreS3"
 
 #: ../../en/hardware/speaker.rst:46 9e68fe86217b4d4d9463f5be20ae59c6
 msgid "Dial"
-msgstr ""
+msgstr "拨号"
 
 #: ../../en/hardware/speaker.rst:48 44605b5535d04cc3a628457aedb08b57
 msgid "DinMeter"
-msgstr ""
+msgstr "DinMeter"
 
 #: ../../en/hardware/speaker.rst:50 eb1b3f00954745c1bd65dbfe413bd8b7
 msgid "Fire"
-msgstr ""
+msgstr "火"
 
 #: ../../en/hardware/speaker.rst:52 0898eb6bbea44edda3f89fb81582c20c
 msgid "Paper"
-msgstr ""
+msgstr "Paper"
 
 #: ../../en/hardware/speaker.rst:54 9ed1b7253dc94e07a1062841a7a946a8
 msgid "Stamp PICO"
-msgstr ""
+msgstr "Stamp PICO"
 
 #: ../../en/hardware/speaker.rst:56 9ef56cdeeddb4061a8e5eb15ee1c3237
 msgid "StampS3"
-msgstr ""
+msgstr "StampS3"
 
 #: ../../en/hardware/speaker.rst:58 a84fb167cf6e4950ac9830c50520a92a
 msgid "Station"
-msgstr ""
+msgstr "Station"
 
 #: ../../en/hardware/speaker.rst:60 fdadc5c585c0445d9dd027da9ebe0913
 msgid "StickC"
-msgstr ""
+msgstr "StickC"
 
 #: ../../en/hardware/speaker.rst:62 cf13fe040d824305a067a71fe8e5dea3
 msgid "StickC PLUS"
-msgstr ""
+msgstr "StickC PLUS"
 
 #: ../../en/hardware/speaker.rst:64 49f08fe0cb0a4bdca442ef1905064f91
 msgid "StickC PLUS2"
-msgstr ""
+msgstr "StickC PLUS2"
 
 #: ../../en/hardware/speaker.rst:66 977d3c456f064fbe85ccfd5dcdc0e04f
 msgid "TOUGH"
-msgstr ""
+msgstr "TOUGH"
 
 #: ../../en/hardware/speaker.rst:72 91512c2dea4a48d69877d19a65159953
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/hardware/speaker.rst:79 c6c430313a584ab98ee1fc5870a433a2
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/hardware/speaker.rst:81 5635ff8b2f9740e5ba96cdceac8c1fb5
 msgid "|example.png|"
@@ -187,19 +187,20 @@ msgid ""
 ":download:`poweron_2_5s.wav "
 "<../../../examples/hardware/speaker/poweron_2_5s.wav>`"
 msgstr ""
+":download:`poweron_2_5s.wav "
+"<../../../examples/hardware/speaker/poweron_2_5s.wav>`"
 
 #: ../../en/hardware/speaker.rst:91 ebdf64f32dca42ec8cc26436bb866cfd
 msgid "class Speaker"
-msgstr ""
+msgstr "class Speaker"
 
 #: ../../en/hardware/speaker.rst:95 cdd1f1fab6034794807f9634d61f06c5
-#, fuzzy
 msgid ""
 "Methods of the Speaker Class heavily rely on ``M5.begin()`` "
 "|M5.begin.png| and ``M5.update()`` |M5.update.png|."
 msgstr ""
-"Speaker Class的方法重度依赖 ``M5.begin()`` |M5.begin.svg| 和 ``M5.update()`` "
-"|M5.update.svg|。"
+"Speaker Class 的方法高度依赖 ``M5.begin()`` |M5.begin.png| 和 ``M5.update()`` "
+"|M5.update.png|。"
 
 #: ../../en/refs/system.ref:2 5ac2521fd183434cb8a999b1ec1fa780
 #: 713357fed32d4ff892da62e99f554503
@@ -212,14 +213,13 @@ msgid "M5.update.png"
 msgstr ""
 
 #: ../../en/hardware/speaker.rst:97 cb296970547b4f1e9147113e08be9dcf
-#, fuzzy
 msgid ""
 "All calls to methods of Speaker objects should be placed after "
 "``M5.begin()`` |M5.begin.png|, and ``M5.update()`` |M5.update.png| should"
 " be called in the main loop."
 msgstr ""
-"调用 Speaker 对象的所有方法，需要放在 ``M5.begin()`` |M5.begin.svg| 的后面，并在 主循环中调用 "
-"``M5.update()`` |M5.update.svg|。"
+"对 Speaker 对象方法的所有调用都应放在 ``M5.begin()`` |M5.begin.png| 之后，并且应在主循环中调用 "
+"``M5.update()`` |M5.update.png|。"
 
 #: ../../en/hardware/speaker.rst:101 66d8e67415ee4345ae71e1168edd9646
 msgid "Methods"
@@ -249,7 +249,7 @@ msgstr "获取或者设置 Speaker 对象的参数。"
 #: cb2cd9aae6224dfb938ccf807b5bfd01 ec677b29271e4423aa0cf71e413ee194
 #: f6471566b80a4c929094c0519cdb9232 f6c41153309d427db8188f5715f53637
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2"
 
 #: ../../en/hardware/speaker.rst:111 c2e65f1c31e14dd5ad59a59de13dd5b3
 msgid "Read property:"
@@ -261,7 +261,7 @@ msgstr ""
 
 #: ../../en/hardware/speaker.rst:114 db049253f25f4a23a3bcbb5ef5ccf90a
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: ../../en/hardware/speaker.rst:114 49e78d99831243f39ebe8c229b3a396b
 msgid "Description"
@@ -269,7 +269,7 @@ msgstr ""
 
 #: ../../en/hardware/speaker.rst:116 ea9da7ed88de461e81989b6b0c871e94
 msgid "pin_data_out"
-msgstr ""
+msgstr "pin_data_out"
 
 #: ../../en/hardware/speaker.rst:116 ../../en/hardware/speaker.rst:117
 #: ../../en/hardware/speaker.rst:118 ../../en/hardware/speaker.rst:119
@@ -283,7 +283,7 @@ msgstr ""
 #: c15dce00f8944b1ba72933dd8dae952b df6f3fb4356b479bb75daa1241111481
 #: ff008ee0d40045b3a3d9a8478764d3fb ff5e6ded34f8493b8eb41fc1b0816059
 msgid "(integer)"
-msgstr ""
+msgstr "(integer)"
 
 #: ../../en/hardware/speaker.rst:116 509cfb3136f44d07a6f38a258b2fcb72
 msgid "Serial data line of I2S, representing audio data in binary complement."
@@ -291,7 +291,7 @@ msgstr "I2S 的串行数据线，用二进制补码表示的音频数据。"
 
 #: ../../en/hardware/speaker.rst:117 8982e1964994425ca10ee86c3284fa79
 msgid "pin_bck"
-msgstr ""
+msgstr "pin_bck"
 
 #: ../../en/hardware/speaker.rst:117 b9e8f16971884675a120616d4496291f
 msgid "Serial clock line of I2S, corresponding to each bit of digital audio data."
@@ -299,7 +299,7 @@ msgstr "I2S 的串行时钟线，对应数字音频的每一位数据。"
 
 #: ../../en/hardware/speaker.rst:118 be4675b471ed41f588ec9c821976bd25
 msgid "pin_ws"
-msgstr ""
+msgstr "pin_ws"
 
 #: ../../en/hardware/speaker.rst:118 88fce2f701914c88a2f07bd7d15a7158
 msgid "Frame clock of I2S, used to switch left and right channel data."
@@ -307,7 +307,7 @@ msgstr "I2S 的帧时钟，用于切换左右声道的数据。"
 
 #: ../../en/hardware/speaker.rst:119 a7e9a7a162534fa7bdd66cce1bf15ca8
 msgid "sample_rate"
-msgstr ""
+msgstr "sample_rate"
 
 #: ../../en/hardware/speaker.rst:119 922e6444c29b469dac4ab736bb8541e2
 msgid "Target sampling rate of output audio."
@@ -315,13 +315,13 @@ msgstr "音频输出的采样率。"
 
 #: ../../en/hardware/speaker.rst:120 d5a396660d7d4401ae212ece829aee29
 msgid "stereo"
-msgstr ""
+msgstr "立体声"
 
 #: ../../en/hardware/speaker.rst:120 ../../en/hardware/speaker.rst:121
 #: ../../en/hardware/speaker.rst:122 5cf07b68e4d64f5bac78348fab877806
 #: 9e1820e29b374b8e925d29b39e4132b2 d8fb91ef9cd442edaf75bcf543240878
 msgid "(boolean)"
-msgstr ""
+msgstr "(boolean)"
 
 #: ../../en/hardware/speaker.rst:120 8fb8939feb5a4363847e2e085a410480
 msgid "Use stereo output."
@@ -329,7 +329,7 @@ msgstr "使用双声道输出。"
 
 #: ../../en/hardware/speaker.rst:121 3424c4ba889941109f189799b151fcde
 msgid "buzzer"
-msgstr ""
+msgstr "蜂鸣器"
 
 #: ../../en/hardware/speaker.rst:121 46e1005a515d42409eecfa52f3778807
 msgid "Use single GPIO buzzer."
@@ -337,7 +337,7 @@ msgstr "使用单GPIO蜂鸣器。"
 
 #: ../../en/hardware/speaker.rst:122 2202b40f745f4243a8c1c18d00ec20a5
 msgid "use_dac"
-msgstr ""
+msgstr "use_dac"
 
 #: ../../en/hardware/speaker.rst:122 3b7864d0bd8f4eea90fe7c6a521458a6
 msgid "Use DAC speaker."
@@ -345,7 +345,7 @@ msgstr "使用DAC音箱。"
 
 #: ../../en/hardware/speaker.rst:123 949ad2d1d6ed4027814bd72facda405a
 msgid "dac_zero_level"
-msgstr ""
+msgstr "dac_zero_level"
 
 #: ../../en/hardware/speaker.rst:123 cd37060c400d4e668bbef440c1202b14
 msgid "Zero level reference value when using DAC."
@@ -353,7 +353,7 @@ msgstr "使用DAC时的零电平参考值。"
 
 #: ../../en/hardware/speaker.rst:124 85fce347ade5427689d5693fa298f6ae
 msgid "magnification"
-msgstr ""
+msgstr "放大倍数"
 
 #: ../../en/hardware/speaker.rst:124 58e9a3ef793841afa1b13db74af47a79
 msgid "Multiplier of the input value."
@@ -361,7 +361,7 @@ msgstr "输入值的乘数。"
 
 #: ../../en/hardware/speaker.rst:125 1a85103b0f534d46887074fffe469b57
 msgid "dma_buf_len"
-msgstr ""
+msgstr "dma_buf_len"
 
 #: ../../en/hardware/speaker.rst:125 0937e398a660431e9715cec751df22d3
 msgid "DMA buffer length of I2S."
@@ -369,7 +369,7 @@ msgstr "I2S 的DMA缓冲区长度。"
 
 #: ../../en/hardware/speaker.rst:126 33c4ab01bb3849bcb812318d6eebe780
 msgid "dma_buf_count"
-msgstr ""
+msgstr "dma_buf_count"
 
 #: ../../en/hardware/speaker.rst:126 a7393d82a3c146ad98c3940ca090de80
 msgid "Number of DMA buffers of I2S."
@@ -377,7 +377,7 @@ msgstr "I2S 的DMA缓冲区数量。"
 
 #: ../../en/hardware/speaker.rst:127 5009df39ef27451daa23291e441de254
 msgid "task_priority"
-msgstr ""
+msgstr "task_priority"
 
 #: ../../en/hardware/speaker.rst:127 004e9afe5dca46fab54eb88cfc368cc9
 msgid "Priority of background tasks."
@@ -385,7 +385,7 @@ msgstr "后台任务优先级。"
 
 #: ../../en/hardware/speaker.rst:128 27fc5cefc94740e4833428fa5a040fac
 msgid "task_pinned_core"
-msgstr ""
+msgstr "task_pinned_core"
 
 #: ../../en/hardware/speaker.rst:128 dafcd8aba6e04e56ae625f5193878071
 msgid "CPU used by background tasks."
@@ -393,7 +393,7 @@ msgstr "后台任务使用的CPU。"
 
 #: ../../en/hardware/speaker.rst:129 49c2e8a823064e6ebb99bd20986f8347
 msgid "i2s_port"
-msgstr ""
+msgstr "i2s_port"
 
 #: ../../en/hardware/speaker.rst:129 a725a3f8ff7648649571492cf05488ad
 msgid "I2S port."
@@ -402,7 +402,7 @@ msgstr "I2S端口。"
 #: ../../en/hardware/speaker.rst:132 ../../en/hardware/speaker.rst:141
 #: 68425c0a8aa6452980b5e102f5bd14e4 ead8a028a9164300a833c4bc555a675d
 msgid "Python::"
-msgstr ""
+msgstr "Python："
 
 #: ../../en/hardware/speaker.rst:136 844323466d0d4a4fb92d3983837bdcef
 msgid "|get_config.png| |get_config1.png|"
@@ -418,7 +418,7 @@ msgstr ""
 
 #: ../../en/hardware/speaker.rst:139 02d18bb2d7544e5cb7ceecbb561588ff
 msgid "Set property:"
-msgstr ""
+msgstr "设置属性："
 
 #: ../../en/hardware/speaker.rst:145 67040f51f2734be18d0b53f1dc9f19cd
 msgid "|set_config.png| |set_config1.png|"
@@ -722,9 +722,8 @@ msgid "playWav.png"
 msgstr ""
 
 #: ../../en/hardware/speaker.rst:339 80823cf90e764a69a58baf64390be7d4
-#, fuzzy
 msgid "``path`` is the path to the audio file."
-msgstr "``sample_rate`` 是设置音频数据的采样率。"
+msgstr "``path`` 是音频文件的路径。"
 
 #: ../../en/hardware/speaker.rst:346 8dac623b3b57438dbb92f92cbca430cf
 msgid "|playWavFile.png|"

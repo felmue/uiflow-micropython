@@ -1,0 +1,393 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/hbridge.rst:2 e4f3edee2d8a454ea7f1efca53a6785d
+msgid "Hbridge Unit"
+msgstr "Hbridge Unit"
+
+#: ../../source/unit/hbridge.rst:10 e97b6cf0ae49433d93ea7dcc800f824f
+msgid ""
+"This library is the driver for Unit HBridge. Only version v1.1 supports "
+"current measurement."
+msgstr "该库是 Unit HBridge 的驱动程序。仅 v1.1 版本支持电流测量。"
+
+#: ../../source/unit/hbridge.rst:12 8b96393afc3041deba8c8ce0a19e38a9
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/hbridge.rst:15 8232d2d24ea543ba876555d045985828
+msgid "|Unit HBridge|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref 76691ad4fbbb4b1b90f5fdca9b772683
+msgid "Unit HBridge"
+msgstr "Unit HBridge"
+
+#: ../../source/unit/hbridge.rst:15 b777d79596b440898c50c9448bc2d7f4
+msgid "|Unit HBridge v1.1|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref 67ad8477b8bd41fe88570830d18ef875
+msgid "Unit HBridge v1.1"
+msgstr "Unit HBridge v1.1"
+
+#: ../../source/unit/hbridge.rst:20 1c30a5768e4841dfbe0cf9259e0abd17
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/hbridge.rst:23 ../../source/unit/hbridge.rst:42
+#: 36c51617b67d48248e371035cfda2d89 b8ff1155a77a429ea81e65400de193f0
+msgid "Motor speed and rotate direction control"
+msgstr "电机速度与旋转方向控制"
+
+#: ../../source/unit/hbridge.rst:25 d6fc94c399d94dcc853ebf7196409442
+msgid "Open the |cores3_hbridge_motor_control.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |cores3_hbridge_motor_control.m5f2| 项目。"
+
+#: ../../source/unit/hbridge.rst:27 ../../source/unit/hbridge.rst:44
+#: 236eebc6d837459a82739e7f0df2c36d 672d553b4bbb401a82cf4d4d79de041b
+msgid ""
+"This example demonstrates how to control the motor's speed and switch its"
+" rotation direction."
+msgstr "该示例演示如何控制电机的速度并切换其旋转方向。"
+
+#: ../../source/unit/hbridge.rst:29 157ed890345c4d73b2378eafb966bb45
+#: 26f4f7407c7b4c6bb6f6bbe6aa98bf44 38a605e531554f01a1cdfeb06f7502d4
+#: 5b1353c8c6384b799aee434559cc4b45 648474e9c2ea425cbeeac2940d503069
+#: 854f656c60334fd0861c361bcc0af61f bbcd46e68ce54e10b296f96b7e41d118
+#: bfed64e9d1ae433fb39dbdee00ba4fd6 c5e83dc2f6854739b948963bc977ab59
+#: cc53459b038e41358365eb65df52f7dd ed0c44e2604d4879827b3d6614c86246 of
+#: unit.hbridge.HbridgeUnit:8 unit.hbridge.HbridgeUnit.get_adc_value:15
+#: unit.hbridge.HbridgeUnit.get_device_status:7
+#: unit.hbridge.HbridgeUnit.get_driver_config:8
+#: unit.hbridge.HbridgeUnit.get_vin_current:6
+#: unit.hbridge.HbridgeUnit.set_16bit_pwm:5
+#: unit.hbridge.HbridgeUnit.set_8bit_pwm:5
+#: unit.hbridge.HbridgeUnit.set_direction:10
+#: unit.hbridge.HbridgeUnit.set_percentage_pwm:6
+#: unit.hbridge.HbridgeUnit.set_pwm_freq:5
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/hbridge.rst:31 6fead8659d984c669f142c4df7020aca
+msgid "|cores3_hbridge_motor_control.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref:21 c8555bd29e5a49479aae4f3e64655bf0
+msgid "cores3_hbridge_motor_control.png"
+msgstr ""
+
+#: ../../source/unit/hbridge.rst:33 ../../source/unit/hbridge.rst:52
+#: 249a537f40844c5fb880e2b78b697492 788bb84446e5423f853d5ee2b7244b6f
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/hbridge.rst:35 ../../source/unit/hbridge.rst:54
+#: 3045f15b5a66479b95499f1b82e25843 a6049b8f3a7e445787791aba20d46e4f
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/hbridge.rst:39 51a4295e79904e6ba46b67c423e99a90
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/hbridge.rst:46 163addea1a244b1688ac56042269779d
+#: 1bc15bd1c5d5438abc161e4eeb382058 2799f519ad80455e90283e41eb84ac38
+#: 65aef386bb0840ee91ced35ab969df4b 76dd018c529f461b833d53edc50fba75
+#: 93e0246525d44541bd8ed92e05fd8a88 b7e3ab551b4a4816a031af02304e0979
+#: cc4518adb5f8479c9ef8d62fe1b876c9 dbacef160d0e458eac63b44d90e0850a
+#: e3bd54356daf453eb0057787f348c47c f2af99d35cde49e19ba3b63cae487642 of
+#: unit.hbridge.HbridgeUnit:12 unit.hbridge.HbridgeUnit.get_adc_value:19
+#: unit.hbridge.HbridgeUnit.get_device_status:11
+#: unit.hbridge.HbridgeUnit.get_driver_config:12
+#: unit.hbridge.HbridgeUnit.get_vin_current:10
+#: unit.hbridge.HbridgeUnit.set_16bit_pwm:9
+#: unit.hbridge.HbridgeUnit.set_8bit_pwm:9
+#: unit.hbridge.HbridgeUnit.set_direction:14
+#: unit.hbridge.HbridgeUnit.set_percentage_pwm:10
+#: unit.hbridge.HbridgeUnit.set_pwm_freq:9
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/hbridge.rst:58 9928f1de570b447caa5650c7284ad1a5
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/hbridge.rst:61 57c44bd2367445d397617922c9b49b67
+msgid "HbridgeUnit"
+msgstr "HbridgeUnit"
+
+#: 5db7ad5842ce458ab43418a92b263f1a of unit.hbridge.HbridgeUnit:1
+msgid "Bases: :py:class:`object`"
+msgstr "Bases: :py:class:`object`"
+
+#: 7d3a54508e3b40ca82292efdc71e8489 of unit.hbridge.HbridgeUnit:1
+msgid "Create an HbridgeUnit object."
+msgstr "创建一个 HbridgeUnit 对象。"
+
+#: ../../source/unit/hbridge.rst 00e23c21ae3e4957a28f696cb91f5d18
+#: 0fd15f21223e4e2f8a73c03e20f19192 1d0a5629389d47638d4cf33f46db4bd1
+#: 9141265bb6c94c01a726a270ad905583 9a9f06ccedfd45738e09120880353de0
+#: b529c0c3ebc740bcb5eab46b4f35a058 c3e67d05a1314bdd8af6f995ab3d68c6
+#: db855bd274e643e480deb53909e1a04f f422a4afbcff417baf87d0d9dfc6f538 of
+#: unit.hbridge.HbridgeUnit.get_adc_value
+#: unit.hbridge.HbridgeUnit.get_device_status
+#: unit.hbridge.HbridgeUnit.get_driver_config
+#: unit.hbridge.HbridgeUnit.set_16bit_pwm unit.hbridge.HbridgeUnit.set_8bit_pwm
+#: unit.hbridge.HbridgeUnit.set_direction
+#: unit.hbridge.HbridgeUnit.set_percentage_pwm
+#: unit.hbridge.HbridgeUnit.set_pwm_freq
+msgid "Parameters"
+msgstr ""
+
+#: 3e6ce0c576954347ace769f063f46970 of unit.hbridge.HbridgeUnit:3
+msgid "I2C port."
+msgstr "I2C 端口。"
+
+#: 1897a7af58ac4fdfa90c48e208397ee0 of unit.hbridge.HbridgeUnit:5
+msgid "HbridgeUnit Slave Address."
+msgstr "HbridgeUnit 从机地址。"
+
+#: 5f06d2f2d4e44aa387ea65dd58c3552c of unit.hbridge.HbridgeUnit:10
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref:11 45dd1a9def4c436cb9ebe862c5fcece1
+msgid "init.png"
+msgstr ""
+
+#: 4050ecc20640464da7afb9bd63f26912 of
+#: unit.hbridge.HbridgeUnit.get_driver_config:1
+msgid "Get driver config."
+msgstr "获取驱动配置。"
+
+#: 992a16487e0b4a8da433a70589dcbae4 c69fca98be2b4ed1bc883080f86e594a
+#: c6d9837263c846df8eeff81ad39fb74e of unit.hbridge.HbridgeUnit.get_adc_value
+#: unit.hbridge.HbridgeUnit.get_driver_config
+#: unit.hbridge.HbridgeUnit.get_vin_current
+msgid "Returns"
+msgstr ""
+
+#: bbbe2647c7094b4a90675c5731d420eb of
+#: unit.hbridge.HbridgeUnit.get_driver_config:5
+msgid "driver config."
+msgstr "驱动配置。"
+
+#: 0e3590948717444eb40bc4dcbe65c97c 1852f35e0089448bb556fb650f3dffe7
+#: 5d462224c9234066a04f64666a51e239 68a454d346084174a60dc4b2177dc101
+#: 7f449ac5b4204aabab345b138ae48913 8ffeec22174b4774bfad897ffb41c3a0
+#: 9783a3e4916c4460839dd25b9c7bba1f e26df66caeb440b797ff47ef247e3629
+#: eaa7c6f7e07844b398c9c9af766a9a16 of unit.hbridge.HbridgeUnit.get_adc_value
+#: unit.hbridge.HbridgeUnit.get_device_status
+#: unit.hbridge.HbridgeUnit.get_driver_config
+#: unit.hbridge.HbridgeUnit.get_vin_current
+#: unit.hbridge.HbridgeUnit.set_16bit_pwm unit.hbridge.HbridgeUnit.set_8bit_pwm
+#: unit.hbridge.HbridgeUnit.set_direction
+#: unit.hbridge.HbridgeUnit.set_percentage_pwm
+#: unit.hbridge.HbridgeUnit.set_pwm_freq
+msgid "Return type"
+msgstr ""
+
+#: 5ebcae5c942c47a4aff55c589468f48d of
+#: unit.hbridge.HbridgeUnit.get_driver_config:10
+msgid "|get_driver_config.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref:12 c7a39c48e86c4ad3a158acfdf6d522e2
+msgid "get_driver_config.png"
+msgstr ""
+
+#: f56bb2840e7f44adb0bb2be6ee354904 of unit.hbridge.HbridgeUnit.set_direction:1
+msgid "Set direction"
+msgstr "设置方向"
+
+#: b411890f417c4d4f96b69a6b7eb4f2ed of unit.hbridge.HbridgeUnit.set_direction:3
+msgid "This method controls the motor's movement direction or stops it."
+msgstr "该方法用于控制电机的运动方向或使其停止。"
+
+#: 39b9ab6b39074671a6e0369ad959cd6c of unit.hbridge.HbridgeUnit.set_direction:5
+msgid "Direction control parameter: - 0: Stop - 1: Forward - 2: Reverse"
+msgstr "方向控制参数：- 0：停止 - 1：前进 - 2：反向"
+
+#: 864c0b2ab9b74c8c8f310ee8794bacf9 of
+#: unit.hbridge.HbridgeUnit.set_direction:12
+msgid "|set_direction.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref:15 bb326d1f00ab4953962526c684f4b1cb
+msgid "set_direction.png"
+msgstr ""
+
+#: 9d449c020970436f928eb0c576166005 of unit.hbridge.HbridgeUnit.set_8bit_pwm:1
+msgid "Set 8-bit pwm duty cycle"
+msgstr "设置 8 位 PWM 占空比"
+
+#: 9a68c6152ec749e6bdd6f5eec7dc8a75 of unit.hbridge.HbridgeUnit.set_8bit_pwm:3
+msgid "PWM duty, range: 0~255"
+msgstr "PWM duty，占空比范围：0~255"
+
+#: 9cb8a656089f4ba38f7820b376d2c5f6 of unit.hbridge.HbridgeUnit.set_8bit_pwm:7
+msgid "|set_8bit_pwm.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref:16 e9c57c8c827146e1bd48ecd14ea1196e
+msgid "set_8bit_pwm.png"
+msgstr ""
+
+#: 53a5db3ab93e45e68f1b151d9326c6a2 of unit.hbridge.HbridgeUnit.set_16bit_pwm:1
+msgid "Set 16-bit pwm duty cycle"
+msgstr "设置 16 位 PWM 占空比"
+
+#: 8095e37a35904fa791c2f5c39efe0005 of unit.hbridge.HbridgeUnit.set_16bit_pwm:3
+msgid "pwm duty, range: 0~65535"
+msgstr "PWM 占空比，范围：0~65535"
+
+#: b78cbc635fdf4dd6b5e533d8adf3572e of unit.hbridge.HbridgeUnit.set_16bit_pwm:7
+msgid "|set_16bit_pwm.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref:17 6a8a61bcac934627be4ee51e9e975e07
+msgid "set_16bit_pwm.png"
+msgstr ""
+
+#: 3e67ae0a23e24447ac14605446f1a793 of
+#: unit.hbridge.HbridgeUnit.set_percentage_pwm:1
+msgid "Set the PWM output based on percentage."
+msgstr "根据百分比设置 PWM 输出。"
+
+#: 02516814710941dd905210c5595f4802 of
+#: unit.hbridge.HbridgeUnit.set_percentage_pwm:3
+msgid "PWM duty cycle as a percentage (0 to 100)."
+msgstr "PWM 占空比百分比（0 到 100）。"
+
+#: 4308fb61c1334ad6ba7787b10ad9e9e0 of
+#: unit.hbridge.HbridgeUnit.set_percentage_pwm:4
+msgid "PWM resolution (8 or 16 bits), default is 8."
+msgstr "PWM 分辨率（8 或 16 位），默认为 8。"
+
+#: 30d6c4cd9dde458f90c9190652070f2b of
+#: unit.hbridge.HbridgeUnit.set_percentage_pwm:8
+msgid "|set_percentage_pwm.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref:18 ff85bd7d42524c53bedad850a0102573
+msgid "set_percentage_pwm.png"
+msgstr ""
+
+#: 493d3b011d054a51a2f2ddaf58ae2a58 of unit.hbridge.HbridgeUnit.set_pwm_freq:1
+msgid "Set PWM frequency."
+msgstr "设置 PWM 频率。"
+
+#: 4c4b971af0044f618792a3ccb69824a6 of unit.hbridge.HbridgeUnit.set_pwm_freq:3
+msgid "The PWM frequnecy."
+msgstr "PWM 频率。"
+
+#: 8c58d8571ff2421b8d5641ea7098657d of unit.hbridge.HbridgeUnit.set_pwm_freq:7
+msgid "|set_pwm_freq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref:19 5fea4a768b9346c7ac1a2b4cd65221aa
+msgid "set_pwm_freq.png"
+msgstr ""
+
+#: dbb50a1e26ef442281a52e69f2fa09ed of unit.hbridge.HbridgeUnit.get_adc_value:1
+msgid "Get ADC value."
+msgstr "获取 ADC 值。"
+
+#: cfa116319fbe4b17a0ab4f619e1bea24 of unit.hbridge.HbridgeUnit.get_adc_value:3
+msgid ""
+"This method retrieves the ADC value based on the specified resolution. It"
+" supports both 8-bit and 16-bit ADC resolutions. If `raw` is set to `1`, "
+"the raw ADC value is returned. Otherwise, the corresponding voltage is "
+"calculated and returned."
+msgstr ""
+"该方法会根据指定的分辨率读取 ADC 值，支持 8-bit 和 16-bit ADC 分辨率。如果将 `raw` 设置为 `1`，则返回原始 "
+"ADC 值；否则会计算并返回对应的电压值。"
+
+#: 98a5a7e7e8804990aa3a78199d321e44 of unit.hbridge.HbridgeUnit.get_adc_value:8
+msgid ""
+"If 1, returns the raw ADC value. If 0, returns the voltage (calculated "
+"based on ADC value)."
+msgstr "如果为 1，则返回原始 ADC 值；如果为 0，则返回电压（根据 ADC 值计算）。"
+
+#: 959aa77c90a24355a2ad840845efb7ab of
+#: unit.hbridge.HbridgeUnit.get_adc_value:10
+msgid "ADC resolution (8 or 16 bits). Default is 8 bits."
+msgstr "ADC 分辨率（8 或 16 位）。默认值为 8 位。"
+
+#: e54c8d7fc22646528f425a96ffacbcd1 of
+#: unit.hbridge.HbridgeUnit.get_adc_value:12
+msgid "The raw ADC value or the calculated voltage, depending on `raw`."
+msgstr "原始 ADC 值或计算得到的电压，取决于 `raw`。"
+
+#: 9b8c8f0e8f7e471ba77f807af51ac6d0 of
+#: unit.hbridge.HbridgeUnit.get_adc_value:17
+msgid "|get_adc_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref:13 80b9036a99c244ff8fc4a2b26d709671
+msgid "get_adc_value.png"
+msgstr ""
+
+#: e0611b2ff6834f53823e18137da78ddd of
+#: unit.hbridge.HbridgeUnit.get_vin_current:1
+msgid "Get the input voltage current (unit: A)."
+msgstr "获取输入电压电流（单位：A）。"
+
+#: cdc7d3b8f57343d9abeff9bb34046617 of
+#: unit.hbridge.HbridgeUnit.get_vin_current:3
+msgid "The input voltage current value."
+msgstr "输入电压电流值。"
+
+#: cda5c37869c44aec8e9d4f65a275b55d of
+#: unit.hbridge.HbridgeUnit.get_vin_current:8
+msgid "|get_vin_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref:20 eef292802a454b23b1401e5364237c1c
+msgid "get_vin_current.png"
+msgstr ""
+
+#: facbd2d745c143a5b982164633f7716f of
+#: unit.hbridge.HbridgeUnit.get_device_status:1
+msgid "Get device status."
+msgstr "获取设备状态。"
+
+#: 483d11147e974965880211c17a8ba299 of
+#: unit.hbridge.HbridgeUnit.get_device_status:3
+msgid "get firmware version and i2c address."
+msgstr "获取固件版本和 I2C 地址。"
+
+#: 87065cc8430e40aeab8c7ba3d909871b of
+#: unit.hbridge.HbridgeUnit.get_device_status:5
+msgid "0xFE and 0xFF"
+msgstr "0xFE 和 0xFF"
+
+#: f4423e2334014e48a72d713904042350 of
+#: unit.hbridge.HbridgeUnit.get_device_status:9
+msgid "|get_device_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.hbridge.ref:14 2069027b9f3c4b39adb782c8b113e65d
+msgid "get_device_status.png"
+msgstr ""
+

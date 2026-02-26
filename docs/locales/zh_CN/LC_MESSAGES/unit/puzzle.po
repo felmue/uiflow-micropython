@@ -1,0 +1,291 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/puzzle.rst:3 67222d861af74cd4b8d40af669baea45
+msgid "Puzzle Unit"
+msgstr "Puzzle Unit"
+
+#: ../../source/unit/puzzle.rst:7 e4a38f5350a740a68150f0916e8119a1
+msgid ""
+"Unit-Puzzle is a colorful lighting control unit, consisting of an 8x8 RGB"
+" array of 64 colorful WS2812E RGB lamp beads."
+msgstr "Unit-Puzzle 是一款多彩灯光控制单元，由 8x8 RGB 阵列组成，包含 64 颗多彩的 WS2812E RGB 灯珠。"
+
+#: ../../source/unit/puzzle.rst:9 fc8e7d3f1f79432bbc13011c7a9bdcde
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/puzzle.rst:11 41135734a6e443238778b16137248bcb
+msgid "|PuzzleUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.puzzle.ref 696f3edefaaf4708b965eca33b616ed8
+msgid "PuzzleUnit"
+msgstr "PuzzleUnit"
+
+#: ../../source/unit/puzzle.rst:13 5af3b85478b647959733a2b111445ace
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/puzzle.rst:20 fdf2cb2b997a4d75a6aa7d14e1c74cf6
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/puzzle.rst:22 41b04c5641dd45aeb25ddcf612755ad4
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.puzzle.ref:17 608074c5728a4fa7a647633b615bade7
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:26 db5b7523f7e74d7da6eae0b3d8b87e36
+msgid "|puzzle_core2_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:29 51a907c7cf684a8e8a95bec515e9a4a5
+msgid "class PuzzleUnit"
+msgstr "class PuzzleUnit"
+
+#: ../../source/unit/puzzle.rst:32 31f2789e6fdd4779989d4563bce1e4b3
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:36 50d57d315c9441e992712fe9ed171011
+msgid "Initialize the PuzzleUnit."
+msgstr "初始化 PuzzleUnit。"
+
+#: ../../source/unit/puzzle.rst 0232c4559e5c42488cb72969e79b162e
+#: 14a6404b227a4a178999aebbba9e4bc4 1afd5238d1d84945821fe6e52ee343ee
+#: 6f55e494b689437ea73202353856036f 773b442fccbe4611988c99fb87cca0eb
+#: 94a14f7c30a548beafc9658d656088df a94534f2cd4647f0ad5c17be3a72fbf3
+#: e0f9f91d7f33464daab1a9203fc4cf21 e5198961efc046638b928f1186b70725
+#: efda08a918864b23b94eda53712abafc
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:38 dbdfe0ab8333425998c090ae73294fda
+msgid "The port to connect the WS2812 LED strip."
+msgstr "用于连接 WS2812 LED 灯带的端口。"
+
+#: ../../source/unit/puzzle.rst:39 dbf897a5171f43118c9ae1a576bfb872
+msgid "Number of connected PuzzleUnit boards."
+msgstr "连接的 PuzzleUnit 板数量。"
+
+#: ../../source/unit/puzzle.rst:41 ../../source/unit/puzzle.rst:55
+#: ../../source/unit/puzzle.rst:66 ../../source/unit/puzzle.rst:76
+#: ../../source/unit/puzzle.rst:90 ../../source/unit/puzzle.rst:103
+#: ../../source/unit/puzzle.rst:117 ../../source/unit/puzzle.rst:131
+#: ../../source/unit/puzzle.rst:143 ../../source/unit/puzzle.rst:154
+#: 1203c27dec2344ec940c39184b0601a5 285160a2c1ef4f949629417a7e34d5a2
+#: 696acc408aa94035a6983fdaebc71d2a 6fa20c03b2c742eca9363ed57777c1d9
+#: 930df0ff8e414c419b07dcc4d6518687 9dd21a19513a4123bd9c6031ed064cab
+#: c05a5999ea2a481abbd552baf2497841 d0c876d0e7c64c0d91ed4b68f68b1b6a
+#: e17a1377895b47eca807a201c29e2ae2 f70a77bec28c49ed83c740e13d3ea3a4
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/puzzle.rst:43 24ef6deef6124ceda9f77f14d47ada67
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.puzzle.ref:7 45e1ddf8734046ba8d044d00849f8418
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:47 c5909c355b6f4b54bd5495e1583dc155
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:51 7aa3fd8d0acd4637bdd77528c912d37d
+msgid "Set the entire screen or area to a specific RGB color."
+msgstr "将整个屏幕或指定区域设置为特定的 RGB 颜色。"
+
+#: ../../source/unit/puzzle.rst:53 ef64624768d4493cb5a5011c612344c8
+msgid "The RGB color to fill the area with."
+msgstr "用于填充区域的 RGB 颜色。"
+
+#: ../../source/unit/puzzle.rst:57 2f1cfa7ee5b04538a34e43022075a08e
+msgid "|fill_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.puzzle.ref:8 ed5432615206464d9f05fb270253c464
+msgid "fill_color.png"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:61 f11d0bf5523b4ec8bdbf33c6bf224a46
+msgid "Set the color of a specific pixel or LED."
+msgstr "设置指定像素或 LED 的颜色。"
+
+#: ../../source/unit/puzzle.rst:63 24973175156b4258929b5eda634ed226
+msgid "The index of the pixel or LED to set the color on."
+msgstr "要设置颜色的像素或 LED 的索引。"
+
+#: ../../source/unit/puzzle.rst:64 ../../source/unit/puzzle.rst:87
+#: ../../source/unit/puzzle.rst:101 ../../source/unit/puzzle.rst:128
+#: b2269b36588d405ea06ec2abc758655f c898c2eebe4942ff8724602a940eefa2
+#: dcb5729b058c46878923af3cd7853417 e86c33641de54b408089ecd88da3ee04
+msgid "The color to set, specified in RGB format."
+msgstr "要设置的颜色，采用 RGB 格式指定。"
+
+#: ../../source/unit/puzzle.rst:68 ../../source/unit/puzzle.rst:105
+#: 0e2c9b320b8b40d88310a9edebeb42e7 ea4302d7b9174ce7ba964794757a914b
+msgid "|set_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.puzzle.ref:9 0e09767b26eb40e2b3c4e61e0f07b847
+#: 3f3fb283cfde401a93e385b0f25bb60b
+msgid "set_color.png"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:72 eadc4d064f8048a0b1c301e017dc4b5a
+msgid "Adjust the brightness of the LEDs based on the given percentage."
+msgstr "根据给定的百分比调整 LED 的亮度。"
+
+#: ../../source/unit/puzzle.rst:74 543a78e7d3cc4759bf0706026d9b85e2
+msgid "The brightness percentage (0-100)."
+msgstr "亮度百分比（0-100）。"
+
+#: ../../source/unit/puzzle.rst:78 bccc089e78a8414f81c42b581e16dbf2
+msgid "|set_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.puzzle.ref:10 7905e78ab6a541a4a13a4d3dc36674ec
+msgid "set_brightness.png"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:82 ff94c27d872a4b67b62716bff5847593
+msgid "Set color on a range of LEDs starting from a specified board and range."
+msgstr "从指定的板子起始位置和范围开始，为一段 LED 设置颜色。"
+
+#: ../../source/unit/puzzle.rst:84 ../../source/unit/puzzle.rst:111
+#: ../../source/unit/puzzle.rst:125 ../../source/unit/puzzle.rst:139
+#: 2c2ae91428864afc80bcdf6bd381a576 332844f503974232a9b018c1edfc9696
+#: 3df7d83c018f41c88028eb1cc5724b60 439347ed698248cd9216a7c043a38e34
+msgid "The board number (starting from 1) where the LEDs are located."
+msgstr "LED 所在的板号（从 1 开始）。"
+
+#: ../../source/unit/puzzle.rst:85 ../../source/unit/puzzle.rst:112
+#: ../../source/unit/puzzle.rst:126 ../../source/unit/puzzle.rst:140
+#: 26397c0b012346b79b03af3e99d58b7f 89472d79004e428ab17bbd9c83e11a26
+#: b5ae173a85b1476c93228678ab1376ab dc9039715cae49b8abd4be8599b0c6f4
+msgid "The starting LED index on the board."
+msgstr "板载 LED 的起始索引。"
+
+#: ../../source/unit/puzzle.rst:86 ../../source/unit/puzzle.rst:113
+#: ../../source/unit/puzzle.rst:127 ../../source/unit/puzzle.rst:141
+#: 7ab47860f1a8443e841e170a8204b25b 9a46f507d67e4e5e914a79acd8012c7d
+#: cec529b126864be0bd3a971f5aa99f38 db32db657deb4fa880e57a7dbcf871bd
+msgid "The ending LED index on the board."
+msgstr "板载 LED 的结束索引。"
+
+#: ../../source/unit/puzzle.rst:88 ../../source/unit/puzzle.rst:129
+#: 082d135a3f0d4ee4ab063b000bff77d9 cc3a28e841b6450cb3cea4d8c816e7b7
+msgid "Delay in milliseconds between setting each LED color."
+msgstr "设置每个 LED 颜色之间的延迟（毫秒）。"
+
+#: ../../source/unit/puzzle.rst:92 f5f5b5fe08634db4a98088161ec4f8b6
+msgid "|set_color_from.png|"
+msgstr ""
+
+#: ../../source/refs/unit.puzzle.ref:11 eb19a5a529934623895088944ae36227
+msgid "set_color_from.png"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:97 a75152e452324bad906ccd6c586184e6
+msgid "Set the color of a single LED."
+msgstr "设置单个 LED 的颜色。"
+
+#: ../../source/unit/puzzle.rst:99 0c715a40f82d4febb3d7802f8478f9c6
+msgid "The board number (starting from 1) where the LED is located."
+msgstr "LED 所在的板号（从 1 开始）。"
+
+#: ../../source/unit/puzzle.rst:100 308690007336436b9551a4f2653dc8ea
+msgid "The LED index to set the color on (1-based index)."
+msgstr "要设置颜色的 LED 索引（从 1 开始计数）。"
+
+#: ../../source/unit/puzzle.rst:109 6faf95039ef648c8b556a7dd886383d3
+msgid ""
+"Gradually change the color saturation from begin to end on a range of "
+"LEDs."
+msgstr "在一组 LED 的范围内，将颜色饱和度从 begin 逐渐变化到 end。"
+
+#: ../../source/unit/puzzle.rst:114 fbd804539fa649e29565525226cc6160
+msgid "The base RGB color to apply saturation to."
+msgstr "要应用饱和度的基础 RGB 颜色。"
+
+#: ../../source/unit/puzzle.rst:115 4579afe280564b69b1297f8f7a62a47f
+msgid "Delay in milliseconds between each LED color change."
+msgstr "每次 LED 颜色更改之间的延迟时间，单位为毫秒。"
+
+#: ../../source/unit/puzzle.rst:119 e6cc9c57bbd34dd186f8883b3023c46c
+msgid "|set_color_saturation_from.png|"
+msgstr ""
+
+#: ../../source/refs/unit.puzzle.ref:12 71f165a60b2146e1805b7b7b185f6991
+msgid "set_color_saturation_from.png"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:123 fb854ad508e24ef096d2d806050ba925
+msgid "Create a running color effect on a range of LEDs from begin to end."
+msgstr "在从 begin 到 end 的 LED 范围内创建跑马灯颜色效果。"
+
+#: ../../source/unit/puzzle.rst:133 81ff62bb002b41118a576119dc98d681
+msgid "|set_color_running_from.png|"
+msgstr ""
+
+#: ../../source/refs/unit.puzzle.ref:13 a2e7f486440a4144a5f74e9c1617b012
+msgid "set_color_running_from.png"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:137 79082b1947e741ceafbec420412267b0
+msgid "Set a random color to each LED within the specified range."
+msgstr "为指定范围内的每个 LED 设置一个随机颜色。"
+
+#: ../../source/unit/puzzle.rst:145 ba04eceeead04d4491bafccded5d517d
+msgid "|set_random_color_random_led_from.png|"
+msgstr ""
+
+#: ../../source/refs/unit.puzzle.ref:14 237f23f4a2984143809d0011825520e4
+msgid "set_random_color_random_led_from.png"
+msgstr ""
+
+#: ../../source/unit/puzzle.rst:149 fd5ce14e7df7428898bc44296331c42b
+msgid "Set the screen of a specific board with a list of colors."
+msgstr "将特定开发板的屏幕设置为颜色列表。"
+
+#: ../../source/unit/puzzle.rst:151 26e5c5271cd1483197f3173c09590916
+msgid "The board number to which the colors should be applied."
+msgstr "要应用颜色的板号。"
+
+#: ../../source/unit/puzzle.rst:152 20b42885b7844f33910f0bf37581bb72
+msgid "A list of colors to apply to the screen."
+msgstr "要应用到屏幕上的颜色列表。"
+
+#: ../../source/unit/puzzle.rst:156 29ed027f7f04416c8ee3c46760340dce
+msgid "|set_screen.png|"
+msgstr ""
+
+#: ../../source/refs/unit.puzzle.ref:15 c3a176f35b844667856309ad6e337c5f
+msgid "set_screen.png"
+msgstr ""
+

@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/lora.rst:3 762f8edd969e4bd6ba0849a2798f6fc8
 msgid "Lora Module"
-msgstr ""
+msgstr "Lora 模块。"
 
 #: ../../en/module/lora.rst:7 b816cd15925d430c90e20cc919fd0abc
 msgid ""
@@ -30,10 +30,12 @@ msgid ""
 "It is a LoRa communication module that operates at a 433MHz frequency and"
 " utilizes the Ra-02 module (SX1278 chip) solution."
 msgstr ""
+"LoRa433_V1.1 Module 是 M5Stack 可堆叠模块系列的一部分。它是一款 LoRa 通信模块，工作频率为 433 "
+"MHz，并采用 Ra-02 模块（SX1278 芯片）方案。"
 
 #: ../../en/module/lora.rst:9 3511b8bcbcef4bb39fb052cc782db340
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/lora.rst:11 6668bf79fba641939750b3959fa6dd73
 msgid "|LoraModule|"
@@ -41,15 +43,15 @@ msgstr ""
 
 #: ../../en/refs/module.lora.ref 4b400c242e004e38884f92eaecaef57b
 msgid "LoraModule"
-msgstr ""
+msgstr "LoraModule"
 
 #: ../../en/module/lora.rst:13 dd729f197f934caa8d4c064735785855
 msgid "Micropython Example::"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/lora.rst:34 82b4b23ccf0641afbb1c6141be013351
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/module/lora.rst:36 d9361200a69b4d4e99b5414342cb4422
 msgid "|example_tx.png|"
@@ -85,15 +87,15 @@ msgstr ""
 
 #: ../../en/module/lora.rst:53 0d41347cfadc416f8362aca720a75f90
 msgid "class LoraModule"
-msgstr ""
+msgstr "class LoraModule"
 
 #: ../../en/module/lora.rst:56 f0ca0182e9284487ba03814464e2bd04
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/module/lora.rst:60 953b12b1c7d6475dbe16be318be828a3
 msgid "Initialize the LoRa module."
-msgstr ""
+msgstr "初始化 LoRa 模块。"
 
 #: ../../en/module/lora.rst 2ea8d727b15b4563ad36191c2bfe5704
 #: 30d9fdeafe574837a4f40a98daef9117 36a36c7a4f8845abb8ee5abb375e824f
@@ -103,43 +105,43 @@ msgstr ""
 
 #: ../../en/module/lora.rst:62 eb53ebf03d73490ca69cb95cdd680445
 msgid "Chip select pin"
-msgstr ""
+msgstr "片选引脚。"
 
 #: ../../en/module/lora.rst:63 29e6f817f14b49a9af5849cab2e91fa7
 msgid "Interrupt pin"
-msgstr ""
+msgstr "中断引脚。"
 
 #: ../../en/module/lora.rst:64 0f6a27ff9efe46fdbf9f7deba6b196d9
 msgid "Reset pin"
-msgstr ""
+msgstr "复位引脚。"
 
 #: ../../en/module/lora.rst:65 ab32f20eb1ae44ea94b4aade3198c172
 msgid "LoRa RF frequency in kHz."
-msgstr ""
+msgstr "LoRa RF 频率（单位：kHz）。"
 
 #: ../../en/module/lora.rst:66 9cf38496f98045d9bc09ae75edaf63a2
 msgid ""
 "Spreading factor, Higher spreading factors allow reception of weaker "
 "signals but have slower data rate."
-msgstr ""
+msgstr "扩频因子，较高的扩频因子可以接收更弱的信号，但数据速率更低。"
 
 #: ../../en/module/lora.rst:67 2994719651d845d39a76b75e921e78c9
 msgid "Bandwidth value in kHz. Must be exactly one of BANDWIDTHS"
-msgstr ""
+msgstr "以 kHz 为单位的带宽值。必须严格为 BANDWIDTHS 中的一个值。"
 
 #: ../../en/module/lora.rst:68 8746e0c31d4a4fb19e56d6e2cb7c0f83
 msgid ""
 "Forward Error Correction (FEC) coding rate is expressed as a ratio, "
 "&#x60;4/N&#x60;."
-msgstr ""
+msgstr "前向纠错（FEC）编码率以比率形式表示，为 &#x60;4/N&#x60;。"
 
 #: ../../en/module/lora.rst:69 6855729b795748ce802d55f46f44b994
 msgid "Length of the preamble sequence, in units of symbols."
-msgstr ""
+msgstr "前导码序列的长度，以符号为单位。"
 
 #: ../../en/module/lora.rst:70 48807b87bebe4d54abdb6525798c15df
 msgid "Output power in dBm."
-msgstr ""
+msgstr "输出功率，单位为 dBm。"
 
 #: ../../en/module/lora.rst:72 ../../en/module/lora.rst:89
 #: ../../en/module/lora.rst:103 ../../en/module/lora.rst:113
@@ -150,7 +152,7 @@ msgstr ""
 #: 577451347c3f41fd9fa0e1a87c82ed4b 6a2f365d3bad4c53b6ce0e6f37c3de68
 #: 801b0780df8f4f35b7f5816acd8e5b70 dad3939d0cdc4d0c9f95a763b835e80d
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2:"
 
 #: ../../en/module/lora.rst:74 402718b054b548a5b767e6659b57e807
 msgid "|init.png|"
@@ -166,22 +168,22 @@ msgstr ""
 
 #: ../../en/module/lora.rst:82 93552eafee444ba2a93ec9bb25757006
 msgid "Send a data packet."
-msgstr ""
+msgstr "发送数据包。"
 
 #: ../../en/module/lora.rst 9361c9ecfd0847fb9305f0a892e686aa
 msgid "return (int)"
-msgstr ""
+msgstr "return (int)"
 
 #: ../../en/module/lora.rst:84 c411e216ec9d4041a0c0ce433c1f1e2f
 msgid ""
 "The return value is the timestamp when transmission completed, as "
 "a&#x60;time.ticks_ms()&#x60; result. It will be more accurate if the "
 "modem was initialized to use interrupts."
-msgstr ""
+msgstr "返回值为传输完成时的时间戳，格式为 `time.ticks_ms()` 的结果。如果调制解调器初始化为使用中断，则该返回值会更准确。"
 
 #: ../../en/module/lora.rst:86 3d1b0561fe0a4b24952baa6a9f05d6f1
 msgid "The data packet to send."
-msgstr ""
+msgstr "要发送的数据包。"
 
 #: ../../en/module/lora.rst:87 f982fbf562204f448a42571244c584ee
 msgid ""
@@ -191,6 +193,9 @@ msgid ""
 "will be sent as close as possible to this timestamp and the function will"
 " block until that time arrives"
 msgstr ""
+"以毫秒为单位的发送数据包时间。为了精确控制已发送数据包的时间，提供了一个可选的 ``tx_at_ms`` "
+"参数，它是一个时间戳（``time.ticks_ms()`` "
+"的值）。如果设置了该参数，数据包将尽可能接近该时间戳发送，并且函数会阻塞直到到达该时间点。"
 
 #: ../../en/module/lora.rst:91 6f83fd599f394afb98403afd2a965951
 msgid "|send.png|"
@@ -202,24 +207,24 @@ msgstr ""
 
 #: ../../en/module/lora.rst:95 78f43fe793de44db9caed467ebbd8cab
 msgid "Receive a data packet."
-msgstr ""
+msgstr "接收数据包。"
 
 #: ../../en/module/lora.rst e3c48c1581874d7483c95e36b23c0ba2
 msgid "return (RxPacket)"
-msgstr ""
+msgstr "return (RxPacket)"
 
 #: ../../en/module/lora.rst:97 214231772f924676bff0b8cdcb06a3f9
 msgid ""
 "Returns None on timeout, or an &#x60;RxPacket&#x60; instance with the "
 "packet on success."
-msgstr ""
+msgstr "超时则返回 None，成功则返回包含数据包的 `RxPacket` 实例。"
 
 #: ../../en/module/lora.rst:99 4341b57fd2fd49e3b8a72c06f22a401d
 msgid ""
 "Optional, sets a receive timeout in milliseconds. If None (default "
 "value), then the function will block indefinitely until a packet is "
 "received."
-msgstr ""
+msgstr "可选，设置接收超时时间（单位：ms）。如果为 None（默认值），则函数将一直阻塞，直到接收到数据包。"
 
 #: ../../en/module/lora.rst:100 2e4f7004b6ec4a8f9bcccc156412657a
 msgid ""
@@ -228,6 +233,8 @@ msgid ""
 "receive. Ignored in the default LoRa explicit header mode, where the "
 "received radio header includes the length."
 msgstr ""
+"当 `implicit_header` 设置为 `True` 时必须设置（见上文）。该值表示要接收的数据包长度。在默认的 LoRa "
+"显式头模式下会被忽略，因为接收到的无线电头中包含长度信息。"
 
 #: ../../en/module/lora.rst:101 716ba87ebb6a4937b7c56802684e9b59
 msgid ""
@@ -237,6 +244,9 @@ msgid ""
 "received packet has a different length, a new &#x60;RxPacket&#x60; object"
 " is allocated and returned instead."
 msgstr ""
+"可选参数，可以是之前从 modem 接收的 `RxPacket` "
+"对象。如果新接收的数据包长度相同，则复用该对象并返回，以减少一次内存分配。如果新接收的数据包长度不同，则会新分配一个 `RxPacket` "
+"对象并返回。"
 
 #: ../../en/module/lora.rst:105 611775034af6408784638a232d423097
 msgid "|recv.png|"
@@ -248,7 +258,7 @@ msgstr ""
 
 #: ../../en/module/lora.rst:109 80e27224512f4ceead0f3459ba39b850
 msgid "Start receiving data once, trigger an interrupt when data is received."
-msgstr ""
+msgstr "开始接收数据一次，在接收到数据时触发中断。"
 
 #: ../../en/module/lora.rst:115 7fed6574e5fd45fea90232d0de50910d
 msgid "|start_recv.png|"
@@ -260,13 +270,13 @@ msgstr ""
 
 #: ../../en/module/lora.rst:119 d05c5adf40a34d6d8af123014c2cae8d
 msgid "Set the IRQ callback function."
-msgstr ""
+msgstr "设置 IRQ 回调函数。"
 
 #: ../../en/module/lora.rst:122 7fb839f5668e4a24a8ded2a71208d67c
 msgid ""
 "The callback function. The function should accept one argument, which is "
 "the received data."
-msgstr ""
+msgstr "回调函数。该函数应接受一个参数，即接收到的数据。"
 
 #: ../../en/module/lora.rst:126 ba38118c7ce7425f9ed2ed04b03fbe7e
 msgid "|set_irq_callback.png|"
@@ -278,7 +288,7 @@ msgstr ""
 
 #: ../../en/module/lora.rst:130 9f0330fead3f41dd8c27a863b88a2b8b
 msgid "Set the modem to standby mode."
-msgstr ""
+msgstr "将调制解调器设置为待机模式。"
 
 #: ../../en/module/lora.rst:136 577608766cc6476baddde09842aceb76
 msgid "|standby.png|"
@@ -290,7 +300,7 @@ msgstr ""
 
 #: ../../en/module/lora.rst:140 53fb9a1cbfb24ac7a441d1e7ceac9224
 msgid "Set the modem to sleep mode."
-msgstr ""
+msgstr "将 modem 设置为睡眠模式。"
 
 #: ../../en/module/lora.rst:146 3cb52349270944a6b425132255ddcb82
 msgid "|sleep.png|"
@@ -302,7 +312,7 @@ msgstr ""
 
 #: ../../en/module/lora.rst:150 8c2e362799cf403db1617ac69853ff0a
 msgid "Check if the IRQ has been triggered."
-msgstr ""
+msgstr "检查 IRQ 是否已触发。"
 
 #: ../../en/module/lora.rst:156 65ef958558de4f68a1032a9189731eb3
 msgid "|irq_triggered.png|"
@@ -314,15 +324,15 @@ msgstr ""
 
 #: ../../en/module/lora.rst:161 fcda3f2fa4c1493bb2091941c2cd06c3
 msgid "Constants"
-msgstr ""
+msgstr "Constants"
 
 #: ../../en/module/lora.rst:166 431a4a2c31604a60b36b28159c680e7a
 msgid "Select the LoRa frequency band."
-msgstr ""
+msgstr "选择 LoRa 频段。"
 
 #: ../../en/module/lora.rst:171 a96be03e1aa54cc2ac793a504a9ab085
 msgid "Valid bandwidth"
-msgstr ""
+msgstr "有效带宽"
 
 #~ msgid "|example_tx.svg|"
 #~ msgstr ""

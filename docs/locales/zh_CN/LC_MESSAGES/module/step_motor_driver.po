@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:3 71257c3783334ab2ad7496adf3c30b29
 msgid "StepMotorDriver Module"
-msgstr ""
+msgstr "StepMotorDriver 模块"
 
 #: ../../en/module/step_motor_driver.rst:7 c8b395fba1f34e3b94974719ec777fae
 msgid ""
@@ -30,10 +30,12 @@ msgid ""
 " main control, using STM32+HR8825 stepper motor drive scheme, providing "
 "3-way bipolar stepper motor control interface."
 msgstr ""
+"StepMotor Driver Module 13.2 V1.1 是一款适配 M5 主控的步进电机驱动器，采用 STM32 + HR8825 "
+"步进电机驱动方案，提供 3 路双极性步进电机控制接口。"
 
 #: ../../en/module/step_motor_driver.rst:9 5ff9d1e4803748158bad1902168d1fbb
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/step_motor_driver.rst:11 796cd1d1fe7449dabc06055a081d709a
 msgid "|StepMotorDriverModule|"
@@ -41,15 +43,15 @@ msgstr ""
 
 #: ../../en/refs/module.step_motor_driver.ref e991be155ff546e0a4ab8a18ed870427
 msgid "StepMotorDriverModule"
-msgstr ""
+msgstr "StepMotorDriverModule"
 
 #: ../../en/module/step_motor_driver.rst:13 a3e3590aa54741a2b6db4968caad166d
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/step_motor_driver.rst:20 8278acbf1ad447f4ae60f638a36582ea
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/module/step_motor_driver.rst:22 d33e5173e8aa40d780cbd46981d086f7
 msgid "|example.png|"
@@ -66,15 +68,15 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:29 e7cba03d6efe41e19800fc5459bdddf9
 msgid "class StepMotorDriverModule"
-msgstr ""
+msgstr "class StepMotorDriverModule"
 
 #: ../../en/module/step_motor_driver.rst:32 189ac127328f48e8a3e59ec895b57a3b
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/module/step_motor_driver.rst:36 000f66d533ed4cc383dec70f14a13690
 msgid "Initialize the StepMotorDriverModule."
-msgstr ""
+msgstr "初始化 StepMotorDriverModule。"
 
 #: ../../en/module/step_motor_driver.rst 0c2bbe03a8544bd58abed8dbcbedbd51
 #: 13cff8af7465486292fce5f72c52b724 1506d4cc8665443c830746bd8bedb736
@@ -87,15 +89,15 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:38 263215b022b043a68ffcd41ff2d91e5e
 msgid "The I2C address of the device."
-msgstr ""
+msgstr "设备的 I2C 地址。"
 
 #: ../../en/module/step_motor_driver.rst:39 6a4abcafb5fa4e559e9454dabe29932a
 msgid "The step pin (X, Y, Z) of the motor."
-msgstr ""
+msgstr "电机的步进引脚（X、Y、Z）。"
 
 #: ../../en/module/step_motor_driver.rst:40 1575b3ab0a0d414a939021c1bba641b7
 msgid "The dir pin (X, Y, Z) of the motor."
-msgstr ""
+msgstr "电机的 dir 引脚（X、Y、Z）。"
 
 #: ../../en/module/step_motor_driver.rst:42
 #: ../../en/module/step_motor_driver.rst:61
@@ -116,7 +118,7 @@ msgstr ""
 #: d099a120b20446168f8c9a7f1286fc39 d9237ab5b40e428da0a7ce6deac7cd49
 #: ec31f963d6f640839d1e719f63ab459d
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/module/step_motor_driver.rst:44 d116f3a492db49c7a5a7cba149d83554
 msgid "|init.png|"
@@ -133,7 +135,7 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:52 1b6cefd00a6b4e5f95832822ec550c0e
 msgid "Reset the motor."
-msgstr ""
+msgstr "重置电机。"
 
 #: ../../en/module/step_motor_driver.rst:54 ce1d1c157aed469897d7753bb0399cdb
 msgid ""
@@ -141,12 +143,14 @@ msgid ""
 "``Y``: StepMotorDriverModule.MOTOR_Y - ``Z``: "
 "StepMotorDriverModule.MOTOR_Z"
 msgstr ""
+"要复位的电机。可选项：- ``X``：StepMotorDriverModule.MOTOR_X - "
+"``Y``：StepMotorDriverModule.MOTOR_Y - ``Z``：StepMotorDriverModule.MOTOR_Z"
 
 #: ../../en/module/step_motor_driver.rst:59
 #: ../../en/module/step_motor_driver.rst:69 c57e4eb299744b96907d4453682c0100
 #: f190cac86f7d4ea09ced1003ac4fdaa2
 msgid "The state of the motor."
-msgstr ""
+msgstr "电机的状态。"
 
 #: ../../en/module/step_motor_driver.rst:63 579e3f13fb914a808387ba6e9a47d1ca
 msgid "|reset_motor.png|"
@@ -159,7 +163,7 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:67 e01d1c3df21c4f529dae0e150b163fdd
 msgid "Enable or disable the motor."
-msgstr ""
+msgstr "启用或禁用电机。"
 
 #: ../../en/module/step_motor_driver.rst:73 ffb0331cd3b9447ba6f028c8c487f9e2
 msgid "|set_motor_state.png|"
@@ -172,7 +176,7 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:77 6198e22ae2dd443ca3a44b418e4f9fa1
 msgid "Set the microstep."
-msgstr ""
+msgstr "设置细分。"
 
 #: ../../en/module/step_motor_driver.rst:79 b2cf1cb26d8849d1b95f9c50debb9be4
 msgid ""
@@ -182,6 +186,12 @@ msgid ""
 "``1/16``: StepMotorDriverModule.STEP1_16 - ``1/32``: "
 "StepMotorDriverModule.STEP1_32"
 msgstr ""
+"微步值。选项：- ``FULL``：StepMotorDriverModule.STEP_FULL - "
+"``1/2``：StepMotorDriverModule.STEP1_2 - "
+"``1/4``：StepMotorDriverModule.STEP1_4 - "
+"``1/8``：StepMotorDriverModule.STEP1_8 - "
+"``1/16``：StepMotorDriverModule.STEP1_16 - "
+"``1/32``：StepMotorDriverModule.STEP1_32"
 
 #: ../../en/module/step_motor_driver.rst:90 1edfb69e2f7e47f78c315d3de3b701a1
 msgid "|set_microstep.png|"
@@ -194,7 +204,7 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:94 82b6b62c491b4e929b06b9bcc8b38152
 msgid "Set the motor pwm freq."
-msgstr ""
+msgstr "设置电机 PWM 频率。"
 
 #: ../../en/module/step_motor_driver.rst:96 c33d03b855a64531b493fc9aceb02f2b
 msgid ""
@@ -202,10 +212,12 @@ msgid ""
 "StepMotorDriverModule.MOTOR_X - ``Y``: StepMotorDriverModule.MOTOR_Y - "
 "``Z``: StepMotorDriverModule.MOTOR_Z"
 msgstr ""
+"用于设置频率的电机。选项：- ``X``：StepMotorDriverModule.MOTOR_X - "
+"``Y``：StepMotorDriverModule.MOTOR_Y - ``Z``：StepMotorDriverModule.MOTOR_Z"
 
 #: ../../en/module/step_motor_driver.rst:101 4d6f89c370cb430cba5a0de3ecee4ee9
 msgid "The freq value."
-msgstr ""
+msgstr "频率值。"
 
 #: ../../en/module/step_motor_driver.rst:105 79b53c45cd9141818f3d6d53167360d5
 msgid "|set_motor_pwm_freq.png|"
@@ -218,7 +230,7 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:109 ee117f7e83e64e5e992e37053390ae37
 msgid "Set the motor direction."
-msgstr ""
+msgstr "设置电机方向。"
 
 #: ../../en/module/step_motor_driver.rst:111 cb238abdbcfa4e4182082f55324bf7fe
 msgid ""
@@ -226,10 +238,13 @@ msgid ""
 "StepMotorDriverModule.MOTOR_X - ``Y``: StepMotorDriverModule.MOTOR_Y - "
 "``Z``: StepMotorDriverModule.MOTOR_Z"
 msgstr ""
+"用于设置方向的电机。选项：- ``X``：StepMotorDriverModule.MOTOR_X - "
+"``Y``：StepMotorDriverModule.MOTOR_Y - "
+"``Z``：StepMotorDriverModule.MOTOR_Z。"
 
 #: ../../en/module/step_motor_driver.rst:116 e932b464542640e58b0fe95211dfda76
 msgid "The direction value. Options: - ``Positive``: 1 - ``Negative``: 0"
-msgstr ""
+msgstr "方向值。选项：- ``Positive``：1 - ``Negative``：0"
 
 #: ../../en/module/step_motor_driver.rst:123 7b9cd3c33bf4417ea7c955b07aeff265
 msgid "|set_motor_direction.png|"
@@ -242,7 +257,7 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:127 5e6ad13be71245a789b9198aca6ca072
 msgid "Get all io state."
-msgstr ""
+msgstr "获取所有 IO 状态。"
 
 #: ../../en/module/step_motor_driver.rst:132 1bbcf93b34e7428996fc85020f1f4641
 msgid "|get_all_limit_switch_state.png|"
@@ -255,11 +270,11 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:136 5b8397e919ca4854b69e9cf10c592723
 msgid "Get the io state."
-msgstr ""
+msgstr "获取 io 状态。"
 
 #: ../../en/module/step_motor_driver.rst:138 3f30d7f50cc14d218e9a572c1a4e785d
 msgid "The io id."
-msgstr ""
+msgstr "io id。"
 
 #: ../../en/module/step_motor_driver.rst:142 28b6e74fccef47e88403e0cae88d51bc
 msgid "|get_limit_switch_state.png|"
@@ -272,7 +287,7 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:146 c652a068b7cf49ef8ef1926afa3caa11
 msgid "Get the fault io state."
-msgstr ""
+msgstr "获取故障 io 状态。"
 
 #: ../../en/module/step_motor_driver.rst:148
 #: ../../en/module/step_motor_driver.rst:162 6fdea1ec767447279e1eeb464416c14d
@@ -281,6 +296,8 @@ msgid ""
 "The motor id. Options: - ``X``: StepMotorDriverModule.MOTOR_X - ``Y``: "
 "StepMotorDriverModule.MOTOR_Y - ``Z``: StepMotorDriverModule.MOTOR_Z"
 msgstr ""
+"电机 ID。选项：- ``X``：StepMotorDriverModule.MOTOR_X - "
+"``Y``：StepMotorDriverModule.MOTOR_Y - ``Z``：StepMotorDriverModule.MOTOR_Z"
 
 #: ../../en/module/step_motor_driver.rst:156 7b32b848d7e34e868d864288d7c5b37a
 msgid "|get_fault_io_state.png|"
@@ -293,11 +310,11 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:160 8c17ccbe59e1456a86e6a995392b3293
 msgid "Control the motor to rotate/stop."
-msgstr ""
+msgstr "控制电机旋转/停止。"
 
 #: ../../en/module/step_motor_driver.rst:167 e251b86dd90b4fb99eb5c05d58024a1a
 msgid "The state value. Options: - ``Rotate``: 1 - ``Stop``: 0"
-msgstr ""
+msgstr "状态值。选项：- ``Rotate``：1 - ``Stop``：0"
 
 #: ../../en/module/step_motor_driver.rst:174 0860cbc96ea54abab6421cc34eccacc3
 msgid "|motor_control.png|"
@@ -310,7 +327,7 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:178 e873bd08643e47f39794dd84da2d6e08
 msgid "Get the firmware version."
-msgstr ""
+msgstr "获取固件版本。"
 
 #: ../../en/module/step_motor_driver.rst:183 8bb1b70d18944d269c39e388038e88d3
 msgid "|get_firmware_version.png|"
@@ -323,11 +340,11 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:187 3b9afa0d6fcb4bc2a881b1ce8fea9b05
 msgid "Set the i2c address."
-msgstr ""
+msgstr "设置 i2c 地址。"
 
 #: ../../en/module/step_motor_driver.rst:189 0a1aca69a5ad48119590066069f64a73
 msgid "The new address."
-msgstr ""
+msgstr "新地址。"
 
 #: ../../en/module/step_motor_driver.rst:193 cf955f5d80564a33b1d318aaeec928e4
 msgid "|set_i2c_address.png|"
@@ -340,21 +357,21 @@ msgstr ""
 
 #: ../../en/module/step_motor_driver.rst:198 9bfad3bbe2f1493fa0a4d39b42acb467
 msgid "Constants"
-msgstr ""
+msgstr "Constants"
 
 #: ../../en/module/step_motor_driver.rst:204 5718fb0783434262a2671cda6476b79a
 msgid "Motor IDs"
-msgstr ""
+msgstr "电机 ID"
 
 #: ../../en/module/step_motor_driver.rst:209 d7ce4086293f48849d3f4bc07dc6c505
 msgid "Motor states"
-msgstr ""
+msgstr "电机状态"
 
 #: ../../en/module/step_motor_driver.rst:220 40195143fc014b63b114a7fa6113eb53
 msgid "Register addresses"
-msgstr ""
+msgstr "寄存器地址"
 
 #: ../../en/module/step_motor_driver.rst:229 a0d9f7b0e61e42c6810613f8bbce6bb7
 msgid "Microstep values"
-msgstr ""
+msgstr "微步值。"
 

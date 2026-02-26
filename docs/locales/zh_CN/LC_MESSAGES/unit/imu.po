@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/imu.rst:2 5bce5943d2a74cadb6b8f7b9228a5fb2
+msgid "IMU Unit"
+msgstr "IMU Unit"
+
+#: ../../source/unit/imu.rst:6 3eeee44093f14918969f1766a31c0e74
+msgid ""
+"6-Axis IMU Unit is a 6-axis attitude sensor with 3-axis gravity "
+"accelerometer and 3-axis gyroscope, which can calculate tilt angle and "
+"acceleration in real time. The chip adopts mpu6886"
+msgstr ""
+"6-Axis IMU Unit 是一款 6 轴姿态传感器，内置 3 轴重力加速度计和 3 轴陀螺仪，可实时计算倾角和加速度。芯片采用 "
+"mpu6886。"
+
+#: ../../source/unit/imu.rst:8 f99af2731ff7460593ac0a015b9969f5
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/imu.rst:10 b6d0f4eae6b34ce49476cb47dc4bae02
+msgid "|IMUUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.imu.ref 000324a6ae5b4cf0ba96561acb305e03
+msgid "IMUUnit"
+msgstr "IMUUnit"
+
+#: ../../source/unit/imu.rst:12 d5528df1ceb7405ca8d14c29295f63ba
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/imu.rst:32 659240c6b6054ce6a29e0f4aac879cfc
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/imu.rst:34 b7650a514c4d4aaf8fef36d69792b5c9
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imu.ref:7 e430bb4588e74ec5a6a5d2d3bef4c011
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/imu.rst:38 d284c4c32751467ea21ca64239d32626
+msgid "|unit-imu-demo.m5f2|"
+msgstr ""
+
+#: ../../source/unit/imu.rst:42 8828b6d9fb554d929ea4900a62666c99
+msgid "class IMUUnit"
+msgstr "class IMUUnit"
+
+#: ../../source/unit/imu.rst:45 95aa29e399644419a4022c95aaacab9f
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/imu.rst:49 402d6d44190540eda97099ae1d4083b1
+msgid "Create a IMUUnit object"
+msgstr "创建一个 IMUUnit 对象"
+
+#: ../../source/unit/imu.rst 044678de0afc4c5a96173817df552d10
+#: 0d17fbec86ce47d49681edb4a7a5031b 30d6fe20a619430d84299a8c7bc5cabd
+#: 7cd0c72998964c868a113536fa3b3573 cfc24f9ad3f34912a867aca981825ff7
+#: dbaddca49d9c4c3f909f8430a166ccb6 fa0ae917d6134d309f936281e101aadb
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/imu.rst:51 854b4f4125f245f2b5a879314faa866a
+msgid "the I2C object."
+msgstr "I2C 对象。"
+
+#: ../../source/unit/imu.rst:53 ../../source/unit/imu.rst:67
+#: ../../source/unit/imu.rst:78 ../../source/unit/imu.rst:89
+#: ../../source/unit/imu.rst:101 ../../source/unit/imu.rst:113
+#: ../../source/unit/imu.rst:125 ../../source/unit/imu.rst:137
+#: ../../source/unit/imu.rst:151 ../../source/unit/imu.rst:167
+#: 11854f0c7e6d4057b879a62cfb811f75 1366180debfd4f8fb2a86cb14c1c96fc
+#: 1d864257e0ae474ba3300029a3b2f6cd 3c635a0a0a8d4d5bbdf058507cf6d6de
+#: 5581a00627044ca0a916deb25ca1c77c 56eb80f3d3cc49b6a5657170b51756cf
+#: 973ed614576f4238a32a92a7dc7e94dc a0067d22b49e4516ba3efef3df22ef1e
+#: e842a238bb0647889f509d3faaff0645 ffcc4e50f21e4dd88c9fc9c183e2b369
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/imu.rst:55 adc4a78d790a40f2b99b8280e0b66d77
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imu.ref:6 28ea1262eb984c80b9fa92a56a19a6b9
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/imu.rst:59 698c9981189148d48398b729cfea47a8
+msgid "Methods"
+msgstr "\"\""
+
+#: ../../source/unit/imu.rst:63 ef3f72a35cef487dad33eed57956bdcd
+msgid ""
+"Get the tuple of x, y, and z values of the accelerometer and acceleration"
+" vector in gravity units (9.81m/s^2)."
+msgstr "获取加速度计的 x、y、z 值元组，以及以重力单位（9.81 m/s^2）表示的加速度向量。"
+
+#: ../../source/unit/imu.rst:65 ../../source/unit/imu.rst:76
+#: ../../source/unit/imu.rst:87 12c2661ce6fe435e9c355a69135f8142
+#: 57888e35b76342de9200e571a7d9a90a b56ee3337ac64987ae23b0b0650c9081
+msgid "Return: ``tuple``:  (float, float, float)"
+msgstr "返回：``tuple``：（float, float, float）"
+
+#: ../../source/unit/imu.rst:69 bca1c2536ce048baacf16f8074b94b13
+msgid "|get_accelerometer.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imu.ref:8 d42c51f36c7943c697688a72955a32b8
+msgid "get_accelerometer.png"
+msgstr ""
+
+#: ../../source/unit/imu.rst:74 dd93f52c406646bcb05e290b0aeab37b
+msgid ""
+"Get the tuple of x, y, and z values of the gyroscope and gyroscope vector"
+" in rad/sec."
+msgstr "获取陀螺仪的 x、y、z 值元组以及陀螺仪矢量，单位为 rad/sec。"
+
+#: ../../source/unit/imu.rst:80 48910f0ce67c479f9e9a79f83a5ef820
+msgid "|get_gyroscope.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imu.ref:9 571ad2101e11457b948a8ef32a8a7697
+msgid "get_gyroscope.png"
+msgstr ""
+
+#: ../../source/unit/imu.rst:85 2d4fbc20f12b460597a9b5d20b5c10df
+msgid "Get the attitude angles as yaw, pitch, and roll in degrees.."
+msgstr "以度为单位获取偏航角（yaw）、俯仰角（pitch）和横滚角（roll）姿态角。"
+
+#: ../../source/unit/imu.rst:91 a04f6d7beefe40999845b7328a9abfb1
+msgid "|get_attitude.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imu.ref:10 e1aaa89628004773b244da51041a306b
+msgid "get_attitude.png"
+msgstr ""
+
+#: ../../source/unit/imu.rst:96 cba64f1d88794f65a877cf4a863f525b
+msgid "Set the accelerometer scale range."
+msgstr "设置加速度计量程范围。"
+
+#: ../../source/unit/imu.rst:98 50452b56c6c0434799695a038fae8a0b
+msgid "scale range of ±2g, ±4g, ±8g and ±16g."
+msgstr "量程范围为 ±2g、±4g、±8g 和 ±16g。"
+
+#: ../../source/unit/imu.rst:103 f5a2e33d9ef140b384bd6f81a161da15
+msgid "|set_accel_range.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imu.ref:11 13bc53da24e244d6b6f550a298af75fd
+msgid "set_accel_range.png"
+msgstr ""
+
+#: ../../source/unit/imu.rst:108 812d170633e6466689f0ef9c22d66d08
+msgid "Set the gyroscope scale range."
+msgstr "设置陀螺仪量程范围。"
+
+#: ../../source/unit/imu.rst:110 d93ced25108a4521a2115829c76cc682
+msgid "scale range of ±250 dps, ±500 dps, ±1000 dps, and ±2000 dps."
+msgstr "±250 dps、±500 dps、±1000 dps 和 ±2000 dps 的量程范围。"
+
+#: ../../source/unit/imu.rst:115 73d0626cbe694dc5bc52689629cb216e
+msgid "|set_gyro_range.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imu.ref:12 ebe4749551ee4dceafd8173845c25552
+msgid "set_gyro_range.png"
+msgstr ""
+
+#: ../../source/unit/imu.rst:120 0c94c19243284c4b883ad19b8453d276
+msgid "Set the accelerometer unit g or m/s^2."
+msgstr "设置加速度计单位为 g 或 m/s^2。"
+
+#: ../../source/unit/imu.rst:122 bff6aadb19fc48749bc111b573b90bb1
+msgid "0: g,  1: m/s^2."
+msgstr "0: g，1: m/s^2。"
+
+#: ../../source/unit/imu.rst:127 8a38be42af534ef5a3ef11e2f37ac683
+msgid "|set_accel_unit.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imu.ref:13 e88c0129d513457fa618504f7b43d146
+msgid "set_accel_unit.png"
+msgstr ""
+
+#: ../../source/unit/imu.rst:132 3140bd3d496f47bb96183c80f2fac7ea
+msgid "Set the gyroscope unit rad/sec or degrees/sec."
+msgstr "设置陀螺仪单位为 rad/sec 或 degrees/sec。"
+
+#: ../../source/unit/imu.rst:134 e23d7faf3cb045cbaa4729efab49aca1
+msgid "0: degrees/sec, 1: rad/sec."
+msgstr "0：度/秒，1：弧度/秒。"
+
+#: ../../source/unit/imu.rst:139 d9a9e41e12b742ba933b6194f634a71b
+msgid "|set_gyro_unit.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imu.ref:14 4936ed04362745e1a352be0d760a63c7
+msgid "set_gyro_unit.png"
+msgstr ""
+
+#: ../../source/unit/imu.rst:144 9746d736b79e41749a777ac36cf7e4d8
+msgid ""
+"Set the gyro calibrations with the number of samples and delay of each "
+"samples"
+msgstr "使用样本数量以及每个样本的延迟来设置陀螺仪校准参数"
+
+#: ../../source/unit/imu.rst:146 b63894961a684dc8bd665e0d63258db8
+msgid "number of samples."
+msgstr "采样数量。"
+
+#: ../../source/unit/imu.rst:148 6ccd5fa4d90c4515abe4a62f918c0253
+msgid "delay in milliseconds for each samples."
+msgstr "每个样本的延迟时间（毫秒）。"
+
+#: ../../source/unit/imu.rst:153 9bfcdb94566e479484d2a28559b5ed74
+msgid "|set_gyro_calibrate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imu.ref:15 85ff5813e22a46e6823a3f487369655e
+msgid "set_gyro_calibrate.png"
+msgstr ""
+
+#: ../../source/unit/imu.rst:158 10ab9f06736b464d9eedd373d9d25ded
+msgid "Set the manual gyro calibrations offsets value"
+msgstr "设置手动陀螺仪校准偏移值"
+
+#: ../../source/unit/imu.rst:160 ../../source/unit/imu.rst:162
+#: ../../source/unit/imu.rst:164 40664fa2cf9c496dbfad768ac1b42c84
+#: cbc20804e5144df7a2edd98b4e348782 d3ec2d6cffe043abb7df2007da01a69a
+msgid "0.0"
+msgstr "0.0"
+
+#: ../../source/unit/imu.rst:169 46d1eb13ba1340e8b388064782fdb7d9
+msgid "|set_gyro_offsets.png|"
+msgstr ""
+
+#: ../../source/refs/unit.imu.ref:16 4053d52bd506414bbf6a1dbd45df8c66
+msgid "set_gyro_offsets.png"
+msgstr ""
+

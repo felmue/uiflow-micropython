@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/relay.rst:2 44c3d57ef7a8421f8fb59825829a0ad0
+msgid "Relay Unit"
+msgstr "Relay Unit"
+
+#: ../../source/unit/relay.rst:6 48e2decea0624404b5088172a3d431f5
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/relay.rst:8 dd0b08477a094db585dfa2ac090290ea
+msgid "|RELAY|"
+msgstr ""
+
+#: ../../source/refs/unit.relay.ref 08e1cb89f9fb4b7c9e1d3f8b9df89f14
+msgid "RELAY"
+msgstr "RELAY"
+
+#: ../../source/unit/relay.rst:11 1c264c9d10ff4b6dab46f75daf3a3dee
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/relay.rst:18 7a032edfd5dd4522a072a4a4805b921a
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/relay.rst:20 98e5ea64a0e04687a8653d776ff1c67e
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay.ref:6 ef3b626fbdc3419bb34ba97a52e41fbb
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/relay.rst:25 8b0c86b1877a4af59cd71a16689da82e
+msgid "|relay_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/relay.rst:29 fa5cfb3c99024c73a8164cb91394642a
+msgid "class RelayUnit"
+msgstr "class RelayUnit"
+
+#: ../../source/unit/relay.rst:32 6185a5c1f4fa40d8bc214cbca44bf136
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/relay.rst:36 919183350b594e1b9660c7f53928d080
+msgid "Create a RelayUnit object."
+msgstr "创建一个 RelayUnit 对象。"
+
+#: ../../source/unit/relay.rst:39 eba35be1684d47c4982f517c70986b6d
+msgid "The parameters is:"
+msgstr "参数为："
+
+#: ../../source/unit/relay.rst:39 5a4c5cf83c9d4a018735a79a132c72d8
+msgid "``io`` Define the control pin."
+msgstr "``io`` 定义控制引脚。"
+
+#: ../../source/unit/relay.rst:41 ../../source/unit/relay.rst:53
+#: ../../source/unit/relay.rst:62 ../../source/unit/relay.rst:71
+#: ../../source/unit/relay.rst:80 0d078c1e884641e9a90246ea98e005b2
+#: 1efee87e65aa4dd6b8d99ee3abcd2c47 4fb0486c05c24932b08802465f54ba39
+#: dbff5958b429497da5a5ec46f847dd37 fd1153813c744e3cbefd33da5434f63d
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/relay.rst:43 2027b686f23a4310b64cf0752a4ea6ab
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay.ref:8 250312eb8ba04c20bb97316820b4dc78
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/relay.rst:47 89adee68f49d4e1e8cf60d4249cf3f77
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/relay.rst:51 c2473a15c27a468d9cd52545d7937e4e
+msgid "Gets the relay switch status."
+msgstr "获取继电器开关状态。"
+
+#: ../../source/unit/relay.rst:55 cf03a5835e884bcbb566809084af9a47
+msgid "|get_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay.ref:10 d7c7b35ac48648cb8f85232b85e2c8ba
+msgid "get_status.png"
+msgstr ""
+
+#: ../../source/unit/relay.rst:60 56e5f9b072d74fd3866c6695e51b3c8d
+msgid "turn on the relay."
+msgstr "打开继电器。"
+
+#: ../../source/unit/relay.rst:64 f467dc1b64c54881a9fbdba450b7df93
+msgid "|on.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay.ref:12 07c423b216d74e55ba3bb1a0cea38e4d
+msgid "on.png"
+msgstr ""
+
+#: ../../source/unit/relay.rst:69 1b5685d1f81e4374909c8e7ca4bd7993
+msgid "Turn off the relay."
+msgstr "关闭继电器。"
+
+#: ../../source/unit/relay.rst:73 f5de4d1a5e604976bdccd5c5ba77013e
+msgid "|off.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay.ref:14 40a6b5891ad247dab60e8bfef83f011a
+msgid "off.png"
+msgstr ""
+
+#: ../../source/unit/relay.rst:78 8f4df0a1fd1e4df9bda29b94d6755587
+msgid "Set the relay status (True or false)."
+msgstr "设置继电器状态（True 或 false）。"
+
+#: ../../source/unit/relay.rst:82 300b2d7bae4b4568a901e9a50a78dd79
+msgid "|set_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.relay.ref:16 720e91fb97384e0bad7d50471f409ea7
+msgid "set_status.png"
+msgstr ""
+

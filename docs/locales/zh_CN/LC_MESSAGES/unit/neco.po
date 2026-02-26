@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/neco.rst:3 63e03a9d19704d939a1ff146fbda9ef1
+msgid "NECO Unit"
+msgstr "NECO Unit"
+
+#: ../../source/unit/neco.rst:7 3ed3f095ddda4713b1cd70bef7f04f21
+msgid ""
+"The Neco Unit is a unique RGB light board unit that features an adorable "
+"cat ear shape. It is designed with precision and comprises 35 "
+"WS2812C-2020 RGB lamp beads, providing vibrant and customizable lighting "
+"effects."
+msgstr ""
+"Neco Unit 是一款独特的 RGB 灯板单元，采用可爱的猫耳造型。它经过精密设计，由 35 颗 WS2812C-2020 RGB "
+"灯珠组成，可提供鲜艳且可自定义的灯光效果。"
+
+#: ../../source/unit/neco.rst:9 03d47454c7234e1bb444405379f565a6
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/neco.rst:11 a96af84cb987497eae143882e481e6eb
+msgid "|NECOUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.neco.ref 24d0f0f009c04f6cac79a5e1c1a1c902
+msgid "NECOUnit"
+msgstr "NECOUnit"
+
+#: ../../source/unit/neco.rst:13 0cf20938b0b64cbf93bca557fdb993c4
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/neco.rst:20 8e82e11c30da46729fa84c213545d64d
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/neco.rst:22 e260a84cbe8943e3886676b0a2281430
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.neco.ref:15 0ee13619de3f45ddb8612cb31e1c8db7
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/neco.rst:26 6ac87a1c713543308e7f2358c0d7a06b
+msgid "|neco_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/neco.rst:29 73ae6969119e442ba2b542197a998f72
+msgid "class NECOUnit"
+msgstr "class NECOUnit"
+
+#: ../../source/unit/neco.rst:32 518a71f6f45d4c6199a3d3c3ddfbb724
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/neco.rst:36 9c4e118f29194e138197f82984f9ee4b
+msgid ""
+"Initialize the NECOUnit with a specific port, LED count, and active low "
+"configuration for the button."
+msgstr "使用指定端口、LED 数量以及按钮 active low 配置来初始化 NECOUnit。"
+
+#: ../../source/unit/neco.rst 053af418c4024fa8aa1dcd8d3efa60fa
+#: 56cee6446e5b49f987d02947f25cc5f8 619ca093f1364a378ae607d48cd37cf0
+#: 6cae6162c63948bcaedf7eab0c1a5619 92879f4383a0487ebccfc3b3375a6ef5
+#: 93dc4f5ad4ab4362991ea363aeb1b601 9412e754281c4441bccc13b1cd67abdc
+#: a454af98cbfa4dd5ab7e9ec20163cdc7 bdf6957a9fc84ff3979834fc9f4696aa
+#: e9338ca0b7cf4df2892f195a3ca67359
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/neco.rst:38 310016056d5e4f12b78bbf298e6cbfc0
+msgid ""
+"A tuple containing the port information, where the first element is for "
+"the button and the second is for the WS2812 LEDs."
+msgstr "包含端口信息的元组，其中第一个元素用于按钮，第二个元素用于 WS2812 LEDs。"
+
+#: ../../source/unit/neco.rst:39 ea0e32c03c5b4447ad3f7edbd83b61f2
+msgid "The number of LEDs in the WS2812 strip. Default is 70."
+msgstr "WS2812 灯带中的 LED 数量。默认值为 70。"
+
+#: ../../source/unit/neco.rst:40 73aa03a505f04a5fb0b52065f467d84c
+msgid "Boolean flag indicating whether the button is active low. Default is True."
+msgstr "布尔标志，指示该按钮是否为低电平有效。默认为 True。"
+
+#: ../../source/unit/neco.rst:42 ../../source/unit/neco.rst:59
+#: ../../source/unit/neco.rst:90 ../../source/unit/neco.rst:101
+#: ../../source/unit/neco.rst:118 ../../source/unit/neco.rst:128
+#: ../../source/unit/neco.rst:138 0e77089c2ad845c7a577f39a3dd5b00c
+#: 3b68a04746e64f94b75fd0b81620ff31 3bd55f274223464d9717176d70f2a0f3
+#: 68b2d3824a0c4bd6b5633c6194b04385 8e989aee70fd4d6a8935a8f9dedcd942
+#: acc6e85808eb47cea2d66207a990c68f d50777ece6bb48dcb0ba505c1244b867
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/neco.rst:44 de4845c59df645e0a78e5d4259a7ba57
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.neco.ref:7 4721fbf1a2a04633a5b555dc4df35774
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/neco.rst:48 668bb8a4a53a420d9a6cc7cc67a1a157
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/neco.rst:52 f02e4df2ebee4f4b923d45be9209fe31
+msgid ""
+"Set the color for a range of LEDs from the begin index to the end index "
+"with a specified color."
+msgstr "为从起始索引到结束索引范围内的 LED 设置指定颜色。"
+
+#: ../../source/unit/neco.rst:54 ../../source/unit/neco.rst:67
+#: ../../source/unit/neco.rst:85 ../../source/unit/neco.rst:98
+#: 126c67228a194ac980399c99e324b778 134fd059f54f49f2a172f0e60aa78519
+#: 41c2a1c928d048318ceed81b7df3efb5 4ae3ee2ffcee4e00ace62ea2e5869e40
+msgid "The starting LED index."
+msgstr "起始 LED 索引。"
+
+#: ../../source/unit/neco.rst:55 ../../source/unit/neco.rst:68
+#: ../../source/unit/neco.rst:86 ../../source/unit/neco.rst:99
+#: 3aab9d89d060442c9b7b5d04581542aa 4428b889014048b09adabe8f2fb64eea
+#: 6cb9197944de4417a7a372e494b1060f aab3ef0735aa40219531513bc42ce65d
+msgid "The ending LED index."
+msgstr "结束 LED 索引。"
+
+#: ../../source/unit/neco.rst:56 ../../source/unit/neco.rst:87
+#: 34172fa91adf44e8a7c73ff611feacb9 7762f4918a0c4777886c74606186fdd3
+msgid "The color to set, in RGB format."
+msgstr "要设置的颜色，采用 RGB 格式。"
+
+#: ../../source/unit/neco.rst:57 ../../source/unit/neco.rst:70
+#: 1de9436c76f84ffe9cdaf00af88d5a2c 20845ff695a947eea42c69a53ce9d66b
+msgid ""
+"The delay between setting each LED's ;s color, in milliseconds. Default "
+"is 0."
+msgstr "设置每个 LED 颜色之间的延迟（毫秒）。默认值为 0。"
+
+#: ../../source/unit/neco.rst:61 7c76d5e968db463f83724517573bdd94
+msgid "|set_color_from.png|"
+msgstr ""
+
+#: ../../source/refs/unit.neco.ref:8 b7e17df95bac43e8bf37fd482c3509d5
+msgid "set_color_from.png"
+msgstr ""
+
+#: ../../source/unit/neco.rst:65 733a69788e3c40f6b65aa90202516e36
+msgid ""
+"Set the color saturation for a range of LEDs from the begin index to the "
+"end index with a specified color and saturation."
+msgstr "为从起始索引到结束索引范围内的 LED 设置指定颜色及饱和度。"
+
+#: ../../source/unit/neco.rst:69 ../../source/unit/neco.rst:76
+#: 503d365cc1464c578b32ab09d831308c ea66b793552c41ada384a6f9476787de
+msgid "The base color in RGB format."
+msgstr "RGB 格式的基础颜色。"
+
+#: ../../source/unit/neco.rst:74 1d79d40cb8f849229b3bd712a91b921b
+msgid "Adjust the color saturation of an RGB color."
+msgstr "调整 RGB 颜色的饱和度。"
+
+#: ../../source/unit/neco.rst:77 4bc8fa957a5e4187a2b78f19caa60323
+msgid "The desired saturation level (0 to 100)."
+msgstr "期望的饱和度级别（0 到 100）。"
+
+#: ../../source/unit/neco.rst 53c85c47bc4d445a869d704e321cc77c
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/neco.rst:79 481c5b4b0917415b90456576eacce9db
+msgid "The new color with adjusted saturation, in RGB format."
+msgstr "调整饱和度后的新颜色，采用 RGB 格式。"
+
+#: ../../source/unit/neco.rst:83 e2715aa46f1c47658225499655414400
+msgid ""
+"Set the color for a range of LEDs from the begin index to the end index, "
+"then clear them one by one, creating a running effect."
+msgstr "为从起始索引到结束索引范围内的 LED 设置颜色，然后逐个清除它们，从而创建跑马效果。"
+
+#: ../../source/unit/neco.rst:88 e7200f512f5f4fe18f787cf8ca00960c
+msgid ""
+"The delay between setting and clearing each LED's ;s color, in "
+"milliseconds. Default is 0."
+msgstr "设置并清除每个 LED 颜色之间的延迟时间，单位为毫秒。默认值为 0。"
+
+#: ../../source/unit/neco.rst:92 44654a75a9a54d90b660195081bd89eb
+msgid "|set_color_running_from.png|"
+msgstr ""
+
+#: ../../source/refs/unit.neco.ref:9 c1234b38d15f430bada8b31e20aaa077
+msgid "set_color_running_from.png"
+msgstr ""
+
+#: ../../source/unit/neco.rst:96 185c682d45f04c329f9b9fd02d88953a
+msgid ""
+"Set a random color to each LED in a random order within the specified "
+"range."
+msgstr "在指定范围内以随机顺序为每个 LED 设置随机颜色。"
+
+#: ../../source/unit/neco.rst:103 2b07e9eacccc414298c2b9b8cb9c7d9d
+msgid "|set_random_color_random_led_from.png|"
+msgstr ""
+
+#: ../../source/refs/unit.neco.ref:10 aac6e6a01d6d4939b0c547791b099218
+msgid "set_random_color_random_led_from.png"
+msgstr ""
+
+#: ../../source/unit/neco.rst:107 ../../source/unit/neco.rst:124
+#: 71740addafd94742b25e8cc8c91680dd 82d6f6c14ffa442fb8adc075b3e09bb8
+msgid "Fill the entire NECOUnit strip with the specified color."
+msgstr "使用指定颜色填充整个 NECOUnit 灯带。"
+
+#: ../../source/unit/neco.rst:109 cedc2ae2298149348c928cd2eb323371
+msgid "A tuple containing the RGB (or RGBW) values to fill the strip with."
+msgstr "一个包含 RGB（或 RGBW）值的元组，用于填充灯带。"
+
+#: ../../source/unit/neco.rst:113 d7b21f46d37d43e7bd28d1c3ae6a9bd4
+msgid "Set the color of the LED at the specified index."
+msgstr "设置指定索引处 LED 的颜色。"
+
+#: ../../source/unit/neco.rst:115 4a12f143c2b744fb83135cd7a25f5fb6
+msgid "The index of the LED to set."
+msgstr "要设置的 LED 索引。"
+
+#: ../../source/unit/neco.rst:116 d3416a63ce6c4defa2c8bcdc1d44763d
+msgid "The color value to set the LED to (in RGB or RGBW format)."
+msgstr "要将 LED 设置为的颜色值（RGB 或 RGBW 格式）。"
+
+#: ../../source/unit/neco.rst:120 caa33390c6504d969a7654eb2c727df7
+msgid "|set_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.neco.ref:11 4d5a95570f3949b1877cdcea16c15f95
+msgid "set_color.png"
+msgstr ""
+
+#: ../../source/unit/neco.rst:126 4b45be2b20cf483ebcd64891d51a6eed
+msgid "The color value to fill the strip with (in RGB or RGBW format)."
+msgstr "用于填充灯带的颜色值（RGB 或 RGBW 格式）。"
+
+#: ../../source/unit/neco.rst:130 f143cc93bcb34be0b1118cea9d03cc96
+msgid "|fill_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.neco.ref:12 3da94f82b3f44946bf319f4721303b2c
+msgid "fill_color.png"
+msgstr ""
+
+#: ../../source/unit/neco.rst:134 fc24dfdf8d894256b84d4ba0b812518c
+msgid "Set the brightness for the NECOUnit strip."
+msgstr "为 NECOUnit 灯带设置亮度。"
+
+#: ../../source/unit/neco.rst:136 68d084272fa24f0bb64661458e6b960d
+msgid "The brightness level as a percentage (0-100)."
+msgstr "亮度级别（百分比，0-100）。"
+
+#: ../../source/unit/neco.rst:140 58b692486b19401f9e7e2d426fe2f142
+msgid "|set_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.neco.ref:13 09837c8d66dd4425830e55909f8dfe5c
+msgid "set_brightness.png"
+msgstr ""
+

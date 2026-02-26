@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/m5ui/chart.rst:4 ../../en/m5ui/chart.rst:49
 #: 06733332c98e49e1a05857b8f5768b68 2305a713745a4052afadd06e1e3c03b8
 msgid "M5Chart"
-msgstr ""
+msgstr "M5Chart"
 
 #: ../../en/m5ui/chart.rst:8 607f7a1045f548bb9deecc2b35bad5c6
 msgid ""
@@ -94,9 +94,8 @@ msgid "|cores3_chart_line_example.png|"
 msgstr ""
 
 #: ../../en/refs/m5ui.chart.ref:44 c862caed6c5e4996b03845843a0dfaaa
-#, fuzzy
 msgid "cores3_chart_line_example.png"
-msgstr "在 UiFlow2 中打开 |cores3_chart_line_example.m5f2| 项目。"
+msgstr ""
 
 #: ../../en/m5ui/chart.rst:24 ../../en/m5ui/chart.rst:41
 #: 3df8678eb09c4c2e99a997a0395f0ffe b67b444505f14d959df41b2ec975ea47
@@ -161,7 +160,7 @@ msgstr "API参考"
 
 #: e57a35a4eab24b4888647fb6c981774d m5ui.chart.M5Chart:1 of
 msgid "Bases: :py:class:`~lvgl.chart`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.chart`"
 
 #: 7ad1ddfbdd0341bb89172ef8dc712b33 m5ui.chart.M5Chart:1 of
 msgid "Create a Chart object."

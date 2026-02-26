@@ -22,25 +22,25 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:2 2475d6b16cd740bd91e798b14eff026c
 msgid "M5 BLE"
-msgstr ""
+msgstr "M5 BLE"
 
 #: ../../en/system/m5ble.rst:6 f4884f031a074b74aec3fa5ea2d4159c
 msgid ""
 "M5 BLE is a library that M5Stack has developed by wrapping the Low Level "
 "BLE of Micropython. It provides simpler and more user-friendly APIs."
-msgstr ""
+msgstr "M5 BLE 是 M5Stack 通过封装 MicroPython 的底层 BLE 开发的一个库。它提供了更简单、更易用的 API。"
 
 #: ../../en/system/m5ble.rst:10 840a86ec10c848eab21ba3dc36f5a6f9
 msgid "BLE Client example::"
-msgstr ""
+msgstr "BLE Client 应用示例："
 
 #: ../../en/system/m5ble.rst:52 fc77d314e653462a8e19680344f5b1ac
 msgid "BLE Server example::"
-msgstr ""
+msgstr "BLE Server 应用示例："
 
 #: ../../en/system/m5ble.rst:87 b79347aea03248b6836c560cac61ee44
 msgid "UIFLOW2 client example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/system/m5ble.rst:89 8565ad1d08174486821798ccd915ccc9
 msgid "|client_example.png|"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:96 dd8026b912aa4692b019fe473eed769f
 msgid "UIFLOW2 server example:"
-msgstr ""
+msgstr "UiFlow2 server 示例："
 
 #: ../../en/system/m5ble.rst:98 a2f5a80e283f43c6b616aa98205f6659
 msgid "|server_example.png|"
@@ -72,21 +72,21 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:106 2be57e6d263b4fb3a6da610810218f2a
 msgid "M5BLE"
-msgstr ""
+msgstr "M5BLE"
 
 #: ../../en/system/m5ble.rst:109 e11431e667554ef4a672d5f9b733ed1e
 msgid "Constructor"
-msgstr ""
+msgstr "构造函数。"
 
 #: ../../en/system/m5ble.rst:112 41375e7bdc23404d83d2d7d51f1837db
 msgid "Creates an M5BLE object."
-msgstr ""
+msgstr "创建一个 M5BLE 对象。"
 
 #: ../../en/system/m5ble.rst:114 de8d7f03fa1e45ac8b49f9ff27cf5aa0
 msgid ""
 "``name`` The BLE broadcast name, used for device discovery and "
 "identification."
-msgstr ""
+msgstr "``name`` BLE 广播名称，用于设备发现和识别。"
 
 #: ../../en/system/m5ble.rst:116 ../../en/system/m5ble.rst:128
 #: ../../en/system/m5ble.rst:137 ../../en/system/m5ble.rst:151
@@ -121,7 +121,7 @@ msgstr ""
 #: e8a45283abad45199fbff50ffe446f4b ea9967e9a3a04e7a9bba4f03a0b62b39
 #: eb2e06b56af64724bea41ed05b05a516 eb79c4bb984a485c949fbb8b89813e94
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/system/m5ble.rst:118 b4fbe0531eeb4831bce7a2a18c58bd22
 msgid "|init.png|"
@@ -133,13 +133,13 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:122 1cdc0c2aaeed41e6b64885831fa72f0f
 msgid "Device Methods"
-msgstr ""
+msgstr "设备方法。"
 
 #: ../../en/system/m5ble.rst:126 5380d650a06b496a9ca207c5e09a30b0
 msgid ""
 "Retrieves the maximum transmission unit (MTU) for BLE connections, "
 "measured in bytes."
-msgstr ""
+msgstr "获取 BLE 连接的最大传输单元（MTU），以字节为单位。"
 
 #: ../../en/system/m5ble.rst:130 30b1d021d9454553add4153140763345
 msgid "|get_mtu.png|"
@@ -151,7 +151,7 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:135 d17df31b6c344d17b24af1150a95f095
 msgid "Closes the BLE connection and releases resources."
-msgstr ""
+msgstr "关闭 BLE 连接并释放资源。"
 
 #: ../../en/system/m5ble.rst:139 4d9fb0505f3147d882fb5c00ecaecb19
 msgid "|deinit.png|"
@@ -163,17 +163,17 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:143 ae1a149f5a694e2093fc232c5f1881ac
 msgid "Client Methods"
-msgstr ""
+msgstr "客户端方法"
 
 #: ../../en/system/m5ble.rst:147 69518304484e42fc8e0c43ea8c5163f7
 msgid "Sets the callback function for successful BLE connection."
-msgstr ""
+msgstr "设置 BLE 连接成功的回调函数。"
 
 #: ../../en/system/m5ble.rst:149 99fbae2ffda64c2c8f159c95c3870c3c
 msgid ""
 "``callback`` Callback function upon connection, parameter is "
 "callback(M5BLE.Client)."
-msgstr ""
+msgstr "``callback`` 连接时的回调函数，参数为 callback(M5BLE.Client)。"
 
 #: ../../en/system/m5ble.rst:153 7ee9bbd2afba4e63bee85a2e0255675e
 msgid "|client_on_connected.png|"
@@ -185,13 +185,15 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:158 797729cff4da4f178a15888457364e25
 msgid "Sets the callback function for BLE disconnection."
-msgstr ""
+msgstr "设置 BLE 断开连接的回调函数。"
 
 #: ../../en/system/m5ble.rst:160 e6c082dee841443e88ee43bf34a7839e
 msgid ""
 "``callback`` Callback function upon disconnection, parameters are "
 "callback(M5BLE.Client, conn_handle, addr_type, addr)."
 msgstr ""
+"``callback`` 断开连接时的回调函数，参数为 callback(M5BLE.Client, conn_handle, "
+"addr_type, addr)。"
 
 #: ../../en/system/m5ble.rst:164 cfd208ca85e7470da2b7a04864bc2430
 msgid "|client_on_disconnected.png|"
@@ -203,7 +205,7 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:169 a80f04502c104fa6b332eca035d79df8
 msgid "Sets the callback function for BLE service discovery."
-msgstr ""
+msgstr "设置用于 BLE 服务发现的回调函数。"
 
 #: ../../en/system/m5ble.rst:171 fcb74d7056dc40c3917cace3947fa41a
 msgid ""
@@ -211,6 +213,8 @@ msgid ""
 "callback(M5BLE.Client, (name, addr_type, addr, adv_type, rssi, "
 "adv_data))."
 msgstr ""
+"``callback`` 用于服务发现的回调函数，参数为 callback(M5BLE.Client, (name, addr_type, "
+"addr, adv_type, rssi, adv_data))。"
 
 #: ../../en/system/m5ble.rst:175 454f614102c04f04a967fc12c58f29cd
 msgid "|client_on_server_found.png|"
@@ -222,13 +226,13 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:180 b39f1d5b5ac8486e9badfe147932b705
 msgid "Sets the callback function for the end of BLE scanning."
-msgstr ""
+msgstr "设置 BLE 扫描结束的回调函数。"
 
 #: ../../en/system/m5ble.rst:182 efeb81cb746c45bc8ff37b0d794f8a48
 msgid ""
 "``callback`` Callback function at the end of scanning, parameter is "
 "callback(M5BLE.Client, scan_result=[])."
-msgstr ""
+msgstr "``callback`` 扫描结束时的回调函数，参数为 callback(M5BLE.Client, scan_result=[])。"
 
 #: ../../en/system/m5ble.rst:186 17aeefd0b14c4932b7019be9c44cc0c4
 msgid "|client_on_scan_finished.png|"
@@ -240,13 +244,15 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:191 03e3de40dbfd4a10be829e03fff11aca
 msgid "Sets the callback function for completed BLE reads."
-msgstr ""
+msgstr "设置用于 BLE 读取完成的回调函数。"
 
 #: ../../en/system/m5ble.rst:193 41faf6e30cb64d07a8499057b2825b3f
 msgid ""
 "``callback`` Callback function upon read completion, parameters are "
 "callback(M5BLE.Client, conn_handle, value_handle, char_data)."
 msgstr ""
+"``callback`` 读取完成时的回调函数，参数为 callback(M5BLE.Client, conn_handle, "
+"value_handle, char_data)。"
 
 #: ../../en/system/m5ble.rst:197 d2e839cabbab4cd7a363772e92a37426
 msgid "|client_on_read_complete.png|"
@@ -258,13 +264,13 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:202 b4645ba69f0140abb2e05aed0bd386fc
 msgid "Sets the callback function for BLE notifications."
-msgstr ""
+msgstr "设置用于 BLE 通知的回调函数。"
 
 #: ../../en/system/m5ble.rst:204 28681f25b94c49e2a680ae35a9d17b66
 msgid ""
 "``callback`` Notification callback function, parameter is "
 "callback(M5BLE.Client)."
-msgstr ""
+msgstr "``callback`` 通知回调函数，参数为 callback(M5BLE.Client)。"
 
 #: ../../en/system/m5ble.rst:208 0dbb9613aa724881889fe0e7222cc42b
 msgid "|client_on_notify.png|"
@@ -276,27 +282,27 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:213 cbb2067484464c9089387529b99ee0c3
 msgid "Scans for BLE devices."
-msgstr ""
+msgstr "扫描 BLE 设备。"
 
 #: ../../en/system/m5ble.rst:215 da3e242da89546bd9f743072d7b4610f
 msgid "``timeout`` Scan timeout, in milliseconds, default is 2000ms."
-msgstr ""
+msgstr "``timeout`` 扫描超时时间，单位为毫秒，默认值为 2000 ms。"
 
 #: ../../en/system/m5ble.rst:216 7b215441900541a39e6dce40245e07d0
 msgid ""
 "``connect_on_found`` Whether to automatically connect to devices when "
 "found, default is True."
-msgstr ""
+msgstr "``connect_on_found`` 是否在找到设备时自动连接，默认为 True。"
 
 #: ../../en/system/m5ble.rst:217 07c28e160bf74813b51109d75770517e
 msgid ""
 "``target_name_prefix`` Name prefix for targeted devices, default is "
 "'M5UiFlow'."
-msgstr ""
+msgstr "``target_name_prefix`` 目标设备的名称前缀，默认值为 'M5UiFlow'。"
 
 #: ../../en/system/m5ble.rst:218 50fbb3134b7d473298f43b667de8bf9d
 msgid "``target_uuid`` UUID of the targeted device."
-msgstr ""
+msgstr "``target_uuid`` 目标设备的 UUID。"
 
 #: ../../en/system/m5ble.rst:222 368fcf6164b44b7f8e776630862d73bb
 msgid "|client_scan.png|"
@@ -308,15 +314,15 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:227 8265c9fd81674aca8de727bce93d76f3
 msgid "Connects to a BLE device."
-msgstr ""
+msgstr "连接到 BLE 设备。"
 
 #: ../../en/system/m5ble.rst:229 3da48488e07d46bf8f8a5414981922ef
 msgid "``addr_type`` Device address type."
-msgstr ""
+msgstr "``addr_type`` 设备地址类型。"
 
 #: ../../en/system/m5ble.rst:230 7f7735453e974e1497b315779a8e0c5a
 msgid "``addr`` Device address."
-msgstr ""
+msgstr "``addr`` 设备地址。"
 
 #: ../../en/system/m5ble.rst:234 2a45c126e7bd4d0ab104fff5e5f5ae34
 msgid "|client_connect.png|"
@@ -330,7 +336,7 @@ msgstr ""
 msgid ""
 "Sets the UUID for the current service, allowing the omission of the "
 "service_uuid parameter when using any, read, write."
-msgstr ""
+msgstr "为当前服务设置 UUID，使在使用 any、read、write 时可以省略 ``service_uuid`` 参数。"
 
 #: ../../en/system/m5ble.rst:241 ../../en/system/m5ble.rst:253
 #: ../../en/system/m5ble.rst:265 ../../en/system/m5ble.rst:279
@@ -338,7 +344,7 @@ msgstr ""
 #: 6974c38b877c4793ba24e39b17ad9e6d 74f7a9fdfd0648ea87cfdc445752273e
 #: 8701546729744d0c9ba60ad1fb22ffbd e26eedcf79e44e7bb8ee77c56b173863
 msgid "``service_uuid`` UUID of the service."
-msgstr ""
+msgstr "``service_uuid`` 服务的 UUID。"
 
 #: ../../en/system/m5ble.rst:245 d5d6c1c0f83e4fa69f76cfba2f365e65
 msgid "|client_set_current_service_uuid.png|"
@@ -353,13 +359,13 @@ msgstr ""
 msgid ""
 "Checks for data availability for reading, returns the byte size of the "
 "buffer if available."
-msgstr ""
+msgstr "检查是否有可供读取的数据；如果有，则返回缓冲区的字节大小。"
 
 #: ../../en/system/m5ble.rst:252 ../../en/system/m5ble.rst:264
 #: ../../en/system/m5ble.rst:278 2ea40176d17d41fa8bff57dac9cd15bf
 #: 5ed425e8c9bc415488956a0b6ac126e3 c1856515f8d2493783fada8c47c7081e
 msgid "``char_uuid`` UUID of the characteristic."
-msgstr ""
+msgstr "``char_uuid`` 特征的 UUID。"
 
 #: ../../en/system/m5ble.rst:257 21425de98b3648d8ad4ddc14f28f97b9
 msgid "|client_any.png|"
@@ -372,12 +378,12 @@ msgstr ""
 #: ../../en/system/m5ble.rst:262 ../../en/system/m5ble.rst:447
 #: 115559fe56274b04b06d60fa19f1c611 c8c75bc76c4a4fd881a6a4ba3f0f6d4e
 msgid "Reads data from a BLE device."
-msgstr ""
+msgstr "从 BLE 设备读取数据。"
 
 #: ../../en/system/m5ble.rst:266 ../../en/system/m5ble.rst:450
 #: 2ef45a7bd9414ecca4933fddbb99c8fb 4dd6f6d69f4a436f84ac57a04445ce1d
 msgid "``sz`` Number of bytes to read, None reads all available bytes."
-msgstr ""
+msgstr "``sz`` 要读取的字节数，None 表示读取所有可用字节。"
 
 #: ../../en/system/m5ble.rst:270 73601b6340474920b4de1270fd3fb4c5
 msgid "|client_read.png|"
@@ -390,12 +396,12 @@ msgstr ""
 #: ../../en/system/m5ble.rst:275 ../../en/system/m5ble.rst:461
 #: 1c532125e20a4866bc7dfd3c1e129405 d714ce8df2e94a03a6ebde044373c9e8
 msgid "Writes data to a BLE device."
-msgstr ""
+msgstr "将数据写入 BLE 设备。"
 
 #: ../../en/system/m5ble.rst:277 ../../en/system/m5ble.rst:463
 #: 466d05275e9a4661801f398dd16d72c3 6c45ab08191c4fff9541d7a53e74a40b
 msgid "``data`` Data to be written."
-msgstr ""
+msgstr "``data`` 要写入的数据。"
 
 #: ../../en/system/m5ble.rst:283 dc88ad82c87a40728cc7f2fce221c4f2
 msgid "|client_write.png|"
@@ -407,7 +413,7 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:288 399de48c03634a8d8fe3c6ffdb278992
 msgid "Closes the BLE connection."
-msgstr ""
+msgstr "关闭 BLE 连接。"
 
 #: ../../en/system/m5ble.rst:292 e2299221cd47498ea2fe45c60046e5f3
 msgid "|client_close.png|"
@@ -419,7 +425,7 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:297 0ecaa8dfacbc4f5aaf0e8310b851dd5c
 msgid "Retrieves a list of BLE services."
-msgstr ""
+msgstr "获取 BLE 服务列表。"
 
 #: ../../en/system/m5ble.rst:301 d8594d1833a9445eb50305b13d433378
 msgid "|client_get_services.png|"
@@ -431,7 +437,7 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:306 54dc494066134954b96137e670bbb53c
 msgid "Retrieves a list of characteristics for a BLE service."
-msgstr ""
+msgstr "获取 BLE 服务的特征列表。"
 
 #: ../../en/system/m5ble.rst:312 a69c8cfb35c649ce99b9ca35df852325
 msgid "|client_get_characteristics.png|"
@@ -443,13 +449,13 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:317 c948588c846d4c308b90f9099073510b
 msgid "Sets the maximum transmission unit (MTU) for BLE connections, in bytes."
-msgstr ""
+msgstr "设置 BLE 连接的最大传输单元（MTU），单位为字节。"
 
 #: ../../en/system/m5ble.rst:319 f2adf5aed1e945f6b131246480ebba69
 msgid ""
 "``mtu`` Size of the transmission unit, in bytes, ranging from 23-517. "
 "Note that not all devices support MTUs larger than 23."
-msgstr ""
+msgstr "``mtu`` 传输单元大小，单位为字节，范围为 23-517。请注意，并非所有设备都支持大于 23 的 MTU。"
 
 #: ../../en/system/m5ble.rst:323 49482c7958f942b1bc62697575aa43dd
 msgid "|set_mtu.png|"
@@ -461,11 +467,11 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:327 8665dba2d2ca45848dfd059c9864ab73
 msgid "Server Methods"
-msgstr ""
+msgstr "服务器方法"
 
 #: ../../en/system/m5ble.rst:331 ed1f46fd08144754b0aebf94e0bbf8f2
 msgid "Clears the added services."
-msgstr ""
+msgstr "清除已添加的服务。"
 
 #: ../../en/system/m5ble.rst:335 75778a4472404198b0420621efaa9f52
 msgid "|server_clear_services.png|"
@@ -477,17 +483,17 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:340 af034ac6d8c54bc6893f0ecc34b0a62c
 msgid "Adds a service"
-msgstr ""
+msgstr "添加服务。"
 
 #: ../../en/system/m5ble.rst:342 9bd4820069e7429caee840bcb6021bf4
 msgid "``uuid`` UUID of the service"
-msgstr ""
+msgstr "``uuid`` 服务的 UUID"
 
 #: ../../en/system/m5ble.rst:343 98ee14cb73d44f15bc2109f60c3ecf35
 msgid ""
 "``characteristics`` List of characteristics included in the service, "
 "created using create_characteristic"
-msgstr ""
+msgstr "``characteristics`` 服务中包含的特征列表，使用 create_characteristic 创建。"
 
 #: ../../en/system/m5ble.rst:347 bd350bb63c814671be6fa537af721fbb
 msgid "|server_add_service.png|"
@@ -499,23 +505,23 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:352 07996dd82d9e498aa87392f43ec8cfeb
 msgid "Creates a characteristic"
-msgstr ""
+msgstr "创建一个特征值。"
 
 #: ../../en/system/m5ble.rst:354 914d7438aca4485489a32890f74011ed
 msgid "``uuid`` UUID of the characteristic"
-msgstr ""
+msgstr "``uuid`` 特征的 UUID。"
 
 #: ../../en/system/m5ble.rst:355 8229fcb35cc84abf992f0311b3fbc743
 msgid "``read`` Whether the characteristic is readable"
-msgstr ""
+msgstr "``read`` 特征值是否可读。"
 
 #: ../../en/system/m5ble.rst:356 d9224ea192244b1c858e5f680437560e
 msgid "``write``  Whether the characteristic is writable"
-msgstr ""
+msgstr "是否可以写入该特征值。"
 
 #: ../../en/system/m5ble.rst:357 d252c53bb33e4e76aa775727f7a44aeb
 msgid "``notify``  Whether the characteristic can notify"
-msgstr ""
+msgstr "``notify`` 特征值是否支持通知。"
 
 #: ../../en/system/m5ble.rst:361 782d8f9db9fd4aaa8584aceceb8f038b
 msgid "|server_create_characteristic.png|"
@@ -527,13 +533,13 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:366 40caf029b4df4e94b8a313a870f7a6ac
 msgid "Starts the BLE service"
-msgstr ""
+msgstr "启动 BLE 服务。"
 
 #: ../../en/system/m5ble.rst:368 0984cd44bdeb4d5e9543c72de3a4b6ac
 msgid ""
 "``interval_us`` Broadcast interval time, in microseconds, default is "
 "500000us."
-msgstr ""
+msgstr "``interval_us`` 广播间隔时间，单位为微秒，默认值为 500000 us。"
 
 #: ../../en/system/m5ble.rst:372 6a833fa49f514466b2b065c0549212a7
 msgid "|server_start.png|"
@@ -545,13 +551,13 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:377 bd4fa300ff944d70a4f90499594ed808
 msgid "Sets the callback function for receiving data on BLE."
-msgstr ""
+msgstr "设置用于在 BLE 上接收数据的回调函数。"
 
 #: ../../en/system/m5ble.rst:379 b4db4060d53b4303884f868eed77add9
 msgid ""
 "``callback`` Data reception callback function, parameters are "
 "callback(M5BLE.Server, connected_client_handle)."
-msgstr ""
+msgstr "``callback`` 数据接收回调函数，参数为 callback(M5BLE.Server, connected_client_handle)。"
 
 #: ../../en/system/m5ble.rst:383 cab5adf331e64c1d83fb02e3dd4ff58e
 msgid "|server_on_receive.png|"
@@ -563,13 +569,15 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:388 2e81ce44f1dd4d56829908bc5b4aa332
 msgid "Sets the callback function for successful BLE device connection."
-msgstr ""
+msgstr "设置 BLE 设备连接成功的回调函数。"
 
 #: ../../en/system/m5ble.rst:390 12909e5e3fcd4ca0b9bb1b200e6c4618
 msgid ""
 "``callback`` Callback function upon device connection, parameters are "
 "callback(M5BLE.Server, connected_client_handle)."
 msgstr ""
+"``callback`` 设备连接时的回调函数，参数为 callback(M5BLE.Server, "
+"connected_client_handle)。"
 
 #: ../../en/system/m5ble.rst:394 3cfbad3dd37149edaebdea442d3bf4b9
 msgid "|server_on_connected.png|"
@@ -581,13 +589,15 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:399 495230d05b0c43188a4f1699bb242aad
 msgid "Sets the callback function for BLE device disconnection."
-msgstr ""
+msgstr "设置 BLE 设备断开连接的回调函数。"
 
 #: ../../en/system/m5ble.rst:401 51e89f798eaf4490bc4fe4c154a43923
 msgid ""
 "``callback`` Callback function upon device disconnection, parameters are "
 "callback(M5BLE.Server, connected_client_handle)."
 msgstr ""
+"``callback`` 设备断开连接时的回调函数，参数为 callback(M5BLE.Server, "
+"connected_client_handle)。"
 
 #: ../../en/system/m5ble.rst:405 e908ed5edcc84de2a399c1f2f24ed82f
 msgid "|server_on_disconnected.png|"
@@ -599,11 +609,11 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:410 343d7af127444a4d88393c8d6874d0c4
 msgid "Retrieves a connected client"
-msgstr ""
+msgstr "获取已连接的客户端。"
 
 #: ../../en/system/m5ble.rst:412 35f283b9a1b1455187084d3594af1d4e
 msgid "``index`` Index of the client"
-msgstr ""
+msgstr "``index`` 客户端的索引。"
 
 #: ../../en/system/m5ble.rst:416 979450f3f3674a7f896a204d1873abd4
 msgid "|server_get_client.png|"
@@ -615,7 +625,7 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:421 6265e89eb9f44326aa2c3b45ee1e7af1
 msgid "Retrieves a list of connected clients"
-msgstr ""
+msgstr "检索已连接客户端列表。"
 
 #: ../../en/system/m5ble.rst:425 c12f0b291b5545b78c7f658903e96975
 msgid "|server_get_clients.png|"
@@ -627,19 +637,19 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:429 4557f1ae65ce48a4ae631d00229bcd06
 msgid "Server - connected_client_handle Methods"
-msgstr ""
+msgstr "Server - connected_client_handle 方法"
 
 #: ../../en/system/m5ble.rst:431 b0735f04a0ef43ebb513b682b9444688
 msgid ""
 "connected_client_handle is passed by the callback function's parameters, "
 "or obtained using get_client."
-msgstr ""
+msgstr "connected_client_handle 通过回调函数的参数传入，或使用 get_client 获取。"
 
 #: ../../en/system/m5ble.rst:438 ../../en/system/m5ble.rst:449
 #: ../../en/system/m5ble.rst:464 69506448c1084ea1b392f5ff30af2528
 #: b6b6fb1e6ade4c2298ab7d7c6eb78835 b85a042cd4334a30badfa1776db7268b
 msgid "``uuid`` UUID of the characteristic."
-msgstr ""
+msgstr "``uuid`` 特征的 UUID。"
 
 #: ../../en/system/m5ble.rst:442 042b9c73b3644bd0a90e0d2bf26e43c7
 msgid "|handle_any.png|"
@@ -675,7 +685,7 @@ msgstr ""
 
 #: ../../en/system/m5ble.rst:473 9f8a439703b042e0bacc87394bbe255a
 msgid "Disconnects the link"
-msgstr ""
+msgstr "断开连接链路。"
 
 #: ../../en/system/m5ble.rst:477 98a32a5097e141a6a59752250b9f3d64
 msgid "|handle_close.png|"

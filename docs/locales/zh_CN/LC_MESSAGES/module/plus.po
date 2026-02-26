@@ -23,11 +23,11 @@ msgstr ""
 #: ../../en/module/plus.rst:3 ../../en/refs/module.plus.ref
 #: 7118912655f44b04af253aba416c44b4 e6ffcc7bbf474be896fed7eeebc002d8
 msgid "PLUS Module"
-msgstr ""
+msgstr "PLUS Module"
 
 #: ../../en/module/plus.rst:7 d4b6b689452342e18d895f9d69f18c37
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/plus.rst:9 ffe2858472954716b41c5457f476fbed
 msgid "|PLUS Module|"
@@ -35,11 +35,11 @@ msgstr ""
 
 #: ../../en/module/plus.rst:11 481da8a8cc4f4007bf7d10cffa42a190
 msgid "Micropython Example::"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/plus.rst:68 dbe9c0b509bd4f3fa14b06af1178b610
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/module/plus.rst:70 a5b6f860050746559119ef9e321b2f79
 msgid "|example.png|"
@@ -55,15 +55,15 @@ msgstr ""
 
 #: ../../en/module/plus.rst:77 fbbdbd149727409e894687fedac9296f
 msgid "class PLUSModule"
-msgstr ""
+msgstr "class PLUSModule"
 
 #: ../../en/module/plus.rst:80 72e183cbea7d46818264d07b19d65e2b
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/module/plus.rst:84 cc4125d80e9f494a9dce84fff050dbde
 msgid "Init I2C Module PLUS I2C Address."
-msgstr ""
+msgstr "初始化 I2C Module PLUS I2C 地址。"
 
 #: ../../en/module/plus.rst 4e35eec56cef4a20b047443372faac4a
 #: 53dd53805216487eb2d514e9b05acdc3
@@ -72,7 +72,7 @@ msgstr ""
 
 #: ../../en/module/plus.rst:86 77abe57a65804519905afea2c7c0df33
 msgid "I2C address of the PLUSModule."
-msgstr ""
+msgstr "PLUSModule 的 I2C 地址。"
 
 #: ../../en/module/plus.rst:88 ../../en/module/plus.rst:101
 #: ../../en/module/plus.rst:111 ../../en/module/plus.rst:119
@@ -81,7 +81,7 @@ msgstr ""
 #: 3ede7f5ab9404e6f8b5255c75607f338 84e39be6391d4cb1bdfffe94dc8a12a7
 #: c70ad6175bb647f9baee2ea8e904cecf ceb355fad63042749944db93b1449bea
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/module/plus.rst:90 49e058607c684ed482ba01f2c88901ea
 msgid "|init.png|"
@@ -97,7 +97,7 @@ msgstr ""
 
 #: ../../en/module/plus.rst:97 ce300209c61047bf91872d464f300384
 msgid "Get the current value of the rotary."
-msgstr ""
+msgstr "获取旋转编码器的当前值。"
 
 #: ../../en/module/plus.rst 8794fb80595142ef99158e594e387fc6
 #: d11775f6b97e4a1d99c1993335d93c97
@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../en/module/plus.rst:99 278a72786993408aa4339e69c4b127b3
 msgid "The value of the rotary relative to the zero point."
-msgstr ""
+msgstr "旋钮相对于零点的值。"
 
 #: ../../en/module/plus.rst:103 e5b2394353e7427a83cb1901d18deb66
 msgid "|get_rotary_value.png|"
@@ -118,11 +118,11 @@ msgstr ""
 
 #: ../../en/module/plus.rst:107 6ac0970d9934414f9c79b513e9d61509
 msgid "Set the rotary value."
-msgstr ""
+msgstr "设置旋转值。"
 
 #: ../../en/module/plus.rst:109 5cc6a5cbdfca4b46a289b45545833f1a
 msgid "rotary value."
-msgstr ""
+msgstr "旋转编码器值。"
 
 #: ../../en/module/plus.rst:113 0d2dcf68646b48719d9120ab77fb28a1
 msgid "|set_rotary_value.png|"
@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../../en/module/plus.rst:117 2cd4fe06c76d4d1d9b6ef777d02c96db
 msgid "Reset the rotary value."
-msgstr ""
+msgstr "重置旋转值。"
 
 #: ../../en/module/plus.rst:121 bd40fcf9690046c78e7039f2ba740491
 msgid "|reset_rotary_value.png|"
@@ -148,11 +148,11 @@ msgstr ""
 msgid ""
 "Get the increments of the rotary value since the last call of this "
 "function."
-msgstr ""
+msgstr "获取自上次调用此函数以来旋转值的增量。"
 
 #: ../../en/module/plus.rst:127 8872179de6bb4e259659d4f67b6bfd9b
 msgid "The increment value of the rotary."
-msgstr ""
+msgstr "旋转编码器的增量值。"
 
 #: ../../en/module/plus.rst:131 f996a9976de54e97a5bfc45a86a713b9
 msgid "|get_rotary_increments.png|"
@@ -164,7 +164,7 @@ msgstr ""
 
 #: ../../en/module/plus.rst:135 07e2948b3fb944b79c4cf42bcaf43591
 msgid "Get the state of a specific button."
-msgstr ""
+msgstr "获取指定按钮的状态。"
 
 #: ../../en/module/plus.rst:139 1392eb3138be40eeb9aa6bcf556f6149
 msgid "|get_button_status.png|"

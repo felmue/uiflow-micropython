@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/m5ui/button.rst:4 ../../en/m5ui/button.rst:52
 #: a1a70aefa3aa4548bdb0f5616050fb18 c5e9821cd18547a38177f96c0645d4ba
 msgid "M5Button"
-msgstr ""
+msgstr "M5Button"
 
 #: ../../en/m5ui/button.rst:8 82e97f75b3bb4b1db3ed7a6de9e61ab7
 msgid ""
@@ -140,7 +140,7 @@ msgstr "API参考"
 
 #: 7b886feab5714d109c2f2eca6f30a796 m5ui.button.M5Button:1 of
 msgid "Bases: :py:class:`~lvgl.button`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.button`"
 
 #: b8b7af14941444b38ceadbe0ec4096d1 m5ui.button.M5Button:1 of
 msgid "Create a button object."

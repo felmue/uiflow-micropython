@@ -22,13 +22,13 @@ msgstr ""
 
 #: ../../en/system/bleuart.rst:2 8b133d7b3d8a4008866f8a67861813de
 msgid ":mod:`bleuart` --- UART/Serial Port Emulation over BLE"
-msgstr ""
+msgstr ":mod:`bleuart` --- 通过 BLE 实现 UART/串口仿真"
 
 #: ../../en/system/bleuart.rst:4 1dca0811119c48dcba480abbe3190e09
 msgid ""
 "The Nordic UART Service (NUS) Application is an example that emulates a "
 "serial port over BLE."
-msgstr ""
+msgstr "Nordic UART Service（NUS）应用示例是一个通过 BLE 模拟串口的示例。"
 
 #: ../../en/system/bleuart.rst:6 d99a1f224587443fbe1a0b35a1928c98
 msgid ""
@@ -36,14 +36,16 @@ msgid ""
 "128-bit vendor-specific UUID of the Nordic UART Service is "
 "6E400001-B5A3-F393-E0A9-E50E24DCCA9E (16-bit offset: 0x0001)."
 msgstr ""
+"该应用包含一个服务：Nordic UART Service。Nordic UART Service 的 128 位厂商自定义 UUID 为 "
+"6E400001-B5A3-F393-E0A9-E50E24DCCA9E（16 位偏移量：0x0001）。"
 
 #: ../../en/system/bleuart.rst:8 383c642fd000445b86cd5d1ba4e5bbc6
 msgid ""
 "This service exposes two characteristics: one for transmitting and one "
 "for receiving (as seen from the peer)."
-msgstr ""
+msgstr "该服务公开两个特征：一个用于发送，另一个用于接收（从对端视角来看）。"
 
 #: ../../en/system/bleuart.rst:12 9651a90aa366443c8dff4bbcb9854146
 msgid "Classes"
-msgstr ""
+msgstr "类"
 

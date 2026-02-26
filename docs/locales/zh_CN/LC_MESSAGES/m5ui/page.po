@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/m5ui/page.rst:4 a43df9774723465ebf5cf5c8bbe35dd3
 msgid "M5Page"
-msgstr ""
+msgstr "M5Page"
 
 #: ../../en/m5ui/page.rst:8 f11f3c11fc2b4101b96b0a42e812a0de
 msgid ""
@@ -111,11 +111,11 @@ msgstr "API参考"
 
 #: ../../en/m5ui/page.rst:52 549b7efff10842da9cfaa058edac5de3
 msgid "M5Button"
-msgstr ""
+msgstr "M5Button"
 
 #: d17cee2225ff40d7b182b612c5373931 m5ui.page.M5Page:1 of
 msgid "Bases: :py:class:`~lvgl.obj`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.obj`"
 
 #: b8542b14abf34b368fc6040f1b1ab109 m5ui.page.M5Page:1 of
 msgid "Create a page object."

@@ -22,13 +22,13 @@ msgstr ""
 
 #: ../../en/advanced/usb/index.rst:2 b5cc9048e9014eb0b9a623564b6a0723
 msgid "USB Drivers"
-msgstr ""
+msgstr "USB 驱动"
 
 #: ../../en/advanced/usb/index.rst:6 5a135f974c9148c0bdd7ec315975f9f6
 msgid ""
 "These packages allow implementing USB functionality on a MicroPython "
 "system using pure Python code."
-msgstr ""
+msgstr "这些软件包允许在 MicroPython 系统上使用纯 Python 代码实现 USB 功能。"
 
 #: ../../en/advanced/usb/index.rst:9 2f350ea2f27e48ee931319e469da3486
 msgid "Modules"

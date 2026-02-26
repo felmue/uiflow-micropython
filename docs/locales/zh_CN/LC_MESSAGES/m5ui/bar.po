@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/m5ui/bar.rst:4 ../../en/m5ui/bar.rst:56
 #: 7f771fcb87084bac9a6eea3b4b0fc21a c8c828b36f94489a9af2e5c2c8e9e5ff
 msgid "M5Bar"
-msgstr ""
+msgstr "M5Bar"
 
 #: ../../en/m5ui/bar.rst:8 b75806c51a5a43f786305a9f04cf6df9
 msgid ""
@@ -31,7 +31,9 @@ msgid ""
 "interface. It displays values within a specified range using a visual bar"
 " indicator. The bar can be customized with different colors, gradients, "
 "and can optionally display the current value as text."
-msgstr "M5Bar 是一个可用于在用户界面中创建进度条的小部件。它使用可视的进度条指示器显示指定范围内的值。进度条可以自定义颜色和渐变，并可选择将当前值显示为文本。"
+msgstr ""
+"M5Bar "
+"是一个可用于在用户界面中创建进度条的小部件。它使用可视的进度条指示器显示指定范围内的值。进度条可以自定义颜色和渐变，并可选择将当前值显示为文本。"
 
 #: ../../en/m5ui/bar.rst:15 b89c5c05f8454f98a7371da10b8ec8f7
 msgid "UiFlow2 Example"
@@ -147,7 +149,7 @@ msgstr "API参考"
 
 #: 8d9307f940fa45e5ac0dad32f2366b8a m5ui.bar.M5Bar:1 of
 msgid "Bases: :py:class:`~lvgl.bar`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.bar`"
 
 #: be3f0ba04f0d449f940029b2b538c3e8 m5ui.bar.M5Bar:1 of
 msgid "Initialize a new M5Bar widget."

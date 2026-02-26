@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/op180.rst:2 d318546954504616af6edd7ca27fca16
+msgid "OP180 Unit"
+msgstr "OP180 Unit"
+
+#: ../../source/unit/op180.rst:6 9202594ba421451b8d6353cb0c856696
+msgid "The following products are supported:"
+msgstr "以下产品受支持："
+
+#: ../../source/unit/op180.rst:8 766d45182100458b9ad362fb19d909a2
+msgid "|OP180|"
+msgstr ""
+
+#: ../../source/refs/unit.op180.ref b7fca23d5a034acc9ee7650c36a438da
+msgid "OP180"
+msgstr "OP180"
+
+#: ../../source/unit/op180.rst:11 68b62c3b751647d59d7c549bcecb1b1e
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例::"
+
+#: ../../source/unit/op180.rst:36 353c8ffb22674ac99794af3a52516ab1
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/op180.rst:38 cabf7b540a2c47aaa97c24fd7abe8ed4
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.op180.ref:6 654d409726ab466c92118f13af81856c
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/op180.rst:43 de449c3a6f104e5aa0b55b64c06e8d90
+msgid "|op180_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/op180.rst:47 471d0096f7774810b3de85a7664dfec5
+msgid "class OPUnit"
+msgstr "class OPUnit"
+
+#: ../../source/unit/op180.rst:50 9ceaa6e29a61421085f69995b8abc2a0
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/op180.rst:54 9ea2246edc1b4a2981999e91fdb52de0
+msgid "Create an OP180 object."
+msgstr "创建一个 OP180 对象。"
+
+#: ../../source/unit/op180.rst:57 f07bc1a9aa1d4ec98a31b8e9dee89495
+msgid "The parameters is:"
+msgstr "参数为："
+
+#: ../../source/unit/op180.rst:57 faaa2cf8cb5f480090cdbcb4100d3849
+msgid "``io`` is the detection pin."
+msgstr "``io`` 是检测引脚。"
+
+#: ../../source/unit/op180.rst:59 ../../source/unit/op180.rst:71
+#: ../../source/unit/op180.rst:79 3f43902327324a07834fadd31cd10c44
+#: ab82b86565a547dd8d656393018fc027 b3a23368ba81453da0d4aef811269670
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/op180.rst:61 3059fa8521784c0ab43c43ff1b00ce45
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.op180.ref:8 435e22630df844ebb9ea3da567cd97b1
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/op180.rst:65 535f4c9c085c4940aaab573e95f2923a
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/op180.rst:69 2ace311de5b2415a86c440f03291e5f1
+msgid "Get the count value."
+msgstr "获取计数值。"
+
+#: ../../source/unit/op180.rst:73 7f9ec069f68e4cddb2bdfea698b5bcf4
+msgid "|get_count_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.op180.ref:10 e5497f134b864be1a25d855c8308d0d9
+msgid "get_count_value.png"
+msgstr ""
+
+#: ../../source/unit/op180.rst:77 b58121c5137a4303b8e73c43f8d1c7a4
+msgid "Reset the meter value."
+msgstr "重置仪表值。"
+
+#: ../../source/unit/op180.rst:81 5ea61e183e784804999f4bb0df719bf1
+msgid "|reset_count_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.op180.ref:12 84fe5cc23e614216987d21bfc3ec848a
+msgid "reset_count_value.png"
+msgstr ""
+

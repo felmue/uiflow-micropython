@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/op90.rst:2 0fa009b2b69f411b86ce6eba23f5d20b
+msgid "OP90 Unit"
+msgstr "OP90 Unit"
+
+#: ../../source/unit/op90.rst:6 0abf4579ebea47bbac1a86dc7574784b
+msgid "The following products are supported:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/op90.rst:8 0ea8c81f05694688b37eda20317eb23d
+msgid "|OP90|"
+msgstr ""
+
+#: ../../source/refs/unit.op90.ref c7ac2fc8eb62401e84205883daf6953e
+msgid "OP90"
+msgstr "OP90"
+
+#: ../../source/unit/op90.rst:11 030241c28426408589c8290566346647
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/op90.rst:39 65e8307fc8814094b2f3cfab326db194
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/op90.rst:41 d418fc050e204557bd664222eed4565c
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.op90.ref:6 ec87acf9265447269b81e260693431ae
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/op90.rst:46 cf9546f34fce4334a440235be2fb5476
+msgid "|op90_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/op90.rst:50 5aa79993496141628e56ff0ad10af85b
+msgid "class OPUnit"
+msgstr "class OPUnit"
+
+#: ../../source/unit/op90.rst:53 7359597398244cc7a8ffd4d42072fd12
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/op90.rst:57 273673dd65db46b0b483e429c7bc5b16
+msgid "Create an OPUnit object."
+msgstr "创建一个 OPUnit 对象。"
+
+#: ../../source/unit/op90.rst:60 3373474805144708bf07ba37975692d5
+msgid "The parameters is:"
+msgstr "参数为："
+
+#: ../../source/unit/op90.rst:60 86414ab13f6e496c9e6a6a82525267db
+msgid "``io`` is the detection pin."
+msgstr "``io`` 是检测引脚。"
+
+#: ../../source/unit/op90.rst:62 ../../source/unit/op90.rst:74
+#: ../../source/unit/op90.rst:83 0d83f7ea618248a1aa7018ebb27075a3
+#: 4ae537c6b05b4f2d87c6bee517bbf3d2 ffa23424be3947cc90186b8bb47e3578
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/op90.rst:64 9e6f5a0c786e465c8070193fce58b60b
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.op90.ref:8 e7bdc2ebab8f474ea4e1a1382e422bd3
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/op90.rst:68 f6c8dece2edf40858c79878b794f5ea4
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/op90.rst:72 7ac931ce87864e66bd5f1d1be9017574
+msgid "Get the count value."
+msgstr "获取计数值。"
+
+#: ../../source/unit/op90.rst:76 3bc5592f4f8d4fa7a69e77553ec3c019
+msgid "|get_count_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.op90.ref:10 3b190dde50ac4ea393dedc8e38801606
+msgid "get_count_value.png"
+msgstr ""
+
+#: ../../source/unit/op90.rst:81 a99d2960324240e2bec92ab68d0e3ab3
+msgid "Reset the meter value."
+msgstr "重置仪表数值。"
+
+#: ../../source/unit/op90.rst:85 3823cfdce97f4eed8757e1f0213652cd
+msgid "|reset_count_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.op90.ref:12 d6b2210d8a404dce9f2e5730c805350b
+msgid "reset_count_value.png"
+msgstr ""
+

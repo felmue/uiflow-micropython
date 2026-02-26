@@ -20,7 +20,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../en/hardware/sht30.rst:2 1a658bcbc53c4897b6fa5cb29986a6d9
+#: ../../en/hardware/sht30.rst:2 ../../en/hardware/sht30.rst:50
+#: 1a658bcbc53c4897b6fa5cb29986a6d9 5bfca301ce0943b8be4f5658d7fd3aeb
 msgid "SHT30"
 msgstr "SHT30"
 
@@ -84,19 +85,15 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/hardware/sht30.rst:47 7b62471d405f44f28106b5b843e1b63a
 msgid "**API**"
-msgstr ""
-
-#: ../../en/hardware/sht30.rst:50 5bfca301ce0943b8be4f5658d7fd3aeb
-msgid "SHT30"
-msgstr "SHT30"
+msgstr "API参考"
 
 #: d88349f9550a47f2b30d126f15e9164c hardware.sht30.SHT30:1 of
 msgid "Bases: :py:class:`~driver.sht30.SHT30`"
-msgstr ""
+msgstr "Bases: :py:class:`~driver.sht30.SHT30`"
 
 #: 07fb9ec4bfd74e2987d2be5f70183ff5 driver.sht30.SHT30:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "基类：:py:class:`object`"
 
 #: c426a0803192475abf5b8e9b51501202 driver.sht30.SHT30:1 of
 msgid "Create a SHT30 object."
@@ -153,3 +150,4 @@ msgstr ""
 #: ../../en/refs/hardware.sht30.ref:3 2b9a568f9db44e759f8127055a5a3a92
 msgid "get_humidity.png"
 msgstr ""
+

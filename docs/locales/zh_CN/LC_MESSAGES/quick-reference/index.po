@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/quick-reference/index.rst:2 a0c69d3912cb4d15b98c0cb051028618
 msgid "Quick Reference"
-msgstr ""
+msgstr "快速参考"
 
 #~ msgid "burn_firmware.gif"
 #~ msgstr ""

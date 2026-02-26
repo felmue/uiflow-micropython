@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/rf433r.rst:2 c52a00b16fab4771a3145c75f086d515
+msgid "RF433R Unit"
+msgstr "RF433R Unit"
+
+#: ../../source/unit/rf433r.rst:8 2f5e76bae19a43c380e01a17721e35b0
+msgid "This library is the driver for Unit RF433R."
+msgstr "该库是 Unit RF433R 的驱动程序。"
+
+#: ../../source/unit/rf433r.rst:10 49ddd6f2378b499a976297b9788a0f2c
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/rf433r.rst:12 41a2e70568c84b5c8825177420070a86
+msgid "|Unit RF433R|"
+msgstr ""
+
+#: ../../source/refs/unit.rf433r.ref 36ebf14086f34c3cbab1b11b1228d09d
+msgid "Unit RF433R"
+msgstr "Unit RF433R"
+
+#: ../../source/unit/rf433r.rst:14 1a1a70c9cf8f449182293fe838bb75a9
+msgid ""
+"ESP32-S3 related devices, such as CoreS2 and AtomS3, are not supported "
+"yet."
+msgstr "ESP32-S3 相关设备（例如 CoreS2 和 AtomS3）目前尚不支持。"
+
+#: ../../source/unit/rf433r.rst:17 a8e44664cf9541f381f836d012da4c70
+msgid "UiFlow2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/rf433r.rst:20 ../../source/unit/rf433r.rst:39
+#: 1be0a9b097204b15abeaad48f644b8d1 cfce2874d9f8441fa8b64289f3b9a572
+msgid "Receive data"
+msgstr "接收数据"
+
+#: ../../source/unit/rf433r.rst:22 af7de1a663314b0db167c600c0098983
+msgid "Open the |basic_rf433r_recv_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |basic_rf433r_recv_example.m5f2| 项目。"
+
+#: ../../source/unit/rf433r.rst:24 ../../source/unit/rf433r.rst:41
+#: 2d9eaa1458b04e699e0c7c3a67f320ea a18c0990a6a247a9b833f90663107301
+msgid ""
+"The example program demonstrates communication using RF433TUnit and "
+"RF433RUnit. Please refer to the sending end. `RF433TUnit <https://uiflow-"
+"micropython.readthedocs.io/en/latest/unit/rf433t.html>`_"
+msgstr ""
+"该示例程序演示了使用 RF433TUnit 和 RF433RUnit 进行通信。请参考发送端。 `RF433TUnit <https"
+"://uiflow-micropython.readthedocs.io/en/latest/unit/rf433t.html>`_"
+
+#: ../../source/unit/rf433r.rst:27 054579584f3043a3b89e3413530cc5b7
+#: 1a2a09e9d1894f74990fb4a5685bb40a 46c50d9b97d94112b17da15984358996
+#: 927a94b36afb49e9b0088d45a068dbdd d339164582de48b7a9284310c06deb90
+#: da3cc549258a443e826bdc26ff884f1c of unit.rf433r.RF433RUnit:5
+#: unit.rf433r.RF433RUnit.read:8 unit.rf433r.RF433RUnit.set_recv_callback:5
+#: unit.rf433r.RF433RUnit.start_recv:3 unit.rf433r.RF433RUnit.stop_recv:3
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/rf433r.rst:29 03f6ed47006642cda632aa3e9662841d
+msgid "|basic_rf433r_recv_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rf433r.ref:12 7f831dcdabf249e2b0b1edf7a027b31f
+msgid "basic_rf433r_recv_example.png"
+msgstr ""
+
+#: ../../source/unit/rf433r.rst:31 ../../source/unit/rf433r.rst:50
+#: 4346cb02ac824aef8650a2094c6301fe a92acbb4aa1f4a5c92ffc09855f0bb57
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/rf433r.rst:33 ../../source/unit/rf433r.rst:52
+#: 7ed08f2ba08e443d90043ab17da46c34 d4f97e41139e4c50baed7f023bd8edae
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/rf433r.rst:36 555e2c3670084350a645c8694c533a71
+msgid "MicroPython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/rf433r.rst:44 151016b2dcc74ce1bde6e178abd11d40
+#: 208aeb038aa74550b6dc9072ce36286e 2a046b2da20b478b910139db7f7d3a08
+#: 431c090b9ae04c7aa02d4cb4d9d47bef 6355b06864c647ab976b0e1840893294
+#: db8821552f4449679c9a6c0214d86a3a of unit.rf433r.RF433RUnit:9
+#: unit.rf433r.RF433RUnit.read:12 unit.rf433r.RF433RUnit.set_recv_callback:9
+#: unit.rf433r.RF433RUnit.start_recv:7 unit.rf433r.RF433RUnit.stop_recv:7
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/rf433r.rst:56 a780380024bf495fb42876e5ead2e168
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/rf433r.rst:59 303e4744d866407da6ee1c003e42f465
+msgid "RF433RUnit"
+msgstr "RF433RUnit"
+
+#: ae8ec3fbd6e440699b8721d4c6fec469 of unit.rf433r.RF433RUnit:1
+msgid "Bases: :py:class:`object`"
+msgstr "Bases: :py:class:`object`"
+
+#: 3193f49c463b43de8456475ceb5639f8 of unit.rf433r.RF433RUnit:1
+msgid "Create an RF433RUnit object."
+msgstr "创建一个 RF433RUnit 对象。"
+
+#: ../../source/unit/rf433r.rst 0509313fd9044a72879a0420f39b6e6b
+#: fca1bad125db4bedb95619cdc9f9e852 of unit.rf433r.RF433RUnit.set_recv_callback
+msgid "Parameters"
+msgstr ""
+
+#: c91bc894b233419486e7d1c353ab4646 of unit.rf433r.RF433RUnit:3
+msgid "Tuple containing grove port pin numbers."
+msgstr "包含 grove 端口引脚编号的元组。"
+
+#: 6378bf4f9e4b4491a8807f94f588f573 of unit.rf433r.RF433RUnit:7
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rf433r.ref:6 aaabbf9a0efc4dd7a7a46b727ecfe9ee
+msgid "init.png"
+msgstr ""
+
+#: 46cf3dfe3ebb40f694a008edad7eed39 of
+#: unit.rf433r.RF433RUnit.set_recv_callback:1
+msgid "Set receive data callback function."
+msgstr "设置接收数据回调函数。"
+
+#: 8a66d394f24a4c66b4039cea1ae2e65d of
+#: unit.rf433r.RF433RUnit.set_recv_callback:3
+msgid "A function that will be called when data is received."
+msgstr "当接收到数据时将被调用的函数。"
+
+#: 7dbe547ee0544a25b62620658b54b120 of
+#: unit.rf433r.RF433RUnit.set_recv_callback:7
+msgid "|set_recv_callback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rf433r.ref:10 14e8748459594a7993c0ae63bd116d2d
+msgid "set_recv_callback.png"
+msgstr ""
+
+#: 90cf3f8e17ff4f7ea1a483dfcdeb39b9 of unit.rf433r.RF433RUnit.start_recv:1
+msgid "Start receive data."
+msgstr "开始接收数据。"
+
+#: 2cdb39cf87734c7f83dfac90e195e48a of unit.rf433r.RF433RUnit.start_recv:5
+msgid "|start_recv.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rf433r.ref:7 7ec833a5cac24381ad89a057c426d61c
+msgid "start_recv.png"
+msgstr ""
+
+#: 5a5c15056b0b4b0cb797b2d751d61d34 97a49f80a47346e39c057dfd6509e401
+#: ab3390fb0bce47998c3ad9bc74ec5e53 of unit.rf433r.RF433RUnit.read
+#: unit.rf433r.RF433RUnit.start_recv unit.rf433r.RF433RUnit.stop_recv
+msgid "Return type"
+msgstr ""
+
+#: 072268b1ed6c4b83b3ddb9beb02979d0 of unit.rf433r.RF433RUnit.stop_recv:1
+msgid "Stop receive data."
+msgstr "停止接收数据。"
+
+#: c9c1cc9ecc58482290945e11631a6aa3 of unit.rf433r.RF433RUnit.stop_recv:5
+msgid "|stop_recv.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rf433r.ref:8 b7df2647dc44435cbf32edb342713fb3
+msgid "stop_recv.png"
+msgstr ""
+
+#: 42b9364c86514a4ab473076b02e16188 of unit.rf433r.RF433RUnit.read:1
+msgid "Read data."
+msgstr "读取数据。"
+
+#: 68f3a832a0f44cdf9a6956fa090bb84a of unit.rf433r.RF433RUnit.read
+msgid "Returns"
+msgstr ""
+
+#: afb8fe8416c640c1924054c0857337c6 of unit.rf433r.RF433RUnit.read:3
+msgid "receive data."
+msgstr "接收数据。"
+
+#: 96629d0704e947ceb9ff997ebf0246ee of unit.rf433r.RF433RUnit.read:6
+msgid "If no data is received, return None."
+msgstr "如果未接收到数据，则返回 None。"
+
+#: 82f8a9b11c25409ca4644e65a04c8d96 of unit.rf433r.RF433RUnit.read:10
+msgid "|read.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rf433r.ref:9 ed55aa6bbbc24a9ba108b5c162f0f9f0
+msgid "read.png"
+msgstr ""
+

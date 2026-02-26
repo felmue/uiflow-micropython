@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/chain/tof.rst:2 ../../en/refs/chain.tof.ref
 #: 05efad7e07634b2684738883ac01429d 44f3d8e9b7dd4ac59d56d19c0584d96c
 msgid "Chain ToF"
-msgstr ""
+msgstr "Chain ToF"
 
 #: ../../en/chain/tof.rst:6 2f94f90484934fcdb5e6a7f18757448f
 msgid ""
@@ -120,11 +120,11 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/chain/tof.rst:50 5d2bf883fbbd44378275a35e82afe38f
 msgid "**API**"
-msgstr "**API**"
+msgstr "API参考"
 
 #: ../../en/chain/tof.rst:53 50c9c74fc69947b88e400489c3ecc5bb
 msgid "ToFChain"
-msgstr ""
+msgstr "ToFChain"
 
 #: 3618851b59f740d187f494898f8efe01 chain.tof.ToFChain:1 of
 msgid "Bases: :py:class:`~chain.key.KeyChain`"

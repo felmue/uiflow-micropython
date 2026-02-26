@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/tof.rst:2 2f8c9c16746449a18b30e8e55327ecaf
+msgid "ToF Unit"
+msgstr "ToF Unit"
+
+#: ../../source/unit/tof.rst:6 f8509fb2e9df41099c7cd0a2aa41bb39
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/tof.rst:8 5ad771181549459883b41dd5427ff342
+msgid "|ToFUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref e94b8fd5525843dda4af787af405e668
+msgid "ToFUnit"
+msgstr "ToFUnit"
+
+#: ../../source/unit/tof.rst:11 6471b67c56c74556be0154aa0d61f1b0
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/tof.rst:18 4a3e6b59ecd44a95b6015820898a6845
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/tof.rst:20 152c3a5d8d6947b097690ff4a3f8f143
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:6 51219884c9954ca6ab903c4e39bf4dbc
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/tof.rst:25 98f963632974494cb8161a46dc0c0fe0
+msgid "|tof_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/tof.rst:29 3f0800cb887249788929c7f0111871a8
+msgid "class ToFUnit"
+msgstr "class ToFUnit"
+
+#: ../../source/unit/tof.rst:32 5026d56470a544d9be7c6dccd039fc73
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/tof.rst:36 50e4decdf5fa4e33b7447f63ddb39aa5
+msgid "Create a DLight object."
+msgstr "创建一个 DLight 对象。"
+
+#: ../../source/unit/tof.rst 162a26138a7946da9f43fbfe3bd7afba
+#: 51d6bf0c87ef4f2f9536dfee4d6947ad e7288730aeed4491af744cdfc63d9191
+#: f59fd83c8b0644cbb4ae49f0055ce215
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/tof.rst:38 ea60ccf2ef3045e89167469006dfd4d5
+msgid "the I2C object."
+msgstr "I2C 对象。"
+
+#: ../../source/unit/tof.rst:39 dc2ca9acc9354ba0b47fe992b53c8fe3
+msgid "the I2C address of the device. Default is 0x23."
+msgstr "设备的 I2C 地址。默认为 0x23。"
+
+#: ../../source/unit/tof.rst:40 5b606f2e860e4111b5340f5c4e92155e
+msgid "the timeout of I2C communication. Default is 0ms."
+msgstr "I2C 通信的超时时间。默认值为 0 ms。"
+
+#: ../../source/unit/tof.rst:42 ../../source/unit/tof.rst:58
+#: ../../source/unit/tof.rst:69 ../../source/unit/tof.rst:80
+#: ../../source/unit/tof.rst:90 ../../source/unit/tof.rst:101
+#: ../../source/unit/tof.rst:112 ../../source/unit/tof.rst:123
+#: ../../source/unit/tof.rst:134 ../../source/unit/tof.rst:143
+#: ../../source/unit/tof.rst:152 ../../source/unit/tof.rst:163
+#: 493ab655dd44433c9a39cbe27aded4b3 4da134a67c6a428b908698f91532364e
+#: 61bc662cb1c9404daa2de692e6f696c4 62519eee4fce4928a866634b2b0902a5
+#: 800c9ea131be4fa8b39ddf3e0e605b36 9f5f2553482c45ab94f2a6d36d24541a
+#: b589a9b537af43189e2fb449b26e24ce bcbf02c0880249f48e55829fe9ea8c2d
+#: dbe1f5973f204119b5527fa8170dd74e e107b7465d9c4274bccd15d2e77706d2
+#: e133ce1e823149e893a9234a9a5b49c5 e9852aed74df4d66b45f35b4f25a9e0b
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/tof.rst:44 68f000dd1b74492dbb736d7866520d3b
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:8 a380dd31c98747e598da6aaf11f7fc6c
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/tof.rst:50 ed9a29ec9d96457abd016b63a0616128
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/tof.rst:54 b005b1c0d4744d6c9a925c57ab9611d1
+msgid "Get distance in centimeters."
+msgstr "获取以厘米为单位的距离。"
+
+#: ../../source/unit/tof.rst 11d0309acd7c4d8ba2ce51da7b7a26de
+#: 1e29be3da3b847adb58c80abcce5e595 95cb42a3723c40f38863471e2aa39607
+#: c94936a2e2784faf9795fcfe766b5e6c db95b82e5cfa4c6ca26f813c309b41da
+#: f3fe7dc2d5904036a006a8300f067ed3
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/tof.rst:56 ../../source/unit/tof.rst:78
+#: 0bd2a7a1790e4394913ef859573a221c 218ba93da6064b0188315432be8a0943
+msgid "distance in millimeters."
+msgstr "以毫米为单位的距离。"
+
+#: ../../source/unit/tof.rst:60 9e891395a9a14d7396c95ad898f74765
+msgid "|get_distance.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:10 36ba72e685fd43febd53ee2b787a8332
+msgid "get_distance.png"
+msgstr ""
+
+#: ../../source/unit/tof.rst:65 7971a338495b46868e4c191973b3e625
+msgid "Get data ready status."
+msgstr "获取数据就绪状态。"
+
+#: ../../source/unit/tof.rst:67 d89f98f180a14b63ae9bc40c25f4a338
+msgid "data ready status."
+msgstr "数据就绪状态。"
+
+#: ../../source/unit/tof.rst:71 641e42566450401cb287312f5154f902
+msgid "|get_data_ready.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:12 183c49e3c9e94e6f8e2ba09547bdb1c7
+msgid "get_data_ready.png"
+msgstr ""
+
+#: ../../source/unit/tof.rst:76 fd24739a817e47b58f09269211f4e3a5
+msgid "Get distance in millimeters."
+msgstr "获取以毫米为单位的距离。"
+
+#: ../../source/unit/tof.rst:82 a7060a5e9dbc4157a3158e21d335fbdd
+msgid "|get_range.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:14 d26be1635a4f4af08d08b42db1a1adbd
+msgid "get_range.png"
+msgstr ""
+
+#: ../../source/unit/tof.rst:86 0ee9469795ae413588e53e432409d211
+msgid "Get continuous mode status."
+msgstr "获取连续模式状态。"
+
+#: ../../source/unit/tof.rst:88 e741041b612842a389dc0de14076449a
+msgid "continuous mode status."
+msgstr "连续模式状态。"
+
+#: ../../source/unit/tof.rst:92 5ffc842f6e794f12b9b3ce18d81a2358
+msgid "|is_continuous_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:16 a6ac5a43788b4f3e8c4d84cef3532a37
+msgid "is_continuous_mode.png"
+msgstr ""
+
+#: ../../source/unit/tof.rst:97 5a4a25957b56413688f1c32f8403b7e9
+msgid "Get measurement timing budget. The budget is in microseconds."
+msgstr "获取测量时序预算。该预算以微秒为单位。"
+
+#: ../../source/unit/tof.rst:99 be1f9b1ffb1e42dea71dc8dad32dba22
+msgid "measurement timing budget. The budget is in microseconds."
+msgstr "测量时间预算。该预算以微秒为单位。"
+
+#: ../../source/unit/tof.rst:103 0c2b7c1aa5eb4807ace3e7677bb56732
+msgid "|get_measurement_timing_budget.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:18 770cba275b7f437c881dd8c19950b739
+msgid "get_measurement_timing_budget.png"
+msgstr ""
+
+#: ../../source/unit/tof.rst:108 9577ad5a288f4ecab01f8d6e3c475ec3
+msgid "Set measurement timing budget. The budget_us is in microseconds."
+msgstr "设置测量定时预算。budget_us 的单位为微秒。"
+
+#: ../../source/unit/tof.rst:110 3552b4d9f7f24c18bf343326c96e8e3a
+msgid "measurement timing budget in microseconds."
+msgstr "以微秒为单位的测量时序预算。"
+
+#: ../../source/unit/tof.rst:114 8076ce31568b493094e1cce52e0ad7dc
+msgid "|set_measurement_timing_budget.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:22 798ff5c2fe5843f98dc169cec3342650
+msgid "set_measurement_timing_budget.png"
+msgstr ""
+
+#: ../../source/unit/tof.rst:119 7e9ba14808a34269806359442ce66c2f
+msgid "Get signal rate limit."
+msgstr "获取信号速率限制。"
+
+#: ../../source/unit/tof.rst:121 ../../source/unit/tof.rst:132
+#: 2e848b88e002446f84dc8ea388f694b8 b9fcda5efd4540058713382a20811604
+msgid "signal rate limit."
+msgstr "信号速率限制。"
+
+#: ../../source/unit/tof.rst:125 a463f13aec554c4b962c0dfd870e8d56
+msgid "|get_signal_rate_limit.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:20 223a35d6510545b4b4fe4eebe7fae944
+msgid "get_signal_rate_limit.png"
+msgstr ""
+
+#: ../../source/unit/tof.rst:130 2d3cbc0e255446968ba608f2484d7546
+msgid "Set signal rate limit."
+msgstr "设置信号速率限制。"
+
+#: ../../source/unit/tof.rst:136 2ca711b11e4742dd87a75f13542af123
+msgid "|set_signal_rate_limit.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:26 64bced7d7e4a4183915268cc04d5e184
+msgid "set_signal_rate_limit.png"
+msgstr ""
+
+#: ../../source/unit/tof.rst:141 a756fd1c284a4c749ba7ce4a7f6ef8a7
+msgid "Start continuous mode."
+msgstr "启动连续模式。"
+
+#: ../../source/unit/tof.rst:145 e807921a2c1d437cab79c7062ded2a38
+msgid "|start_continuous.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:28 278c6fdb117241ab9834221af343d95b
+msgid "start_continuous.png"
+msgstr ""
+
+#: ../../source/unit/tof.rst:150 78299a6991b84ca689ebe1b2cd31d3eb
+msgid "Stop continuous mode."
+msgstr "停止连续模式。"
+
+#: ../../source/unit/tof.rst:154 1ff70629dc814aa08f544b4008ee11e7
+msgid "|stop_continuous.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:30 0bceae381107484a8605d320462bdefc
+msgid "stop_continuous.png"
+msgstr ""
+
+#: ../../source/unit/tof.rst:159 11b3967db7fd4209b5aa40c35365350c
+msgid "Set I2C address."
+msgstr "设置 I2C 地址。"
+
+#: ../../source/unit/tof.rst:161 fde33dc2cda946dba7ff45b95aa86eeb
+msgid "new I2C address."
+msgstr "新的 I2C 地址。"
+
+#: ../../source/unit/tof.rst:165 b57426dab9824c15b5f5406c67806761
+msgid "|set_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof.ref:24 ceddfa4144fb413c8be45d29220c940f
+msgid "set_address.png"
+msgstr ""
+

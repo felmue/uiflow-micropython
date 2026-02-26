@@ -11,12 +11,12 @@ pip3 install -r requirements.txt
 ## 编译
 
 ```shell
-sphinx-build -b gettext ./en build/gettext
+sphinx-build -b gettext ./source build/gettext
 sphinx-intl update -p ./build/gettext -l zh_CN
-sphinx-build -b html -D language=zh_CN ./en/ build/html/zh_CN # 简体中文
-sphinx-build -b html -D language=en ./en/ build/html/en # English
+sphinx-build -b html -D language=zh_CN ./source/ build/html/zh_CN # 简体中文
+sphinx-build -b html -D language=en ./source/ build/html/en # English
 # pdf
-sphinx-build -b latex ./en/ ./build/latex
+sphinx-build -b latex ./source/ ./build/latex
 cd ./build/latex
 make
 ```

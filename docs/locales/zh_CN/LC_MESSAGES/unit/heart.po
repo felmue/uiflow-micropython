@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/heart.rst:3 54ea2ceca6b944b494194669d2813f91
+msgid "Heart Unit"
+msgstr "Heart Unit"
+
+#: ../../source/unit/heart.rst:7 c713e4db671042c299950785d3717657
+msgid ""
+"MAX30100 is a complete pulse oximetry and heart-rate sensor system "
+"solution designed for the demanding requirements of wearable devices."
+msgstr "MAX30100 是一款完整的脉搏血氧和心率传感器系统解决方案，专为满足可穿戴设备的严苛需求而设计。"
+
+#: ../../source/unit/heart.rst:9 6a25aad522674da18f5872e49a9e8518
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/heart.rst:11 991aaaf7ca7c48549e6b3948c5ee2a27
+msgid "|HeartUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref 85382d260601416b9d3d06767b8855db
+msgid "HeartUnit"
+msgstr "HeartUnit"
+
+#: ../../source/unit/heart.rst:13 e08e1ace47c04a43813ed00889df6396
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例："
+
+#: ../../source/unit/heart.rst:20 cdeccf9fbd8441799897aab1177c3f93
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/heart.rst:22 5b86dccd02de47c8a073b3542430d789
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:20 627a5ca53cd04f6eb07e87fee6715244
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:27 948aedf6a1144fdda4ab38faa0eb94ce
+msgid "|core_heart_unit_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/heart.rst:30 7c7c2e6562f841bd9eb5e9e000eb352a
+msgid "class HeartUnit"
+msgstr "class HeartUnit"
+
+#: ../../source/unit/heart.rst:33 496d5e5c07ed4b6d9647538008cdc49b
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/heart.rst:37 6a77c141940045018a884f995b9f7a6e
+msgid "Initialize the HeartUnit."
+msgstr "初始化 HeartUnit。"
+
+#: ../../source/unit/heart.rst:39 de9e3265fc9b40ec9f8620f0e8ce9079
+msgid "``i2c``: I2C port to use."
+msgstr "``i2c``：要使用的 I2C 端口。"
+
+#: ../../source/unit/heart.rst:40 7ae7fef6a1764c56b96404646993705b
+msgid "``address``: I2C address of the HeartUnit."
+msgstr "``address``：HeartUnit 的 I2C 地址。"
+
+#: ../../source/unit/heart.rst:42 ../../source/unit/heart.rst:55
+#: ../../source/unit/heart.rst:64 ../../source/unit/heart.rst:73
+#: ../../source/unit/heart.rst:82 ../../source/unit/heart.rst:91
+#: ../../source/unit/heart.rst:100 ../../source/unit/heart.rst:109
+#: ../../source/unit/heart.rst:122 ../../source/unit/heart.rst:149
+#: ../../source/unit/heart.rst:164 ../../source/unit/heart.rst:183
+#: 0d1e5a5f39e740a7a9bae3a8cd183a37 353c09c115504bd6be0faeaae7e65895
+#: 3549f84ad3764373a8b992ca5c3132d6 43fe3744cdc44a8f9253c3f3dbc4425b
+#: 4bf1f8f7683940b9920b277187963b54 758d93de994c47a7955acf53b532079e
+#: 8879716dd7e149a09e68dba64b2a345b a64b378ad8044acd8bc6688005b5bb4b
+#: cb365f46af7641bea13eed1956b1209e e07c9892b2c043d5aa7c8f646042db94
+#: e7e199f57c3247378a7b381ab86f0e78 fdc0855a5da94a50b9b5bb099aa6a87d
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/heart.rst:44 bb5c6a0990e6444dba3960921838966f
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:7 397f50954dce490189f85756a670380e
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:48 df8cadf1a84846b8a90860ff160bb512
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/heart.rst:52 548658c642c449339863e1fb656ba881
+msgid "Stop the HeartUnit."
+msgstr "停止 HeartUnit。"
+
+#: ../../source/unit/heart.rst:57 73051105193c4bf883551bd0778743e6
+msgid "|stop.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:8 d14fa400ef5e4610b40ac051e5a77c60
+msgid "stop.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:61 cbdefab8488d4b5a97ea7a7afef898dc
+msgid "Start the HeartUnit."
+msgstr "启动 HeartUnit。"
+
+#: ../../source/unit/heart.rst:66 307546cd8f07474faf5a748b0676561d
+msgid "|start.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:9 10daee5c314a4be882996578880c0700
+msgid "start.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:70 e1eae773dadc4858b7b4b069997d56ad
+msgid "Deinitialize the HeartUnit."
+msgstr "反初始化 HeartUnit。"
+
+#: ../../source/unit/heart.rst:75 f08d14d04a6c4027a6df71d166a68ad3
+msgid "|deinit.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:10 0fd97eb95c7b49878e83b3d6961fd6a2
+msgid "deinit.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:79 e810db2ccdb44b0c9689bdf2adc5389e
+msgid "Get the heart rate."
+msgstr "获取心率。"
+
+#: ../../source/unit/heart.rst:84 d53f27afd6eb42e0ae5f24820e455d06
+msgid "|get_heart_rate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:11 b44f54fdabf34f62bd336cb2fb12ffb4
+msgid "get_heart_rate.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:88 08bb5fa857e743eda8cada4f742cc9d8
+msgid "Get the SpO2."
+msgstr "获取 SpO2。"
+
+#: ../../source/unit/heart.rst:93 7e5527bbed774dd39f305b0ff4b904c1
+msgid "|get_spo2.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:12 03f6c5e131624183a7d37b61f5a65875
+msgid "get_spo2.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:97 a654002518814594886cb49931b6ddee
+msgid "Get the IR value."
+msgstr "获取 IR 值。"
+
+#: ../../source/unit/heart.rst:102 f825c2f665974a9295a2c51c252b0c39
+msgid "|get_ir.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:13 5f12c34baa9140bfb877359cf412eed1
+msgid "get_ir.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:106 da54803e12854e2b85f23e67c3a6f281
+msgid "Get the red value."
+msgstr "获取红色值。"
+
+#: ../../source/unit/heart.rst:111 3b710fc68ddf4a288ed4b87dbf12ccd8
+msgid "|get_red.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:14 7113cf58646e4ba5be24deef12460d79
+msgid "get_red.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:115 15b363d33fbf4948b3cfff205961cbff
+msgid "Set the mode of the HeartUnit."
+msgstr "设置 HeartUnit 的模式。"
+
+#: ../../source/unit/heart.rst 23e7158a42c943558dbde7465a1859f5
+#: 51214f390dd84e718c6c1adaed87507b 6f37b69d1fbd45f8a85f22ea8ca05402
+#: c5c87a3cb0ae447aabd08f0b30f5bf4a
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/heart.rst:117 429769543c0847c6a0bff0ce6805c651
+msgid ""
+"The detect mode of the HeartUnit. Options: - ``HeartUnit.MODE_HR_ONLY``: "
+"Only heart rate - ``HeartUnit.MODE_SPO2_HR``: Heart rate and SpO2"
+msgstr ""
+"HeartUnit 的检测模式。选项：- ``HeartUnit.MODE_HR_ONLY``：仅心率 - "
+"``HeartUnit.MODE_SPO2_HR``：心率和 SpO2"
+
+#: ../../source/unit/heart.rst:124 bcd7a3e4cb454892b658780f72788a19
+msgid "|set_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:15 340e12622cba401183a01f7ef6b72d43
+msgid "set_mode.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:128 8012e0c80e0c406f997914b6f6c7c472
+msgid "Set the LED current of the HeartUnit."
+msgstr "设置 HeartUnit 的 LED 电流。"
+
+#: ../../source/unit/heart.rst:130 7e1864be82034f76a223942f7d53fc45
+msgid ""
+"The LED current of the HeartUnit. Options: - "
+"``HeartUnit.LED_CURRENT_0MA``: 0mA - ``HeartUnit.LED_CURRENT_4_4MA``: "
+"4.4mA - ``HeartUnit.LED_CURRENT_7_6MA``: 7.6mA - "
+"``HeartUnit.LED_CURRENT_11MA``: 11mA - ``HeartUnit.LED_CURRENT_14_2MA``: "
+"14.2mA - ``HeartUnit.LED_CURRENT_17_4MA``: 17.4mA - "
+"``HeartUnit.LED_CURRENT_20_8MA``: 20.8mA - "
+"``HeartUnit.LED_CURRENT_24MA``: 24mA - ``HeartUnit.LED_CURRENT_27_1MA``: "
+"27.1mA - ``HeartUnit.LED_CURRENT_30_6MA``: 30.6mA - "
+"``HeartUnit.LED_CURRENT_33_8MA``: 33.8mA - "
+"``HeartUnit.LED_CURRENT_37MA``: 37mA - ``HeartUnit.LED_CURRENT_40_2MA``: "
+"40.2mA - ``HeartUnit.LED_CURRENT_43_6MA``: 43.6mA - "
+"``HeartUnit.LED_CURRENT_46_8MA``: 46.8mA - "
+"``HeartUnit.LED_CURRENT_50MA``: 50mA"
+msgstr ""
+"HeartUnit 的 LED 电流。选项：- ``HeartUnit.LED_CURRENT_0MA``：0 mA - "
+"``HeartUnit.LED_CURRENT_4_4MA``：4.4 mA - "
+"``HeartUnit.LED_CURRENT_7_6MA``：7.6 mA - "
+"``HeartUnit.LED_CURRENT_11MA``：11 mA - "
+"``HeartUnit.LED_CURRENT_14_2MA``：14.2 mA - "
+"``HeartUnit.LED_CURRENT_17_4MA``：17.4 mA - "
+"``HeartUnit.LED_CURRENT_20_8MA``：20.8 mA - "
+"``HeartUnit.LED_CURRENT_24MA``：24 mA - "
+"``HeartUnit.LED_CURRENT_27_1MA``：27.1 mA - "
+"``HeartUnit.LED_CURRENT_30_6MA``：30.6 mA - "
+"``HeartUnit.LED_CURRENT_33_8MA``：33.8 mA - "
+"``HeartUnit.LED_CURRENT_37MA``：37 mA - "
+"``HeartUnit.LED_CURRENT_40_2MA``：40.2 mA - "
+"``HeartUnit.LED_CURRENT_43_6MA``：43.6 mA - "
+"``HeartUnit.LED_CURRENT_46_8MA``：46.8 mA - "
+"``HeartUnit.LED_CURRENT_50MA``：50 mA"
+
+#: ../../source/unit/heart.rst:151 6f53e11ce6b643058c1796eb3125c9f2
+msgid "|set_led_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:16 626f0bfc9afe4748a1525f1be899c1a7
+msgid "set_led_current.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:155 299b6b91e6434e21802bca7aeb56db24
+msgid "Set the pulse width of the HeartUnit."
+msgstr "设置 HeartUnit 的脉冲宽度。"
+
+#: ../../source/unit/heart.rst:157 c0a6af82dcfb467baadc19ae19ff87c7
+msgid ""
+"The pulse width of the HeartUnit. Options: - "
+"``HeartUnit.PULSE_WIDTH_200US_ADC_13``: 200us - "
+"``HeartUnit.PULSE_WIDTH_400US_ADC_14``: 400us - "
+"``HeartUnit.PULSE_WIDTH_800US_ADC_15``: 800us - "
+"``HeartUnit.PULSE_WIDTH_1600US_ADC_16``: 1600us"
+msgstr ""
+"HeartUnit 的脉冲宽度。选项：- ``HeartUnit.PULSE_WIDTH_200US_ADC_13``：200 us - "
+"``HeartUnit.PULSE_WIDTH_400US_ADC_14``：400 us - "
+"``HeartUnit.PULSE_WIDTH_800US_ADC_15``：800 us - "
+"``HeartUnit.PULSE_WIDTH_1600US_ADC_16``：1600 us"
+
+#: ../../source/unit/heart.rst:166 68bedbbb71ea43ceb9323cd32eafd566
+msgid "|set_pulse_width.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:17 c9d028ca2e534bea85cbe837f335df20
+msgid "set_pulse_width.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:170 0db513a8404645159060ce8f9e70bc47
+msgid "Set the sampling rate of the HeartUnit."
+msgstr "设置 HeartUnit 的采样率。"
+
+#: ../../source/unit/heart.rst:172 1a1e56fd14b54d38b37888520b5bab10
+msgid ""
+"The sampling rate of the HeartUnit. Options: - "
+"``HeartUnit.SAMPLING_RATE_50HZ``: 50Hz - "
+"``HeartUnit.SAMPLING_RATE_100HZ``: 100Hz - "
+"``HeartUnit.SAMPLING_RATE_167HZ``: 167Hz - "
+"``HeartUnit.SAMPLING_RATE_200HZ``: 200Hz - "
+"``HeartUnit.SAMPLING_RATE_400HZ``: 400Hz - "
+"``HeartUnit.SAMPLING_RATE_600HZ``: 600Hz - "
+"``HeartUnit.SAMPLING_RATE_800HZ``: 800Hz - "
+"``HeartUnit.SAMPLING_RATE_1000HZ``: 1000Hz"
+msgstr ""
+"HeartUnit 的采样率。选项：- ``HeartUnit.SAMPLING_RATE_50HZ``：50 Hz - "
+"``HeartUnit.SAMPLING_RATE_100HZ``：100 Hz - "
+"``HeartUnit.SAMPLING_RATE_167HZ``：167 Hz - "
+"``HeartUnit.SAMPLING_RATE_200HZ``：200 Hz - "
+"``HeartUnit.SAMPLING_RATE_400HZ``：400 Hz - "
+"``HeartUnit.SAMPLING_RATE_600HZ``：600 Hz - "
+"``HeartUnit.SAMPLING_RATE_800HZ``：800 Hz - "
+"``HeartUnit.SAMPLING_RATE_1000HZ``：1000 Hz"
+
+#: ../../source/unit/heart.rst:185 f3e3cb2a819f4eeaa394ead8c52d4be9
+msgid "|set_sampling_rate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.heart.ref:18 db0f461bfe24445fbe1cd8495eaf8a11
+msgid "set_sampling_rate.png"
+msgstr ""
+
+#: ../../source/unit/heart.rst:190 b7259e019e3e4f9f9fcf89f6bcb40b33
+msgid "Constants"
+msgstr "Constants"
+
+#: ../../source/unit/heart.rst:194 a454b18fe4a64024a747e85ccac047da
+msgid "Detect heart rate only."
+msgstr "仅检测心率。"
+
+#: ../../source/unit/heart.rst:198 31ad380228df4fbe9196a027f18c5300
+msgid "Detect heart rate and SpO2."
+msgstr "检测心率和 SpO2。"
+

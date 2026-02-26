@@ -1,0 +1,475 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/mqtt.rst:2 79289f4dc5b540aebda0f38d557321ae
+msgid "MQTT Unit"
+msgstr "MQTT Unit"
+
+#: ../../source/unit/mqtt.rst:6 1267e1ad7ef54a5a834ca921d9fb3d6f
+msgid ""
+"The ``MQTT Unit`` is an Ethernet communication module specifically "
+"designed for MQTT communication. It features an embedded W5500 Ethernet "
+"chip, which enables seamless connectivity to Ethernet networks. The "
+"module also includes a UART communication interface, allowing for control"
+" via AT commands. In addition, it integrates an RJ45 adaptive 10/100M "
+"network port for easy network connectivity."
+msgstr ""
+"``MQTT Unit`` 是一款专为 MQTT 通信设计的以太网通信模块。它内置 W5500 以太网芯片，可无缝连接到以太网网络。该模块还包含 "
+"UART 通信接口，支持通过 AT commands 进行控制。此外，它集成了 RJ45 自适应 10/100M 网络端口，便于进行网络连接。"
+
+#: ../../source/unit/mqtt.rst:8 6caca9e22efe435d96fb06a5dfbc1302
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/mqtt.rst:10 26e995bb9587405aa317ae6fa5802838
+msgid "|MqttUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref 9cde872eb11f4a039f548d26fa12167b
+msgid "MqttUnit"
+msgstr "MqttUnit"
+
+#: ../../source/unit/mqtt.rst:12 de90e3bc0b41428cacd4f5d87b86d122
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/mqtt.rst:35 b097874acc8c4d86a6691111d0641243
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/mqtt.rst:37 0e2a02bb7acf4b47988be9ac47581e51
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:7 ad322f84071c4340b54e4f40f758fe87
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:41 617ffca14bc445198b8fb5d671ddaade
+msgid "|mqtt_demo.m5f2|"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:45 35a77667efbb4371a6b343e9a79c8cfd
+msgid "class MQTTUnit"
+msgstr "保持原有的 ``msgstr`` 为空即可。"
+
+#: ../../source/unit/mqtt.rst:48 aff2b0c7093c482ab06e008275563545
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:52 b32a27d4cf104f79b572414ffda03ffe
+msgid "Create a MQTTUnit object"
+msgstr "创建一个 MQTTUnit 对象"
+
+#: ../../source/unit/mqtt.rst:55 ../../source/unit/mqtt.rst:215
+#: ../../source/unit/mqtt.rst:238 ../../source/unit/mqtt.rst:261
+#: ../../source/unit/mqtt.rst:277 1a7fa1e4fc094300ba6944f382a58b46
+#: 32e9d3ff4b0f48068e59f64b0650c965 35b74807cfdb4f69be825e3f6e337c96
+#: 5530ddac55f247ad8468693f90fc46d4 efffe026623a4a7d9e6bcd35c282aac4
+msgid "The parameters is:"
+msgstr "参数为："
+
+#: ../../source/unit/mqtt.rst:55 ce22750b845c4234a3c1bd690f51d6c6
+msgid "``port`` uart pin tuple, which contains: ``(tx_pin, rx_pin)``."
+msgstr "``port`` 为 uart 引脚元组，包含：``(tx_pin, rx_pin)``。"
+
+#: ../../source/unit/mqtt.rst:57 ../../source/unit/mqtt.rst:80
+#: ../../source/unit/mqtt.rst:89 ../../source/unit/mqtt.rst:97
+#: ../../source/unit/mqtt.rst:112 ../../source/unit/mqtt.rst:132
+#: ../../source/unit/mqtt.rst:161 ../../source/unit/mqtt.rst:172
+#: ../../source/unit/mqtt.rst:183 ../../source/unit/mqtt.rst:194
+#: ../../source/unit/mqtt.rst:205 ../../source/unit/mqtt.rst:217
+#: ../../source/unit/mqtt.rst:228 ../../source/unit/mqtt.rst:240
+#: ../../source/unit/mqtt.rst:251 ../../source/unit/mqtt.rst:263
+#: ../../source/unit/mqtt.rst:279 1e1eadd350b849caa64354803c16aab5
+#: 1fcd9a0a58b848338fe0702b1fd25e68 205d028db4dc4279bd425ee31191b9b6
+#: 31ee66f6e5ff4a3aba9bc29d25f70d96 5c3a83e72f3d4cb1831cadd4de594447
+#: 6ad18bc5232140c9a4b13c7198f37e8b 74e6d89b9a844111ab3dc5c3b6f1c08f
+#: 931cb82c0b5d4f71952ab607ee902657 955ba9c4c08142bbb8946fe97d322d93
+#: be17081b0f7945da8e2c34dd5427ad2d d4a443a414d54313ac2210f6b1d582f3
+#: dbb62a098fd94f4c83f8170b807870ca dbfb0479338c4ccc85602269ed1723c3
+#: def3b25e607544429a227652ba2a3b8f e2c6db51a4714f3a96a7d351c1a53df4
+#: f1d3ce6784974ebdb96880bc31a604f8 f9e97effb1a3478b92ddda315a647b92
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/mqtt.rst:59 65fa0345851b400193f377e1cd519c1f
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:6 475398763b484d848df3c7b4ca840eb0
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:63 7e86462240b64795bc6048951084f5fc
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst 11684b13880044b1b83ed8c0bccb2da9
+#: c6e89065ff514cd68f41a62b0f512fb0 cfac47a6d7e342ddb4e8eddc23c3ee04
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:67 63be1fd00c844d6f97accd71b4b3ada5
+msgid "the unique client id string used when connecting to the broker."
+msgstr "连接到 broker 时使用的唯一 client id 字符串。"
+
+#: ../../source/unit/mqtt.rst:69 016f69efbf614538a35a1d4b861f2be5
+msgid "the hostname or IP address of the remote broker."
+msgstr "远程 broker 的主机名或 IP 地址。"
+
+#: ../../source/unit/mqtt.rst:70 a83eb2190bc94187a5a1feff40041ff0
+msgid "the network port of the server host to connect to."
+msgstr "要连接的服务器主机的网络端口。"
+
+#: ../../source/unit/mqtt.rst:71 73d4196fd79c4244936859f140a34f83
+msgid "a username for broker authentication."
+msgstr "用于 broker 身份验证的用户名。"
+
+#: ../../source/unit/mqtt.rst:73 751295930c9443449c0e29ded28bbe26
+msgid "a password for broker authentication."
+msgstr "用于 broker 身份验证的密码。"
+
+#: ../../source/unit/mqtt.rst:75 14a512f5366e4de4b5f7118d58891b86
+msgid ""
+"maximum period in seconds allowed between communications with the broker."
+" If no other messages are being exchanged, this controls the rate at "
+"which the client will send ping messages to the broker."
+msgstr "允许与 broker 通信之间的最大时间间隔（单位：秒）。如果没有交换其他消息，该参数将控制客户端向 broker 发送 ping 消息的频率。"
+
+#: ../../source/unit/mqtt.rst:82 32414b6573aa4a2d87e19927c9a73bc3
+msgid "|set_client.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:18 459f00439412448db58e9178f558c829
+msgid "set_client.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:87 b831fc0a68fd4d28a809b4c272b4c61d
+msgid "Connect to a server."
+msgstr "连接到服务器。"
+
+#: ../../source/unit/mqtt.rst:91 08a81be343f7498db43466d42651cb40
+msgid "|set_connect.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:19 972144ee134047e7955898c1dcfb4172
+msgid "set_connect.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:95 527c6833ea2f448d92e23f22d703198c
+msgid "Disconnect from a server, release resources."
+msgstr "断开与服务器的连接，并释放资源。"
+
+#: ../../source/unit/mqtt.rst:99 0a3caea5e4534e8d969c18738dd6d919
+msgid "|set_disconnect.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:20 c5082d6c869a424c8f97f982ce64c16c
+msgid "set_disconnect.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:104 97f969b347074d2b89119d30db6e5d2d
+msgid "Publish a message."
+msgstr "发布一条消息。"
+
+#: ../../source/unit/mqtt.rst:106 ead6736e6d194d99ac92304f7b857ab7
+msgid "the topic that the message should be published on."
+msgstr "消息应发布到的主题。"
+
+#: ../../source/unit/mqtt.rst:108 adccd06e19ef4b42ae8bd71d2afce607
+msgid "the message to send as a will."
+msgstr "作为遗嘱要发送的消息。"
+
+#: ../../source/unit/mqtt.rst:110 ca436bff43884ff5b097bb72db77ed54
+msgid "the quality of service level to use"
+msgstr "要使用的服务质量（QoS）等级"
+
+#: ../../source/unit/mqtt.rst:114 1498838e7bac453a871b20d5a0d7cb06
+msgid "|set_publish.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:21 d9f28225bee5459a9f59cfc9b1c665f5
+msgid "set_publish.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:119 1423796c25e549dd86fdeb68e1aa252e
+msgid "Subscribe to a topic."
+msgstr "订阅主题。"
+
+#: ../../source/unit/mqtt.rst:121 bf71073255db4be6a8f78e6f1eb8421b
+msgid "a string specifying the subscription topic to subscribe to."
+msgstr "一个字符串，用于指定要订阅的订阅主题。"
+
+#: ../../source/unit/mqtt.rst:123 8248b9fa9d4e41799d395d101bfa844f
+msgid ""
+"called when a message has been received on a topic that the client "
+"subscribes to and the message does match an existing topic filter "
+"callback."
+msgstr "当客户端订阅的主题收到消息，且该消息匹配现有主题过滤器回调时调用。"
+
+#: ../../source/unit/mqtt.rst:126 2227b01fa2b844c4821fbb55df45d52d
+msgid "the desired quality of service level for the subscription. Defaults to 0."
+msgstr "订阅所需的服务质量（QoS）级别。默认为 0。"
+
+#: ../../source/unit/mqtt.rst:129 9b5a11d555b2466ca2b687ff0c20730b
+msgid ""
+"When using this block, the \"MQTT connect\" block must be set after this "
+"block"
+msgstr "使用该模块时，“MQTT connect”模块必须设置在该模块之后"
+
+#: ../../source/unit/mqtt.rst:130 d25b1ce441444a9cb9e181a57a9ad4b6
+msgid "The server can only subscribe to four topics at a time"
+msgstr "服务器一次只能订阅 4 个主题。"
+
+#: ../../source/unit/mqtt.rst:134 dee55630895044d3a738355ff0b2c77e
+msgid "|set_subscribe.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:22 9f208ff5851d4f5f8fb6a055f9b317aa
+msgid "set_subscribe.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:136 7bc8e325f6c14108b13187439a857ba8
+msgid "An handler showing a message has been received::"
+msgstr "已接收到一条显示消息的处理程序::"
+
+#: ../../source/unit/mqtt.rst:142 44ae58e01b6743418f1069db93bef9b3
+msgid ""
+"On uiflow2, you can get the **topic** and **message** of the current "
+"handler through |get_topic.png| and |get_msg.png|."
+msgstr ""
+"在 UiFlow2 中，你可以通过 |get_topic.png| 和 |get_msg.png| 获取当前 handler 的 "
+"**topic** 和 **message**。"
+
+#: ../../source/refs/unit.mqtt.ref:24 9bdba871b2ee48e192a8a5ff0b951c72
+msgid "get_topic.png"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:25 4b325634d5374a93905918c25b1451e1
+msgid "get_msg.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:150 e9f2aaff36a948eb8b8258b99a593648
+msgid ""
+":py:meth:`check_msg()` is \"main loop iteration\" methods, blocking and "
+"non-blocking version. They should be called periodically in a loop, "
+":py:meth:`check_msg()` if you don't have any other foreground tasks to "
+"perform (i.e. your app just reacts to subscribed MQTT messages)."
+msgstr ""
+":py:meth:`check_msg()` "
+"是“主循环迭代”方法，包含阻塞和非阻塞版本。它们应在循环中定期调用；如果你没有任何其他前台任务需要执行（即你的应用仅对已订阅的 MQTT "
+"消息作出响应），则使用 :py:meth:`check_msg()`。"
+
+#: ../../source/unit/mqtt.rst:156 aad09248b50a42778af1337dd3e1032b
+msgid ""
+"Note that you don't need to call :py:meth:`check_msg()` if you only "
+"publish messages."
+msgstr "请注意，如果您仅发布消息，则无需调用 :py:meth:`check_msg()`。"
+
+#: ../../source/unit/mqtt.rst:159 327eda09e4054604a573e19ff7eaa2ce
+msgid "check for a server message."
+msgstr "检查服务器消息。"
+
+#: ../../source/unit/mqtt.rst:163 c6522575819b49fb8fac78254bc6423b
+msgid "|check_msg.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:23 bfc1d2449d724eaf8f304ac5c281162c
+msgid "check_msg.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:168 7ee9fc2524fe4ef2b68f14558276712a
+msgid "To check whether the communication with the MQTT unit has been successful."
+msgstr "检查与 MQTT 单元的通信是否成功。"
+
+#: ../../source/unit/mqtt.rst:170 62e2d110cd41475ab7ce4060fa08a08d
+msgid "Return: ``bool``:  True or False"
+msgstr "返回：``bool``：True 或 False"
+
+#: ../../source/unit/mqtt.rst:174 6c0d543834ac46e199a482b15d4b9d53
+msgid "|modem_is_ready.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:8 895d162c9be648589f49d55a28618c61
+msgid "modem_is_ready.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:179 ce7a03ca173549778b6a22cbb0bdb1ab
+msgid "Get the current firmware version number."
+msgstr "获取当前固件版本号。"
+
+#: ../../source/unit/mqtt.rst:181 13050f2cd89d4c2a9570124221c699c8
+msgid "Return: ``string``"
+msgstr "Return：``string``"
+
+#: ../../source/unit/mqtt.rst:185 d5789242a99c4a608568673f4ec73233
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:9 8df54fe4a48543cb9b3429ef2028280a
+msgid "get_firmware_version.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:190 08f1db59137e48aca8ba83fbcdc078e6
+msgid "Get the current baud rate of the module and the default baud rate is 9600."
+msgstr "获取模块当前波特率，默认波特率为 9600。"
+
+#: ../../source/unit/mqtt.rst:192 8bbcff5dbd7e41899869263d3ec03127
+msgid "Return: ``int``:  4800, 9600, 19200, 34800, 115200, 230400"
+msgstr "返回：``int``：4800、9600、19200、34800、115200、230400"
+
+#: ../../source/unit/mqtt.rst:196 9139abcf4e114a329928a5faf04a00f9
+msgid "|get_baudrate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:10 d5b68e6278e3454c8c4781c697b31af6
+msgid "get_baudrate.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:201 3c83903795f14cecacbb32226bc51dc7
+msgid "To check whether the network status is connected or disconnected."
+msgstr "检查网络状态是已连接还是已断开。"
+
+#: ../../source/unit/mqtt.rst:203 61333784a66341bda45b5ccef2af4973
+msgid "Return: ``int``: 0 ~ 1"
+msgstr "返回：``int``：0 ~ 1"
+
+#: ../../source/unit/mqtt.rst:207 ecbd516038be426dab3f41d630013adc
+msgid "|get_network_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:11 dfd8078a402949a48d1fa3b95cee7a40
+msgid "get_network_status.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:212 1f5eb7d20c704ee29c30bc26a405ceb3
+msgid ""
+"Get the current actual IP address, subnet mask, gateway and DNS server of"
+" the module."
+msgstr "获取模块当前实际的 IP 地址、子网掩码、网关和 DNS 服务器。"
+
+#: ../../source/unit/mqtt.rst:215 ../../source/unit/mqtt.rst:238
+#: 18dc28d84b7f45eca296a4f81a243953 98568b1a8608447898e3646d477f885b
+msgid "``param``: IP address = 0, subnet mask = 1, gateway = 2, DNS server = 3."
+msgstr "``param``：IP 地址 = 0，子网掩码 = 1，网关 = 2，DNS 服务器 = 3。"
+
+#: ../../source/unit/mqtt.rst:219 25c86a4af68e4f10870404fced0b895c
+msgid "|get_network_parameters.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:12 87f0367426be4afab868bc9cc45a9cc5
+msgid "get_network_parameters.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:224 3668db02b32949a3bd1b9dd21a0fadab
+msgid ""
+"Get the current MAC address of the module and MAC address the format is: "
+"XX-XX-XX-XX-XX-XX."
+msgstr "获取模块当前的 MAC 地址，MAC 地址格式为：XX-XX-XX-XX-XX-XX。"
+
+#: ../../source/unit/mqtt.rst:226 639422efb8e0453a9505f2cb4ba4fd25
+msgid "Return: ``string``: \"XX-XX-XX-XX-XX-XX\""
+msgstr "返回：``string``：\"XX-XX-XX-XX-XX-XX\""
+
+#: ../../source/unit/mqtt.rst:230 b307738521aa4bf29ff690213871895b
+msgid "|get_mac_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:13 d00e815b82a349ff85332ff7b76c02de
+msgid "get_mac_address.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:235 dae90e103a75445b9775fff845c3e98e
+msgid "Get the current actual IP address, subnet mask and gateway of the module."
+msgstr "获取模块当前实际 IP 地址、子网掩码和网关。"
+
+#: ../../source/unit/mqtt.rst:242 d6c1e090a4a941ddaf3b54c554b84ea5
+msgid "|get_static_ip.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:14 adb5b1d9a14c43c6bbf9ce5b8f94c159
+msgid "get_static_ip.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:247 7a7e72fd6a754eec9fc49152950c4a08
+msgid "Get the inquire about enable/disable DHCP status"
+msgstr "获取启用/禁用 DHCP 状态的信息"
+
+#: ../../source/unit/mqtt.rst:249 1851d906b87b4c49b4e68b57e380cd97
+msgid "Return: ``int``: 1: Enable, 0: Disable"
+msgstr "返回：``int``：1：启用，0：禁用"
+
+#: ../../source/unit/mqtt.rst:253 562823d5f8db4f58a54ca73145f4fffd
+msgid "|get_dhcp_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:15 5352be08835e48aab0da92a5929b74a2
+msgid "get_dhcp_status.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:258 19ee30eb9e1c4bf9acd02b90c1cd63ce
+msgid "Set the enable/disable DHCP"
+msgstr "设置启用/禁用 DHCP"
+
+#: ../../source/unit/mqtt.rst:261 09652ed314824ba5ba9069875089d896
+msgid "``state``: Disable = 0, Enable = 1."
+msgstr "``state``：禁用 = 0，启用 = 1。"
+
+#: ../../source/unit/mqtt.rst:265 657c4837e4f54331bc014736d6321fa4
+msgid "|set_dhcp_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:16 5714b38b3f4548faa8fc3c7d64a662ca
+msgid "set_dhcp_state.png"
+msgstr ""
+
+#: ../../source/unit/mqtt.rst:270 5173c8498f5a41c2bfa72ee1d9639711
+msgid "Set the static IP address of the MQTT module."
+msgstr "设置 MQTT 模块的静态 IP 地址。"
+
+#: ../../source/unit/mqtt.rst:272 70ffb4eecdcb45bf85839fd756060edd
+msgid ""
+"When the DHCP function is enabled, the static IP setting will not be "
+"enabled."
+msgstr "当启用 DHCP 功能时，静态 IP 设置将不会生效。"
+
+#: ../../source/unit/mqtt.rst:275 90784d2dbd724945aa3656af10507625
+msgid "``ip``:  \"xxx.xxx.xxx.xxx\""
+msgstr "``ip``： \"xxx.xxx.xxx.xxx\""
+
+#: ../../source/unit/mqtt.rst:276 d0212d0f115a484ea409a9cc4e273924
+msgid "``subnet``:  \"xxx.xxx.xxx.xxx\""
+msgstr "``subnet``： \"xxx.xxx.xxx.xxx\""
+
+#: ../../source/unit/mqtt.rst:277 c98dbf4c7ed2453c8e47b0b8529865ce
+msgid "``gateway``:  \"xxx.xxx.xxx.xxx\""
+msgstr "``gateway``： \"xxx.xxx.xxx.xxx\""
+
+#: ../../source/unit/mqtt.rst:281 edb29b0f2f08402791de6b43c440ff12
+msgid "|set_static_ip.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqtt.ref:17 401dfb83e3d14b819ad27e3ba391f214
+msgid "set_static_ip.png"
+msgstr ""
+

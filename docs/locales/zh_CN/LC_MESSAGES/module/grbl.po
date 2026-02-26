@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:3 0bc6715dfd1a4a508d5155c49e33267e
 msgid "GRBL Module"
-msgstr ""
+msgstr "GRBL 模块"
 
 #: ../../en/module/grbl.rst:7 a0a51169991b4bfdac239e8fa729784b
 msgid ""
@@ -31,10 +31,12 @@ msgid ""
 "sets of DRV8825PWPR stepper motor driver chip control ways, which can "
 "drive three bipolar steppers at the same time."
 msgstr ""
+"GRBL 13.2 是 M5Stack 堆叠模块系列中的三轴步进电机驱动模块。它采用 ATmega328P-AU 控制器，配备三组 "
+"DRV8825PWPR 步进电机驱动芯片控制方式，可同时驱动三路双极性步进电机。"
 
 #: ../../en/module/grbl.rst:9 faaabafc9e794daca4be1b5aef7f6afa
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/grbl.rst:11 4213716900e34ae5b0c1f6814acdeef3
 msgid "|GRBLModule|"
@@ -42,15 +44,15 @@ msgstr ""
 
 #: ../../en/refs/module.grbl.ref d426bda6a94a4408994897b8671d3000
 msgid "GRBLModule"
-msgstr ""
+msgstr "GRBLModule"
 
 #: ../../en/module/grbl.rst:13 0a79d5586b1b4d1385e11d694acaad3a
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/grbl.rst:20 5ca06fc510754ef9b607416ae9bfef5d
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/module/grbl.rst:22 4731850255e24020a4d3446688ae53f0
 msgid "|example.png|"
@@ -66,15 +68,15 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:29 e7f02e64f25a4d57bdf69474caf7611c
 msgid "class GRBLModule"
-msgstr ""
+msgstr "class GRBLModule"
 
 #: ../../en/module/grbl.rst:32 09dcef3cf3f14ee9865a1d56276daa10
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/module/grbl.rst:36 18e705be2eba42d1aa25b458619aea6e
 msgid "Initialize the GRBLModule."
-msgstr ""
+msgstr "初始化 GRBLModule。"
 
 #: ../../en/module/grbl.rst 5e6515520a1546a88747d8971fca6d77
 #: 7f56232e4be443b787b2a9a75e98a485 8db0e253211040948f9ef1a702397209
@@ -85,7 +87,7 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:38 5d992414c67e423d8bc36295c36afbae
 msgid "The I2C address of the device."
-msgstr ""
+msgstr "设备的 I2C 地址。"
 
 #: ../../en/module/grbl.rst:40 ../../en/module/grbl.rst:54
 #: ../../en/module/grbl.rst:65 ../../en/module/grbl.rst:78
@@ -103,7 +105,7 @@ msgstr ""
 #: d1b1499bef4a46e0a3986e74e01397d4 ebb47d56a4494598954063b28511dba3
 #: f09c5e64fd9e4ab3ba8de5b314ebe28a f0b161fe5d964b609845442fb02942f4
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/module/grbl.rst:42 ../../en/module/grbl.rst:106
 #: 19abdbed441c48e28247471356346b21 7bcdf7d9f2b24203aba5846389210e64
@@ -121,11 +123,11 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:50 083241c4f3b645459ecd35c7dac48efd
 msgid "Send the G-code command."
-msgstr ""
+msgstr "发送 G-code 命令。"
 
 #: ../../en/module/grbl.rst:52 883c0394d0ff42a2a0125be812df4787
 msgid "The G-code command."
-msgstr ""
+msgstr "G-code 命令。"
 
 #: ../../en/module/grbl.rst:56 6f8e20ee10a542fca7f9f6c54d54f89f
 msgid "|g_code.png|"
@@ -137,19 +139,19 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:60 ea7b1b861d9c44c2bdc782d2c53c0f58
 msgid "Get the time of the code."
-msgstr ""
+msgstr "获取代码的时间。"
 
 #: ../../en/module/grbl.rst ab9fa8d34c154dfa8355db3fc7c7e6d2
 msgid "return (int)"
-msgstr ""
+msgstr "return (int)"
 
 #: ../../en/module/grbl.rst:62 c55f999d046d4f28ac5208f2711a6cb8
 msgid "The estimated time of the command."
-msgstr ""
+msgstr "命令的估计时间。"
 
 #: ../../en/module/grbl.rst:63 070866f89ea74c8581ed99fe2cb15e94
 msgid "The G-code command"
-msgstr ""
+msgstr "G-code 命令"
 
 #: ../../en/module/grbl.rst:67 6ce3a1c6774145908213d1198ff70d91
 msgid "|get_code_time.png|"
@@ -161,23 +163,23 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:71 54f7d995934a4be4b549cdb9d219ce34
 msgid "Turn the motor to a specific position."
-msgstr ""
+msgstr "将电机转到指定位置。"
 
 #: ../../en/module/grbl.rst:73 61c2bec5dac14f608fb47be45da0659a
 msgid "The position of the X motor, 1.6&#x3D;360°."
-msgstr ""
+msgstr "X 电机的位置，1.6 = 360°。"
 
 #: ../../en/module/grbl.rst:74 dac92e81310a4a5ab569bb04f23bc90b
 msgid "The position of the Y motor, 1.6&#x3D;360°."
-msgstr ""
+msgstr "Y 电机的位置，1.6 = 360°。"
 
 #: ../../en/module/grbl.rst:75 c4e83dc2288945d6bdeb6e79911e44df
 msgid "The position of the Z motor, 1.6&#x3D;360°."
-msgstr ""
+msgstr "Z 电机的位置，1.6&#x3D;360°。"
 
 #: ../../en/module/grbl.rst:76 eb96e3a229834b9c979869f5de943411
 msgid "The speed of the motor."
-msgstr ""
+msgstr "电机的速度。"
 
 #: ../../en/module/grbl.rst:80 6a66e5ea30984908920c7d850b8ce3bf
 msgid "|turn.png|"
@@ -189,13 +191,15 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:84 099aaa4f32ea4ee5a18d3a2ac1d0190a
 msgid "Set the mode of the motor."
-msgstr ""
+msgstr "设置电机的模式。"
 
 #: ../../en/module/grbl.rst:86 e56538571c3547678ca414a9bf4f066f
 msgid ""
 "The mode of the motor. Options: - ``Absolute``: GRBLModule.MODE_ABSOLUTE "
 "- ``Relative``: GRBLModule.MODE_RELATIVE"
 msgstr ""
+"电机的模式。选项：- ``Absolute``：GRBLModule.MODE_ABSOLUTE - "
+"``Relative``：GRBLModule.MODE_RELATIVE"
 
 #: ../../en/module/grbl.rst:93 1411db9c3c6045cd9ea6211e637577d7
 msgid "|set_mode.png|"
@@ -207,27 +211,27 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:97 fa41ab06468b488491691d08f35633ab
 msgid "Initialize the motor."
-msgstr ""
+msgstr "初始化电机。"
 
 #: ../../en/module/grbl.rst:99 6bea1264a46f45b5ad1886d4b7b41864
 msgid "The step of the X motor."
-msgstr ""
+msgstr "X 电机的步进。"
 
 #: ../../en/module/grbl.rst:100 87288685789d44ff87f0793136cc1b13
 msgid "The step of the Y motor."
-msgstr ""
+msgstr "Y 电机的步距。"
 
 #: ../../en/module/grbl.rst:101 a1c105be1889407797bd6339f36a646f
 msgid "The step of the Z motor."
-msgstr ""
+msgstr "Z 电机的步距。"
 
 #: ../../en/module/grbl.rst:102 24c46d611f8841bc89408afa7e86ba14
 msgid "The acceleration of the motor."
-msgstr ""
+msgstr "电机的加速度。"
 
 #: ../../en/module/grbl.rst:110 0020a55836a1457da4113326bff46a4f
 msgid "Flush the buffer."
-msgstr ""
+msgstr "刷新缓冲区。"
 
 #: ../../en/module/grbl.rst:115 ca6642fbee114b1a92238eae0810dd3b
 msgid "|flush.png|"
@@ -239,16 +243,16 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:119 15d95bbcf5414ad483f49aefe9611d7d
 msgid "Get the message."
-msgstr ""
+msgstr "获取消息。"
 
 #: ../../en/module/grbl.rst 36e0d648453941e2bf589225417e98ea
 #: 8e9d4ad4108b47f0b18ba45bb4f9820f
 msgid "return (str)"
-msgstr ""
+msgstr "return (str)"
 
 #: ../../en/module/grbl.rst:121 40aa536bcd1940b2992b687b3cf1788b
 msgid "The message string."
-msgstr ""
+msgstr "消息字符串。"
 
 #: ../../en/module/grbl.rst:125 1f56594e3493481b9424210e20714ceb
 msgid "|get_message.png|"
@@ -260,11 +264,11 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:129 2ab391a3007d43fa9f7e92d5f292342d
 msgid "Get the status."
-msgstr ""
+msgstr "获取状态。"
 
 #: ../../en/module/grbl.rst:131 b00a01980a604a06a7aef30b005a9c8f
 msgid "The status string."
-msgstr ""
+msgstr "状态字符串。"
 
 #: ../../en/module/grbl.rst:135 aa2a00443ec44ba49f668a927b933b06
 msgid "|get_status.png|"
@@ -276,16 +280,16 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:139 52c15f32d8294ee0b91de61a418f67f8
 msgid "Get the idle state."
-msgstr ""
+msgstr "获取空闲状态。"
 
 #: ../../en/module/grbl.rst 108ec05888724c0a863202add5957498
 #: b7c6ffc2f82b44c28b74d060ed27a4f6
 msgid "return (bool)"
-msgstr ""
+msgstr "return (bool)"
 
 #: ../../en/module/grbl.rst:141 34e5ebb6f3184ca68d273ab9de5888a7
 msgid "The idle state."
-msgstr ""
+msgstr "空闲状态。"
 
 #: ../../en/module/grbl.rst:145 f4219be4bb344a5781a71e68a2b6f9e1
 msgid "|get_idle_state.png|"
@@ -297,11 +301,11 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:149 27a3c4e8eb9e435d825dcd44083f4559
 msgid "Get the lock state."
-msgstr ""
+msgstr "获取锁定状态。"
 
 #: ../../en/module/grbl.rst:151 fad81f11a4c14fbdaf1783a8ed9c23b0
 msgid "The lock state."
-msgstr ""
+msgstr "锁状态。"
 
 #: ../../en/module/grbl.rst:155 9081f87c2d8c4227afd957ad1decb013
 msgid "|get_lock_state.png|"
@@ -313,7 +317,7 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:159 8a8fe39bb98948319403c04c294301aa
 msgid "Wait until the motor is idle."
-msgstr ""
+msgstr "等待电机空闲。"
 
 #: ../../en/module/grbl.rst:164 4d77a139d6b44c1cb9b9fe535bded831
 msgid "|wait_idle.png|"
@@ -325,7 +329,7 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:168 4383f43339e943ff9777b3c51a3a07ff
 msgid "Unlock the alarm state."
-msgstr ""
+msgstr "解除警报状态。"
 
 #: ../../en/module/grbl.rst:173 aa5acfa9b61b4ca1beefcb37e6dd5112
 msgid "|unlock_alarm_state.png|"
@@ -337,7 +341,7 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:177 87509c4a3dcd426a8ea973cdb7cd8196
 msgid "Lock the motor."
-msgstr ""
+msgstr "锁定电机。"
 
 #: ../../en/module/grbl.rst:182 64be5beb7b2a44f8a2e7dd6298e7a10d
 msgid "|lock.png|"
@@ -349,7 +353,7 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:186 35ff76d3b23e47d29ca552dead89a55b
 msgid "Unlock the motor."
-msgstr ""
+msgstr "解锁电机。"
 
 #: ../../en/module/grbl.rst:191 d2791c14b4924cce93d206d92bc299f9
 msgid "|unlock.png|"
@@ -361,9 +365,9 @@ msgstr ""
 
 #: ../../en/module/grbl.rst:196 b8da3e07bee743b28a7adab2ac7bf966
 msgid "Constants"
-msgstr ""
+msgstr "Constants"
 
 #: ../../en/module/grbl.rst:201 ef5d4b8a56704bf79822b6ca0ee9f1d4
 msgid "Motor mode"
-msgstr ""
+msgstr "电机模式"
 

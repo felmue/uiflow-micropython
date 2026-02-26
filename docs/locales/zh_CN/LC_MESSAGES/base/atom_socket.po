@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:2 5ab7293f377c48ac84b97a55d1f37a88
 msgid "Atom Socket Base"
-msgstr ""
+msgstr "Atom Socket Base"
 
 #: ../../en/base/atom_socket.rst:6 34d817fa6406442680a58af2a55e8eae
 msgid ""
@@ -33,10 +33,12 @@ msgid ""
 "control the power state of the load, making it suitable for applications "
 "in smart homes, industrial control, and energy management."
 msgstr ""
+"`ATOMSocketBase` 类是一款与 M5 ATOM 控制器集成的智能电源插座。它内置 HLW8032 高精度功率测量 "
+"IC，可测量负载的电压、电流、功率和电能。此外，它还可作为智能插座控制负载的供电状态，适用于智能家居、工业控制和能源管理等应用场景。"
 
 #: ../../en/base/atom_socket.rst:8 5186ead62819472e8feb240f95df2131
 msgid "Supports the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/base/atom_socket.rst:10 62acfe71b1c44436a003f74915487339
 msgid "|ATOMSocketBase|"
@@ -44,15 +46,15 @@ msgstr ""
 
 #: ../../en/refs/base.atom_socket.ref a22ea9289d1c4f0493e8db918e4b36f7
 msgid "ATOMSocketBase"
-msgstr ""
+msgstr "ATOMSocketBase"
 
 #: ../../en/base/atom_socket.rst:13 4d4094c3b7634e9aafc08fc4ca4860ff
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/base/atom_socket.rst:20 8c36750ea4684fe4a2b0c40d50e0f1ff
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/base/atom_socket.rst:22 dc4947d1c3324e0ba357adc27732df38
 msgid "|example.png|"
@@ -68,27 +70,27 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:31 d91b478e2c524c19a25a03e92a0ed2fc
 msgid "class ATOMSocketBase"
-msgstr ""
+msgstr "class ATOMSocketBase"
 
 #: ../../en/base/atom_socket.rst:34 352b38ad3738407b913c8936c1d2ffbc
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/base/atom_socket.rst:38 cfcc6d750c434e31a4ec82b8acce4330
 msgid "Initializes the ATOM Socket."
-msgstr ""
+msgstr "初始化 ATOM Socket。"
 
 #: ../../en/base/atom_socket.rst:40 6b96706785354c11aa4c7012eb5e0452
 msgid "``_id``: Serial ID, not actually used by this base."
-msgstr ""
+msgstr "``_id``：串行 ID，该 base 实际未使用。"
 
 #: ../../en/base/atom_socket.rst:41 0ac2dcc4351249e2b71cdb3099652fd8
 msgid "``port``: UART pin numbers."
-msgstr ""
+msgstr "``port``：UART 引脚编号。"
 
 #: ../../en/base/atom_socket.rst:42 79a39661bf6841018c0c6fb206b2745a
 msgid "``relay``: The relay pin number."
-msgstr ""
+msgstr "``relay``：继电器引脚编号。"
 
 #: ../../en/base/atom_socket.rst:44 ../../en/base/atom_socket.rst:58
 #: ../../en/base/atom_socket.rst:71 ../../en/base/atom_socket.rst:80
@@ -103,7 +105,7 @@ msgstr ""
 #: e8c773150dca4edea3630fbf92e80ad8 eaad96545f9f4acb8c01fa72a5062666
 #: f015e78ed2e347258042d5c33aa0d9fb f58d81b223594c81964cd87aac7b9ff1
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2:"
 
 #: ../../en/base/atom_socket.rst:46 847380e3d3fa4a1fb4ee76ab1543d9bf
 msgid "|init.png|"
@@ -119,11 +121,11 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:54 07e505c4360348478108d38397f1b2c0
 msgid "Sets the state of the ATOM Socket's relay."
-msgstr ""
+msgstr "设置 ATOM Socket 的继电器状态。"
 
 #: ../../en/base/atom_socket.rst:56 742ac5118cb740619dbe36f3d4474367
 msgid "``state``: The desired state of the relay, True = ON, False = OFF."
-msgstr ""
+msgstr "``state``：继电器的期望状态，True = ON，False = OFF。"
 
 #: ../../en/base/atom_socket.rst:60 2595b79622a349dcb247da1d617299dd
 msgid "|set_relay.png|"
@@ -135,17 +137,19 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:65 97193fcc25f34bd0bc2e367c9c486357
 msgid "Retrieves data from the ATOM Socket."
-msgstr ""
+msgstr "从 ATOM Socket 获取数据。"
 
 #: ../../en/base/atom_socket.rst:67 954d90f95bec4827b5f7e1ca2cc98a52
 msgid "``timeout``: Function timeout period."
-msgstr ""
+msgstr "``timeout``：函数超时时间。"
 
 #: ../../en/base/atom_socket.rst:69 4cf8c867efb04bf881d8d7fbc973aaca
 msgid ""
 "Returns the ATOM Socket data: Tuple (Voltage (V), Current (A), Power (W),"
 " Total Energy (KWh)), or None if timeout occurs."
 msgstr ""
+"ATOM Socket 数据：Tuple (Voltage (V), Current (A), Power (W), Total Energy "
+"(KWh))，若发生超时则返回 None。"
 
 #: ../../en/base/atom_socket.rst:73 c792f91578f3488a92936f2d49ff0622
 msgid "|get_data.png|"
@@ -157,7 +161,7 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:78 facc45d4fddc4909a2830571ebb5acbc
 msgid "Retrieves the voltage measurement from the ATOM Socket."
-msgstr ""
+msgstr "从 ATOM Socket 获取电压测量值。"
 
 #: ../../en/base/atom_socket.rst:82 328c4d3e19724836b8e19b038a799933
 msgid "|get_voltage.png|"
@@ -169,7 +173,7 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:87 3f80948ef395432299b3c517a62e8244
 msgid "Retrieves the current measurement from the ATOM Socket."
-msgstr ""
+msgstr "从 ATOM Socket 获取当前测量值。"
 
 #: ../../en/base/atom_socket.rst:91 1dfc4d30d5194955a577a6977b4bb775
 msgid "|get_current.png|"
@@ -181,7 +185,7 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:96 13e08cfc138343b4bd78d7d16ecfdf41
 msgid "Retrieves the power measurement from the ATOM Socket."
-msgstr ""
+msgstr "从 ATOM Socket 获取功率测量值。"
 
 #: ../../en/base/atom_socket.rst:100 0f1b54f025f746b08a931ab3db460833
 msgid "|get_power.png|"
@@ -193,7 +197,7 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:105 135ebf3c9e72447f867a6753a5892c49
 msgid "Retrieves the power factor from the ATOM Socket."
-msgstr ""
+msgstr "从 ATOM Socket 获取功率因数。"
 
 #: ../../en/base/atom_socket.rst:109 4d1e89653bbd4361873ded26545286b7
 msgid "|get_pf.png|"
@@ -205,7 +209,7 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:114 96396a9a09f941dd85a7b87cb063ecfb
 msgid "Calculates the inspecting power of the ATOM Socket."
-msgstr ""
+msgstr "计算 ATOM Socket 的检测功率。"
 
 #: ../../en/base/atom_socket.rst:118 d3b2b71464f043f2a6d62747eaeeb449
 msgid "|get_inspecting_power.png|"
@@ -217,7 +221,7 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:123 27cc8663236e4dc29fd0b921027d2f0b
 msgid "Calculates the power factor of the ATOM Socket."
-msgstr ""
+msgstr "计算 ATOM Socket 的功率因数。"
 
 #: ../../en/base/atom_socket.rst:127 4523eb6320d649e2897e392bc4d63b3d
 msgid "|get_power_factor.png|"
@@ -229,7 +233,7 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:132 59286f16bb8743b6a27383aeccd1b177
 msgid "Retrieves the accumulated energy measurement in KWh from the ATOM Socket."
-msgstr ""
+msgstr "从 ATOM Socket 获取累计能量测量值（单位：KWh）。"
 
 #: ../../en/base/atom_socket.rst:136 5cbd0f7fce0b4e42b47f1c3fa2523731
 msgid "|get_kwh.png|"
@@ -241,7 +245,7 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:141 64bcaa2ee9744902b624ffdd77456f74
 msgid "Stops receiving data from the ATOM Socket."
-msgstr ""
+msgstr "停止从 ATOM Socket 接收数据。"
 
 #: ../../en/base/atom_socket.rst:145 9d7a37d013694467816460dc99532903
 msgid "|stop_receive_data.png|"
@@ -253,11 +257,11 @@ msgstr ""
 
 #: ../../en/base/atom_socket.rst:150 501f28f01053416b8451683184bc0877
 msgid "Receives data from the ATOM Socket in non-blocking mode."
-msgstr ""
+msgstr "以非阻塞模式从 ATOM Socket 接收数据。"
 
 #: ../../en/base/atom_socket.rst:152 f67cb074e50c4ea2a8aafb8e5ac2de87
 msgid "``receive_callback``: Callback function to handle the received data."
-msgstr ""
+msgstr "``receive_callback``：用于处理接收到的数据的回调函数。"
 
 #: ../../en/base/atom_socket.rst:156 55604ff0b1054da08759fd75d44da73e
 msgid "|receive_none_block.png|"

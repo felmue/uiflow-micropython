@@ -22,5 +22,5 @@ msgstr ""
 
 #: ../../en/advanced/index.rst:2 a59585c4f7bd43b1a46b943de5dfa2b2
 msgid "Advanced"
-msgstr ""
+msgstr "Advanced"
 

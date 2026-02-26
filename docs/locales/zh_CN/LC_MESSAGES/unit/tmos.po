@@ -1,0 +1,1064 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/tmos.rst:2 45285b9f58764d6a8ac1c0aaeb104ffb
+msgid "TMOS Unit"
+msgstr "TMOS Unit"
+
+#: ../../source/unit/tmos.rst:6 2527362d9ba14b03b394bfeccf37050e
+msgid "The following products are supported:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/tmos.rst:8 377e84df3af04adca97f77cf4fa6f345
+msgid "|TMOS|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref cd61896e823344d3b623a2c8ecd36f0f
+msgid "TMOS"
+msgstr "TMOS"
+
+#: ../../source/unit/tmos.rst:11 717a9c6fc0154cd0b033e4e781a9aa25
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/tmos.rst:105 b3b1d2cebafc45b6a2dc35a40c0bfbda
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/tmos.rst:107 275bcb6e4e59491cb4aeb939f3694c26
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:6 66f7f4e6e4314797a2bea1a7972467e9
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:112 8279f0b72c6e479280f95552706261f1
+msgid "|tmos_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:116 8d7f24de1b844b57ad738999df3d98ee
+msgid "class TMOSUnit"
+msgstr "class TMOSUnit"
+
+#: ../../source/unit/tmos.rst:119 655e4462fdc54e8baf0c79f47be7c0bf
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:123 5e60f3e962f84828b284193fa10a0294
+msgid "Create a TMOSUnit object."
+msgstr "创建一个 TMOSUnit 对象。"
+
+#: ../../source/unit/tmos.rst 0324e22449744a9f87e177dac4399f3c
+#: 0b2074f5e06841fca9065eaf03a0138a 0e309a14f060496791707a076486215d
+#: 180a6a9d64344eacad2c07ff8d277a23 2f9c121ab8d440cc82463f9951ac3c0b
+#: 30c3c121ec41405c94a1fde878fa47d1 37f37607ab544fdda0bb91d477af9355
+#: 3acfb27f60ad4d26983a0d2cbae72942 3e86ff469a8943c79f7867c813ed8537
+#: 3f51b67babf44a25a9ff982b7d291147 495e9713f77741ba84ae6456ed21ebd8
+#: 7526230795d842a5980fcf6ca0bbd9cd 9276e217b4e044f0b16712432fb65f6a
+#: a1bee37188404cd28b1b814d2dbfbc94 c59aaf5cdc1d424e9f04e75621f5089e
+#: d657894e5dbb4d4c9d46d1ecd211b2c1 e206ce8833634e01babdb6b2682d889e
+#: e218b2a1c77048f9a50e4f1319d5d2f4 f139e2c54f1f4bfb80ad4b4ba29af094
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:125 03b9c0c1329444ad903c22ef74d506ff
+msgid "I2C object"
+msgstr "I2C 对象"
+
+#: ../../source/unit/tmos.rst:127 96266a1be1e0424bba308b2240916fe1
+msgid "I2C address, 0x5A by default"
+msgstr "I2C 地址，默认为 0x5A"
+
+#: ../../source/unit/tmos.rst:129 ../../source/unit/tmos.rst:143
+#: ../../source/unit/tmos.rst:153 ../../source/unit/tmos.rst:163
+#: ../../source/unit/tmos.rst:173 ../../source/unit/tmos.rst:183
+#: ../../source/unit/tmos.rst:193 ../../source/unit/tmos.rst:203
+#: ../../source/unit/tmos.rst:213 ../../source/unit/tmos.rst:232
+#: ../../source/unit/tmos.rst:253 ../../source/unit/tmos.rst:264
+#: ../../source/unit/tmos.rst:274 ../../source/unit/tmos.rst:284
+#: ../../source/unit/tmos.rst:294 ../../source/unit/tmos.rst:304
+#: ../../source/unit/tmos.rst:314 ../../source/unit/tmos.rst:324
+#: ../../source/unit/tmos.rst:334 ../../source/unit/tmos.rst:348
+#: ../../source/unit/tmos.rst:358 ../../source/unit/tmos.rst:371
+#: ../../source/unit/tmos.rst:381 ../../source/unit/tmos.rst:394
+#: ../../source/unit/tmos.rst:404 ../../source/unit/tmos.rst:416
+#: ../../source/unit/tmos.rst:426 0a6c7db0c38242958fc323869855cd0e
+#: 23ec565b80fc43d795cf26f59cac9b2e 2d063a442a16449eb6a8378aac72b71e
+#: 31ec79b74b8d493aa912ea919b0dc762 36059efe19424d56b5a0327668600d88
+#: 59c6e5844ef1471cb752546e8c5ee08d 6e86ad5b74964917bb9f22030c532bd3
+#: 70fe0570b110423cb4d6376f9008657e 7326f0fa137440b98cd6e4216188452f
+#: 7b2f6c6b42a941e0b9dbe2679d28e821 80c65ea12a9441a59483fe47c4f5c009
+#: 820a2efd698949acb379fa7864f004d2 8637be2ffa7047ea9d2b01cf2980c6b6
+#: 89d6590080a44426893abd7dd85f5e7e 90477b9a19604e91b54959f6181a27b4
+#: 95451c53fb2943cfa85a1691b0e96470 9d7623b812f84926a1fab0aa9ca1978f
+#: a477033029df44eba19f7ea94e4d4d53 b21910d6a84c4ea491269fe3770329e9
+#: b37efacd522d42b9927ff929643b80be b3e05c2933be4dc38897399994ae074f
+#: c002db7706e64f40ae2ceae9691a5c93 cf9af4bda3e643d5ba1ecbb313ab2aa0
+#: d8086ffcd97e4521bca16f647e54916e e19b8c98447a43baa296a3454e179912
+#: e549d336121d4f59a9d769c033a26e51 f11dcc9ae19d441cb6a13b9e3397a587
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/tmos.rst:131 468dada55da74377a657268226a5b521
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:7 8859399dcd3b44e786bcc44ef80fda3d
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:135 22eec3b285854cc6bb7047a0bfebfcfe
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:139 dce13c45bdfb4efab8ea96754c24386a
+msgid ""
+"Get data update status of TMOSUnit(TAMBIENT, TOBJECT, TAMB_SHOCK, "
+"TPRESENCE, TMOTION)."
+msgstr "获取 TMOSUnit（TAMBIENT、TOBJECT、TAMB_SHOCK、TPRESENCE、TMOTION）的数据更新状态。"
+
+#: ../../source/unit/tmos.rst 078c747b9b2344df972fd0698865dc95
+#: 0dff9905615b4c07834e9d488651527b 1f66fedfece64dbb802cf9517a84bff1
+#: 204d170a53b1496eb6d4fb4aa28da8a1 26bb6af371f64da7be11d45206ba7bf4
+#: 2a2797ce81224d40abce1ede5d3381de 2c263605828a408f91d904d5564894e1
+#: 2ccf89ffc7cc42fab0fd6385d7560c84 43bf15d67a66483cbca33c391ef93431
+#: 518e1e5405ef4db2861fce6729f550c9 5b33c5a05d6047b8b59960312ee60d55
+#: 72b754b191bb44afa494992887cda953 732b71416c4e42de9e0ec4579f62fc28
+#: 7be18cb76ebd4fb2aca5b8ec9215a56f 81d4eabc1a1b4ee1954babe9d2c94d2f
+#: 9df94cced362406d8bd8c757fa1ef6e9 a916676672384123812f6f6e9ed8d281
+#: b396f3a4d91740f3ba94266b882b831b bfba12aa10a547d489e0f349c310be62
+#: c0b8cd5bcfe046d19d1805deaac6e9c6 cbf0fe6bb1f241cd8e6ec280273da01d
+#: ddc55183c7484a18bc6af8665acdf90c f9efbdab5f154b31b1786d18f7bc6c4d
+#: fd43e9464ac54107a27891b7d7536b1c
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:141 f9a372ffbb684ba49242d879be15a486
+msgid "The data update status of TMOSUnit."
+msgstr "TMOSUnit 的数据更新状态。"
+
+#: ../../source/unit/tmos.rst:145 deb3f9bd20734232be5d3f456e7a93e0
+msgid "|get_data_ready.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:8 3860bba2cb6a418f9be5d3667a94243a
+msgid "get_data_ready.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:149 9a4c57ec0f204e178fd3a5d4201e5ff7
+msgid "Get the motion status detected by TMOSUnit"
+msgstr "获取 TMOSUnit 检测到的运动状态"
+
+#: ../../source/unit/tmos.rst:151 e80778edf8c94351a7771f2461b9c02a
+msgid "The motion status."
+msgstr "运动状态。"
+
+#: ../../source/unit/tmos.rst:155 370608f807f249a78f6a9ef16b1aad9f
+msgid "|get_motion_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:11 c80502a81d97497187e6d67309c617d7
+msgid "get_motion_state.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:159 3b7580babc174074a2a225a67cb396fe
+msgid "Get motion value(unit:cm^-1)"
+msgstr "获取运动值（单位：cm^-1）"
+
+#: ../../source/unit/tmos.rst:161 2ee4de4f41314c31b8042d5a5a064338
+msgid "The motion value of TMOSUnit."
+msgstr "TMOSUnit 的运动值。"
+
+#: ../../source/unit/tmos.rst:165 a20a6b21509e48198a87d314b799702f
+msgid "|get_motion_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:13 fcb16fb3453047918492ffb0fa069c58
+msgid "get_motion_value.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:169 af8d54f68dee4591bf7f8bbb6c00263e
+msgid "Get the presence status detected by TMOSUnit"
+msgstr "获取 TMOSUnit 检测到的存在状态"
+
+#: ../../source/unit/tmos.rst:171 d42b4734bd5b494098c5671bde6c94be
+msgid "The presence status."
+msgstr "存在状态。"
+
+#: ../../source/unit/tmos.rst:175 987242af87be4dfca4f18680b0ca3413
+msgid "|get_presence_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:12 2193fcfcd0af4f67aff8d124271ba3bb
+msgid "get_presence_state.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:179 7c60e9ec460747ed88a5219a2f864a85
+msgid "Get presence value(unit:cm^-1)"
+msgstr "获取存在值（单位：cm^-1）"
+
+#: ../../source/unit/tmos.rst:181 effb44d17d3042c6ae4659665141ff88
+msgid "The presence value of TMOSUnit."
+msgstr "TMOSUnit 的 presence 值。"
+
+#: ../../source/unit/tmos.rst:185 b0b439985cc046bcbe543c1a8fb35bf3
+msgid "|get_presence_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:14 42794344d8ce41aba23033094526a99b
+msgid "get_presence_value.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:189 27fba94430ac41c9af8123ed66350cae
+msgid "Get the ambient temperature shock status detected by TMOSUnit"
+msgstr "获取 TMOSUnit 检测到的环境温度冲击状态"
+
+#: ../../source/unit/tmos.rst:191 2101d61c918c45b29cd2315e2222b4da
+msgid "The ambient temperature shock detection status."
+msgstr "环境温度冲击检测状态。"
+
+#: ../../source/unit/tmos.rst:195 94b330462c5442498660b1c26454f524
+msgid "|get_tamb_shock_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:15 6ab0f299998d4840bf6a1ffe9958266b
+msgid "get_tamb_shock_state.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:199 2bb5815738ae439396609acf5a59a350
+msgid ""
+"Get ambient temperature, represents the temperature of the environment in"
+" thermal coupling with the sensor."
+msgstr "获取环境温度，表示与传感器热耦合的环境温度。"
+
+#: ../../source/unit/tmos.rst:201 47be275cf51e42089007c10779ad3dd9
+msgid "The ambient temperature of TMOSUnit."
+msgstr "TMOSUnit 的环境温度。"
+
+#: ../../source/unit/tmos.rst:205 6bef4f885a47483ab8b377b6b8c893ed
+msgid "|get_tambient_raw_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:17 78a516b6281d48758a4d8fbec35929b5
+msgid "get_tambient_raw_value.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:209 e0adb33d3af24263ae470383403a3f80
+msgid ""
+"Get object temperature, represents the amount of infrared radiation "
+"emitted from the objects inside the field of view."
+msgstr "获取对象温度，表示视场内对象发出的红外辐射量。"
+
+#: ../../source/unit/tmos.rst:211 a9edc2c71a45435a8bc3e118b6f8a5ef
+msgid "The object temperature of TMOSUnit."
+msgstr "TMOSUnit 的对象温度。"
+
+#: ../../source/unit/tmos.rst:215 e1790569be5d4b05a1adbb97dca7959d
+msgid "|get_temperature_data.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:16 4754d0489d894d70af472c6834f56abb
+msgid "get_temperature_data.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:219 a77ab4f4030d43f28361226262442df8
+msgid "Set callback function for different triggers."
+msgstr "为不同触发条件设置回调函数。"
+
+#: ../../source/unit/tmos.rst:221 513baa690a9344128942e7dc80fefd01
+msgid "The callback function to be set."
+msgstr "要设置的回调函数。"
+
+#: ../../source/unit/tmos.rst:222 96e347da4ea643ee9df9e6ad01c1b640
+msgid ""
+"The event trigger to set the handler for:   - ``ambient temperature``: 0 "
+"- ``motion``: 1 - ``presence``: 2 - ``ambient temperature not``: 3 - "
+"``motion not``: 4 - ``presence not``: 5"
+msgstr ""
+"用于设置处理函数的事件触发器：   - ``ambient temperature``：0 - ``motion``：1 - "
+"``presence``：2 - ``ambient temperature not``：3 - ``motion not``：4 - "
+"``presence not``：5"
+
+#: ../../source/unit/tmos.rst:222 b658c97d2b364f37aea760b988a5efa5
+msgid "The event trigger to set the handler for:"
+msgstr "用于设置处理程序的事件触发器："
+
+#: ../../source/unit/tmos.rst:225 8233af717d6546daaae8c8169a005a47
+msgid "``ambient temperature``: 0"
+msgstr "``环境温度``：0"
+
+#: ../../source/unit/tmos.rst:226 d0f62107d1f64acd926a00c764283eb1
+msgid "``motion``: 1"
+msgstr "motion：1"
+
+#: ../../source/unit/tmos.rst:227 df5ff68d696d402998e341db97b64f8a
+msgid "``presence``: 2"
+msgstr "存在状态（presence）：2"
+
+#: ../../source/unit/tmos.rst:228 d5265bba55ff4d1b828115f700036ee9
+msgid "``ambient temperature not``: 3"
+msgstr "环境温度未"
+
+#: ../../source/unit/tmos.rst:229 3edc0fd5a0494552b93dcc8af60789c2
+msgid "``motion not``: 4"
+msgstr "motion not：4"
+
+#: ../../source/unit/tmos.rst:230 f35f0abab90d4a9cb8656ad27f4274e7
+msgid "``presence not``: 5"
+msgstr "存在否（``presence not``）：5"
+
+#: ../../source/unit/tmos.rst:234 a6af021b06a1455f8412732abe672cde
+msgid "|set_callback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:9 a7b06dc73df44f09a26a6235d4fc08fb
+msgid "set_callback.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:238 c321f8010e554f9bb3054a4a9051144d
+msgid ""
+"Check the status of the TMOSUnit and execute the corresponding callback "
+"functions based on the event flags."
+msgstr "检查 TMOSUnit 的状态，并根据事件标志执行相应的回调函数。"
+
+#: ../../source/unit/tmos.rst:240 add55632351147849ecac86e13aae0b1
+msgid ""
+"This method should be called periodically to poll the sensor status and "
+"handle any detected events."
+msgstr "该方法应定期调用，用于轮询传感器状态并处理检测到的任何事件。"
+
+#: ../../source/unit/tmos.rst:242 fdc8e02ac01f4164a630a38ccb16fe37
+msgid ""
+"It checks the following flags and triggers the associated callbacks if "
+"the flags are set:"
+msgstr "它会检查以下标志位，并在标志位被设置时触发对应的回调函数："
+
+#: ../../source/unit/tmos.rst:244 bd6f2a68d30446438b267bf3ceba38b5
+msgid "``ambient temperature`` (0): Indicates an ambient temperature shock event."
+msgstr "``ambient temperature`` (0)：表示环境温度冲击事件。"
+
+#: ../../source/unit/tmos.rst:245 4e5f635b70ee4ff9abfefc91045a635a
+msgid "``motion`` (1): Indicates a motion detection event."
+msgstr "``motion`` (1)：表示检测到运动事件。"
+
+#: ../../source/unit/tmos.rst:246 c3ebd7643b3148719d78a0fd2394a348
+msgid "``presence`` (2): Indicates a presence detection event."
+msgstr "``presence`` (2)：表示一次存在检测事件。"
+
+#: ../../source/unit/tmos.rst:247 0dc4b1bb63a244b58dab1c7dcf6ee36d
+msgid ""
+"``ambient temperature not`` (3): Indicates an ambient temperature shock "
+"event has not occurred."
+msgstr "``ambient temperature not`` (3)：表示未发生环境温度冲击事件。"
+
+#: ../../source/unit/tmos.rst:248 31c601dbdd5245299f73019eef0c3fd2
+msgid "``motion not`` (4): Indicates a motion detection event has not occurred."
+msgstr "``motion not`` (4)：表示未发生运动检测事件。"
+
+#: ../../source/unit/tmos.rst:249 418169e49e4248b9af2f591e01f87852
+msgid ""
+"``presence not`` (5): Indicates a presence detection event has not "
+"occurred."
+msgstr "``presence not`` (5)：表示未发生存在检测事件。"
+
+#: ../../source/unit/tmos.rst:251 b88dd3abe4c24e2499984c827febeb1f
+msgid ""
+"The callback functions associated with these events are set using the "
+":meth:`set_callback` method."
+msgstr "与这些事件关联的回调函数通过 :meth:`set_callback` 方法进行设置。"
+
+#: ../../source/unit/tmos.rst:255 2d305977d84d4a98bfb38c665831fe54
+msgid "|tick_callback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:10 c7bef32683484ce8a448d0f84fb3b0fd
+msgid "tick_callback.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:260 7052fb3e6e924f048f2fc2742b62e44b
+msgid "Get the gain mode configuration of TMOS."
+msgstr "获取 TMOS 的增益模式配置。"
+
+#: ../../source/unit/tmos.rst:262 ../../source/unit/tmos.rst:342
+#: 074309907e5a457d892872ae3853c232 ffb9d91632ad4116bd21d1f97f2042fd
+msgid "Gain mode"
+msgstr "增益模式"
+
+#: ../../source/unit/tmos.rst:266 53da1329cea4428f8853d32f1746155d
+msgid "|get_gain_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:30 a0b90585c9264af8aa52b5060d730169
+msgid "get_gain_mode.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:270 16ab60b7e9894f0199340362282cdd28
+msgid "Get the sensitivity configuration of TMOS."
+msgstr "获取 TMOS 的灵敏度配置。"
+
+#: ../../source/unit/tmos.rst:272 b6f99e3af5294148be2de8fcbe9a671b
+msgid "TMOS sensitivity"
+msgstr "TMOS 灵敏度"
+
+#: ../../source/unit/tmos.rst:276 82f9105796e54d8f89c5a5fdbd5ed414
+msgid "|get_tmos_sensitivity.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:32 5d697210492d404b82505258b66c8dd5
+msgid "get_tmos_sensitivity.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:280 175ea8fb8fd24704a0c62e0dcdbb1035
+msgid "Get the motion threshold for motion detection algorithm."
+msgstr "获取运动检测算法的运动阈值。"
+
+#: ../../source/unit/tmos.rst 23b5887f4993464280d2f5f4a744d91a
+#: 7d73b09632744e36921efdbd599bb907 a28be929c3ee4a0fa4f07bc0dcf4f773
+#: c02a1ff4b66043438ae9deb8020fd519 feff07cd24954bcb9e018668656a9742
+msgid "return"
+msgstr "return"
+
+#: ../../source/unit/tmos.rst:282 0e2d305d502f445abde00546719dccbd
+msgid "The motion threshold of TMOSUnit."
+msgstr "TMOSUnit 的运动阈值。"
+
+#: ../../source/unit/tmos.rst:286 e25b9b4e0a7c47869b24e877bab26108
+msgid "|get_motion_threshold.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:19 aea6f8d55141424d91bb4c103429b9d7
+msgid "get_motion_threshold.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:290 99889b07f1474393a8bf41dfd98d23ad
+msgid "Get hysteresis value for motion detection algorithm."
+msgstr "获取运动检测算法的滞后值。"
+
+#: ../../source/unit/tmos.rst:292 58ffca1b19914720b80c76f8f8ed4a80
+msgid "The motion hysteresis of TMOSUnit."
+msgstr "TMOSUnit 的运动滞后。"
+
+#: ../../source/unit/tmos.rst:296 cffdc2b9d1ef4906af0bfbf64e8fe847
+msgid "|get_motion_hysteresis.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:22 d830d64e9d354de381d97f852156a33a
+msgid "get_motion_hysteresis.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:300 1249a1cdeecb49f29d89f65254b901d2
+msgid "Get the presence threshold for presence detection algorithm."
+msgstr "获取用于存在检测算法的存在阈值。"
+
+#: ../../source/unit/tmos.rst:302 e433d3c3ca6e49eab329c1b6291b7fd2
+msgid "The presence threshold of TMOSUnit."
+msgstr "TMOSUnit 的存在阈值。"
+
+#: ../../source/unit/tmos.rst:306 4106e2e5efd84099934142832ba999c8
+msgid "|get_presence_threshold.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:18 f941a2cd8e9546fc8578578909babd15
+msgid "get_presence_threshold.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:310 e67ba7f43abd4ba6ad3df9a2fb018dee
+msgid "Get hysteresis value for presence detection algorithm."
+msgstr "获取用于存在检测算法的滞回值。"
+
+#: ../../source/unit/tmos.rst:312 112f46c73b1a4352b9b3748dd4acbd45
+msgid "The presence hysteresis of TMOSUnit."
+msgstr "TMOSUnit 的存在检测迟滞。"
+
+#: ../../source/unit/tmos.rst:316 0c4813f07a33498a8d8751e91d662275
+msgid "|get_presence_hysteresis.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:21 b3a43d71a7b44c729e54afab9b4558cd
+msgid "get_presence_hysteresis.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:320 0e8fa4635bd7448ab34abb6753f357f4
+msgid ""
+"Get the ambient temperature shock threshold for Tambient shock detection "
+"algorithm."
+msgstr "获取 Tambient 冲击检测算法的环境温度冲击阈值。"
+
+#: ../../source/unit/tmos.rst:322 1bbe362444564c38a4181b20f70f1311
+msgid "The ambient temperature shock threshold of TMOSUnit."
+msgstr "TMOSUnit 的环境温度冲击阈值。"
+
+#: ../../source/unit/tmos.rst:326 fe45d842a1fc4190b60651f39438fe31
+msgid "|get_tambient_shock_threshold.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:20 9a8a464534b14553a11a60c08f29492f
+msgid "get_tambient_shock_threshold.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:330 22acdd1862054c158a5820cf700d3dc6
+msgid "Get hysteresis value for ambient temperature shock detection algor."
+msgstr "获取环境温度冲击检测算法的迟滞值。"
+
+#: ../../source/unit/tmos.rst:332 25664a4137444662ad2adfdadbcc670f
+msgid "The ambient temperature shock hysteresis of TMOSUnit."
+msgstr "TMOSUnit 的环境温度冲击滞后。"
+
+#: ../../source/unit/tmos.rst:336 c8b2e1398c9f410e9c85a41186015778
+msgid "|get_tambient_shock_hysteresis.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:33 f16ed60ebf03468084f031f09812eb6c
+msgid "get_tambient_shock_hysteresis.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:340 dbde0b36149a4534a84d8e0f2c143caa
+msgid ""
+"Set the gain mode of TMOS (Note: DEFAULT mode has high sensitivity but "
+"easily leads to sensor oversaturation; WIDE mode has short detection "
+"distance but can avoid sensor saturation)"
+msgstr "设置 TMOS 的增益模式（注意：DEFAULT 模式灵敏度高，但容易导致传感器过饱和；WIDE 模式检测距离短，但可避免传感器饱和）"
+
+#: ../../source/unit/tmos.rst:342 068d3df0b64749aeaa82745905233519
+msgid ""
+"Gain mode  Options:     - ``GAIN_WIDE_MODE``: 0     - "
+"``GAIN_DEFAULT_MODE``: 7"
+msgstr "增益模式 选项：     - ``GAIN_WIDE_MODE``：0     - ``GAIN_DEFAULT_MODE``：7"
+
+#: ../../source/unit/tmos.rst:346 ../../source/unit/tmos.rst:458
+#: ../../source/unit/tmos.rst:479 ../../source/unit/tmos.rst:500
+#: ../../source/unit/tmos.rst:521 ../../source/unit/tmos.rst:543
+#: ../../source/unit/tmos.rst:561 ../../source/unit/tmos.rst:585
+#: 1553eb53290b4118b22055286f941ea3 185595e755e041f79c944fa947d29505
+#: 3108319ae5924661bd6341a3c3125262 57787f3dc2384c40822ab222934dbeef
+#: a5dbb347f8264834bbaa8347b8d2eb0a ab6df772858d44888b4c1ff3e1fc5bec
+#: c07417cb21a74af1a354f4a0d7a98e54 da13045e0b6e4a42b35febc0bf521b24
+msgid "Options:"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:345 f002085ce1d64715a23088e19856caaa
+msgid "``GAIN_WIDE_MODE``: 0"
+msgstr "GAIN_WIDE_MODE：0"
+
+#: ../../source/unit/tmos.rst:346 b71f2ae40c254a2bad03781967fdc048
+msgid "``GAIN_DEFAULT_MODE``: 7"
+msgstr "GAIN_DEFAULT_MODE：7"
+
+#: ../../source/unit/tmos.rst:350 fcbd032b2d8a417b8b1e7c52fe17a43e
+msgid "|set_gain_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:29 8185deccfcc54213909a33a3492d1695
+msgid "set_gain_mode.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:354 8367b9f3e49a4891ad8367e51665641f
+msgid "Set the sensitivity of TMOS"
+msgstr "设置 TMOS 的灵敏度"
+
+#: ../../source/unit/tmos.rst:356 bffcd5bd31df44b2aebcb5214f652e1c
+msgid "Sensitivity(0x00 ~ 0xFF)"
+msgstr "灵敏度（0x00 ~ 0xFF）"
+
+#: ../../source/unit/tmos.rst:360 9ca99776904947b3a50b09ecac729d47
+msgid "|set_tmos_sensitivity.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:31 9f09aaccf4da42728f1fbece4c07a640
+msgid "set_tmos_sensitivity.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:365 dfe6f5d37c964bd1a4958b82afc1915a
+msgid "Set the the motion threshold for motion detection algorithm."
+msgstr "设置运动检测算法的运动阈值。"
+
+#: ../../source/unit/tmos.rst:367 beda65a84590417bb3b575ed2df6120f
+msgid "motion threshold(0x0~0x7FFF)"
+msgstr "运动阈值 (0x0~0x7FFF)"
+
+#: ../../source/unit/tmos.rst:369 ../../source/unit/tmos.rst:392
+#: ../../source/unit/tmos.rst:414 23946ce91365471f8fc9ec2bc0eec0f5
+#: 8b301f781ce7421cbcf79b0900ded88d 92c6e0b97b6d416b98e86c9196f22f20
+msgid "Is the setting successful?"
+msgstr "设置成功了吗？"
+
+#: ../../source/unit/tmos.rst:373 10924dc2dbf84bfabadfdcfbbe79ff17
+msgid "|set_motion_threshold.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:24 e28bd1e450b2411592e5431ee6f1da6c
+msgid "set_motion_threshold.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:377 2abd522ed6814ec99ea573344507f904
+msgid "Set hysteresis value for motion detection algorithm."
+msgstr "设置运动检测算法的滞后值。"
+
+#: ../../source/unit/tmos.rst:379 de91374e46f94f90ae8d2451ddb8a2e7
+msgid "motion hysteresis(0x0~0xFF)"
+msgstr "运动滞回（0x0~0xFF）"
+
+#: ../../source/unit/tmos.rst:383 2e4fddf82c5e46978c2f5cb5f3f0b42d
+msgid "|set_motion_hysteresis.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:27 17290e8fac2f4aed8af371dfdcd09fc5
+msgid "set_motion_hysteresis.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:388 b7a00e6d5afe4a09a26aa699180b73ce
+msgid "Set the presence threshold for presence detection algorithm."
+msgstr "设置存在检测算法的存在阈值。"
+
+#: ../../source/unit/tmos.rst:390 effe4b3d381a46888ec602b4fae50963
+msgid "presence threshold(0x0~0x7FFF)"
+msgstr "存在检测阈值 (0x0~0x7FFF)"
+
+#: ../../source/unit/tmos.rst:396 01c57d659ced4782b71331a21445ae7f
+msgid "|set_presence_threshold.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:23 5b4eeb787f574de1bcafc343a7a1e1ae
+msgid "set_presence_threshold.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:400 f43c8befba3f4b4eb9cde562d0092b29
+msgid "Set hysteresis value for presence detection algorithm."
+msgstr "为存在检测算法设置滞后值。"
+
+#: ../../source/unit/tmos.rst:402 4f1a23ce1a744a24a3ac87220f60265a
+msgid "presence hysteresis(0x0~0xFF)"
+msgstr "存在检测滞回（0x0~0xFF）"
+
+#: ../../source/unit/tmos.rst:406 c140433c7d35444192d4aba708e28677
+msgid "|set_presence_hysteresis.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:26 4f2fc1c12c65467e87a106159df2cca0
+msgid "set_presence_hysteresis.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:410 0f23e8f15ae74f639192544124b73cca
+msgid ""
+"Set ambient temperature shock threshold for Tambient shock detection "
+"algorithm."
+msgstr "设置环境温度冲击检测算法的环境温度冲击阈值。"
+
+#: ../../source/unit/tmos.rst:412 352e239034874f00bf9453d2695d8db4
+msgid "ambient temperature shock threshold(0x0~0x7FFF)"
+msgstr "环境温度冲击阈值 (0x0~0x7FFF)"
+
+#: ../../source/unit/tmos.rst:418 5763332e53f0484f82412fdd922de5a3
+msgid "|set_tambient_shock_threshold.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:25 a7072a49b20742e194046fe2a476dad5
+msgid "set_tambient_shock_threshold.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:422 8b6759a5bd824b928c34ce706e520c11
+msgid "Set hysteresis value for ambient temperature shock detection algor."
+msgstr "设置环境温度冲击检测算法的滞回值。"
+
+#: ../../source/unit/tmos.rst:424 384e255c88cf482299847fac797773a1
+msgid "ambient temperature shock hysteresis(0x0~0xFF)"
+msgstr "环境温度冲击回滞（0x0~0xFF）"
+
+#: ../../source/unit/tmos.rst:428 fa56576b0c01482a863b77d7215fe5fd
+msgid "|set_tambient_shock_hysteresis.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tmos.ref:28 c4a3d2335b8046b49961df662a36a6eb
+msgid "set_tambient_shock_hysteresis.png"
+msgstr ""
+
+#: ../../source/unit/tmos.rst:432 f9a978b4ed3542ceb2b021d0f63774ee
+msgid "Check whether the TMOSUnit is connected to the device."
+msgstr "检查 TMOSUnit 是否已连接到设备。"
+
+#: ../../source/unit/tmos.rst:436 8d8aa86f7af44fee940511f9543735b2
+msgid "Initialize TMOSUnit."
+msgstr "初始化 TMOSUnit。"
+
+#: ../../source/unit/tmos.rst:440 2ecd0e580bcf405cab17a8f9a3689b7b
+msgid ""
+"Reset TMOSUnit (includes restarting OTP memory content, resetting "
+"algorithms)."
+msgstr "重置 TMOSUnit（包括重新启动 OTP 内存内容、重置算法）。"
+
+#: ../../source/unit/tmos.rst:444 3ca271d41b4c4153b8c2ac6e86c1db61
+msgid ""
+"Reset the algorithm (this function must be executed when modifying the "
+"threshold, hysteresis, absolute value in the selection of the presence "
+"detection algorithm, low-pass filter configuration)."
+msgstr "重置算法（在修改存在检测算法选择中的阈值、滞回、绝对值、低通滤波器配置时，必须执行此函数）。"
+
+#: ../../source/unit/tmos.rst:448 cd89da40f4a74cfba3cece24065bf75f
+msgid "Sets the low pass filter configuration for presence detection."
+msgstr "设置用于存在检测的低通滤波器配置。"
+
+#: ../../source/unit/tmos.rst:450 ../../source/unit/tmos.rst:471
+#: ../../source/unit/tmos.rst:492 ../../source/unit/tmos.rst:513
+#: 0c65b9bf57fb43dfaacd716ddd696442 41bf8cee554d4b469bd46f45b681bb92
+#: 8c020299be19443ab65e78c8610020cd dfd2da5fef274405b889b069bafbdd1d
+msgid ""
+"Configuration values ​​for the low pass filter.  Options:     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_9``: ODR/9 , 0     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_20``: ODR/20, 1     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_50``: ODR/50, 2     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_100``: ODR/100, 3     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_200``: ODR/200, 4     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_400``: ODR/400, 5     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_800``: ODR/800, 6"
+msgstr ""
+"低通滤波器的配置值。选项：     - ``TMOSUnit.STHS34PF80_LPF_ODR_DIV_9``：ODR/9，0     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_20``：ODR/20，1     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_50``：ODR/50，2     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_100``：ODR/100，3     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_200``：ODR/200，4     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_400``：ODR/400，5     - "
+"``TMOSUnit.STHS34PF80_LPF_ODR_DIV_800``：ODR/800，6"
+
+#: ../../source/unit/tmos.rst:450 ../../source/unit/tmos.rst:471
+#: ../../source/unit/tmos.rst:492 ../../source/unit/tmos.rst:513
+#: 08317236041b4fc188532f7ecf4cfe3b 5889c20edf8842e7a3620a1d823fe194
+#: b7e0644da6f146759f3eb47d9be4f49e f345dac9047741cc86fd50ed07c1f1e7
+msgid "Configuration values ​​for the low pass filter."
+msgstr "低通滤波器的配置值。"
+
+#: ../../source/unit/tmos.rst:453 ../../source/unit/tmos.rst:474
+#: ../../source/unit/tmos.rst:495 ../../source/unit/tmos.rst:516
+#: 27da4f811c2c458a8eeab9224fd0de40 6f51c68a9c8c4ce2b66789ef43120318
+#: c7665083c3b3405fbe1a65da26a268f2 da7333aba8a24f12a4c40b99f756d52f
+msgid "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_9``: ODR/9 , 0"
+msgstr "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_9``：ODR/9，0"
+
+#: ../../source/unit/tmos.rst:454 ../../source/unit/tmos.rst:475
+#: ../../source/unit/tmos.rst:496 ../../source/unit/tmos.rst:517
+#: 458b0b714b9a426388afbe28e3ac93ca 4710705277014b208edc9cea33ffc62f
+#: 6c0e146ea6984fbb864e24b40716295f 7306e38c19994ba9aba6e7ff0ced0b7c
+msgid "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_20``: ODR/20, 1"
+msgstr "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_20``：ODR/20，1"
+
+#: ../../source/unit/tmos.rst:455 ../../source/unit/tmos.rst:476
+#: ../../source/unit/tmos.rst:497 ../../source/unit/tmos.rst:518
+#: 6e32ec8cbdf94614bcd18072b8821059 8c1406270f764b8c9458404d7470ebdb
+#: 8ca9974dd3cb4f7aa4a94f71ff49d1dd d312819f8a924c52a42ebe1c7faf0d6f
+msgid "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_50``: ODR/50, 2"
+msgstr "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_50``：ODR/50，2"
+
+#: ../../source/unit/tmos.rst:456 ../../source/unit/tmos.rst:477
+#: ../../source/unit/tmos.rst:498 ../../source/unit/tmos.rst:519
+#: 42625becb17b497aa4cefe1ef6b9a71c 5e67bb99553946228411e6c80a05ab4f
+#: 711cc3247633412bbf611cf929bb17b2 d0b869ce60fa40e3bd8e4a4a3faa08eb
+msgid "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_100``: ODR/100, 3"
+msgstr "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_100``：ODR/100，3"
+
+#: ../../source/unit/tmos.rst:457 ../../source/unit/tmos.rst:478
+#: ../../source/unit/tmos.rst:499 ../../source/unit/tmos.rst:520
+#: 8459717abe9a4336960e920f29946956 b8244523b1ad46728e81bdda3ca1b85f
+#: cdd4826754ad41668ee362ced53b5f1b d5c324f4ce7d4a0fbdb0355e825f1fee
+msgid "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_200``: ODR/200, 4"
+msgstr "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_200``：ODR/200，4"
+
+#: ../../source/unit/tmos.rst:458 ../../source/unit/tmos.rst:479
+#: ../../source/unit/tmos.rst:500 ../../source/unit/tmos.rst:521
+#: 011ef15afb3e445a8e03c31ce0a4e765 60177a520f004a76b9482da953ddac09
+#: 75a8bab60c344b07908614124816d92f 8fc0b89daf784fc0acec5e6c98153b7c
+msgid "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_400``: ODR/400, 5"
+msgstr "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_400``：ODR/400，5"
+
+#: ../../source/unit/tmos.rst:459 ../../source/unit/tmos.rst:480
+#: ../../source/unit/tmos.rst:501 ../../source/unit/tmos.rst:522
+#: 4e97835a71a942eaa864f310098a9424 5cf98e011dc749b486c03c148c26a70d
+#: b665e1f143d3413eb409f3f3917ff30a bd836219060c4bbaa308896cdcb2e886
+msgid "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_800``: ODR/800, 6"
+msgstr "``TMOSUnit.STHS34PF80_LPF_ODR_DIV_800``：ODR/800，6"
+
+#: ../../source/unit/tmos.rst:463 e498debaeeee40e48e2675e518f19758
+msgid "Gets the low pass filter configuration used for presence detection."
+msgstr "获取用于存在检测的低通滤波器配置。"
+
+#: ../../source/unit/tmos.rst:465 ../../source/unit/tmos.rst:486
+#: ../../source/unit/tmos.rst:507 ../../source/unit/tmos.rst:528
+#: 1182f1679b814d8bb3d037ee72138897 39b4e45eba1f4df09596574d97a47bf9
+#: b9561009be1b4fdfb38f43611238f292 e8607df210604b50991c406846ecb4cd
+msgid "Low pass filter bandwidth"
+msgstr "低通滤波器带宽"
+
+#: ../../source/unit/tmos.rst:469 a919096ced004fe89298e3cdf2756fe9
+msgid ""
+"Sets the low-pass filter configuration for ambient temperature shock "
+"detection."
+msgstr "设置用于环境温度冲击检测的低通滤波器配置。"
+
+#: ../../source/unit/tmos.rst:484 ab1de0f14e7c4b609bbfd7fd41073d21
+msgid ""
+"Gets the low pass filter configuration for ambient temperature shock "
+"detection."
+msgstr "获取用于环境温度冲击检测的低通滤波器配置。"
+
+#: ../../source/unit/tmos.rst:490 dd9d78ce9182407c91569c26f172ac40
+msgid "Sets the low-pass filter configuration for presence and motion detection."
+msgstr "设置用于存在与运动检测的低通滤波器配置。"
+
+#: ../../source/unit/tmos.rst:505 e753dedab96047e19ce1896aff8b9cbe
+msgid "Gets the low-pass filter configuration for presence and motion detection."
+msgstr "获取存在检测和运动检测的低通滤波器配置。"
+
+#: ../../source/unit/tmos.rst:511 dabc9ca89b414f8498a022fc77f93516
+msgid "Sets the low-pass filter configuration for motion detection."
+msgstr "设置用于运动检测的低通滤波器配置。"
+
+#: ../../source/unit/tmos.rst:526 81bdc4212a504dc294efe87d570147d9
+msgid "Gets the low-pass filter configuration for motion detection."
+msgstr "获取用于运动检测的低通滤波器配置。"
+
+#: ../../source/unit/tmos.rst:532 0ee87c9ce3304bb8b9faf472c5f26b94
+msgid "Sets the number of samples to average the object's temperature."
+msgstr "设置用于对对象温度进行平均的采样次数。"
+
+#: ../../source/unit/tmos.rst:534 f3fa322bd8c541b09dc321ae35df9339
+msgid ""
+"Configuration value for the number of samples to average.  Options:     -"
+" ``TMOSUnit.STHS34PF80_AVG_TMOS_2``: RMS noise:90 , 0     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_8``: RMS noise:50, 1     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_32``: RMS noise:25, 2     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_128``: RMS noise:20, 3     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_256``: RMS noise:15, 4     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_512``: RMS noise:12, 5     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_1024``: RMS noise:11, 6     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_2048``: RMS noise:10, 7"
+msgstr ""
+"用于配置要进行平均的采样数量。选项：     - ``TMOSUnit.STHS34PF80_AVG_TMOS_2``：RMS 噪声：90，0"
+"     - ``TMOSUnit.STHS34PF80_AVG_TMOS_8``：RMS 噪声：50，1     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_32``：RMS 噪声：25，2     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_128``：RMS 噪声：20，3     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_256``：RMS 噪声：15，4     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_512``：RMS 噪声：12，5     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_1024``：RMS 噪声：11，6     - "
+"``TMOSUnit.STHS34PF80_AVG_TMOS_2048``：RMS 噪声：10，7"
+
+#: ../../source/unit/tmos.rst:534 ../../source/unit/tmos.rst:556
+#: 11d635fec87545068cd483b88a5bd948 8bef48af793f494c9f997fbb84591dae
+msgid "Configuration value for the number of samples to average."
+msgstr "用于设置要取平均的样本数量的配置值。"
+
+#: ../../source/unit/tmos.rst:537 27d68eef46b248ada31f2e83a8399e76
+msgid "``TMOSUnit.STHS34PF80_AVG_TMOS_2``: RMS noise:90 , 0"
+msgstr "``TMOSUnit.STHS34PF80_AVG_TMOS_2``：RMS 噪声：90，0"
+
+#: ../../source/unit/tmos.rst:538 284bd8dca214451caa4943824689d546
+msgid "``TMOSUnit.STHS34PF80_AVG_TMOS_8``: RMS noise:50, 1"
+msgstr "``TMOSUnit.STHS34PF80_AVG_TMOS_8``：RMS 噪声：50，1"
+
+#: ../../source/unit/tmos.rst:539 20a4b82a180d476dba88a03ecdf408a7
+msgid "``TMOSUnit.STHS34PF80_AVG_TMOS_32``: RMS noise:25, 2"
+msgstr "``TMOSUnit.STHS34PF80_AVG_TMOS_32``：RMS 噪声：25、2"
+
+#: ../../source/unit/tmos.rst:540 5f84618139f94dd8ac57e8074fe692f2
+msgid "``TMOSUnit.STHS34PF80_AVG_TMOS_128``: RMS noise:20, 3"
+msgstr "``TMOSUnit.STHS34PF80_AVG_TMOS_128``：RMS 噪声：20, 3"
+
+#: ../../source/unit/tmos.rst:541 6197ad9ebb8048ea869acb4dffcdce09
+msgid "``TMOSUnit.STHS34PF80_AVG_TMOS_256``: RMS noise:15, 4"
+msgstr "``TMOSUnit.STHS34PF80_AVG_TMOS_256``：RMS 噪声：15, 4"
+
+#: ../../source/unit/tmos.rst:542 6ca399801e814280ba0d60dd769ee15d
+msgid "``TMOSUnit.STHS34PF80_AVG_TMOS_512``: RMS noise:12, 5"
+msgstr "``TMOSUnit.STHS34PF80_AVG_TMOS_512``：RMS 噪声：12, 5"
+
+#: ../../source/unit/tmos.rst:543 b2246e1de6bb4d07a94907e4737c663a
+msgid "``TMOSUnit.STHS34PF80_AVG_TMOS_1024``: RMS noise:11, 6"
+msgstr "``TMOSUnit.STHS34PF80_AVG_TMOS_1024``：RMS 噪声：11, 6"
+
+#: ../../source/unit/tmos.rst:544 58bdc73b165641149e55717e4e1d49e4
+msgid "``TMOSUnit.STHS34PF80_AVG_TMOS_2048``: RMS noise:10, 7"
+msgstr "``TMOSUnit.STHS34PF80_AVG_TMOS_2048``：RMS 噪声：10, 7"
+
+#: ../../source/unit/tmos.rst:548 62b53967905043a1a31a2f58643644ca
+msgid "Gets the number of samples to average the ambient temperature."
+msgstr "获取用于对环境温度进行平均的采样数。"
+
+#: ../../source/unit/tmos.rst:550 6be0c5b19d4345ab98e47661d199f903
+msgid "Average number of samples of object temperature"
+msgstr "物体温度的平均采样次数"
+
+#: ../../source/unit/tmos.rst:554 fd417a0670384b80a8db82fc2e121fc9
+msgid "Sets the number of samples to average the ambient temperature."
+msgstr "设置用于对环境温度进行平均的采样次数。"
+
+#: ../../source/unit/tmos.rst:556 f426ce525baa416da3ae8b56fada3a72
+msgid ""
+"Configuration value for the number of samples to average.  Options:     -"
+" ``TMOSUnit.STHS34PF80_AVG_T_8``: 0     - "
+"``TMOSUnit.STHS34PF80_AVG_T_4``: 1     - ``TMOSUnit.STHS34PF80_AVG_T_2``:"
+" 2     - ``TMOSUnit.STHS34PF80_AVG_T_1``: 3"
+msgstr ""
+"用于配置要进行平均的采样次数。选项：    - ``TMOSUnit.STHS34PF80_AVG_T_8``：0     - "
+"``TMOSUnit.STHS34PF80_AVG_T_4``：1     - ``TMOSUnit.STHS34PF80_AVG_T_2``：2"
+"     - ``TMOSUnit.STHS34PF80_AVG_T_1``：3"
+
+#: ../../source/unit/tmos.rst:559 c6580307b8b24146a580000b2732c5bc
+msgid "``TMOSUnit.STHS34PF80_AVG_T_8``: 0"
+msgstr "``TMOSUnit.STHS34PF80_AVG_T_8``：0"
+
+#: ../../source/unit/tmos.rst:560 4abc95301b7c4629a150df22918c231d
+msgid "``TMOSUnit.STHS34PF80_AVG_T_4``: 1"
+msgstr "``TMOSUnit.STHS34PF80_AVG_T_4``：1"
+
+#: ../../source/unit/tmos.rst:561 879a111b546a4f05b4bf170995c24b8f
+msgid "``TMOSUnit.STHS34PF80_AVG_T_2``: 2"
+msgstr "``TMOSUnit.STHS34PF80_AVG_T_2``：2"
+
+#: ../../source/unit/tmos.rst:562 2f970a27d9d44ac083b0ff51d60c9275
+msgid "``TMOSUnit.STHS34PF80_AVG_T_1``: 3"
+msgstr "``TMOSUnit.STHS34PF80_AVG_T_1``：3"
+
+#: ../../source/unit/tmos.rst:567 5f17b1738a224e83b0ce0aa265197c53
+msgid "Get the average number of samples of ambient temperature."
+msgstr "获取环境温度样本的平均数量。"
+
+#: ../../source/unit/tmos.rst:569 22854e92e2dc4bd99a9756c4e70810a5
+msgid "The number of samples for the average ambient temperature."
+msgstr "平均环境温度的采样次数。"
+
+#: ../../source/unit/tmos.rst:573 c197579e2715484bbb9f0263dd2c2491
+msgid "Set the output data rate of TMOS"
+msgstr "设置 TMOS 的输出数据速率"
+
+#: ../../source/unit/tmos.rst:575 2b14648be7d54ae3bd3ac4bf1a572c90
+msgid ""
+"TMOS output data rate  Options:     - "
+"``TMOSUnit.STHS34PF80_TMOS_ODR_OFF``: ODR frequency(Hz):Power-down mode, "
+"0     - ``TMOSUnit.STHS34PF80_TMOS_ODR_AT_0Hz25``: ODR "
+"frequency(Hz):0.25, 1     - ``TMOSUnit.STHS34PF80_TMOS_ODR_AT_0Hz50``: "
+"ODR frequency(Hz):0.5, 2     - ``TMOSUnit.STHS34PF80_TMOS_ODR_AT_1Hz``: "
+"ODR frequency(Hz):1, 3     - ``TMOSUnit.STHS34PF80_TMOS_ODR_AT_2Hz``: ODR"
+" frequency(Hz):2, 4     - ``TMOSUnit.STHS34PF80_TMOS_ODR_AT_4Hz``: ODR "
+"frequency(Hz):4, 5     - ``TMOSUnit.STHS34PF80_TMOS_ODR_AT_8Hz``: ODR "
+"frequency(Hz):8, 6     - ``TMOSUnit.STHS34PF80_TMOS_ODR_AT_15Hz``: ODR "
+"frequency(Hz):15, 7     - ``TMOSUnit.STHS34PF80_TMOS_ODR_AT_30Hz``: ODR "
+"frequency(Hz):30, 8"
+msgstr ""
+"TMOS 输出数据速率  选项：     - ``TMOSUnit.STHS34PF80_TMOS_ODR_OFF``：ODR 频率 "
+"(Hz)：关机模式，0     - ``TMOSUnit.STHS34PF80_TMOS_ODR_AT_0Hz25``：ODR 频率 "
+"(Hz)：0.25，1     - ``TMOSUnit.STHS34PF80_TMOS_ODR_AT_0Hz50``：ODR 频率 "
+"(Hz)：0.5，2     - ``TMOSUnit.STHS34PF80_TMOS_ODR_AT_1Hz``：ODR 频率 (Hz)：1，3"
+"     - ``TMOSUnit.STHS34PF80_TMOS_ODR_AT_2Hz``：ODR 频率 (Hz)：2，4     - "
+"``TMOSUnit.STHS34PF80_TMOS_ODR_AT_4Hz``：ODR 频率 (Hz)：4，5     - "
+"``TMOSUnit.STHS34PF80_TMOS_ODR_AT_8Hz``：ODR 频率 (Hz)：8，6     - "
+"``TMOSUnit.STHS34PF80_TMOS_ODR_AT_15Hz``：ODR 频率 (Hz)：15，7     - "
+"``TMOSUnit.STHS34PF80_TMOS_ODR_AT_30Hz``：ODR 频率 (Hz)：30，8"
+
+#: ../../source/unit/tmos.rst:575 20095d4ca94c4a859ab13f3834957765
+msgid "TMOS output data rate"
+msgstr "TMOS 输出数据速率"
+
+#: ../../source/unit/tmos.rst:578 81b147537b4c4be4a31117b4d6b574a7
+msgid "``TMOSUnit.STHS34PF80_TMOS_ODR_OFF``: ODR frequency(Hz):Power-down mode, 0"
+msgstr "``TMOSUnit.STHS34PF80_TMOS_ODR_OFF``：ODR 频率 (Hz)：断电模式，0"
+
+#: ../../source/unit/tmos.rst:579 e88a898586734defa9ec85e45028a0ce
+msgid "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_0Hz25``: ODR frequency(Hz):0.25, 1"
+msgstr "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_0Hz25``：ODR 频率 (Hz)：0.25、1"
+
+#: ../../source/unit/tmos.rst:580 84ceafb84c344fc78084d9447bd85d76
+msgid "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_0Hz50``: ODR frequency(Hz):0.5, 2"
+msgstr "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_0Hz50``：ODR 频率 (Hz)：0.5、2"
+
+#: ../../source/unit/tmos.rst:581 ae80346eef1f48069faa23d2bac4822c
+msgid "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_1Hz``: ODR frequency(Hz):1, 3"
+msgstr "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_1Hz``：ODR 频率（Hz）：1，3"
+
+#: ../../source/unit/tmos.rst:582 812a8985040f4b019a4d7ad31cbc03a3
+msgid "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_2Hz``: ODR frequency(Hz):2, 4"
+msgstr "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_2Hz``：ODR 频率 (Hz)：2、4"
+
+#: ../../source/unit/tmos.rst:583 2e4319cf513b41a297dc07835456b4cb
+msgid "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_4Hz``: ODR frequency(Hz):4, 5"
+msgstr "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_4Hz``：ODR 频率 (Hz)：4，5"
+
+#: ../../source/unit/tmos.rst:584 c904356c9bc6434f986e15fe806c81a8
+msgid "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_8Hz``: ODR frequency(Hz):8, 6"
+msgstr "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_8Hz``：ODR 频率（Hz）：8、6"
+
+#: ../../source/unit/tmos.rst:585 b6d41e177718455eb4f422b07c716b12
+msgid "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_15Hz``: ODR frequency(Hz):15, 7"
+msgstr "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_15Hz``：ODR 频率（Hz）：15、7"
+
+#: ../../source/unit/tmos.rst:586 f4db7c548af446e68483ae4447833376
+msgid "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_30Hz``: ODR frequency(Hz):30, 8"
+msgstr "``TMOSUnit.STHS34PF80_TMOS_ODR_AT_30Hz``：ODR 频率（Hz）：30，8"
+
+#: ../../source/unit/tmos.rst:590 d50d4583c65a4162bd23acc74d8d84e3
+msgid "Get the output data rate of TMOS"
+msgstr "获取 TMOS 的输出数据速率"
+
+#: ../../source/unit/tmos.rst:592 832ac5ca59c4416c9556a3a74c778d89
+msgid "Output data rate"
+msgstr "输出数据速率"
+
+#: ../../source/unit/tmos.rst:596 c6413e016ef741eebc8e3a4dcb78d11a
+msgid ""
+"Enable/disable object temperature and ambient temperature register data "
+"update"
+msgstr "启用/禁用物体温度和环境温度寄存器数据更新"
+
+#: ../../source/unit/tmos.rst:598 e8a170df953e46ea8c713f1525c7acd7
+msgid "Enable or disable register data update"
+msgstr "启用或禁用寄存器数据更新"
+
+#: ../../source/unit/tmos.rst:602 f520a5a2324d4020b694f97c94439fc4
+msgid ""
+"Get the object temperature and ambient temperature storage data update "
+"enable status"
+msgstr "获取对象温度和环境温度存储数据更新启用状态"
+
+#: ../../source/unit/tmos.rst:604 5407cc5ea20f4e1589a3b1601049e943
+msgid "Data register update enable status"
+msgstr "数据寄存器更新使能状态"
+
+#: ../../source/unit/tmos.rst:608 18fa57e3bce84538be443984dc9b009e
+msgid "Set the state of one-time data collection"
+msgstr "设置一次性数据采集的状态"
+
+#: ../../source/unit/tmos.rst:610 c17bd47e9efd4421a8775f7309ea0e4c
+msgid "One-time collection status"
+msgstr "一次性采集状态"
+
+#: ../../source/unit/tmos.rst:614 ../../source/unit/tmos.rst:616
+#: 0b1d22cf29c443c28b914c09c10c9263 a7963c1dd86c45a098442d7e06deb1f9
+msgid "Get the status of triggering a one-time collection"
+msgstr "获取触发一次性采集的状态"
+
+#: ../../source/unit/tmos.rst:620 c32abada50d7480492f06aec93f2f9b2
+msgid ""
+"Retrieve the current status of the TMOSUnit, including presence "
+"detection, motion detection, and ambient temperature shock detection."
+msgstr "获取 TMOSUnit 的当前状态，包括人体存在检测、运动检测以及环境温度冲击检测。"
+
+#: ../../source/unit/tmos.rst:622 620beff9a1184229a62a0262028f9f0c
+msgid "An instance of the TMOSUnit with updated status flags."
+msgstr "具有更新状态标志的 TMOSUnit 实例。"
+

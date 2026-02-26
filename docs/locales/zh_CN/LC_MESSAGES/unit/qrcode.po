@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/qrcode.rst:2 f784d95ff6bb431aa535c02d78643418
+msgid "QRCode Unit"
+msgstr "QRCode Unit"
+
+#: ../../source/unit/qrcode.rst:6 4e644a4427014dac8fd8ce14530797cb
+msgid ""
+"The ``QRCode Unit`` is an integrated one-dimensional/two-dimensional code"
+" scanning unit that combines a CMOS QR code capture engine with a "
+"resolution of 640x480 and a bus conversion MCU (STM32F030). It features a"
+" device-side toggle switch that allows for switching between I2C and UART"
+" communication interfaces."
+msgstr ""
+"``QRCode Unit`` 是一款集成式一维/二维条码扫描单元，结合了分辨率为 640x480 的 CMOS 二维码采集引擎和总线转换 "
+"MCU（STM32F030）。它配备设备侧拨动开关，可在 I2C 与 UART 通信接口之间切换。"
+
+#: ../../source/unit/qrcode.rst:8 4bde0e7346914701b984bf777e1a8b4f
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/qrcode.rst:10 2beb67ce7e9a40a6ab47ccc8c2e80faa
+msgid "|QRCodeUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref e1bc36a46315440e87f03402a5301aac
+msgid "QRCodeUnit"
+msgstr "QRCodeUnit"
+
+#: ../../source/unit/qrcode.rst:12 da55e040c201499eb70ff76079d044a2
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/qrcode.rst:32 195f1065dff242abbc93eeac7d2af98a
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/qrcode.rst:34 ee8711c7047244758227e2ae2c2775b9
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:19 8c2e27e11dd6440cbb1d7910b70ffe46
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:38 f944b31df7f54424998b2fcd405cb281
+msgid "|unit-qrcode-demo.m5f2|"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:42 21bbb188d6774204a19999a035a1ceb4
+msgid "class QRCodeUnit"
+msgstr "class QRCodeUnit"
+
+#: ../../source/unit/qrcode.rst:45 8705156e80994926a895f37a3c4b5999
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:49 c0095c0db5134d5cac65c76a5896f54b
+msgid "Create a QRCodeUnit object"
+msgstr "创建 QRCodeUnit 对象"
+
+#: ../../source/unit/qrcode.rst 6cd3709341664d19bd67b53d9bccd495
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:51 2391dc17683b40c28dd88f46a36147bf
+msgid "0: I2C, 1: UART mode."
+msgstr "0：I2C，1：UART 模式。"
+
+#: ../../source/unit/qrcode.rst:52 d38e3f230a684e0aad7a6ba170d93d98
+msgid "the I2C object."
+msgstr "I2C 对象。"
+
+#: ../../source/unit/qrcode.rst:53 7173d434ebda4ff9990d10762ce5bd53
+msgid "the I2C address of the device. Default is 0x21."
+msgstr "设备的 I2C 地址。默认值为 0x21。"
+
+#: ../../source/unit/qrcode.rst:54 79b8f9eee6d14693abb79dceee0593ab
+msgid "1: UART1, 2: UART2."
+msgstr "1：UART1，2：UART2。"
+
+#: ../../source/unit/qrcode.rst:55 3c88f71b087a49889461f0a2c355a604
+msgid "uart pin tuple, which contains: ``(tx_pin, rx_pin)``"
+msgstr "UART 引脚元组，包含：``(tx_pin, rx_pin)``"
+
+#: ../../source/unit/qrcode.rst:57 ../../source/unit/qrcode.rst:71
+#: ../../source/unit/qrcode.rst:82 ../../source/unit/qrcode.rst:94
+#: ../../source/unit/qrcode.rst:108 ../../source/unit/qrcode.rst:126
+#: ../../source/unit/qrcode.rst:135 ../../source/unit/qrcode.rst:146
+#: ../../source/unit/qrcode.rst:157 ../../source/unit/qrcode.rst:168
+#: ../../source/unit/qrcode.rst:180 ../../source/unit/qrcode.rst:189
+#: ../../source/unit/qrcode.rst:200 023bddcd9bc04eaa90432e4a6092ef8b
+#: 09ba16336aeb4a78a8a536093eff349d 0bad8609d5bd446e814e738b1040e4ac
+#: 2e89565553ea46f681945dcaf04402aa 363739da78a84782b6b573de34364450
+#: 3ebd1063f2864edc9bb670fb24349873 3f4b9f3dfa844ffc8391eca31f7ae59b
+#: 7c86b57932e94f7883d141362e05d700 acd5bab52d1f4aeb9e93e5ade19f2ebc
+#: c844b57921a044bca825a7a125f2c567 ca1147526c4a4fe4b2d75e9aedc4c381
+#: f8e670a791fb45f7a1cd9a47cf3f3e91 f943b1332be34f439cc053c1f28de6a2
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/qrcode.rst:59 ef558aa845344197aa19217f26548f9c
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:6 53e77e983276420fa6bfac377b850edd
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:63 dafc8d54468841f9beecd5b14d3d7f4f
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:67 9c305b58c2994189b0f3314bc3e9b353
+msgid "Scan the QR code and get the available data length."
+msgstr "扫描 QR 码并获取可用数据长度。"
+
+#: ../../source/unit/qrcode.rst:69 7b5d1a4f4aa0495f930e90dd8a02e374
+msgid "Return: ``int``:  available data length is int format"
+msgstr "返回：``int``：可用数据长度为 int 格式"
+
+#: ../../source/unit/qrcode.rst:73 45dcd3b76fde4548af02d31a1262ff70
+msgid "|get_qrcode_data_length.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:7 42d8501bb8764fa88f7bfaade0ae2365
+msgid "get_qrcode_data_length.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:78 68e0c73d78da4dfe83af5b374a5e63df
+msgid "Scan the QR code and get the data in the string."
+msgstr "扫描二维码，并将数据获取为字符串。"
+
+#: ../../source/unit/qrcode.rst:80 04a52a3fdc7e481c8bc2f5e3c6f376ca
+msgid "Return: ``string``:  scanned data output is string format"
+msgstr "返回：``string``：扫描数据输出为字符串格式"
+
+#: ../../source/unit/qrcode.rst:84 a42e2e935689421e8afe4b5db6306ba1
+msgid "|get_qrcode_data.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:8 08c9478d798b4f07a48be7d39caddade
+msgid "get_qrcode_data.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:89 34ffa1b7fef7447ea10ca1f2941b4845
+msgid "Set the trigger mode to Auto or Manual(Key)."
+msgstr "将触发模式设置为 Auto 或 Manual(Key)。"
+
+#: ../../source/unit/qrcode.rst:92 ../../source/unit/qrcode.rst:104
+#: ../../source/unit/qrcode.rst:178 163246dbb6ef4731a36702c41cc44dc6
+#: 8a258e802c034514bd943b2096d97d5e 99a6f6f8550d410ea3c55efc011ab25d
+msgid "The parameters is:"
+msgstr "该参数为："
+
+#: ../../source/unit/qrcode.rst:92 6d1590aab8b743629b9d47c2fc8cec37
+msgid "``mode``:  auto: 0 or manual: 1"
+msgstr "``mode``：auto：0 或 manual：1"
+
+#: ../../source/unit/qrcode.rst:96 95a69432a24041f5824584de1bb6405b
+msgid "|set_trigger_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:9 89414eb47c57480fa4d4402481f177ef
+msgid "set_trigger_mode.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:101 3dccd6198af246a9b189251e41559ea1
+msgid "Set the manual(use the key button) scanning control ON or OFF."
+msgstr "设置手动（使用按键）扫描控制为开启或关闭。"
+
+#: ../../source/unit/qrcode.rst:104 970e00e56f294c6b8be70e267f3bb3ee
+msgid "``ctrl``:  off: 0 or on: 1"
+msgstr "``ctrl``：off 为 0 或 on 为 1"
+
+#: ../../source/unit/qrcode.rst:106 180631b3ff0e4638a3ed60b12f6fd0c1
+msgid "This command is only effective in manual trigger mode"
+msgstr "该命令仅在手动触发模式下有效。"
+
+#: ../../source/unit/qrcode.rst:110 f95955b1600742558eeaec364d38b35f
+msgid "|set_manual_scan.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:10 8e75d597ebd440f999c8d52566d8c778
+msgid "set_manual_scan.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:115 0206deb933ae4eb5837fb5e9de5f0b16
+msgid "Set the callback event and callback function."
+msgstr "设置回调事件和回调函数。"
+
+#: ../../source/unit/qrcode.rst:118 aeaa5b8178e945a0a9a3ed5aa514fcb5
+msgid "The callback function:"
+msgstr "回调函数："
+
+#: ../../source/unit/qrcode.rst:118 c29c72fc87404551ae0c7994dd43e69c
+msgid "``qrcode_0_event``"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:120 8cd34ba7d94148bab25c43d43f7ecfb9
+msgid "An handler showing a message has been received::"
+msgstr "已接收到显示消息的处理程序::"
+
+#: ../../source/unit/qrcode.rst:128 42dc2aa5020b4ce2aebbae990bf5f17b
+msgid "|callback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:11 9f87e9a1980c443793bc35ac6fe4a603
+msgid "callback.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:133 160ec0a7af0f4cb297c90e1423cf4630
+msgid "The calling event poll block must be used inside a loop."
+msgstr "调用 event poll 积木必须在循环内使用。"
+
+#: ../../source/unit/qrcode.rst:137 745868bc07e84b3a90a8037777d03b7c
+msgid "|event_poll_loop.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:12 f94b385e4d934dc9804f9c1e5ce03866
+msgid "event_poll_loop.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:142 7c274f49071440cd8687570053b8e220
+msgid "Reading data scanned QR code after get the data status"
+msgstr "在获取数据状态后读取已扫描的 QR 码数据"
+
+#: ../../source/unit/qrcode.rst:144 668cc0d54d0e4aa1b73864102f3755db
+msgid "Return: ``int``:   0: not ready, 1: data available, 2: read again"
+msgstr "返回：``int``：0：未就绪，1：数据可用，2：再次读取"
+
+#: ../../source/unit/qrcode.rst:148 69463ecfc7144765873e8a3fd45ee7fb
+msgid "|get_qrcode_data_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:13 6af9b638cef146809266bd98cf0d5c2b
+msgid "get_qrcode_data_status.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:153 125cf137ef1b44d1a477f37b1bec78e7
+msgid "Get the auto or manual trigger mode status."
+msgstr "获取自动或手动触发模式状态。"
+
+#: ../../source/unit/qrcode.rst:155 be3c8bb7b2304023a273b5bb4366c58f
+msgid "Return: ``int``:   0: auto, 1: manual"
+msgstr "返回：``int``：0：自动，1：手动"
+
+#: ../../source/unit/qrcode.rst:159 54e8a9fe177348e0b7806640391ecbbe
+msgid "|get_trigger_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:14 67340356f584479b87aca1750859156a
+msgid "get_trigger_mode.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:164 17be12f2e402462cad6b680bda41f253
+msgid "Get the trigger button status"
+msgstr "获取触发按钮状态"
+
+#: ../../source/unit/qrcode.rst:166 86077d412feb4f0099474c8416c5075a
+msgid "Return: ``int``: 1: press, 0: not pressed"
+msgstr "返回：``int``：1：按下，0：未按下"
+
+#: ../../source/unit/qrcode.rst:170 4a7a83bbb31d4154a27f1eff7f3247d3
+msgid "|get_trigger_button_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:15 120e2fea5d914065bad121c876e4b98e
+msgid "get_trigger_button_status.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:175 ceab50e8b0cb4efaac44527c5b4e667b
+msgid "Get the firmware version details and I2C address of this device."
+msgstr "获取该设备的固件版本详细信息和 I2C 地址。"
+
+#: ../../source/unit/qrcode.rst:178 da61bf2b115144db8913627bee413aeb
+msgid "``info``: 0xFE: firmware version, 0xFF: I2C address"
+msgstr "``info``：0xFE：固件版本，0xFF：I2C 地址"
+
+#: ../../source/unit/qrcode.rst:182 71d7af38c6334ef8b4de6f2bf698c0fd
+msgid "|get_device_info.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:16 447a350e31a344ea8cb5bb356ca1548b
+msgid "get_device_info.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:187 86cb3202807a4be09e6f3e96eeb4b279
+msgid "Clear the data status after reading the QR code scanned data."
+msgstr "在读取 QR 码扫描数据后，清除数据状态。"
+
+#: ../../source/unit/qrcode.rst:191 719c8153535e468ab849984022b14d91
+msgid "|clear_qrcode_data_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:17 4b4e25f906364070aedd895629321213
+msgid "clear_qrcode_data_status.png"
+msgstr ""
+
+#: ../../source/unit/qrcode.rst:196 2c77db7665924af8b2e7c8453b3bbdce
+msgid ""
+"The i2c address can be changed by the user and this address should be "
+"between 0x01 and 0x7F."
+msgstr "i2c 地址可由用户更改，该地址应在 0x01 到 0x7F 之间。"
+
+#: ../../source/unit/qrcode.rst:198 e8b275a2757242c1a4a6dac3bd31b161
+msgid "``addr``: range of address(0x01 - 0x7F)."
+msgstr "``addr``：地址范围（0x01 - 0x7F）。"
+
+#: ../../source/unit/qrcode.rst:202 d305fadd5573461b8cce35159ba30e21
+msgid "|set_device_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.qrcode.ref:18 c780775895084a1890a807ca46418386
+msgid "set_device_i2c_address.png"
+msgstr ""
+

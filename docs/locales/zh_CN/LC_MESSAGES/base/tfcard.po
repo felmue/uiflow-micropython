@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/base/tfcard.rst:2 ../../en/refs/base.tfcard.ref
 #: 53e706bccbfb4d3e8bf4f932d7826b2b eae765a617a845cc85f7120d60949b75
 msgid "Atomic TFCard Base"
-msgstr ""
+msgstr "Atomic TFCard Base"
 
 #: ../../en/base/tfcard.rst:8 315ca7c8bc4840be8a14d40b6523756f
 msgid ""
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../en/refs/base.tfcard.ref 12e9de2f9c204f16bdc3d28b168e9c04
 msgid "Atom TFCard"
-msgstr ""
+msgstr "Atom TFCard"
 
 #: ../../en/base/tfcard.rst:13 6fcf0d24183c4d3992e538f8ac2b172a
 msgid "|Atomic TFCard Base|"
@@ -105,7 +105,7 @@ msgstr "API参考"
 
 #: ../../en/base/tfcard.rst:59 c6b1a4d3e78a4f4c9f9b182a8976423e
 msgid "function AtomicTFCardBase"
-msgstr ""
+msgstr "function AtomicTFCardBase"
 
 #: ../../en/base/tfcard.rst:63 1c23c31b6e52411493f66f44d0a0ce93
 msgid ""

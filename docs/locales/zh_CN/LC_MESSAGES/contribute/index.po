@@ -22,5 +22,5 @@ msgstr ""
 
 #: ../../en/contribute/index.rst:3 e44ea8a678164b19820e186b1c313018
 msgid "Contributions Guide"
-msgstr ""
+msgstr "贡献指南"
 

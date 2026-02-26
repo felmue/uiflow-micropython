@@ -22,24 +22,24 @@ msgstr ""
 
 #: ../../en/software/image.rst:2 979e3a67eaf64364a816bc829f15fc1a
 msgid ":mod:`image`"
-msgstr ""
+msgstr ":mod:`image`"
 
 #: ../../en/software/image.rst:6 4e47fa0e8fc444e2a3f0a87963b7566f
 msgid "This module is only applicable to the CoreS3 Controller"
-msgstr ""
+msgstr "该模块仅适用于 CoreS3 Controller。"
 
 #: ../../en/software/image.rst:12 db97766dfc0747fbb168e3351e076f10
 msgid "Micropython Example"
-msgstr ""
+msgstr "MicroPython 应用示例"
 
 #: ../../en/software/image.rst:15 ../../en/software/image.rst:25
 #: cb97f9715d2745d092a671a5f51f9339 e783425db80245818fb34d0c1fecc3ac
 msgid "draw test"
-msgstr ""
+msgstr "绘制测试。"
 
 #: ../../en/software/image.rst:22 653b7d1f3e304494b680cb498ce064c5
 msgid "UIFlow2.0 Example"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/software/image.rst:27 fe33ba457fa3452fa6ec45f5f94f0c42
 msgid "|image_draw_example.png|"
@@ -55,19 +55,19 @@ msgstr ""
 
 #: ../../en/software/image.rst:34 e5d5a0bd961544f6b95d8f8a5b2ed2a9
 msgid "class image.Image"
-msgstr ""
+msgstr "class image.Image"
 
 #: ../../en/software/image.rst:35 d3bf7d87747c48d8977260bafb13d117
 msgid "The line object is returned by `camera.snapshot()`."
-msgstr ""
+msgstr "line 对象由 `camera.snapshot()` 返回。"
 
 #: ../../en/software/image.rst:38 ef5c0c90764b4c1386a38cef831ec995
 msgid "Basic Methods"
-msgstr ""
+msgstr "基本方法"
 
 #: ../../en/software/image.rst:42 46f72b6d9315474c802f51cda0582693
 msgid "Returns the image width in pixels."
-msgstr ""
+msgstr "Returns"
 
 #: ../../en/software/image.rst:44 ../../en/software/image.rst:52
 #: ../../en/software/image.rst:60 ../../en/software/image.rst:68
@@ -80,7 +80,7 @@ msgstr ""
 #: c59a677e61b34fe186bdd74be27e5745 c692b16424364d72a14e8ff74931efd7
 #: ee2ecbb40d3d436493b1dd36b178e8d2 ef7635c210f644cea3c3d86f9062f7da
 msgid "UIFlow2.0"
-msgstr ""
+msgstr "UIFlow2.0"
 
 #: ../../en/software/image.rst:46 a48b516b2d644b6bbb2197560795322e
 msgid "|width.png|"
@@ -92,7 +92,7 @@ msgstr ""
 
 #: ../../en/software/image.rst:50 bd010f1873ae4a398f7f6e75c9c3c4cd
 msgid "Returns the image height in pixels."
-msgstr ""
+msgstr "Returns the image height in pixels."
 
 #: ../../en/software/image.rst:54 5ff1426a8c6840f59d9347c1614abdf8
 msgid "|height.png|"
@@ -116,7 +116,7 @@ msgstr ""
 
 #: ../../en/software/image.rst:66 9da9ee3f917b4a0facf1f5031adf8e6b
 msgid "Returns the image size in bytes."
-msgstr ""
+msgstr "Returns"
 
 #: ../../en/software/image.rst:70 0e651aeb3ccd43e6956c4e01ae2c6b3d
 msgid "|size.png|"
@@ -130,7 +130,7 @@ msgstr ""
 msgid ""
 "Returns a bytearray object that points to the image data for byte-level "
 "read/write access."
-msgstr ""
+msgstr "返回一个 bytearray 对象，该对象指向图像数据，以便进行字节级读/写访问。"
 
 #: ../../en/software/image.rst:78 27a6c5e6c456499cb804d79d2c15b51c
 msgid "|bytearray.png|"
@@ -142,13 +142,15 @@ msgstr ""
 
 #: ../../en/software/image.rst:82 63d869b66fbf4ddda12136aa9d68ddda
 msgid "Drawing Methods"
-msgstr ""
+msgstr "绘图方法"
 
 #: ../../en/software/image.rst:86 d5698c7910ad4090a09653eb9c3b4fcf
 msgid ""
 "Draws a line from (x0, y0) to (x1, y1) on the image. You may either pass "
 "x0, y0, x1, y1 separately or as a tuple (x0, y0, x1, y1)."
 msgstr ""
+"在图像上从 (x0, y0) 绘制一条线到 (x1, y1)。你可以分别传入 x0、y0、x1、y1，也可以传入一个元组 (x0, y0, x1,"
+" y1)。"
 
 #: ../../en/software/image.rst:89 ../../en/software/image.rst:106
 #: ../../en/software/image.rst:125 ../../en/software/image.rst:148
@@ -159,10 +161,12 @@ msgid ""
 "white. However, you may also pass the underlying pixel value (0-255) for "
 "grayscale images or a RGB565 value for RGB565 images."
 msgstr ""
+"``color`` 是用于 Grayscale 或 RGB565 图像的 RGB888 元组，默认为白色。但是，你也可以为 Grayscale "
+"图像传入底层像素值（0-255），或为 RGB565 图像传入 RGB565 值。"
 
 #: ../../en/software/image.rst:93 eef2b142d50d485fa22f351df9d2cda6
 msgid "``thickness`` controls how thick the line is in pixels."
-msgstr ""
+msgstr "``thickness`` 用于控制线条的粗细，单位为像素。"
 
 #: ../../en/software/image.rst:95 ../../en/software/image.rst:114
 #: ../../en/software/image.rst:133 ../../en/software/image.rst:155
@@ -171,7 +175,7 @@ msgstr ""
 msgid ""
 "Returns the image object so you can call another method using ``.`` "
 "notation."
-msgstr ""
+msgstr "返回图像对象，以便你可以使用 ``.`` 记法调用另一个方法。"
 
 #: ../../en/software/image.rst:99 7d62a662814345b8b604b9db52734763
 msgid "|draw_line.png|"
@@ -185,15 +189,15 @@ msgstr ""
 msgid ""
 "Draws a rectangle on the image. You may either pass x, y, w, h separately"
 " or as a tuple (x, y, w, h)."
-msgstr ""
+msgstr "在图像上绘制一个矩形。您可以分别传入 x、y、w、h，或以元组 (x, y, w, h) 的形式传入。"
 
 #: ../../en/software/image.rst:110 f497feb359c24d66bcb8bf16bf373bd4
 msgid "``thickness`` controls how thick the lines are in pixels."
-msgstr ""
+msgstr "``thickness`` 用于控制线条的粗细，单位为像素。"
 
 #: ../../en/software/image.rst:112 8d209a2444254372bad58275fc0d1c66
 msgid "``fill`` set to True to fill the rectangle."
-msgstr ""
+msgstr "将 ``fill`` 设置为 True 以填充矩形。"
 
 #: ../../en/software/image.rst:118 8af5b56e412c4db8ba32e337eccef89d
 msgid "|draw_rectangle.png|"
@@ -207,15 +211,15 @@ msgstr ""
 msgid ""
 "Draws a circle on the image. You may either pass x, y, radius separately "
 "or as a tuple (x, y, radius)."
-msgstr ""
+msgstr "在图像上绘制一个圆。你可以分别传入 x、y、radius，也可以传入一个元组 (x, y, radius)。"
 
 #: ../../en/software/image.rst:129 f0d378529a1446bf9fd6b48796d4f210
 msgid "``thickness`` controls how thick the edges are in pixels."
-msgstr ""
+msgstr "``thickness`` 用于控制边缘的粗细，单位为像素。"
 
 #: ../../en/software/image.rst:131 b0974a5cf1f947ff9a2417c7cbb9f882
 msgid "``fill`` set to True to fill the circle."
-msgstr ""
+msgstr "``fill`` 设置为 True 以填充圆形。"
 
 #: ../../en/software/image.rst:137 647e587e4e2f439c93dc7c4840083093
 msgid "|draw_circle.png|"
@@ -229,19 +233,19 @@ msgstr ""
 msgid ""
 "Draws 8x16 text starting at location (x, y) in the image. You may either "
 "pass x, y separately or as a tuple (x, y)."
-msgstr ""
+msgstr "在图像中从位置 (x, y) 开始绘制 8x16 文本。你可以分别传入 x、y，或以元组 (x, y) 的形式传入。"
 
 #: ../../en/software/image.rst:145 21b6221ddd6c4c829a9aa7e15fd618ce
 msgid ""
 "``text`` is a string to write to the image. ``\\n``, ``\\r``, and "
 "``\\r\\n`` line endings move the cursor to the next line."
-msgstr ""
+msgstr "``text`` 是要写入图像的字符串。行尾符 ``\\n``、``\\r`` 和 ``\\r\\n`` 会将光标移动到下一行。"
 
 #: ../../en/software/image.rst:152 35dfe29aa6bf46d197e3ba9fadf04225
 msgid ""
 "``scale`` may be increased to increase/decrease the size of the text on "
 "the image. You can pass greater than 0 integer or floating point values."
-msgstr ""
+msgstr "``scale`` 可以增大或减小，以增加或减小图像上的文本大小。你可以传入大于 0 的整数或浮点数值。"
 
 #: ../../en/software/image.rst:160 698fa79a80c549a5b438c47d03a3c195
 msgid "|draw_string.png|"
@@ -253,21 +257,21 @@ msgstr ""
 
 #: ../../en/software/image.rst:163 30c978b81ea24dc8b7a9faa83e1b9722
 msgid "Constants"
-msgstr ""
+msgstr "Constants"
 
 #: ../../en/software/image.rst:168 80594105f66147ff81ee75e1d1e4b06a
 msgid ""
 "RGB565 pixel format. Each pixel is 16-bits, 2-bytes. 5-bits are used for "
 "red, 6-bits are used for green, and 5-bits are used for blue."
-msgstr ""
+msgstr "RGB565 像素格式。每个像素为 16 位，即 2 字节。红色使用 5 位，绿色使用 6 位，蓝色使用 5 位。"
 
 #: ../../en/software/image.rst:174 603bc30e90ae4a638b7f07df358e641b
 msgid "GRAYSCALE pixel format. Each pixel is 8-bits, 1-byte."
-msgstr ""
+msgstr "GRAYSCALE 像素格式。每个像素为 8 位，即 1 字节。"
 
 #: ../../en/software/image.rst:179 8050ee9bdc8a44ea975cf6db33af3b9d
 msgid "A JPEG image."
-msgstr ""
+msgstr "一张 JPEG 图像。"
 
 #: ../../en/software/image.rst:184 ab92eb0b24b2448ebf785e01f5409292
 msgid ""
@@ -276,6 +280,8 @@ msgid ""
 "values that are shared between two Y values (8-bits Y1, 8-bits U, 8-bits "
 "Y2, 8-bits V, etc.). Only some image processing methods work with YUV422."
 msgstr ""
+"一种非常易于进行 JPEG 压缩的像素格式。每个像素以灰度 8-bit 的 Y 值存储，后跟在两个 Y 值之间共享并交替出现的 8-bit U/V"
+" 色度值（8-bits Y1、8-bits U、8-bits Y2、8-bits V，等等）。只有部分图像处理方法支持 YUV422。"
 
 #: ../../en/software/image.rst:191 005d52205b7d46738e5e4ac1dbccad2d
 msgid "|format_option.png|"

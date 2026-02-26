@@ -22,5 +22,5 @@ msgstr ""
 
 #: ../../en/base/index.rst:2 db58a2bae9c14a9296bb286e0756296f
 msgid "Base"
-msgstr ""
+msgstr "Base"
 

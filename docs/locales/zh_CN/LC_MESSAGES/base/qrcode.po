@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/base/qrcode.rst:2 ../../en/refs/base.qrcode.ref
 #: 7b40537339fc4494b4ca5f3ed1b13d01 c52f827db1c94c628cb0bc315f66a057
 msgid "Atomic QRCode Base"
-msgstr ""
+msgstr "Atomic QRCode Base"
 
 #: ../../en/base/qrcode.rst:8 7db66204ddc64b35a585d37838f1d95a
 msgid ""
@@ -59,7 +59,7 @@ msgid ""
 "and stops decoding when the button is released. After a successful "
 "decoding, it stops decoding. To continue decoding, the button must be "
 "released and pressed again."
-msgstr "在按键模式下，模块在按下按键时开始解码，并在释放按键时停止解码"
+msgstr "在**按键模式**下，模块在按下按钮时开始解码，在松开按钮时停止解码。解码成功后，解码过程会自动停止。要继续解码，必须松开按钮并再次按下。"
 
 #: ../../en/base/qrcode.rst:24 ../../en/base/qrcode.rst:39
 #: ../../en/base/qrcode.rst:54 ../../en/base/qrcode.rst:69
@@ -104,7 +104,7 @@ msgstr "示例输出："
 #: ../../en/base/qrcode.rst:154 ../../en/base/qrcode.rst:169
 #: 4e693db17eb346239283aeb539da887e
 msgid "None"
-msgstr "无"
+msgstr ""
 
 #: ../../en/base/qrcode.rst:33 ../../en/base/qrcode.rst:112
 #: 88aa5d9d1fb24e9bb4c926e05d388589
@@ -120,7 +120,7 @@ msgstr "在 UiFlow2 上打开 |atoms3_qrcode_host_mode_example.m5f2| 项目。"
 msgid ""
 "In **Host Mode**, pressing the button once starts decoding, and pressing "
 "the button again stops decoding."
-msgstr "在主机模式下，按下一次按键开始解码，再次按下停止解码。"
+msgstr "在**主机模式**下，按一次按钮开始解码，再按一次按钮停止解码。"
 
 #: ../../en/base/qrcode.rst:41 0f0c32df7be846b6a114955efc407958
 msgid "|atoms3_qrcode_host_mode_example.png|"
@@ -144,7 +144,7 @@ msgstr "在 UiFlow2 上打开 |atoms3_qrcode_auto_mode_example.m5f2| 项目。"
 msgid ""
 "In **Auto Mode**, the module starts decoding when powered on and cannot "
 "be stopped."
-msgstr "在自动模式下，模块上电开始扫码解码，不可停止。"
+msgstr "在**自动模式**下，模块通电后即开始解码，且无法停止。"
 
 #: ../../en/base/qrcode.rst:56 a7c65d0ae49a4d8e9b5c92ec3e6a0dc9
 msgid "|atoms3_qrcode_auto_mode_example.png|"
@@ -168,7 +168,7 @@ msgstr "在 UiFlow2 上打开 |atoms3_qrcode_pulse_mode_example.m5f2| 项目。"
 msgid ""
 "In **Pulse Mode**, set the TRIG pin to hold a low level for more than "
 "20ms to trigger decoding once."
-msgstr "在脉冲模式下，设置触发引脚超过 20ms 的低电平触发解码一次。"
+msgstr "在**脉冲模式**中，将 TRIG 引脚设置为保持低电平超过 20ms，以触发一次解码。"
 
 #: ../../en/base/qrcode.rst:71 0f0c32df7be846b6a114955efc407958
 msgid "|atoms3_qrcode_pulse_mode_example.png|"
@@ -195,7 +195,7 @@ msgid ""
 "In **Motion Sensing Mode**, the module automatically triggers decoding "
 "when it detects a change in the scene based on visual recognition "
 "information."
-msgstr "在感应模式下，模块基于视觉识别信息检测到场景变化时，会自动触发解码。"
+msgstr "在**运动感应模式**中，当模块根据视觉识别信息检测到场景变化时，会自动触发解码。"
 
 #: ../../en/base/qrcode.rst:86 87967366948847668ce131d9ba7ae6de
 msgid "|atoms3_qrcode_motion_sensing_mode_example.png|"
@@ -235,11 +235,11 @@ msgstr "API应用"
 
 #: ../../en/base/qrcode.rst:175 7e8e886fbf584015bc357e9b6af6d3cc
 msgid "AtomicQRCodeBase"
-msgstr ""
+msgstr "AtomicQRCodeBase"
 
 #: 7303ed7c70b444efab08d2b83915dce8 base.qrcode.AtomicQRCodeBase:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: 6cea6bc11787420c9d1efe7b22ae7a9c base.qrcode.AtomicQRCodeBase:1 of
 msgid "Create an AtomicQRCodeBase object."
@@ -413,8 +413,8 @@ msgid ""
 "- ``FILL_LIGHT_ON``: Light on. - ``FILL_LIGHT_ON_DECODE``: Light on "
 "during decoding."
 msgstr ""
-"补光灯模式，可选项: - ``FILL_LIGHT_OFF``: 常灭。- ``FILL_LIGHT_ON``: 常亮。 - "
-"``FILL_LIGHT_ON_DECODE``: 解码时亮。"
+"补光灯模式。可用选项：- ``FILL_LIGHT_OFF``：关闭补光灯。- ``FILL_LIGHT_ON``：开启补光灯。- "
+"``FILL_LIGHT_ON_DECODE``：解码时开启补光灯。"
 
 #: 4f7f19980aa648709955b11cb0447e00
 #: base.qrcode.AtomicQRCodeBase.set_fill_light_mode:10 of
@@ -437,8 +437,8 @@ msgid ""
 " off. - ``POS_LIGHT_ON``: Light on. - ``POS_LIGHT_ON_DECODE``: Light "
 "flash during decoding."
 msgstr ""
-"定位灯模式，可选项: - ``POS_LIGHT_OFF``: 常灭。 - ``POS_LIGHT_ON``: 常亮。 - "
-"``POS_LIGHT_ON_DECODE``: 解码时亮。"
+"定位灯模式。可用选项：- ``POS_LIGHT_OFF``：关闭指示灯。- ``POS_LIGHT_ON``：开启指示灯。- "
+"``POS_LIGHT_ON_DECODE``：解码时指示灯闪烁。"
 
 #: b47787ad7bb649cea8b03651f678a9a7
 #: base.qrcode.AtomicQRCodeBase.set_pos_light_mode:10 of
@@ -507,9 +507,8 @@ msgstr ""
 
 #: base.qrcode.AtomicQRCodeBase.set_trigger_mode:1
 #: ead26d2c52fa470aaff1993e466166ef of
-#, fuzzy
 msgid "Set trigger mode."
-msgstr "设置触发引脚电平。"
+msgstr "设置触发模式。"
 
 #: 967dcdd6bde0455781b7a46010251f55
 #: base.qrcode.AtomicQRCodeBase.set_trigger_mode:3 of
@@ -526,23 +525,23 @@ msgid ""
 "Sensing Mode, Uses image recognition; decoding starts when a scene change"
 " is detected."
 msgstr ""
-"触发解码模式，可选项:  - ``TRIGGER_MODE_KEY``: 按键模式, "
-"触发引脚低电平触发解码，高电平停止解码，解码成功后停止解码。- ``TRIGGER_MODE_HOST``: 主机模式, "
-"命令控制解码，解码成功或者超时停止解码- ``TRIGGER_MODE_AUTO``: 自动模式, 上电自动开始解码。- "
-"``TRIGGER_MODE_PULSE``: 脉冲模式, 触发引脚 20ms 以上低电平触发一次解码。- "
-"``TRIGGER_MODE_MOTION_SENSING``: 移动感应模式，使用图像识别感应，当检测到场景发生变化时，触发解码。"
+"触发模式。可用选项：- ``TRIGGER_MODE_KEY``：按键模式，触发单次解码；成功读取后解码停止。- "
+"``TRIGGER_MODE_HOST``：主机模式，该命令控制解码的开始/停止。触发后，解码将在成功解码或超时（5 秒）后停止。- "
+"``TRIGGER_MODE_AUTO``：自动模式，上电后持续解码，无法停止。- "
+"``TRIGGER_MODE_PULSE``：脉冲模式，触发引脚的低电平信号触发解码，解码将在成功读取或达到单次读取时间限制后停止。- "
+"``TRIGGER_MODE_MOTION_SENSING``：运动感应模式，使用图像识别；检测到场景变化时开始解码。"
 
 #: 75471af763f44c3f8a61359b2a5b01d4
 #: base.qrcode.AtomicQRCodeBase.set_trigger_mode:3 of
 msgid "The trigger mode. Available options:"
-msgstr "触发解码模式，可选项:"
+msgstr "触发模式。可用选项："
 
 #: 146c1bddb138493d802c1340284f6b5c
 #: base.qrcode.AtomicQRCodeBase.set_trigger_mode:5 of
 msgid ""
 "``TRIGGER_MODE_KEY``: Key Mode, Triggers a single decode; decoding stops "
 "after a successful read."
-msgstr "``TRIGGER_MODE_KEY``: 按键模式, 触发引脚低电平触发解码，高电平停止解码，解码成功后停止解码。"
+msgstr "``TRIGGER_MODE_KEY``: 按键模式，触发单次解码；成功读取后解码停止。"
 
 #: b6a60fafd98549a4b387491832517656
 #: base.qrcode.AtomicQRCodeBase.set_trigger_mode:6 of
@@ -550,14 +549,14 @@ msgid ""
 "``TRIGGER_MODE_HOST``: Host Mode, The command controls the start/stop of "
 "decoding. Once triggered, decoding will stop either upon successful "
 "decoding or after a timeout of 5 seconds."
-msgstr "``TRIGGER_MODE_HOST``: 主机模式, 命令控制解码，解码成功或者超时停止解码"
+msgstr "``TRIGGER_MODE_HOST``：主机模式，该命令控制解码的启动/停止。触发后，解码将在解码成功后停止，或在 5 秒超时后停止。"
 
 #: 87dabc703f8348a1b65c0a7392ef9666
 #: base.qrcode.AtomicQRCodeBase.set_trigger_mode:7 of
 msgid ""
 "``TRIGGER_MODE_AUTO``: Auto Mode, Performs continuous decoding upon "
 "power-up and cannot be stopped."
-msgstr "`TRIGGER_MODE_AUTO``: 自动模式, 上电自动开始解码。"
+msgstr "``TRIGGER_MODE_AUTO``: 自动模式，上电后持续解码，无法停止。"
 
 #: 660c021fd8004e519b4aeeb5f9f3ed9d
 #: base.qrcode.AtomicQRCodeBase.set_trigger_mode:8 of
@@ -565,14 +564,14 @@ msgid ""
 "``TRIGGER_MODE_PULSE``: Pulse Mode, The Trig pin's low-level signal "
 "triggers decoding, which stops after a successful read or when the single"
 " read time limit is reached."
-msgstr "`TRIGGER_MODE_PULSE``: 脉冲模式, 触发引脚 20ms 以上低电平触发一次解码。"
+msgstr "``TRIGGER_MODE_PULSE``: 脉冲模式，Trig 引脚的低电平信号触发解码，成功读取后或达到单次读取时间限制时停止解码。"
 
 #: 51400f11929e4b7bac36e36611d0a2be
 #: base.qrcode.AtomicQRCodeBase.set_trigger_mode:9 of
 msgid ""
 "``TRIGGER_MODE_MOTION_SENSING``: Motion Sensing Mode, Uses image "
 "recognition; decoding starts when a scene change is detected."
-msgstr "``TRIGGER_MODE_MOTION_SENSING``: 移动感应模式，使用图像识别感应，当检测到场景发生变化时，触发解码。"
+msgstr "``TRIGGER_MODE_MOTION_SENSING``: 运动感应模式，使用图像识别；当检测到场景变化时开始解码。"
 
 #: 6a9bd15ea9c3461ea740d01bc432051c
 #: base.qrcode.AtomicQRCodeBase.set_trigger_mode:13 of

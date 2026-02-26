@@ -7,3 +7,4 @@ share
 pyvenv.cfg
 LICENSE
 *.mo
+.env

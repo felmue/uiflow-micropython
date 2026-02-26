@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/m5ui/tabview.rst:4 ../../source/m5ui/tabview.rst:50
 #: c89c133f51ec4da9a646a056a7ae237f e06ede28b27a4ab48062ee163646e2d2
@@ -92,7 +92,7 @@ msgstr "API参考"
 
 #: 393d5a8c6da14a618b6d4b7f863ea488 m5ui.tabview.M5TabView:1 of
 msgid "Bases: :py:class:`~lvgl.tabview`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.tabview`"
 
 #: 9737cbcb16dd492086aa16b77f8ba68e m5ui.tabview.M5TabView:1 of
 msgid "Create a TabView object."

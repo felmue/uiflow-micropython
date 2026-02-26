@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/hardware/plcio.rst:2 e273f15232bb409a89d9f9709e1c1c97
 msgid "PLC I/O"
-msgstr ""
+msgstr "PLC I/O"
 
 #: ../../en/hardware/plcio.rst:6 c80d4870d634452288da89b84120d09e
 msgid ""
@@ -48,7 +48,7 @@ msgstr "继电器"
 
 #: ../../en/hardware/plcio.rst:17 7fae604f835d4f7daddf9dea5660be20
 msgid "StampPLC"
-msgstr ""
+msgstr "StampPLC"
 
 #: ../../en/hardware/plcio.rst:17 1f45ebe7665c459d972a0ad457fa285d
 #: 5a85b63a6554495ebd065bb15b938a21

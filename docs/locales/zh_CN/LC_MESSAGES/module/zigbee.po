@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:2 ac1dd5a0db3c41389174b17c01f23393
 msgid "Zigbee Module"
-msgstr ""
+msgstr "Zigbee Module"
 
 #: ../../en/module/zigbee.rst:6 ce85995bc84045a5a07aaa184f3a30e0
 msgid ""
@@ -37,10 +37,14 @@ msgid ""
 "and has enhanced security features, providing a complete and "
 "interoperable IoT solution for home and building automation."
 msgstr ""
+"Zigbee 是 M5Stack 推出的自组织网络通信模块。该模块采用 CC2630F128 方案，内部集成 Zigbee "
+"协议栈，并提供开放的串行通信接口。它配备外置天线，单节点稳定通信距离最高可达 1 km，并支持最高 200 级路由深度。通过 MESH "
+"组网，它可以显著扩展 IoT 应用的覆盖范围，同时具备超低功耗与高灵敏度。Zigbee "
+"网络可支持数百个节点，并具备增强的安全特性，为家庭与楼宇自动化提供完整且可互操作的 IoT 解决方案。"
 
 #: ../../en/module/zigbee.rst:17 9512f91265c5450b83710b46c626dfb0
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/zigbee.rst:19 38f5525b2d87460e8260573066c5aec0
 msgid "|ZigbeeModule|"
@@ -48,19 +52,19 @@ msgstr ""
 
 #: ../../en/refs/module.zigbee.ref e8906b72f02a4f329a0e0eca1f8bc86f
 msgid "ZigbeeModule"
-msgstr ""
+msgstr "\"\"\"ZigbeeModule\"\"\""
 
 #: ../../en/module/zigbee.rst:22 178202f0e5d84847910286e1101fe3f1
 msgid "Micropython TX Example:"
-msgstr ""
+msgstr "MicroPython TX 应用示例："
 
 #: ../../en/module/zigbee.rst:29 96b50b6420a547f696aee6044be7a56a
 msgid "Micropython RX Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/zigbee.rst:36 11a7a81889f94835ae88ff6e6239f425
 msgid "UIFLOW2 TX Example:"
-msgstr ""
+msgstr "UIFLOW2 TX 应用示例："
 
 #: ../../en/module/zigbee.rst:38 a7e08e4ed30f450b8bc1c03ffbe5761a
 msgid "|tx_example.png|"
@@ -72,7 +76,7 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:41 8ec6eefc02a54a39808c24b6de6240aa
 msgid "UIFLOW2 RX Example:"
-msgstr ""
+msgstr "UiFlow2 RX 应用示例："
 
 #: ../../en/module/zigbee.rst:43 82dbae33d7784a4da107f822a2b281f9
 msgid "|rx_example.png|"
@@ -92,15 +96,15 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:54 bea0d7178f484be7aa20fa15d13a0c7c
 msgid "class ZigbeeModule"
-msgstr ""
+msgstr "class ZigbeeModule"
 
 #: ../../en/module/zigbee.rst:57 7cf80ee29c414ea5ae16f685c9f9c2d7
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/module/zigbee.rst:61 345692d806304c938b0c8a19970e7329
 msgid "Create a Zigbee unit."
-msgstr ""
+msgstr "创建一个 Zigbee 单元。"
 
 #: ../../en/module/zigbee.rst 641d7d2bd06f44bb825febf663600a60
 #: 6d5692c8fbee4b43be342f71d53fd055 88821f5c2e6a463dbb91641d5d2115a9
@@ -113,15 +117,15 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:63 bee36187d5a74f83b526c2f7e263d081
 msgid "The ID of the unit."
-msgstr ""
+msgstr "单元的 ID。"
 
 #: ../../en/module/zigbee.rst:64 8f4a02c8d8d44c9a9d34f3e5897a57c6
 msgid "The port that the unit is connected to."
-msgstr ""
+msgstr "设备连接到的端口。"
 
 #: ../../en/module/zigbee.rst:65 f9b3682599de4bf2a10cc49d8ec28792
 msgid "Print the log information. Default is True."
-msgstr ""
+msgstr "打印日志信息。默认值为 True。"
 
 #: ../../en/module/zigbee.rst:67 ../../en/module/zigbee.rst:92
 #: ../../en/module/zigbee.rst:107 ../../en/module/zigbee.rst:118
@@ -139,7 +143,7 @@ msgstr ""
 #: bc951af89e27497baf501fda97e80332 d020d7410e6042caa1c8c4b10ad94eab
 #: e01145fd9c0b423f937297237c2833f5 ebcd17312ff54fe299e68894d7b8d5dd
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/module/zigbee.rst:69 ef92b12761d94c65a2798be8fb721c7c
 msgid "|init.png|"
@@ -156,61 +160,61 @@ msgstr ""
 #: ../../en/module/zigbee.rst:77 ../../en/module/zigbee.rst:103
 #: 54cac1031f054e0fb0c6cf149bb93722 8e428af97fb14e3bba4ef8fe4aeb2db2
 msgid "The device type of the Zigbee module."
-msgstr ""
+msgstr "Zigbee 模块的设备类型。"
 
 #: ../../en/module/zigbee.rst:78 b0c09508c81b4af1922e317568456e6d
 msgid ""
 "The PAN ID of the Zigbee module. The PAN ID is a 16-bit value that is "
 "used to identify the network."
-msgstr ""
+msgstr "Zigbee 模块的 PAN ID。PAN ID 是一个 16 位的值，用于标识网络。"
 
 #: ../../en/module/zigbee.rst:79 ca5d54a3e55b4bc39b441f8675c0e97f
 msgid "The channel of the Zigbee module. The channel range is from 11 to 26"
-msgstr ""
+msgstr "Zigbee 模块的信道。信道范围为 11 到 26。"
 
 #: ../../en/module/zigbee.rst:80 ../../en/module/zigbee.rst:136
 #: 84e9638961564b92a61dc13f54327fb6 de1b75300cb2430b89339c6b6aa34d4e
 msgid "The transfer mode of the Zigbee module."
-msgstr ""
+msgstr "Zigbee 模块的传输模式。"
 
 #: ../../en/module/zigbee.rst:81 ../../en/module/zigbee.rst:149
 #: ../../en/module/zigbee.rst:158 2efc99f7168749d290f2043b6b998df2
 #: 3cc59334f902494cb9e704fbfe5970ed a24ae90b15284bb5a95a79028788dd36
 msgid "The custom address of the Zigbee module."
-msgstr ""
+msgstr "Zigbee 模块的自定义地址。"
 
 #: ../../en/module/zigbee.rst:82 ../../en/module/zigbee.rst:169
 #: 0acc59d2be38477c91c213a38bab71c3 1ff54100374f403483b1b91d85fca74a
 msgid "The antenna type of the Zigbee module."
-msgstr ""
+msgstr "Zigbee 模块的天线类型。"
 
 #: ../../en/module/zigbee.rst:83 d970321256f042c5805b278feec8f9d6
 msgid "The encryption status of the Zigbee module."
-msgstr ""
+msgstr "Zigbee 模块的加密状态。"
 
 #: ../../en/module/zigbee.rst:84 fe12cfb8ec094fe1b18d92aa40a6e287
 msgid "The encryption key of the Zigbee module."
-msgstr ""
+msgstr "Zigbee 模块的加密密钥。"
 
 #: ../../en/module/zigbee.rst:85 4e84953448f94532bfce50f0731e33a2
 msgid "The node type of the Zigbee module."
-msgstr ""
+msgstr "Zigbee 模块的节点类型。"
 
 #: ../../en/module/zigbee.rst:86 354f3c749cae4c4d92e95da76a7afe15
 msgid "The antenna type of the Zigbee node."
-msgstr ""
+msgstr "Zigbee 节点的天线类型。"
 
 #: ../../en/module/zigbee.rst:87 6e750044175c4182812f585944a99b23
 msgid "The transfer mode of the Zigbee node."
-msgstr ""
+msgstr "Zigbee 节点的传输模式。"
 
 #: ../../en/module/zigbee.rst:88 1a8c5bcbaae645179a9211a94b43415a
 msgid "The custom address of the Zigbee node."
-msgstr ""
+msgstr "Zigbee 节点的自定义地址。"
 
 #: ../../en/module/zigbee.rst:90 2dedd607e3804c2e955ffe60c8ee88b1
 msgid "Set the parameters of the Zigbee module."
-msgstr ""
+msgstr "设置 Zigbee 模块的参数。"
 
 #: ../../en/module/zigbee.rst:94 275e47433b6f49a49db763369a59278a
 msgid "|set_module_param.png|"
@@ -238,7 +242,7 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:105 d55e7ad39042429981e3bd3dc421d849
 msgid "Set the device type of the Zigbee module."
-msgstr ""
+msgstr "设置 Zigbee 模块的设备类型。"
 
 #: ../../en/module/zigbee.rst:109 02339119c0f344c1acb42188c101bdde
 msgid "|set_device_type.png|"
@@ -250,11 +254,11 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:114 f361041b63a64187b5fa0cbd515df68e
 msgid "The PAN ID of the Zigbee module."
-msgstr ""
+msgstr "Zigbee 模块的 PAN ID。"
 
 #: ../../en/module/zigbee.rst:116 8fb51dd2c4a84078ade4c729e4688dbc
 msgid "Set the PAN ID of the Zigbee module."
-msgstr ""
+msgstr "设置 Zigbee 模块的 PAN ID。"
 
 #: ../../en/module/zigbee.rst:120 2a5a047b2f774bf6ba28304fa80a4c7f
 msgid "|set_pan_id.png|"
@@ -266,11 +270,11 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:125 ae303dfaa36640b19958b9e00d0f5317
 msgid "The channel of the Zigbee module."
-msgstr ""
+msgstr "Zigbee 模块的通道。"
 
 #: ../../en/module/zigbee.rst:127 abdc1fc3e06f4ad28d88271096194f0b
 msgid "Set the channel of the Zigbee module."
-msgstr ""
+msgstr "设置 Zigbee 模块的信道。"
 
 #: ../../en/module/zigbee.rst:131 11029dc81aba4f68995fe33552cf2d5a
 msgid "|set_channel.png|"
@@ -282,7 +286,7 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:138 9aeba4351a0740c6af277e0f684d08ef
 msgid "Set the transfer mode of the Zigbee module."
-msgstr ""
+msgstr "设置 Zigbee 模块的传输模式。"
 
 #: ../../en/module/zigbee.rst:142 aeaf8e5105184179bff11e89b6e46ebc
 msgid "|set_transfer_mode.png|"
@@ -294,7 +298,7 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:147 7efbcd520c52425fa473588776e5885a
 msgid "Get the custom address of the Zigbee module."
-msgstr ""
+msgstr "获取 Zigbee 模块的自定义地址。"
 
 #: ../../en/module/zigbee.rst 1dc10a9e780a406a8d17121199631651
 #: b97e18472bed4832bfd5efbe3ef212c4 ee7c7fc1d395454584beab4e3e1a8533
@@ -311,7 +315,7 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:160 41ffc1d6f2824805856d0bc5232c681d
 msgid "Set the custom address of the Zigbee module."
-msgstr ""
+msgstr "设置 Zigbee 模块的自定义地址。"
 
 #: ../../en/module/zigbee.rst:164 f93f8e35fc814358b33c90ae17e983f8
 msgid "|set_custom_address.png|"
@@ -323,7 +327,7 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:171 621c5fd9edda4f01844bb9995a61bf1a
 msgid "Set the antenna type of the Zigbee module."
-msgstr ""
+msgstr "设置 Zigbee 模块的天线类型。"
 
 #: ../../en/module/zigbee.rst:175 5e16ad5aff534aef89a789114010ccaf
 msgid "|set_ant_type.png|"
@@ -335,11 +339,11 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:180 8da3c2f67806431183001abd5f91e3e4
 msgid "Get the short address of the Zigbee module."
-msgstr ""
+msgstr "获取 Zigbee 模块的短地址。"
 
 #: ../../en/module/zigbee.rst:182 9ea85385ca0e473c9cdfb5bd2319d14e
 msgid "The short address of the Zigbee module."
-msgstr ""
+msgstr "Zigbee 模块的短地址。"
 
 #: ../../en/module/zigbee.rst:186 2b5b310427a44d43a2a46b0333ce10d5
 msgid "|get_short_address.png|"
@@ -351,13 +355,13 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:191 6a9f8d1197d14417b13b1f70e4c70f7e
 msgid "Check whether the Zigbee module is connected to the Zigbee network."
-msgstr ""
+msgstr "检查 Zigbee 模块是否已连接到 Zigbee 网络。"
 
 #: ../../en/module/zigbee.rst:193 28b3c73b1cae437a8e18afeec37b8fc5
 msgid ""
 "True if the Zigbee module is connected to the Zigbee network, False "
 "otherwise."
-msgstr ""
+msgstr "如果 Zigbee 模块已连接到 Zigbee 网络，则为 True；否则为 False。"
 
 #: ../../en/module/zigbee.rst:197 b87e6819672c448d8604bee272acc9f1
 msgid "|isconnected.png|"
@@ -369,11 +373,11 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:202 e48cc30b04df442ba8452e13cf2a7cac
 msgid "The callback function that is called when the Zigbee module receives data."
-msgstr ""
+msgstr "当 Zigbee 模块接收到数据时调用的回调函数。"
 
 #: ../../en/module/zigbee.rst:204 d0ccb84be32847008b78a43c40340804
 msgid "Receive data from the Zigbee module."
-msgstr ""
+msgstr "从 Zigbee 模块接收数据。"
 
 #: ../../en/module/zigbee.rst:208 876ab775ed1c4b4eba20f35de73f6285
 msgid "|receive_none_block.png|"
@@ -401,7 +405,7 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:217 111b9b24c518435e895543d883e3114e
 msgid "Stop receiving data from the Zigbee module."
-msgstr ""
+msgstr "停止接收来自 Zigbee 模块的数据。"
 
 #: ../../en/module/zigbee.rst:221 3dbd217da4bf4312ad904ff3010b0044
 msgid "|stop_receive.png|"
@@ -413,16 +417,16 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:226 63e8908c5de444279c740cd320ed9a3c
 msgid "The custom address of the Zigbee module that the data is sent to."
-msgstr ""
+msgstr "数据发送到的 Zigbee 模块的自定义地址。"
 
 #: ../../en/module/zigbee.rst:227 ../../en/module/zigbee.rst:237
 #: 522e05e22bb849168e5d055e3ae1cb7d b5d50d8d943b45c2aeb84e2a578dd399
 msgid "The data that is sent to the Zigbee module."
-msgstr ""
+msgstr "发送到 Zigbee 模块的数据。"
 
 #: ../../en/module/zigbee.rst:229 2b306bb708a548af90e94aca3e9c2008
 msgid "Send data to the Zigbee module."
-msgstr ""
+msgstr "向 Zigbee 模块发送数据。"
 
 #: ../../en/module/zigbee.rst:233 1bf8cd53a48d4466adfed4ca8c6b3b91
 msgid "|p2p_transmission.png|"
@@ -434,7 +438,7 @@ msgstr ""
 
 #: ../../en/module/zigbee.rst:239 42e8a1bfa01d4fedb9dfefd62617b750
 msgid "Broadcast data to all Zigbee modules."
-msgstr ""
+msgstr "将数据广播到所有 Zigbee 模块。"
 
 #: ../../en/module/zigbee.rst:243 2b25d339cea74b549777eceea3da5be2
 msgid "|broadcast.png|"

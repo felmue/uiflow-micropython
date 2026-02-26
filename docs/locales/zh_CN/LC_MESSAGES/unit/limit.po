@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/limit.rst:3 9df6af0c272f44e187f6a438b7f557be
+msgid "Limit Unit"
+msgstr "Limit Unit"
+
+#: ../../source/unit/limit.rst:7 c5f844463d954968b0fd75ac84dda158
+msgid ""
+"The Unit Limit is a travel switch unit that provides a limit trigger "
+"signal to the MCU or other master peripherals by pulling the digital "
+"signal interface from 3.3V high to 0V low when the switch handle is "
+"closed by an external force. It is suitable for all kinds of moving "
+"machinery and equipment to control its stroke and carry out terminal "
+"limit protection."
+msgstr ""
+"Unit Limit 是一种行程开关单元，当开关手柄在外力作用下闭合时，会将数字信号接口从 3.3V 高电平拉低到 0V 低电平，从而向 MCU "
+"或其他主控外设提供限位触发信号。它适用于各种运动机械和设备，用于控制其行程并进行终端限位保护。"
+
+#: ../../source/unit/limit.rst:9 1d02c38edfae45e2be98057b7e2fc4a4
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/limit.rst:11 d410c369d55c45869eaa439587755aa4
+msgid "|LimitUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.limit.ref fadf1163a106434398196ce641a81f54
+msgid "LimitUnit"
+msgstr "LimitUnit"
+
+#: ../../source/unit/limit.rst:13 bbc867afe3494475a557b42e8681f85a
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/limit.rst:20 e97968063a434734957e1879ee24da0c
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/limit.rst:22 a65c082e5b814971be92cbd909bb93b2
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.limit.ref:13 2b6a199e74d043578b464ba323a90897
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/limit.rst:26 54fc9b1628154a84be4048cc1890c75d
+msgid "|limit_core2_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/limit.rst:29 de5d1dbe02e04dae85da1be0869c3b43
+msgid "class LimitUnit"
+msgstr "class LimitUnit"
+
+#: ../../source/unit/limit.rst:32 e44a816522e34c8588f1a00b967d5f40
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/limit.rst:36 4a166a76895743a7b4cb7f04d6b50f02
+msgid ""
+"Initialize a Limit instance with the specified pin, active-low "
+"configuration, and pull-up resistor state."
+msgstr "使用指定的引脚、低电平有效配置和上拉电阻状态初始化一个 Limit 实例。"
+
+#: ../../source/unit/limit.rst 5ed0d6ff8776493daf9fcc3b8a615364
+#: 7ac19ded509242db8bf07b76daf9e7f8
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/limit.rst:38 15c63f7801334861a6e99f5debc724dd
+msgid "The GPIO pin number connected to the limit."
+msgstr "连接到限位器的 GPIO 引脚编号。"
+
+#: ../../source/unit/limit.rst:39 68edac846a7c427d82a3501836521271
+msgid "Determines whether the limit signal is active-low. Default is True."
+msgstr "用于确定限位信号是否为低电平有效。默认值为 True。"
+
+#: ../../source/unit/limit.rst:40 72649166e371401e9868bc49394956fd
+msgid ""
+"Specifies whether the internal pull-up resistor is enabled. Default is "
+"True."
+msgstr "指定是否启用内部上拉电阻。默认值为 True。"
+
+#: ../../source/unit/limit.rst:42 ../../source/unit/limit.rst:54
+#: ../../source/unit/limit.rst:64 ../../source/unit/limit.rst:75
+#: ../../source/unit/limit.rst:83 4c53885cddb44a68a8f10172499c4b6e
+#: 7fa97e8c5a134eb090da32b80c58da4b a0debfb7522d40cb908470e9293ee82d
+#: dd87c3c43e564cbb93208b4624a4d24b e7dac6b0dd174825a36494021e254ca9
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/limit.rst:44 7adfabfb253144e188207aa5328e9cdb
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.limit.ref:7 f7a2ff4078d84ef19562e1868f9dfd72
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/limit.rst:47 4143bf45ba3a48879c30ec7a5b9685cb
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/limit.rst:51 e55f19768fb9470d823ca2c73805a695
+msgid "Reset the count value to zero."
+msgstr "将计数值重置为 0。"
+
+#: ../../source/unit/limit.rst:56 13971f005c814ed8b2e8267bf3de44f4
+msgid "|count_reset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.limit.ref:10 55afd4370fe741fea420b8b36c397676
+msgid "count_reset.png"
+msgstr ""
+
+#: ../../source/unit/limit.rst:61 68cf6b6f2e7143b99aef37fc36bd7728
+msgid "Check if the limit is currently being held."
+msgstr "检查当前是否正在保持限制。"
+
+#: ../../source/unit/limit.rst:66 c0ab74a3727e43739024a39a28257208
+msgid "|isHolding.png|"
+msgstr ""
+
+#: ../../source/refs/unit.limit.ref:8 ef0bfae5cfb04696a25280fd834c6d1c
+msgid "isHolding.png"
+msgstr ""
+
+#: ../../source/unit/limit.rst:70 9637663646b84611b500cb4cab3bfa8a
+msgid "Set a callback function for a specified limit event type."
+msgstr "为指定的限位事件类型设置回调函数。"
+
+#: ../../source/unit/limit.rst:72 12bb113de26c47d5a737e64e9bd1cdf4
+msgid "The event type (e.g., WAS_CLICKED, WAS_DOUBLECLICKED)."
+msgstr "事件类型（例如 WAS_CLICKED、WAS_DOUBLECLICKED）。"
+
+#: ../../source/unit/limit.rst:73 62dcb49654d045e6866e34f8bd703f8c
+msgid "The callback function to be executed for the event."
+msgstr "用于该事件执行的回调函数。"
+
+#: ../../source/unit/limit.rst:77 96f28eda74b2449884abe5afc21fa19b
+msgid "|setCallback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.limit.ref:9 4d45c3ff02814e6dbf86aeb07d643612
+msgid "setCallback.png"
+msgstr ""
+
+#: ../../source/unit/limit.rst:81 764be30c2d32473891239f58ef2cf0c1
+msgid ""
+"Monitor the state transitions of a limit based on its pin state and "
+"trigger appropriate handlers."
+msgstr "根据限位开关的引脚状态监控其状态转换，并触发相应的处理函数。"
+
+#: ../../source/unit/limit.rst:85 d853d3c255a141e9871206adf3bdcd71
+msgid "|tick.png|"
+msgstr ""
+
+#: ../../source/refs/unit.limit.ref:11 1f974d1dc0444410925acd4776e4715b
+msgid "tick.png"
+msgstr ""
+

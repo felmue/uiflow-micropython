@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/m5ui/led.rst:4 ../../en/m5ui/led.rst:52
 #: 0318c23acc9a4c63a172d879d41186f1 96f093565b5f42cf82d9ea8807aabb5b
 msgid "M5LED"
-msgstr ""
+msgstr "M5LED"
 
 #: ../../en/m5ui/led.rst:8 8203482b8d89470da4994c7fb64822a5
 msgid ""
@@ -118,7 +118,7 @@ msgstr "API 参考"
 
 #: 45186bf85c1246ea9c87ae3553de1f4e m5ui.led.M5LED:1 of
 msgid "Bases: :py:class:`~lvgl.led`"
-msgstr ""
+msgstr "基类：:py:class:`~lvgl.led`"
 
 #: 231140a70e184c26af006c8b59d5b832 m5ui.led.M5LED:1 of
 msgid "Create a LED object."
@@ -393,87 +393,87 @@ msgstr ""
 
 #: ../../en/m5ui/led.rst:285 68ff5d51584b4950a17da064f32588b4
 msgid "lv.ALIGN.TOP_LEFT"
-msgstr ""
+msgstr "lv.ALIGN.TOP_LEFT"
 
 #: ../../en/m5ui/led.rst:286 0af754fd0e9a45bf86215011c98e3fc9
 msgid "lv.ALIGN.TOP_MID"
-msgstr ""
+msgstr "lv.ALIGN.TOP_MID"
 
 #: ../../en/m5ui/led.rst:287 c392cfde26924f99a42e908631899da5
 msgid "lv.ALIGN.TOP_RIGHT"
-msgstr ""
+msgstr "lv.ALIGN.TOP_RIGHT"
 
 #: ../../en/m5ui/led.rst:288 8255cf21446344e4959c28a69ac32579
 msgid "lv.ALIGN.BOTTOM_LEFT"
-msgstr ""
+msgstr "lv.ALIGN.BOTTOM_LEFT"
 
 #: ../../en/m5ui/led.rst:289 794a12886c6f4d998da064555bcd70ca
 msgid "lv.ALIGN.BOTTOM_MID"
-msgstr ""
+msgstr "lv.ALIGN.BOTTOM_MID：底部居中对齐。"
 
 #: ../../en/m5ui/led.rst:290 69e91663b9194f7ab6ed2f1fdb5471f0
 msgid "lv.ALIGN.BOTTOM_RIGHT"
-msgstr ""
+msgstr "msgstr \"\""
 
 #: ../../en/m5ui/led.rst:291 aa973c90f09c44919628063ec00136a2
 msgid "lv.ALIGN.LEFT_MID"
-msgstr ""
+msgstr "lv.ALIGN.LEFT_MID"
 
 #: ../../en/m5ui/led.rst:292 217c65145a56430fb6cacf9dc45ac268
 msgid "lv.ALIGN.RIGHT_MID"
-msgstr ""
+msgstr "lv.ALIGN.RIGHT_MID"
 
 #: ../../en/m5ui/led.rst:293 946b11a5f41842b882f92d7b97d71329
 msgid "lv.ALIGN.CENTER"
-msgstr ""
+msgstr "lv.ALIGN.CENTER"
 
 #: ../../en/m5ui/led.rst:294 a39141f6d53f401cbce9090004daa73b
 msgid "lv.ALIGN.OUT_TOP_LEFT"
-msgstr ""
+msgstr "lv.ALIGN.OUT_TOP_LEFT"
 
 #: ../../en/m5ui/led.rst:295 f45d0fe5c9414fbca4bafc39f45f1d94
 msgid "lv.ALIGN.OUT_TOP_MID"
-msgstr ""
+msgstr "lv.ALIGN.OUT_TOP_MID"
 
 #: ../../en/m5ui/led.rst:296 487bcd5553f442398ddc8396669d5b4c
 msgid "lv.ALIGN.OUT_TOP_RIGHT"
-msgstr ""
+msgstr "lv.ALIGN.OUT_TOP_RIGHT"
 
 #: ../../en/m5ui/led.rst:297 b272d509d2324498857734c4a5dee612
 msgid "lv.ALIGN.OUT_BOTTOM_LEFT"
-msgstr ""
+msgstr "lv.ALIGN.OUT_BOTTOM_LEFT"
 
 #: ../../en/m5ui/led.rst:298 06448a66b1484befa9841f3d9928bf84
 msgid "lv.ALIGN.OUT_BOTTOM_MID"
-msgstr ""
+msgstr "lv.ALIGN.OUT_BOTTOM_MID（底部外侧居中对齐）"
 
 #: ../../en/m5ui/led.rst:299 4da2fb4e1bb543a9beab3cfc7eb27bb9
 msgid "lv.ALIGN.OUT_BOTTOM_RIGHT"
-msgstr ""
+msgstr "lv.ALIGN.OUT_BOTTOM_RIGHT"
 
 #: ../../en/m5ui/led.rst:300 9e573d3fe73b49d98af8a85f70037c0a
 msgid "lv.ALIGN.OUT_LEFT_TOP"
-msgstr ""
+msgstr "lv.ALIGN.OUT_LEFT_TOP"
 
 #: ../../en/m5ui/led.rst:301 a5ffb28a011e4f629b72199aa664e12d
 msgid "lv.ALIGN.OUT_LEFT_MID"
-msgstr ""
+msgstr "lv.ALIGN.OUT_LEFT_MID"
 
 #: ../../en/m5ui/led.rst:302 56159053801d46dead584ca185656eb4
 msgid "lv.ALIGN.OUT_LEFT_BOTTOM"
-msgstr ""
+msgstr "lv.ALIGN.OUT_LEFT_BOTTOM"
 
 #: ../../en/m5ui/led.rst:303 dcfafe5ddc57421491413a044f9b0c82
 msgid "lv.ALIGN.OUT_RIGHT_TOP"
-msgstr ""
+msgstr "lv.ALIGN.OUT_RIGHT_TOP"
 
 #: ../../en/m5ui/led.rst:304 622b40ce2dfa42e1b3eb227438a7fdda
 msgid "lv.ALIGN.OUT_RIGHT_MID"
-msgstr ""
+msgstr "lv.ALIGN.OUT_RIGHT_MID"
 
 #: ../../en/m5ui/led.rst:305 622b3277449246a29abd451a7933c3d0
 msgid "lv.ALIGN.OUT_RIGHT_BOTTOM"
-msgstr ""
+msgstr "lv.ALIGN.OUT_RIGHT_BOTTOM"
 
 #: b19ca9270759482e97c8c2dda5aa7704 m5ui.led.M5LED.set_brightness:1 of
 msgid "Set the brightness of the LED."

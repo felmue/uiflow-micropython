@@ -1,0 +1,801 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/audioplayer.rst:2 904b9f8c2c6f42068e72c81a1080f447
+msgid "AudioPlayer Unit"
+msgstr "AudioPlayer Unit"
+
+#: ../../source/unit/audioplayer.rst:8 833e0f374ec0430a9227e3d87fb924d4
+msgid ""
+"This is the driver library of AudioPlayer Unit, which is used to play "
+"audio files."
+msgstr "这是 AudioPlayer Unit 的驱动库，用于播放音频文件。"
+
+#: ../../source/unit/audioplayer.rst:10 5df68b4aab694d33886a54550eae76f4
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/audioplayer.rst:12 c78cac01638a43d2bd094499e6d067c7
+msgid "|AudioPlayer|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref 4fc2a47692dc4659b92cb8b2b732c7fe
+msgid "AudioPlayer"
+msgstr "AudioPlayer"
+
+#: ../../source/unit/audioplayer.rst:15 b8bde5de368c43698a5a2c6e69835b1e
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/audioplayer.rst:18 ../../source/unit/audioplayer.rst:36
+#: 97aa456ab0e04638b643e47160105879 9f2ecca8f3c54a9290cb07a9cc095ae1
+msgid "play audio"
+msgstr "播放音频"
+
+#: ../../source/unit/audioplayer.rst:20 64287b5b1ef345e4af42a75565cbf061
+msgid "Open the |audioplayer_core2_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |audioplayer_core2_example.m5f2| 项目。"
+
+#: ../../source/unit/audioplayer.rst:22 ../../source/unit/audioplayer.rst:38
+#: 96ad23217bc0466d91464407285e6abd cfae94ffe2f34262ba2a0bedfa787cee
+msgid "This example plays the audio file on the AudioPlayer Unit."
+msgstr "该示例在 AudioPlayer Unit 上播放音频文件。"
+
+#: ../../source/unit/audioplayer.rst:24 07c4cbd52b90400fb8ead29fee014578
+#: 1206299b944a45038f880c20f0e84564 130f4ccf44b34917b9c07bdf86881c68
+#: 1378136b905d4576b051e50fd53a0084 1949f8e64d6049a5b037ee018b22ca5f
+#: 1c88d30d5f644fc897b3aecc1bfe42d0 21b7012cc06545fb8ecdc3b5fb8d3afe
+#: 3778d6aedad44d6f9b088865bac57957 40d5f6700efa476f95c2c641b84bc396
+#: 5cef376801ec4e1ab72c52d2d7f63e33 60238f4ec3d24e4e9b63a30c050850f1
+#: 711cad1278ab406d8c1b224acc27a444 b5e2c0b5919d4b7588b311beb3f5f9ad
+#: baad7fdc54aa46e599dba2eee1a18449 c4631a548e184910ae077187ad1c6e6e
+#: d61efa55686a42e38ec9e8d3f5bbdce5 ef053cc7ebad4f51b510cd0586ee6690
+#: ff95d023724c489f90f7399ab25be07c of unit.audioplayer.AudioPlayerUnit:8
+#: unit.audioplayer.AudioPlayerUnit.check_play_status:6
+#: unit.audioplayer.AudioPlayerUnit.decrease_volume:3
+#: unit.audioplayer.AudioPlayerUnit.get_current_audio_number:6
+#: unit.audioplayer.AudioPlayerUnit.get_play_mode:6
+#: unit.audioplayer.AudioPlayerUnit.get_total_audio_number:6
+#: unit.audioplayer.AudioPlayerUnit.get_volume:6
+#: unit.audioplayer.AudioPlayerUnit.increase_volume:3
+#: unit.audioplayer.AudioPlayerUnit.next_audio:6
+#: unit.audioplayer.AudioPlayerUnit.pause_audio:6
+#: unit.audioplayer.AudioPlayerUnit.play_audio:6
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_index:7
+#: unit.audioplayer.AudioPlayerUnit.previous_audio:6
+#: unit.audioplayer.AudioPlayerUnit.select_audio_num:7
+#: unit.audioplayer.AudioPlayerUnit.set_play_mode:5
+#: unit.audioplayer.AudioPlayerUnit.set_volume:5
+#: unit.audioplayer.AudioPlayerUnit.stop_audio:6
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/audioplayer.rst:26 3919c8f543024aae829de53276fb22cd
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:25 6b52a30221934611bdd3787d0fdc6090
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/audioplayer.rst:28 ../../source/unit/audioplayer.rst:46
+#: 564d9f958d2843fb9cea30b87a473b44 61c790922b16472bb76ee060985f3cd4
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/audioplayer.rst:30 ../../source/unit/audioplayer.rst:48
+#: 94c57898842c4a0484e0e93a512830ae befd8949e31e412b84fc836faf5a4e44
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/audioplayer.rst:33 6de3548fb3ef4c88bdb53b39f14ec098
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/audioplayer.rst:40 029fb7dd3189407c99cdbb4b53148810
+#: 0a24bce36a644eca8a01db6ec5123388 0e78d4f274de40f9bf747e59bdb4fa7e
+#: 1d935de1d6ba48dda0f6dfdb1cd4f231 21332ac1ac6849ada38c265f99a17b94
+#: 3607fe9c5a2141009af1ce7703900cb4 38f13f120e6e4069b3f9e4a42c60e056
+#: 41eff49eeded4ae1a3d9ffa2bbd00bbe 53349388355c4f1eb21d6efb68632578
+#: 558e92e660d44183aee57e40af213b65 57d0c013300140ca989b1b002f41a0e3
+#: 68f902106bef4716b10b51457e30a3b6 699212a0b8d44d89a09b86bf094a16b0
+#: 6c57660d11874a1ab0bc052cae409989 6d01e11fe0dd4a1590526f5fff3ea51d
+#: 799c36b68e004f7b808d5c2ae3b0a2e7 89520b86134c4619bd8a5a4ab345a3cd
+#: 97f75a7bf8244127b91243675f2b5244 9958a184d21742258b8bdd82454307b7
+#: 9c49d52d3c9a48fa88c989dd79dad3b3 9d8dda01957d4703b716cc763fa137c4
+#: a01aa69bf02441f49f3b82228836571b a4d691d1b956472d95f82e6d85179553
+#: a67c1b5255784a6d8a35117d19450f9b aececf82af3e4e1bbcc037337235af90
+#: bc3983d68c9b47e2ba7158aa8c6a13ea bdd96d3fe5ea49c2b40c6afb53d2920b
+#: c4628539242945efa0a74c1a84b9a375 cc17f68c91974f299cfdb387d9320d64
+#: cd327327075446339afa4af2a347d414 e31b2425af5f4c0fa2df5326212ec2df
+#: f1ee5e9ae9064fe69273285e17468dde fa2d0867341541d399cc5cff15aa05b5
+#: faa2c226d21f4ca1869ae7d63123abe5 of unit.audioplayer.AudioPlayerUnit:12
+#: unit.audioplayer.AudioPlayerUnit.check_play_status:10
+#: unit.audioplayer.AudioPlayerUnit.decrease_volume:7
+#: unit.audioplayer.AudioPlayerUnit.end_audio:3
+#: unit.audioplayer.AudioPlayerUnit.end_combine_play:3
+#: unit.audioplayer.AudioPlayerUnit.end_repeat:3
+#: unit.audioplayer.AudioPlayerUnit.get_current_audio_number:10
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type:14
+#: unit.audioplayer.AudioPlayerUnit.get_current_play_device_type:6
+#: unit.audioplayer.AudioPlayerUnit.get_file_count:6
+#: unit.audioplayer.AudioPlayerUnit.get_file_name:6
+#: unit.audioplayer.AudioPlayerUnit.get_play_mode:10
+#: unit.audioplayer.AudioPlayerUnit.get_total_audio_number:10
+#: unit.audioplayer.AudioPlayerUnit.get_total_play_time:6
+#: unit.audioplayer.AudioPlayerUnit.get_volume:10
+#: unit.audioplayer.AudioPlayerUnit.increase_volume:7
+#: unit.audioplayer.AudioPlayerUnit.into_sleep_mode:6
+#: unit.audioplayer.AudioPlayerUnit.next_audio:10
+#: unit.audioplayer.AudioPlayerUnit.next_directory:3
+#: unit.audioplayer.AudioPlayerUnit.pause_audio:10
+#: unit.audioplayer.AudioPlayerUnit.play_audio:10
+#: unit.audioplayer.AudioPlayerUnit.play_audio_at_time:7
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_index:11
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_name:7
+#: unit.audioplayer.AudioPlayerUnit.play_current_audio_at_time:6
+#: unit.audioplayer.AudioPlayerUnit.previous_audio:10
+#: unit.audioplayer.AudioPlayerUnit.previous_directory:3
+#: unit.audioplayer.AudioPlayerUnit.repeat_at_time:8
+#: unit.audioplayer.AudioPlayerUnit.select_audio_num:11
+#: unit.audioplayer.AudioPlayerUnit.set_play_mode:9
+#: unit.audioplayer.AudioPlayerUnit.set_volume:9
+#: unit.audioplayer.AudioPlayerUnit.start_combine_play:6
+#: unit.audioplayer.AudioPlayerUnit.stop_audio:10
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/audioplayer.rst:52 f19f90d431944a95bd1c4be24e23fc41
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/audioplayer.rst:55 9cecf3099edc4ec593124e1e3f71089a
+msgid "AudioPlayerUnit"
+msgstr "AudioPlayerUnit"
+
+#: 404ff48fd1614db18ec8a4eb2f9c891b of unit.audioplayer.AudioPlayerUnit:1
+msgid "Bases: :py:class:`object`"
+msgstr "Bases: :py:class:`object`"
+
+#: 09210f248e2a43ad9f2bb028c13fca40 of unit.audioplayer.AudioPlayerUnit:1
+msgid "Create an AudioPlayerUnit object."
+msgstr "创建一个 AudioPlayerUnit 对象。"
+
+#: ../../source/unit/audioplayer.rst 056a7dcaaa9f4c849b4d89ce7e68b8fa
+#: 119e8e9be8e4461d8c208e336735a7b1 40755b863ced4236a589bc1c01f424a9
+#: 5924290fa168446994aabad68a2b77f4 72a06f6555e044d1bc60486a3e41752e
+#: 78f6c1c5d8424d3696e6892815aa009a 7dc241b1eab34863961cf231bcd79c93
+#: 8f5e42b080ed486e8084b1fd3b939be5 aa65f753e10742dcb6917bbbbe83215a
+#: c1ee03e1d2214c5a941314055670f095 of
+#: unit.audioplayer.AudioPlayerUnit.play_audio_at_time
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_index
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_name
+#: unit.audioplayer.AudioPlayerUnit.play_current_audio_at_time
+#: unit.audioplayer.AudioPlayerUnit.repeat_at_time
+#: unit.audioplayer.AudioPlayerUnit.select_audio_num
+#: unit.audioplayer.AudioPlayerUnit.set_play_mode
+#: unit.audioplayer.AudioPlayerUnit.set_volume
+#: unit.audioplayer.AudioPlayerUnit.start_combine_play
+msgid "Parameters"
+msgstr ""
+
+#: c29d066906a14189b55539c047967ca4 of unit.audioplayer.AudioPlayerUnit:3
+msgid "The UART ID of the device. Default is 2."
+msgstr "设备的 UART ID。默认值为 2。"
+
+#: 3e8072873c3948cba8797ce0235641a4 of unit.audioplayer.AudioPlayerUnit:4
+msgid "The UART port of the device."
+msgstr "设备的 UART 端口。"
+
+#: 66669b0a108b48b3bbfcca428a9dfb09 of unit.audioplayer.AudioPlayerUnit:6
+msgid "The verbose mode of the device. Default is False."
+msgstr "设备的详细模式。默认值为 False。"
+
+#: 526b849fc3af4117b184c163cd4375bd of unit.audioplayer.AudioPlayerUnit:10
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:6 283f8695bddc40c8b4671c371c12a9e5
+msgid "init.png"
+msgstr ""
+
+#: 93134e74efdb4e808f213718b7f8c2ef of
+#: unit.audioplayer.AudioPlayerUnit.check_play_status:1
+msgid "Check the play status of the audio player."
+msgstr "检查音频播放器的播放状态。"
+
+#: 0d1afe63301b41dca93a184be6a59add 13248839f00042cf8528b9ad0711db80
+#: 2fdddf820ed64c4cbe49562edbf52805 35c1d8c398854ba4baa0ac0ff70dd4d0
+#: 57183ae2266442f4950dee853371c358 5b480f23fcec46d2a811ad8eacb0c75d
+#: 72684470228c48a4819613df7d893b17 775ac29a4eb4479997137a4ce9971745
+#: 7876070f82ee4ddcaddef999808a5759 7a1fb0b1c3cf48b4b8a58a71dbccffa8
+#: 83eead5abd2d47e79b5325ad264ad496 85939cc29fed4358ae22db11e4f1f9d5
+#: 8c9dbe090c58428984666e55d02f2d4a 936387e9637a4755a85191976d6836a4
+#: b89b8e7aefe043c8afb6f5a6cc778a2d bd825a638c934e87b384adf1a62d96cd
+#: c8f6b0243b47496dae94aba25f17d0ad ccde3ffaf23e4fc1a47bb8813bd36835
+#: da4ba0cc8c3843e4ad614e96ec4c2571 of
+#: unit.audioplayer.AudioPlayerUnit.check_play_status
+#: unit.audioplayer.AudioPlayerUnit.get_current_audio_number
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type
+#: unit.audioplayer.AudioPlayerUnit.get_current_play_device_type
+#: unit.audioplayer.AudioPlayerUnit.get_file_count
+#: unit.audioplayer.AudioPlayerUnit.get_file_name
+#: unit.audioplayer.AudioPlayerUnit.get_play_mode
+#: unit.audioplayer.AudioPlayerUnit.get_total_audio_number
+#: unit.audioplayer.AudioPlayerUnit.get_total_play_time
+#: unit.audioplayer.AudioPlayerUnit.get_volume
+#: unit.audioplayer.AudioPlayerUnit.into_sleep_mode
+#: unit.audioplayer.AudioPlayerUnit.next_audio
+#: unit.audioplayer.AudioPlayerUnit.pause_audio
+#: unit.audioplayer.AudioPlayerUnit.play_audio
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_index
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_name
+#: unit.audioplayer.AudioPlayerUnit.previous_audio
+#: unit.audioplayer.AudioPlayerUnit.select_audio_num
+#: unit.audioplayer.AudioPlayerUnit.stop_audio
+msgid "Returns"
+msgstr ""
+
+#: 0c99a381a4e74f35ad0aaeb9e706c163 53ed009fe2bc41fa928501567daf7846
+#: 995ac13d5d724d1a8dfd4ad2d020ba20 cb6122e3b64340b096d4eb27e883c2d0 of
+#: unit.audioplayer.AudioPlayerUnit.check_play_status:3
+#: unit.audioplayer.AudioPlayerUnit.pause_audio:3
+#: unit.audioplayer.AudioPlayerUnit.play_audio:3
+#: unit.audioplayer.AudioPlayerUnit.stop_audio:3
+msgid "The play status of the audio player."
+msgstr "音频播放器的播放状态。"
+
+#: 029a4f12770d4e1f92860df73979c4e6 054e18425db54748a66ba862fdf778a8
+#: 104bf7e1b5fd494b9ad76644fc5dec3a 2723708a82854a1f8ba1a71e7da78864
+#: 41a4c59d93f441509a1f263258e94d46 449c00ae8f164cdd943656cbb798acfb
+#: 47e0566561064912b5abc9428b31309b 48267f0acf714db78d3ceb9fd3f57bed
+#: 4c5c68fcd72a4ac1b5ed9a33f230893f 5634b128bae0497fb86b386425931ac1
+#: 5b4e3eed330e41f19e66e8ba827fd24b 60b86c883ab54e10bcc9a10d015f5469
+#: 67f1323c9e56496c960eafa32e64fae4 6910106520334281b126bb134e41d4d6
+#: 7681f225ff8140bfb36a03768d582682 7e717fc3c7174973b0e983e72d9a7a90
+#: 8641287292794ac9abbd01a4187df24b 94282e1011a04ea8a0ad0ec7c102e2e3
+#: a76bd299542f4d42927555b63c029e5c acebfa51da584a78abc47b7622243e4b
+#: af145ff7008d4fea9934a6a3f3237ee6 aff129545dc04245a0378d4d732496e4
+#: ba563ab72fe348adaefec2c473e96830 be8ff3d4495c4a3db87f493c792cf58f
+#: c5989474838e4bf0a32bd8e72e57ccec d70455449f9a40b59cec79983a02432d
+#: ddabb254827d44cf9fe8fff6753aea63 de7547f57d074dcab313438d85c51a65
+#: e2f18dbcfeb54d18a85f441432bc4a12 f923cb9d12304ecb8a60bdc01194bb84
+#: fefd765c4a9d4ff1bf325fd317d444b5 ffe7fd98b2b24188ac4397290dc84fa0 of
+#: unit.audioplayer.AudioPlayerUnit.check_play_status
+#: unit.audioplayer.AudioPlayerUnit.decrease_volume
+#: unit.audioplayer.AudioPlayerUnit.end_audio
+#: unit.audioplayer.AudioPlayerUnit.end_combine_play
+#: unit.audioplayer.AudioPlayerUnit.end_repeat
+#: unit.audioplayer.AudioPlayerUnit.get_current_audio_number
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type
+#: unit.audioplayer.AudioPlayerUnit.get_current_play_device_type
+#: unit.audioplayer.AudioPlayerUnit.get_file_count
+#: unit.audioplayer.AudioPlayerUnit.get_file_name
+#: unit.audioplayer.AudioPlayerUnit.get_play_mode
+#: unit.audioplayer.AudioPlayerUnit.get_total_audio_number
+#: unit.audioplayer.AudioPlayerUnit.get_total_play_time
+#: unit.audioplayer.AudioPlayerUnit.get_volume
+#: unit.audioplayer.AudioPlayerUnit.increase_volume
+#: unit.audioplayer.AudioPlayerUnit.into_sleep_mode
+#: unit.audioplayer.AudioPlayerUnit.next_audio
+#: unit.audioplayer.AudioPlayerUnit.next_directory
+#: unit.audioplayer.AudioPlayerUnit.pause_audio
+#: unit.audioplayer.AudioPlayerUnit.play_audio
+#: unit.audioplayer.AudioPlayerUnit.play_audio_at_time
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_index
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_name
+#: unit.audioplayer.AudioPlayerUnit.play_current_audio_at_time
+#: unit.audioplayer.AudioPlayerUnit.previous_audio
+#: unit.audioplayer.AudioPlayerUnit.previous_directory
+#: unit.audioplayer.AudioPlayerUnit.repeat_at_time
+#: unit.audioplayer.AudioPlayerUnit.select_audio_num
+#: unit.audioplayer.AudioPlayerUnit.set_play_mode
+#: unit.audioplayer.AudioPlayerUnit.set_volume
+#: unit.audioplayer.AudioPlayerUnit.start_combine_play
+#: unit.audioplayer.AudioPlayerUnit.stop_audio
+msgid "Return type"
+msgstr ""
+
+#: 2e1ff2c2c1f8466a9e1fb5fbbde74148 of
+#: unit.audioplayer.AudioPlayerUnit.check_play_status:8
+msgid "|check_play_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:8 190aee5018b045e1a7c2b3f543b83d7a
+msgid "check_play_status.png"
+msgstr ""
+
+#: 51b63a4db9fe47da97b38f6c3052bf85 of
+#: unit.audioplayer.AudioPlayerUnit.play_audio:1
+msgid "Play the audio."
+msgstr "播放音频。"
+
+#: 2b2fe48b0f394002b64ac476377f1c8f of
+#: unit.audioplayer.AudioPlayerUnit.play_audio:8
+msgid "|play_audio.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:12 96dd50c07dec4696a5e3c80009866cec
+msgid "play_audio.png"
+msgstr ""
+
+#: 5b2a1ce5fa83448596f31fcb48130c6f of
+#: unit.audioplayer.AudioPlayerUnit.pause_audio:1
+msgid "Pause the audio."
+msgstr "暂停音频。"
+
+#: 6d38d173d9104d70a3dbcc5f09733692 of
+#: unit.audioplayer.AudioPlayerUnit.pause_audio:8
+msgid "|pause_audio.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:13 e99d20dbcf5240319995e6512a503bda
+msgid "pause_audio.png"
+msgstr ""
+
+#: 025d49c60d8f4b3ca69b57cba9f6a9db of
+#: unit.audioplayer.AudioPlayerUnit.stop_audio:1
+msgid "Stop the audio."
+msgstr "停止音频。"
+
+#: 17f61b9ffa40442b950e33a2228accef of
+#: unit.audioplayer.AudioPlayerUnit.stop_audio:8
+msgid "|stop_audio.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:14 278c6f3c11884577bf959a7ddded9d13
+msgid "stop_audio.png"
+msgstr ""
+
+#: c18f22d5d450416f9b2fc193650e9566 of
+#: unit.audioplayer.AudioPlayerUnit.next_audio:1
+msgid "Play the next audio."
+msgstr "播放下一段音频。"
+
+#: 2bab61fb50dc451ea87a8f53c876b437 3f605047feb74ec7ba529782076f0201
+#: d0a53b40fcaa42f790e2ada117d3546f f4b14299f37f4a0db5c0e4c9f07043f9 of
+#: unit.audioplayer.AudioPlayerUnit.next_audio:3
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_index:4
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_name:4
+#: unit.audioplayer.AudioPlayerUnit.previous_audio:3
+msgid "Current play audio index."
+msgstr "当前播放音频索引。"
+
+#: a1a3464ae9654bf3bec5200fd2a03db0 of
+#: unit.audioplayer.AudioPlayerUnit.next_audio:8
+msgid "|next_audio.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:15 a48dda99587c40f9a1ab32ff43f99843
+msgid "next_audio.png"
+msgstr ""
+
+#: ce99613db1e0436e889f0fc0380850e7 of
+#: unit.audioplayer.AudioPlayerUnit.previous_audio:1
+msgid "Play the previous audio."
+msgstr "播放上一段音频。"
+
+#: 83d14118c2964bc0826ee5fb6b3b774e of
+#: unit.audioplayer.AudioPlayerUnit.previous_audio:8
+msgid "|previous_audio.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:16 a6af8cab1b62441f80d0b7115ce3d8a0
+msgid "previous_audio.png"
+msgstr ""
+
+#: 43eca79ecd55495d93412948a6ccf988 of
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_index:1
+msgid "Play audio by index number."
+msgstr "按索引编号播放音频。"
+
+#: cff2a7c199c14e1cab284d1ba1252686 of
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_index:3
+msgid "The index of the audio to play."
+msgstr "要播放的音频索引。"
+
+#: 542f9435f36c47ddb4dd5721b321e23a of
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_index:9
+msgid "|play_audio_by_index.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:17 cc90c9843c114d679705f7e6cc20ce15
+msgid "play_audio_by_index.png"
+msgstr ""
+
+#: 59deda6cdc7e4786a247ea49ebbaa9f4 of
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_name:1
+msgid "Play audio by file name."
+msgstr "按文件名播放音频。"
+
+#: a2c1ebfaa4f8462fbee2d0ce7787329a of
+#: unit.audioplayer.AudioPlayerUnit.play_audio_by_name:3
+msgid "The name of the audio file to play."
+msgstr "要播放的音频文件名称。"
+
+#: f95f65d4122341e894e6d613db08fb05 of
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type:1
+msgid "Get the current online device type."
+msgstr "获取当前在线设备类型。"
+
+#: 523b1a382f754ffb8c1ec5ee021c86dc of
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type:3
+msgid "Device type code"
+msgstr "设备类型代码"
+
+#: db32e4358b8c47fcaff14fc86e7083ff of
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type:4
+msgid ""
+"int  Device type:     - 1: USB     - 2: SD     - 3: UDISK or SD     - 4: "
+"Flash     - 5: Flash or UDISK     - 6: Flash or SD"
+msgstr ""
+"int  设备类型：     - 1：USB     - 2：SD     - 3：UDISK 或 SD     - 4：Flash     - "
+"5：Flash 或 UDISK     - 6：Flash 或 SD"
+
+#: 72a97e0941fa4cbaa99347af9eda6e4e of
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type:4
+msgid "int"
+msgstr "int"
+
+#: 1b7ef293928048e099bb41852a4e082c of
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type:12
+msgid "Device type:"
+msgstr "设备类型："
+
+#: 62d4f6369eae45db9570729cfde2fa1c of
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type:7
+msgid "1: USB"
+msgstr "USB"
+
+#: 6df16e3f28ae4ce9806ac0380a2fb353 of
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type:8
+msgid "2: SD"
+msgstr "2：SD"
+
+#: c17028a2ba754678a0a023edbd647ffc of
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type:9
+msgid "3: UDISK or SD"
+msgstr "UDISK 或 SD"
+
+#: a9f825a37467484ba74f89b070ee960c of
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type:10
+msgid "4: Flash"
+msgstr "4：Flash"
+
+#: f2a7654d04284615b89767fdd49980d6 of
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type:11
+msgid "5: Flash or UDISK"
+msgstr "5：Flash 或 UDISK"
+
+#: c4d42f402cdc4f60a0e76acf31dc6089 of
+#: unit.audioplayer.AudioPlayerUnit.get_current_online_device_type:12
+msgid "6: Flash or SD"
+msgstr "6：Flash 或 SD"
+
+#: f6dc4eee19014b26aa5709f1d6c42dce of
+#: unit.audioplayer.AudioPlayerUnit.get_current_play_device_type:1
+msgid "Get the current play device type."
+msgstr "获取当前播放设备类型。"
+
+#: ab1d6eed63114fa788a86727766bec28 of
+#: unit.audioplayer.AudioPlayerUnit.get_current_play_device_type:3
+msgid "Device type code (0: USB, 1: SD, 2: SPI FLASH)."
+msgstr "设备类型代码（0：USB，1：SD，2：SPI FLASH）。"
+
+#: c0877a8f39e74fc0a5ba62174eaee252 of
+#: unit.audioplayer.AudioPlayerUnit.get_total_audio_number:1
+msgid "Get the total number of audio files available."
+msgstr "获取可用音频文件的总数。"
+
+#: 33ee28e1e16d4a5ea59ec84089cbf1a8 of
+#: unit.audioplayer.AudioPlayerUnit.get_total_audio_number:3
+msgid "The total number of audio files."
+msgstr "音频文件的总数。"
+
+#: 12e30fba22dc4d139e316ce53377f930 of
+#: unit.audioplayer.AudioPlayerUnit.get_total_audio_number:8
+msgid "|get_total_audio_number.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:9 719d688a831946cbbccf0e2c128848ca
+msgid "get_total_audio_number.png"
+msgstr ""
+
+#: 61a47c5f19d34d5c8562f620d1a921e2 of
+#: unit.audioplayer.AudioPlayerUnit.get_current_audio_number:1
+msgid "Get the current audio file number."
+msgstr "获取当前音频文件编号。"
+
+#: 8246be00f93d44b28e3ebd485a4cce1f of
+#: unit.audioplayer.AudioPlayerUnit.get_current_audio_number:3
+msgid "The current audio file number."
+msgstr "当前音频文件编号。"
+
+#: cc62131a3a42458eb1b25207ff4758f5 of
+#: unit.audioplayer.AudioPlayerUnit.get_current_audio_number:8
+msgid "|get_current_audio_number.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:10 e2f76c05209a46e2b2ece1c0d9f9f893
+msgid "get_current_audio_number.png"
+msgstr ""
+
+#: 98f38093e1d6445792608d8a770b2f8c of
+#: unit.audioplayer.AudioPlayerUnit.play_current_audio_at_time:1
+msgid "Play the current audio from a specific time position."
+msgstr "从指定的时间位置开始播放当前音频。"
+
+#: b3dcac838a2e4d9fb3cf5506a820c069 d4f44de814c14caf941edd6dd1cd6626 of
+#: unit.audioplayer.AudioPlayerUnit.play_audio_at_time:4
+#: unit.audioplayer.AudioPlayerUnit.play_current_audio_at_time:3
+msgid "The minute position to start playing from."
+msgstr "开始播放的分钟位置。"
+
+#: 9f2ed2d2af74453ea353dbdbf2620739 e80971f474ec415997632db90dc357eb of
+#: unit.audioplayer.AudioPlayerUnit.play_audio_at_time:5
+#: unit.audioplayer.AudioPlayerUnit.play_current_audio_at_time:4
+msgid "The second position to start playing from."
+msgstr "开始播放的第二个位置。"
+
+#: 54c8dcd92d644e7084235db425a2faa0 of
+#: unit.audioplayer.AudioPlayerUnit.play_audio_at_time:1
+msgid "Play a specific audio file from a specific time position."
+msgstr "从指定时间位置播放指定的音频文件。"
+
+#: 15c307af69e64974bcd78cc98a5a1b66 of
+#: unit.audioplayer.AudioPlayerUnit.play_audio_at_time:3
+msgid "The index of the audio file to play."
+msgstr "要播放的音频文件索引。"
+
+#: 3fff00ebe5144b01887555e6450a5531 of
+#: unit.audioplayer.AudioPlayerUnit.next_directory:1
+msgid "Navigate to the next directory."
+msgstr "进入下一个目录。"
+
+#: 0d486f250df841fd87b7ae88fb554294 of
+#: unit.audioplayer.AudioPlayerUnit.previous_directory:1
+msgid "Navigate to the previous directory."
+msgstr "切换到上一级目录。"
+
+#: 2f6f90fbc4b5409e94c46d43a9060aa3 of
+#: unit.audioplayer.AudioPlayerUnit.end_audio:1
+msgid "End playing the current audio."
+msgstr "结束播放当前音频。"
+
+#: 0c7d16b9d46d4126a24434bdceceb511 of
+#: unit.audioplayer.AudioPlayerUnit.get_file_name:1
+msgid "Get the name of the current audio file."
+msgstr "获取当前音频文件的名称。"
+
+#: 7e5a1cd222d74f8ea0ed03f809faf312 of
+#: unit.audioplayer.AudioPlayerUnit.get_file_name:3
+msgid "The name of the current audio file as a list of bytes."
+msgstr "当前音频文件的名称，以字节列表形式表示。"
+
+#: 9f500ec529e94f9dbc0d1427a3385530 of
+#: unit.audioplayer.AudioPlayerUnit.select_audio_num:1
+msgid "Select an audio file by number without playing it."
+msgstr "按编号选择一个音频文件，但不播放它。"
+
+#: c0acacb2942948edbfc3d8b72162f17a of
+#: unit.audioplayer.AudioPlayerUnit.select_audio_num:3
+msgid "The number of the audio file to select."
+msgstr "要选择的音频文件编号。"
+
+#: 553cc363e688487b83bd9659b9a47fbf of
+#: unit.audioplayer.AudioPlayerUnit.select_audio_num:4
+msgid "The current selected audio file number."
+msgstr "当前选中的音频文件编号。"
+
+#: 5f1a95b328be4730a045fc455f26df8b of
+#: unit.audioplayer.AudioPlayerUnit.select_audio_num:9
+msgid "|select_audio_num.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:18 09b955a4459a46229503d9cc0dcc3e97
+msgid "select_audio_num.png"
+msgstr ""
+
+#: 87fb90de11b34e86a25d11284064d3a7 of
+#: unit.audioplayer.AudioPlayerUnit.get_file_count:1
+msgid "Get the total number of files in the current directory."
+msgstr "获取当前目录中的文件总数。"
+
+#: e83125a7d4914648bf2d89b282582c0c of
+#: unit.audioplayer.AudioPlayerUnit.get_file_count:3
+msgid "The total number of files."
+msgstr "文件总数。"
+
+#: d4d454bd936c48718a27124fc02682a2 of
+#: unit.audioplayer.AudioPlayerUnit.get_total_play_time:1
+msgid "Get the total play time of the current audio file."
+msgstr "获取当前音频文件的总播放时长。"
+
+#: cc6e71308dd04f7f80b0128bf2413134 of
+#: unit.audioplayer.AudioPlayerUnit.get_total_play_time:3
+msgid "A tuple containing (hour, minute, second) of the total play time."
+msgstr "一个包含总播放时长 (hour, minute, second) 的元组。"
+
+#: 938b3eaccba145e7babe13e739423a21 of
+#: unit.audioplayer.AudioPlayerUnit.decrease_volume:1
+msgid "Decrease the volume of the audio player."
+msgstr "降低音频播放器的音量。"
+
+#: f0d0be359c57483bbf4ee50edd3c2cd6 of
+#: unit.audioplayer.AudioPlayerUnit.decrease_volume:5
+msgid "|decrease_volume.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:22 22e85baa09c84fd5892072595dffce83
+msgid "decrease_volume.png"
+msgstr ""
+
+#: dc0747079b454280a114f864baf35d76 of
+#: unit.audioplayer.AudioPlayerUnit.increase_volume:1
+msgid "Increase the volume of the audio player."
+msgstr "提高音频播放器的音量。"
+
+#: 211ff0db2cff4d10b1fd877a2551f149 of
+#: unit.audioplayer.AudioPlayerUnit.increase_volume:5
+msgid "|increase_volume.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:21 42ee182966a94b5f9c1937b3ea7fdbaf
+msgid "increase_volume.png"
+msgstr ""
+
+#: 3ed8297373304fa7ad56db4855f1b93d of
+#: unit.audioplayer.AudioPlayerUnit.get_volume:1
+msgid "Get the current volume level of the audio player."
+msgstr "获取音频播放器的当前音量级别。"
+
+#: f2dfdf9179fc4530b438a35d2224284a of
+#: unit.audioplayer.AudioPlayerUnit.get_volume:3
+msgid "The current volume level."
+msgstr "当前音量级别。"
+
+#: a963de451c0344a3b72666f5507a66f6 of
+#: unit.audioplayer.AudioPlayerUnit.get_volume:8
+msgid "|get_volume.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:20 a5f521027118449183e8bdbf5bdc635c
+msgid "get_volume.png"
+msgstr ""
+
+#: 2691d7034dfd49feb0126132a645879e of
+#: unit.audioplayer.AudioPlayerUnit.set_volume:1
+msgid "Set the volume level of the audio player."
+msgstr "设置音频播放器的音量级别。"
+
+#: 6f834d106a454ecb877beb376713f0d2 of
+#: unit.audioplayer.AudioPlayerUnit.set_volume:3
+msgid "The volume level to set (0-30)."
+msgstr "要设置的音量级别（0-30）。"
+
+#: c05bf4778cea4f36ac3100961059cf4e of
+#: unit.audioplayer.AudioPlayerUnit.set_volume:7
+msgid "|set_volume.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:23 81da167accd24154bca87dbceada551f
+msgid "set_volume.png"
+msgstr ""
+
+#: e19a2415f13e40a0903fc12fe97d0ed9 of
+#: unit.audioplayer.AudioPlayerUnit.repeat_at_time:1
+msgid "Set repeat playback between two time positions."
+msgstr "在两个时间位置之间设置重复播放。"
+
+#: 790b5a1f67ac44f8b19c51df00d23638 of
+#: unit.audioplayer.AudioPlayerUnit.repeat_at_time:3
+msgid "The start minute position."
+msgstr "起始分钟位置。"
+
+#: da1689c9a1584841a2c5aafba5ba22b9 of
+#: unit.audioplayer.AudioPlayerUnit.repeat_at_time:4
+msgid "The start second position."
+msgstr "起始秒位置。"
+
+#: 32adec1eeab14d80accfd644fd4d10b2 of
+#: unit.audioplayer.AudioPlayerUnit.repeat_at_time:5
+msgid "The end minute position."
+msgstr "结束分钟位置。"
+
+#: f7a0bd34faa944d29c5648f7abe2f6ef of
+#: unit.audioplayer.AudioPlayerUnit.repeat_at_time:6
+msgid "The end second position."
+msgstr "末尾秒位置。"
+
+#: 7456bc0590894170b353b590b0c0033a of
+#: unit.audioplayer.AudioPlayerUnit.end_repeat:1
+msgid "End the repeat playback mode."
+msgstr "结束重复播放模式。"
+
+#: 59c469f40875465688f764d30c8d8ccb of
+#: unit.audioplayer.AudioPlayerUnit.get_play_mode:1
+msgid "Get the current play mode."
+msgstr "获取当前播放模式。"
+
+#: 3d701df9bab741b984b8ae8471736a8f of
+#: unit.audioplayer.AudioPlayerUnit.get_play_mode:3
+msgid "The current play mode."
+msgstr "当前播放模式。"
+
+#: 3d0c9f2b06ea4fb48b16b074f86dba50 of
+#: unit.audioplayer.AudioPlayerUnit.get_play_mode:8
+msgid "|get_play_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:11 5fe3097c5d8845abb392579b5868df0e
+msgid "get_play_mode.png"
+msgstr ""
+
+#: ead49e158c2b4b35ba61014544ae701d of
+#: unit.audioplayer.AudioPlayerUnit.set_play_mode:1
+msgid "Set the play mode."
+msgstr "设置播放模式。"
+
+#: f3f62a38ca1d4bfca39f662c9673ce9d of
+#: unit.audioplayer.AudioPlayerUnit.set_play_mode:3
+msgid "The play mode to set."
+msgstr "要设置的播放模式。"
+
+#: 2636b67b66d640359a5147adecf4c108 of
+#: unit.audioplayer.AudioPlayerUnit.set_play_mode:7
+msgid "|set_play_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.audioplayer.ref:19 ce12f8a1500b4aab8fa880b2c9ba9451
+msgid "set_play_mode.png"
+msgstr ""
+
+#: b42e026f26ac478eb1c4097a6425df0c of
+#: unit.audioplayer.AudioPlayerUnit.start_combine_play:1
+msgid "Start combined play mode."
+msgstr "启动组合播放模式。"
+
+#: 4db33270d5a740ca94072c5fd5cdb3ee of
+#: unit.audioplayer.AudioPlayerUnit.start_combine_play:3
+msgid "The combined play mode."
+msgstr "组合播放模式。"
+
+#: 7301d6e5358e41709c4924929112eafb of
+#: unit.audioplayer.AudioPlayerUnit.start_combine_play:4
+msgid "The data for combined play."
+msgstr "用于组合播放的数据。"
+
+#: e2d8db1404ca4cb499f1dbc509a48b1a of
+#: unit.audioplayer.AudioPlayerUnit.end_combine_play:1
+msgid "End the combined play mode."
+msgstr "结束组合播放模式。"
+
+#: 66053c81b4e84a0487011b1ca153224c of
+#: unit.audioplayer.AudioPlayerUnit.into_sleep_mode:1
+msgid "Put the audio player into sleep mode."
+msgstr "将音频播放器置于睡眠模式。"
+
+#: 7210f9ff97a84487816ff7249675a5ae of
+#: unit.audioplayer.AudioPlayerUnit.into_sleep_mode:3
+msgid "True if the command was sent successfully."
+msgstr "如果命令发送成功，则为 True。"
+

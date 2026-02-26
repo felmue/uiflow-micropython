@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/refs/unit.servo180.ref ../../source/unit/servo180.rst:2
+#: 581c01ecda9c4da095e92fe0e3178c45 865e82f8b1d54511b7425e1f5d8d3fef
+msgid "Servo Kit 180°"
+msgstr "Servo Kit 180°"
+
+#: ../../source/unit/servo180.rst:8 e4c257a186b14e89a2c85f4da28930cf
+msgid ""
+"This is the driver library of Servo 180 Unit, which is used to control "
+"the rotation angle of the servo."
+msgstr "这是 Servo 180 Unit 的驱动库，用于控制舵机的旋转角度。"
+
+#: ../../source/unit/servo180.rst:10 06f8f7511a7b49168ad32a25ca702b0c
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/servo180.rst:12 8ae66af5750f4e248f5077c0b33b6a03
+msgid "|Servo Kit 180°|"
+msgstr ""
+
+#: ../../source/unit/servo180.rst:16 140ef2aca0324914866179f8be30e812
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/servo180.rst:19 ../../source/unit/servo180.rst:33
+#: 687a60ea02da4319b3ea19bc7a295dbc d4f026de4c5c4697bb2f81cad625241c
+msgid "Set servo angle"
+msgstr "设置舵机角度"
+
+#: ../../source/unit/servo180.rst:21 67020d3a15d44e54aa99a039de017f4e
+msgid "Open the |cores3_servo180_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |cores3_servo180_example.m5f2| 项目。"
+
+#: ../../source/unit/servo180.rst:23 ../../source/unit/servo180.rst:35
+#: 561a0beadbcf4a019358fee42311c280 ab9970ed01164e2491ef777890b488e3
+msgid "This example controls the servo to rotate to different angles."
+msgstr "该示例控制舵机旋转到不同角度。"
+
+#: ../../source/unit/servo180.rst:25 212c3125e3194f52af898d4c32f2587b
+#: 7ba0ae813fd34331830caba0ee33da27 86cd25d2a0a240a28bacd0e417ef778c
+#: 8f4d1bf472e94039b9fc972e700fb147 913b94215cd847dab41fb9c9f9a9f258
+#: 9903278e73d2429fbc4035e617936fb1 of unit.servo180.Servo180Unit:10
+#: unit.servo180.Servo180Unit.set_angle:6 unit.servo180.Servo180Unit.set_duty:6
+#: unit.servo180.Servo180Unit.set_percent:6
+#: unit.servo180.Servo180Unit.set_radian:6
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/servo180.rst:27 7fa3eeaf4e9b4752b16042bc6a408cc8
+msgid "|cores3_servo180_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servo180.ref:7 2161effd7a2c47a2a8e51ac8b5ac6c39
+msgid "cores3_servo180_example.png"
+msgstr ""
+
+#: ../../source/unit/servo180.rst:30 94679294eb5b4a4b8647a6c06f925ff7
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/servo180.rst:37 2e848b8341e947c29e95bbb434857a88
+#: 2f19db453d0c442a8057f5da480dc2dd 86875f34957a488b942fc2a83a83f2f0
+#: a22b64370d4e402d908d60c98358b968 ae3019fcd1d74de98273bd45940e05d3
+#: f2d24570ff924d789dfdba87e75fa177 of unit.servo180.Servo180Unit:16
+#: unit.servo180.Servo180Unit.set_angle:10
+#: unit.servo180.Servo180Unit.set_duty:10
+#: unit.servo180.Servo180Unit.set_percent:10
+#: unit.servo180.Servo180Unit.set_radian:10
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/servo180.rst:45 53783e1528ee49a98d7db7099eba2fc6
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/servo180.rst:48 144e4f2a4bfc45059de8e81ea7b4d1e7
+msgid "Servo180Unit"
+msgstr "Servo180Unit"
+
+#: d07fad26a00b40e58c1845f6ab2b0c27 of unit.servo180.Servo180Unit:1
+msgid "Bases: :py:class:`object`"
+msgstr "基类：:py:class:`object`"
+
+#: 23043fd2b2d44f1fa837abe00944013b of unit.servo180.Servo180Unit:1
+msgid "Control a 180-degree servo motor."
+msgstr "控制 180 度舵机电机。"
+
+#: ../../source/unit/servo180.rst 0877a14ff4aa46a0ae0812934dae2d74
+#: 7d831fedb3974a9084dbfd92fdd39d36 b4f3880766bc4f769f9c62a58b8f8c38
+#: e8036ceb9df0413e9d319f94aa3147a5 ee2cca95bce24a6b913f3bff663f5804 of
+#: unit.servo180.Servo180Unit.set_angle unit.servo180.Servo180Unit.set_percent
+#: unit.servo180.Servo180Unit.set_radian
+msgid "Parameters"
+msgstr ""
+
+#: 04f5805c0565484993d90c503ed2e1ad of unit.servo180.Servo180Unit:3
+msgid "The port the servo is connected to."
+msgstr "舵机连接的端口。"
+
+#: a8f4cb2a88f14357a007d48153df5bf5 of unit.servo180.Servo180Unit:5
+msgid "The pin the servo is connected to (if not using a port)."
+msgstr "舵机连接的引脚（如果不使用端口）。"
+
+#: 55d1a67e3ce644849a344612a5630533 of unit.servo180.Servo180Unit:6
+msgid "The PWM frequency. Default is 50Hz."
+msgstr "PWM 频率。默认值为 50 Hz。"
+
+#: 80d764eed65e40c2a471fbe44f677918 of unit.servo180.Servo180Unit:7
+msgid "The duty cycle microseconds count for 0 degrees. Default is 500."
+msgstr "0 度的占空比微秒计数。默认值为 500。"
+
+#: a30971464ab14ec3ac63faac5477bf34 of unit.servo180.Servo180Unit:8
+msgid "The duty cycle microseconds count for 180 degrees. Default is 2500."
+msgstr "180 度对应的占空比微秒计数。默认值为 2500。"
+
+#: 406e99ec9d1b42e69d3f4e1c8b45e175 of unit.servo180.Servo180Unit:12
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servo180.ref:8 98549a1dc81549f297f0a5dcccf6613d
+msgid "init.png"
+msgstr ""
+
+#: eec242bcf04b450c87044e1ab8a5c607 of unit.servo180.Servo180Unit:14
+msgid "|init_advanced.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servo180.ref:9 9708e3781f1b4915b5f60d05bb62b301
+msgid "init_advanced.png"
+msgstr ""
+
+#: 08f31cbf81b4438681153180bae1face of unit.servo180.Servo180Unit.set_angle:1
+msgid "Set the servo to a specific angle."
+msgstr "将舵机设置为指定角度。"
+
+#: b64297236f9f4d8b9de936c5452e537f of unit.servo180.Servo180Unit.set_angle:3
+msgid "Angle in degrees (0 to 180)."
+msgstr "角度（单位：度，范围：0 到 180）。"
+
+#: 0a773c2f56ce47b88e6e1311ff6b4ac6 48a83abb268541189000a2bb5d35c06c
+#: 68ccb65b6463411c9d955dbfb4f78612 6f4e672a7b3b4ca39c8c517fcc056729 of
+#: unit.servo180.Servo180Unit.set_angle:4 unit.servo180.Servo180Unit.set_duty:4
+#: unit.servo180.Servo180Unit.set_percent:4
+#: unit.servo180.Servo180Unit.set_radian:4
+msgid "Whether to wait for the servo to reach the position."
+msgstr "是否等待舵机到达目标位置。"
+
+#: ../../source/unit/servo180.rst 33295531cefd4f36ab7d102219725d42
+#: ab3e093ff52041648a081eccdb384c96 e5c0789e58f74e4aa4219dbcef4a719d
+#: e8ae5ebebc0f4ea5a0fcaf3451a414c1 of unit.servo180.Servo180Unit.set_angle
+#: unit.servo180.Servo180Unit.set_percent unit.servo180.Servo180Unit.set_radian
+msgid "Return type"
+msgstr ""
+
+#: 1bf4e33a710142a4b6e11f44fef11e10 of unit.servo180.Servo180Unit.set_angle:8
+msgid "|set_angle.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servo180.ref:10 82a3446cfd2a4035b27ee934a2906c61
+msgid "set_angle.png"
+msgstr ""
+
+#: 938b99fa422141e0890a51426bc38331 of unit.servo180.Servo180Unit.set_duty:1
+msgid "Set the duty cycle in microseconds."
+msgstr "以微秒为单位设置占空比。"
+
+#: 6c78d96645c14dffb57429c628d64169 of unit.servo180.Servo180Unit.set_duty:3
+msgid "Duty cycle in microseconds (500 to 2500)."
+msgstr "以微秒为单位的占空比（500 到 2500）。"
+
+#: 5fb5338d900848c7ab748d48753ebbea of unit.servo180.Servo180Unit.set_duty:8
+msgid "|set_duty.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servo180.ref:11 405c3dd8ac8847448c7357ed182befe6
+msgid "set_duty.png"
+msgstr ""
+
+#: 3524f7b468574e84ba337a5d218515a9 of unit.servo180.Servo180Unit.set_percent:1
+msgid "Set the servo position as a percentage."
+msgstr "将舵机位置设置为百分比。"
+
+#: 5322caf3219f42409a1580275b5e4281 of unit.servo180.Servo180Unit.set_percent:3
+msgid "Position as a percentage (0 to 100)."
+msgstr "位置百分比（0 到 100）。"
+
+#: 334ee03d94bb4c2da86cdcb6d3d9409e of unit.servo180.Servo180Unit.set_percent:8
+msgid "|set_percent.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servo180.ref:12 e10634daa2584ac9a225c88618624f1e
+msgid "set_percent.png"
+msgstr ""
+
+#: 922305c6b2a944bfb4aae810b8faba4d of unit.servo180.Servo180Unit.set_radian:1
+msgid "Set the servo position in radians."
+msgstr "以弧度为单位设置舵机位置。"
+
+#: 3e75fc8c517344e786961f64dab2f581 of unit.servo180.Servo180Unit.set_radian:3
+msgid "Position in radians (0 to π)."
+msgstr "以弧度表示的位置（0 到 π）。"
+
+#: 5f084a593d574e2b8de5ecd77afb7c1a of unit.servo180.Servo180Unit.set_radian:8
+msgid "|set_radian.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servo180.ref:13 dcb8325d2ebf488eb53d7e41e229694f
+msgid "set_radian.png"
+msgstr ""
+
+#: 572470ca3bcc476ea33d9cab9faf084d of unit.servo180.Servo180Unit.deinit:1
+msgid "Deinitialize the servo motor."
+msgstr "反初始化舵机电机。"
+

@@ -22,33 +22,33 @@ msgstr ""
 
 #: ../../en/software/jpg.rst:2 5db9dbbf2f7f4832b1086e3282c4d97b
 msgid ":mod:`jpg`"
-msgstr ""
+msgstr ":mod:`jpg`"
 
 #: ../../en/software/jpg.rst:6 17888f6a67ca4e65a61794404667e683
 msgid "This module is only applicable to the CoreS3 Controller"
-msgstr ""
+msgstr "该模块仅适用于 CoreS3 Controller。"
 
 #: ../../en/software/jpg.rst:11 434b70f890c64f9d9d75bd59f6c6660a
 msgid "``jpg`` module for encoding and decoding operations of JPG format images"
-msgstr ""
+msgstr "``jpg`` 模块用于对 JPG 格式图像进行编码和解码操作。"
 
 #: ../../en/software/jpg.rst:14 1b0044ddc0f144ffb1a45abb3c639bcc
 msgid "Micropython Example"
-msgstr ""
+msgstr "MicroPython 应用示例"
 
 #: ../../en/software/jpg.rst:17 ../../en/software/jpg.rst:30
 #: 041f20804fa140d99c3cf34056434b28 64aacf6b6e2c4cb59240821d5bf0131f
 msgid "take photo"
-msgstr ""
+msgstr "拍照"
 
 #: ../../en/software/jpg.rst:19 ../../en/software/jpg.rst:32
 #: 336f04e6aa0c43658b7ddd968afe208c 982d08b30af2484ea82a838ee7759820
 msgid "Click the screen to start the countdown and take a photo"
-msgstr ""
+msgstr "点击屏幕开始倒计时并拍照。"
 
 #: ../../en/software/jpg.rst:27 c3a62d343d2c43ad8f3c68385d0b71f2
 msgid "UIFlow2.0 Example"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/software/jpg.rst:34 0ac1c7eac40d4379bd6d8ab7e9ea1c62
 msgid "|take_photo_example.png|"
@@ -68,11 +68,11 @@ msgstr ""
 
 #: ../../en/software/jpg.rst:46 e19f86ab855245acb0f8d7b5c9b3c287
 msgid "encode to jog photo"
-msgstr ""
+msgstr "将照片编码为 jog 格式。"
 
 #: ../../en/software/jpg.rst:48 c3457c7e3bd44cb6bf69175ccb154fee
 msgid "``img`` Image to be encoded, in the format of image.RGB565"
-msgstr ""
+msgstr "``img`` 要编码的图像，格式为 image.RGB565。"
 
 #: ../../en/software/jpg.rst:50 0abf65a83cdb427badfc684edcb1ad6a
 msgid "Return ``image.Image`` instance, image format image.JPEG"
@@ -81,7 +81,7 @@ msgstr ""
 #: ../../en/software/jpg.rst:52 ../../en/software/jpg.rst:64
 #: 23058bf2b0d74efcaae3adce8f70bbe2 71a400542168481c973cb182afb9e953
 msgid "UIFlow2.0"
-msgstr ""
+msgstr "UIFlow2.0"
 
 #: ../../en/software/jpg.rst:54 df32907f280544fca57f4bd14ab1c7c2
 msgid "|encode.png|"
@@ -93,7 +93,7 @@ msgstr ""
 
 #: ../../en/software/jpg.rst:58 95499ac16b5f44e294a2d1e18c4ea2dc
 msgid "jpg photo decode"
-msgstr ""
+msgstr "JPEG 照片解码"
 
 #: ../../en/software/jpg.rst:60 a0dc3064a69a410d82d7603b65799248
 msgid "``img`` Image to be decoded, in the format of image.JPEG"
@@ -101,7 +101,7 @@ msgstr ""
 
 #: ../../en/software/jpg.rst:62 08c189b3345e44ed8e82dfd6e873bea4
 msgid "Return ``image.Image`` instance, image format image.RGB565"
-msgstr ""
+msgstr "返回 ``image.Image`` 实例，图像格式为 image.RGB565。"
 
 #: ../../en/software/jpg.rst:66 b552ea2bbed540d4b1263157ea37299e
 msgid "|decode.png|"

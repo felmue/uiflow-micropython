@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/pir.rst:2 a68528898ca84fe396eed1d3db3ca110
+msgid "PIR Unit"
+msgstr "PIR Unit"
+
+#: ../../source/unit/pir.rst:6 a171241726d5486f8097e835c03f88db
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/pir.rst:8 fa172ce040fa4670bbea549ac88f936b
+msgid "|PIR|"
+msgstr ""
+
+#: ../../source/refs/unit.pir.ref b48d60c5af1641d2804a681363f698c1
+msgid "PIR"
+msgstr "PIR"
+
+#: ../../source/unit/pir.rst:11 8161bb7f6aa24b8c89117fdc902e15e3
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/pir.rst:18 0e1f32338f0c453284373748ca5a0203
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/pir.rst:20 0566392c4fa74a76ba43fe42c145897e
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.pir.ref:7 fa1f98695769450ca39e60da950186fb
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/pir.rst:25 3c5c2a75f1654c9da5bea3ffe218a082
+msgid "|pir_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/pir.rst:29 4fa4bc82c1084ba09edbf2488f8a6ad0
+msgid "class PIR"
+msgstr "class PIR"
+
+#: ../../source/unit/pir.rst:32 293d3be0c98f444bb7539e487bdeb842
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/pir.rst:36 254f125e598442e79f34feea16727d1e
+msgid "Create a PIR object."
+msgstr "创建一个 PIR 对象。"
+
+#: ../../source/unit/pir.rst:39 3ba03add91a244089289898ac963205f
+msgid "The parameters are:"
+msgstr "参数如下："
+
+#: ../../source/unit/pir.rst:39 84a7fa23ebe44555a72e0de34dbc4201
+msgid "``IO1,IO2`` I2C pin."
+msgstr "``IO1,IO2`` I2C 引脚。"
+
+#: ../../source/unit/pir.rst:41 ../../source/unit/pir.rst:53
+#: ../../source/unit/pir.rst:62 ../../source/unit/pir.rst:71
+#: ../../source/unit/pir.rst:80 00ae55a4945742cc8d4642c9c7c2f628
+#: 089d75bdaf9847fab95d74ec04918f4e 31992d9196bf4ffaa7fbf6969027c056
+#: 8a5177dfc943473093303cd390b8ccf6 ccddc8d4ab77465ab9a0a882e463dd29
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/pir.rst:43 1089666bcfa741b2a287243eb5ce01be
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.pir.ref:9 830964b638ad434e855f0b0c584c81e9
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/pir.rst:47 e60ce860181248b8988af4523fb41a71
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/pir.rst:51 e25cd36fef6e4cdd8641c2fd7b9e4a4f
+msgid "Get detection status."
+msgstr "获取检测状态。"
+
+#: ../../source/unit/pir.rst:55 5ed68a88d8114d11b80e5c9d444eac50
+msgid "|get_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.pir.ref:11 6926faa897cb4dd293deb5aecfe74182
+msgid "get_status.png"
+msgstr ""
+
+#: ../../source/unit/pir.rst:60 0a1df579b3b443c0a6264831f76f1618
+msgid "Enable Human detection function."
+msgstr "启用人体检测功能。"
+
+#: ../../source/unit/pir.rst:64 479752b3c75e4018b8d623c52d2ea8d0
+msgid "|enable_irq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.pir.ref:13 d6db87c748944ae38d49477e5610344f
+msgid "enable_irq.png"
+msgstr ""
+
+#: ../../source/unit/pir.rst:69 b8c2c81bbebf410698f7ae3c735da582
+msgid "Disable Human detection function."
+msgstr "禁用人体检测功能。"
+
+#: ../../source/unit/pir.rst:73 3185009c33254f2386058099c78b0a97
+msgid "|disable_irq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.pir.ref:15 2b31705421c543f1907688a92b05691b
+msgid "disable_irq.png"
+msgstr ""
+
+#: ../../source/unit/pir.rst:78 0d855465b42044d7910d6e3bf1c90432
+msgid "Polling method, placed in the loop function, constantly check."
+msgstr "轮询方法，放在 loop 函数中，不断检查。"
+
+#: ../../source/unit/pir.rst:82 9b1a660db22748b4ac2b963446dce299
+msgid "|set_callback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.pir.ref:17 32b893a148614b44a7c987739217ae37
+msgid "set_callback.png"
+msgstr ""
+

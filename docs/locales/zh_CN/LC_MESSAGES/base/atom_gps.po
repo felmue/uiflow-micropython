@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/base/atom_gps.rst:2 87147a81887c4699a875ef0ee5855b10
 msgid "Atomic GPS Base"
-msgstr ""
+msgstr "Atomic GPS Base"
 
 #: ../../en/base/atom_gps.rst:8 098d58489b7a46329ca5e95d16ad6a88
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../en/refs/base.gps.ref d57c5d2698cd4aaab4337f54fe6b01d0
 msgid "ATOM GPS"
-msgstr ""
+msgstr "ATOM GPS"
 
 #: ../../en/base/atom_gps.rst:14 e85a315fb90e4ffe9fed071288ab5365
 msgid "|ATOM GPS Base|"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../en/refs/base.gps.ref beeba9115094455f865933f589e6313f
 msgid "ATOM GPS Base"
-msgstr ""
+msgstr "ATOM GPS Base"
 
 #: ../../en/base/atom_gps.rst:19 f096c038c0ee460c89dfba30b46d8279
 msgid "UiFlow2 Example"
@@ -146,15 +146,15 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/base/atom_gps.rst:56 66d5f13b637c445f86978f61c1f3ab99
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: ../../en/base/atom_gps.rst:59 88796625bd7248a7a36b939ae80044dc
 msgid "ATOMGPSBase"
-msgstr ""
+msgstr "ATOMGPSBase"
 
 #: 1b1877f02f5949139ad2b12ffe76c109 base.atom_gps.ATOMGPSBase:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: base.atom_gps.ATOMGPSBase:1 eee9c7bb6e314191a55891d50ae236b3 of
 msgid "Create an ATOMGPSBase object."

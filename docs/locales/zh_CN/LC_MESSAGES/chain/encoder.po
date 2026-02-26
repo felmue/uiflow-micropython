@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/chain/encoder.rst:2 ../../en/refs/chain.encoder.ref
 #: 3c67b827e5a1402f966e231c0bdb62d9 6bbeca0407144714a4d7dd2e3eb0e5e2
 msgid "Chain Encoder"
-msgstr ""
+msgstr "Chain Encoder"
 
 #: ../../en/chain/encoder.rst:6 955227e2a6834ad4a89848bfca133df8
 msgid ""
@@ -32,7 +32,8 @@ msgid ""
 "encoder, configure the clockwise rotation direction, and handle button "
 "events with RGB LED feedback."
 msgstr ""
-"EncoderChain 是用于 Chain 总线上编码器设备的辅助类。它提供了读取编码器值和增量、重置编码器、配置顺时针旋转方向以及处理按钮事件和 RGB LED 反馈的方法。"
+"EncoderChain 是用于 Chain "
+"总线上编码器设备的辅助类。它提供了读取编码器值和增量、重置编码器、配置顺时针旋转方向以及处理按钮事件和 RGB LED 反馈的方法。"
 
 #: ../../en/chain/encoder.rst:8 ea29766883ba4f3a8d98b405cef30f48
 msgid "Support the following products:"
@@ -62,8 +63,7 @@ msgid ""
 "handle button click events, and control RGB LED brightness based on "
 "encoder rotation. The encoder value is displayed on screen and updated in"
 " real-time."
-msgstr ""
-"此示例演示如何读取编码器值和增量、处理按钮点击事件，并根据编码器旋转控制 RGB LED 亮度。编码器值显示在屏幕上并实时更新。"
+msgstr "此示例演示如何读取编码器值和增量、处理按钮点击事件，并根据编码器旋转控制 RGB LED 亮度。编码器值显示在屏幕上并实时更新。"
 
 #: ../../en/chain/encoder.rst:22 c72eb4581e3c42c4b2b582ead351f95c
 #: chain.encoder.EncoderChain:6 chain.encoder.EncoderChain.get_cw_increase:6
@@ -118,7 +118,7 @@ msgstr "EncoderChain"
 
 #: c588f7d0d56346bfb4f787155d50e809 chain.encoder.EncoderChain:1 of
 msgid "Bases: :py:class:`~chain.key.KeyChain`"
-msgstr ""
+msgstr "Bases: :py:class:`~chain.key.KeyChain`"
 
 #: 8bd2e8edc4cb4234a2e39304e3d99f6f chain.encoder.EncoderChain:1 of
 msgid "Encoder Chain class for interacting with encoder devices over Chain bus."
@@ -149,8 +149,7 @@ msgstr ""
 msgid ""
 "For other button and some general methods, please refer to the "
 ":class:`ChainKey <chain.key.KeyChain>` class."
-msgstr ""
-"有关其他按钮和一些通用方法，请参考 :class:`ChainKey <chain.key.KeyChain>` 类。"
+msgstr "有关其他按钮和一些通用方法，请参考 :class:`ChainKey <chain.key.KeyChain>` 类。"
 
 #: chain.encoder.EncoderChain.get_encoder_value:1
 #: e6348875a8944dbc8c507c7e61cc71a2 of
@@ -252,8 +251,7 @@ msgstr "设置顺时针旋转是否增加编码器值。"
 msgid ""
 "Whether clockwise rotation increases. True means clockwise increases "
 "(sends 0), False means clockwise decreases (sends 1)."
-msgstr ""
-"顺时针旋转是否增加。True 表示顺时针增加（发送 0），False 表示顺时针减少（发送 1）。"
+msgstr "顺时针旋转是否增加。True 表示顺时针增加（发送 0），False 表示顺时针减少（发送 1）。"
 
 #: 5fbca797aef5436fbf9ee7d20dd214b4
 #: chain.encoder.EncoderChain.set_cw_increase:4 of
@@ -284,8 +282,7 @@ msgstr "获取顺时针旋转是否增加编码器值。"
 msgid ""
 "Whether clockwise rotation increases. True means clockwise increases, "
 "False means clockwise decreases. Returns False if failed."
-msgstr ""
-"顺时针旋转是否增加。True 表示顺时针增加，False 表示顺时针减少。失败时返回 False。"
+msgstr "顺时针旋转是否增加。True 表示顺时针增加，False 表示顺时针减少。失败时返回 False。"
 
 #: 3e665cbc73cd42a08a1374015ee274b6
 #: chain.encoder.EncoderChain.get_cw_increase:8 of

@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/module/lan.rst:2 ../../source/refs/module.lan.ref
 #: 374903516de446faaea54dfc43b4c7a4 95df093d5da74188ba1eed2d3273ba3a
 msgid "LAN Module"
-msgstr ""
+msgstr "LAN Module"
 
 #: ../../source/module/lan.rst:6 04abc3b4106f4b43a867bf016de6b055
 msgid "Supported Products:"
@@ -111,9 +111,6 @@ msgstr ""
 msgid "Create a LANModule object."
 msgstr "创建一个 LANModule 对象。"
 
-msgid "Create a LANModule object."
-msgstr "创建一个 LANModule 对象。"
-
 #: ../../source/module/lan.rst 3d80ffd8507a4c40ae4843b78f407102
 #: 65d17705627e4aa39200be60844d6519
 msgid "Parameters"
@@ -191,7 +188,12 @@ msgid ""
 "network.ETH_CONNECTED(3): Physical link established (cable connected) - "
 "network.ETH_DISCONNECTED(4): Physical link lost (cable disconnected) - "
 "network.ETH_GOT_IP(5): IP address obtained, network ready"
-msgstr "LAN 状态码，可能的值： - network.ETH_INITIALIZED(0)：以太网接口已初始化 - network.ETH_STARTED(1)：以太网驱动已启动 - network.ETH_STOPPED(2)：以太网驱动已停止 - network.ETH_CONNECTED(3)：物理链路已建立（网线已连接） - network.ETH_DISCONNECTED(4)：物理链路丢失（网线已断开） - network.ETH_GOT_IP(5)：已获取 IP 地址，网络就绪"
+msgstr ""
+"LAN 状态码，可能的值： - network.ETH_INITIALIZED(0)：以太网接口已初始化 - "
+"network.ETH_STARTED(1)：以太网驱动已启动 - network.ETH_STOPPED(2)：以太网驱动已停止 - "
+"network.ETH_CONNECTED(3)：物理链路已建立（网线已连接） - "
+"network.ETH_DISCONNECTED(4)：物理链路丢失（网线已断开） - network.ETH_GOT_IP(5)：已获取 IP "
+"地址，网络就绪"
 
 #: ../../source/module/lan.rst:109 5d2c9f9022684467963b108ca043137e
 msgid "LAN status code, possible values:"

@@ -1,0 +1,431 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/co2.rst:3 1917f553da90477e955eb4edf3ef7aa0
+msgid "CO2 Unit"
+msgstr "CO2 单位"
+
+#: ../../source/unit/co2.rst:7 49991c2edc0f427d9f88c7a4b7b2636d
+msgid ""
+"CO2Unit is a hardware module designed for measuring CO2 concentration, "
+"temperature, and humidity. It communicates via I2C and provides functions"
+" for calibration, measurement, and configuration."
+msgstr "CO2Unit 是一款用于测量 CO2 浓度、温度和湿度的硬件模块。它通过 I2C 通信，并提供用于校准、测量和配置的功能。"
+
+#: ../../source/unit/co2.rst:10 fbf137e284e74143a8ae2af2bf688897
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/co2.rst:12 39aef894c1384c2b91073dfa8aee4715
+msgid "|CO2Unit|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref 84178e196fcf434590ad016e3a972896
+msgid "CO2Unit"
+msgstr "CO2Unit"
+
+#: ../../source/unit/co2.rst:14 e3384cc89da64410855b918c7b14414c
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/co2.rst:20 ee1c1e51b61f4327ba6a8c55ae9fb65b
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/co2.rst:22 e69f07537d18420c82f9c6d64f53ea5f
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:26 716a87329b1344608119cbf1a75573fd
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:26 8c0ce3ad46fd42e6b2b336a85455d581
+msgid "|co2_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/co2.rst:30 f898e8f5aed64538b9f1f375c8cc515e
+msgid "class CO2Unit"
+msgstr "class CO2Unit"
+
+#: ../../source/unit/co2.rst:33 1c9b791912fb496fa13e5169abbc7bba
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/co2.rst:37 22bbb124712b48e8b9a3291e7087ddf0
+msgid "Initialize the CO2Unit with the I2C interface and address."
+msgstr "使用 I2C 接口和地址初始化 CO2Unit。"
+
+#: ../../source/unit/co2.rst 2bdfc086a9a44113888ace2b84282bcf
+#: 3ecf0002ae6f4d03aa6bd0b103dbaff7 44695a506f2e44f8b071106013f9fe7f
+#: 46ded1e508784ac8b935565e67fb3f39 46ff787ac5ce44d6b969a918bd486911
+#: 7a6d0a150f964d188871c695b64b3b94 8bb2b0395402413e936ae4ede71ae064
+#: ac042cff0ea84bf781e2b5cfc2f26571 e36d20a3fc4549668c620c72d0894e26
+#: ebb86e21a1484637a2d77d0fb832da9a
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/co2.rst:39 0cb29d849e3c4266b83f8ec277a456fe
+msgid "I2C interface or PAHUBUnit instance for communication."
+msgstr "用于通信的 I2C 接口或 PAHUBUnit 实例。"
+
+#: ../../source/unit/co2.rst:40 e7a0eb8626fa4f54a924bcee940f84e9
+msgid "I2C address of the CO2 sensor, default is 0x62."
+msgstr "CO2 传感器的 I2C 地址，默认为 0x62。"
+
+#: ../../source/unit/co2.rst:42 ../../source/unit/co2.rst:60
+#: ../../source/unit/co2.rst:69 ../../source/unit/co2.rst:83
+#: ../../source/unit/co2.rst:92 ../../source/unit/co2.rst:102
+#: ../../source/unit/co2.rst:111 ../../source/unit/co2.rst:121
+#: ../../source/unit/co2.rst:131 ../../source/unit/co2.rst:141
+#: ../../source/unit/co2.rst:150 ../../source/unit/co2.rst:160
+#: ../../source/unit/co2.rst:169 ../../source/unit/co2.rst:182
+#: ../../source/unit/co2.rst:191 ../../source/unit/co2.rst:200
+#: ../../source/unit/co2.rst:209 ../../source/unit/co2.rst:218
+#: 22385a057c254140b359bfa0fa3ebe14 22890c7ba43749d48b88947234d135df
+#: 25f367bd2b7d45839364dba479eade52 2f040fa939d644289f6d40c8b752dfec
+#: 474897690d064b6f99b50aed425b8f50 4cf29754da1c4c16b50f703a08dcaa0f
+#: 6287837430d448e2ab9d67c70c14f6b1 6a6748ed3a1d4b4db8e7af6b2cd1480f
+#: 89a2b23af2194bddafa40cc50756bd41 a1c310d8544048baaaea8044aa478026
+#: ba6a99d195884bc0a142e362339f6109 c476efdf46ab4e36911140e3add69ff7
+#: ce2c963ace584d6483275e7ea72e20e8 d42ce99783aa4058bc0e19fd97b3ce29
+#: e14f1f5f583940d59e608bf0a544b809 e711d318aa19404fa3650435da8785e4
+#: f2908b182fd1412b89b5440eceea1815 fbfa4e67a9a04d7faf2aa2f9821d4c89
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/co2.rst:44 3ba39909e2f24578b7bc9430cce2cee7
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:7 85d5319f9ad04d599ab7a5f53884edea
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:48 401baa2e95f349c9b8526323e0fe87cd
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/co2.rst:52 5f97da02c6e6475d98c0f4f086b79da8
+msgid "Check if the CO2 unit is available on the I2C bus."
+msgstr "检查 I2C 总线上是否存在 CO2 单元。"
+
+#: ../../source/unit/co2.rst:57 8773d74cd9e94d71a4f503553ba3a53c
+msgid ""
+"Set the sensor into working mode, which takes about 5 seconds per "
+"measurement."
+msgstr "将传感器设置为工作模式，每次测量大约需要 5 秒。"
+
+#: ../../source/unit/co2.rst:62 7ea901d9520246e78128570b0b0ddddd
+msgid "|set_start_periodic_measurement.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:8 232cc640ea4c436e9ad5d1220945000b
+msgid "set_start_periodic_measurement.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:66 42bf9e2791dd484e9cb397e7e12e23a3
+msgid "Stop the measurement mode for the sensor."
+msgstr "停止传感器的测量模式。"
+
+#: ../../source/unit/co2.rst:71 d91a44d744a043ad92ca8926d7e643eb
+msgid "|set_stop_periodic_measurement.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:9 3e1d7c10d77b466db0c2f1384b4f5df5
+msgid "set_stop_periodic_measurement.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:75 ce209b32ceed45799375038f266ba298
+msgid "Get temperature, humidity, and CO2 concentration from the sensor."
+msgstr "从传感器获取温度、湿度和 CO2 浓度。"
+
+#: ../../source/unit/co2.rst:80 9d4ffaba71b84d4980e17f30e34f3360
+msgid "Check if the data (temperature, humidity, CO2) is ready from the sensor."
+msgstr "检查传感器数据（温度、湿度、CO2）是否已准备好。"
+
+#: ../../source/unit/co2.rst:85 e5ad7b7e8fbe4e6ba3a409472aaf6b34
+msgid "|is_data_ready.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:10 a0c6aa30cb2b4c5c898b309213fd2669
+msgid "is_data_ready.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:89 2a5c3a4cd0174110a2e27f06555e24d6
+msgid "Get the temperature offset to be added to the reported measurements."
+msgstr "获取要添加到报告测量值中的温度偏移量。"
+
+#: ../../source/unit/co2.rst:94 02975ba8230e490ea48f7c3167b3d8fa
+msgid "|get_temperature_offset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:11 b9b250bc4fae43fcb581e3e84b995515
+msgid "get_temperature_offset.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:98 6b1d9b926faa4494852b1fc1234fe9c7
+msgid "Set the maximum value of 374°C temperature offset."
+msgstr "设置 374°C 温度偏移的最大值。"
+
+#: ../../source/unit/co2.rst:100 c095eb143813456a95f323016a05dfce
+msgid "The temperature offset to set, default is 0."
+msgstr "要设置的温度偏移量，默认为 0。"
+
+#: ../../source/unit/co2.rst:104 5065c1b24270451e86a7ba953848e5a4
+msgid "|set_temperature_offset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:12 0296616c547e42b799d0ddca5bc4fc5e
+msgid "set_temperature_offset.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:108 77d38c7936414434b9dc164b377678ea
+msgid ""
+"Get the altitude value of the measurement location in meters above sea "
+"level."
+msgstr "获取测量位置相对于海平面的海拔高度值，单位为米。"
+
+#: ../../source/unit/co2.rst:113 1ab0c7b3e7154465abf714c3c7c99d78
+msgid "|get_sensor_altitude.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:13 c1f7bbddc1e247268b953f0bd7eb335c
+msgid "get_sensor_altitude.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:117 43a8ba63a14548daae7469172fbaeafb
+msgid ""
+"Set the altitude value of the measurement location in meters above sea "
+"level."
+msgstr "以海拔高度（单位：米）设置测量位置的海拔值。"
+
+#: ../../source/unit/co2.rst:119 d7cb963d72d14171a7e0b0c8043c9e69
+msgid "The altitude in meters to set. Must be between 0 and 65535 meters."
+msgstr "要设置的高度（单位：m）。必须在 0 到 65535 m 之间。"
+
+#: ../../source/unit/co2.rst:123 7207a26c156d41e08e58b6f9d24daf5e
+msgid "|set_sensor_altitude.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:14 8cb551810d8843e88abbe9a3102e41a1
+msgid "set_sensor_altitude.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:127 b5f631bc7871421ba210590f383edc40
+msgid "Set the ambient pressure in hPa at any time to adjust CO2 calculations."
+msgstr "可随时设置以 hPa 为单位的环境压力，用于调整 CO2 计算结果。"
+
+#: ../../source/unit/co2.rst:129 9081db74f33b4e87b770f895ef75b009
+msgid "The ambient pressure in hPa, constrained to the range [0, 65535]."
+msgstr "环境压力（单位：hPa），取值范围限制为 [0, 65535]。"
+
+#: ../../source/unit/co2.rst:133 663a0387d9f04780a26180836f1d121c
+msgid "|set_ambient_pressure.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:15 6e4848ad5479466b99b85d74c4c91571
+msgid "set_ambient_pressure.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:137 23a20d124b82467faaf76bf5576bf3a8
+msgid "Force the sensor to recalibrate with a given current CO2 level."
+msgstr "强制传感器以给定的当前 CO2 水平重新校准。"
+
+#: ../../source/unit/co2.rst:139 6dbff08e5cd84cda874075a4c9482ac8
+msgid "The current CO2 concentration to be used for recalibration."
+msgstr "用于重新校准的当前 CO2 浓度。"
+
+#: ../../source/unit/co2.rst:143 1cb065fe59c94d1d88674b428d8267d5
+msgid "|set_force_calibration.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:16 90fa4508e96b4bee94832f8b463fbd91
+msgid "set_force_calibration.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:147 15ff74f04cb2427f9a372c070c32811c
+msgid "Get whether automatic self-calibration (ASC) is enabled or disabled."
+msgstr "获取自动自校准（ASC）是启用还是禁用。"
+
+#: ../../source/unit/co2.rst:152 cb9e8f797e9a43f2ac691e5cc386f2b8
+msgid "|get_calibration_enabled.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:17 54c06814da8949138fc9287af9d8660c
+msgid "get_calibration_enabled.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:156 6628016461b54064aff90ddbcf47ddf0
+msgid "Enable or disable automatic self-calibration (ASC)."
+msgstr "启用或禁用自动自校准（ASC）。"
+
+#: ../../source/unit/co2.rst:158 f8a08c0d452e4abdb66ae08001bda05b
+msgid "Set to True to enable ASC, or False to disable it."
+msgstr "设置为 True 以启用 ASC，或设置为 False 以禁用它。"
+
+#: ../../source/unit/co2.rst:162 0a572350c50440b69723aa088a8a9709
+msgid "|set_calibration_enabled.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:18 c82e83bc86b24806a6e1f145c03481f2
+msgid "set_calibration_enabled.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:166 394322f0717846cbb0c29d0b1b55bfa5
+msgid ""
+"Set the sensor into low power working mode, with about 30 seconds per "
+"measurement."
+msgstr "将传感器设置为低功耗工作模式，每次测量约 30 秒。"
+
+#: ../../source/unit/co2.rst:171 a0cd2f3b3c504a49b8c01af9806b1ed4
+msgid "|set_start_low_periodic_measurement.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:19 6cb6a168b7ef4a588f1cd6e0b49c8ca4
+msgid "set_start_low_periodic_measurement.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:175 95d32a6861194b2989cf7786f791a3e3
+msgid "Check if new data is available from the sensor."
+msgstr "检查传感器是否有新数据可用。"
+
+#: ../../source/unit/co2.rst:179 ba7e2d5a69ca4872aa118b9be7f80635
+msgid ""
+"Save temperature offset, altitude offset, and self-calibration enable "
+"settings to EEPROM."
+msgstr "将温度偏移量、海拔偏移量以及自校准启用设置保存到 EEPROM。"
+
+#: ../../source/unit/co2.rst:184 b481c0bb38e84662b33aa2808a57ba38
+msgid "|save_to_eeprom.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:20 46f0efd899d44136a401882fbffd61e7
+msgid "save_to_eeprom.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:188 ccc6ef9850c344b5a9738d09c44db1ed
+msgid "Get a unique serial number for this sensor."
+msgstr "获取该传感器的唯一序列号。"
+
+#: ../../source/unit/co2.rst:193 7a2f3c7136744c1ba1f288ca41d839c1
+msgid "|get_serial_number.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:21 507fdc60057340d6ac1d6bddb3077ccd
+msgid "get_serial_number.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:197 c827db820a434ea6a9dc79fb67c0b30a
+msgid "Perform a self-test, which can take up to 10 seconds."
+msgstr "执行自检，可能需要长达 10 秒。"
+
+#: ../../source/unit/co2.rst:202 41a045a346ad4bf9b3e5ebb8e4e02d36
+msgid "|set_self_test.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:22 fac9058a830a4c868c3db26b357133fe
+msgid "set_self_test.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:206 1545f6e30aea441da802a31e2454288a
+msgid ""
+"Reset all configuration settings stored in the EEPROM and erase the FRC "
+"and ASC algorithm history."
+msgstr "重置存储在 EEPROM 中的所有配置设置，并清除 FRC 和 ASC 算法历史记录。"
+
+#: ../../source/unit/co2.rst:211 7de98660e1c94176b5be4c9d88c37787
+msgid "|set_factory_reset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:23 1ee94ad7b25b46fe845c1b2fceab216a
+msgid "set_factory_reset.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:215 2b664d31a2c14caebd86455d304e48a1
+msgid "Reinitialize the sensor by reloading user settings from EEPROM."
+msgstr "通过从 EEPROM 重新加载用户设置来重新初始化传感器。"
+
+#: ../../source/unit/co2.rst:220 3319b355c148407b8872fa8df0b03a27
+msgid "|reinit.png|"
+msgstr ""
+
+#: ../../source/refs/unit.co2.ref:24 d5b257192a6a426f940fe6bd859b0efa
+msgid "reinit.png"
+msgstr ""
+
+#: ../../source/unit/co2.rst:224 58770c75d88b4dafb03490e78044b653
+msgid ""
+"Set the sensor to perform a single-shot measurement for CO2, humidity, "
+"and temperature."
+msgstr "将传感器设置为对 CO2、湿度和温度执行单次测量。"
+
+#: ../../source/unit/co2.rst:228 35b851d60f844c37995269b2e3ea28cb
+msgid ""
+"Set the sensor to perform a single-shot measurement for humidity and "
+"temperature."
+msgstr "将传感器设置为对湿度和温度执行单次测量。"
+
+#: ../../source/unit/co2.rst:232 57d74230d01f45b487a368da76c98f1d
+msgid "Put the sensor into sleep mode to reduce current consumption."
+msgstr "将传感器置于睡眠模式以降低电流消耗。"
+
+#: ../../source/unit/co2.rst:236 4c00565173b34a73830b69421e5eab52
+msgid "Wake up the sensor from sleep mode into idle mode."
+msgstr "将传感器从睡眠模式唤醒到空闲模式。"
+
+#: ../../source/unit/co2.rst:240 a9352653bbd04ab88873db2268423424
+msgid "Write a command to the sensor."
+msgstr "向传感器写入命令。"
+
+#: ../../source/unit/co2.rst:242 737cdb4e2197435a88dbad4e63363676
+msgid "The command to write to the sensor."
+msgstr "写入传感器的命令。"
+
+#: ../../source/unit/co2.rst:243 ab1e73be3f024dffa255d22210c95813
+msgid "The value to send with the command, if any."
+msgstr "命令要发送的值（如果有）。"
+
+#: ../../source/unit/co2.rst:247 e7c4fbc12f83467792b9e2d84dbfeabd
+msgid "Read the sensor's response."
+msgstr "读取传感器的响应。"
+
+#: ../../source/unit/co2.rst:249 0607f33b6cdb4092be6294c1411822f3
+msgid "The number of bytes to read from the sensor."
+msgstr "从传感器读取的字节数。"
+
+#: ../../source/unit/co2.rst:253 f34b26e530324df9b76a55b3709b3a7d
+msgid "Check the CRC of the received data to ensure it is correct."
+msgstr "检查接收数据的 CRC，以确保其正确无误。"
+
+#: ../../source/unit/co2.rst:255 a1352483f6b444c08ada9e41a06463b4
+msgid "The buffer of bytes to check the CRC."
+msgstr "用于检查 CRC 的字节缓冲区。"
+
+#: ../../source/unit/co2.rst:259 013428fda29e4d2cbbc5a8b56a74ad3a
+msgid "Calculate the CRC-8 checksum for a given buffer."
+msgstr "计算给定缓冲区的 CRC-8 校验和。"
+
+#: ../../source/unit/co2.rst:261 821be93a1d9249c1ba743891a699609c
+msgid "The buffer of bytes to calculate the CRC for."
+msgstr "用于计算 CRC 的字节缓冲区。"
+

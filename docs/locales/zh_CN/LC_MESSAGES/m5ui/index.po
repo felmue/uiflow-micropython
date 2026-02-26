@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/m5ui/index.rst:2 7d7435bc07204952982bc8d17c08447f
 msgid "M5UI"
-msgstr ""
+msgstr "M5UI"
 
 #: ../../en/m5ui/index.rst:7 8f5899301791406d86e42521e8b7556f
 msgid ""
@@ -42,7 +42,7 @@ msgstr "M5 系列显示库说明"
 
 #: ../../en/m5ui/index.rst:15 36c7d6ef76a84cb69ca0064067e2aae9
 msgid "1. Display"
-msgstr ""
+msgstr "显示"
 
 #: ../../en/m5ui/index.rst:16 deaa108368b64b269c5da36b7a772f03
 msgid ""
@@ -58,7 +58,7 @@ msgstr "可独立使用，适合只需要绘制图形或文字的场景。"
 
 #: ../../en/m5ui/index.rst:20 014a99bdfe9b4377876de176daf5acf6
 msgid "2. Widgets"
-msgstr ""
+msgstr "2. 控件"
 
 #: ../../en/m5ui/index.rst:21 db2dbdcdddb9456ea4232801d9c6dc3c
 msgid ""
@@ -76,7 +76,7 @@ msgstr "适合需要简单交互控件的界面。"
 
 #: ../../en/m5ui/index.rst:26 2a26706a264d466580297e52f600e91e
 msgid "3. M5UI"
-msgstr ""
+msgstr "3. M5UI"
 
 #: ../../en/m5ui/index.rst:27 bfa4f9b122494e6691ae282085e7a728
 msgid "A high-level UI framework based on LVGL."
@@ -137,7 +137,7 @@ msgstr "取消初始化 M5UI 库。当您不再需要使用 M5UI 时，应调用
 
 #: ../../en/m5ui/index.rst:56 a62583117fe2465c90f3174667c96fa2
 msgid "Classes"
-msgstr ""
+msgstr "Classes"
 
 #~ msgid "M5 系列显示库说明"
 #~ msgstr ""

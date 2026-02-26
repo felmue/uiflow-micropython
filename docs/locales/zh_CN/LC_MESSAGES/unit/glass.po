@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/glass.rst:2 6cbf57a77aec4d4591c5e5895e66a029
+msgid "Glass Unit"
+msgstr "Glass Unit"
+
+#: ../../source/unit/glass.rst:6 6ae89a39afff44bdb7f4106140bdc574
+msgid ""
+"Unit Glass is a 1.51-inch transparent OLED expansion screen unit. It "
+"adopts STM32+SSD1309 driver scheme,resolution is 128*64, monochrome "
+"display, transparent area is 128*56."
+msgstr ""
+"Unit Glass 是一款 1.51 英寸透明 OLED 扩展屏幕单元。它采用 STM32 + SSD1309 驱动方案，分辨率为 "
+"128*64，单色显示，透明区域为 128*56。"
+
+#: ../../source/unit/glass.rst:8 cd295f8b17dc4df0b7d7629f72b16fc6
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/glass.rst:10 03f66ddaeede4f09b3ccc8c7758dda8c
+msgid "|GlassUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.glass.ref aa993e48ecc94765a15508eeada3b5dc
+msgid "GlassUnit"
+msgstr "GlassUnit"
+
+#: ../../source/unit/glass.rst:14 70f2fdad960b44db82a9ccd887ff6c75
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/glass.rst:17 ../../source/unit/glass.rst:36
+#: 05136fbad2c3471ab2af3c9dde1b6806 370e2854b6e8449eb7919c3134178d58
+msgid "Draw Text"
+msgstr "绘制文本"
+
+#: ../../source/unit/glass.rst:19 99bbc331d88a4032b90830eff6226b6a
+msgid "Open the |cores3_glass_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |cores3_glass_example.m5f2| 项目。"
+
+#: ../../source/unit/glass.rst:21 ../../source/unit/glass.rst:38
+#: 96dd888c900b44a4a050792e06079272 deea8c987c1f4957beb040b72262f238
+msgid "This example displays the text \"GLASS\" on the screen."
+msgstr "该示例在屏幕上显示文本 \"GLASS\"。"
+
+#: ../../source/unit/glass.rst:23 05edfc7e444c4b7d8e8b37a8a3f8958e
+#: ba2c7bfcad264a59b8597b9f0accfb37 of unit.glass.GlassUnit:7
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/glass.rst:25 ec141f383bbd4d9991e7e605af653504
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.glass.ref:9 e300bd975fdd4ef69aa89d0700a3dd69
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/glass.rst:27 ../../source/unit/glass.rst:46
+#: 2cfad834822b4d979c0db034d06159a4 9196a8bbeb754d2ba7cb032cbdc43107
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/glass.rst:29 ../../source/unit/glass.rst:48
+#: d5fa90c18c4b41d7b2b1837171ebacc4 e4de06ed21d74f73a3d3b7a96ff2639d
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/glass.rst:33 8f3191ed9fea427eb6b78731f73d7527
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/glass.rst:40 56739b43635840479979a393477053ea
+#: e5d0dbcfa3554b68acfecfe8b233b6f5 of unit.glass.GlassUnit:11
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/glass.rst:52 0409ce7f8dd04668810af961dea8463b
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/glass.rst:55 8ea9f22123fb496db198e359ad1740c3
+msgid "class GlassUnit"
+msgstr "class GlassUnit"
+
+#: 8a06a0778af348099836b7bdf8d5ddd2 of unit.glass.GlassUnit:1
+msgid "Bases: :py:class:`object`"
+msgstr "Bases: :py:class:`object`"
+
+#: 64981d4fe6d743798e67538e834c1a84 of unit.glass.GlassUnit:1
+msgid "Initialize the Glass Unit."
+msgstr "初始化 Glass Unit。"
+
+#: ../../source/unit/glass.rst 98806b525fc24dc2b3a84ce64a7641a2
+msgid "Parameters"
+msgstr ""
+
+#: dd58b393e0794874b916d2bcc911d347 of unit.glass.GlassUnit:3
+msgid "The I2C bus the Glass Unit is connected to."
+msgstr "Glass Unit 连接到的 I2C 总线。"
+
+#: e45b0da21d4f44c59e898e91f23b9764 of unit.glass.GlassUnit:5
+msgid "The I2C address of the Glass Unit, default is 0x3D."
+msgstr "Glass Unit 的 I2C 地址，默认为 0x3D。"
+
+#: 90133277ee834166a1cb0882cd8e3afb of unit.glass.GlassUnit:9
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.glass.ref:7 d0a360c15fce42cd8ed61313c8edc9a3
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/glass.rst:60 25f176bce7524edd80902f43d9964fc6
+msgid ""
+"GlassUnit class inherits Display class, See :ref:`hardware.Display "
+"<hardware.Display>` for more details."
+msgstr ""
+"GlassUnit 类继承自 Display 类，更多详情请参阅 :ref:`hardware.Display "
+"<hardware.Display>`。"
+

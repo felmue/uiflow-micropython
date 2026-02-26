@@ -18,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/controllers/cardputer.rst:3 f1113987195b48f29b7639f7bff08374
 msgid "Cardputer"
-msgstr ""
+msgstr "Cardputer"
 
 #: ../../en/refs/controllers.cardputer.ref:1 d360c70c2a6248ca90b570c5e46780cb
 #: f12b9952b80d46b89da5151e1f821a04
@@ -61,11 +61,11 @@ msgstr ""
 
 #: ../../en/controllers/cardputer.rst:9 4702016564c44d2c9fb8f2e26c2b345c
 msgid "Startup UI"
-msgstr ""
+msgstr "启动界面"
 
 #: ../../en/controllers/cardputer.rst:12 5211d5892d65427db0d7262b7d30cd5c
 msgid "Launcher"
-msgstr ""
+msgstr "启动器"
 
 #: ../../en/controllers/cardputer.rst:14 dd030848b1ac40a8b3e812f68b06b7c0
 msgid "|launcher.png|"
@@ -85,7 +85,7 @@ msgstr "``Enter`` 启动选定的应用程序。"
 
 #: ../../en/controllers/cardputer.rst:21 f885a26af46a411f84a2bc82199490e8
 msgid "Setting"
-msgstr ""
+msgstr "Setting"
 
 #: ../../en/controllers/cardputer.rst:23 1225882dc1094ea39cc3c25ef8501005
 msgid "|setting.png|"
@@ -102,7 +102,7 @@ msgstr "``BtnA`` 退出应用程序。"
 
 #: ../../en/controllers/cardputer.rst:32 afdfc621634f41469be0b512c35b3dba
 msgid "WLAN"
-msgstr ""
+msgstr "WLAN"
 
 #: ../../en/controllers/cardputer.rst:34 f2284ff27f9f4d2caa96563e80fba56a
 msgid "|wlan.png|"
@@ -120,7 +120,7 @@ msgstr "``Enter`` 执行相应的动作。"
 
 #: ../../en/controllers/cardputer.rst:43 e1eaddf2f3db4b46b5066bf348c92bc8
 msgid "Gerneral"
-msgstr ""
+msgstr "Gerneral"
 
 #: ../../en/controllers/cardputer.rst:45 efb87cdbbf31497a945c6c539c888070
 msgid "|general.png|"
@@ -136,7 +136,7 @@ msgstr "``Enter`` 设置。"
 
 #: ../../en/controllers/cardputer.rst:54 e3b153684a714d6ab8f60398367b090f
 msgid "Develop"
-msgstr ""
+msgstr "开发"
 
 #: ../../en/controllers/cardputer.rst:56 59c36f70405e4fa484451ca1000b8411
 msgid "|develop.png|"
@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../../en/controllers/cardputer.rst:61 d9f4ec89752f4f4b8e3db87a762b33b3
 msgid "APP.RUN"
-msgstr ""
+msgstr "APP.RUN"
 
 #: ../../en/controllers/cardputer.rst:63 6a5e63b8e8a04560b19c75141798ccdc
 msgid "|apprun.png|"
@@ -162,7 +162,7 @@ msgstr "``Enter`` 按照对应的动作运行 main.py 。"
 
 #: ../../en/controllers/cardputer.rst:72 b93f72e5158a42969800b257b40e192f
 msgid "APP.LIST"
-msgstr ""
+msgstr "APP.LIST"
 
 #: ../../en/controllers/cardputer.rst:74 de199484371b412999644b4c4642bf07
 msgid "|applist.png|"

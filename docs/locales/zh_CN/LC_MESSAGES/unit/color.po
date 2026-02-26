@@ -1,0 +1,613 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/color.rst:3 cbb3b5126cda4dbb8fc6c72ebf6db302
+msgid "Color Unit"
+msgstr "Color Unit"
+
+#: ../../source/unit/color.rst:7 4020808f64c64fbcbaa6f6aa0c040030
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/color.rst:9 d25c43c621904148860eb6087341e25c
+msgid "|ColorUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref 03deab53a60f436aad9d8169d8f7c2c3
+msgid "ColorUnit"
+msgstr "ColorUnit"
+
+#: ../../source/unit/color.rst:11 22355bf6d3a540edacc98af7590b4ef1
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/color.rst:17 23b866613d5d4eb2958ffa3483e9b773
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/color.rst:19 bd04068eaf7c406aa0e4fdedc19b5b9b
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:37 8f13ff9d202a4767ae781a62ed0bab15
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:23 1d756cc15f424203b4be9f02f99a9d6c
+msgid "|color_core2_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/color.rst:26 252003a75f8d41fd9af2241ccbe928da
+msgid "class ColorUnit"
+msgstr "class ColorUnit"
+
+#: ../../source/unit/color.rst:29 56a5ce00e5424555a31098752be0eb59
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/color.rst:33 95bdbdd67a5a460983f6c33ed47de751
+msgid "Initialize ColorUnit sensor with the given I2C interface and address."
+msgstr "使用给定的 I2C 接口和地址初始化 ColorUnit 传感器。"
+
+#: ../../source/unit/color.rst 1296995002c447a499a35a731cc71c10
+#: 230d3be8bc394b2fa13e1a74d5b407f5 665f24eec82d473597d40c695e8f84f1
+#: a31abdbbcb5d4cf09c584f33cfba7f2b b6ddfe2091774bfe83fc796c8f913305
+#: db3c3708c75946518fd170389afeabdc e5088c171e604dd89195559777fa5f48
+#: f41ae263ab314ff984289e30adfa0c59
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/color.rst:35 af1f9fe70aa6442abcb8bfbb87454408
+msgid "The I2C bus instance for communication."
+msgstr "用于通信的 I2C 总线实例。"
+
+#: ../../source/unit/color.rst:36 6db98e80b68e4950a2db319899a9c640
+msgid "The I2C address of the sensor, default is _TCS3472_DEFAULT_ADDR(0x29)."
+msgstr "传感器的 I2C 地址，默认为 _TCS3472_DEFAULT_ADDR(0x29)。"
+
+#: ../../source/unit/color.rst:38 ../../source/unit/color.rst:51
+#: ../../source/unit/color.rst:61 ../../source/unit/color.rst:71
+#: ../../source/unit/color.rst:81 ../../source/unit/color.rst:91
+#: ../../source/unit/color.rst:101 ../../source/unit/color.rst:111
+#: ../../source/unit/color.rst:121 ../../source/unit/color.rst:131
+#: ../../source/unit/color.rst:141 ../../source/unit/color.rst:150
+#: ../../source/unit/color.rst:160 ../../source/unit/color.rst:170
+#: ../../source/unit/color.rst:180 ../../source/unit/color.rst:191
+#: ../../source/unit/color.rst:201 ../../source/unit/color.rst:212
+#: ../../source/unit/color.rst:222 ../../source/unit/color.rst:230
+#: ../../source/unit/color.rst:240 ../../source/unit/color.rst:250
+#: ../../source/unit/color.rst:261 ../../source/unit/color.rst:271
+#: ../../source/unit/color.rst:281 ../../source/unit/color.rst:291
+#: ../../source/unit/color.rst:301 ../../source/unit/color.rst:311
+#: ../../source/unit/color.rst:322 1dd5965c21bd4414b382ebda44d0e466
+#: 3a6cdabf41f64472a8160f4020203d76 3be0f88f6255496b87c4bdb1ad5b503e
+#: 3e7a8a46e54d4a75a48efcf44f08bc05 49355abac3504691b795c921c983ae5a
+#: 4e9c68e2a31d4ac8996c5c7a4b90ec97 4fb6bb34589b4591aaee0d4f1805f974
+#: 59df135ab7bc4b98a73bad48a8178efd 5cd64c513cd04c23a5359e7a716e7c8f
+#: 60112d28e77c432ca504bd97949015f5 8e59b5742f78433a889dcd602bc69333
+#: 91a8ac9ba4ec4829824d6a513737ac91 99e0fe4251a4466096bcd43f7febcc9d
+#: a9fd80d745cb4b7dbb6ef978d83f83dd ae81b9e4124c41d89a8de67bed967bdc
+#: b0a370eb60e94d518ccda404101ecb5c b7a4bb780b5e4250ad618a47b67db3eb
+#: bf5f147eacb04f5180b9aa0dd765f2a0 bf8e31c2548843878058fd715abc6031
+#: ca789b6f0d814d8b9a1f99d8f904718b cee671fe523048c3b7054a9076bf2a55
+#: cf6fc2faa10e4efba4d41900d7ea47e0 d141640d48474a4691e356b8d6562361
+#: d2df44815ccf46d6a73a31df7f16a297 d670fab366fc4ae28ba8162758c0c40a
+#: dbf22170535a49e2a64f9ca54b2048ab f37be8047d684599a1b33cd4ab74d5e5
+#: f42f4f69d4634f39813d21ee0847009c f9f884e8df904c10ad58f5a9af0899dd
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/color.rst:40 3e903e37271d41898beba3cc02799776
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:7 553edccb16c0433aa66402fe945d93f3
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:43 4aa32673d89b431dace5bb599b865cfd
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/color.rst:47 af244f6f1ca54212bdc84f8753980553
+msgid "Get the lux value computed from the color channels."
+msgstr "获取从各颜色通道计算得到的照度（lux）值。"
+
+#: ../../source/unit/color.rst 013fba8a5d6d436c8a7151ea5940a779
+#: 2b8a93049d364f1a8e06d1f4cb526006 32ce4c15f7a34b128749fafeab2ea091
+#: 33cfcd62c02845f199eb300eee241315 39b3acc438824516a69abd0d68849056
+#: 43333b7bd6244778a54edacaa82bf6d7 61b034a258d9490a9ae9f46efd119fb4
+#: 729f08d4537b4219b2803242a0dbed4e 8c594da3529f4da7a323d6e9870aa39f
+#: 92ab337a1c7f44a5b3d10ca391e78ec3 9f7417c131d346509e310c5262970bde
+#: a4c1b63ff66f4793a38ed142f7628d42 a689fe787a72482b81085af7408ea9ad
+#: bc3d41acbf1b46ffb925a7dce2515c13 bf8e8b4eb269489183b96b06ee125938
+#: ca7cf6b7189e49e683705e1289b7b1e8 e71d44ebfb0547fa822025fbcb93f1f5
+#: eadef3e951644f3388efc31e9df79e3c fce9abc2288d4ee583993a1e7d8a462b
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/color.rst:49 a10a3c6b875e4b5b93b8758812a95d23
+msgid "The computed lux value as a float."
+msgstr "计算得到的 lux 值（float）。"
+
+#: ../../source/unit/color.rst:53 e5f6e05d5e55499988b9062bbf1e3fd6
+msgid "|get_lux.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:8 7435f63d26444ab8b89fbe46904c0d9c
+msgid "get_lux.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:57 5b30d63c8fe64d6fb1a3b88561932f19
+msgid "Get the color temperature in degrees Kelvin."
+msgstr "获取以开尔文（K）为单位的色温。"
+
+#: ../../source/unit/color.rst:59 94174f66b8d64c759e5ff3c56629e922
+msgid "The color temperature as a float in Kelvin."
+msgstr "颜色温度，单位为开尔文（float）。"
+
+#: ../../source/unit/color.rst:63 79ec289445d345f5a481657da333b42b
+msgid "|get_color_temperature.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:9 471df0a49448453484875d42f3c90722
+msgid "get_color_temperature.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:67 a56fc0e2a2184dc28d77d4aa09470332
+msgid "Get the RGB color detected by the sensor."
+msgstr "获取传感器检测到的 RGB 颜色。"
+
+#: ../../source/unit/color.rst:69 d70f25192d694b64b587f03193b965ab
+msgid "A tuple of red, green, and blue component values as bytes (0-255)."
+msgstr "由红色、绿色和蓝色分量值（字节，0-255）组成的元组。"
+
+#: ../../source/unit/color.rst:73 e0b2643a35294c9fa127fd6190429a85
+msgid "|get_color_rgb_bytes.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:10 efc0a15700cc412196a92746772020b0
+msgid "get_color_rgb_bytes.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:77 1c479900865142caac7afec5f4a868fe
+msgid "Get the red component of the RGB color."
+msgstr "获取 RGB 颜色的红色分量。"
+
+#: ../../source/unit/color.rst:79 075c62ededf24cf6985158024cbb819d
+msgid "The red component value (0-255)."
+msgstr "红色分量的值（0-255）。"
+
+#: ../../source/unit/color.rst:83 780ab7788b5e4ae4897c8bdad7860094
+msgid "|get_color_r.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:11 f46b19685d6e42019577621bb46d7913
+msgid "get_color_r.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:87 c474f6e4b0cc427fbe692e993df9fa7d
+msgid "Get the green component of the RGB color."
+msgstr "获取 RGB 颜色的绿色分量。"
+
+#: ../../source/unit/color.rst:89 6ff4e10088594af29846cc964cff82bc
+msgid "The green component value (0-255)."
+msgstr "绿色分量值（0-255）。"
+
+#: ../../source/unit/color.rst:93 7b8e776bd6b84914ab48800ed1ff265d
+msgid "|get_color_g.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:12 b0dd63c11e9348d5a15460e6fa7c38a1
+msgid "get_color_g.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:97 2c499d26ac6442809b9a2559cd9e3f48
+msgid "Get the blue component of the RGB color."
+msgstr "获取 RGB 颜色的蓝色分量。"
+
+#: ../../source/unit/color.rst:99 f9ef980076874dc489ea45cefe882b76
+msgid "The blue component value (0-255)."
+msgstr "蓝色分量值（0-255）。"
+
+#: ../../source/unit/color.rst:103 5ace8269ef0447318650eac575b8a391
+msgid "|get_color_b.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:13 986f14aa895f4b6ca37b848a9512be8a
+msgid "get_color_b.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:107 acfdb030f98c449f8645085cfdd01da6
+msgid "Get the hue (H) value of the color in degrees."
+msgstr "获取颜色的色调（H）值，单位为度。"
+
+#: ../../source/unit/color.rst:109 2a4eb9a978eb436b97ece02b641eb087
+msgid "The hue value as an integer in the range [0, 360]."
+msgstr "色相值，整数，范围为 [0, 360]。"
+
+#: ../../source/unit/color.rst:113 cf625d556b9d440ab5e15c681e90dff9
+msgid "|get_color_h.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:14 cf7ca5c8b2af4a2993740476323be5c9
+msgid "get_color_h.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:117 67525789f4954622b7369c3aea0bf6d7
+msgid "Get the saturation (S) value of the color."
+msgstr "获取颜色的饱和度（S）值。"
+
+#: ../../source/unit/color.rst:119 19859d8279614f6789379dc1f845fdbf
+msgid "The saturation value as a float in the range [0, 1]."
+msgstr "饱和度值，为一个取值范围在 [0, 1] 的 float。"
+
+#: ../../source/unit/color.rst:123 9f7a9ff670d247d286e5663b7a8c96eb
+msgid "|get_color_s.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:15 e12e482fd8194606af2bbee7d9b06f62
+msgid "get_color_s.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:127 06457102eaa24210a7675ca3414908c1
+msgid "Get the value (V) of the color (brightness)."
+msgstr "获取颜色（亮度）的值（V）。"
+
+#: ../../source/unit/color.rst:129 4082e45669de465ea27ed093bb307cb6
+msgid "The value as a float in the range [0, 1]."
+msgstr "取值范围为 [0, 1] 的 float 值。"
+
+#: ../../source/unit/color.rst:133 3c4f5cbf05204c72a2f17d22439495a6
+msgid "|get_color_v.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:16 4a7f858cb890425a8e7ece83ab542a6d
+msgid "get_color_v.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:137 128b8d8ad65e46febb08c46c011fb8ed
+msgid "Get the RGB color as an integer value."
+msgstr "获取 RGB 颜色的整数值。"
+
+#: ../../source/unit/color.rst:139 3aabe785b6ec4c599b595a924a0575e7
+msgid "An integer representing the RGB color, with 8 bits per channel."
+msgstr "一个表示 RGB 颜色的整数，每个通道占 8 位。"
+
+#: ../../source/unit/color.rst:143 b50249396fd34c4bbc823467a62dfea4
+msgid "|get_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:17 d06af687ebf3443a934e1aa2927c7cae
+msgid "get_color.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:147 316909dea62f46669982f8827b103eb2
+msgid ""
+"Get the RGB color in 5-6-5 format as an integer. :return: An integer "
+"representing the RGB color in 5-6-5 format."
+msgstr "以整数形式获取 5-6-5 格式的 RGB 颜色。:return: 一个整数，表示 5-6-5 格式的 RGB 颜色。"
+
+#: ../../source/unit/color.rst:152 640b2d59134a49f49fe9b2a6cbb33a37
+msgid "|get_color565.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:18 fc057a1b2a1c4c0986bb0ec88ce0cf42
+msgid "get_color565.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:156 4bd8acd9c7854926858e35feaccd6acd
+msgid "Get the active state of the sensor."
+msgstr "获取传感器的激活状态。"
+
+#: ../../source/unit/color.rst:158 ed64038023c540af852958ccf49297ee
+msgid "True if the sensor is active, False if it is inactive."
+msgstr "如果传感器处于激活状态，则为 True；如果处于未激活状态，则为 False。"
+
+#: ../../source/unit/color.rst:162 57af0d646f234a6eab0e2423cdb2d037
+msgid "|get_active.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:19 2f381cdb26284b719dc2638af1ac4a3d
+msgid "get_active.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:166 56374a3b7fcc470c820527ca193f31ad
+msgid "Set the active state of the sensor."
+msgstr "设置传感器的激活状态。"
+
+#: ../../source/unit/color.rst:168 2eb63028619748b5871d2e75726139a9
+msgid ": True to activate the sensor, False to deactivate it."
+msgstr "：True 用于激活传感器，False 用于停用传感器。"
+
+#: ../../source/unit/color.rst:172 c11f114488694acab6aa5f5e52919477
+msgid "|set_active.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:20 7a0bcad41f5a4d5b8af244a359a09309
+msgid "set_active.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:176 97b3e39189f9448e80a1f2d0e3fc9865
+msgid "Get the integration time of the sensor in milliseconds."
+msgstr "获取传感器的积分时间，单位为毫秒。"
+
+#: ../../source/unit/color.rst:178 459f852a04ba4b949e22f8bab9a93c91
+msgid "The integration time as a float."
+msgstr "作为 float 类型的积分时间。"
+
+#: ../../source/unit/color.rst:182 6d8657b3247746ac9b0d017246cc55e5
+msgid "|get_integration_time.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:21 236c5999a038468b92a00c0389a5c3e0
+msgid "get_integration_time.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:186 9717876befc24741bd3765ea16bda89f
+msgid "Set the integration time of the sensor."
+msgstr "设置传感器的积分时间。"
+
+#: ../../source/unit/color.rst:188 f4b25cda0f634fa490438146cc1dc92a
+msgid ": The desired integration time in milliseconds."
+msgstr "：以毫秒为单位的所需积分时间。"
+
+#: ../../source/unit/color.rst 394cddbe6ef34ffa835b6cad61b0a31c
+#: 499ba1e5d2ed40b188f5921fe566287d aa0b013b73d54b21a2ba6937da47bd27
+#: ce605d5caf394c4499d536f97204eae2
+msgid "Raises"
+msgstr ""
+
+#: ../../source/unit/color.rst:189 15770473b1dd4664b796228c61b0869b
+msgid "If the integration time is out of the allowed range."
+msgstr "如果积分时间超出允许范围。"
+
+#: ../../source/unit/color.rst:193 9db781888d194855ae09d2df056a75cf
+msgid "|set_integration_time.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:22 27771674a1984b698fc4bddc95ae39aa
+msgid "set_integration_time.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:197 0847e63b238645c19a0748101dafce9b
+msgid "Get the gain of the sensor."
+msgstr "获取传感器的增益。"
+
+#: ../../source/unit/color.rst:199 c978de38ce9d4f018c639365578c7398
+msgid "The gain value, which should be one of 1, 4, 16, or 60."
+msgstr "增益值，应为 1、4、16 或 60 中的一个。"
+
+#: ../../source/unit/color.rst:203 ee02af6044d54eab8caa6366b90f3fcd
+msgid "|get_gain.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:23 4b1f5a8bca304a049ea62597269db9f6
+msgid "get_gain.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:207 0b8bc5f34c3c408c834ffc0c1baa67e8
+msgid "Set the gain of the sensor."
+msgstr "设置传感器的增益。"
+
+#: ../../source/unit/color.rst:209 b03f0beff232478bb5a83235f69cdeac
+msgid ": The desired gain value (1, 4, 16, or 60)."
+msgstr "：期望的增益值（1、4、16 或 60）。"
+
+#: ../../source/unit/color.rst:210 4f32cfb1960843788a71a9ac9c7356dc
+msgid "If the gain is not one of the allowed values."
+msgstr "如果增益不是允许的值之一。"
+
+#: ../../source/unit/color.rst:214 b2f7e86241304ae6906653d3dd60e483
+msgid "|set_gain.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:24 103afba7ace2467cb0a5d15902330b1f
+msgid "set_gain.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:218 3b76ce4fdb1947e1ae7ff7b4d9793665
+msgid "Read the interrupt status."
+msgstr "读取中断状态。"
+
+#: ../../source/unit/color.rst:220 0fd841250d22468fae1cccfab9a0a9ab
+msgid "True if the interrupt is set, False otherwise."
+msgstr "如果中断已设置，则为 True；否则为 False。"
+
+#: ../../source/unit/color.rst:224 6cbba39a16d5433981b67c63af9d275e
+msgid "|read_interrupt.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:25 984fc6a8c83f4e4e9abdebca11f22f08
+msgid "read_interrupt.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:228 49183dca56754cc7aedd8ea1ee941396
+msgid ""
+"Clear the interrupt status of the sensor by writing to the interrupt "
+"register."
+msgstr "通过写入中断寄存器来清除传感器的中断状态。"
+
+#: ../../source/unit/color.rst:232 a076dacd56d34170ac464a850ed0e925
+msgid "|clear_interrupt.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:26 16e07f6b20434441b807a99727ac7de8
+msgid "clear_interrupt.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:236 80e8ae61a93c4dc599f311e088e1fd61
+msgid "Read the raw RGBC color detected by the sensor."
+msgstr "读取传感器检测到的原始 RGBC 颜色值。"
+
+#: ../../source/unit/color.rst:238 90fc607846fa403597bc7aeccbe36a8a
+msgid "A tuple containing raw red, green, blue, and clear color data."
+msgstr "一个包含原始红、绿、蓝和清除（Clear）颜色数据的元组。"
+
+#: ../../source/unit/color.rst:242 3c1491d15ef9495f98880a80ac988d60
+msgid "|get_color_raw.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:27 fd7f5a69a40c4d01b52c423f59d87c42
+msgid "get_color_raw.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:246 492abe6742514f27b87680ab8e61ec71
+msgid "Get the persistence cycles of the sensor."
+msgstr "获取传感器的持久化周期。"
+
+#: ../../source/unit/color.rst:248 7bbf422ebd0c4ad7a8586557f31c7e4b
+msgid "The persistence cycles or -1 if interrupts are disabled."
+msgstr "持久化周期数；如果中断被禁用，则为 -1。"
+
+#: ../../source/unit/color.rst:252 6bd15d1cc5b44754b73cf21972338c17
+msgid "|get_cycles.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:28 22ef25b276ff43af9388847a8f3027da
+msgid "get_cycles.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:256 d3e136a1c67f47d794b0c1edc25d12a4
+msgid "Set the persistence cycles for the sensor."
+msgstr "设置传感器的持久性周期。"
+
+#: ../../source/unit/color.rst:258 b9a1b5f2f14246078201fc9a02654f1a
+msgid ": The number of persistence cycles, or -1 to disable interrupts."
+msgstr "持久化循环次数，或设置为 -1 以禁用中断。"
+
+#: ../../source/unit/color.rst:259 0cbb8c6f91994109b6df12c9ea9c62c7
+msgid "If the value is not one of the permitted cycle values."
+msgstr "如果该值不是允许的 cycle 值之一。"
+
+#: ../../source/unit/color.rst:263 ad79bf3050e24121bde4791de0c19abc
+msgid "|set_cycles.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:29 d7d4f9e0508f4e0d96fdc9691806c182
+msgid "set_cycles.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:267 d1f59e82ef054e34b83a19ea2c14605a
+msgid "Get the minimum threshold value (AILT register) of the sensor."
+msgstr "获取传感器的最小阈值（AILT 寄存器）值。"
+
+#: ../../source/unit/color.rst:269 226a197076e24335af27581777a3d025
+msgid "The minimum threshold value."
+msgstr "最小阈值。"
+
+#: ../../source/unit/color.rst:273 3da8d4afcfda4ab0a64d8f781393cb97
+msgid "|get_min_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:30 bfa7c5f67bff443b8ed0063c05eea53b
+msgid "get_min_value.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:277 67e4a11ab0ab4afaa195f4a90bd1e517
+msgid "Set the minimum threshold value (AILT register) of the sensor."
+msgstr "设置传感器的最小阈值（AILT 寄存器）值。"
+
+#: ../../source/unit/color.rst:279 c8abcdf8b09e456a83255ecd603a5980
+msgid ": The minimum threshold value to set."
+msgstr "：要设置的最小阈值。"
+
+#: ../../source/unit/color.rst:283 d6a17a43c22244f4a72a394434aa0f86
+msgid "|set_min_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:31 9db5b747178f4dcfbfe6c973bba7226f
+msgid "set_min_value.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:287 d0fbabfed9ad4d668f2c75311d641e3e
+msgid "Get the maximum threshold value (AIHT register) of the sensor."
+msgstr "获取传感器的最大阈值（AIHT 寄存器）值。"
+
+#: ../../source/unit/color.rst:289 c447b77705ae4cb9bb412d1b6500e3c8
+msgid "The maximum threshold value."
+msgstr "最大阈值。"
+
+#: ../../source/unit/color.rst:293 e025c134dd3445168468e9040258aee9
+msgid "|get_max_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:32 13098d612c5347f7ac207f0f07c27c10
+msgid "get_max_value.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:297 c4903d3866634b32a693951592fabf2c
+msgid "Set the maximum threshold value (AIHT register) of the sensor."
+msgstr "设置传感器的最大阈值（AIHT 寄存器）值。"
+
+#: ../../source/unit/color.rst:299 1994077cd556489ab0dafe241b76672c
+msgid ": The maximum threshold value to set."
+msgstr "：要设置的最大阈值。"
+
+#: ../../source/unit/color.rst:303 e82d51db0c2a447cbf6a7627db6b6eea
+msgid "|set_max_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:33 a3dff03b8868499d8c07cd3b2f2bb57f
+msgid "set_max_value.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:307 8fa65bef85744e8f9902cf56cc7a57d8
+msgid ""
+"Get the Glass Attenuation factor used to compensate for lower light "
+"levels due to glass presence."
+msgstr "获取用于补偿因玻璃存在导致光照水平降低的玻璃衰减系数。"
+
+#: ../../source/unit/color.rst:309 007114475f714af7b51f945aeffd5315
+msgid "The glass attenuation factor (ga)."
+msgstr "玻璃衰减因子（ga）。"
+
+#: ../../source/unit/color.rst:313 98e5af1f4d6a493abb4bf35446d5adb3
+msgid "|get_glass_attenuation.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:34 86a10f3362934b04b9e2374b31e3905e
+msgid "get_glass_attenuation.png"
+msgstr ""
+
+#: ../../source/unit/color.rst:317 f3e3f39f34274e33a3d4f5fd1d5f9523
+msgid ""
+"Set the Glass Attenuation factor used to compensate for lower light "
+"levels due to glass presence."
+msgstr "设置用于补偿玻璃存在导致光照水平降低的 Glass Attenuation 系数。"
+
+#: ../../source/unit/color.rst:319 21dbc56d46a14c3b9a10d5e78dc5d1e0
+msgid ": The glass attenuation factor to set. Must be greater than or equal to 1."
+msgstr "：要设置的玻璃衰减系数。必须大于或等于 1。"
+
+#: ../../source/unit/color.rst:320 029dd3e6852242b8b08ba677d59c2269
+msgid "If the value is less than 1."
+msgstr "如果该值小于 1。"
+
+#: ../../source/unit/color.rst:324 dec8ba24f4ec43bf98d80170a62a99df
+msgid "|set_glass_attenuation.png|"
+msgstr ""
+
+#: ../../source/refs/unit.color.ref:35 29e1a16d38ba41189306e4f49b3e7218
+msgid "set_glass_attenuation.png"
+msgstr ""
+

@@ -18,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/software/umqtt.default.rst:4 b80ea1f5831a475383d35eac7268587a
 msgid "umqtt.default"
-msgstr ""
+msgstr "umqtt.default"
 
 #: ../../en/software/umqtt.default.rst:8 cab09d629a2e4bc09f1af55e41243042
 msgid ""
@@ -345,9 +345,8 @@ msgid "|unsubscribe.png|"
 msgstr ""
 
 #: ../../en/refs/software.umqtt.default.ref:26 8409846f878d47908d30a1117a5a2adf
-#, fuzzy
 msgid "unsubscribe.png"
-msgstr "取消订阅主题。"
+msgstr ""
 
 #: ../../en/software/umqtt.default.rst:262 6f132d1282bd4d8480a88c3d4ab54ea6
 msgid "Should be called before :py:meth:`connect()`."

@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/vibrator.rst:2 3fd9340fe95f40e6b83079309225c883
+msgid "Vibrator Unit"
+msgstr "振动器 Unit"
+
+#: ../../source/unit/vibrator.rst:7 c154d9341d394f63922054e08b0b8a2e
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/vibrator.rst:9 031d275f8f4a4e32b0d8d5584a795eb5
+msgid "|Vibrator|"
+msgstr ""
+
+#: ../../source/refs/unit.vibrator.ref 8fa453cff68e42c9a592f3ca198e25bc
+msgid "Vibrator"
+msgstr "振动器"
+
+#: ../../source/unit/vibrator.rst:12 220270c42081451a96a53be7ae27e7b4
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/vibrator.rst:19 40441f4e8cad4eeb9c304ec0e446b7e3
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/vibrator.rst:21 c99318eb2dc94005a33cda9e1319f513
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.vibrator.ref:6 862c08eb6ca44e35a35c022aabade3b5
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/vibrator.rst:26 ad415a1d68614791acb829a4f2d2af8d
+msgid "|core_vibrator_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/vibrator.rst:30 f077befa599d405cb30a379228570731
+msgid "class VibratorUnit"
+msgstr "class VibratorUnit"
+
+#: ../../source/unit/vibrator.rst:33 348efcf193f7407fb5cc6320d70ae8fe
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/vibrator.rst:37 e7c2001fe89247d3810cc3a8b99e6349
+msgid "Create an VibratorUnit object."
+msgstr "创建一个 VibratorUnit 对象。"
+
+#: ../../source/unit/vibrator.rst 05ed6614d1f34f9cac2452a100423db5
+#: 12abec58f3f140ac8f9a35ea23162a51 36d759c2b82a4645aae8a894f2b61760
+#: 58e5d915692d4a408dd88fc44dbd4140
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/vibrator.rst:39 e247b8ee65f84ef4b1ead443969064c6
+msgid "The port where the VibratorUnit is connected to."
+msgstr "VibratorUnit 连接的端口。"
+
+#: ../../source/unit/vibrator.rst:41 ../../source/unit/vibrator.rst:57
+#: ../../source/unit/vibrator.rst:68 ../../source/unit/vibrator.rst:79
+#: ../../source/unit/vibrator.rst:88 ../../source/unit/vibrator.rst:97
+#: 20f26aa5745a4f6e91fe1ad526211543 225ab3f4ed75446bbabdddc1c58db5dd
+#: 29ae29d9acc84001b7a2aa3640884722 6077c4edb765476999b9b0cf30b4533c
+#: ac75e95eca664c4aba08b00c3fc29009 da99a2eb9b2c41ef93daa0bc1ea91bca
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/vibrator.rst:43 cde521f3e05d4de28be6343c9d9cb423
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.vibrator.ref:8 ac8b12ad0fe549c4a9a69ba2fd8c24c3
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/vibrator.rst:47 671cd1d086434978b9b1ec9d94e9506a
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/vibrator.rst:51 2687201e884e48859630e16d149012ca
+msgid "Play the haptic effect once on the motor."
+msgstr "在电机上播放一次触觉效果。"
+
+#: ../../source/unit/vibrator.rst:53 ../../source/unit/vibrator.rst:66
+#: 1d6116f618764e24af47528588217fef 3ba26d29fd2e4b4e8b77044bb76464d1
+msgid "The frequency of vibration ranges from 10-55Hz."
+msgstr "振动频率范围为 10-55 Hz。"
+
+#: ../../source/unit/vibrator.rst:54 ../../source/unit/vibrator.rst:77
+#: 51020b8063e24c41a8890dcf3c1c4d89 ef6820c8bade4095acf071485a96c88e
+msgid ""
+"The duty cycle of vibration ranges from 0-100, representing the "
+"corresponding percentage."
+msgstr "振动的占空比范围为 0-100，表示相应的百分比。"
+
+#: ../../source/unit/vibrator.rst:55 3eab4e9e5531483b81b2e3c9314f2a3d
+msgid "The duration of the vibration effect, in milliseconds."
+msgstr "振动效果的持续时间，单位为毫秒。"
+
+#: ../../source/unit/vibrator.rst:59 7ad5a12c570046e5bdcc9d80bdad900b
+msgid "|once.png|"
+msgstr ""
+
+#: ../../source/refs/unit.vibrator.ref:10 3a3af1c24b654e538c3e2ca0e75d0845
+msgid "once.png"
+msgstr ""
+
+#: ../../source/unit/vibrator.rst:64 3f9f9a6443ec4897b5de2e8ab2b66eed
+msgid "Set the vibration frequency."
+msgstr "设置振动频率。"
+
+#: ../../source/unit/vibrator.rst:70 77e127ec128e458891c817a5ac6b4e11
+msgid "|set_freq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.vibrator.ref:12 9ba570780512411196e1d0ef59388757
+msgid "set_freq.png"
+msgstr ""
+
+#: ../../source/unit/vibrator.rst:75 45edc58d4a194a9cb53fba98b8b85de0
+msgid "Set the vibration duty cycle."
+msgstr "设置振动占空比。"
+
+#: ../../source/unit/vibrator.rst:81 5a0603e17fab46c784e1006db3d3ed69
+msgid "|set_duty.png|"
+msgstr ""
+
+#: ../../source/refs/unit.vibrator.ref:14 18f9d662810c4f7685e65ea240facba5
+msgid "set_duty.png"
+msgstr ""
+
+#: ../../source/unit/vibrator.rst:86 efe66c576c2648768bbf8e3602d718cf
+msgid "Turn off the motor."
+msgstr "关闭电机。"
+
+#: ../../source/unit/vibrator.rst:90 0cb6574c632b469f996738c048f51500
+msgid "|turn_off.png|"
+msgstr ""
+
+#: ../../source/refs/unit.vibrator.ref:16 3a494f848a0f40fca04bfda4c4ce33ab
+msgid "turn_off.png"
+msgstr ""
+
+#: ../../source/unit/vibrator.rst:95 c7d466e1eebc4d1e9ce9d22d12744cf0
+msgid "Deinitialize the motor."
+msgstr "反初始化电机。"
+
+#: ../../source/unit/vibrator.rst:99 a9271cd5d25e4c6fa0aa3a79f82a041c
+msgid "|deinit.png|"
+msgstr ""
+
+#: ../../source/refs/unit.vibrator.ref:18 64b36813c92e4de0942668410b9791e8
+msgid "deinit.png"
+msgstr ""
+

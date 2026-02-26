@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/encoder.rst:2 55748c0337a649db839bcdd26df3b7e5
+msgid "Encoder Unit"
+msgstr "Encoder Unit"
+
+#: ../../source/unit/encoder.rst:6 7899289415bc42bf8789ffb5a934fece
+msgid "The following products are supported:"
+msgstr "以下产品受支持："
+
+#: ../../source/unit/encoder.rst:8 0a45f28658be4593bfe316a9e41f2040
+msgid "|Encoder|"
+msgstr ""
+
+#: ../../source/refs/unit.encoder.ref a72dc203123a412397a7499ccfd41212
+msgid "Encoder"
+msgstr "Encoder"
+
+#: ../../source/unit/encoder.rst:11 c9798cc01096445d8febbf73bedbc85c
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/encoder.rst:18 21b3b3eb66434b9f87624b7d4bd30321
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/encoder.rst:20 6e61b096e16c4afba024eeb432aaada0
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.encoder.ref:7 38986fd8d62b417e9b6d4d7d368cb5b3
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/encoder.rst:25 0ec0f19aad154c699a1c4e738b29447f
+msgid "|stickc_plus2_encoder_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/encoder.rst:29 0701af88cccb4d47887a8801af6c8c5a
+msgid "class EncoderUnit"
+msgstr "class EncoderUnit"
+
+#: ../../source/unit/encoder.rst:32 7d319f286fa2488bb6a3ae765d9a7fc2
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/encoder.rst:36 4ada2ba10ac449d28922c6fd2e8cc587
+msgid "Creates a Rotary object."
+msgstr "创建一个 Rotary 对象。"
+
+#: ../../source/unit/encoder.rst 2f0658c17cbc4acaac0afee8e6ec758f
+#: 4f7a2bf54f9a482da2bcce2e58b4e8cf 537b99f0e6e1418e883d2cf122084899
+#: cff35bad571a4f3c9a002c3e38be57fc
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/encoder.rst:38 b4271e53620c47119e7bd370ef021645
+msgid "I2C object."
+msgstr "I2C 对象。"
+
+#: ../../source/unit/encoder.rst:39 5fc1a19dd1944777bfcb58d1402a4a1d
+msgid "I2C address, Default is 0x40."
+msgstr "I2C 地址，默认为 0x40。"
+
+#: ../../source/unit/encoder.rst:41 ../../source/unit/encoder.rst:53
+#: ../../source/unit/encoder.rst:62 ../../source/unit/encoder.rst:72
+#: ../../source/unit/encoder.rst:81 ../../source/unit/encoder.rst:92
+#: ../../source/unit/encoder.rst:101 ../../source/unit/encoder.rst:113
+#: ../../source/unit/encoder.rst:124 405ebd9fcef84647bf7d0f0bb6cb98de
+#: 4c7926bc515b437fb800f37ff8fd363a 66de58ab03e54dbbb73a250f67a96a5c
+#: aee1f4e038574dd4b41eda36df88bdc9 b51c2f4e70a24875b3bcf87840495966
+#: baf52f6824654630bc9985d603dbc06a c58d22c3ead84ec8b2289f9fe7a05824
+#: c5a42cddf25c4750af2b6a0a036661b6 df8f43c1bdbe4f5aa31725b8695f9fe5
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/encoder.rst:43 dc623c6bf31640459ba5715039b0cc7c
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.encoder.ref:9 491d5735d3414848b4531198a7dec575
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/encoder.rst:47 e19a78ac56104274b5e0bf5134d90004
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/encoder.rst:51 bb1b27d4a8254f3387b05955814aef2f
+msgid "Gets the rotation status of the Rotary object."
+msgstr "获取 Rotary 对象的旋转状态。"
+
+#: ../../source/unit/encoder.rst:55 f7087eec11a84a5ab9d033514b67a534
+msgid "|get_rotary_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.encoder.ref:11 45fe2a05a5a74fb8869fd8b208a1ccda
+msgid "get_rotary_status.png"
+msgstr ""
+
+#: ../../source/unit/encoder.rst:60 cb01dcfd99044bfcacc2e84d2e686c93
+msgid "Gets the rotation value of the Rotary object."
+msgstr "获取 Rotary 对象的旋转值。"
+
+#: ../../source/unit/encoder.rst:64 cd3536b442d64e74993ce6ac88b3a8d6
+msgid "|get_rotary_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.encoder.ref:13 e781cbb077604071b5c7ff5ff2703859
+msgid "get_rotary_value.png"
+msgstr ""
+
+#: ../../source/unit/encoder.rst:69 1e5e79b6147c465ab588159d674006ca
+msgid ""
+"Gets the rotation increment of the Rotary object. Can be used to "
+"determine the direction of rotation."
+msgstr "获取 Rotary 对象的旋转增量。可用于确定旋转方向。"
+
+#: ../../source/unit/encoder.rst:74 89d1f1a618c542e0a4768b78e4518e8c
+msgid "|get_rotary_increments.png|"
+msgstr ""
+
+#: ../../source/refs/unit.encoder.ref:17 cf5234d5f1984d86b117c1f07994185d
+msgid "get_rotary_increments.png"
+msgstr ""
+
+#: ../../source/unit/encoder.rst:79 5efa9080ac1a481ca403803d198b32b4
+msgid "Resets the rotation value of the Rotary object."
+msgstr "重置 Rotary 对象的旋转值。"
+
+#: ../../source/unit/encoder.rst:83 67759fca0a774bff98ffef6655a86733
+msgid "|reset_rotary_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.encoder.ref:19 7169b658438d42a28f1f3dcf6d3fc4e1
+msgid "reset_rotary_value.png"
+msgstr ""
+
+#: ../../source/unit/encoder.rst:88 5ccc7d813bf148d7beaab819e6cc7545
+msgid "Sets the rotation value of the Rotary object."
+msgstr "设置 Rotary 对象的旋转值。"
+
+#: ../../source/unit/encoder.rst:90 3ef444bf63ae462d82256096bd205e87
+msgid "adjust the current value."
+msgstr "调整当前值。"
+
+#: ../../source/unit/encoder.rst:94 3eb1988489024ed783a186cc3be3e518
+msgid "|set_rotary_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.encoder.ref:21 ce3c856e1fb34302b200965359e89757
+msgid "set_rotary_value.png"
+msgstr ""
+
+#: ../../source/unit/encoder.rst:99 98bd9d47495b45f6a976faf8a66a1050
+msgid "Get the current status of the rotary encoder keys."
+msgstr "获取旋转编码器按键的当前状态。"
+
+#: ../../source/unit/encoder.rst:103 445b505ea79241e1a74ee3090a68e893
+msgid "|get_button_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.encoder.ref:15 badfec914af341acb63561f43f8660ab
+msgid "get_button_status.png"
+msgstr ""
+
+#: ../../source/unit/encoder.rst:108 ../../source/unit/encoder.rst:120
+#: aa724fb3eb804070a6d7ea1d5f75700a cbabf70c122346bbb2107f1ec3e876f6
+msgid "Set the color of the LED"
+msgstr "设置 LED 的颜色"
+
+#: ../../source/unit/encoder.rst:110 f507cc4eca9f412fbb6ed28d4062eea0
+msgid "the index of the LED, 1 or 2."
+msgstr "LED 的索引，1 或 2。"
+
+#: ../../source/unit/encoder.rst:111 ../../source/unit/encoder.rst:122
+#: 027cf3eb1ac74be5854b9e429caf49fa f85f140aef4e43a4b12545fc17dd931b
+msgid "the color of the LED, 0x000000 - 0xFFFFFF."
+msgstr "LED 的颜色，0x000000 - 0xFFFFFF。"
+
+#: ../../source/unit/encoder.rst:115 7f15671e3b3b4d5da493a464d73556bb
+msgid "|set_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.encoder.ref:23 f463d7536ece477883a1b5ca469af17c
+msgid "set_color.png"
+msgstr ""
+
+#: ../../source/unit/encoder.rst:126 954710aeb5fb402aa6809cfc11d44f65
+msgid "|fill_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.encoder.ref:25 73a6a62277a54854b90c515f89a20a61
+msgid "fill_color.png"
+msgstr ""
+

@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/commu.rst:2 937adf6dd137423e8ee1f461e4c01229
 msgid "Commu Module"
-msgstr ""
+msgstr "Commu 模块"
 
 #: ../../en/module/commu.rst:8 2bad3100a227459fb6403c283c49241e
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../en/refs/module.commu.ref 0e8e1a1eef6d49ad99b4fa365710f39b
 msgid "commu"
-msgstr ""
+msgstr "commu"
 
 #: ../../en/module/commu.rst:16 97cad8f65d18400f9e7182d5831ea6d4
 msgid "UiFlow2 Example"
@@ -106,11 +106,11 @@ msgstr "API参考"
 
 #: ../../en/module/commu.rst:55 97d77eee397a4e61b5feeafa343763f8
 msgid "CommuModule"
-msgstr ""
+msgstr "CommuModule"
 
 #: 3ea8751fdc804e169a1e5c1c2f5c9c03 module.commu.CommuModuleCAN:1 of
 msgid "Bases: :py:class:`~driver.mcp2515.mcp2515_spi.MCP2515_CAN`"
-msgstr ""
+msgstr "Bases: :py:class:`~driver.mcp2515.mcp2515_spi.MCP2515_CAN`"
 
 #: a56d2f22829d42048b5b352549c56f3d module.commu.CommuModuleCAN:1 of
 msgid "Create an CommuModuleCAN object"
@@ -150,7 +150,6 @@ msgid "``LISTEN_ONLY``: Listen only mode"
 msgstr "``LISTEN_ONLY``: 监听模式"
 
 #: f254bac6c5cf4c39a4d39ec7e4280826 module.commu.CommuModuleCAN:9 of
-#, fuzzy
 msgid ""
 "The baudrate to use, Default is CAN_1000KBPS.  Options:     - "
 "``CAN_5KBPS``: 5Kbps     - ``CAN_10KBPS``: 10Kbps     - ``CAN_20KBPS``: "
@@ -162,14 +161,15 @@ msgid ""
 "``CAN_250KBPS``: 250Kbps     - ``CAN_500KBPS``: 500Kbps     - "
 "``CAN_1000KBPS``: 1Mbps"
 msgstr ""
-"选项:     - ``CAN_5KBPS``: 5Kbps     - ``CAN_10KBPS``: 10Kbps     - "
-"``CAN_20KBPS``: 20Kbps     - ``CAN_31K25BPS``: 31.25Kbps     - "
-"``CAN_33KBPS``: 33Kbps     - ``CAN_40KBPS``: 40Kbps     - ``CAN_50KBPS``:"
-" 50Kbps     - ``CAN_80KBPS``: 80Kbps     - ``CAN_83K3BPS``: 83.33Kbps"
-"     - ``CAN_95KBPS``: 95Kbps     - ``CAN_100KBPS``: 100Kbps     - "
-"``CAN_125KBPS``: 125Kbps     - ``CAN_200KBPS``: 200Kbps     - "
-"``CAN_250KBPS``: 250Kbps     - ``CAN_500KBPS``: 500Kbps     - "
-"``CAN_1000KBPS``: 1Mbps"
+"使用的波特率，默认值为 CAN_1000KBPS。可选项：     - ``CAN_5KBPS``：5 Kbps     - "
+"``CAN_10KBPS``：10 Kbps     - ``CAN_20KBPS``：20 Kbps     - "
+"``CAN_31K25BPS``：31.25 Kbps     - ``CAN_33KBPS``：33 Kbps     - "
+"``CAN_40KBPS``：40 Kbps     - ``CAN_50KBPS``：50 Kbps     - "
+"``CAN_80KBPS``：80 Kbps     - ``CAN_83K3BPS``：83.33 Kbps     - "
+"``CAN_95KBPS``：95 Kbps     - ``CAN_100KBPS``：100 Kbps     - "
+"``CAN_125KBPS``：125 Kbps     - ``CAN_200KBPS``：200 Kbps     - "
+"``CAN_250KBPS``：250 Kbps     - ``CAN_500KBPS``：500 Kbps     - "
+"``CAN_1000KBPS``：1 Mbps。"
 
 #: b41784ee435547e992201a768fa0296d module.commu.CommuModuleCAN:9 of
 msgid "The baudrate to use, Default is CAN_1000KBPS."
@@ -177,67 +177,67 @@ msgstr "使用的波特率，默认是 CAN_1000KBPS。"
 
 #: b4c1c73e726a4750bc9096eb060998ac module.commu.CommuModuleCAN:12 of
 msgid "``CAN_5KBPS``: 5Kbps"
-msgstr ""
+msgstr "``CAN_5KBPS``：5 Kbps"
 
 #: 76204e91c60b461fa141c26f8bb226da module.commu.CommuModuleCAN:13 of
 msgid "``CAN_10KBPS``: 10Kbps"
-msgstr ""
+msgstr "``CAN_10KBPS``：10 Kbps"
 
 #: cc5aa639e36448c7b81f0c0d65265f51 module.commu.CommuModuleCAN:14 of
 msgid "``CAN_20KBPS``: 20Kbps"
-msgstr ""
+msgstr "``CAN_20KBPS``：20 Kbps"
 
 #: 0d8b107921074508a9685047402ada0b module.commu.CommuModuleCAN:15 of
 msgid "``CAN_31K25BPS``: 31.25Kbps"
-msgstr ""
+msgstr "``CAN_31K25BPS``：31.25 Kbps"
 
 #: 340d803cfea84277b091f89dd502f5e1 module.commu.CommuModuleCAN:16 of
 msgid "``CAN_33KBPS``: 33Kbps"
-msgstr ""
+msgstr "``CAN_33KBPS``：33 Kbps"
 
 #: dd6aac86c35b40efb9930ce2fbabc3c5 module.commu.CommuModuleCAN:17 of
 msgid "``CAN_40KBPS``: 40Kbps"
-msgstr ""
+msgstr "``CAN_40KBPS``：40 Kbps。"
 
 #: ff1123fe7bbc437db04c5053081e85e0 module.commu.CommuModuleCAN:18 of
 msgid "``CAN_50KBPS``: 50Kbps"
-msgstr ""
+msgstr "``CAN_50KBPS``：50 Kbps"
 
 #: 16805acf8cb54ac3bfa28a20cab29465 module.commu.CommuModuleCAN:19 of
 msgid "``CAN_80KBPS``: 80Kbps"
-msgstr ""
+msgstr "``CAN_80KBPS``：80 Kbps"
 
 #: f797059633964eb08c9f1a9a1804aaaa module.commu.CommuModuleCAN:20 of
 msgid "``CAN_83K3BPS``: 83.33Kbps"
-msgstr ""
+msgstr "``CAN_83K3BPS``：83.33 Kbps"
 
 #: 71e96db883464bc9b24cc937a78393ee module.commu.CommuModuleCAN:21 of
 msgid "``CAN_95KBPS``: 95Kbps"
-msgstr ""
+msgstr "``CAN_95KBPS``：95 Kbps"
 
 #: 7b7ee203fd5a499ab19c2c01a18cab80 module.commu.CommuModuleCAN:22 of
 msgid "``CAN_100KBPS``: 100Kbps"
-msgstr ""
+msgstr "``CAN_100KBPS``：100 Kbps"
 
 #: ffc6db2f6d294a918576f2a5f0d2e2d0 module.commu.CommuModuleCAN:23 of
 msgid "``CAN_125KBPS``: 125Kbps"
-msgstr ""
+msgstr "``CAN_125KBPS``：125 Kbps"
 
 #: 15dd3d6f30014f7e9b21d5eb1e3917c1 module.commu.CommuModuleCAN:24 of
 msgid "``CAN_200KBPS``: 200Kbps"
-msgstr ""
+msgstr "``CAN_200KBPS``：200 Kbps"
 
 #: a472169b23a34cbea7bd83e673d92a27 module.commu.CommuModuleCAN:25 of
 msgid "``CAN_250KBPS``: 250Kbps"
-msgstr ""
+msgstr "``CAN_250KBPS``：250 Kbps"
 
 #: 3af227a7493c4d8a965288828fc36df1 module.commu.CommuModuleCAN:26 of
 msgid "``CAN_500KBPS``: 500Kbps"
-msgstr ""
+msgstr "``CAN_500KBPS``：500 Kbps"
 
 #: 1a60f80791534197a787c0d5f40ef07e module.commu.CommuModuleCAN:27 of
 msgid "``CAN_1000KBPS``: 1Mbps"
-msgstr ""
+msgstr "``CAN_1000KBPS``：1 Mbps"
 
 #: e4f6b62a97584aa2abbb2606a1282439 module.commu.CommuModuleCAN:30 of
 msgid "The SPI baudrate to use, Default is 8000000."
@@ -278,7 +278,7 @@ msgstr ""
 
 #: 280f822312264511acd49886ab12b058 module.commu.CommuModuleCAN.any:1 of
 msgid "Check if any message is available."
-msgstr ""
+msgstr "检查是否有任何消息可用。"
 
 #: 0289ed9b04a14c00ac3b4cd8b5513f64 97f5fa29d9df417caebc41d7c33e66c5
 #: c68e694b411349d88c15d2131def6b75 d8d8225eeea348799ab031f87856b087
@@ -355,7 +355,7 @@ msgstr ""
 
 #: ae9082a8892c49a4919ffa77e2195759 module.commu.CommuModuleCAN.recv:7 of
 msgid "tuple"
-msgstr ""
+msgstr "tuple"
 
 #: 74a72abea34f47e392d58004a25e1041 module.commu.CommuModuleCAN.recv:9 of
 msgid "The id of the message."
@@ -404,7 +404,7 @@ msgstr "消息数据。"
 
 #: b1fb69484dc6427f8e3a5dd979b75a0f module.commu.CommuModuleCAN.send:4 of
 msgid "The CAN ID."
-msgstr ""
+msgstr "CAN ID。"
 
 #: 9a1649c6027546d1b4486df4521e2d38 module.commu.CommuModuleCAN.send:5 of
 msgid "Whether to use extended frame format."
@@ -421,7 +421,7 @@ msgstr ""
 #: 35972e31cc824791b6c764bcc1ce6273 b22774a70d9c4b0ba554a0f12279ff38
 #: module.commu.CommuModuleI2C:1 module.commu.CommuModuleRS485:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: ../../en/module/commu.rst:63 46dca2360a6a4acca1e25e4c9b0e1c1e
 msgid "The `CommuModuleRS485` class wraps an instance of the `UART` class."
@@ -440,3 +440,4 @@ msgid ""
 "For more details, see :ref:`machine.I2C <machine.I2C>`. -- a two-wire "
 "serial protocol."
 msgstr "更多详情，请参阅 :ref:`machine.I2C <machine.I2C>`. -- 两线串行协议。"
+

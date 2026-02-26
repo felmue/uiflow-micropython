@@ -101,11 +101,11 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/m5ui/spinner.rst:49 81ad4a560dd34af0bbde5c284072c408
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: 646aa81d6909490cbb34818f02af11b4 m5ui.spinner.M5Spinner:1 of
 msgid "Bases: :py:class:`~lvgl.spinner`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.spinner`"
 
 #: 07ac6cc7a5e147f7b19c52752c2217f5 m5ui.spinner.M5Spinner:1 of
 msgid "Create a spinner object."
@@ -303,9 +303,8 @@ msgstr "颜色的不透明度（0-255）。"
 
 #: 9d5976f902df4b3f97b8ca1208a6f010 m5ui.spinner.M5Spinner.set_spinner_color:5
 #: of
-#, fuzzy
 msgid "The part of the spinner to set the color for."
-msgstr "要设置颜色的spinner部分。"
+msgstr "用于设置颜色的 spinner 部件。"
 
 #: 64c3b2982c4c498994ba739d0ce100aa m5ui.spinner.M5Spinner.set_spinner_color:9
 #: of

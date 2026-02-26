@@ -22,17 +22,17 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:3 894b09b348e74ee392ca99a8688079c6
 msgid "LoRaWAN868 Module"
-msgstr ""
+msgstr "LoRaWAN868 模块"
 
 #: ../../en/module/lorawan868.rst:7 3f7738d8d62742f5a56d3b43bf43f51c
 msgid ""
 "COM.LoRaWAN is a LoRaWAN communication module in the M5Stack stackable "
 "module series, supporting node-to-node or LoRaWAN communication."
-msgstr ""
+msgstr "COM.LoRaWAN 是 M5Stack 可堆叠模块系列中的 LoRaWAN 通信模块，支持节点到节点或 LoRaWAN 通信。"
 
 #: ../../en/module/lorawan868.rst:9 cca96e69e95d43d0b7e6f5411f4f01e8
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/lorawan868.rst:11 c88b0947bd374444bf39280a3f731f9e
 msgid "|LoRaWAN868Module|"
@@ -40,19 +40,19 @@ msgstr ""
 
 #: ../../en/refs/module.lorawan868.ref c579b80978254167996af886de549949
 msgid "LoRaWAN868Module"
-msgstr ""
+msgstr "LoRaWAN868Module"
 
 #: ../../en/module/lorawan868.rst:13 29dea465a8fa4b2980ffb6033f685d72
 msgid "Micropython TX Example:"
-msgstr ""
+msgstr "MicroPython TX 应用示例："
 
 #: ../../en/module/lorawan868.rst:19 86b599e27d0045cdaaa08bcc822ec7a2
 msgid "Micropython RX Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/lorawan868.rst:25 ce16d398ccbd4bb99e63889a8c19ca38
 msgid "UIFLOW2 TX Example:"
-msgstr ""
+msgstr "UIFLOW2 TX 应用示例："
 
 #: ../../en/module/lorawan868.rst:27 827c70012c9c4b17b92215415b640aa2
 msgid "|tx_example.png|"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:29 a9c3ea4629eb47aa989e12787b4cf49e
 msgid "UIFLOW2 RX Example:"
-msgstr ""
+msgstr "UiFlow2 RX 应用示例："
 
 #: ../../en/module/lorawan868.rst:31 c953f65249c5419aa74c6bed9e883159
 msgid "|rx_example.png|"
@@ -84,15 +84,15 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:40 cf7f5e8a7a5f43b59a253a07a0fde569
 msgid "class LoRaWAN868Module"
-msgstr ""
+msgstr "class LoRaWAN868Module"
 
 #: ../../en/module/lorawan868.rst:43 bd0a1c91403c4db685855fc1825c304a
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/module/lorawan868.rst:47 bf59c62ffb344dbdb12e7224d20e8a0c
 msgid "Initialize the LoRaWANModule."
-msgstr ""
+msgstr "初始化 LoRaWANModule。"
 
 #: ../../en/module/lorawan868.rst 0a906397853d4980937f571086578c21
 #: 1c45d000914a4f22b05148ef749b0cf0 212d0263a33d490e99131c2ca30f9901
@@ -112,17 +112,17 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:49 6cc25680668d4dc092c1d483e1316ded
 msgid "The UART ID to use for communication."
-msgstr ""
+msgstr "用于通信的 UART ID。"
 
 #: ../../en/module/lorawan868.rst:50 7d7a9aa8a54c4df883221fa9d924bc75
 msgid ""
 "The UART port to use for communication, specified as a tuple of (rx, tx) "
 "pins."
-msgstr ""
+msgstr "用于通信的 UART 端口，以 (rx, tx) 引脚的元组形式指定。"
 
 #: ../../en/module/lorawan868.rst:51 a5a133d8452e4bfd8096e8f00f157fe1
 msgid "The frequency to use for LoRa communication"
-msgstr ""
+msgstr "用于 LoRa 通信的频率。"
 
 #: ../../en/module/lorawan868.rst:53 ../../en/module/lorawan868.rst:67
 #: ../../en/module/lorawan868.rst:85 ../../en/module/lorawan868.rst:94
@@ -161,7 +161,7 @@ msgstr ""
 #: f4d7dad015df4fc890034bbfb3c4ade0 f559202d030a4949bc4895ce8c0c10a2
 #: f84589d5fbca4e51a143d901b5c4c5b9 fff9c18a0ce34caea8ca11f2ac2ee6bd
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2："
 
 #: ../../en/module/lorawan868.rst:55 84c4176b3e694f0295ecff37efb06797
 msgid "|init.png|"
@@ -177,11 +177,11 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:63 4f5fc2959ade4d46baf984c2391b3762
 msgid "Set the mode of the LoRaWAN module."
-msgstr ""
+msgstr "设置 LoRaWAN 模块的模式。"
 
 #: ../../en/module/lorawan868.rst:65 8b737e6d3ade4bd192dad4160cd189a8
 msgid "The mode to set."
-msgstr ""
+msgstr "要设置的模式。"
 
 #: ../../en/module/lorawan868.rst:69 5b2658bd01074e84b9d5a03eaaa44323
 msgid "|set_mode.png|"
@@ -193,43 +193,43 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:73 fe7c5c5fc23a4ea89934e9c003b465e4
 msgid "Set the parameters of the LoRaWAN module."
-msgstr ""
+msgstr "设置 LoRaWAN 模块的参数。"
 
 #: ../../en/module/lorawan868.rst:75 987b6ce6cd4946faa57230f2a55f858d
 msgid "Set LoRa listening/sending frequency in Hz."
-msgstr ""
+msgstr "设置 LoRa 监听/发送频率，单位为 Hz。"
 
 #: ../../en/module/lorawan868.rst:76 bc360f74d9d24b1d82543002d274f060
 msgid "LoRa signal output power in dBm;"
-msgstr ""
+msgstr "LoRa 信号输出功率（单位：dBm）；"
 
 #: ../../en/module/lorawan868.rst:77 434fb9f4cc53475e90ba038d85e65d05
 msgid "Spreading factor, from 5~12"
-msgstr ""
+msgstr "扩频因子，范围为 5～12。"
 
 #: ../../en/module/lorawan868.rst:78 20235ac487aa4758878baf2f0e9d2b6a
 msgid "Bandwidth 0 – 125K, 1 – 250K, 2 – 500K;"
-msgstr ""
+msgstr "带宽 0 – 125K、1 – 250K、2 – 500K；"
 
 #: ../../en/module/lorawan868.rst:79 9c63ce48ef80467cae86f0432a3a76b9
 msgid "1 – 4/5, 2 – 4/6, 3 – 4/7, 4 – 4/8;"
-msgstr ""
+msgstr "1 – 4/5，2 – 4/6，3 – 4/7，4 – 4/8；"
 
 #: ../../en/module/lorawan868.rst:80 b26b1a9b587e4011928a55fe573ec2fd
 msgid "Preamble Length from 8~65535 bit;"
-msgstr ""
+msgstr "前导码长度为 8 ~ 65535 bit；"
 
 #: ../../en/module/lorawan868.rst:81 92619e889ce248748108456a2bfe2bcf
 msgid "0 – disable CRC check, 1 – enable CRC check;"
-msgstr ""
+msgstr "0 – 禁用 CRC 校验，1 – 启用 CRC 校验；"
 
 #: ../../en/module/lorawan868.rst:82 284de1f0640e435db82ca4072804a248
 msgid "0 -- not inverted, 1 – inverted;"
-msgstr ""
+msgstr "0 -- 未反转，1 – 已反转；"
 
 #: ../../en/module/lorawan868.rst:83 2fe3be2b10c6476ea2c2e190b2d5d935
 msgid "Save parameters to FLASH, 0 – not save, 1 – save."
-msgstr ""
+msgstr "将参数保存到 FLASH，0 – 不保存，1 – 保存。"
 
 #: ../../en/module/lorawan868.rst:87 b902d66b941e42b48fb83684d2d7752f
 msgid "|set_parameters.png|"
@@ -244,7 +244,7 @@ msgid ""
 "Wake up the device through a serial port interrupt. After resetting, the "
 "device is in sleep state. In theory, sending any data through the serial "
 "port can trigger the interrupt and wake up the device."
-msgstr ""
+msgstr "通过串口中断唤醒设备。复位后，设备处于睡眠状态。理论上，通过串口发送任意数据都可以触发中断并唤醒设备。"
 
 #: ../../en/module/lorawan868.rst:96 42904f75d4c94d3fab667281111bc3d6
 msgid "|wake_up.png|"
@@ -256,7 +256,7 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:100 d9e7b0124f914f599df055808b6ecf5f
 msgid "Put the device into low-power mode."
-msgstr ""
+msgstr "将设备置于低功耗模式。"
 
 #: ../../en/module/lorawan868.rst:105 35a0fa7614174d6abde0b5e577e15c15
 msgid "|sleep.png|"
@@ -268,7 +268,7 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:109 336f9d28b729482c869e92c54e5a6574
 msgid "Reset the device."
-msgstr ""
+msgstr "重置设备。"
 
 #: ../../en/module/lorawan868.rst:114 48a8810903ad4f2988dd5946d55b0145
 msgid "|reset.png|"
@@ -282,7 +282,7 @@ msgstr ""
 msgid ""
 "Restore the device to factory settings. The parameters will reset and the"
 " device will enter sleep mode after response ends."
-msgstr ""
+msgstr "将设备恢复为出厂设置。参数将重置，并且设备将在响应结束后进入睡眠模式。"
 
 #: ../../en/module/lorawan868.rst:123 38e9f992b20544a0a068f152722f6fbd
 msgid "|restore_factory_settings.png|"
@@ -296,12 +296,12 @@ msgstr ""
 msgid ""
 "Enable or disable copyright information print when boot loader mode "
 "begins. Default is enable."
-msgstr ""
+msgstr "在启动加载程序模式开始时，启用或禁用版权信息打印。默认启用。"
 
 #: ../../en/module/lorawan868.rst:129 ../../en/module/lorawan868.rst:139
 #: 81539e27b4fa40fdb0dceb0a25a1b733 f4f9efcdc5d545af916edf1470055573
 msgid "Set True to enable, False to disable."
-msgstr ""
+msgstr "设置为 True 以启用，设置为 False 以禁用。"
 
 #: ../../en/module/lorawan868.rst:133 546297b8f25445f7b14e31901755dcbe
 msgid "|set_copyright.png|"
@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:137 899523eb1d0b45349c511f75950cf190
 msgid "Enable or disable automatic low-power mode. Default is enable."
-msgstr ""
+msgstr "启用或禁用自动低功耗模式。默认为启用。"
 
 #: ../../en/module/lorawan868.rst:143 9bddcb761ad04ea1a2358243ca7fe0b0
 msgid "|set_auto_low_power.png|"
@@ -327,7 +327,7 @@ msgstr ""
 msgid ""
 "Query the unique ID of the chip, which can be used to query the "
 "corresponding serial number."
-msgstr ""
+msgstr "查询芯片的唯一 ID，可用于查询对应的序列号。"
 
 #: ../../en/module/lorawan868.rst:152 a0ad095c82fe4b5e9a0fafee32daee46
 msgid "|query_chip_id.png|"
@@ -339,11 +339,11 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:156 bdf5d8a9eac6455fa1e06cb982139580
 msgid "Enable the LoRaWAN module to receive data."
-msgstr ""
+msgstr "启用 LoRaWAN 模块以接收数据。"
 
 #: ../../en/module/lorawan868.rst:158 f4a0f4d06281451ab16538c12ad8bd12
 msgid "The timeout for the receive operation."
-msgstr ""
+msgstr "接收操作的超时时间。"
 
 #: ../../en/module/lorawan868.rst:162 5edf3b126bc946109a5986ce4c4b7f64
 msgid "|enable_rx.png|"
@@ -355,11 +355,11 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:166 f37d299683944fe68c4366b1feefb2cf
 msgid "Set or query the DevEui. DevEui must be 16 hex characters (0-9, A-F)."
-msgstr ""
+msgstr "设置或查询 DevEui。DevEui 必须为 16 个十六进制字符（0-9、A-F）。"
 
 #: ../../en/module/lorawan868.rst:168 236d479fd97844a7b9b850da89f3128d
 msgid "The DevEui to set. If None, query the current DevEui."
-msgstr ""
+msgstr "要设置的 DevEui。如果为 None，则查询当前 DevEui。"
 
 #: ../../en/module/lorawan868.rst:172 b116e827910748828e788f43de4b374a
 msgid "|set_deveui.png|"
@@ -371,11 +371,11 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:176 7c36d9bfba054f72858a423427245c73
 msgid "Set or query the AppEui. AppEui must be 16 hex characters (0-9, A-F)."
-msgstr ""
+msgstr "设置或查询 AppEui。AppEui 必须为 16 个十六进制字符（0-9、A-F）。"
 
 #: ../../en/module/lorawan868.rst:178 ed22bcc7b966448faf0f5e6cbfa49572
 msgid "The AppEui to set. If None, query the current AppEui."
-msgstr ""
+msgstr "要设置的 AppEui。如果为 None，则查询当前 AppEui。"
 
 #: ../../en/module/lorawan868.rst:182 1e09573619c04e8fbfee1fbc0585fad4
 msgid "|set_appeui.png|"
@@ -387,11 +387,11 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:186 3c301adffae44a3a8602f1c62a50d511
 msgid "Set or query the AppKey. AppKey must be 32 hex characters (0-9, A-F)."
-msgstr ""
+msgstr "设置或查询 AppKey。AppKey 必须为 32 个十六进制字符（0-9、A-F）。"
 
 #: ../../en/module/lorawan868.rst:188 90472f4fa8db4aaca0fa5faca07f32dc
 msgid "The AppKey to set. If None, query the current AppKey."
-msgstr ""
+msgstr "要设置的 AppKey。如果为 None，则查询当前 AppKey。"
 
 #: ../../en/module/lorawan868.rst:192 2e6254532b954ed8a95387e72418022c
 msgid "|set_appkey.png|"
@@ -403,11 +403,11 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:196 1ad931be1c1a4a928aa491f7679a2c42
 msgid "Set or query the NwkSKey. NwkSKey must be 32 hex characters (0-9, A-F)."
-msgstr ""
+msgstr "设置或查询 NwkSKey。NwkSKey 必须为 32 个十六进制字符（0-9、A-F）。"
 
 #: ../../en/module/lorawan868.rst:198 d8074689143947c986444c209a0b46b7
 msgid "The NwkSKey to set. If None, query the current NwkSKey."
-msgstr ""
+msgstr "要设置的 NwkSKey。如果为 None，则查询当前 NwkSKey。"
 
 #: ../../en/module/lorawan868.rst:202 414fa1af4fee4201966922f1cd67cc09
 msgid "|set_nwkskey.png|"
@@ -419,11 +419,11 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:206 d7b634ae33284abc832d91accd0f219f
 msgid "Set or query the AppSKey. AppSKey must be 32 hex characters (0-9, A-F)."
-msgstr ""
+msgstr "设置或查询 AppSKey。AppSKey 必须为 32 个十六进制字符（0-9、A-F）。"
 
 #: ../../en/module/lorawan868.rst:208 599af69e56ae402f85499593af39934c
 msgid "The AppSKey to set. If None, query the current AppSKey."
-msgstr ""
+msgstr "要设置的 AppSKey。如果为 None，则查询当前的 AppSKey。"
 
 #: ../../en/module/lorawan868.rst:212 4155b5df4dc845948cfa65c09ede7924
 msgid "|set_appskey.png|"
@@ -435,11 +435,11 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:216 750725c76ce647daaa444ddb08b3a48b
 msgid "Set or query the DevAddr. DevAddr must be 8 hex characters (0-9, A-F)."
-msgstr ""
+msgstr "设置或查询 DevAddr。DevAddr 必须为 8 个十六进制字符（0-9、A-F）。"
 
 #: ../../en/module/lorawan868.rst:218 ecd9ced394c943f29e4b9767d35d2784
 msgid "The DevAddr to set. If None, query the current DevAddr."
-msgstr ""
+msgstr "要设置的 DevAddr。如果为 None，则查询当前 DevAddr。"
 
 #: ../../en/module/lorawan868.rst:222 41e7a53c2ff24808b2dceb29b7c7b573
 msgid "|set_devaddr.png|"
@@ -451,11 +451,11 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:226 20e2a977e4b14982ae947c67658bd70d
 msgid "Set or query the OTAA mode. 1 for OTAA mode, 0 for ABP mode."
-msgstr ""
+msgstr "设置或查询 OTAA 模式。1 表示 OTAA 模式，0 表示 ABP 模式。"
 
 #: ../../en/module/lorawan868.rst:228 084319ce8e344a7aadb20fc76354fba5
 msgid "Set True for OTAA mode, False for ABP mode."
-msgstr ""
+msgstr "设置为 True 表示 OTAA 模式，设置为 False 表示 ABP 模式。"
 
 #: ../../en/module/lorawan868.rst:232 1d70e23651904ab1ad1b468cb92f4de3
 msgid "|set_otaa_mode.png|"
@@ -469,11 +469,11 @@ msgstr ""
 msgid ""
 "Enable or disable the ADR (Adaptive Data Rate) function. Default is "
 "enabled."
-msgstr ""
+msgstr "启用或禁用 ADR（Adaptive Data Rate）功能。默认启用。"
 
 #: ../../en/module/lorawan868.rst:238 908bd41ac0b244e9a67264d9dc7e6066
 msgid "Set True to enable ADR, False to disable."
-msgstr ""
+msgstr "设置为 True 以启用 ADR，设置为 False 以禁用。"
 
 #: ../../en/module/lorawan868.rst:242 a09e6256dde54797a40ff796f62eec75
 msgid "|set_adr.png|"
@@ -485,13 +485,13 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:246 b4ef0598489a45e0a8c9d0d462c40316
 msgid "Set or query the LoRaWAN working channel mask."
-msgstr ""
+msgstr "设置或查询 LoRaWAN 工作信道掩码。"
 
 #: ../../en/module/lorawan868.rst:248 62131f85939442139a60698020a338ec
 msgid ""
 "The channel mask in hexadecimal format, e.g., 0000000000000000000000FF "
 "for channels 0~7."
-msgstr ""
+msgstr "十六进制格式的通道掩码，例如 0000000000000000000000FF 表示通道 0~7。"
 
 #: ../../en/module/lorawan868.rst:252 d683b8e36806486eb0519e4826155d52
 msgid "|set_channel_mask.png|"
@@ -505,7 +505,7 @@ msgstr ""
 msgid ""
 "Join the network using OTAA (Over-The-Air Activation). This command "
 "triggers the join process."
-msgstr ""
+msgstr "使用 OTAA（Over-The-Air Activation）加入网络。该命令会触发加入过程。"
 
 #: ../../en/module/lorawan868.rst:261 dfc2eb6c1843479f8356066d60873051
 msgid "|join_network.png|"
@@ -519,11 +519,11 @@ msgstr ""
 msgid ""
 "Set or query the communication cycle in milliseconds. For example, 60000 "
 "means communication every 60 seconds."
-msgstr ""
+msgstr "设置或查询通信周期，单位为毫秒。例如，60000 表示每 60 秒通信一次。"
 
 #: ../../en/module/lorawan868.rst:267 e86152e2159941b489c38c5355afa58d
 msgid "The communication cycle in milliseconds."
-msgstr ""
+msgstr "通信周期，单位为毫秒。"
 
 #: ../../en/module/lorawan868.rst:271 e2594373393d4de4b83d5b37d53d557d
 msgid "|set_duty_cycle.png|"
@@ -537,11 +537,11 @@ msgstr ""
 msgid ""
 "Set or query the device&#x27;s communication mode. Only Class A or Class "
 "C are valid."
-msgstr ""
+msgstr "设置或查询设备的通信模式。仅 Class A 或 Class C 有效。"
 
 #: ../../en/module/lorawan868.rst:277 5159e79457454d8a86da9eba16edb909
 msgid "Set &quot;A&quot; for Class A or &quot;C&quot; for Class C."
-msgstr ""
+msgstr "设置为 &quot;A&quot; 表示 Class A，或设置为 &quot;C&quot; 表示 Class C。"
 
 #: ../../en/module/lorawan868.rst:281 2cc478f317f941849d32bbf1fad94d8c
 msgid "|set_class_mode.png|"
@@ -555,11 +555,11 @@ msgstr ""
 msgid ""
 "Enable or disable the ACK receipt function. If enabled, the device waits "
 "for acknowledgment from the gateway."
-msgstr ""
+msgstr "启用或禁用 ACK 回执功能。如果启用，设备将等待来自网关的确认。"
 
 #: ../../en/module/lorawan868.rst:287 d81c7aabf2ea4082b46a12161fd5d233
 msgid "Set True to enable ACK, False to disable."
-msgstr ""
+msgstr "设置为 True 以启用 ACK，设置为 False 以禁用。"
 
 #: ../../en/module/lorawan868.rst:291 b697f5f0476f43d790db88997321ce17
 msgid "|set_ack.png|"
@@ -573,11 +573,11 @@ msgstr ""
 msgid ""
 "Set or query the application port (fport) for upstream data. Valid range "
 "is 0~255."
-msgstr ""
+msgstr "设置或查询上行数据的应用端口（fport）。有效范围为 0~255。"
 
 #: ../../en/module/lorawan868.rst:297 44286b2e796f4266b574b9cdc2101e41
 msgid "The application port to set."
-msgstr ""
+msgstr "要设置的应用端口。"
 
 #: ../../en/module/lorawan868.rst:301 5a762d65d8dd4132ae72802bdb4cf4e4
 msgid "|set_app_port.png|"
@@ -591,11 +591,11 @@ msgstr ""
 msgid ""
 "Set or query the number of retransmissions if communication fails. The "
 "valid range is 3~8."
-msgstr ""
+msgstr "设置或查询通信失败时的重传次数。有效范围为 3~8。"
 
 #: ../../en/module/lorawan868.rst:307 f3803fd7071c478eba00db026117fe16
 msgid "The number of retransmissions to set. If None, query the current setting."
-msgstr ""
+msgstr "要设置的重传次数。如果为 None，则查询当前设置。"
 
 #: ../../en/module/lorawan868.rst:311 3c88a4b1cc5f4480a64306473987ec2d
 msgid "|set_retransmission_count.png|"
@@ -609,11 +609,11 @@ msgstr ""
 msgid ""
 "Send hex data in LoRaWAN or LoRa mode. Hex characters must be in pairs "
 "(e.g., &quot;AABB&quot;)."
-msgstr ""
+msgstr "在 LoRaWAN 或 LoRa 模式下发送十六进制数据。十六进制字符必须成对出现（例如 “AABB”）。"
 
 #: ../../en/module/lorawan868.rst:317 8228a26062ad434c86dbc1fe78b0db50
 msgid "The hex data to send, up to 64 bytes."
-msgstr ""
+msgstr "要发送的十六进制数据，最多 64 字节。"
 
 #: ../../en/module/lorawan868.rst:321 f22784d6bddb4788968e87ad9445c341
 msgid "|send_hex.png|"
@@ -627,11 +627,11 @@ msgstr ""
 msgid ""
 "Send string data in LoRaWAN or LoRa mode. The string must consist of "
 "ASCII characters."
-msgstr ""
+msgstr "在 LoRaWAN 或 LoRa 模式下发送字符串数据。该字符串必须由 ASCII 字符组成。"
 
 #: ../../en/module/lorawan868.rst:327 f72df07b242d486d832ce397e0f4c490
 msgid "The string data to send, up to 64 bytes."
-msgstr ""
+msgstr "要发送的字符串数据，最多 64 字节。"
 
 #: ../../en/module/lorawan868.rst:331 40c17bf802004b47a4b52b4572695887
 msgid "|send_string.png|"
@@ -643,7 +643,7 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:335 a11f98cfa7324e19ac73f3b763e17499
 msgid "Query if the device is in LoRaWAN or normal LoRa mode."
-msgstr ""
+msgstr "查询设备当前处于 LoRaWAN 模式还是普通 LoRa 模式。"
 
 #: ../../en/module/lorawan868.rst:340 6f5c8159d90c490e968c9b6bb9c8beee
 msgid "|query_lorawan_mode.png|"
@@ -655,7 +655,7 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:344 1c4ca114a1ba40be83b2e6297261728b
 msgid "Save the current LoRa parameters to FLASH memory."
-msgstr ""
+msgstr "将当前 LoRa 参数保存到 FLASH 存储器中。"
 
 #: ../../en/module/lorawan868.rst:349 38a5417a89cd46ea8a59d16293c3e5d9
 msgid "|save_parameters_to_flash.png|"
@@ -667,15 +667,15 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:353 e13d7e8f1fa949cb8795f6af56f44a48
 msgid "Send an AT command to the LoRaWAN module."
-msgstr ""
+msgstr "向 LoRaWAN 模块发送 AT 命令。"
 
 #: ../../en/module/lorawan868.rst:355 d9d14742c88a4c409d8753bad26ef20a
 msgid "The AT command to send."
-msgstr ""
+msgstr "要发送的 AT 命令。"
 
 #: ../../en/module/lorawan868.rst:356 0ab68bf0ef154f6f96d5c005c0723a15
 msgid "The data to send with the AT command."
-msgstr ""
+msgstr "使用 AT 命令发送的数据。"
 
 #: ../../en/module/lorawan868.rst:360 a3e8ca3f79214c5faa5bdb4726e3eb57
 msgid "|at_cmd.png|"
@@ -687,11 +687,11 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:364 cfbcc8980bee4e11a0c7834d20874509
 msgid "Query the current settings of the LoRaWAN module."
-msgstr ""
+msgstr "查询 LoRaWAN 模块的当前设置。"
 
 #: ../../en/module/lorawan868.rst:366 f2dc6dc8c72c4e7f8552aa6cc789dc8f
 msgid "The AT command to query."
-msgstr ""
+msgstr "用于查询的 AT 命令。"
 
 #: ../../en/module/lorawan868.rst:370 acf2fdc3624645809f57d3dab3797b61
 msgid "|at_query.png|"
@@ -703,7 +703,7 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:374 b2075819dabe4ce0ba8258d04041c4ab
 msgid "Receive a response from the LoRaWAN module."
-msgstr ""
+msgstr "接收来自 LoRaWAN 模块的响应。"
 
 #: ../../en/module/lorawan868.rst:379 eaac7337b56f440387c01ef6d9e773a6
 msgid "|at_receive.png|"
@@ -715,7 +715,7 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:383 b2e18eeb5be643d6bd25f130f2ece082
 msgid "Clear the UART buffer."
-msgstr ""
+msgstr "清空 UART 缓冲区。"
 
 #: ../../en/module/lorawan868.rst:388 d91630790206423a98f7843c8982ecda
 msgid "|flush.png|"
@@ -727,7 +727,7 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:392 84ac665e6d0c4e839d23de4e8aea32e5
 msgid "Check if there is any data in the UART buffer."
-msgstr ""
+msgstr "检查 UART 缓冲区中是否有任何数据。"
 
 #: ../../en/module/lorawan868.rst:397 19e11626db5a453fb4463e0a9d661fe4
 msgid "|any.png|"
@@ -739,7 +739,7 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:401 028733e826b84d4d94c0feaf8136b98f
 msgid "Receive data from the LoRaWAN module."
-msgstr ""
+msgstr "从 LoRaWAN 模块接收数据。"
 
 #: ../../en/module/lorawan868.rst:406 30cae8dcd05c46bfb6a4eee3db98e081
 msgid "|receive_data.png|"
@@ -751,13 +751,13 @@ msgstr ""
 
 #: ../../en/module/lorawan868.rst:411 5c5889a112ef4ee3be2fa6120a619699
 msgid "Constants"
-msgstr ""
+msgstr "常量"
 
 #: ../../en/module/lorawan868.rst:417 d211c1d95c574d978a1cab78d128df17
 msgid "LoRa band frequency"
-msgstr ""
+msgstr "LoRa 频段频率"
 
 #: ../../en/module/lorawan868.rst:422 2bf1f37325f444c4963dfebcd3b10f87
 msgid "LoRa Mode"
-msgstr ""
+msgstr "LoRa 模式。"
 

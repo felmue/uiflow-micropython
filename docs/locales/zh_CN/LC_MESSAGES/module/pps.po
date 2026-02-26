@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/pps.rst:2 588d36aacda04bcaa87d260b79d8f6f6
 msgid "PPS Module"
-msgstr ""
+msgstr "PPS Module"
 
 #: ../../en/module/pps.rst:6 1fe1b789a44d4e2eb26e0c8906a1897b
 msgid ""
@@ -42,15 +42,15 @@ msgstr ""
 
 #: ../../en/refs/module.pps.ref 2047715281f040569c22bde22b832637
 msgid "PPSModule"
-msgstr ""
+msgstr "PPSModule"
 
 #: ../../en/module/pps.rst:17 bfd2683d7fd24ca1a0ea35dbebefc2bd
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/pps.rst:24 48d3bc7f906c4e14b1a7c969d9375433
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/module/pps.rst:26 f8459f2f305c4108a9cb30d1cd181cce
 msgid "|example.png|"
@@ -66,11 +66,11 @@ msgstr ""
 
 #: ../../en/module/pps.rst:34 9d43fce881f34295a1cf3eba8bc3e32c
 msgid "class PPSModule"
-msgstr ""
+msgstr "class PPSModule"
 
 #: ../../en/module/pps.rst:37 fdc28fc65f314b319ddcf4cdf35af242
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/module/pps.rst:41 c08dec11aedf45f9bf5ceaab638f7bcb
 msgid "Creates a PPS object to interact with the programmable power supply."
@@ -108,7 +108,7 @@ msgstr "``enable``: True表示启用，False表示禁用。"
 #: b83cc00065c54bcead6da56f1e26c5a4 bfbaf62aae6f435bbbcba8d79483cebb
 #: ea497941ddfa44fe9c0595fdfbfe88d7 eade0e5aca234485976effcbbe3b19a0
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/module/pps.rst:57 a687358b3cef42828268a9eeed9a3776
 msgid "|set_output.png|"
@@ -123,28 +123,24 @@ msgid "Enable the PPS output."
 msgstr "启用PPS输出。"
 
 #: ../../en/module/pps.rst:66 3952327b33ea4f599a8194cd8bbd7660
-#, fuzzy
 msgid "|enable_output.png|"
-msgstr "启用PPS输出。"
+msgstr ""
 
 #: ../../en/refs/module.pps.ref:10 be8ae715d7f942b1b0894765e0fd0f8e
-#, fuzzy
 msgid "enable_output.png"
-msgstr "启用PPS输出。"
+msgstr ""
 
 #: ../../en/module/pps.rst:71 fb9386ea0cd64fd1a9e34353377ae2d6
 msgid "Disable the PPS output."
 msgstr "禁用PPS输出。"
 
 #: ../../en/module/pps.rst:75 324700625ed84e4cbba73d1e593d6160
-#, fuzzy
 msgid "|disable_output.png|"
-msgstr "禁用PPS输出。"
+msgstr ""
 
 #: ../../en/refs/module.pps.ref:12 ab00a8ea3a7548369b7b04125276042c
-#, fuzzy
 msgid "disable_output.png"
-msgstr "禁用PPS输出。"
+msgstr ""
 
 #: ../../en/module/pps.rst:80 94803322b8924fd1bdf7698dd26d99b2
 msgid "Set the output voltage of the PPS."
@@ -159,9 +155,8 @@ msgid "|set_output_voltage.png|"
 msgstr ""
 
 #: ../../en/refs/module.pps.ref:14 ef805f659f8c4b6da4dab080543683d1
-#, fuzzy
 msgid "set_output_voltage.png"
-msgstr "设置PPS的输出电压。"
+msgstr ""
 
 #: ../../en/module/pps.rst:91 ade9f258ac0f4e36bc6896fda55cfc2d
 msgid "Set the output current of the PPS."
@@ -176,107 +171,92 @@ msgid "|set_output_current.png|"
 msgstr ""
 
 #: ../../en/refs/module.pps.ref:16 ee2bb8b300b146d1a09366dd9274a17e
-#, fuzzy
 msgid "set_output_current.png"
-msgstr "设置PPS的输出电流。"
+msgstr ""
 
 #: ../../en/module/pps.rst:102 9c69b23e8a2c431593c4d7a6dde95aaf
 msgid "Read the PSU running mode."
 msgstr "读取PSU运行模式。"
 
 #: ../../en/module/pps.rst:106 731514d9b50d4d8584529d3093ab2af3
-#, fuzzy
 msgid "|read_psu_running_mode.png|"
-msgstr "读取PSU运行模式。"
+msgstr ""
 
 #: ../../en/refs/module.pps.ref:18 9253d517ead24e529386b6db025d1242
-#, fuzzy
 msgid "read_psu_running_mode.png"
-msgstr "读取PSU运行模式。"
+msgstr ""
 
 #: ../../en/module/pps.rst:111 0e28b54958c442aaadb7ccf5ba67e92d
 msgid "Read the current output current."
 msgstr "读取当前输出电流。"
 
 #: ../../en/module/pps.rst:115 32b8733c11304a3d84e23dbbbb80291b
-#, fuzzy
 msgid "|read_output_current.png|"
-msgstr "读取当前输出电流。"
+msgstr ""
 
 #: ../../en/refs/module.pps.ref:20 60b30c2d95e14f4b950b0720d1387d97
-#, fuzzy
 msgid "read_output_current.png"
-msgstr "读取当前输出电流。"
+msgstr ""
 
 #: ../../en/module/pps.rst:120 c97c5cd4b7314946aaf1353ce73564b1
 msgid "Read the current output voltage."
 msgstr "读取当前输出电压。"
 
 #: ../../en/module/pps.rst:124 ab04a72bedd34291ba3b65f820695a7f
-#, fuzzy
 msgid "|read_output_voltage.png|"
-msgstr "读取输入电压。"
+msgstr ""
 
 #: ../../en/refs/module.pps.ref:22 6b925a29c4cb46e2ac2149ecf4296de4
-#, fuzzy
 msgid "read_output_voltage.png"
-msgstr "读取输入电压。"
+msgstr ""
 
 #: ../../en/module/pps.rst:129 46c2dbb1693540b6a81dcf358447171d
 msgid "Read the input voltage."
 msgstr "读取输入电压。"
 
 #: ../../en/module/pps.rst:133 791b0799d1104b3d8c407bfb87d29b50
-#, fuzzy
 msgid "|read_input_voltage.png|"
-msgstr "读取输入电压。"
+msgstr ""
 
 #: ../../en/refs/module.pps.ref:24 8214e9cda0fc4e17a08a45371a734d5e
-#, fuzzy
 msgid "read_input_voltage.png"
-msgstr "读取输入电压。"
+msgstr ""
 
 #: ../../en/module/pps.rst:138 ca75755abf7c4a62ae132c536a14b2e7
 msgid "Read the data update flag."
 msgstr "读取数据更新标志，每当数据更新一次，此标志将增加1。"
 
 #: ../../en/module/pps.rst:142 1836d81ee7c44ddf9faceca8f1f4ddec
-#, fuzzy
 msgid "|read_data_update_flag.png|"
-msgstr "读取数据更新标志，每当数据更新一次，此标志将增加1。"
+msgstr ""
 
 #: ../../en/refs/module.pps.ref:26 762575f81fe84318afe151d5c0a5a530
-#, fuzzy
 msgid "read_data_update_flag.png"
-msgstr "读取数据更新标志，每当数据更新一次，此标志将增加1。"
+msgstr ""
 
 #: ../../en/module/pps.rst:147 5dfefafeeb064d279c5bb90ea11f8ec1
 msgid "Read the MCU temperature."
 msgstr "读取MCU温度。"
 
 #: ../../en/module/pps.rst:151 00a6d34abe7449268a05de9b8de0f120
-#, fuzzy
 msgid "|read_mcu_temperature.png|"
-msgstr "读取MCU温度。"
+msgstr ""
 
 #: ../../en/refs/module.pps.ref:28 d17c881fca46438bb832208bee671bc2
-#, fuzzy
 msgid "read_mcu_temperature.png"
-msgstr "读取MCU温度。"
+msgstr ""
 
 #: ../../en/module/pps.rst:156 ead4e969aac4430d88a8eb270ca2d413
 msgid "Read the module ID."
 msgstr "读取模块ID。"
 
 #: ../../en/module/pps.rst:160 4fca759303ae4189a540919b31666084
-#, fuzzy
 msgid "|read_module_id.png|"
-msgstr "读取模块ID。"
+msgstr ""
 
 #: ../../en/refs/module.pps.ref:30 cb39263abfdb487886ce6b1cb346880e
-#, fuzzy
 msgid "read_module_id.png"
-msgstr "读取模块ID。"
+msgstr ""
 
 #: ../../en/module/pps.rst:165 5210d77f092245ecb9b4bd37a2e99c18
 msgid "Read the unique identifier (UID)."

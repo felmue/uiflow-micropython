@@ -22,21 +22,21 @@ msgstr ""
 
 #: ../../en/system/bleuart.client.rst:4 30ebb7ddab6844aeb8080adf19eb19a6
 msgid "class BLEUARTClient"
-msgstr ""
+msgstr "class BLEUARTClient"
 
 #: ../../en/system/bleuart.client.rst:8 84f2903fa24341cb8c8d6a08eef60eff
 msgid ""
 "BLEUARTClient class is a BLE UART client, which can connect to a BLE UART"
 " server and communicate with it."
-msgstr ""
+msgstr "BLEUARTClient 类是一个 BLE UART 客户端，可以连接到 BLE UART 服务器并与其通信。"
 
 #: ../../en/system/bleuart.client.rst:11 c41be09697b24eb2bbad493cb554b576
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/system/bleuart.client.rst:18 704b74e7e38a4c51a10e0622dd433974
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/system/bleuart.client.rst:20 43d9314dc7634370a28da98b5d4adcb9
 msgid "|example.png|"
@@ -52,11 +52,11 @@ msgstr ""
 
 #: ../../en/system/bleuart.client.rst:29 ce57694b485442688479c2317f79753b
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/system/bleuart.client.rst:33 6bca0a2172a74b648767df70d078a167
 msgid "Create a BLE UART client."
-msgstr ""
+msgstr "创建 BLE UART 客户端。"
 
 #: ../../en/system/bleuart.client.rst 22414d27acd5439cb89551acebd0fa46
 #: 2d943917dd0b495cb7f0e9f9bdb9fa21 af118f44bb274a028ffc6a219cd909c2
@@ -67,15 +67,15 @@ msgstr ""
 #: ../../en/system/bleuart.client.rst:35 ../../en/system/bleuart.client.rst:65
 #: 2db1496bbb724985b5fb06bc096b61fd 9c11421dfb794b649ef615be9c887b75
 msgid "The name of the ble device."
-msgstr ""
+msgstr "ble 设备的名称。"
 
 #: ../../en/system/bleuart.client.rst:36 b665076c262441e1895004e75a47666b
 msgid "The size of the receive buffer."
-msgstr ""
+msgstr "接收缓冲区的大小。"
 
 #: ../../en/system/bleuart.client.rst:37 6c77258e835b41c8a81068b3118527e4
 msgid "Enable verbose output."
-msgstr ""
+msgstr "启用详细输出。"
 
 #: ../../en/system/bleuart.client.rst:39 ../../en/system/bleuart.client.rst:56
 #: ../../en/system/bleuart.client.rst:68 ../../en/system/bleuart.client.rst:79
@@ -87,7 +87,7 @@ msgstr ""
 #: 991733e441994d01bac77eb5c0921c9d b846ec001391458b99f61087de7446d0
 #: e823ad9057a340ac9dfcb71896ca76ab
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/system/bleuart.client.rst:41 e064f50330b54e619f42b3995b52ea7c
 msgid "|init.png|"
@@ -103,11 +103,11 @@ msgstr ""
 
 #: ../../en/system/bleuart.client.rst:49 79981b7773e74939860d4d0c75336a81
 msgid "The irq of the ble uart client."
-msgstr ""
+msgstr "ble uart client 的 irq。"
 
 #: ../../en/system/bleuart.client.rst:54 654e8a8f9c7e4ed5bd701f5a0b2ac418
 msgid "Check if the ble uart server is connected."
-msgstr ""
+msgstr "检查 ble uart server 是否已连接。"
 
 #: ../../en/system/bleuart.client.rst:58 79b30f61a8074556b0061c3cbaf43803
 msgid "|is_connected.png|"
@@ -119,11 +119,11 @@ msgstr ""
 
 #: ../../en/system/bleuart.client.rst:63 c886487ec5a54ea2b036226778ebf681
 msgid "Connect to the ble uart server."
-msgstr ""
+msgstr "连接到 ble uart 服务器。"
 
 #: ../../en/system/bleuart.client.rst:66 f6a037bce8fe46ff85761afb9a963d20
 msgid "The timeout of the connection."
-msgstr ""
+msgstr "连接的超时时间。"
 
 #: ../../en/system/bleuart.client.rst:70 039c895475aa472198ec58671e138d1c
 msgid "|connect.png|"
@@ -135,7 +135,7 @@ msgstr ""
 
 #: ../../en/system/bleuart.client.rst:75 798d6f2044214dc7aa8f858773f1cfe6
 msgid "Check if there is any data in the receive buffer."
-msgstr ""
+msgstr "检查接收缓冲区中是否有任何数据。"
 
 #: ../../en/system/bleuart.client.rst 2425ccd2fdc84e99963c2cda481a0e8d
 #: 9d9f87d6697b463f8190dea334349e83
@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../../en/system/bleuart.client.rst:77 a32ab310fea04dbda878a61c4c0fb222
 msgid "The number of bytes in the receive buffer."
-msgstr ""
+msgstr "接收缓冲区中的字节数。"
 
 #: ../../en/system/bleuart.client.rst:81 c1e88414767341878ad76c10a7fdc48e
 msgid "|any.png|"
@@ -156,15 +156,15 @@ msgstr ""
 
 #: ../../en/system/bleuart.client.rst:86 b733147d4535450c95448caec214c6c7
 msgid "Read data from the receive buffer."
-msgstr ""
+msgstr "从接收缓冲区读取数据。"
 
 #: ../../en/system/bleuart.client.rst:88 2836ebae480a45be98599eb656a25956
 msgid "The number of bytes to read. If not specified, read all data."
-msgstr ""
+msgstr "要读取的字节数。如果未指定，则读取所有数据。"
 
 #: ../../en/system/bleuart.client.rst:90 5f68a071431f4e98a08e59a9139e28e1
 msgid "The data read from the receive buffer."
-msgstr ""
+msgstr "从接收缓冲区读取的数据。"
 
 #: ../../en/system/bleuart.client.rst:94 ec83a5f3aef44839a7e6ff838b7059ea
 msgid "|read_all.png|"
@@ -200,11 +200,11 @@ msgstr ""
 
 #: ../../en/system/bleuart.client.rst:105 ef4813984bb3431fb7fc71dfa0dbc5db
 msgid "Write data to the ble uart server."
-msgstr ""
+msgstr "将数据写入 BLE UART 服务器。"
 
 #: ../../en/system/bleuart.client.rst:107 e8ad3b7db7684052925551a54826c9d7
 msgid "The data to write."
-msgstr ""
+msgstr "要写入的数据。"
 
 #: ../../en/system/bleuart.client.rst:111 7ca5b70cdb424406b85b0524beade0c8
 msgid "|write.png|"
@@ -256,7 +256,7 @@ msgstr ""
 
 #: ../../en/system/bleuart.client.rst:126 ce0ed2984032473b8685136a25c8e0ae
 msgid "Close the ble uart server."
-msgstr ""
+msgstr "关闭 ble uart 服务器。"
 
 #: ../../en/system/bleuart.client.rst:130 743c99dbefd842cc9dcb656fc2d4622f
 msgid "|close.png|"
@@ -268,7 +268,7 @@ msgstr ""
 
 #: ../../en/system/bleuart.client.rst:134 eb6ec718582149349d0e0610f551232b
 msgid "Deinitialize the ble uart server."
-msgstr ""
+msgstr "反初始化 ble uart server。"
 
 #: ../../en/system/bleuart.client.rst:138 9df0326f930a421d911f398fb0481b49
 msgid "|deinit.png|"

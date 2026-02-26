@@ -13,9 +13,9 @@ UiFlow2 documentation and references
     software/index.rst
     hardware/index.rst
     module/index.rst
-    units/index.rst
+    unit/index.rst
     stamplc/index.rst
-    hats/index.rst
+    hat/index.rst
     base/index.rst
     cap/index.rst
     chain/index.rst

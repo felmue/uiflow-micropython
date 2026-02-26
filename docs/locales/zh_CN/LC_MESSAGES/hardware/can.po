@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/hardware/can.rst:4 ../../source/hardware/can.rst:19
 #: 4bc44207f8794d0a9452a796f1b82c10 bdb3a44cab4143499a5a93b2b7d4cd7a
 msgid "CAN"
-msgstr ""
+msgstr "CAN"
 
 #: ../../source/hardware/can.rst:8 aa06108b3a60431aa5f8a0c7655f8ee2
 msgid ""
@@ -32,10 +32,7 @@ msgid ""
 "to connect the M5Stack device to a CAN bus you must use a CAN transceiver"
 " to convert the CAN logic signals from the MCU to the correct voltage "
 "levels on the bus."
-msgstr ""
-"CAN目前仅支持ESP32系列上的经典CAN控制器。在物理层，CAN总线由RX和TX两条线路组成。"
-"请注意，要将M5Stack设备连接到CAN总线，必须使用CAN收发器将MCU的CAN逻辑信号转换为"
-"总线所需的正确电压电平。"
+msgstr "CAN目前仅支持ESP32系列上的经典CAN控制器。在物理层，CAN总线由RX和TX两条线路组成。请注意，要将M5Stack设备连接到CAN总线，必须使用CAN收发器将MCU的CAN逻辑信号转换为总线所需的正确电压电平。"
 
 #: ../../source/hardware/can.rst:13 76bdcbb11a134ff3a420f1ef3e76704d
 msgid "For detailed examples, please refer to: :ref:`unit.CANUnit <unit.CANUnit>`"
@@ -76,29 +73,25 @@ msgstr "用于接收数据的引脚。"
 msgid ""
 "The value by which the CAN input clock is divided to generate the nominal"
 " bit time quanta. Value between 1 and 1024 inclusive for classic CAN."
-msgstr ""
-"将CAN输入时钟分频以生成名义位时间量化值的分频数，经典CAN取值范围为1到1024。"
+msgstr "将CAN输入时钟分频以生成名义位时间量化值的分频数，经典CAN取值范围为1到1024。"
 
 #: ../../source/hardware/can.rst:30 7228967e7fbb4757a9fe16090582443c
 msgid ""
 "The resynchronisation jump width in units of time quanta for nominal "
 "bits; value between 1 and 4 inclusive for classic CAN."
-msgstr ""
-"名义位的时间量化单位中的重同步跳转宽度，经典CAN取值范围为1到4。"
+msgstr "名义位的时间量化单位中的重同步跳转宽度，经典CAN取值范围为1到4。"
 
 #: ../../source/hardware/can.rst:31 6ab3accb7a8c4f8c87488cf6b2e2b591
 msgid ""
 "Defines the location of the sample point in units of the time quanta for "
 "nominal bits; value between 1 and 16 inclusive for classic CAN."
-msgstr ""
-"定义名义位中采样点在时间量化单位中的位置，经典CAN取值范围为1到16。"
+msgstr "定义名义位中采样点在时间量化单位中的位置，经典CAN取值范围为1到16。"
 
 #: ../../source/hardware/can.rst:32 bdebe11f470e49ea818c60cc4c8dd54d
 msgid ""
 "Defines the location of the transmit point in units of the time quanta "
 "for nominal bits; value between 1 and 8 inclusive for classic CAN."
-msgstr ""
-"定义名义位中发送点在时间量化单位中的位置，经典CAN取值范围为1到8。"
+msgstr "定义名义位中发送点在时间量化单位中的位置，经典CAN取值范围为1到8。"
 
 #: ../../source/hardware/can.rst:33 ../../source/hardware/can.rst:58
 #: c531a8b028ca4c7f9c8f6e4d7a41eab0
@@ -159,9 +152,7 @@ msgstr "定义发送点在名义位时间量化单位中的位置。"
 msgid ""
 "The time quanta tq is the basic unit of time for the CAN bus.  tq is the "
 "CAN prescaler value divided by APB_CLK clock source (typically 80 MHz);"
-msgstr ""
-"时间量化tq是 CAN 总线的基本时间单位，tq等于 CAN 预分频值除以 APB_CLK 时钟源（通常为"
-"80 MHz）。"
+msgstr "时间量化tq是 CAN 总线的基本时间单位，tq等于 CAN 预分频值除以 APB_CLK 时钟源（通常为80 MHz）。"
 
 #: ../../source/hardware/can.rst:63 21e666ea6e7a4b2482ce367a41a99056
 msgid ""
@@ -171,18 +162,15 @@ msgid ""
 " finishes. The baud rate will be 1/bittime, where the bittime is 1 + BS1 "
 "+ BS2 multiplied by the time quanta tq."
 msgstr ""
-"单个位由同步段组成，该段始终为1个tq，之后依次为位段1和位段2。采样点位于位段1结束"
-"后，发送点位于位段2结束后。波特率为1/位时间，其中位时间为(1 + BS1 + BS2)乘以时间"
-"量化tq。"
+"单个位由同步段组成，该段始终为1个tq，之后依次为位段1和位段2。采样点位于位段1结束后，发送点位于位段2结束后。波特率为1/位时间，其中位时间为(1"
+" + BS1 + BS2)乘以时间量化tq。"
 
 #: ../../source/hardware/can.rst:69 2c8a88dbdb0e403193c143140fc3c536
 msgid ""
 "For example, with APB_CLK=80MHz, prescaler=32, sjw=3, bs1=15, bs2=4, the "
 "value of tq is 0.4 microseconds.  The bittime is 8 microseconds, and the "
 "baudrate is 125kHz."
-msgstr ""
-"例如，当APB_CLK=80MHz、prescaler=32、sjw=3、bs1=15、bs2=4时，tq为0.4微秒，位时间"
-"为8微秒，波特率为125kHz。"
+msgstr "例如，当APB_CLK=80MHz、prescaler=32、sjw=3、bs1=15、bs2=4时，tq为0.4微秒，位时间为8微秒，波特率为125kHz。"
 
 #: ../../source/hardware/can.rst:73 fd6642018375491da7ea691c4ca85afa
 msgid "See esp32 technical reference manual for more details."
@@ -214,9 +202,8 @@ msgid ""
 "be used to trigger a restart, and the controller will follow the CAN "
 "protocol to leave the bus-off state and go into the error active state."
 msgstr ""
-"如果控制器进入总线关闭状态，它将不再参与总线活动。若控制器未配置自动重启（参见"
-" :meth:\\`~CAN.init()\\`），可以通过此方法触发重启，控制器将按照CAN协议离开总线关闭状"
-"态并进入错误活动状态。"
+"如果控制器进入总线关闭状态，它将不再参与总线活动。若控制器未配置自动重启（参见 "
+":meth:\\`~CAN.init()\\`），可以通过此方法触发重启，控制器将按照CAN协议离开总线关闭状态并进入错误活动状态。"
 
 #: ../../source/hardware/can.rst:107 929a27e106f44928b5d86d75502ca5c1
 msgid "|restart.png|"
@@ -236,7 +223,7 @@ msgstr ""
 
 #: ../../source/hardware/can.rst:119 32b0dc69aefb480c839f6b2968c171a2
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../source/hardware/can.rst:121 4b78f25cf8194f63a0901e6d6be96944
 msgid ""
@@ -280,7 +267,7 @@ msgstr "可选列表对象，至少包含8个元素。"
 
 #: ../../source/hardware/can.rst:141 124c482f17e54c32b24d80fb5c5cdefa
 msgid "list"
-msgstr ""
+msgstr "list"
 
 #: ../../source/hardware/can.rst:143 8b8e3e233e4c46fba2fb9a5835e16404
 msgid "The values in the list are:"
@@ -346,7 +333,7 @@ msgstr "FIFO 索引。"
 
 #: ../../source/hardware/can.rst:169 bf6a19239197489bb7a70537b017b1fd
 msgid "bool"
-msgstr ""
+msgstr "bool"
 
 #: ../../source/hardware/can.rst:173 799c2aff21394cbcb33fb078bc8705fb
 msgid "|any.png|"
@@ -374,7 +361,7 @@ msgstr "等待接收的超时时间（毫秒）。"
 
 #: ../../source/hardware/can.rst:189 ef90746fc5ac41e8aca951c0475a1d19
 msgid "tuple"
-msgstr ""
+msgstr "tuple"
 
 #: ../../source/hardware/can.rst:191 62d3e23b12eb4bba9123548aa9cf0b41
 msgid "Return value: A tuple containing five values."
@@ -405,9 +392,7 @@ msgid ""
 "If *list* is \\`\\`None\\`\\` then a new tuple will be allocated, as well"
 " as a new bytes object to contain the data (as the fifth element in the "
 "tuple)."
-msgstr ""
-"如果 *list* 为\\`\\`None\\`\\`，将分配一个新的元组以及一个新的bytes对象（作为元组的第"
-"五个元素）来存放数据。"
+msgstr "如果 *list* 为\\`\\`None\\`\\`，将分配一个新的元组以及一个新的bytes对象（作为元组的第五个元素）来存放数据。"
 
 #: ../../source/hardware/can.rst:202 c0768c68b5fc4f6587d8d6fb670ffcf2
 msgid ""
@@ -421,10 +406,8 @@ msgid ""
 "be reused in subsequent calls to this method, providing a way of "
 "receiving data without using the heap. For example::"
 msgstr ""
-"如果 *list* 不是\\`\\`None\\`\\`，则它应是包含至少5个元素的列表。第五个元素必须是由"
-"bytearray或类型为'B'或'b'的array创建的memoryview对象，并且该数组至少能容纳8个字"
-"节。列表会填充前四个返回值，而memoryview会就地调整到数据长度并写入数据。同一列表"
-"和memoryview可以在后续调用中复用，从而避免使用堆内存。例如::"
+"如果 *list* "
+"不是\\`\\`None\\`\\`，则它应是包含至少5个元素的列表。第五个元素必须是由bytearray或类型为'B'或'b'的array创建的memoryview对象，并且该数组至少能容纳8个字节。列表会填充前四个返回值，而memoryview会就地调整到数据长度并写入数据。同一列表和memoryview可以在后续调用中复用，从而避免使用堆内存。例如::"
 
 #: ../../source/hardware/can.rst:219 a4a5d311e39a4ce29602447dd82439c4
 msgid "|recv1.png|"
@@ -464,16 +447,13 @@ msgid ""
 "transmission request. If rtr is True then only the length of data is used"
 " to fill in the DLC slot of the frame; the actual bytes in data are "
 "unused."
-msgstr ""
-"rtr是布尔值，指示是否以远程帧发送消息。若rtr为True，则仅使用data的长度填充帧的D"
-"LC字段，data中的字节不会被使用。"
+msgstr "rtr是布尔值，指示是否以远程帧发送消息。若rtr为True，则仅使用data的长度填充帧的DLC字段，data中的字节不会被使用。"
 
 #: ../../source/hardware/can.rst:237 8344dec465a14c699cdb082da3052fe3
 msgid ""
 "extframe if True the frame will have an extended identifier (29 bits), "
 "otherwise a standard identifier (11 bits) is used."
-msgstr ""
-"extframe为True时帧使用扩展标识符（29位），否则使用标准标识符（11位）。"
+msgstr "extframe为True时帧使用扩展标识符（29位），否则使用标准标识符（11位）。"
 
 #: ../../source/hardware/can.rst:239 cf598156879b451394d821b47db3b797
 msgid ""
@@ -482,10 +462,7 @@ msgid ""
 " are in use an exception is thrown. If timeout is not 0, the method waits"
 " until the message is transmitted. If the message can't be transmitted "
 "within the specified time an exception is thrown."
-msgstr ""
-"当timeout为0时，消息会被放入三个硬件缓冲区之一并立即返回；如果三个缓冲区都在使"
-"用，则会抛出异常。timeout非0时，方法会等待消息发送；若在指定时间内无法发送成功"
-"则抛出异常。"
+msgstr "当timeout为0时，消息会被放入三个硬件缓冲区之一并立即返回；如果三个缓冲区都在使用，则会抛出异常。timeout非0时，方法会等待消息发送；若在指定时间内无法发送成功则抛出异常。"
 
 #: ../../source/hardware/can.rst:245 307f196a0aa04fb2bf389d73e73361b3
 msgid "None"

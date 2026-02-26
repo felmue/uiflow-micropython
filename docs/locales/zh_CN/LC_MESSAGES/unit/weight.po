@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/weight.rst:3 07416d3aca2a4f8f9b3415f89e4d0abe
+msgid "Weight Unit"
+msgstr "重量单位"
+
+#: ../../source/unit/weight.rst:7 e59457365de84f0e8bd5ed68ce6466e3
+msgid ""
+"Weight unit integrates a HX711 24 bits A/D chip that is specifically "
+"designed for electronic weighing device."
+msgstr "重量单位集成了 HX711 24 位 A/D 芯片，该芯片专为电子称重设备设计。"
+
+#: ../../source/unit/weight.rst:9 2b6b2bcff3204385aa96a9de33f126e9
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/weight.rst:11 ac5c399ad3994488a8d4763cded17e64
+msgid "|WEIGHTUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.weight.ref fe9f5e4042654cf2ae03e84b0702cdd5
+msgid "WEIGHTUnit"
+msgstr "WEIGHTUnit"
+
+#: ../../source/unit/weight.rst:13 0d65fd9a531e4fba9a6282693d421ebf
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/weight.rst:20 0177de170a3342d8860c2c385710a135
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/weight.rst:22 6c0665fca9734a48b82557bb51a90927
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight.ref:15 d82b64b729f741d087668dd5bf695b61
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/weight.rst:26 4cdb4b9296234a2886a71c02dea32657
+msgid "|weight_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/weight.rst:29 ee9bd1254f3f4a63adef6c020b8a0095
+msgid "class WEIGHTUnit"
+msgstr "class WEIGHTUnit"
+
+#: ../../source/unit/weight.rst:32 a33c6d9a1a9c4a109ac8ede538f190e2
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/weight.rst:36 0ee490ba69664cf7b98394bcfe02da7d
+msgid "Initialize the WEIGHTUnit with specified port pins."
+msgstr "使用指定的端口引脚初始化 WEIGHTUnit。"
+
+#: ../../source/unit/weight.rst 194b841bfdb24ce681209ffc15c0f15c
+#: b70de1ffe4a64ab1b912fc0673733dea fb075627bed04f9a81bf954d575c3077
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/weight.rst:38 2b0521b644b64059856c157f44201e3b
+msgid "A tuple containing data and clock pin numbers."
+msgstr "一个包含数据引脚和时钟引脚编号的元组。"
+
+#: ../../source/unit/weight.rst:40 ../../source/unit/weight.rst:53
+#: ../../source/unit/weight.rst:62 ../../source/unit/weight.rst:71
+#: ../../source/unit/weight.rst:81 ../../source/unit/weight.rst:90
+#: ../../source/unit/weight.rst:100 14d95c45ff904002afb6a157b5713e43
+#: 17c396c206374e78af55ec9007049709 1bd2c84dc524448d971202ed815a902b
+#: 2206f37952db471fac8acfe4f2e22f25 349e94dfe19d4e2fadda520536faa6c6
+#: 9e715e8b4ebb4c6e9e208bad48d7184d c347299d3aff4ed3824631488a0d5011
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/weight.rst:42 71848f8a3d684f35a71aa3121c531999
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight.ref:7 4dce0df44b054f3c931b4fa9ca747d6f
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/weight.rst:46 7790846b7e11484f9ca056fc056ce5d3
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/weight.rst:50 db986d6743714b2e8cdfc3bfada231f3
+msgid "Read the raw weight value from the HX711."
+msgstr "从 HX711 读取原始重量值。"
+
+#: ../../source/unit/weight.rst:55 903eded6bad2406f88417e3428f981ae
+msgid "|get_raw_weight.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight.ref:8 4e5088cf9bb847dcb6ff05be3ee09352
+msgid "get_raw_weight.png"
+msgstr ""
+
+#: ../../source/unit/weight.rst:59 dea68dfd2dcc489087e16c2b90314643
+msgid "Get the scaled weight value based on calibration."
+msgstr "根据校准获取缩放后的重量值。"
+
+#: ../../source/unit/weight.rst:64 01b96d70659a475cb81232f2f39eaaea
+msgid "|get_scale_weight.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight.ref:9 749a200d4e2a4600b44926bc766740b4
+msgid "get_scale_weight.png"
+msgstr ""
+
+#: ../../source/unit/weight.rst:68 663cdc6fe6cb4d42891c24c444147efc
+msgid "Set the tare weight to zero out the scale."
+msgstr "将皮重设置为零，以将秤归零。"
+
+#: ../../source/unit/weight.rst:73 d826e727935545bfb6ecf43365d68627
+msgid "|set_tare.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight.ref:10 f490cb8fcf96465896431d9fe288b6b6
+msgid "set_tare.png"
+msgstr ""
+
+#: ../../source/unit/weight.rst:77 37e57e8d5a824115ac49223deef4f8f9
+msgid "Calibrate the scale with a known weight."
+msgstr "使用已知重量对秤进行校准。"
+
+#: ../../source/unit/weight.rst:79 c63e78345f2042b8b1fdeaee11b1ea85
+msgid "The known weight used for calibration."
+msgstr "用于校准的已知重量。"
+
+#: ../../source/unit/weight.rst:83 1e44ad6b9a17409f8788763b10e2a311
+msgid "|set_calibrate_scale.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight.ref:11 cd0ffbb93bbd488babde1dc6e128578e
+msgid "set_calibrate_scale.png"
+msgstr ""
+
+#: ../../source/unit/weight.rst:87 73b5a50528ba4b839cdd868292f82dfb
+msgid "Check if the HX711 is ready to provide data."
+msgstr "检查 HX711 是否已准备好提供数据。"
+
+#: ../../source/unit/weight.rst:92 685ba1e1f48d4bbeb221d48fc5325b15
+msgid "|is_ready_wait.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight.ref:12 31031b02f51a46488d5c5382a335f8f3
+msgid "is_ready_wait.png"
+msgstr ""
+
+#: ../../source/unit/weight.rst:96 6736356db4dd4dadb57404005695b418
+msgid "Set the channel for the HX711."
+msgstr "设置 HX711 的通道。"
+
+#: ../../source/unit/weight.rst:98 82cacb3b11af4ed69b457a4ad41b359a
+msgid "The channel to set (1, 2, or 3)."
+msgstr "要设置的通道（1、2 或 3）。"
+
+#: ../../source/unit/weight.rst:102 b88f59f2ff9b4e8eadf9237893686036
+msgid "|set_channel.png|"
+msgstr ""
+
+#: ../../source/refs/unit.weight.ref:13 b1f84197fe6a4abbb09a6ef2fa4e3fd8
+msgid "set_channel.png"
+msgstr ""
+

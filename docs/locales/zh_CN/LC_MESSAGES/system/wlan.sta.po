@@ -22,19 +22,19 @@ msgstr ""
 
 #: ../../en/system/wlan.sta.rst:5 b7efb5a8ccf74ca6aac7e854ea25ff29
 msgid "WLAN STA -- control built-in WiFi interfaces"
-msgstr ""
+msgstr "WLAN STA —— 控制内置 WiFi 接口。"
 
 #: ../../en/system/wlan.sta.rst:7 54e748d5bd4143e48b8aaaa315dbfea4
 msgid "This class provides a driver for WiFi STA network processors."
-msgstr ""
+msgstr "该类提供用于 WiFi STA 网络处理器的驱动程序。"
 
 #: ../../en/system/wlan.sta.rst:11 fc0dc2eec7dd4ebcac3dc0153b41e994
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/system/wlan.sta.rst:17 9f44e0818c894e5ba92f9ba252672172
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/system/wlan.sta.rst:19 54c63326e4f34bca823ac811ce9177a6
 msgid "|example.png|"
@@ -50,20 +50,20 @@ msgstr ""
 
 #: ../../en/system/wlan.sta.rst:26 a2ca6c5a04b74235a325b8da16757e7e
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/system/wlan.sta.rst:30 43bab56c7e984bc09cf353d7971ca1f3
 msgid ""
 "Create a WLAN network interface object. Supported interfaces are "
 "``network.STA_IF`` (station aka client, connects to upstream WiFi access "
 "points)"
-msgstr ""
+msgstr "创建 WLAN 网络接口对象。支持的接口为“network.STA_IF”（站点，也称为客户端，连接到上游 WiFi 接入点）。"
 
 #: ../../en/system/wlan.sta.rst:33 ../../en/system/wlan.sta.rst:60
 #: ../../en/system/wlan.sta.rst:72 2a2fee28ba6c4feb9f892fe564410616
 #: 80e2e4f40d35444e9ecdf5e09ef904fe e489247cde2346a9b168808509d02932
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2："
 
 #: ../../en/system/wlan.sta.rst:35 9aa5abb8b5fb4c84a9e07718b14d3a1d
 msgid "|init.png|"
@@ -79,47 +79,47 @@ msgstr ""
 
 #: ../../en/system/wlan.sta.rst:43 0121ad54161e4530b695fd407af73d27
 msgid "Return the current status of the wireless connection."
-msgstr ""
+msgstr "返回无线连接的当前状态。"
 
 #: ../../en/system/wlan.sta.rst:45 19b179ce06a149858f44dae94436471e
 msgid ""
 "When called with no argument the return value describes the network link "
 "status. The possible statuses are defined as constants:"
-msgstr ""
+msgstr "当不带参数调用时，返回值用于描述网络链路状态。可能的状态被定义为常量："
 
 #: ../../en/system/wlan.sta.rst:48 e223f284fcca42e9b8b79676a0c811c8
 msgid "``STAT_IDLE`` -- no connection and no activity,"
-msgstr ""
+msgstr "``STAT_IDLE`` —— 无连接且无活动，"
 
 #: ../../en/system/wlan.sta.rst:49 75db29b243ab4babb5a9f6bb160e5282
 msgid "``STAT_CONNECTING`` -- connecting in progress,"
-msgstr ""
+msgstr "``STAT_CONNECTING`` —— 正在连接中，"
 
 #: ../../en/system/wlan.sta.rst:50 a0c47a1f1dac451184a9d31b7e4a356e
 msgid "``STAT_WRONG_PASSWORD`` -- failed due to incorrect password,"
-msgstr ""
+msgstr "``STAT_WRONG_PASSWORD`` —— 因密码错误而失败，"
 
 #: ../../en/system/wlan.sta.rst:51 b2ac53d0213c4b48849e5de88f43b02d
 msgid "``STAT_NO_AP_FOUND`` -- failed because no access point replied,"
-msgstr ""
+msgstr "``STAT_NO_AP_FOUND`` —— 失败，因为没有接入点响应。"
 
 #: ../../en/system/wlan.sta.rst:52 86053ae0a8cf4c21bf03e7b0a97079d2
 msgid "``STAT_CONNECT_FAIL`` -- failed due to other problems,"
-msgstr ""
+msgstr "``STAT_CONNECT_FAIL`` —— 由于其他问题导致失败，"
 
 #: ../../en/system/wlan.sta.rst:53 3083fb2fe9924e4a92fabe2b6e7b5dcc
 msgid "``STAT_GOT_IP`` -- connection successful."
-msgstr ""
+msgstr "``STAT_GOT_IP`` —— 连接成功。"
 
 #: ../../en/system/wlan.sta.rst:55 e06cf96c319c421abf5d8139f9de809b
 msgid ""
 "When called with one argument *param* should be a string naming the "
 "status parameter to retrieve."
-msgstr ""
+msgstr "当使用一个参数调用时，*param* 应为一个字符串，用于指定要获取的状态参数名称。"
 
 #: ../../en/system/wlan.sta.rst:58 a3a218cb8cfa411ea1ce6ea498b293b6
 msgid "Supported parameters in WiFI STA mode are: ``'rssi'``."
-msgstr ""
+msgstr "WiFI STA 模式下支持的参数为：``'rssi'``。"
 
 #: ../../en/system/wlan.sta.rst:62 7d7248caf5e34e3799e402855fdb6daa
 msgid "|get_rssi.png|"
@@ -133,7 +133,7 @@ msgstr ""
 msgid ""
 "In case of STA mode, returns ``True`` if connected to a WiFi access point"
 " and has a valid IP address."
-msgstr ""
+msgstr "在 STA 模式下，如果已连接到 WiFi 接入点并具有有效的 IP 地址，则返回 ``True``。"
 
 #: ../../en/system/wlan.sta.rst:74 92ea1d325032421c962f8f9c728b62e2
 msgid "|isconnected.png|"
@@ -148,7 +148,7 @@ msgid ""
 "Activate (\"up\") or deactivate (\"down\") network interface, if boolean "
 "argument is passed. Otherwise, query current state if no argument is "
 "provided. Most other methods require active interface."
-msgstr ""
+msgstr "如果传入布尔参数，则启用（“up”）或禁用（“down”）网络接口。否则，在未提供参数时查询当前状态。大多数其他方法需要接口处于活动状态。"
 
 #: ../../en/system/wlan.sta.rst:85 47f1c8c73da54fa6a7eb602ddc5138f4
 msgid "|active.png|"
@@ -164,7 +164,7 @@ msgid ""
 "*bssid* is given then the connection will be restricted to the access-"
 "point with that MAC address (the *ssid* must also be specified in this "
 "case)."
-msgstr ""
+msgstr "使用指定的密钥连接到指定的无线网络。如果给定 *bssid*，则连接将被限制为具有该 MAC 地址的接入点（此时也必须指定 *ssid*）。"
 
 #: ../../en/system/wlan.sta.rst:95 5b344342bb764d8e94ff395f325fe710
 msgid "|connect.png|"
@@ -176,7 +176,7 @@ msgstr ""
 
 #: ../../en/system/wlan.sta.rst:102 ce0964b8f90b4142944ae306ea4a43e1
 msgid "Disconnect from the currently connected wireless network."
-msgstr ""
+msgstr "断开与当前已连接的无线网络的连接。"
 
 #: ../../en/system/wlan.sta.rst:104 1ec6c9eb48304092bd04b0200ef8a162
 msgid "|disconnect.png|"
@@ -193,6 +193,8 @@ msgid ""
 "returns a 4-tuple with the above information. To set the above values, "
 "pass a 4-tuple with the required information. å"
 msgstr ""
+"获取/设置 IP 层网络接口参数：IP 地址、子网掩码、网关和 DNS 服务器。当不带参数调用时，该方法返回一个包含上述信息的 4 "
+"元组。要设置上述值，请传入一个包含所需信息的 4 元组。"
 
 #: ../../en/system/wlan.sta.rst:114 1ad8806f61dc4888b8ef45dd15987123
 msgid "|get_localip.png|"
@@ -236,13 +238,15 @@ msgid ""
 "For querying, parameters name should be quoted as a string, and only one "
 "parameter can be queried at a time:"
 msgstr ""
+"获取或设置通用网络接口参数。这些方法允许使用超出标准 IP 配置（由 `AbstractNIC.ipconfig()` "
+"处理）之外的附加参数。这些参数包括网络特定参数和硬件特定参数。对于设置参数，应使用关键字参数语法，并且可以一次设置多个参数。对于查询，应将参数名称用字符串形式加引号，并且一次只能查询一个参数："
 
 #: ../../en/system/wlan.sta.rst:135 9eb874737a104825b6e0394f50a4d37e
 msgid ""
 "Following are commonly supported parameters (availability of a specific "
 "parameter depends on network technology type, driver, and `MicroPython "
 "port`)."
-msgstr ""
+msgstr "以下为常见支持的参数（具体参数的可用性取决于网络技术类型、驱动程序以及 `MicroPython port`）。"
 
 #: ../../en/system/wlan.sta.rst:139 86689199a7974eaf9471d3111efe3c2d
 msgid "Parameter"
@@ -254,55 +258,55 @@ msgstr ""
 
 #: ../../en/system/wlan.sta.rst:141 fe42ad503f604377b1eaebe4e0a98683
 msgid "mac"
-msgstr ""
+msgstr "mac"
 
 #: ../../en/system/wlan.sta.rst:141 fabe17b425544be78e1702bbcb75330d
 msgid "MAC address (bytes)"
-msgstr ""
+msgstr "MAC 地址（bytes）"
 
 #: ../../en/system/wlan.sta.rst:142 570a5af97a97456385fd8d6cf61fd1b1
 msgid "ssid"
-msgstr ""
+msgstr "ssid"
 
 #: ../../en/system/wlan.sta.rst:142 309a92bd57e4474cb002f725168f113b
 msgid "WiFi access point name (string)"
-msgstr ""
+msgstr "WiFi 接入点名称（字符串）。"
 
 #: ../../en/system/wlan.sta.rst:143 2e2d1025f9e740d2a920ba53ed6441ee
 msgid "channel"
-msgstr ""
+msgstr "频道"
 
 #: ../../en/system/wlan.sta.rst:143 8dca17b17d2f4921afdc1c36777c203b
 msgid "WiFi channel (integer)"
-msgstr ""
+msgstr "WiFi 信道（整数）"
 
 #: ../../en/system/wlan.sta.rst:144 a0aac2ba8ccc46999286881c170d3b75
 msgid "hidden"
-msgstr ""
+msgstr "hidden"
 
 #: ../../en/system/wlan.sta.rst:144 b8db869858ac4ddb8689de954c2f700e
 msgid "Whether SSID is hidden (boolean)"
-msgstr ""
+msgstr "SSID 是否隐藏（布尔值）。"
 
 #: ../../en/system/wlan.sta.rst:145 1c776bc215064e759318d41137bd6a8c
 msgid "security"
-msgstr ""
+msgstr "安全"
 
 #: ../../en/system/wlan.sta.rst:145 d44437c04b4c47ed8afb4cfc0fc937f0
 msgid "Security protocol supported (enumeration, see module constants)"
-msgstr ""
+msgstr "支持的安全协议（枚举，参见模块常量）。"
 
 #: ../../en/system/wlan.sta.rst:146 311e88d94cbd4e719e0b9c7725716a4c
 msgid "key"
-msgstr ""
+msgstr "key"
 
 #: ../../en/system/wlan.sta.rst:146 ee355321aa4b480591679010660e76c4
 msgid "Access key (string)"
-msgstr ""
+msgstr "访问密钥（string）"
 
 #: ../../en/system/wlan.sta.rst:147 cd959e1e4412403bb16cfe20edbb5354
 msgid "hostname"
-msgstr ""
+msgstr "hostname"
 
 #: ../../en/system/wlan.sta.rst:147 c5a0846251bb4c828a86fcf60b418720
 msgid ""
@@ -310,30 +314,32 @@ msgid ""
 "supported, both STA and AP). (Deprecated, use :func:`network.hostname` "
 "instead)"
 msgstr ""
+"将发送到 DHCP（STA 接口）和 mDNS（如果支持，STA 和 AP 均适用）的主机名。（已弃用，请改用 "
+":func:`network.hostname`。）"
 
 #: ../../en/system/wlan.sta.rst:148 51d8586153e948d4be2bc9622e6392db
 msgid "reconnects"
-msgstr ""
+msgstr "重新连接"
 
 #: ../../en/system/wlan.sta.rst:148 f0fb79528f134f25b2b3cfb4294ad1b5
 msgid "Number of reconnect attempts to make (integer, 0=none, -1=unlimited)"
-msgstr ""
+msgstr "要进行的重新连接尝试次数（整数，0 = 不尝试，-1 = 不限制）。"
 
 #: ../../en/system/wlan.sta.rst:149 e37121512ab4470c8cfa8edaaffd8787
 msgid "txpower"
-msgstr ""
+msgstr "txpower"
 
 #: ../../en/system/wlan.sta.rst:149 a67ef6f6320a44f5a9387075a4abfb1d
 msgid "Maximum transmit power in dBm (integer or float)"
-msgstr ""
+msgstr "最大发射功率，单位为 dBm（整数或浮点数）。"
 
 #: ../../en/system/wlan.sta.rst:150 8bc0055c5f894e65a67b7e0953080a0f
 msgid "pm"
-msgstr ""
+msgstr "pm"
 
 #: ../../en/system/wlan.sta.rst:150 87fa3be463764025a5361dd089cdd24f
 msgid "WiFi Power Management setting (see below for allowed values)"
-msgstr ""
+msgstr "WiFi 电源管理设置（允许的取值见下文）。"
 
 #: ../../en/system/wlan.sta.rst:153 3c78f231b01042bba4da58774b2dcda2
 msgid "|set_dhcp_hostname.png|"
@@ -396,17 +402,17 @@ msgid ""
 "Scan for the available wireless networks. Hidden networks -- where the "
 "SSID is not broadcast -- will also be scanned if the WLAN interface "
 "allows it."
-msgstr ""
+msgstr "扫描可用的无线网络。如果 WLAN 接口允许，也会扫描隐藏网络（即不广播 SSID 的网络）。"
 
 #: ../../en/system/wlan.sta.rst:175 a609c655693940de8bd509594f139984
 msgid ""
 "Scanning is only possible on STA interface. Returns list of tuples with "
 "the information about WiFi access points:"
-msgstr ""
+msgstr "扫描仅可在 STA 接口上进行。返回包含 WiFi 接入点信息的元组列表："
 
 #: ../../en/system/wlan.sta.rst:178 e9f17ac486e6491a96ff7644bf2ee123
 msgid "(ssid, bssid, channel, RSSI, security, hidden)"
-msgstr ""
+msgstr "(ssid, bssid, channel, RSSI, security, hidden)"
 
 #: ../../en/system/wlan.sta.rst:180 5ab349ed9e8146e59805f4f8426e2ad2
 msgid ""
@@ -414,42 +420,44 @@ msgid ""
 "as bytes object. You can use `binascii.hexlify()` to convert it to ASCII "
 "form."
 msgstr ""
+"*bssid* 是接入点的硬件地址，以二进制形式表示，并以 bytes 对象形式返回。你可以使用 `binascii.hexlify()` "
+"将其转换为 ASCII 形式。"
 
 #: ../../en/system/wlan.sta.rst:183 05e516ec5f994ba3b816dbed67f34d55
 msgid "There are five values for security:"
-msgstr ""
+msgstr "安全性有五个取值："
 
 #: ../../en/system/wlan.sta.rst:185 c2c7d50aa5c54f7bad065d4386d2ece3
 msgid "0 -- open"
-msgstr ""
+msgstr "0 -- 打开"
 
 #: ../../en/system/wlan.sta.rst:186 a92a534172b04b3cb2549502def99730
 msgid "1 -- WEP"
-msgstr ""
+msgstr "1 -- WEP"
 
 #: ../../en/system/wlan.sta.rst:187 61a7a09c26e24282b345619d446e05f7
 msgid "2 -- WPA-PSK"
-msgstr ""
+msgstr "2 -- WPA-PSK"
 
 #: ../../en/system/wlan.sta.rst:188 35e4dac61ba548b98a18acac0633cc6c
 msgid "3 -- WPA2-PSK"
-msgstr ""
+msgstr "3 -- WPA2-PSK"
 
 #: ../../en/system/wlan.sta.rst:189 73cc880e1c77493986233c2f88775dd0
 msgid "4 -- WPA/WPA2-PSK"
-msgstr ""
+msgstr "4 -- WPA/WPA2-PSK"
 
 #: ../../en/system/wlan.sta.rst:191 93620c52587a43309870eae4b8ec417c
 msgid "and two for hidden:"
-msgstr ""
+msgstr "以及两个用于 hidden："
 
 #: ../../en/system/wlan.sta.rst:193 24b390dabf0744b7b816b43bcdfadba9
 msgid "0 -- visible"
-msgstr ""
+msgstr "0 -- 可见"
 
 #: ../../en/system/wlan.sta.rst:194 2b8527973e4640cf9381a92730aa05b2
 msgid "1 -- hidden"
-msgstr ""
+msgstr "1 -- hidden"
 
 #: ../../en/system/wlan.sta.rst:196 59a3292f896c44b2b24e3ae0914553ab
 msgid "|scan.png|"

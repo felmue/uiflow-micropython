@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/cat1cn.rst:2 e36774a7cbcf423c916bccd942401228
+msgid "Cat1CN Unit"
+msgstr "Cat1CN Unit"
+
+#: ../../source/unit/cat1cn.rst:8 62c0a42a555049ed863831b64e4862e9
+msgid "This is the driver library for the Cat1CN Unit to accept and send data."
+msgstr "这是 Cat1CN Unit 的驱动库，用于接收和发送数据。"
+
+#: ../../source/unit/cat1cn.rst:10 3e8fa9b04c06418b8462ce326851aa57
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/cat1cn.rst:12 4958e38d8d8144c395407d46b1862b20
+msgid "|Cat1CNUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.cat1cn.ref 027fc345fc44433ca6c569fd36cb7f8e
+msgid "Cat1CNUnit"
+msgstr "Cat1CNUnit"
+
+#: ../../source/unit/cat1cn.rst:15 6d737fed9a054276a2ec5c3bd9f4575f
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/cat1cn.rst:17 ../../source/unit/cat1cn.rst:34
+#: 88e3f181e9e443728cda8279383ccb71 dd1386c2586e492fab411e65973b7b49
+msgid "HTTP Example"
+msgstr "HTTP 示例"
+
+#: ../../source/unit/cat1cn.rst:19 0bea777b3b884ef5817a94b6231892dd
+msgid "Open the |cat1cn_core2_http_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |cat1cn_core2_http_example.m5f2| 项目。"
+
+#: ../../source/unit/cat1cn.rst:21 ../../source/unit/cat1cn.rst:36
+#: 5ea0c569ea3046cfa3e0c63807766b89 7dd46ed395d943ac9e2395c800443a4c
+msgid "This example shows how to send HTTP request."
+msgstr "该示例演示如何发送 HTTP 请求。"
+
+#: ../../source/unit/cat1cn.rst:23 ../../source/unit/cat1cn.rst:55
+#: 3cbddd27da8945e4883cb3bd66935ca5 84612ef502d045469f29661f84791431
+#: b3e12377bdee492ebe7ae2b1ace1eb98 of unit.cat1.Cat1Unit:8
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/cat1cn.rst:25 731b53613875437cbf5735c3cfe9ea1d
+msgid "|http_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.cat1cn.ref:8 efc544cd734245e89f9642f555e94e42
+msgid "http_example.png"
+msgstr ""
+
+#: ../../source/unit/cat1cn.rst:27 ../../source/unit/cat1cn.rst:44
+#: ../../source/unit/cat1cn.rst:59 ../../source/unit/cat1cn.rst:77
+#: 048dffb1f88c4d15ba2f1d3818ab245c 05fe677442c6422bbec046e6a144703d
+#: 3c722c4570c44caba05684c2a3879e31 988ff2ec33644cdaba79058a5cb5c464
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/cat1cn.rst:29 ../../source/unit/cat1cn.rst:46
+#: ../../source/unit/cat1cn.rst:61 ../../source/unit/cat1cn.rst:79
+#: 0a4b0c08c75849348406c7386bef3552 3b09032366c74d269c04aec2e29231a8
+#: 6c22200603c14fbe943f04db4f04f07e b2f7ddfb91954439b3002bd57df64a4a
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/cat1cn.rst:32 ../../source/unit/cat1cn.rst:64
+#: 075ce2980b804cf9a7e554453781da4a 32aee3694b924738912eaed00bbfc9a7
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/cat1cn.rst:38 ../../source/unit/cat1cn.rst:71
+#: 44a7023b26dc47d786e6a247154c7e0c 994fe4b8460b4d1dbf3fc649e67839e8
+#: fd5278f878654468a0cb12d54201b6e3 of unit.cat1.Cat1Unit:12
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/cat1cn.rst:49 ../../source/unit/cat1cn.rst:67
+#: 2dbca85b6ef5406a8a135793a8818ef8 3e9edcd237d74e1f81fd8c4dcb36dea0
+msgid "MQTT Example"
+msgstr "MQTT 应用示例"
+
+#: ../../source/unit/cat1cn.rst:51 d4967f24ea134c2aa21de37d2bfb0fb9
+msgid "Open the |cat1cn_core2_mqtt_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |cat1cn_core2_mqtt_example.m5f2| 项目。"
+
+#: ../../source/unit/cat1cn.rst:53 ../../source/unit/cat1cn.rst:69
+#: 7c2e6e63b0244ac0b4d6f4610d7661f9 a4f3006b4ce44fbb81f7b12385453f29
+msgid "This example shows how to send MQTT message."
+msgstr "该示例演示如何发送 MQTT 消息。"
+
+#: ../../source/unit/cat1cn.rst:57 ec619daf6a3544e4982c9eb6763b9994
+msgid "|mqtt_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.cat1cn.ref:9 a73f33e6fdd04ceebfe54a6a96b4da6b
+msgid "mqtt_example.png"
+msgstr ""
+
+#: ../../source/unit/cat1cn.rst:82 63bdeaadab8a4f828ff25b4bf9c025a6
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/cat1cn.rst:85 23c25f6011b84e2b83047e993419e93f
+msgid "Cat1Unit"
+msgstr "Cat1Unit"
+
+#: f15a948c52324b66902e17453e8efd2b of unit.cat1.Cat1Unit:1
+msgid ""
+"Bases: :py:class:`~driver.simcom.ml307r.ML307R`, "
+":py:class:`~driver.simcom.common.Modem`"
+msgstr "继承自：:py:class:`~driver.simcom.ml307r.ML307R`、:py:class:`~driver.simcom.common.Modem`"
+
+#: 430f67fbabf54e198b2761c421b88d30 of unit.cat1.Cat1Unit:1
+msgid "Create an Cat1Unit object"
+msgstr "创建一个 Cat1Unit 对象"
+
+#: 4a1f18c2602041ae96356a662d44d65e of unit.cat1.Cat1Unit
+msgid "Parameters"
+msgstr ""
+
+#: 8eca6b9acd0248569adb67ca88eb0b14 of unit.cat1.Cat1Unit:3
+msgid "The UART ID to use (0, 1, or 2). Default is 2."
+msgstr "要使用的 UART ID（0、1 或 2）。默认值为 2。"
+
+#: 8f81a4ed84244d05918f668269702851 of unit.cat1.Cat1Unit:4
+msgid "A list or tuple containing the TX and RX pin numbers."
+msgstr "包含 TX 和 RX 引脚编号的列表或元组。"
+
+#: 48b2aee117554a84b487d9574dd05c5e of unit.cat1.Cat1Unit:6
+msgid "Enable verbose output for debugging. Default is False."
+msgstr "启用详细输出以进行调试。默认值为 False。"
+
+#: 03700d9aa13940a6935aa64f49285f67 of unit.cat1.Cat1Unit:10
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.cat1cn.ref:6 212250da49cf4cea9e5286064ecf12b5
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/cat1cn.rst:90 b0ca7cd38a0a4d7cb52da9f462fb6db6
+msgid "See :class:`NBIOTUnit <unit.nbiot.NBIOTUnit>` for more details."
+msgstr "更多详情请参阅 :class:`NBIOTUnit <unit.nbiot.NBIOTUnit>` 。"
+

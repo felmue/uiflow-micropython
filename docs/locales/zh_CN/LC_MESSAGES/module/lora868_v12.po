@@ -22,14 +22,16 @@ msgstr ""
 
 #: ../../en/module/lora868_v12.rst:2 0c3c795297e0421296544a8ee042c987
 msgid "LoRa868 v1.2 Module"
-msgstr ""
+msgstr "LoRa868 v1.2 模块"
 
 #: ../../en/module/lora868_v12.rst:8 41652a9f483c4fe291385d9806aef58a
 msgid ""
 "The LoRa868 v1.2 Module is part of the M5Stack stackable module series. "
 "It is a LoRa communication module that operates at a 900MHz frequency "
 "band and utilizes the SX1262 chip solution."
-msgstr "LoRa868 v1.2 模块是 M5Stack 可堆叠模块系列的一部分，它是一款工作在 900MHz 频段、基于 SX1262 芯片方案的 LoRa 通信模块。"
+msgstr ""
+"LoRa868 v1.2 模块是 M5Stack 可堆叠模块系列的一部分，它是一款工作在 900MHz 频段、基于 SX1262 芯片方案的 "
+"LoRa 通信模块。"
 
 #: ../../en/module/lora868_v12.rst:10 27d6f06b31ef468f8e79d6bb4e2875e4
 msgid "Support the following products:"
@@ -41,7 +43,7 @@ msgstr ""
 
 #: ../../en/refs/module.lora868_v12.ref 3419ffff300e489c8fdf376c97738745
 msgid "LoRa868Module v1.2"
-msgstr ""
+msgstr "LoRa868Module v1.2"
 
 #: ../../en/module/lora868_v12.rst:15 b3d316eb8e054a608151c0416d4181ae
 msgid "UiFlow2 Example"
@@ -55,7 +57,9 @@ msgid ""
 "positions. For specific configurations, please refer to the product "
 "manual page. The SPI configuration has been implemented internally, so "
 "users do not need to worry about it."
-msgstr "在使用以下示例之前，请先检查模块上的 DIP 开关，确保示例中使用的引脚与 DIP 开关的位置一致。有关具体配置，请参考产品说明页面。SPI 配置已在内部实现，用户无需额外设置。"
+msgstr ""
+"在使用以下示例之前，请先检查模块上的 DIP 开关，确保示例中使用的引脚与 DIP 开关的位置一致。有关具体配置，请参考产品说明页面。SPI "
+"配置已在内部实现，用户无需额外设置。"
 
 #: ../../en/module/lora868_v12.rst:20 ../../en/module/lora868_v12.rst:55
 #: 55de530dbdf943e6a507c620a627a2cd ca010698f05447d4a07b74db2b55935e
@@ -148,7 +152,7 @@ msgstr "API应用"
 
 #: ../../en/module/lora868_v12.rst:89 3dfbe1c1902640fa947525f9cedd47f7
 msgid "class LoRa868V12Module"
-msgstr ""
+msgstr "class LoRa868V12Module"
 
 #: ../../en/module/lora868_v12.rst:103 57598055ee12457caf8e467bbb9a0c98
 msgid "Create an LoRa868V12Module object."
@@ -184,10 +188,11 @@ msgid ""
 "KHz - ``\"15.6\"``: 15.6 KHz - ``\"20.8\"``: 20.8 KHz - ``\"31.25\"``: "
 "31.25 KHz - ``\"41.7\"``: 41.7 KHz - ``\"62.5\"``: 62.5 KHz - "
 "``\"125\"``: 125 KHz - ``\"250\"``: 250 KHz - ``\"500\"``: 500 KHz"
-msgstr "带宽，可选项：- ``\"7.8\"``: 7.8 KHz - ``\"10.4\"``: 10.4 "
-"KHz - ``\"15.6\"``: 15.6 KHz - ``\"20.8\"``: 20.8 KHz - ``\"31.25\"``: "
-"31.25 KHz - ``\"41.7\"``: 41.7 KHz - ``\"62.5\"``: 62.5 KHz - "
-"``\"125\"``: 125 KHz - ``\"250\"``: 250 KHz - ``\"500\"``: 500 KHz"
+msgstr ""
+"带宽，可选项：- ``\"7.8\"``: 7.8 KHz - ``\"10.4\"``: 10.4 KHz - ``\"15.6\"``: "
+"15.6 KHz - ``\"20.8\"``: 20.8 KHz - ``\"31.25\"``: 31.25 KHz - "
+"``\"41.7\"``: 41.7 KHz - ``\"62.5\"``: 62.5 KHz - ``\"125\"``: 125 KHz - "
+"``\"250\"``: 250 KHz - ``\"500\"``: 500 KHz"
 
 #: ../../en/module/lora868_v12.rst:110 52564773ba1544fb9ae00af194e5cb88
 msgid "Bandwidth, options include:"
@@ -195,43 +200,43 @@ msgstr "带宽，可选项："
 
 #: ../../en/module/lora868_v12.rst:112 d48a375e5d314e9aae43a155aacd402c
 msgid "``\"7.8\"``: 7.8 KHz"
-msgstr ""
+msgstr "``\"7.8\"``：7.8 KHz"
 
 #: ../../en/module/lora868_v12.rst:113 9983b31c433c4895b6944228e14efd7a
 msgid "``\"10.4\"``: 10.4 KHz"
-msgstr ""
+msgstr "``\"10.4\"``：10.4 KHz"
 
 #: ../../en/module/lora868_v12.rst:114 ec5c08323b144d5cbf2e028acbe0bacd
 msgid "``\"15.6\"``: 15.6 KHz"
-msgstr ""
+msgstr "``\"15.6\"``：15.6 KHz"
 
 #: ../../en/module/lora868_v12.rst:115 a7214b8901e3413cbf96190dc1af51af
 msgid "``\"20.8\"``: 20.8 KHz"
-msgstr ""
+msgstr "``\"20.8\"``：20.8 KHz"
 
 #: ../../en/module/lora868_v12.rst:116 1375eba23af9416b989e1ad8b15222a6
 msgid "``\"31.25\"``: 31.25 KHz"
-msgstr ""
+msgstr "``\"31.25\"``：31.25 KHz"
 
 #: ../../en/module/lora868_v12.rst:117 c1962e37492d41d7a2bb0f480b57ac83
 msgid "``\"41.7\"``: 41.7 KHz"
-msgstr ""
+msgstr "``\"41.7\"``：41.7 kHz"
 
 #: ../../en/module/lora868_v12.rst:118 c8d20b10f2fc46af9d78751d63e003f0
 msgid "``\"62.5\"``: 62.5 KHz"
-msgstr ""
+msgstr "``\"62.5\"``：62.5 KHz"
 
 #: ../../en/module/lora868_v12.rst:119 f414ad3596a347aeb636d9ffdbd32568
 msgid "``\"125\"``: 125 KHz"
-msgstr ""
+msgstr "``\"125\"``：125 KHz"
 
 #: ../../en/module/lora868_v12.rst:120 5e73a4006ee4408bafbf297c2a2990d9
 msgid "``\"250\"``: 250 KHz"
-msgstr ""
+msgstr "``\"250\"``：250 KHz"
 
 #: ../../en/module/lora868_v12.rst:121 db464107a7aa4ff9a880a8e8824257ea
 msgid "``\"500\"``: 500 KHz"
-msgstr ""
+msgstr "``\"500\"``：500 KHz"
 
 #: ../../en/module/lora868_v12.rst:122 25d4fa5c14304b50b25208632543ad2e
 msgid ""
@@ -305,7 +310,9 @@ msgstr "设置带宽。"
 msgid ""
 "Bandwidth in kHz as string. Must be one of: '7.8', '10.4', '15.6', "
 "'20.8', '31.25', '41.7', '62.5', '125', '250', '500'."
-msgstr "带宽（以 kHz 表示的字符串）。必须是以下值之一：'7.8'、'10.4'、'15.6'、'20.8'、'31.25'、'41.7'、'62.5'、'125'、'250'、'500'。"
+msgstr ""
+"带宽（以 kHz "
+"表示的字符串）。必须是以下值之一：'7.8'、'10.4'、'15.6'、'20.8'、'31.25'、'41.7'、'62.5'、'125'、'250'、'500'。"
 
 #: ../../en/module/lora868_v12.rst:182 4ed642ffc1924d7c86e9e2173eb8a6dc
 msgid "|set_bw.png|"
@@ -543,7 +550,7 @@ msgstr ""
 
 #: ../../en/module/lora868_v12.rst:382 e5c8a23151a94f8aac96b7b9a188f0a1
 msgid "class RxPacket"
-msgstr ""
+msgstr "class RxPacket"
 
 #: ../../en/module/lora868_v12.rst:386 5fb65197a5c4424e85149435845f7ebd
 msgid "Create an RxPacket object."

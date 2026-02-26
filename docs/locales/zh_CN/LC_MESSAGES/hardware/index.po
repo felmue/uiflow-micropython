@@ -18,9 +18,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/hardware/index.rst:2 6aff9853ce5c407ca1db00dbe0fa366f
 msgid "Hardware"
-msgstr ""
+msgstr "硬件"
 

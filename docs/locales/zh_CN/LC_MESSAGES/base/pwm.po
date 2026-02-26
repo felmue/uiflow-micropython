@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/base/pwm.rst:2 ../../en/refs/base.pwm.ref
 #: 0876ab4fd3e940c7b82bd832d4ba3308 548a69ca56a540569155b9316264af97
 msgid "Atomic PWM Base"
-msgstr ""
+msgstr "Atomic PWM Base"
 
 #: ../../en/base/pwm.rst:8 92bfaa40a9b04d36a769f44ba3c4bea7
 msgid "Support the following products:"
@@ -95,16 +95,15 @@ msgstr "API应用"
 
 #: ../../en/base/pwm.rst:52 6ca490616e40434fa891d3be5a6c27c4
 msgid "PWM"
-msgstr ""
+msgstr "PWM"
 
 #: 1fb73946edf74f7794d39bd556580dba base.pwm.AtomicPWMBase:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: 6af683623f664437bde8c2a156f5a3c3 base.pwm.AtomicPWMBase:1 of
-#, fuzzy
 msgid "Create an AtomicPWMBase object."
-msgstr "创建一个 PWM 对象。"
+msgstr "创建一个 AtomicPWMBase 对象。"
 
 #: ../../en/base/pwm.rst 0a4fb099859949868a6ddab4e9e6d55b
 #: base.pwm.AtomicPWMBase.set_duty_u16 base.pwm.AtomicPWMBase.set_freq of

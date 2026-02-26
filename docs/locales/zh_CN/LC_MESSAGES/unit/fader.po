@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/fader.rst:3 0da9a001360144eabece8bc8f7743969
+msgid "Fader Unit"
+msgstr "Fader Unit"
+
+#: ../../source/unit/fader.rst:7 aa85a215ff044303972a944ab3dc8f27
+msgid ""
+"UNIT FADER is a Slide Potentiometer with color indicator, employ a 35mm "
+"slide potentiometer + 14x SK6812 programmable RGB lights. The fader has "
+"its own center point positioning, and excellent slide appliances for "
+"stable, reliable performance and precise control. The integrated beads "
+"support digital addressing, which means you can adjust the brightness and"
+" color of each LED light. The product is suitable for lighting, music "
+"control, and other applications."
+msgstr ""
+"UNIT FADER 是一款带彩色指示灯的滑动电位器，采用 35 mm 滑动电位器 + 14 颗 SK6812 可编程 RGB "
+"灯。该推子自带中心点定位，并具备出色的滑动手感，可提供稳定可靠的性能与精准控制。集成灯珠支持数字寻址，这意味着你可以调节每一颗 LED "
+"灯的亮度和颜色。该产品适用于灯光、音乐控制及其他应用场景。"
+
+#: ../../source/unit/fader.rst:9 ed40c2d496084fa09282098e7ecc06ac
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/fader.rst:11 703827a598e14bd5bfe2bf1b5ab7163a
+msgid "|FaderUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.fader.ref a0e37a9b913f4049973a8d7b01c5d6a6
+msgid "FaderUnit"
+msgstr "FaderUnit"
+
+#: ../../source/unit/fader.rst:13 68446c9f65f044778df5cf5197bb414b
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例："
+
+#: ../../source/unit/fader.rst:20 35a5e82208a142289b776648ba8aa3f2
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/fader.rst:22 3533d59337af427d9f2f6d31313c01dd
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.fader.ref:16 b5159a5d57564b27a47b4b3510cd71a8
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/fader.rst:26 45fbe07f10ab4b4fa612455c27ea1329
+msgid "|cores3_fader_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/fader.rst:29 6095af16450f43098be5eabde56c9bc1
+msgid "class FaderUnit"
+msgstr "class FaderUnit"
+
+#: ../../source/unit/fader.rst:32 aa6cfbebca7940d0b5aaa96147a6bfea
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/fader.rst:36 5f3634c1a242467aa6dbe5a5ee59e36a
+msgid "Initialize the Fader."
+msgstr "初始化 Fader。"
+
+#: ../../source/unit/fader.rst 4294fe66c6314124b44188d8f0da5a0a
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/fader.rst:38 89a7fbb8fed04803b11725cfec228620
+msgid ""
+"The port to which the Fader is connected. port[0]: adc pin, port[1]: LEDs"
+" pin."
+msgstr "Fader 连接的端口。port[0]：adc 引脚，port[1]：LEDs 引脚。"
+
+#: ../../source/unit/fader.rst:40 ../../source/unit/fader.rst:54
+#: ../../source/unit/fader.rst:65 ../../source/unit/fader.rst:73
+#: ../../source/unit/fader.rst:82 ../../source/unit/fader.rst:90
+#: ../../source/unit/fader.rst:99 ../../source/unit/fader.rst:108
+#: 14ffea94b57f4dafb95c0634d82f9daf 36fc52a123db403aa84515f5240b4958
+#: 39455af8c15c43eba0dbc503072b5174 82fbb1c06e464372a78434f0597c557a
+#: 951f51a4bf4440a0bbdf5497c6a80c5f 9ba4432c2af34bcfb6982885bdb576e4
+#: db252f44bde140c3b81de48386afa19f eebc97c9e3a84a93b5b58f8bf9b8fcf4
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/fader.rst:42 c6348adf4ea04e13b6e5e428acaee19f
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.fader.ref:7 8639f263b38a418daa992437beb534de
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/fader.rst:46 2398024f81ed42e089d067d253a497f6
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/fader.rst:50 fb6e1b95ce8c48dc88634816a17c2be8
+msgid "Get the voltage of the Fader."
+msgstr "获取 Fader 的电压。"
+
+#: ../../source/unit/fader.rst 6e20084b21a74aff8107e8e9f6c8e40f
+#: 7aeb694aac8d4515acc664f95c16c85c
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/fader.rst:52 5146863912be4b9ca35e8964cee1d3af
+msgid "The voltage of the Fader."
+msgstr "Fader 的电压。"
+
+#: ../../source/unit/fader.rst:56 1cdee04a9d1c4c14aa78b7cd0aeab827
+msgid "|get_voltage.png|"
+msgstr ""
+
+#: ../../source/refs/unit.fader.ref:8 11afb807f02742e5b7c98303735e207a
+msgid "get_voltage.png"
+msgstr ""
+
+#: ../../source/unit/fader.rst:61 2fb79c51b7144415835720a84cbde442
+msgid "Read the raw value of the ADC."
+msgstr "读取 ADC 的原始值。"
+
+#: ../../source/unit/fader.rst:63 70573ae33f234cb9b5a9978958fbc1cd
+msgid "int from 0 to 65535."
+msgstr "0 到 65535 的 int。"
+
+#: ../../source/unit/fader.rst:67 27154d7771ca4b93907f70e2de963ed1
+msgid "|get_raw.png|"
+msgstr ""
+
+#: ../../source/refs/unit.fader.ref:9 02e52cc15528472f804649fb2c9292fc
+msgid "get_raw.png"
+msgstr ""
+
+#: ../../source/unit/fader.rst:71 0a0992b659a24b9f93e6e1e0e301ee4d
+msgid "Update the color based on adc value."
+msgstr "根据 ADC 值更新颜色。"
+
+#: ../../source/unit/fader.rst:75 6319047f1ce249cb9fa1c73e8acb7828
+msgid "|update_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.fader.ref:10 b5da097db7bf4f76b532428ceb20a325
+msgid "update_color.png"
+msgstr ""
+
+#: ../../source/unit/fader.rst:80 ef014aa30d014251a7c89496e46c357c
+msgid "Update the brightness based on adc value."
+msgstr "根据 adc 值更新亮度。"
+
+#: ../../source/unit/fader.rst:84 063a106a55a34caf966da2a5663ec524
+msgid "|update_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.fader.ref:11 8f6b889fa30141fcba10d4ec8f07bb70
+msgid "update_brightness.png"
+msgstr ""
+
+#: ../../source/unit/fader.rst:88 2f911aa82b684afdafbbd9f72f7b39af
+msgid ""
+"This method is used to set the brightness of RGB lamp beads, and the "
+"setting range is 0-100."
+msgstr "该方法用于设置 RGB 灯珠的亮度，设置范围为 0-100。"
+
+#: ../../source/unit/fader.rst:92 23666e72d4534f3b8f55cbb28a377826
+msgid "|set_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.fader.ref:12 53d852af13894445b9eb9ead8b9caa0d
+msgid "set_brightness.png"
+msgstr ""
+
+#: ../../source/unit/fader.rst:97 cc2bba04a4bb46c5b420831cbc7bc639
+msgid ""
+"This method is used to set the color of all RGB lamp beads, and the input"
+" value is 3-byte RGB888."
+msgstr "此方法用于设置所有 RGB 灯珠的颜色，输入值为 3 字节 RGB888。"
+
+#: ../../source/unit/fader.rst:101 4fade1e2740c42a98cda27125f07f481
+msgid "|fill_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.fader.ref:13 7c602ff2f7dc4fc7a388195bef77e8ce
+msgid "fill_color.png"
+msgstr ""
+
+#: ../../source/unit/fader.rst:106 b9e7a6055d254be6969219a7e36ae4f4
+msgid ""
+"This method is used to set the specified RGB lamp bead color. The input "
+"value is the lamp bead index and 3-byte RGB888."
+msgstr "此方法用于设置指定 RGB 灯珠的颜色。输入值为灯珠索引和 3 字节 RGB888。"
+
+#: ../../source/unit/fader.rst:110 a2119476e0d1424d936d1fca68e05f44
+msgid "|set_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.fader.ref:14 db471b94714e4619869854edad1b3db8
+msgid "set_color.png"
+msgstr ""
+

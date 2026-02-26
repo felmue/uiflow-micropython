@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/base/hdriver.rst:2 ../../en/refs/base.hdriver.ref
 #: 123ed0601b144e81af7d48fe3cbe6222 cc34299d9e254f8bbd663f1e87efcbb5
 msgid "Atomic HDriver Base"
-msgstr ""
+msgstr "Atomic HDriver Base"
 
 #: ../../en/base/hdriver.rst:8 00c7698b3cb34288a801a8541f70b3b9
 msgid "Support the following products:"
@@ -99,11 +99,11 @@ msgstr "API应用"
 
 #: ../../en/base/hdriver.rst:52 062d436b5efe406f8eed04361e46d66b
 msgid "AtomicHDriverBase"
-msgstr ""
+msgstr "AtomicHDriverBase"
 
 #: base.hdriver.AtomicHDriverBase:1 f4ff144ba20c490e91c8120a6ab37bbf of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: 123ed0601b144e81af7d48fe3cbe6222 base.hdriver.AtomicHDriverBase:1 of
 msgid "Create an AtomicHDriverBase object."
@@ -253,3 +253,4 @@ msgstr ""
 #: ../../en/refs/base.hdriver.ref:9 69ed7e46ae1145408c6cfc27b58d68b8
 msgid "set_speed.png"
 msgstr ""
+

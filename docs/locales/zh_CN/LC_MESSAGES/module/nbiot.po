@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/module/nbiot.rst:2 ../../en/refs/module.nbiot.ref
 #: 001f81d0273c401cbca11b82d67d765c 2d5e5609d8e74e9b82ab78b9c7ffb49a
 msgid "NB-IoT Module"
-msgstr ""
+msgstr "NB-IoT 模块"
 
 #: ../../en/module/nbiot.rst:6 29e6fbc734e1459cb2ead40c238fe548
 msgid ""
@@ -73,7 +73,7 @@ msgstr "NBIoT HTTP 示例"
 
 #: ../../en/module/nbiot.rst:29 d4e14f89648a4ab19b8b03ca46a1b98c
 msgid "Open the |cores3_module_nbiot_http_example.m5f2| project in UiFlow2."
-msgstr ""
+msgstr "在 UiFlow2 中打开 |cores3_module_nbiot_http_example.m5f2| 项目。"
 
 #: ../../en/module/nbiot.rst:31 ../../en/module/nbiot.rst:65
 #: 4a0c773693bb4cae9f39c216dda555fb
@@ -142,7 +142,7 @@ msgstr "API参考"
 
 #: 4a16c3a1169d4cab9380f18b1014f628 module.nbiot.NBIOTModule:1 of
 msgid "Bases: :py:class:`~driver.simcom.sim7020.SIM7020`"
-msgstr ""
+msgstr "Bases: :py:class:`~driver.simcom.sim7020.SIM7020`"
 
 #: 5f1411b937cd4f2d93ee9b565de86b43 module.nbiot.NBIOTModule:1 of
 msgid "Create an NBIOTModule object."

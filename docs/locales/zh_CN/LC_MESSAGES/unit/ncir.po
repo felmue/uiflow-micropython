@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/ncir.rst:2 4834dbaa5ab44f2ea559c29953c4fff2
+msgid "NCIR Unit"
+msgstr "NCIR Unit"
+
+#: ../../source/unit/ncir.rst:6 e1f92df106f24a5a8b790e971db88b36
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/ncir.rst:8 1f45b5bef2bd44d69850af19387e1760
+msgid "|NCIR|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir.ref 55d88047f3c7470b94bbee262a5cb34c
+msgid "NCIR"
+msgstr "NCIR"
+
+#: ../../source/unit/ncir.rst:11 bcbf34cf9d644433bb98ad2f8b22e6aa
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/ncir.rst:18 0d7251f3d8194942b2055797f2e34013
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/ncir.rst:20 301453ff33ad4929b79d10f6621eee6d
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir.ref:6 a4840903f02c4a04b8c78e83f77d15b4
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/ncir.rst:25 7a38e5653294425ab28c45ce47c11ced
+msgid "|ncir_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/ncir.rst:29 d219bc1bb0db4ba19eece7d4486d2469
+msgid "class NCIRUnit"
+msgstr ""
+
+#: ../../source/unit/ncir.rst:32 ca1e99ea07894d62b2b859f9700edc48
+msgid "Constructors"
+msgstr "\"\"\"Constructors\"\"\""
+
+#: ../../source/unit/ncir.rst:36 930fe6228b99459b92c9bc09a7ada52e
+msgid "Create an NCIRUnit object."
+msgstr "创建一个 NCIRUnit 对象。"
+
+#: ../../source/unit/ncir.rst:39 0a5014a3a3ab44dcb494ac1912ad871a
+msgid "The parameters is:"
+msgstr "该参数为："
+
+#: ../../source/unit/ncir.rst:39 816edc5399fd4a018467ff26ccc3f188
+msgid "``i2c`` Define the i2c pin."
+msgstr "定义 ``i2c`` 引脚。"
+
+#: ../../source/unit/ncir.rst:41 ../../source/unit/ncir.rst:55
+#: ../../source/unit/ncir.rst:64 1317a88fda6a46f396459e6ba31de187
+#: f50e1be0cb854592bc59b5bb2498df12 fa0c88d08255437da7454eee79ed1886
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/ncir.rst:43 ef818ee6c9fe49a99de7b747b2cffb20
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir.ref:8 61f3cef56f2f4b8b8271e06059987c23
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/ncir.rst:49 03b3725a6cda49d98c77a8ff2b64b0d6
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/ncir.rst:53 e855f7bb4fd143018d426e89dc858846
+msgid "Obtain the ambient temperature."
+msgstr "获取环境温度。"
+
+#: ../../source/unit/ncir.rst:57 8892e2c695814d04bb82a93cf2db3253
+msgid "|get_ambient_temperature.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir.ref:10 4c92c6560cb34bc49fd9ce6d43a65698
+msgid "get_ambient_temperature.png"
+msgstr ""
+
+#: ../../source/unit/ncir.rst:62 5a7528ea7f974c0e80465a8129f5674b
+msgid "Get the temperature of the measured object."
+msgstr "获取被测物体的温度。"
+
+#: ../../source/unit/ncir.rst:66 e1972462f4504740a34487ef0108af30
+msgid "|get_object_temperature.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ncir.ref:12 bf9087b7565948f2ae8dcc2f18551d3b
+msgid "get_object_temperature.png"
+msgstr ""
+

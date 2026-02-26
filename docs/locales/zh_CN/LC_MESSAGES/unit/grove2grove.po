@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/grove2grove.rst:2 77265f08f7cd46d9a77ffdd07da13625
+msgid "Grove2Grove Unit"
+msgstr "Grove2Grove Unit"
+
+#: ../../source/unit/grove2grove.rst:7 6bec24becabc43e886fc81e56f64388d
+msgid ""
+"UNIT-GROVE2GROVE is a Grove expansion Unit with On/Off Control + Current "
+"Meter functions. On/Off control adopts switch value, Current meter is 0 -"
+" 3.3V analog signal."
+msgstr ""
+"UNIT-GROVE2GROVE 是一款 Grove 扩展 Unit，具有 On/Off 控制 + 电流计功能。On/Off "
+"控制采用开关量，电流计为 0 - 3.3 V 模拟信号。"
+
+#: ../../source/unit/grove2grove.rst:12 49c6f872adc0460cbbac2d463c50eb4b
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/grove2grove.rst:14 be60ff58b70f400d87577812cb7799f9
+msgid "|Grove2GroveUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.grove2grove.ref be0d9314d64e48debd80928327af8e8e
+msgid "Grove2GroveUnit"
+msgstr "Grove2GroveUnit"
+
+#: ../../source/unit/grove2grove.rst:16 7fe41a341bf447e09d2f4caef53a7229
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/grove2grove.rst:23 e76e7fcaa94f4eb4907693c5dc5f20fc
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/grove2grove.rst:25 c8bb4f94fc0847748ecb80969b8bfa3c
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.grove2grove.ref:13 1b090d97263a4623ab5cd7cc702bfb6e
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/grove2grove.rst:29 7001672f62f24a73988356cf031c047c
+msgid "|cores3_grove2_grove_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/grove2grove.rst:33 23a9ad77a0034fddb4d53c7975bd9e4f
+msgid "class Grove2GroveUnit"
+msgstr "class Grove2GroveUnit"
+
+#: ../../source/unit/grove2grove.rst:36 81e91c294b004e8a803356c40684b524
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/grove2grove.rst:40 da6fa52d62b74b7589868f3b33e721d5
+msgid "Initialize the Grove2GroveUnit."
+msgstr "初始化 Grove2GroveUnit。"
+
+#: ../../source/unit/grove2grove.rst 468f938bbfaa414f90fe79c61919b808
+#: 56d1d78deb384eaeb93f41aafd9357a9
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/grove2grove.rst:42 5bf5a492c7a94a1ba386968c447343c8
+msgid ""
+"The port to which the Grove2GroveUnit is connected. port[0]: adc pin, "
+"port[1]: grove pin."
+msgstr "Grove2GroveUnit 连接的端口。port[0]：adc 引脚，port[1]：grove 引脚。"
+
+#: ../../source/unit/grove2grove.rst:44 ../../source/unit/grove2grove.rst:58
+#: ../../source/unit/grove2grove.rst:67 ../../source/unit/grove2grove.rst:76
+#: ../../source/unit/grove2grove.rst:87 4a04b38df62746608cec6359d27ab59d
+#: 5f5f58f946a642feb9768251c8d432dc a13d0151b26a4060b8b5f89cf50a359c
+#: e405345841af49c8abcd8bdcb7120805 fd8d10dfc9624204bc9ebaa17a555ab6
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/grove2grove.rst:46 c09007375c0e47089834bf7679307c18
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.grove2grove.ref:7 2cc48111cf6d4f84bfbffabf45e2530f
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/grove2grove.rst:50 031fc666f7c84f268e86ac5e9bfb0c4f
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/grove2grove.rst:54 1852290f87b9492093510611f47954b2
+msgid "Get the current of the sensor."
+msgstr "获取传感器的电流。"
+
+#: ../../source/unit/grove2grove.rst cc2e3458b81b4e6ca23c3a2d6cd98dc1
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/grove2grove.rst:56 345ced992f6e4431b6d782ac57998b8c
+msgid "The current of the sensor."
+msgstr "传感器的电流。"
+
+#: ../../source/unit/grove2grove.rst:60 20f779e6048a4a05a12cfe447496c2b3
+msgid "|get_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.grove2grove.ref:8 a855b16376184714a510e3b1fc529dd5
+msgid "get_current.png"
+msgstr ""
+
+#: ../../source/unit/grove2grove.rst:65 11a1a6605207417999bd975ee1d1e9fe
+msgid "Turn on the grove."
+msgstr "打开 grove。"
+
+#: ../../source/unit/grove2grove.rst:69 b5f534f2642b41a1a105c7f6d3438ef4
+msgid "|on.png|"
+msgstr ""
+
+#: ../../source/refs/unit.grove2grove.ref:9 77b9ee17bd0e421a9de8f0a79daae327
+msgid "on.png"
+msgstr ""
+
+#: ../../source/unit/grove2grove.rst:74 41624982144a49d79d87e15fc3340d1d
+msgid "Turn off the grove."
+msgstr "关闭 grove。"
+
+#: ../../source/unit/grove2grove.rst:78 5a4eb33997474d66a67a77ce5dd64564
+msgid "|off.png|"
+msgstr ""
+
+#: ../../source/refs/unit.grove2grove.ref:10 b834ce13b1dc48a38052ded5d3da068b
+msgid "off.png"
+msgstr ""
+
+#: ../../source/unit/grove2grove.rst:83 0abb115c89e34b98a3e55a1da64feed5
+msgid "Set the state of the grove."
+msgstr "设置 grove 的状态。"
+
+#: ../../source/unit/grove2grove.rst:85 5acc24bc8da9422b9f04fb41d7ed312c
+msgid "The state of the grove."
+msgstr "Grove 的状态。"
+
+#: ../../source/unit/grove2grove.rst:89 a891076fdc9a483c83fa0ab909d6db3a
+msgid "|set_en.png|"
+msgstr ""
+
+#: ../../source/refs/unit.grove2grove.ref:11 b3bcda96931b4a309cec5c655743002c
+msgid "set_en.png"
+msgstr ""
+

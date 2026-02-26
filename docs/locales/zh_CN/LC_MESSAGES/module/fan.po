@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/fan.rst:2 cf6ca6cfecfa46e3a94f1fdd19d848b1
 msgid "Fan v1.1 Module"
-msgstr ""
+msgstr "Fan v1.1 模块"
 
 #: ../../en/module/fan.rst:8 ec9e48fd15834949ba0b263db8735eaa
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../en/refs/module.fan.ref 86d56092d99942178ea55e44a555770c
 msgid "FAN"
-msgstr ""
+msgstr "FAN"
 
 #: ../../en/module/fan.rst:16 0fcad8dc693c4887a59d23699db0d3fe
 msgid "UiFlow2 Example"
@@ -130,15 +130,15 @@ msgstr "MicroPython 代码块："
 
 #: ../../en/module/fan.rst:53 2a29f411271742498484bf5ce5d87d51
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: ../../en/module/fan.rst:56 029e555e8ace48b6979b45b911d0a778
 msgid "FanModule"
-msgstr ""
+msgstr "FanModule"
 
 #: ae1b5b726d4f42f09b7da648683c7efd module.fan.FanModule:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: ../../en/module/fan.rst 7462cabe54724cc79d56c1f926287197
 #: 896a5ccbeb7b4f3c8c55f0fce9bf90c9 b9099923b17d41bf85f052060ceb2228
@@ -374,7 +374,6 @@ msgid "|set_i2c_address.png|"
 msgstr ""
 
 #: ../../en/refs/module.fan.ref:19 37f8e3ba7b5f481c92d94c5f55541fea
-#, fuzzy
 msgid "set_i2c_address.png"
-msgstr "获取当前I2C地址。"
+msgstr ""
 

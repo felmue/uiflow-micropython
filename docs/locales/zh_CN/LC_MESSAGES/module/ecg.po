@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/ecg.rst:2 296c8a1a944045afaf634ba5bf2b4f18
 msgid "ECG Module"
-msgstr ""
+msgstr "ECG Module"
 
 #: ../../en/module/ecg.rst:8 b3728f298ac74a4298376126f34bf86f
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../en/refs/module.ecg.ref c86edb01e34e462e9b7d086ebfbce5b3
 msgid "Module13.2 ECG"
-msgstr ""
+msgstr "Module13.2 ECG"
 
 #: ../../en/module/ecg.rst:15 f869fd485807484e92956a8e478633e0
 msgid "UiFlow2 Example:"
@@ -141,7 +141,7 @@ msgstr ""
 
 #: ../../en/module/ecg.rst:48 b17d6400b694478fbf7d5731d642b5b0
 msgid "MicroPython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/ecg.rst:70 36bbd733f3904335bec2de16b7a4d4d5
 #: module.ecg.ECGModule:11 module.ecg.ECGModule.poll_data:11
@@ -156,11 +156,11 @@ msgstr "API应用"
 
 #: ../../en/module/ecg.rst:84 296c8a1a944045afaf634ba5bf2b4f18
 msgid "ECGModule"
-msgstr ""
+msgstr "ECGModule"
 
 #: c638bab91bc84dc1a0437cdcdf972975 module.ecg.ECGModule:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: 1dc3f95ab0c14772982099d369ffc5c5 module.ecg.ECGModule:1 of
 msgid "Create an ECGModule object."
@@ -216,7 +216,7 @@ msgstr ""
 
 #: 1c95e89f478c498f9d58996aa092c321 module.ecg.ECGModule.read_heartrate:1 of
 msgid "Read heartrate."
-msgstr ""
+msgstr "读取心率。"
 
 #: c42748944c1941b3a2103758ded9d824 module.ecg.ECGModule.read_heartrate
 #: module.ecg.ECGModule.read_raw_ecg_data of
@@ -225,7 +225,7 @@ msgstr ""
 
 #: d6aef574a83a4f8ab66e4612ec9231df module.ecg.ECGModule.read_heartrate:3 of
 msgid "heart rate"
-msgstr ""
+msgstr "心率"
 
 #: 5d8d4d19c1e345f6b9b1813c3ae03eb3 module.ecg.ECGModule.read_heartrate:6 of
 msgid "If heart rate is no valid, return -1."
@@ -245,7 +245,7 @@ msgstr "读取原始 ECG 数据。"
 
 #: 3cba6c0aaa6e4bebb3e6618af1f3c9fb module.ecg.ECGModule.read_raw_ecg_data:3 of
 msgid "ECG data"
-msgstr ""
+msgstr "ECG 数据"
 
 #: 4b95e2fee3a940d18d9b3abd0b0c9f34 module.ecg.ECGModule.read_raw_ecg_data:8 of
 msgid "|read_raw_ecg_data.png|"

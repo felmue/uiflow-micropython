@@ -18,15 +18,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/hardware/power.rst:2 ab2f673e15574f6bb3880beb6c648967
 msgid "Power"
-msgstr ""
+msgstr "Power"
 
 #: ../../en/hardware/power.rst:8 5392edeb0974421a8834a8eb56a7be13
 msgid "class Power"
-msgstr ""
+msgstr "class Power"
 
 #: ../../en/hardware/power.rst:12 2ba3dda863534850abd573d144fb97ca
 msgid "Methods of the Power Class depend on ``M5.begin()`` |M5.begin.svg|."
@@ -35,7 +35,7 @@ msgstr "Power Class的方法依赖 ``M5.begin()`` |M5.begin.svg|。"
 #: ../../en/refs/system.ref:1 0076ae5f84a1400f815706a480fa6c79
 #: 6a55ae9c1d9946f3aadeebe0d641e37b
 msgid "M5.begin.svg"
-msgstr ""
+msgstr "M5.begin.svg"
 
 #: ../../en/hardware/power.rst:14 938bba83a8d34b27a08857b21bc54746
 msgid ""
@@ -83,7 +83,7 @@ msgstr "``port`` 为端口号，可选值请参考 :ref:`class PORT`, 仅在 M5S
 #: c385dc4baad547e4a6cdb7e81e50cbaa ce559b9c08c84277a1b11462b85a3b02
 #: d86c6af4db6c4c648be9106370c204c3 f166eb737e0e4e50a98369ae236d1755
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2"
 
 #: ../../en/hardware/power.rst:32 d9f9dfcf21d242ea805c33696edd2745
 msgid "|setExtOutput1.svg| |setExtOutput2.svg|"
@@ -91,11 +91,11 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:1 47a61d0e46dd42eb9487c2e4a52074ce
 msgid "setExtOutput1.svg"
-msgstr ""
+msgstr "setExtOutput1.svg"
 
 #: ../../en/refs/hardware.power.ref:2 618ff7a4fd7c4ca285f8523398a36630
 msgid "setExtOutput2.svg"
-msgstr ""
+msgstr "setExtOutput2.svg"
 
 #: ../../en/hardware/power.rst:38 6a5763fee974420c8791db69664a7ce0
 msgid "Get power output of the external ports."
@@ -114,7 +114,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:4 8b9d701b403647418cd95b2c6a38b72a
 msgid "getExtOutput.svg"
-msgstr ""
+msgstr "getExtOutput.svg"
 
 #: ../../en/hardware/power.rst:51 44caeab58a3c4649b62add81c0ac5e4b
 msgid "Set power output of the main USB port."
@@ -133,7 +133,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:6 0066d2738d2a4b62a1866fa6a090c6bf
 msgid "setUsbOutput.svg"
-msgstr ""
+msgstr "setUsbOutput.svg"
 
 #: ../../en/hardware/power.rst:64 88e500bb027d411bbfe109e2b48cfe53
 msgid "Get power output of the main USB port."
@@ -152,7 +152,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:8 5a12d1365850454ab40fa76513f47308
 msgid "getUsbOutput.svg"
-msgstr ""
+msgstr "getUsbOutput.svg"
 
 #: ../../en/hardware/power.rst:76 6ea2aa7388c242ce99031a11850876b4
 msgid "Turn on/off the power LED."
@@ -170,7 +170,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:10 dbbf714a26814452a560b08d5e6bc6fa
 msgid "setLed.svg"
-msgstr ""
+msgstr "setLed.svg"
 
 #: ../../en/hardware/power.rst:88 aef10b64619048ee8376a193d3271a0d
 msgid "Turn off all power."
@@ -182,7 +182,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:12 130e0457a1cd4f5eb98bcd494ffcdab2
 msgid "powerOff.svg"
-msgstr ""
+msgstr "powerOff.svg"
 
 #: ../../en/hardware/power.rst:99 c04e72e83d4741309378465f90a02d4e
 msgid "sleep and timer boot. The boot condition can be specified by the argument."
@@ -214,15 +214,15 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:14 32b7232534934872b2cb63451fea51b5
 msgid "timerSleep1.svg"
-msgstr ""
+msgstr "timerSleep1.svg"
 
 #: ../../en/refs/hardware.power.ref:15 5cca9c8db1ba4049bd562717b43e6e75
 msgid "timerSleep2.svg"
-msgstr ""
+msgstr "timerSleep2.svg"
 
 #: ../../en/refs/hardware.power.ref:16 4c0ad90fcf904fa4b626231bd2a34e4d
 msgid "timerSleep3.svg"
-msgstr ""
+msgstr "timerSleep3.svg"
 
 #: ../../en/hardware/power.rst:120 1bdd8c1077544304883f6b85e2b69435
 msgid "ESP32 deepsleep."
@@ -244,7 +244,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:19 93b9d97f15f14cc5926d579f4add19a9
 msgid "deepSleep.svg"
-msgstr ""
+msgstr "deepSleep.svg"
 
 #: ../../en/hardware/power.rst:133 53834fbe24b0404fab4c499b9bceeb0c
 msgid "ESP32 lightsleep."
@@ -256,7 +256,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:21 cef99152d77b467aad6f5e48854a028e
 msgid "lightSleep.svg"
-msgstr ""
+msgstr "lightSleep.svg"
 
 #: ../../en/hardware/power.rst:146 961904d19fb842ffb24b02cc4014137b
 msgid "Get the remaining battery power percentage. Returns a value between 0-100."
@@ -268,7 +268,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:23 91bbdd84d878416f9db9fce472d921b5
 msgid "getBatteryLevel.svg"
-msgstr ""
+msgstr "getBatteryLevel.svg"
 
 #: ../../en/hardware/power.rst:155 56f7d5cf6cf84bc2b56e68ec0e0734e0
 msgid "Set battery charging enable."
@@ -280,7 +280,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:25 db78e56b47ab43d497ed12994eebd725
 msgid "setBatteryCharge.svg"
-msgstr ""
+msgstr "setBatteryCharge.svg"
 
 #: ../../en/hardware/power.rst:164 70e95cee82514ed098cf7fc399821c21
 msgid "Set battery charge current."
@@ -288,7 +288,7 @@ msgstr "设置电池充电电流。"
 
 #: ../../en/hardware/power.rst:166 f97d544875e14c7a95b061022f4157d9
 msgid "``max_mA``: Range is 0-2000, in milliamps."
-msgstr ""
+msgstr "``max_mA``：范围为 0-2000，单位为毫安。"
 
 #: ../../en/hardware/power.rst:170 a5fdb695148347a99c4df902f000fe20
 msgid "|setChargeCurrent.svg|"
@@ -296,7 +296,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:27 bfdab5fef5ea4c9e97984599e045862d
 msgid "setChargeCurrent.svg"
-msgstr ""
+msgstr "setChargeCurrent.svg"
 
 #: ../../en/hardware/power.rst:175 5921b91c96f4474d9c017a353937d921
 msgid "Set battery charge voltage."
@@ -312,7 +312,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:29 cfe867d34aa245e39525e9ce2e279b0f
 msgid "setChargeVoltage.svg"
-msgstr ""
+msgstr "setChargeVoltage.svg"
 
 #: ../../en/hardware/power.rst:186 753060e41dca476587ba0e70d74238a2
 msgid "Get whether the battery is currently charging or not."
@@ -324,7 +324,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:31 b4c7ec04788e43df9bff8e379c540c32
 msgid "isCharging.svg"
-msgstr ""
+msgstr "isCharging.svg"
 
 #: ../../en/hardware/power.rst:195 264627c4397c46f18f6f5eae73ba890f
 msgid "Get battery voltage. Unit is millivolts."
@@ -336,7 +336,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:33 5dcb57f7dc5343bd82684977404482cc
 msgid "getBatteryVoltage.svg"
-msgstr ""
+msgstr "getBatteryVoltage.svg"
 
 #: ../../en/hardware/power.rst:204 331fe95d491d4db7a31cfab2a7f086d4
 msgid "Get battery current. Unit is milliamps."
@@ -348,7 +348,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:35 00c6b6eed1084575b35aabdb0f6691ef
 msgid "getBatteryCurrent.svg"
-msgstr ""
+msgstr "getBatteryCurrent.svg"
 
 #: ../../en/hardware/power.rst:213 5568f442fbbb48e7b173b055a3836185
 msgid "Get Power Key Press condition."
@@ -360,7 +360,7 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:37 514a9f1dac1b4fb0b603054089afc2ba
 msgid "getKeyState.svg"
-msgstr ""
+msgstr "getKeyState.svg"
 
 #: ../../en/hardware/power.rst:221 79b4a2acb2be4336a894a985a1be3769
 msgid "Operate the vibration motor."
@@ -376,15 +376,15 @@ msgstr ""
 
 #: ../../en/refs/hardware.power.ref:39 f06fe09914cc4d71b74f0a9e7eff5c30
 msgid "setVibration.svg"
-msgstr ""
+msgstr "setVibration.svg"
 
 #: ../../en/hardware/power.rst:232 318c7c918fde46ff80b8521d25a1c076
 msgid "class PORT"
-msgstr ""
+msgstr "class PORT"
 
 #: ../../en/hardware/power.rst:235 fbda555a793b4d0bbcabd6a683cab812
 msgid "Constants"
-msgstr ""
+msgstr "Constants"
 
 #: ../../en/hardware/power.rst:239 448b3c197a2e46d6908d5e8c399534b2
 msgid "Port A."

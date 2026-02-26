@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/module/usb.rst:2 ../../en/refs/module.usb.ref
 #: 6e8938922022436baaf6ac01d01175aa c80aebef1ac141969ff9d4b8ab15b643
 msgid "USB Module"
-msgstr ""
+msgstr "USB Module"
 
 #: ../../en/module/usb.rst:6 d2dfe058d8c44612aaa7fb46798212ea
 msgid ""
@@ -33,7 +33,7 @@ msgstr "Module USB 是使用 SPI 接口实现扩展 USB 功能的模块，使用
 
 #: ../../en/module/usb.rst:8 b265e48d0dc044afb5042d4e2dfe29bc
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/usb.rst:10 ca48a9cb8dc643c6bf2e351db6c52e24
 msgid "|USB Module|"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../en/module/usb.rst:14 9e6691dee6ff4a2b8adc6dffbd0a2005
 msgid "Micropython Example"
-msgstr ""
+msgstr "MicroPython 应用示例"
 
 #: ../../en/module/usb.rst:16 1edb9abf6b31431a818810396229dc5c
 msgid ""
@@ -50,7 +50,9 @@ msgid ""
 "positions. For specific configurations, please refer to the product "
 "manual page. The SPI configuration has been implemented internally, so "
 "users do not need to worry about it."
-msgstr "使用下列案例前请检查模块拨码开关，确保案例使用相关引脚与模块拨码开关位置一致，具体配置请查看产品说明手册页面。SPI 配置已在内部实现，用户无需关心。"
+msgstr ""
+"使用下列案例前请检查模块拨码开关，确保案例使用相关引脚与模块拨码开关位置一致，具体配置请查看产品说明手册页面。SPI "
+"配置已在内部实现，用户无需关心。"
 
 #: ../../en/module/usb.rst:19 ../../en/module/usb.rst:47
 #: 23d82c3ffed44deeb4555650eecabf2e 749f58c4636d4240b238d5ac82db0425
@@ -85,7 +87,7 @@ msgstr "案例实现 USB 主机，获取键盘输入"
 
 #: ../../en/module/usb.rst:44 a2bb652901d14126b1a8582a65c9ffd1
 msgid "UIFlow2.0 Example"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/module/usb.rst:50 9b22f25017a1415f8a6c2a55e4bf030d
 msgid "|gpio_example.png|"
@@ -125,11 +127,11 @@ msgstr ""
 
 #: ../../en/module/usb.rst:79 6c8fbb845bb042b492a7368b78c584a0
 msgid "class USBModule"
-msgstr ""
+msgstr "class USBModule"
 
 #: ../../en/module/usb.rst:82 00c0a5ed9ef64abaa95b4c1a612c8823
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/module/usb.rst f987e013f6294cbfae03637e2faa2261
 msgid "Parameters"
@@ -137,15 +139,15 @@ msgstr ""
 
 #: ../../en/module/usb.rst:86 44546b4add254822b18a5b74f39cd20d
 msgid "(RST) 复位引脚"
-msgstr ""
+msgstr "复位引脚"
 
 #: ../../en/module/usb.rst:87 4f8bb15ce9854c56a402c3e61a8448e1
 msgid "(INT) 中断引脚"
-msgstr ""
+msgstr "(INT) 中断引脚"
 
 #: ../../en/module/usb.rst:89 14b3b86dbe92484a9202d4d5a6812a91
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2:"
 
 #: ../../en/module/usb.rst:91 500b93b097a349e484e794d84ed178ef
 msgid "|init.png|"
@@ -157,11 +159,11 @@ msgstr ""
 
 #: ../../en/module/usb.rst:95 801d1484293f4034afcaf4a54765f72d
 msgid "poll data"
-msgstr ""
+msgstr "轮询数据。"
 
 #: ../../en/module/usb.rst:97 9e9b684562e04b138d6e6462f5ef22e4
 msgid "**Note**: It needs to be called in the main loop"
-msgstr ""
+msgstr "**注意**：需要在主循环中调用。"
 
 #: ../../en/module/usb.rst:99 ../../en/module/usb.rst:108
 #: ../../en/module/usb.rst:116 ../../en/module/usb.rst:124
@@ -176,7 +178,7 @@ msgstr ""
 #: b438a01178d2476ab8a592312ea8c333 ba8e1f4cd04f414f941713618812ce09
 #: bb059b1638b54840a21181e22ef33f4e c971f516393e4344856b3ba5a198805c
 msgid "UIFlow2.0"
-msgstr ""
+msgstr "UIFlow2.0"
 
 #: ../../en/module/usb.rst:101 26696b3e23d447fc84dc6368f5cdaac6
 msgid "|poll_data.png|"
@@ -258,13 +260,15 @@ msgid ""
 "values indicate movement to the right; y range: -127 to 127; 0 indicates "
 "no movement, negative values indicate movement upward, and positive "
 "values indicate movement downward."
-msgstr "返回包含鼠标水平位移 x 和垂直位移 y 的元组 (x, y)；x 范围: -127~127，静止为0，负值为向左移动，正值为向右移动；y 范围: -127~127，静止为0，负值为向上移动，正值为向下移动。"
+msgstr ""
+"返回包含鼠标水平位移 x 和垂直位移 y 的元组 (x, y)；x 范围: -127~127，静止为0，负值为向左移动，正值为向右移动；y 范围:"
+" -127~127，静止为0，负值为向上移动，正值为向下移动。"
 
 #: ../../en/module/usb.rst:153 ../../en/module/usb.rst:185
 #: ../../en/module/usb.rst:213 065392af86034ed7837c94e09884b099
 #: 3e2186aa6157401b9493d5520c27f7b5 cb825961e4484edcb62bf7b2cbd01ee6
 msgid "**Example:**"
-msgstr ""
+msgstr "**示例：**"
 
 #: ../../en/module/usb.rst:164 818239f40a634aad935c01673378ccc3
 msgid "|read_mouse_move.png|"

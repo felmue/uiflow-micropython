@@ -22,28 +22,28 @@ msgstr ""
 
 #: ../../en/software/code_scanner.rst:2 fb16c90267094c559e977d537b4319ba
 msgid ":mod:`code_scanner`"
-msgstr ""
+msgstr ":mod:`code_scanner`"
 
 #: ../../en/software/code_scanner.rst:6 fa44a561f9d6455e8cfc9b76854afcc1
 msgid "This module is only applicable to the CoreS3 Controller"
-msgstr ""
+msgstr "该模块仅适用于 CoreS3 Controller。"
 
 #: ../../en/software/code_scanner.rst:11 26abd6464dde4550bd744b0f203ec218
 msgid "``code_scanner`` module for qrcode scanning recognition"
-msgstr ""
+msgstr "用于二维码扫描识别的 ``code_scanner`` 模块。"
 
 #: ../../en/software/code_scanner.rst:14 d3d834c5c84e4e3c9d9f3b92ec150619
 msgid "Micropython Example"
-msgstr ""
+msgstr "MicroPython 应用示例"
 
 #: ../../en/software/code_scanner.rst:17 ../../en/software/code_scanner.rst:28
 #: 300a22cdf987416491e91617ca10ea84 44c9cc7cea5b4066b93d0e21a5779a74
 msgid "qrcode detect"
-msgstr ""
+msgstr "二维码检测"
 
 #: ../../en/software/code_scanner.rst:25 028b4995e4f74854a02d35179642c631
 msgid "UIFlow2.0 Example"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/software/code_scanner.rst:30 4fa0ded252d140a1b83e5e843b231586
 msgid "|qrcode_detect_example.png|"
@@ -59,25 +59,25 @@ msgstr ""
 
 #: ../../en/software/code_scanner.rst:39 306b6f776c2249f39bf00f65cc1b51e6
 msgid "Methods"
-msgstr ""
+msgstr "Methods"
 
 #: ../../en/software/code_scanner.rst:43 1862225c6b984400b7ec01de3017da06
 msgid "QR code recognition"
-msgstr ""
+msgstr "二维码识别"
 
 #: ../../en/software/code_scanner.rst:45 d00ae4f4049e4543a9791e59e81cc3f4
 msgid "``img`` Image to be recognized"
-msgstr ""
+msgstr "``img`` 待识别的图像。"
 
 #: ../../en/software/code_scanner.rst:47 ecde48cc519b44f0bf12f6c638197bac
 msgid "Returns ``image.qrcode`` instance"
-msgstr ""
+msgstr "Returns ``image.qrcode`` instance"
 
 #: ../../en/software/code_scanner.rst:49 ../../en/software/code_scanner.rst:62
 #: ../../en/software/code_scanner.rst:70 273c340ecd6342bc89168217641c67bc
 #: 686426238efa4b5aa3d0b2e44ea11e10 6bd6711308bd4c72a8bae416e06c3332
 msgid "UIFlow2.0"
-msgstr ""
+msgstr "UIFlow2.0"
 
 #: ../../en/software/code_scanner.rst:51 55e9cbe42a7b46ad9492e7b8c9ad888d
 msgid "|find_qrcodes.png|"
@@ -89,17 +89,17 @@ msgstr ""
 
 #: ../../en/software/code_scanner.rst:55 1212e6384d5542e2bde59e1c94ee3291
 msgid "class image.QRCode"
-msgstr ""
+msgstr "class image.QRCode"
 
 #: ../../en/software/code_scanner.rst:56 c454dd3488e643a9b5eabcfc901216c8
 msgid ""
 "``QRCode`` The QRCode object is returned by "
 "`code_scanner.find_qrcodes(img: image.Image)`."
-msgstr ""
+msgstr "``QRCode`` 对象由 `code_scanner.find_qrcodes(img: image.Image)` 返回。"
 
 #: ../../en/software/code_scanner.rst:60 7618acb7a6bd4a5f984589aaa649438a
 msgid "Return the payload string of the QR code"
-msgstr ""
+msgstr "返回 QR 码的 payload 字符串。"
 
 #: ../../en/software/code_scanner.rst:64 a2f7baa5cb5f430a9c843cf16090fae9
 msgid "|payload.png|"
@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../../en/software/code_scanner.rst:68 42cf1bdf8b874c70877d8064bdd18d6f
 msgid "Return the type of the QR code"
-msgstr ""
+msgstr "返回二维码的类型。"
 
 #: ../../en/software/code_scanner.rst:72 73f97e7c22074a4588f70e847a38ecb8
 msgid "|type_name.png|"

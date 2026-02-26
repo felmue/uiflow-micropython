@@ -23,11 +23,11 @@ msgstr ""
 #: ../../en/base/speaker.rst:2 ../../en/refs/base.speaker.ref
 #: 58db4bf7a4ff4ce39d433a7dde154e93 a810f4af25ea47a99b8d0fa42f2a2a63
 msgid "Atomic Speaker Base"
-msgstr ""
+msgstr "Atomic Speaker Base"
 
 #: ../../en/base/speaker.rst:8 0dc3d0a2c81d4cd6940d07d8a878e880
 msgid "The following products are supported:"
-msgstr ""
+msgstr "以下产品受支持："
 
 #: ../../en/base/speaker.rst:10 b6dc03d72efe444dbc045320c79b0ae4
 msgid "|Atomic Speaker Base|"
@@ -35,23 +35,23 @@ msgstr ""
 
 #: ../../en/base/speaker.rst:12 cd23240789954103ab4b9df847fb8cbe
 msgid "Below is the detailed support for Speaker on the host:"
-msgstr ""
+msgstr "以下是主机端对 Speaker 的详细支持："
 
 #: ../../en/base/speaker.rst:19 10395eee8ef041bba80e1a0f9ce90fe9
 msgid "Controller"
-msgstr ""
+msgstr "控制器"
 
 #: ../../en/base/speaker.rst:19 ab919c00b2214c26bae70f6f0bb1ea0c
 msgid "NS4168"
-msgstr ""
+msgstr "NS4168"
 
 #: ../../en/base/speaker.rst:19 a62766ffb88c4fc08fc97c4ed0acce82
 msgid "SDCard"
-msgstr ""
+msgstr "SDCard"
 
 #: ../../en/base/speaker.rst:21 32bc6807dd044f959ef0ba4250385cfd
 msgid "Atom Echo"
-msgstr ""
+msgstr "Atom Echo"
 
 #: ../../en/base/speaker.rst:21 ../../en/base/speaker.rst:25
 #: ../../en/base/speaker.rst:27 64459bafd58c4be68972fcb5a6ebe050
@@ -62,7 +62,7 @@ msgstr ""
 
 #: ../../en/base/speaker.rst:23 db9b3ac625a7490a8969186d5b3e6a37
 msgid "Atom Lite"
-msgstr ""
+msgstr "Atom Lite"
 
 #: ../../en/base/speaker.rst:23 ../../en/base/speaker.rst:25
 #: ../../en/base/speaker.rst:27 ../../en/base/speaker.rst:29
@@ -79,43 +79,43 @@ msgstr ""
 
 #: ../../en/base/speaker.rst:25 39e5051360574cf19b4b501861c40605
 msgid "Atom Matrix"
-msgstr ""
+msgstr "Atom Matrix"
 
 #: ../../en/base/speaker.rst:27 f3da5858860c4c0a967068c2c1de51bc
 msgid "AtomS3"
-msgstr ""
+msgstr "AtomS3"
 
 #: ../../en/base/speaker.rst:29 7e545e9963d14a498d62e1eb6266828d
 msgid "AtomS3 Lite"
-msgstr ""
+msgstr "AtomS3 Lite"
 
 #: ../../en/base/speaker.rst:31 50e125b001394d84abe546769506846f
 msgid "AtomS3R"
-msgstr ""
+msgstr "AtomS3R"
 
 #: ../../en/base/speaker.rst:33 c85a62f4e72343b18ad38c79e01da709
 msgid "AtomS3R-CAM"
-msgstr ""
+msgstr "AtomS3R-CAM"
 
 #: ../../en/base/speaker.rst:35 a7ad1751d82247f4b76763f87a3f6d16
 msgid "AtomS3R-Ext"
-msgstr ""
+msgstr "AtomS3R-Ext"
 
 #: ../../en/base/speaker.rst:41 78f7c7498f624562af0c242baa57f4bf
 msgid "|S|: Supported."
-msgstr ""
+msgstr "|S|：支持。"
 
 #: ../../en/base/speaker.rst:43 804a7a7783c34a26ad06b10063404428
 msgid "|O|: Optional, It conflicts with some internal resource of the host."
-msgstr ""
+msgstr "|O|：可选项。它与主机的一些内部资源存在冲突。"
 
 #: ../../en/base/speaker.rst:46 ea021465b5414340a204cabbe6a1607f
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/base/speaker.rst:53 03516d9d548a4564b0ff4863553d8665
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/base/speaker.rst:55 f47deb19e45e4311b37de94bdcc503d4
 msgid "|example.png|"
@@ -131,16 +131,16 @@ msgstr ""
 
 #: ../../en/base/speaker.rst:64 b97b28535b264394904c8393e9e2e79d
 msgid "class SpeakerBase"
-msgstr ""
+msgstr "class SpeakerBase"
 
 #: ../../en/base/speaker.rst:67 ../../en/base/speaker.rst:99
 #: f568267df4fc4738a5b5c65f8fa31c60
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/base/speaker.rst:71 11507e65e6fa447a8a68af67f512cdc4
 msgid "Create an SpeakerBase object."
-msgstr ""
+msgstr "创建一个 SpeakerBase 对象。"
 
 #: ../../en/base/speaker.rst af24adeac55042aeacb92b1a19191d76
 msgid "Parameters"
@@ -148,24 +148,24 @@ msgstr ""
 
 #: ../../en/base/speaker.rst:73 ca20e21fb349412f9b3281ebdf3ee00b
 msgid "The I2S port number."
-msgstr ""
+msgstr "I2S 端口号。"
 
 #: ../../en/base/speaker.rst:74 439271fb8844489db0891d4dc7eb5f3f
 msgid "The I2S SCK pin."
-msgstr ""
+msgstr "I2S SCK 引脚。"
 
 #: ../../en/base/speaker.rst:75 8b6dfeb79ac24f5d846a010dd2216333
 msgid "The I2S WS pin."
-msgstr ""
+msgstr "I2S WS 引脚。"
 
 #: ../../en/base/speaker.rst:76 fb46e9f06313475ca100dff46b488f6f
 msgid "The I2S DI pin."
-msgstr ""
+msgstr "I2S DI 引脚。"
 
 #: ../../en/base/speaker.rst:78 ../../en/base/speaker.rst:113
 #: 4df7ff4016654af4873b89db824337d4
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2："
 
 #: ../../en/base/speaker.rst:80 e68cc5d99a4d4b5a8d849eafc4dfec21
 msgid "|SpeakerBase.png|"
@@ -178,7 +178,7 @@ msgstr ""
 #: ../../en/base/speaker.rst:82 ../../en/base/speaker.rst:117
 #: 63492f4725604a92982a1041b9b629c1
 msgid "Micropython::"
-msgstr ""
+msgstr "MicroPython："
 
 #: ../../en/base/speaker.rst:92 a02fe5dbb3364a28987015a28ba73180
 msgid ""
@@ -186,42 +186,44 @@ msgid ""
 ":ref:`hardware.Speaker.Methods <hardware.Speaker.Methods>` for more "
 "details."
 msgstr ""
+"SpeakerBase 类继承自 M5.Speaker 类，更多详情请参见 :ref:`hardware.Speaker.Methods "
+"<hardware.Speaker.Methods>`。"
 
 #: ../../en/base/speaker.rst:96 4c24373b68584ba5ab6805c5ed30e76d
 msgid "class SDCard"
-msgstr ""
+msgstr "class SDCard"
 
 #: ../../en/base/speaker.rst:103 03273ad02e7a4ff8835258ef29d9913e
 msgid "Create an SDCard object."
-msgstr ""
+msgstr "创建一个 SDCard 对象。"
 
 #: ../../en/base/speaker.rst:105 636ef61cf180427083da399850bd997b
 msgid "The slot number of the SD card. Default is 2."
-msgstr ""
+msgstr "SD 卡的插槽编号。默认值为 2。"
 
 #: ../../en/base/speaker.rst:106 bc636cdd74b644f58b1f1059facb39cd
 msgid "width selects the bus width for the SD/MMC interface."
-msgstr ""
+msgstr "width 用于选择 SD/MMC 接口的总线宽度。"
 
 #: ../../en/base/speaker.rst:107 2293f3181335499488dbe237ee28b333
 msgid "sck can be used to specify an SPI clock pin."
-msgstr ""
+msgstr "sck 可用于指定 SPI 时钟引脚。"
 
 #: ../../en/base/speaker.rst:108 0a795039ccdb46e7aaa39b78c80976ad
 msgid "miso can be used to specify an SPI miso pin."
-msgstr ""
+msgstr "miso 可用于指定 SPI 的 MISO 引脚。"
 
 #: ../../en/base/speaker.rst:109 82f3378a0ea44976ad6af69a094108e2
 msgid "mosi can be used to specify an SPI mosi pin."
-msgstr ""
+msgstr "mosi 可用于指定 SPI 的 mosi 引脚。"
 
 #: ../../en/base/speaker.rst:110 c8c84009462547f780f4189a216a32ee
 msgid "cs can be used to specify an SPI chip select pin."
-msgstr ""
+msgstr "cs 可用于指定 SPI 片选引脚。"
 
 #: ../../en/base/speaker.rst:111 7956b11f0f094829ad1acdbd3ae9297f
 msgid "freq selects the SD/MMC interface frequency in Hz."
-msgstr ""
+msgstr "freq 用于选择 SD/MMC 接口频率，单位为 Hz。"
 
 #: ../../en/base/speaker.rst:115 fc47d9e83e8f490aaa1fee39a7c2abf4
 msgid "|SDCard.png|"

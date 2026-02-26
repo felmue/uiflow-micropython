@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../en/module/cc1101.rst:2 d1f1a682f17a4c5095849f65d45e58c1
 msgid "CC1101 Module"
-msgstr ""
+msgstr "CC1101 Module"
 
 #: ../../en/module/cc1101.rst:8 946f41e1f8144857b296742c25cdaf37
 msgid ""
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../en/refs/module.cc1101.ref 2775b7e41af54e7ebed96127d49ae530
 msgid "CC1101Module"
-msgstr ""
+msgstr "CC1101Module"
 
 #: ../../en/module/cc1101.rst:17 4331382208c34ea58e66c9d3fa13ef72
 msgid "UiFlow2 Example"
@@ -537,3 +537,4 @@ msgstr "链路质量指示器（0-127）。"
 #: ../../en/module/cc1101.rst:425 6cf6866f87654d789b6e80230a05c03e
 msgid "CRC validity check. Returns True if CRC is valid, False otherwise."
 msgstr "CRC 有效性检查。如果 CRC 有效则返回 True，否则返回 False。"
+

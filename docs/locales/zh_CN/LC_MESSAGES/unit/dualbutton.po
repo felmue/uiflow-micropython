@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/dualbutton.rst:2 afa3a4f4188943f183263e6a847cb3aa
+msgid "Dual_Button Unit"
+msgstr "双按键 Unit"
+
+#: ../../source/unit/dualbutton.rst:6 e732df3f7b4943ab80718cee2b65e7a2
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/dualbutton.rst:8 a8ad70f78531425d810b166c427b203d
+msgid "|Dual_Button|"
+msgstr ""
+
+#: ../../source/refs/unit.dual_button.ref e6967b332adf471a91e2d36d2ccb2f5c
+msgid "Dual_Button"
+msgstr "Dual_Button"
+
+#: ../../source/unit/dualbutton.rst:11 ccd7d9fa100542f39372b6bd2a42895a
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/dualbutton.rst:18 2535460e4df24c52bdfb93a8c76ac190
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/dualbutton.rst:20 7f1dd29495a843ab98c8b713dd0ea602
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dual_button.ref:6 70573ffaef754c14b4ae9ccf6fd0d84d
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/dualbutton.rst:25 30b098ce2f8e4266807df6d4c6b568be
+msgid "|dual_button_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/dualbutton.rst:29 83aad7e1ede744fb9bed33325f057d3d
+msgid "class DualButton"
+msgstr "class DualButton"
+
+#: ../../source/unit/dualbutton.rst:32 3fa1ce26926047c496cebf9b098e8888
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/dualbutton.rst:36 b5e33e5dd5dc4aec8029e597e93b55f2
+msgid "Create a DualButton object."
+msgstr "创建一个 DualButton 对象。"
+
+#: ../../source/unit/dualbutton.rst:39 ../../source/unit/dualbutton.rst:51
+#: 2812e94733484b8ba4a64f6159e44af9 2f455409a5484f8a9b6233bae1e6617c
+msgid "The parameters are:"
+msgstr "参数为："
+
+#: ../../source/unit/dualbutton.rst:39 8f04b975133243d985b8def660c2dda7
+msgid "``IO1,IO2`` Define two key pins."
+msgstr "``IO1,IO2`` 定义两个按键引脚。"
+
+#: ../../source/unit/dualbutton.rst:41 ../../source/unit/dualbutton.rst:53
+#: ../../source/unit/dualbutton.rst:62 ../../source/unit/dualbutton.rst:71
+#: 535410cab4a64eed9ea580707c2d6111 9dd1b574bbac48959c9314c06ee120c7
+#: afd7ecc56c80465cb047998a3f490a61 d5da378bf45a4018a6108668b530f331
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/dualbutton.rst:43 9646a80afb9c426dbb23e9d220cec887
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dual_button.ref:8 4ebcb69655e74a6c97738241d49b6a27
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/dualbutton.rst:47 eb6a103b271344ceb745634c28997b08
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/dualbutton.rst:55 7b0d9205428644fe970f7aa758b90ddf
+msgid "|get_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dual_button.ref:10 d3f954dc4b444a4d99191d2bc44747cf
+msgid "get_status.png"
+msgstr ""
+
+#: ../../source/unit/dualbutton.rst:60 34839fd41d6c4147888851706e0eb272
+msgid "Execute the program when the key is pressed."
+msgstr "当按键被按下时执行程序。"
+
+#: ../../source/unit/dualbutton.rst:64 48fae677686e4b2abe4d4060ac1a886d
+msgid "|setCallback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dual_button.ref:12 5ccd4b3752bc4bb5ac0b87f9cf0d2264
+msgid "setCallback.png"
+msgstr ""
+
+#: ../../source/unit/dualbutton.rst:69 1026a2891e3d4bc79d658720073828f3
+msgid ""
+"The polling method, placed in the loop function, constantly detects the "
+"state of the key."
+msgstr "轮询方法放置在 loop 函数中，持续检测按键的状态。"
+
+#: ../../source/unit/dualbutton.rst:73 6c83fa2343d94f77940e8dce85af4add
+msgid "|tick.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dual_button.ref:14 8c63aa1305ae4464a3804e08ed7accf1
+msgid "tick.png"
+msgstr ""
+

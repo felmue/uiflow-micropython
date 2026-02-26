@@ -1,0 +1,483 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/mqttpoe.rst:2 16b35583790741f09e8116e9fae11554
+msgid "MQTTPoE Unit"
+msgstr "MQTTPoE Unit"
+
+#: ../../source/unit/mqttpoe.rst:6 fb6883eb06a142ca8079077d9b8c00fa
+msgid ""
+"The ``MQTTPoE Unit`` is an Ethernet communication module specifically "
+"designed for MQTT communication. It features supports PoE power and "
+"embedded W5500 Ethernet chip, which enables seamless connectivity to "
+"Ethernet networks. The module also includes a UART communication "
+"interface, allowing for control via AT commands. In addition, it "
+"integrates an RJ45 adaptive 10/100M network port for easy network "
+"connectivity."
+msgstr ""
+"``MQTTPoE Unit`` 是一款专为 MQTT 通信设计的以太网通信模块。它支持 PoE 供电并内置 W5500 "
+"以太网芯片，可实现与以太网网络的无缝连接。该模块还包含 UART 通信接口，支持通过 AT commands 进行控制。此外，它集成了 RJ45 "
+"自适应 10/100M 网络端口，便于进行网络连接。"
+
+#: ../../source/unit/mqttpoe.rst:10 f72c9272a0dc429d9519553df666b011
+msgid ""
+"The PoE version has integrated PoE power, with 1.2A@5V (6W) load "
+"capability."
+msgstr "PoE 版本集成了 PoE 供电，负载能力为 1.2A@5V（6W）。"
+
+#: ../../source/unit/mqttpoe.rst:12 7b88d591b2a64439a07d2c79838865cd
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/mqttpoe.rst:14 70654ca838ad4e41b25f71bf0ab176a1
+msgid "|MqttPoeUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref 306c306aecd14abebb61c6f7f5b4dca4
+msgid "MqttPoeUnit"
+msgstr "MqttPoeUnit"
+
+#: ../../source/unit/mqttpoe.rst:16 37375dde6af44974b4984abcafaaad80
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/mqttpoe.rst:39 30970c409d704301b4fb3a20a4680032
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/mqttpoe.rst:41 2dda2c9d1ef147cf9bebfbf86d2b7fef
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:7 1c322de73d0440ec9257d8eb33056067
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:45 464e6fbbabdf4dcb8980a1e6617de5c8
+msgid "|mqttpoe_demo.m5f2|"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:49 8e11f50bd9d14671868bd5cdaab61271
+msgid "class MQTTPoEUnit"
+msgstr "class MQTTPoEUnit"
+
+#: ../../source/unit/mqttpoe.rst:52 8e389ba804f846e5844e5e4569355da8
+msgid "Constructors"
+msgstr "\"\""
+
+#: ../../source/unit/mqttpoe.rst:56 fb43b40e7ad548a087862fe3813c7d93
+msgid "Create a MQTTPoEUnit object"
+msgstr "创建一个 MQTTPoEUnit 对象"
+
+#: ../../source/unit/mqttpoe.rst:59 ../../source/unit/mqttpoe.rst:219
+#: ../../source/unit/mqttpoe.rst:242 ../../source/unit/mqttpoe.rst:265
+#: ../../source/unit/mqttpoe.rst:281 5973e534a2324a48bcddebcf40f49bb7
+#: 61b2c68c66ee4db389403f2ab14e17c8 70ca8e5db77d421a9c5fdb20764eb9a7
+#: 782635cadf9741139b3c2bce298d0c45 ac1124bc8fc94456be143d3962c926ac
+msgid "The parameters is:"
+msgstr "参数为："
+
+#: ../../source/unit/mqttpoe.rst:59 839ed145470e4143af6e18afbd4433f9
+msgid "``port`` uart pin tuple, which contains: ``(tx_pin, rx_pin)``."
+msgstr "``port`` uart 引脚元组，包含：``(tx_pin, rx_pin)``。"
+
+#: ../../source/unit/mqttpoe.rst:61 ../../source/unit/mqttpoe.rst:84
+#: ../../source/unit/mqttpoe.rst:93 ../../source/unit/mqttpoe.rst:101
+#: ../../source/unit/mqttpoe.rst:116 ../../source/unit/mqttpoe.rst:136
+#: ../../source/unit/mqttpoe.rst:165 ../../source/unit/mqttpoe.rst:176
+#: ../../source/unit/mqttpoe.rst:187 ../../source/unit/mqttpoe.rst:198
+#: ../../source/unit/mqttpoe.rst:209 ../../source/unit/mqttpoe.rst:221
+#: ../../source/unit/mqttpoe.rst:232 ../../source/unit/mqttpoe.rst:244
+#: ../../source/unit/mqttpoe.rst:255 ../../source/unit/mqttpoe.rst:267
+#: ../../source/unit/mqttpoe.rst:283 0987191a8f9e4eaf8e3cd2092830fc42
+#: 189cd2260ec041d89ee3c34c4595055b 511406fe7b5f465780d0e5bf1662f557
+#: 56aaad9a03ac4d419408f1bf6785a578 5d8cde4450194eae80e94b4034bb348b
+#: 70359c037a974f959eba5bebc823c3ff 7f688063d3224a168af06ed1a1df5987
+#: 8942d2f76b9448d8acc184384a13f0a2 8a0e0c000a4b4366ae279386e287135c
+#: 90783dc0441c4683aaad4a6c306db54b 90f651b03262458e94802ed49ef1f170
+#: 926c637732b74f08bac303be34d19e30 c0cd7f1014c1408e9c29ba3c7692133c
+#: c6a6a05813b14663b187f46fb39b48f9 cea576a4ff894eb9b8010d29ffeb316e
+#: cf3317583ca14fda918346c71c756d99 d21046056fae4b8587501bbfa5936e5a
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/mqttpoe.rst:63 07c07a3fe2a54cd4bfb9390ab6bc4270
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:6 f20e0f64772342959ef570a0908acbe7
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:67 465b40b816224c9d96d8e66f9db12e60
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst 19ada0566cd543cf8eeb395a62fdb7e3
+#: 69fef47b8abf4217802ca3066a8acee7 9a2474b56fa1474191198ad1920ff399
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:71 ffa5742d5559491da031745f879ab75e
+msgid "the unique client id string used when connecting to the broker."
+msgstr "连接到 broker 时使用的唯一客户端 ID 字符串。"
+
+#: ../../source/unit/mqttpoe.rst:73 26e2df827df54aec998724f28d19ee74
+msgid "the hostname or IP address of the remote broker."
+msgstr "远程 broker 的主机名或 IP 地址。"
+
+#: ../../source/unit/mqttpoe.rst:74 3f1da4c29dab408ebcdfc71bd0687dc1
+msgid "the network port of the server host to connect to."
+msgstr "要连接的服务器主机的网络端口。"
+
+#: ../../source/unit/mqttpoe.rst:75 a43b05faf0a14250990969a296017ec9
+msgid "a username for broker authentication."
+msgstr "用于 Broker 身份验证的用户名。"
+
+#: ../../source/unit/mqttpoe.rst:77 2688245c16de497cb60cc651f23f490b
+msgid "a password for broker authentication."
+msgstr "用于 Broker 身份验证的密码。"
+
+#: ../../source/unit/mqttpoe.rst:79 5a61798781094b51967525809090010f
+msgid ""
+"maximum period in seconds allowed between communications with the broker."
+" If no other messages are being exchanged, this controls the rate at "
+"which the client will send ping messages to the broker."
+msgstr "允许与 broker 通信之间的最大时间间隔（单位：秒）。如果没有交换其他消息，该参数将控制客户端向 broker 发送 ping 消息的频率。"
+
+#: ../../source/unit/mqttpoe.rst:86 deb76e476fe04364a7ee20629ac6f5d8
+msgid "|set_client.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:18 cf69a5cc7fd447b89c683fc89273e182
+msgid "set_client.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:91 41fa7df1d7fd40bdb7e43cd82811183b
+msgid "Connect to a server."
+msgstr "连接到服务器。"
+
+#: ../../source/unit/mqttpoe.rst:95 3e6f1e1c65f04ab6ae58a3503bec41c0
+msgid "|set_connect.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:19 235eb5d56898406791f9967908542bd5
+msgid "set_connect.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:99 145f9bc860c0438483033f7ddc473cb2
+msgid "Disconnect from a server, release resources."
+msgstr "断开与服务器的连接，并释放资源。"
+
+#: ../../source/unit/mqttpoe.rst:103 ebb83643bf0b423c8fb255b0342132bc
+msgid "|set_disconnect.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:20 23841ff1d88c4b72976c7f57aedd0598
+msgid "set_disconnect.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:108 de6b43fac1b743129f1cda59507dc66b
+msgid "Publish a message."
+msgstr "发布一条消息。"
+
+#: ../../source/unit/mqttpoe.rst:110 a318dafbe8e74846932f4a0a6ce78d16
+msgid "the topic that the message should be published on."
+msgstr "消息应该发布到的主题。"
+
+#: ../../source/unit/mqttpoe.rst:112 615ab3fcd16642bbadab32412ed10796
+msgid "the message to send as a will."
+msgstr "作为遗嘱发送的消息。"
+
+#: ../../source/unit/mqttpoe.rst:114 ca08060a71314ba8b8e7b25345e9dd64
+msgid "the quality of service level to use"
+msgstr "要使用的服务质量等级"
+
+#: ../../source/unit/mqttpoe.rst:118 82f6bec1738449879f0253b7b5d9a58c
+msgid "|set_publish.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:21 dcb067f4bcae436286f357287548de28
+msgid "set_publish.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:123 2883950a91834d1e937af5262d3b68b5
+msgid "Subscribe to a topic."
+msgstr "订阅一个主题。"
+
+#: ../../source/unit/mqttpoe.rst:125 1bffbd145bb14d57bfd9b9175b519872
+msgid "a string specifying the subscription topic to subscribe to."
+msgstr "一个用于指定要订阅的订阅主题的字符串。"
+
+#: ../../source/unit/mqttpoe.rst:127 ec041c99f85640cb8333fd77aa0bd95f
+msgid ""
+"called when a message has been received on a topic that the client "
+"subscribes to and the message does match an existing topic filter "
+"callback."
+msgstr "当在客户端订阅的主题上接收到消息，并且该消息匹配到现有的主题过滤器回调函数时调用。"
+
+#: ../../source/unit/mqttpoe.rst:130 fc979865dae84e8ea22e95cdcad2a752
+msgid "the desired quality of service level for the subscription. Defaults to 0."
+msgstr "订阅所需的服务质量（QoS）等级。默认为 0。"
+
+#: ../../source/unit/mqttpoe.rst:133 35771387c0d54ef8a4d052f59c713741
+msgid ""
+"When using this block, the \"MQTT connect\" block must be set after this "
+"block"
+msgstr "使用该积木块时，“MQTT connect” 积木块必须设置在该积木块之后"
+
+#: ../../source/unit/mqttpoe.rst:134 7ae9bcccd7c04fbebea13861dde88c68
+msgid "The server can only subscribe to four topics at a time"
+msgstr "服务器一次只能订阅 4 个主题。"
+
+#: ../../source/unit/mqttpoe.rst:138 77c8dd199f484c05bfcd66e2d0ef67ee
+msgid "|set_subscribe.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:22 db3d8904858c43a892b8d0653a84d21d
+msgid "set_subscribe.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:140 60adcea4d14542479ce60ac5f19c2484
+msgid "An handler showing a message has been received::"
+msgstr "一个用于显示已收到消息的处理程序::"
+
+#: ../../source/unit/mqttpoe.rst:146 dd7e381fbb604f3c9a186add93a8fdde
+msgid ""
+"On uiflow2, you can get the **topic** and **message** of the current "
+"handler through |get_topic.png| and |get_msg.png|."
+msgstr ""
+"在 UiFlow2 上，你可以通过 |get_topic.png| 和 |get_msg.png| 获取当前处理器的 **topic** 和 "
+"**message**。"
+
+#: ../../source/refs/unit.mqttpoe.ref:24 c990875240264e288a2dbaecec41186b
+msgid "get_topic.png"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:25 55bb32f566df478b93a63e9bd7f10b57
+msgid "get_msg.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:154 38622e915a84486c96436b922fc05054
+msgid ""
+":py:meth:`check_msg()` is \"main loop iteration\" methods, blocking and "
+"non-blocking version. They should be called periodically in a loop, "
+":py:meth:`check_msg()` if you don't have any other foreground tasks to "
+"perform (i.e. your app just reacts to subscribed MQTT messages)."
+msgstr ""
+":py:meth:`check_msg()` "
+"是“主循环迭代”方法，提供阻塞与非阻塞版本。它们应在循环中周期性调用；如果你没有其他需要在前台执行的任务（即你的应用仅对已订阅的 MQTT "
+"消息作出响应），则使用 :py:meth:`check_msg()`。"
+
+#: ../../source/unit/mqttpoe.rst:160 4efe89f5c6b149e38f5b6303b7281a3e
+msgid ""
+"Note that you don't need to call :py:meth:`check_msg()` if you only "
+"publish messages."
+msgstr "请注意，如果您只发布消息，则无需调用 :py:meth:`check_msg()`。"
+
+#: ../../source/unit/mqttpoe.rst:163 76829bbc19414b7cb822ca002cfbab3c
+msgid "check for a server message."
+msgstr "检查服务器消息。"
+
+#: ../../source/unit/mqttpoe.rst:167 e1b4968abacb4ea0a327a2dce7d815cb
+msgid "|check_msg.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:23 d3f254d8af434c3193aea2743647b3bf
+msgid "check_msg.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:172 39ef2d46b6d0470ba47464bb01787317
+msgid "To check whether the communication with the MQTT unit has been successful."
+msgstr "检查与 MQTT 单元的通信是否成功。"
+
+#: ../../source/unit/mqttpoe.rst:174 0d85f45205da4d909e14251b455895d3
+msgid "Return: ``bool``:  True or False"
+msgstr "返回： ``bool``：True 或 False"
+
+#: ../../source/unit/mqttpoe.rst:178 ff53d0409a0f4cb7846b716e06f20680
+msgid "|modem_is_ready.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:8 dadfd7524a90439bab9fc078ee2fac79
+msgid "modem_is_ready.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:183 46a015ff648047aa87007c600bc529af
+msgid "Get the current firmware version number."
+msgstr "获取当前固件版本号。"
+
+#: ../../source/unit/mqttpoe.rst:185 4607bb3be869433e8bcbb1826ba31b21
+msgid "Return: ``string``"
+msgstr "Return: ``string``"
+
+#: ../../source/unit/mqttpoe.rst:189 e6cc5cc280164d99b3b281b504c598f4
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:9 b024724e6b9b47f3bcc7cfe9e20c8c1b
+msgid "get_firmware_version.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:194 fe984ef5bbbd42efa7df21068282fcae
+msgid "Get the current baud rate of the module and the default baud rate is 9600."
+msgstr "获取模块当前的波特率，默认波特率为 9600。"
+
+#: ../../source/unit/mqttpoe.rst:196 4191ab865bfc42e08ba8a7d3d1a25d7f
+msgid "Return: ``int``:  4800, 9600, 19200, 34800, 115200, 230400"
+msgstr "返回：``int``：4800、9600、19200、34800、115200、230400"
+
+#: ../../source/unit/mqttpoe.rst:200 43bd5158510e4723b92b8bd8e7718c5a
+msgid "|get_baudrate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:10 f3cd24846c114505980698c1fb601b6b
+msgid "get_baudrate.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:205 23197cfc75ea485e91a351ebd8875c0e
+msgid "To check whether the network status is connected or disconnected."
+msgstr "用于检查网络状态是否已连接或已断开。"
+
+#: ../../source/unit/mqttpoe.rst:207 b7a759be732346acb960870d1f0c7264
+msgid "Return: ``int``: 0 ~ 1"
+msgstr "返回：``int``：0 ~ 1"
+
+#: ../../source/unit/mqttpoe.rst:211 7d74a90e5437493fbce43cce51bcf8b8
+msgid "|get_network_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:11 c5088f2cc7a4478e95ea5720f67293e5
+msgid "get_network_status.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:216 3e354f3bd7da4f2a85ac3e0a98affaeb
+msgid ""
+"Get the current actual IP address, subnet mask, gateway and DNS server of"
+" the module."
+msgstr "获取模块当前实际的 IP 地址、子网掩码、网关和 DNS 服务器。"
+
+#: ../../source/unit/mqttpoe.rst:219 ../../source/unit/mqttpoe.rst:242
+#: 2e6f95d22cf64a7395d2a3b7139094af cda91caacbcf4c818badbed6f1507594
+msgid "``param``: IP address = 0, subnet mask = 1, gateway = 2, DNS server = 3."
+msgstr "``param``：IP 地址 = 0，子网掩码 = 1，网关 = 2，DNS 服务器 = 3。"
+
+#: ../../source/unit/mqttpoe.rst:223 dabeb9bd25a64c9dae8106ea249791f8
+msgid "|get_network_parameters.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:12 968fc1cf8587418a963cd1a78a2780ec
+msgid "get_network_parameters.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:228 952e94178b374ad999397ba01335645e
+msgid ""
+"Get the current MAC address of the module and MAC address the format is: "
+"XX-XX-XX-XX-XX-XX."
+msgstr "获取模块当前的 MAC 地址，MAC 地址格式为：XX-XX-XX-XX-XX-XX。"
+
+#: ../../source/unit/mqttpoe.rst:230 3506f94377ca4a3d897e384fb38885be
+msgid "Return: ``string``: \"XX-XX-XX-XX-XX-XX\""
+msgstr "返回：``string``：\"XX-XX-XX-XX-XX-XX\""
+
+#: ../../source/unit/mqttpoe.rst:234 86a44dc785b44d1b9b6e44d8e75b5b46
+msgid "|get_mac_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:13 489950bc1c8845dca78cdc4353469a0b
+msgid "get_mac_address.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:239 1fad0489a994405b8d9525d32a5503e3
+msgid "Get the current actual IP address, subnet mask and gateway of the module."
+msgstr "获取模块当前实际的 IP 地址、子网掩码和网关。"
+
+#: ../../source/unit/mqttpoe.rst:246 49164e5d523c43258f39cd07d4381a14
+msgid "|get_static_ip.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:14 bef2f5cceded406f9c28c13a70660897
+msgid "get_static_ip.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:251 4bcb1dd6c22f461397585f2454dd207b
+msgid "Get the inquire about enable/disable DHCP status"
+msgstr "获取查询 DHCP 启用/禁用状态"
+
+#: ../../source/unit/mqttpoe.rst:253 b235bd5b28df4cbfac19ef1027248da4
+msgid "Return: ``int``: 1: Enable, 0: Disable"
+msgstr "返回：``int``：1：启用，0：禁用"
+
+#: ../../source/unit/mqttpoe.rst:257 ac9c745d33184b40954cf448d045e1a7
+msgid "|get_dhcp_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:15 47b82ebbbaea4e88b1f36302be0c9ad0
+msgid "get_dhcp_status.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:262 15129b8c3c894ff39bf7a283a898e942
+msgid "Set the enable/disable DHCP"
+msgstr "设置启用/禁用 DHCP"
+
+#: ../../source/unit/mqttpoe.rst:265 2b95be5ba3e141c8a320d22a11e6e5df
+msgid "``state``: Disable = 0, Enable = 1."
+msgstr "``state``：禁用 = 0，使能 = 1。"
+
+#: ../../source/unit/mqttpoe.rst:269 6534ef4d1ed543c7a54ed3980a64ee59
+msgid "|set_dhcp_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:16 a191189bacc44c06b6ea7d1d4d114ab3
+msgid "set_dhcp_state.png"
+msgstr ""
+
+#: ../../source/unit/mqttpoe.rst:274 f4e2b425786a46e3bb8b1eb6b0bfd621
+msgid "Set the static IP address of the MQTT module."
+msgstr "设置 MQTT 模块的静态 IP 地址。"
+
+#: ../../source/unit/mqttpoe.rst:276 f94cad0650cf491883885d2b4a155a49
+msgid ""
+"When the DHCP function is enabled, the static IP setting will not be "
+"enabled."
+msgstr "当启用 DHCP 功能时，将不会启用静态 IP 设置。"
+
+#: ../../source/unit/mqttpoe.rst:279 f139373fbb814cf786589f62c10dd203
+msgid "``ip``:  \"xxx.xxx.xxx.xxx\""
+msgstr "`ip`： \"xxx.xxx.xxx.xxx\""
+
+#: ../../source/unit/mqttpoe.rst:280 97e55dd35415499dbd7501899cb82f1e
+msgid "``subnet``:  \"xxx.xxx.xxx.xxx\""
+msgstr "``subnet``： \"xxx.xxx.xxx.xxx\""
+
+#: ../../source/unit/mqttpoe.rst:281 58faa9519272439bb28bd7e1f69ce71d
+msgid "``gateway``:  \"xxx.xxx.xxx.xxx\""
+msgstr "``gateway``： \"xxx.xxx.xxx.xxx\""
+
+#: ../../source/unit/mqttpoe.rst:285 0e9e9727ad364df9887ea8e8e1fcaebd
+msgid "|set_static_ip.png|"
+msgstr ""
+
+#: ../../source/refs/unit.mqttpoe.ref:17 dff4f4726456477bbb7d6e074110c28a
+msgid "set_static_ip.png"
+msgstr ""
+

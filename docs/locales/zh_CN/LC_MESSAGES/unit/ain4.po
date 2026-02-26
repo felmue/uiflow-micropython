@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/ain4.rst:3 97209dcf6f1844c6a13a45dadfb50aa0
+msgid "AIN4-20mA Unit"
+msgstr "AIN4-20mA Unit"
+
+#: ../../source/unit/ain4.rst:7 41e11f72489e4563af53341d646e621d
+msgid "The following products are supported:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/ain4.rst:9 d8e0da7b936b491cac19488e8f4efd2c
+msgid "|AIN4_20MAUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.ain4.ref 0bde403c3f4b4d1cbba36e7e570808df
+msgid "AIN4_20MAUnit"
+msgstr "AIN4_20MAUnit"
+
+#: ../../source/unit/ain4.rst:11 ce79a70060ca4289b8950b3848e0fafa
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/ain4.rst:18 a26312c0acd04ebc8f53525bda0693db
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/ain4.rst:20 d8547371adcc4a099fc0833a714becee
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ain4.ref:17 a8d1ecb071064ee5ab2739e0591084fe
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/ain4.rst:24 e8486a35d577489880d63739439ef024
+msgid "|ain4_core2_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/ain4.rst:28 25647f5b7fa2457d83e4c2bfa2363c0d
+msgid "class AIN4_20MAUnit"
+msgstr "class AIN4_20MAUnit"
+
+#: ../../source/unit/ain4.rst:31 d54226cfa5014732a266920e48d35a6d
+msgid "Constructors"
+msgstr "构造函数"
+
+#: ../../source/unit/ain4.rst:35 469ed812b1c6463d90c4c859b98aade4
+msgid "Init I2C port & UNIT AIN 4-20mA I2C Address."
+msgstr "初始化 I2C 端口和 UNIT AIN 4-20mA 的 I2C 地址。"
+
+#: ../../source/unit/ain4.rst 5b2f942c641944c59df83c2906fe5147
+#: 7d4fce7263be450ba123e0a7b1e11f4b e66591c93ece41a2996992a64b4577b3
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/ain4.rst:37 252f24a2e4d44e23bf9ef5a0d10b1bc3
+msgid "I2C port to use."
+msgstr "要使用的 I2C 端口。"
+
+#: ../../source/unit/ain4.rst:38 1dce9899ff9f497ea2ba49f64c1dcc04
+msgid "I2C address of the Unit AIN4-20mA."
+msgstr "Unit AIN4-20mA 的 I2C 地址。"
+
+#: ../../source/unit/ain4.rst:40 ../../source/unit/ain4.rst:54
+#: ../../source/unit/ain4.rst:64 ../../source/unit/ain4.rst:74
+#: ../../source/unit/ain4.rst:84 ../../source/unit/ain4.rst:94
+#: ../../source/unit/ain4.rst:104 2162f709440b49e28ac94c333ecc45f1
+#: 3d0d16ae7e1f4fd4b807693a56a94fae bf47268e6beb443da7e368e77c97f06a
+#: d2102b74cb6140948431b73ee0aa5b34 d89eddef27dd4345ae34cd4240aaa106
+#: ea13f7319e664dbe87bb2a7efacafd1c f58d2555ecfb425f9f9ca8961309a58a
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/ain4.rst:42 639c447d91514fac954fb03d9405a43b
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ain4.ref:6 44be5f3e47f043d489ec0d4fd27d3bcd
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/ain4.rst:46 38df2219638e41fb8de27569d20e9eff
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/ain4.rst:50 d91b22c7c2a64498a4bc9b5154719bcc
+msgid "Retrieves the raw ADC value from the channel."
+msgstr "从通道获取原始 ADC 值。"
+
+#: ../../source/unit/ain4.rst 0c35d44f2e7e445187cf4d4187ceb0fb
+#: 42e2dd7b0cfc4b92bf50860c50493af8 899b5283b1a14cedac808429aa87f2be
+#: 9d7934bb86394bbf9e5a602c0634511e
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/ain4.rst:52 be88042e795542cd8d49fdfe17bbd977
+msgid "Raw ADC value as a 12-bit integer."
+msgstr "原始 ADC 值，以 12 位整数表示。"
+
+#: ../../source/unit/ain4.rst:56 3c5c3d3c8d14432c913fa0f81ad8e91c
+msgid "|get_adc_raw16_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ain4.ref:7 50cbd82c1b9e4885bb08595b7e45ee67
+msgid "get_adc_raw16_value.png"
+msgstr ""
+
+#: ../../source/unit/ain4.rst:60 4657af05f6e44db3b17668d7908995a9
+msgid "Retrieves the current value (in mA) from the channel."
+msgstr "从通道获取当前值（单位为 mA）。"
+
+#: ../../source/unit/ain4.rst:62 e7c6c84079db4ca7b2fe9c8fe27a1f5c
+msgid "Current value in milliamperes (mA)."
+msgstr "以毫安（mA）为单位的电流值。"
+
+#: ../../source/unit/ain4.rst:66 ab7400750bed442cae88d6459e7b6e44
+msgid "|get_4_20ma_current_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ain4.ref:8 a4ff4dca50f246f381d1477bcd85956c
+msgid "get_4_20ma_current_value.png"
+msgstr ""
+
+#: ../../source/unit/ain4.rst:70 dbf234003f934839bfda5914245d3d87
+msgid "Sets the calibration current for the specified channel."
+msgstr "设置指定通道的校准电流。"
+
+#: ../../source/unit/ain4.rst:72 9195a425e9bd4b9fa1f3d8e4e3d62c2d
+msgid "The calibration current value, ranging from 4 to 20 mA."
+msgstr "校准电流值，范围为 4 到 20 mA。"
+
+#: ../../source/unit/ain4.rst:76 82c7886588244bbcb97bf36acafca16b
+msgid "|set_cal_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ain4.ref:11 320a7bc76d7c4dd59bc805c1711dafcb
+msgid "set_cal_current.png"
+msgstr ""
+
+#: ../../source/unit/ain4.rst:80 ac5e1113351b43cb91bf98712bdf2c98
+msgid "Retrieves the firmware version of the AIN 4-20mA unit."
+msgstr "获取 AIN 4-20mA 单元的固件版本。"
+
+#: ../../source/unit/ain4.rst:82 6f4542523d13471f9d752920264b2b0d
+msgid "Firmware version."
+msgstr "固件版本。"
+
+#: ../../source/unit/ain4.rst:86 84f1907a49614c8d9a23aa5d9b33bcae
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ain4.ref:13 dbe24e548b0941c881159ae0cca635b0
+msgid "get_firmware_version.png"
+msgstr ""
+
+#: ../../source/unit/ain4.rst:90 4381a53fdb0245d8ad8ef949fb3fff08
+msgid "Retrieves the current I2C address of the AIN 4-20mA unit."
+msgstr "获取 AIN 4-20mA unit 当前的 I2C 地址。"
+
+#: ../../source/unit/ain4.rst:92 d4cf6323bd714c6aaa2dfcc4b627e3b6
+msgid "I2C address as a string in hexadecimal format."
+msgstr "以十六进制格式表示的字符串形式 I2C 地址。"
+
+#: ../../source/unit/ain4.rst:96 ae6f9a34967948ba807864a8fe794695
+msgid "|get_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ain4.ref:14 a66af9e5d72e442cbc0fe848a8df0fa6
+msgid "get_i2c_address.png"
+msgstr ""
+
+#: ../../source/unit/ain4.rst:100 8253da1f8e65489287c6e2dc5366d876
+msgid "Sets a new I2C address for the AIN 4-20mA unit."
+msgstr "为 AIN 4-20mA Unit 设置新的 I2C 地址。"
+
+#: ../../source/unit/ain4.rst:102 65c119bfc48946f98789c0f46d85ed11
+msgid "The new I2C address, must be between 0x08 and 0x77."
+msgstr "新的 I2C 地址必须在 0x08 到 0x77 之间。"
+
+#: ../../source/unit/ain4.rst:106 e391df4b6e2e4614b1563a77edcec318
+msgid "|set_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ain4.ref:15 3e582da4b7f448a993a64895962d168e
+msgid "set_i2c_address.png"
+msgstr ""
+

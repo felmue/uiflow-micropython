@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/earth.rst:2 1f9694a517ba45d1a75520e71792991e
+msgid "EARTH Unit"
+msgstr "EARTH Unit"
+
+#: ../../source/unit/earth.rst:6 8e416ace06b34d7892cb1d0226ef25bd
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/earth.rst:8 7e35966ef94a49ada6d1076e4bf11922
+msgid "|EARTH|"
+msgstr ""
+
+#: ../../source/refs/unit.earth.ref b1087c2da93346e49adcd3119f7d9ccc
+msgid "EARTH"
+msgstr "EARTH"
+
+#: ../../source/unit/earth.rst:11 a554a1ae82454a6dae6ec696ff5915de
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例："
+
+#: ../../source/unit/earth.rst:18 55078f7881524f4fa818ab2d94156e1d
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/earth.rst:20 1ce465b11fa946cdb7f642af4c14c56f
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.earth.ref:6 65e8cab4c1e14c8b9bd0d140a0becf5f
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/earth.rst:25 c2080795543d4bcca3e28cbba07cb230
+msgid "|earth_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/earth.rst:29 98c874d8bbe04cf99b5cadf6900c3138
+msgid "class Earth"
+msgstr "class Earth"
+
+#: ../../source/unit/earth.rst:32 c3e9d2dbc237411a9e60b7badf8704d4
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/earth.rst:36 c67bf5b5283c472a9ea86b6c4752ea37
+msgid "Create an Earth object."
+msgstr "创建一个 Earth 对象。"
+
+#: ../../source/unit/earth.rst:39 4393834f463c4a9f87efc965862ed29c
+msgid "The parameters is:"
+msgstr "参数为："
+
+#: ../../source/unit/earth.rst:39 5191f6b2425b43d7a64d41552f3f4ace
+msgid "``port`` Is the pin number of the port"
+msgstr "``port`` 是端口的引脚编号。"
+
+#: ../../source/unit/earth.rst:41 ../../source/unit/earth.rst:53
+#: ../../source/unit/earth.rst:62 ../../source/unit/earth.rst:71
+#: ../../source/unit/earth.rst:80 ../../source/unit/earth.rst:89
+#: 37eed5c9036848258f81346764497245 520fb0100693480ca861048d1b4ecb55
+#: 59e8634785a24152846881c102e951b8 701476b322f04674afb7f37bc2725e19
+#: 9d35ecbfcfec4c16bc909825b401fe31 b34934bee7814633bb1ddf1a8272fef8
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/earth.rst:43 1a1e40b3389c4e369c8000ed4f5346fc
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.earth.ref:8 d5eb79d6e976423ea866c0b2142c598b
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/earth.rst:47 55da7be9d7824ba985ea659d95b8d9b8
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/earth.rst:51 d8f2610cd7ae438eb3c42cf3845507f7
+msgid ""
+"This method allows you to read the analog captured by EARTH and return an"
+" integer value. The value ranges from 0 to 65535."
+msgstr "该方法允许你读取由 EARTH 采集的模拟量，并返回一个整数值。该值范围为 0 到 65535。"
+
+#: ../../source/unit/earth.rst:55 cc66b98bcc62438c89335d3adc9d61f8
+msgid "|get_analog_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.earth.ref:10 1aae4c6092224852b73c1399f60891fb
+msgid "get_analog_value.png"
+msgstr ""
+
+#: ../../source/unit/earth.rst:60 1953a706b3454e76af35a80932d200c6
+msgid ""
+"This method allows you to read the amount of numbers collected by EARTH "
+"and return an integer value. The value ranges from 0 to 1."
+msgstr "该方法允许你读取 EARTH 收集到的数字数量，并返回一个整数值。该值范围为 0 到 1。"
+
+#: ../../source/unit/earth.rst:64 7732964956184f9bb0ee25c2c13cc381
+msgid "|get_digital_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.earth.ref:12 ff01e473609f417f9195602ee8db7605
+msgid "get_digital_value.png"
+msgstr ""
+
+#: ../../source/unit/earth.rst:69 3fd3a9a94e48417c8c489b7af804eb59
+msgid ""
+"This method allows you to read the voltage value collected by EARTH and "
+"return an integer value. It ranges from 0 to 3300."
+msgstr "该方法允许你读取 EARTH 采集到的电压值，并返回一个整数值。其范围为 0 到 3300。"
+
+#: ../../source/unit/earth.rst:73 2313932f3eda4670b12d56f37cf92761
+msgid "|get_voltage_mv.png|"
+msgstr ""
+
+#: ../../source/refs/unit.earth.ref:14 db4d7819a3694ca38c79715e44066d09
+msgid "get_voltage_mv.png"
+msgstr ""
+
+#: ../../source/unit/earth.rst:78 e7aa744666e54bcc8a7e16a9babc4db4
+msgid ""
+"This method allows you to read the voltage value collected by EARTH and "
+"return a floating-point value. Range 0.0 to 1.0."
+msgstr "该方法允许你读取由 EARTH 采集的电压值，并返回一个浮点值。范围为 0.0 到 1.0。"
+
+#: ../../source/unit/earth.rst:82 222579ac718240698170c09783cd2e83
+msgid "|humidity.png|"
+msgstr ""
+
+#: ../../source/refs/unit.earth.ref:16 b9e3d2fa4a364a55b247616ad8449b0a
+msgid "humidity.png"
+msgstr ""
+
+#: ../../source/unit/earth.rst:87 9c967387f5b14f88b2c588fc6cb0680f
+msgid ""
+"This method allows setting the maximum (0-3300) and minimum (0-3300) "
+"values for calibrating the EARTH sensor."
+msgstr "此方法允许设置用于校准 EARTH 传感器的最大值（0-3300）和最小值（0-3300）。"
+
+#: ../../source/unit/earth.rst:91 e9abe5e818d34a61acdfacd58befedf9
+msgid "|set_calibrate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.earth.ref:18 d5ef0f3e52d646d19c2fa456a590eaff
+msgid "set_calibrate.png"
+msgstr ""
+

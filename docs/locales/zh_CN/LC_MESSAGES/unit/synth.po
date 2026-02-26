@@ -1,0 +1,642 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/synth.rst:2 74e1367b0b4b451a8f7306b9aa82baa0
+msgid "Synth Unit"
+msgstr "Synth Unit"
+
+#: ../../source/unit/synth.rst:6 fca8feda8a204863954c5d165bdf6af6
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/synth.rst:8 1e2d869f74064804a813e4096d0ba89a
+msgid "|SynthUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref d4c55912bf96499899986e32f791af56
+msgid "SynthUnit"
+msgstr "SynthUnit"
+
+#: ../../source/unit/synth.rst:11 139aef172c5848eb95d29059a5cfd398
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/synth.rst:18 f14c9d3872d6494f945d3c7d434ad9cf
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/synth.rst:20 9a92d7ea4a0f4e93ac84acc63f322be8
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:32 421b7619cae94e90ab1d7b02607c6aa1
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:25 ba07d841c0ab4d458a7196852deed679
+msgid "|synth_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/synth.rst:29 40c3a005f8b747a4ac88cb01f93a704c
+msgid "class SynthUnit"
+msgstr "class SynthUnit"
+
+#: ../../source/unit/synth.rst:32 6c035e337075437c8745b514fccbdcdc
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/synth.rst:37 fd07dc574dc74ca6acf55b259a0b0131
+msgid "Initializes the MIDI unit with a specified UART ID and port pins."
+msgstr "使用指定的 UART ID 和端口引脚初始化 MIDI 单元。"
+
+#: ../../source/unit/synth.rst:37 4203f74018864ad5b5af5264bae29cbc
+msgid "The UART interface is used to transmit MIDI messages."
+msgstr "UART 接口用于传输 MIDI 消息。"
+
+#: ../../source/unit/synth.rst 082879e070534a709d8d3896aca643ea
+#: 222803c387b24345aea00e4bad94940a 269fef0d66c84ed0a3dfa782639ad59b
+#: 2d01dcd6e9d743beaf1b14f2784319e3 2e7be4648745404b8833faa02517c634
+#: 4cdd1958f0b943f193c0b6ddfbb16494 53d71230ba9847d1a271a03e56a32562
+#: 6aa9197ce12647de8a3bbbba2c19a549 72cef41088f945c4937ac53d13a94ed7
+#: 8a842b0d9d0745ca83d05fbf94739b49 8df120bf95eb42b28e205a7ca223513a
+#: 9f84f698553444db99a3c50c0fffecd3 b38213c9edd64a9da686043fc32cc627
+#: c3d21e780a3042ec900c5666f4a27c52 d79e858dff0c4ed9be531ee731e631e9
+#: e0c276ffd97249d3a248f10015c774e1 e86206d15ce644c9a892660c9644e4db
+#: e8f294ddb1d74579a5afab2af3aa107f e9b6cf41edd941da99815316834a467c
+#: f659906304224e99b20060d9a5f2e98a f8ccc7495b9a421dbfdf9b7614544faa
+#: fceb21405ab24fddb85f1d35bf36d428
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/synth.rst:39 e4fc5e9aac344d7c8889ba6b9a01c8d9
+msgid "UART device ID."
+msgstr "UART 设备 ID。"
+
+#: ../../source/unit/synth.rst:40 37add852d2d542eca6e4df666fd1241e
+msgid "UART TX and RX pins."
+msgstr "UART TX 和 RX 引脚。"
+
+#: ../../source/unit/synth.rst:42 ../../source/unit/synth.rst:58
+#: ../../source/unit/synth.rst:72 ../../source/unit/synth.rst:84
+#: ../../source/unit/synth.rst:95 ../../source/unit/synth.rst:106
+#: ../../source/unit/synth.rst:117 ../../source/unit/synth.rst:126
+#: ../../source/unit/synth.rst:137 ../../source/unit/synth.rst:147
+#: ../../source/unit/synth.rst:157 ../../source/unit/synth.rst:170
+#: ../../source/unit/synth.rst:184 ../../source/unit/synth.rst:195
+#: ../../source/unit/synth.rst:213 ../../source/unit/synth.rst:225
+#: ../../source/unit/synth.rst:238 ../../source/unit/synth.rst:250
+#: ../../source/unit/synth.rst:263 ../../source/unit/synth.rst:274
+#: ../../source/unit/synth.rst:291 ../../source/unit/synth.rst:300
+#: 01f8fb829d0047489979545d57557ab1 062d6a9d4bd344dea25e70ef1e2a112c
+#: 137f5360b2b04ccb8fb89d22bfacfea8 14bc74e82b994c4481514297291dc8c7
+#: 157ecacd7c7f4d25be9b6e6d330a1e46 1cab6d8f1e2d474cac0b7cc4fb103217
+#: 3bd71ef1f23f4ae59dfb5077f9641d0f 3e3ec12b8518495882a4970c37f14ca7
+#: 401e68a0c42947838d24d2bede87f869 4941ed896cdd4936b801ac85a0c8bd6f
+#: 6804145774b14755be45b1578fb9a409 7084ae0d631642dd86d57b53bf161772
+#: 94f5e87c8fe14b79b6daed33f03a2318 acb5e2240083432b96aa1d56a0392026
+#: ae76217aafca4178bd162c703fd9c685 b1eb304bf2d847f9afed2a03015b8d5f
+#: b1f4c5ecbdfe444f841941b46e685090 b3eb55b46b084784987072fbef55ffe7
+#: c5eb1ebdab37455898b0ec31dc74b072 cba919504210462f89462653a538a663
+#: ddeba6a3ac164070b72285594474efb5 fccd203771284ce28cf28e6e3f2c5b30
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/synth.rst:44 3e998d96389043fd97d0c5ba60cbb1d9
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:6 b52d027dbbc44d2db5ad54b05a86d8f7
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:48 801404fa136147ab946c05814a32ca02
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/synth.rst:52 5321dcfd199948ce91055f49a2faf1e5
+msgid "Sends a MIDI Note On message to the specified channel."
+msgstr "向指定通道发送 MIDI Note On 消息。"
+
+#: ../../source/unit/synth.rst:54 ../../source/unit/synth.rst:69
+#: ../../source/unit/synth.rst:81 ../../source/unit/synth.rst:103
+#: ../../source/unit/synth.rst:114 ../../source/unit/synth.rst:134
+#: ../../source/unit/synth.rst:145 ../../source/unit/synth.rst:165
+#: ../../source/unit/synth.rst:178 ../../source/unit/synth.rst:192
+#: ../../source/unit/synth.rst:203 ../../source/unit/synth.rst:221
+#: 23ad4cac6c0641eea87fe394ab7342f3 3df67e715dd64d3aa7ec8303b99d3e13
+#: 4d2ae2754b2741c58b09a766674940e7 50a30d498af64a8c849b4da6d7cc4446
+#: 5169730a65eb449a90f0b7dcd021cf86 60677151df094655a2b85760593701ab
+#: 8f97fd5e06bc42019a72cdd2e1b46715 a47847b2edc24c5eb49a6cb9da6b42e2
+#: c76a362b3696496b8b1b1d7df79cba5f ce3b7f38438d4f458a17a63d2034c0bd
+#: e17590011d8e4c8fa859bd4b24b0c215 e1b3197ddb2d4b7a9be676d5b03eef48
+msgid "MIDI channel (0-15)."
+msgstr "MIDI 通道（0-15）。"
+
+#: ../../source/unit/synth.rst:55 ../../source/unit/synth.rst:70
+#: 6b5a26ff6c96447aacbb1d6b29f2d552 980ab5485ec545fdb2a04eac9e61cb43
+msgid "Note pitch (0-127)."
+msgstr "音符音高（0-127）。"
+
+#: ../../source/unit/synth.rst:56 ../../source/unit/synth.rst:93
+#: 1bd92bb9ca0e463b9ac0b112d06608cf e0d30c8b537c4c43961adedbcf2d1ccd
+msgid "Note velocity (0-127)."
+msgstr "音符力度（0-127）。"
+
+#: ../../source/unit/synth.rst:60 e88af8fabee641ccb7c6875fbd389e4b
+msgid "|set_note_on2.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:21 8b537ff96cc14ad2ba596ff52aac91fd
+msgid "set_note_on2.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:62 c7947c4de8c3495ab7d0b843fc8d7bb6
+msgid "|set_note_on.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:20 c37d566070214d4e94573c4f14e74b70
+msgid "set_note_on.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:67 b89743f2800d4fae8e58493726f7b8a1
+msgid "Sends a MIDI Note Off message to the specified channel."
+msgstr "向指定通道发送 MIDI Note Off 消息。"
+
+#: ../../source/unit/synth.rst:74 42495975176346718bedbd432a50e25c
+msgid "|set_note_off.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:19 4da56bb78b494ee7a6300fa4ea8a7871
+msgid "set_note_off.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:78 3628653c864d4ad6a1fd93cd4b4b102e
+msgid "Changes the program (instrument) on the specified channel."
+msgstr "更改指定通道上的程序（乐器）。"
+
+#: ../../source/unit/synth.rst:80 9caf33afcffe4a8185ed84c6281350ab
+msgid "Bank selector (MSB) for the program change."
+msgstr "用于 program change 的 Bank 选择器（MSB）。"
+
+#: ../../source/unit/synth.rst:82 da0d4ee3920340998cf6f6b847e4d675
+msgid "Program number (0-127)."
+msgstr "程序编号（0-127）。"
+
+#: ../../source/unit/synth.rst:86 6d305e517b584384aaa538222b5ee230
+msgid "|set_instrument.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:15 db5fb034927745c3b985cc088db8e3ad
+msgid "set_instrument.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:90 260441b509254e9e8d39c74bc500d7d9
+msgid "Sets a drum instrument and plays a note on MIDI channel 10."
+msgstr "设置鼓组乐器，并在 MIDI 通道 10 上播放一个音符。"
+
+#: ../../source/unit/synth.rst:92 1f3c361a78794ef5807967be2379cf2c
+msgid "Drum pitch number."
+msgstr "鼓音高编号。"
+
+#: ../../source/unit/synth.rst:97 d6a00b97eb8f4a89aa68e0028720eddb
+msgid "|set_drums_instrument.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:11 3e0cfc1f766c4199ac4d22b74a83f8b2
+msgid "set_drums_instrument.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:101 2bd6fcb546c5473781da78fa943ed93f
+msgid "Sends a MIDI Pitch Bend message to the specified channel."
+msgstr "向指定通道发送 MIDI Pitch Bend 消息。"
+
+#: ../../source/unit/synth.rst:104 6e328f203403438a8b5b78f5cc0e9977
+msgid "Pitch bend value (0-16383)."
+msgstr "弯音值（0-16383）。"
+
+#: ../../source/unit/synth.rst:108 e00d17f952444e818c5646561781dfe0
+msgid "|set_pitch_bend.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:24 0377839280ce4950b4d0414cc37987c2
+msgid "set_pitch_bend.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:112 048b496cc8c245b2b945ef6923bc29a6
+msgid "Sets the pitch bend range on the specified channel."
+msgstr "在指定通道上设置弯音范围。"
+
+#: ../../source/unit/synth.rst:115 1665910870bb4eb3bb6cac66981a41dc
+msgid "Pitch bend range in semitones."
+msgstr "弯音范围（以半音为单位）。"
+
+#: ../../source/unit/synth.rst:119 e9a8edddc17b422083c62eb3b99e0216
+msgid "|set_pitch_bend_range.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:23 2cc2d43e59e048bf997ddaaaa1f4214c
+msgid "set_pitch_bend_range.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:123 5addb693377d4ecda143506680a19283
+msgid "Sends a MIDI System Exclusive Reset command."
+msgstr "发送 MIDI System Exclusive Reset 命令。"
+
+#: ../../source/unit/synth.rst:128 3a1072e125de4ff09098b646958d7c0f
+msgid "|midi_reset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:7 2c5bc992122a4702893da0be30db94f0
+msgid "midi_reset.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:132 3394909c563d46dc90391dcbf7f6a942
+msgid "Sets the channel volume for the specified channel."
+msgstr "设置指定通道的通道音量。"
+
+#: ../../source/unit/synth.rst:135 ../../source/unit/synth.rst:155
+#: 39ed744d024f43f99094e42a3397a56a 5ff14727287c4e96a7380e4c69f3fb78
+msgid "Volume level (0-100)."
+msgstr "音量等级（0-100）。"
+
+#: ../../source/unit/synth.rst:139 756c89b4e1ab4e5fa3ffef316a1304d5
+msgid "|set_channel_volume.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:9 252bf96539c244f19e292793ac97b40c
+msgid "set_channel_volume.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:143 5815147d612740e48f35b9e31d0c135f
+msgid ""
+"Sends a MIDI Control Change message to turn off all notes on the "
+"specified channel."
+msgstr "向指定通道发送 MIDI Control Change 消息，以关闭所有音符。"
+
+#: ../../source/unit/synth.rst:149 ea054f3a6d6144fa96c0f01daba064bb
+msgid "|set_all_notes_off.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:8 bd1ad25a29304b20b27fb6127a3961d2
+msgid "set_all_notes_off.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:153 3acc1c476a7d40cead336e75383add87
+msgid "Sets the master volume using a standard System Exclusive message."
+msgstr "使用标准的 System Exclusive 消息设置主音量。"
+
+#: ../../source/unit/synth.rst:159 c02e21f215c24c21a3859ee046cc3b15
+msgid "|set_master_volume.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:16 284b7dab4bfa449280b6aa9200340b63
+msgid "set_master_volume.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:163 d733c53e462c4383a055e08f4a8e66a8
+msgid "Configures reverb effect on the specified channel."
+msgstr "在指定通道上配置混响效果。"
+
+#: ../../source/unit/synth.rst:166 7622b03288474a4fb079b029ac925f25
+msgid "Reverb program number (0-7)."
+msgstr "混响程序编号（0 - 7）。"
+
+#: ../../source/unit/synth.rst:167 2bb10e4a9b604646aa2dc7f4ab3ab591
+msgid "Reverb level (0-127)."
+msgstr "混响级别（0-127）。"
+
+#: ../../source/unit/synth.rst:168 14e329a5ce0444d3a8cbfb20614a7ef3
+msgid "Delay feedback amount (0-127)."
+msgstr "延迟反馈量（0-127）。"
+
+#: ../../source/unit/synth.rst:172 b64cd98da65747bca594cf5eaebfd8bc
+msgid "|set_reverb.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:25 9dc96da5306c452986f7f6841434f282
+msgid "set_reverb.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:176 610b8ecb210f4d4396931e9e9feb0b25
+msgid "Configures chorus effect on the specified channel."
+msgstr "在指定通道上配置合唱效果。"
+
+#: ../../source/unit/synth.rst:179 9cad2bdf817f4964b0a187bcb4430316
+msgid "Chorus program number (0-7)."
+msgstr "合唱程序编号 (0-7)。"
+
+#: ../../source/unit/synth.rst:180 bb2f3069d3b041f2b1abd82cfe57f3d6
+msgid "Chorus level (0-127)."
+msgstr "合唱级别（0-127）。"
+
+#: ../../source/unit/synth.rst:181 262b8b287b924f5ca3c4d9802be2f247
+msgid "Chorus feedback amount (0-127)."
+msgstr "合唱反馈量（0-127）。"
+
+#: ../../source/unit/synth.rst:182 a6d87c29731f4938908f571f1c40899b
+msgid "Chorus delay amount (0-127)."
+msgstr "合唱延迟量（0-127）。"
+
+#: ../../source/unit/synth.rst:186 ec1cb9729d714ce1ba7237726699fa96
+msgid "|set_chorus.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:10 35289ec68aca4184ae14f736bdc08efa
+msgid "set_chorus.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:190 08b313d7c52d4269b254654896b6d392
+msgid "Sets the pan position for the specified channel."
+msgstr "设置指定通道的 pan 位置。"
+
+#: ../../source/unit/synth.rst:193 b8e77339d73b45cf90f45c8762f4a0db
+msgid "Pan position (0-127)."
+msgstr "Pan 位置 (0-127)。"
+
+#: ../../source/unit/synth.rst:197 a0c0a7231092401c82874dc6fa9fa0b4
+msgid "|set_pan.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:22 21f299503a2a402c8462de785cd0d827
+msgid "set_pan.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:201 20821a6fa334444b83e72c1b80089497
+msgid "Sets the equalizer levels and frequencies for the specified channel."
+msgstr "设置指定通道的均衡器电平和频率。"
+
+#: ../../source/unit/synth.rst:204 cfcca4b9ecee456ea9b5b512b5615b8a
+msgid "Low band level (-12dB to +12dB)."
+msgstr "低频段电平（-12 dB 到 +12 dB）。"
+
+#: ../../source/unit/synth.rst:205 2daf1f8131b349dfaaf825ece4abef29
+msgid "Mid-low band level (-12dB to +12dB)."
+msgstr "中低频段电平（-12 dB 到 +12 dB）。"
+
+#: ../../source/unit/synth.rst:206 ed1edc7fc29c4b3c9360e2d31aaa49a5
+msgid "Mid-high band level (-12dB to +12dB)."
+msgstr "中高频段电平（-12 dB 至 +12 dB）。"
+
+#: ../../source/unit/synth.rst:207 f7a67c70ae964488bb46ae0cf18da744
+msgid "High band level (-12dB to +12dB)."
+msgstr "高频段电平（-12 dB 至 +12 dB）。"
+
+#: ../../source/unit/synth.rst:208 9c5b1458086c4d8d83de1f0556b519d8
+msgid "Low band frequency (Hz)."
+msgstr "低频段频率 (Hz)。"
+
+#: ../../source/unit/synth.rst:209 3fb007b7112f420c8954bfb8aa4c1f39
+msgid "Mid-low band frequency (Hz)."
+msgstr "中低频段频率 (Hz)。"
+
+#: ../../source/unit/synth.rst:210 c97cab19db914460b194bd2060ddd329
+msgid "Mid-high band frequency (Hz)."
+msgstr "中高频段频率 (Hz)。"
+
+#: ../../source/unit/synth.rst:211 f45c4f3c05614fd6a31092af7f6c8292
+msgid "High band frequency (Hz)."
+msgstr "高频段频率 (Hz)。"
+
+#: ../../source/unit/synth.rst:215 9583edbab0f24609874237793ac79db2
+msgid "|set_equalizer.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:13 f7f901f412884b7d90f9dde9059f59f7
+msgid "set_equalizer.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:219 ddffa8e38be04969a6ea8b2d75f69350
+msgid "Sets the tuning for the specified channel."
+msgstr "设置指定通道的调谐参数。"
+
+#: ../../source/unit/synth.rst:222 71cd07cf763b4802bbb2e5507aca26ec
+msgid "Fine tuning value (cents)."
+msgstr "微调值（分）。"
+
+#: ../../source/unit/synth.rst:223 ccf7a714b23949f8abc32f6d204de8dc
+msgid "Coarse tuning value (semitones)."
+msgstr "粗调值（半音）。"
+
+#: ../../source/unit/synth.rst:227 7e224a4d42364dc191d6079e94e143eb
+msgid "|set_tuning.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:27 83003067588c412b965c76e913fc6d1b
+msgid "set_tuning.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:231 428d3a6f7f7342a087d4d4ecfe53f358
+msgid "Sets the vibrato effect parameters on the specified channel."
+msgstr "设置指定通道上的颤音效果参数。"
+
+#: ../../source/unit/synth.rst:233 d0941c696a0f49e394235659a3d6fd1d
+msgid "The MIDI channel to apply the vibrato effect to (0-15)."
+msgstr "要应用颤音效果的 MIDI 通道（0-15）。"
+
+#: ../../source/unit/synth.rst:234 6349403320344879ba75e1189a5cdfab
+msgid "The vibrato rate (0-127)."
+msgstr "颤音速率（0-127）。"
+
+#: ../../source/unit/synth.rst:235 a2f2952dc6a141e19d01530418cab38c
+msgid "The vibrato depth (0-127)."
+msgstr "颤音深度（0-127）。"
+
+#: ../../source/unit/synth.rst:236 5fd4e32d53b74710a7104e3027055c16
+msgid "The vibrato delay (0-127)."
+msgstr "颤音延迟（0-127）。"
+
+#: ../../source/unit/synth.rst:240 14140e02eb34450b9d21c0585a3068a7
+msgid "|set_vibrate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:29 2f7d4f204e6042309496da9b485fc419
+msgid "set_vibrate.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:244 0a8acdab2fa24fbf93e5812c8d106db8
+msgid ""
+"Sets the parameters for a TVF (Tone-Voltage Filter) on the specified "
+"channel."
+msgstr "设置指定通道上的 TVF（Tone-Voltage Filter，音调-电压滤波器）的参数。"
+
+#: ../../source/unit/synth.rst:246 634409d8918b4f28b4bff3d0e352509b
+msgid "The MIDI channel to apply the filter to (0-15)."
+msgstr "要应用过滤器的 MIDI 通道（0-15）。"
+
+#: ../../source/unit/synth.rst:247 68686e8be89e41efa59c9c47090d0785
+msgid "The filter cutoff frequency (0-127)."
+msgstr "滤波器截止频率 (0-127)。"
+
+#: ../../source/unit/synth.rst:248 6e7ad669e0e546b1a094506fec633e8e
+msgid "The filter resonance (0-127)."
+msgstr "滤波器谐振（0-127）。"
+
+#: ../../source/unit/synth.rst:252 822a5def174f48158d2b957fd84134b0
+msgid "|set_tvf.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:28 2127612767a74728b2eadb6cc8ab3092
+msgid "set_tvf.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:256 2968120b0d594b1498d08b467eaea45f
+msgid ""
+"Sets the ADSR (Attack, Decay, Sustain, Release) envelope parameters on "
+"the specified channel."
+msgstr "在指定通道上设置 ADSR（Attack、Decay、Sustain、Release）包络参数。"
+
+#: ../../source/unit/synth.rst:258 113e989d367e44459ace7dcf3dc13e22
+msgid "The MIDI channel to apply the envelope to (0-15)."
+msgstr "要应用包络的 MIDI 通道（0-15）。"
+
+#: ../../source/unit/synth.rst:259 a47029ef03d44244aad45703f0ae0d92
+msgid "The attack time (0-127)."
+msgstr "攻击时间（0-127）。"
+
+#: ../../source/unit/synth.rst:260 5d67251c6b124ef5ae822a959bc6b674
+msgid "The decay time (0-127)."
+msgstr "衰减时间（0-127）。"
+
+#: ../../source/unit/synth.rst:261 894a5786d19942b5a521c22c2ec31713
+msgid "The release time (0-127)."
+msgstr "释放时间（0-127）。"
+
+#: ../../source/unit/synth.rst:265 bd3cc56f882844afa682962cb2743d95
+msgid "|set_envelope.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:12 12cd35dacf1e49348642d1ce769b60a1
+msgid "set_envelope.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:269 55965fab87fb49da992559ffea5008ea
+msgid "Sets scale tuning for the specified channel."
+msgstr "为指定通道设置比例调谐。"
+
+#: ../../source/unit/synth.rst:271 ed4b625c8ce54a46bdd7657e8daf7e23
+msgid "The MIDI channel to apply the scale tuning to (0-15)."
+msgstr "要应用音阶调音的 MIDI 通道（0-15）。"
+
+#: ../../source/unit/synth.rst:272 25afea368864406caabe5657e1a16446
+msgid "Tuning values for each note in the scale (0-127)."
+msgstr "音阶中每个音符的调音值（0-127）。"
+
+#: ../../source/unit/synth.rst:276 e8af202bb7944f058a33997f5cbf4a71
+msgid "|set_scale_tuning.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:26 07b033f5db4d4b7a8c4653bba80945e8
+msgid "set_scale_tuning.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:280 fc639370991f44a38243b430d919cf72
+msgid ""
+"Sets modulation wheel parameters that affect various effects on the "
+"specified channel."
+msgstr "设置调制轮参数，这些参数会影响指定通道上的各种效果。"
+
+#: ../../source/unit/synth.rst:282 a81b88dfb4b9426db83fba14fd1134e9
+msgid "The MIDI channel to apply the modulation to (0-15)."
+msgstr "要将调制应用到的 MIDI 通道（0-15）。"
+
+#: ../../source/unit/synth.rst:283 3789540cd6e9479a88b9ebfa533db557
+msgid "Pitch modulation depth."
+msgstr "音高调制深度。"
+
+#: ../../source/unit/synth.rst:284 0e9c1f8e87034e3b884dc4f6e84f06b4
+msgid "Cutoff frequency modulation depth."
+msgstr "截止频率调制深度。"
+
+#: ../../source/unit/synth.rst:285 172869d4bec046e895e107e98ec490ca
+msgid "Amplitude modulation depth."
+msgstr "调幅深度。"
+
+#: ../../source/unit/synth.rst:286 3f20a1488d4545ee8bb161970b68cd56
+msgid "Modulation rate."
+msgstr "调制速率。"
+
+#: ../../source/unit/synth.rst:287 e014c9771bda4cccba2694f479d3e2df
+msgid "Depth of pitch modulation."
+msgstr "音高调制的深度。"
+
+#: ../../source/unit/synth.rst:288 0e6478e076b64de4abee4c15cf448920
+msgid "Depth of TVF modulation."
+msgstr "TVF 调制深度。"
+
+#: ../../source/unit/synth.rst:289 1748cef36a0044f2b247ecf1b986a0c8
+msgid "Depth of TVA (Tone-Voltage Amplifier) modulation."
+msgstr "TVA（Tone-Voltage Amplifier）调制深度。"
+
+#: ../../source/unit/synth.rst:293 1c330144c8014dd786839e3467484422
+msgid "|set_mod_wheel.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:17 a06b1a98e37f4457a9f236c35473a324
+msgid "set_mod_wheel.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:297 266bba8e51ae4c1db1efc78a3b3d5091
+msgid ""
+"Sends a System Exclusive message to set all drums on channel 10 to "
+"default values."
+msgstr "发送一条 System Exclusive 消息，将通道 10 上的所有鼓设置为默认值。"
+
+#: ../../source/unit/synth.rst:302 c81af3ca9601415da56c920bdd2267b6
+msgid "|set_all_drums.png|"
+msgstr ""
+
+#: ../../source/refs/unit.synth.ref:30 0e67ae7432c2426fa3b56fd5a75b9a19
+msgid "set_all_drums.png"
+msgstr ""
+
+#: ../../source/unit/synth.rst:306 c3e7ac40a82049708dba70b6971641fa
+msgid "Writes a MIDI command to the UART interface."
+msgstr "将 MIDI 命令写入 UART 接口。"
+
+#: ../../source/unit/synth.rst:308 231b88afd2e647778702d91a95f2a48c
+msgid "List of MIDI command bytes."
+msgstr "MIDI 命令字节列表。"
+
+#: ../../source/unit/synth.rst:312 5a7758c9a9bd40b6b4544e729448ad6d
+msgid "Maps a value from one range to another."
+msgstr "将一个值从一个范围映射到另一个范围。"
+
+#: ../../source/unit/synth.rst:314 2241681384c94d64ad1ed63dff8bb5ce
+msgid "Value to map."
+msgstr "要映射的值。"
+
+#: ../../source/unit/synth.rst:315 ea393e564e3f4633ba9143de0bca4ff1
+msgid "Minimum value of the input range."
+msgstr "输入范围的最小值。"
+
+#: ../../source/unit/synth.rst:316 66307445355e45bdb18cca6d5b7de038
+msgid "Maximum value of the input range."
+msgstr "输入范围的最大值。"
+
+#: ../../source/unit/synth.rst:317 3eaf4fa47b3e4d91bb6b8fe5af8695a7
+msgid "Minimum value of the output range."
+msgstr "输出范围的最小值。"
+
+#: ../../source/unit/synth.rst:318 066de0ccf71242d6990916871024da12
+msgid "Maximum value of the output range."
+msgstr "输出范围的最大值。"
+

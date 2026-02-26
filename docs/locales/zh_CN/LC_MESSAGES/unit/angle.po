@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/angle.rst:2 5ca65ca9d4f04be4be9c964e5299285c
+msgid "Angle Unit"
+msgstr "Angle Unit"
+
+#: ../../source/unit/angle.rst:6 cb2c9202948f4bbcb081926b0a238c2a
+msgid "The following products are supported:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/angle.rst:8 59a6aa802d7f48b4b482040482ac3078
+msgid "|Angle|"
+msgstr ""
+
+#: ../../source/refs/unit.angle.ref 8e07a92e7fb64d978d3801a8da1c81b8
+msgid "Angle"
+msgstr "Angle"
+
+#: ../../source/unit/angle.rst:10 627b0f6476ff420c8377ce52484c4da1
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/angle.rst:25 83dad06bfd9a44c3b5c5a5ef1fecdef4
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/angle.rst:27 e2441f1cdd344779b6d50c48cb20a9a5
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle.ref:6 d6d15178574749d1a61a2a6c3e0ac88e
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/angle.rst:32 9ed02785839f4b0a8fbff292e84243e5
+msgid "|angle_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/angle.rst:36 38dc5dcd9a41450ea4327ac7c6822f97
+msgid "class Angle"
+msgstr "\"\"\"class Angle\"\"\""
+
+#: ../../source/unit/angle.rst:39 1bb36dc5aa5e42caa75a10afa8783f75
+msgid "Constructors"
+msgstr "构造函数"
+
+#: ../../source/unit/angle.rst:43 1a74609d36b54c1392362da45258d516
+msgid "Create an Angle object."
+msgstr "创建一个 Angle 对象。"
+
+#: ../../source/unit/angle.rst:46 807331497078444d98cd556fb4a3761c
+msgid "parameter is:"
+msgstr "参数为："
+
+#: ../../source/unit/angle.rst:46 a6a59e1fd5b649639df55aab415f479d
+msgid "``port`` is the pins number of the port"
+msgstr "``port`` 是该端口的引脚编号。"
+
+#: ../../source/unit/angle.rst:48 ../../source/unit/angle.rst:60
+#: ../../source/unit/angle.rst:69 244860295a3a4acf831be89a71206562
+#: 4db90e2c53c442bdab08d9e6ec6298e6 7393b27b09264c6e99efbed3b8bb3b24
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/angle.rst:50 76a72c617c0d4353bc15da1d94745411
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle.ref:8 c6eb7ed88d9f4d4986a513a2570bc6d3
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/angle.rst:54 53b92df86b54467e8964f9a57169eb3b
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/angle.rst:58 acbc686970f348fcbf3f828c24fee839
+msgid ""
+"This method allows reading the Angle's rotation value and returning an "
+"integer value. The range is 0-65535."
+msgstr "该方法允许读取 Angle 的旋转值并返回一个整数值，范围为 0-65535。"
+
+#: ../../source/unit/angle.rst:62 ca052c5c568843dc9946c99091fbfefd
+msgid "|get_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle.ref:10 1d5e185e30f3498aaa418963c16be6d9
+msgid "get_value.png"
+msgstr ""
+
+#: ../../source/unit/angle.rst:67 e02cdfad829f49149d5a76669494c08e
+msgid ""
+"This method allows reading the voltage value of Angle, and the return "
+"value is a floating point value."
+msgstr "该方法用于读取 Angle 的电压值，返回值为浮点数。"
+
+#: ../../source/unit/angle.rst:71 704f967d0c4e402bb0654a88b4393e55
+msgid "|get_voltage.png|"
+msgstr ""
+
+#: ../../source/refs/unit.angle.ref:12 637c2ffaca78497fb7325c558649500c
+msgid "get_voltage.png"
+msgstr ""
+

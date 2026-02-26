@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/advanced/jpg.rst:2 42084d68bd714519a48b25c700213e83
 msgid "jpg"
-msgstr ""
+msgstr "jpg"
 
 #: ../../en/advanced/jpg.rst:6 f0709c9ea4664ba7aa5f81702c724b2d
 msgid "This module is only applicable to the CoreS3 Controller"
@@ -48,7 +48,7 @@ msgstr "点击屏幕开始倒计时拍照"
 
 #: ../../en/advanced/jpg.rst:27 f1e20ecd914e4b8784432c242e03f2ee
 msgid "UIFlow2.0 Example"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/advanced/jpg.rst:34 5879b09f8b644c8a95d3e22c55e043e2
 msgid "|take_photo_example.png|"
@@ -81,7 +81,7 @@ msgstr "返回 ``image.Image`` 对象，图像格式为 image.JPEG"
 #: ../../en/advanced/jpg.rst:52 ../../en/advanced/jpg.rst:64
 #: 3e74e610827a4c9781c294e868dc6e74 62f6de668bec481ba777b8a92a06eb6c
 msgid "UIFlow2.0"
-msgstr ""
+msgstr "UIFlow2.0"
 
 #: ../../en/advanced/jpg.rst:54 26283cec883d4403aba19116d2acd634
 msgid "|encode.png|"

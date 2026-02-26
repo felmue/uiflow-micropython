@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/index.rst:2 4a169dd728104727a3620c59930f0c06
 msgid "UiFlow2 documentation and references"
-msgstr ""
+msgstr "UiFlow2 文档和参考资料"
 
 #~ msgid "MicroPython documentation and references"
 #~ msgstr ""

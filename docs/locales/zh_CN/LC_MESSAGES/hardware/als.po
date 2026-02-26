@@ -23,21 +23,21 @@ msgstr ""
 #: ../../en/hardware/als.rst:2 ../../en/hardware/als.rst:16
 #: 715dfd5bfb85440fa6fed1b8be63d826 cc80b6b60fc745d09c3a34770ab8811c
 msgid "ALS"
-msgstr ""
+msgstr "ALS"
 
 #: ../../en/hardware/als.rst:7 23497f94ae0248f3b345b373f5e695bc
 msgid ""
 "ALS is used to read the built-in ambient light sensor inside the host "
 "device."
-msgstr ""
+msgstr "ALS 用于读取主机设备内部内置的环境光传感器。"
 
 #: ../../en/hardware/als.rst:9 2392b9c4619942cdadbc233c8ca82d77
 msgid "The following are the details of the host's support for ALS:"
-msgstr ""
+msgstr "以下是主机对 ALS 的支持详情："
 
 #: ../../en/hardware/als.rst:18 8de46dd675c740bfbff655484a9c82c9
 msgid "CoreS3"
-msgstr ""
+msgstr "CoreS3"
 
 #: ../../en/hardware/als.rst:18 9822bf0e225f4fda833b407bfc8dfc7d
 msgid "|S|"
@@ -45,15 +45,15 @@ msgstr ""
 
 #: ../../en/hardware/als.rst:20 671ee2fa6f6748cb94f3b8b4bdf4a968
 msgid "CoreS3 SE"
-msgstr ""
+msgstr "CoreS3 SE"
 
 #: ../../en/hardware/als.rst:27 1a5efaf54aa943c1ada3ed4b46f0872d
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例"
 
 #: ../../en/hardware/als.rst:33 9d71783848ec4681af5e19cda6f397d4
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/hardware/als.rst:35 87aa146913f24181bfeb05fa46b683ba
 msgid "|example.png|"
@@ -69,13 +69,15 @@ msgstr ""
 
 #: ../../en/hardware/als.rst:43 f2869aef778b44bfbbc36d50fd3f5b01
 msgid "class ALS"
-msgstr ""
+msgstr "class ALS"
 
 #: ../../en/hardware/als.rst:47 d560c8cb5c5c4faba6ed5f05bebac32f
 msgid ""
 "Methods of the ALS Class heavily rely on ``M5.begin()`` |M5.begin.png| "
 "and ``M5.update()`` |M5.update.png|."
 msgstr ""
+"ALS Class 的方法严重依赖于 ``M5.begin()`` |M5.begin.png| 和 ``M5.update()`` "
+"|M5.update.png|。"
 
 #: ../../en/refs/system.ref:1 48ec0fcaaf3940f8a4fae0f31838eeff
 msgid "M5.begin.png"
@@ -91,18 +93,20 @@ msgid ""
 " |M5.begin.png|, and ``M5.update()`` |M5.update.png| should be called in "
 "the main loop."
 msgstr ""
+"对 ALS 对象方法的所有调用都应放在 ``M5.begin()`` |M5.begin.png| 之后，并且应在主循环中调用 "
+"``M5.update()`` |M5.update.png|。"
 
 #: ../../en/hardware/als.rst:53 86c2fdde246b4455961bb3e8594eea54
 msgid "Methods"
-msgstr ""
+msgstr "Methods"
 
 #: ../../en/hardware/als.rst:57 3ea536206b7648cca2c694091c0bfa3f
 msgid "Read the ambient light sensor value built into the host device."
-msgstr ""
+msgstr "读取内置于主机设备的环境光传感器数值。"
 
 #: ../../en/hardware/als.rst:59 a8d4730336bd48ebbbe60659d82db36c
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/hardware/als.rst:61 837480772ee840adab4c6e60ae1fa2be
 msgid "|getLightSensorData.png|"

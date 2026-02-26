@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/m5ui/switch.rst:5 ../../source/m5ui/switch.rst:53
 #: 3706afbd5d8142af9b7efd3d4a061619 40f42c752ed141d5976662362fdf1a88
 msgid "M5Switch"
-msgstr ""
+msgstr "M5Switch"
 
 #: ../../source/m5ui/switch.rst:9 4697145ca1dd4a0c9ed5821521efbfeb
 msgid ""
@@ -42,7 +42,7 @@ msgstr "开关事件"
 
 #: ../../source/m5ui/switch.rst:17 95d750b22987429ba2746940a8ae39bb
 msgid "Open the |cores3_switch_event_example.m5f2| project in UiFlow2."
-msgstr ""
+msgstr "在 UiFlow2 中打开 |cores3_switch_event_example.m5f2| 项目。"
 
 #: ../../source/m5ui/switch.rst:19 ../../source/m5ui/switch.rst:36
 #: 9377aa2344884adb85d1b2a2ab41cdc4 e48d2637bbc14132b8f4ddb032edfa1f
@@ -113,7 +113,7 @@ msgstr "API参考"
 
 #: 0135f874b4d346c9a170b56745613f00 m5ui.switch.M5Switch:1 of
 msgid "Bases: :py:class:`~lvgl.switch`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.switch`"
 
 #: 47cd459f8b1f443ea6e2c12ca8dbe4cf m5ui.switch.M5Switch:1 of
 msgid "Create a switch object."

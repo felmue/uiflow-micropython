@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/refs/unit.reflective_ir.ref
+#: ../../source/unit/reflective_ir.rst:2 65afce71fdc0413591112b761bda126c
+#: f468233a9dc2454b86497cc457444a38
+msgid "Reflective IR Unit"
+msgstr "反射式红外 Unit"
+
+#: ../../source/unit/reflective_ir.rst:6 6c805b967f4f48a984768a0511f6c3a2
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/reflective_ir.rst:8 532f90694e634626ad1e1a7024dbb9bf
+msgid "|Reflective IR Unit|"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:11 7acec448b32348ca8f65058d3123eaaf
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/reflective_ir.rst:18 fefb1ec1b5d8462cbdf7ee66e568f99b
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/reflective_ir.rst:20 d88036cc908d45a1b123056d9272c573
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.reflective_ir.ref:19 47d98807475e43e9b114082554025da0
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:25 d7e430f503cc4808b74f50fd68adc181
+msgid "|stickc_plus_reflectiverir_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:29 dd808c0194f04c9990f68e8461401f0c
+msgid "class ReflectiveIRUnit"
+msgstr "class ReflectiveIRUnit"
+
+#: ../../source/unit/reflective_ir.rst:32 5f0db2d9c3164bcfa571376fadef0284
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:36 8561490f573a47d2b4313c67b6e46987
+msgid "Create a ReflectiveIRUnit object."
+msgstr "创建一个 ReflectiveIRUnit 对象。"
+
+#: ../../source/unit/reflective_ir.rst 2168a9f3d9d54d22b30c1590c2a85d40
+#: 2d3a73fb19a24306bed2b12b8901f8dd
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:38 018a30fb2d414efa818ca9cdd39160b9
+msgid "Specify the port to which the Reflective IR Unit is connected."
+msgstr "指定 Reflective IR Unit 连接的端口。"
+
+#: ../../source/unit/reflective_ir.rst:40
+#: ../../source/unit/reflective_ir.rst:52
+#: ../../source/unit/reflective_ir.rst:61
+#: ../../source/unit/reflective_ir.rst:70
+#: ../../source/unit/reflective_ir.rst:79
+#: ../../source/unit/reflective_ir.rst:91 38587dbc843a42428b782031340f25b0
+#: 62313ddae23e4dc080ff880c4b1aa27d 7c8c20a7455f4360b2ac2b851db5211f
+#: 9390baf2937c491393fcc5ce295bdb6e e7e76e5aa3c647969fdf7fd79c6f49af
+#: ec457b6a78664dee856d0ce55661cc3f
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/reflective_ir.rst:42 9d9f170eb05a4547befbb713379f198a
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.reflective_ir.ref:7 b28dd47c20e24f13ac6ed471334f0476
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:46 d39f028943af43ea9ada07ac9bd45107
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:50 0148374d2f264182bf118acbab01caba
+msgid ""
+"This method allows read the ADC value of the Reflective IR Unit and "
+"return an integer value. The value ranges from 0 to 65535."
+msgstr "该方法用于读取 Reflective IR Unit 的 ADC 值，并返回一个整数。该值范围为 0 到 65535。"
+
+#: ../../source/unit/reflective_ir.rst:54 b2524890032f4863aa395588024af47f
+msgid "|get_analog_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.reflective_ir.ref:15 c1d81ffe7f5c44d28e8b97557a202b7a
+msgid "get_analog_value.png"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:59 d4179ec12f5e46c19fbd209d6a8f760d
+msgid ""
+"This method allows read the digital value of the Reflective IR Unit and "
+"return an integer value. The value ranges from 0 to 1."
+msgstr "该方法允许读取 Reflective IR Unit 的数字值，并返回一个整数值。该值范围为 0 到 1。"
+
+#: ../../source/unit/reflective_ir.rst:63 16c278a72a754aad9d2e6096b3bacc96
+msgid "|get_digital_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.reflective_ir.ref:17 ed729ac6123f4465bb983d3638e675b1
+msgid "get_digital_value.png"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:68 295b1c4afb5841f0a5f65794ec4d9c8c
+msgid "Enable Obstacle detection event"
+msgstr "启用障碍物检测事件"
+
+#: ../../source/unit/reflective_ir.rst:72 5b6afd812a0e49a0888c23178b3d890a
+msgid "|enable_irq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.reflective_ir.ref:9 6f36b0798d22402f9c44ac519dbc91e3
+msgid "enable_irq.png"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:77 384f271dc4824ba0a1126a03587e169f
+msgid "Disable Obstacle detection event"
+msgstr "禁用障碍物检测事件"
+
+#: ../../source/unit/reflective_ir.rst:81 07a24f7b40534c16b97185d712b6f3f6
+msgid "|disable_irq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.reflective_ir.ref:11 c483c7f10ef642deba7d2577339584cd
+msgid "disable_irq.png"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:86 36a9db8c17fc46efa27fdf25d3dae5bb
+msgid "Set the callback function for the Reflective IR Unit."
+msgstr "为 Reflective IR Unit 设置回调函数。"
+
+#: ../../source/unit/reflective_ir.rst:88 1fd85038439c4a4694dfb81432e728e7
+msgid "The callback function to be set."
+msgstr "要设置的回调函数。"
+
+#: ../../source/unit/reflective_ir.rst:89 5942b6d661274c63814db433cac8d889
+msgid "The trigger condition for the callback function."
+msgstr "回调函数的触发条件。"
+
+#: ../../source/unit/reflective_ir.rst:93 d3ae521a79964148af93af9569d68987
+msgid "|set_callback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.reflective_ir.ref:13 25d8b39ba99943cb851fa4c967788f11
+msgid "set_callback.png"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:96 ec1d7c8cbea344a58b50ecf45ba404e5
+msgid "Constants"
+msgstr ""
+
+#: ../../source/unit/reflective_ir.rst:101 bb6a71ee9b99443e966cd858cd31d720
+msgid "select the EVENT type of the Reflective IR Unit."
+msgstr "选择 Reflective IR Unit 的 EVENT 类型。"
+

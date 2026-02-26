@@ -1,0 +1,439 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/byteswitch.rst:3 1aeee9e261b44e92837e565f246323a5
+msgid "ByteSwitch Unit"
+msgstr "ByteSwitch Unit"
+
+#: ../../source/unit/byteswitch.rst:7 e04a02db1c104969a2ac93860f346c26
+msgid ""
+"Unit ByteSwitch is an 8-switch touch switch input unit equipped with 8 "
+"switch inputs and 9 WS2812C RGB LEDs. It uses the STM32 microcontroller "
+"and supports I2C communication. The board includes two Port A interfaces "
+"and supports cascading multiple Unit ByteSwitch modules, making it "
+"suitable for complex systems. It can achieve switch input detection and "
+"dynamic lighting feedback, ideal for smart home control, gaming devices, "
+"educational platforms, industrial status displays, and interactive "
+"exhibitions."
+msgstr ""
+"Unit ByteSwitch 是一款 8 路触摸开关输入单元，配备 8 路开关输入和 9 颗 WS2812C RGB LED。它采用 STM32"
+" 微控制器，并支持 I2C 通信。板载两个 Port A 接口，支持级联多个 Unit ByteSwitch "
+"模块，适用于复杂系统。该模块可实现开关输入检测与动态灯光反馈，适合用于智能家居控制、游戏设备、教育平台、工业状态显示以及互动展览等场景。"
+
+#: ../../source/unit/byteswitch.rst:9 bf29d6a1f053439da498b98192ef0515
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/byteswitch.rst:11 eb507637cbeb4b96b570d9d3381fe970
+msgid "|ByteSwitchUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref 90f1f4598d584249b3a1321a1f2b3716
+msgid "ByteSwitchUnit"
+msgstr "ByteSwitchUnit"
+
+#: ../../source/unit/byteswitch.rst:13 9d4786be5bf6457daae6305ed42e125a
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/byteswitch.rst:19 543294598fc040f09d78ba6c3804347a
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/byteswitch.rst:21 1c74858a052840ca9beeeef4541c09f1
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:27 ab4b52795b4e41fb82059724858ae752
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:25 86ecd8d70b3f4fe293614c22841e211e
+msgid "|byteswitch_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:29 84c78e38d55849f296949eabae8131b6
+msgid "class ByteSwitchUnit"
+msgstr "class ByteSwitchUnit"
+
+#: ../../source/unit/byteswitch.rst:32 f3bb6685a8b34c2cb2f7c8cf81cd7bad
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:36 b9c4cd54f2b6402ba69c017f7133bc7c
+msgid "Initialize the ByteSwitchUnit with a specified I2C address."
+msgstr "使用指定的 I2C 地址初始化 ByteSwitchUnit。"
+
+#: ../../source/unit/byteswitch.rst 046d18bc0f264c3eacf5ffa9eccbdb02
+#: 0c35ff1f889443fdbc0f639bc07856cb 101f3f552e77424f8c460e4b92e62a1d
+#: 1632b8d3770f484d9534f33c458c8bc9 190b64cffc8147249718dd87f0fd8535
+#: 264efa340a5a476d917862354facc246 75b1a8485c65430e81983266a8a977d5
+#: 9006ad1154f146d9a34bf78db03e7572 907611018bb84eb29fa4873339230638
+#: abee6709f9214f1a97bccdcb15d98e6d b082eb9c27e1459d854aab3c25f4888a
+#: c2579aa46d2942a087161eb58d164049 d71262e6cb03422d99ce89263d8c258f
+#: ffa4904f93964f069503c3a027ca4e83
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:38 7539450f4547412abbf3174db4ef611a
+msgid "The I2C interface instance for communication."
+msgstr "用于通信的 I2C 接口实例。"
+
+#: ../../source/unit/byteswitch.rst:39 8938e98226d64d539302f8e54694abf7
+msgid "The I2C address of the ByteSwitchUnit, default is 0x46."
+msgstr "ByteSwitchUnit 的 I2C 地址，默认为 0x46。"
+
+#: ../../source/unit/byteswitch.rst:41 ../../source/unit/byteswitch.rst:53
+#: ../../source/unit/byteswitch.rst:63 ../../source/unit/byteswitch.rst:71
+#: ../../source/unit/byteswitch.rst:85 ../../source/unit/byteswitch.rst:96
+#: ../../source/unit/byteswitch.rst:106 ../../source/unit/byteswitch.rst:119
+#: ../../source/unit/byteswitch.rst:133 ../../source/unit/byteswitch.rst:146
+#: ../../source/unit/byteswitch.rst:155 ../../source/unit/byteswitch.rst:165
+#: ../../source/unit/byteswitch.rst:174 ../../source/unit/byteswitch.rst:211
+#: ../../source/unit/byteswitch.rst:220 ../../source/unit/byteswitch.rst:230
+#: ../../source/unit/byteswitch.rst:239 12f8a1af48ea478fbfe61474519fabd3
+#: 211b9baa74ad4d8ab358dcbc8d038ba6 4ee44168d70746eeb6dad98ce56c5750
+#: 52a0ed26819947039e65817dd006ee82 6213e990a4794110bebe34e137dddae9
+#: 6c387a01d508456fbf31bece6c9fc1d7 6da40c78184544a6996b1f247de65d89
+#: 76997fd83c1547739f3c85d9ebd3d207 77710ab5c01d4801b5d19ac6c6626f2f
+#: 779958039ebe487da1881a3d58fff4d8 8f72fbfc12be4e8c87f6e6a60aace9c6
+#: 9d47615294254f6eb2cbbbe5c2a8a881 a64ecaee995245128e267217fdd2a92e
+#: b0bebeda146d444d96b0fc5ba0340a86 b99735fe2449478cacc38c1b3749dc1a
+#: d2585ce93aaf405ea0860e54f59162ec d64ab21f36ce4faaac7c7e4dc31d944c
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/byteswitch.rst:43 f9e7001fc0d14077a68e248a9da40334
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:7 d73dcfaf8a7e4b7faabff26f90bb5cfd
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:46 2c7f9a5868ba4e73ac4d8d632edb1237
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:50 c32cfb8eacce4a59b1ab681eadd9bc06
+msgid ""
+"Get the status of all switchs as an integer, where each bit represents "
+"the state of each switch."
+msgstr "获取所有开关的状态并以整数形式返回，其中每一位表示对应开关的状态。"
+
+#: ../../source/unit/byteswitch.rst:55 d92c0a27184c45c48ad738f4bee1cada
+msgid "|get_byte_switch_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:8 359f7bc870da4d29b8637c94e7c698a9
+msgid "get_byte_switch_status.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:59 96591a0c76ce4d9997439d39830eacfe
+msgid "Get the state of a specific switch."
+msgstr "获取指定开关的状态。"
+
+#: ../../source/unit/byteswitch.rst:61 6b2ea9bc3af94d698a111f67a2ca4fcd
+msgid "The index of the switch (0-7)."
+msgstr "开关的索引（0-7）。"
+
+#: ../../source/unit/byteswitch.rst:65 6389f9afcdbc4b4b9ba5df7069f949ef
+msgid "|get_switch_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:9 3b8cb59053604d3badef4d510914cd19
+msgid "get_switch_state.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:69 6debcadc6b91475cb3f0dd3499336406
+msgid "Get the current LED show mode."
+msgstr "获取当前 LED 显示模式。"
+
+#: ../../source/unit/byteswitch.rst:73 e997a5808da04400bcb0dbb1dcf1eb5c
+msgid "|get_led_show_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:10 eb5f33d7dd3546878ef7b4eff2cb729d
+msgid "get_led_show_mode.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:77 123ee64b173541719f72e6e42254a659
+msgid "Set the LED show mode."
+msgstr "设置 LED 显示模式。"
+
+#: ../../source/unit/byteswitch.rst:79 bd8aa29639b242d48482c48edabdcffb
+msgid ""
+"The LED show mode to set.  Options:     - ``BYTESWITCH_LED_USER_MODE``: 0"
+"     - ``BYTESWITCH_LED_SYS_MODE``: 1"
+msgstr ""
+"要设置的 LED 显示模式。选项：    - ``BYTESWITCH_LED_USER_MODE``：0    - "
+"``BYTESWITCH_LED_SYS_MODE``：1"
+
+#: ../../source/unit/byteswitch.rst:79 4bde3be407dc414db36d55b602cf1f56
+msgid "The LED show mode to set."
+msgstr "要设置的 LED 显示模式。"
+
+#: ../../source/unit/byteswitch.rst:83 12ec0a4858904c009ebad2e3151a9c91
+msgid "Options:"
+msgstr "Options:"
+
+#: ../../source/unit/byteswitch.rst:82 39be5e4f5f2148b0bd253e839665d8bf
+msgid "``BYTESWITCH_LED_USER_MODE``: 0"
+msgstr "`BYTESWITCH_LED_USER_MODE`: 0"
+
+#: ../../source/unit/byteswitch.rst:83 9a7c70f0b41c495b9fd90bb921a69e42
+msgid "``BYTESWITCH_LED_SYS_MODE``: 1"
+msgstr "保持原有的 `msgstr` 为空即可。"
+
+#: ../../source/unit/byteswitch.rst:87 d843da7eac264f19b2dd2e713d698b69
+msgid "|set_led_show_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:11 83f7055b984d4da78c441d8e35050a98
+msgid "set_led_show_mode.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:91 ea3e5f64b89a4117b47f086c8f97d1fa
+msgid "Set the brightness of a specific LED."
+msgstr "设置指定 LED 的亮度。"
+
+#: ../../source/unit/byteswitch.rst:93 ../../source/unit/byteswitch.rst:104
+#: ../../source/unit/byteswitch.rst:114 ../../source/unit/byteswitch.rst:129
+#: ../../source/unit/byteswitch.rst:188 ../../source/unit/byteswitch.rst:195
+#: 47268408dcf64e4d8b2c941a9c40d5e9 51a3b8b515554d78a3b2839153d8c220
+#: 54d54c275b0649709c98b4ba1e707fbc da3a761b43b64be586104906c993c0f0
+#: ddb52691f2e64100b8927e6cfe379550 f7a748ecb1f945fc8a8d4e3861b1afd4
+msgid "The index of the LED (0-7)."
+msgstr "LED 的索引（0-7）。"
+
+#: ../../source/unit/byteswitch.rst:94 ../../source/unit/byteswitch.rst:144
+#: 263be3d88241454fa7832e66bc06a37f b32c1da1a5814d84b2d7880744999b60
+msgid "The brightness level (0-255)."
+msgstr "亮度等级（0-255）。"
+
+#: ../../source/unit/byteswitch.rst:98 27ab1093af774ce1a37f1be7e4b046e7
+msgid "|set_led_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:12 2ef472c7c15a41fd8ff4d9e9d81aded7
+msgid "set_led_brightness.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:102 38351a0cfacf40d2825bba7fda15c163
+msgid "Get the brightness of a specific LED."
+msgstr "获取指定 LED 的亮度。"
+
+#: ../../source/unit/byteswitch.rst:108 6497f611b7574829aea6ec8346424e0e
+msgid "|get_led_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:13 9fc4aef2db6340638c5c06c58143dd7c
+msgid "get_led_brightness.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:112 15cc9289ec804970be34f32df49f1fd4
+msgid "Set the color of a specific LED."
+msgstr "设置指定 LED 的颜色。"
+
+#: ../../source/unit/byteswitch.rst:115 ../../source/unit/byteswitch.rst:163
+#: 4f0aaf21456f466f84884c1f0974cba3 500963abfec44e2890c26d6804e25daf
+msgid "The RGB888 color value to set."
+msgstr "要设置的 RGB888 颜色值。"
+
+#: ../../source/unit/byteswitch.rst:116 ../../source/unit/byteswitch.rst:130
+#: 1be87076efcb45539e6c229b27c0a581 d84bda98d3f7436ba8054fe682f1a2b3
+msgid "The LED show mode, default is BYTESWITCH_LED_SYS_MODE."
+msgstr "LED 显示模式，默认为 BYTESWITCH_LED_SYS_MODE。"
+
+#: ../../source/unit/byteswitch.rst:117 ../../source/unit/byteswitch.rst:131
+#: b233dfba0cb34fbcad233ff2aecc7ead e5d239a8ccd3417593a852962a719708
+msgid "Whether the switch is pressed (affects color in SYS mode)."
+msgstr "开关是否被按下（在 SYS 模式下会影响颜色）。"
+
+#: ../../source/unit/byteswitch.rst:121 c6126b3144a44653a50ea9dd13e66fe1
+msgid "|set_sys_mode_led_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:14 67e4549ca2f946be8f815e898de74a2b
+msgid "set_sys_mode_led_color.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:123 9c49cd5fe16341d5a33e1d70200364ab
+msgid "|set_user_mode_led_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:15 13340f5f67624c749557d0f18c725ec1
+msgid "set_user_mode_led_color.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:127 6cbbd1fbff194a70a5f3f79828e74d77
+msgid "Get the color of a specific LED."
+msgstr "获取指定 LED 的颜色。"
+
+#: ../../source/unit/byteswitch.rst:135 ed49c97ffef14e8e8857164e79d35003
+msgid "|get_sys_mode_led_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:16 5215b42d190c449d95909d114a6d353d
+msgid "get_sys_mode_led_color.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:137 e78bfb5882804d648a5ebe8d0813cec5
+msgid "|get_user_mode_led_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:17 42e6f554cd2447f68810aa5b487aa604
+msgid "get_user_mode_led_color.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:142 8a3395aa42be4ef4b26176a3069a2280
+msgid "Set the brightness of the indicator LED."
+msgstr "设置指示灯 LED 的亮度。"
+
+#: ../../source/unit/byteswitch.rst:148 e3bf813b36a8491499896fdc98b12fca
+msgid "|set_indicator_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:18 4c551dd31edf477f910401ef90b80776
+msgid "set_indicator_brightness.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:152 3ee3bcf9294644fc8177ed0d2b406ba5
+msgid "Get the brightness of the indicator LED."
+msgstr "获取指示灯 LED 的亮度。"
+
+#: ../../source/unit/byteswitch.rst:157 63300fdeb48949eeb8c92f1919e59ac3
+msgid "|get_indicator_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:19 d3425373e13240a0a5d9a34d0b6e431a
+msgid "get_indicator_brightness.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:161 7c18254d27ae436686eceb11bbaa673d
+msgid "Set the color of the indicator LED in RGB888 format."
+msgstr "设置指示灯的颜色，使用 RGB888 格式。"
+
+#: ../../source/unit/byteswitch.rst:167 f1f12cdea54e4ef2b2ac0704b0364bb6
+msgid "|set_indicator_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:20 c7857c6c6c1d4e308f075314c109815f
+msgid "set_indicator_color.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:171 b9c1d30ae9a5492290b3573f7dc91617
+msgid "Get the color of the indicator LED in RGB888 format."
+msgstr "获取指示灯的颜色，格式为 RGB888。"
+
+#: ../../source/unit/byteswitch.rst:176 1236a18761474ad8abf2625e4286bc2b
+msgid "|get_indicator_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:21 0d73ff7c825040c3832ad78556211f7f
+msgid "get_indicator_color.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:180 685aeb47619041d09c5e3d55fae46ca8
+msgid "Convert an RGB888 color value to RGB233 format."
+msgstr "将 RGB888 颜色值转换为 RGB233 格式。"
+
+#: ../../source/unit/byteswitch.rst:182 aad21ea6fd42487cb6743f11fdd58425
+msgid "The RGB888 color value as a 32-bit integer."
+msgstr "RGB888 颜色值，以 32 位整数表示。"
+
+#: ../../source/unit/byteswitch.rst:186 e2a669f20d934ea888da4f8b013d0934
+msgid "Set the color of a specific LED in RGB233 format."
+msgstr "设置特定 LED 的颜色，格式为 RGB233。"
+
+#: ../../source/unit/byteswitch.rst:189 8e858eae4b5d4b928e06428c1077c151
+msgid "The RGB233 color value to set."
+msgstr "要设置的 RGB233 颜色值。"
+
+#: ../../source/unit/byteswitch.rst:193 ad6f4f782f5d4dd1a2265ad305ca962d
+msgid "Get the color of a specific LED in RGB233 format."
+msgstr "获取特定 LED 的 RGB233 格式颜色。"
+
+#: ../../source/unit/byteswitch.rst:199 e1cfe83f7ab54b4c946ee25b32c6a459
+msgid "Enable or disable IRQ functionality."
+msgstr "启用或禁用 IRQ 功能。"
+
+#: ../../source/unit/byteswitch.rst:201 70f2879b548246968ff14173253aa995
+msgid "Whether to enable (True) or disable (False) IRQ."
+msgstr "是否启用（True）或禁用（False） IRQ。"
+
+#: ../../source/unit/byteswitch.rst:205 d4a5d19098414a5986bf474450071436
+msgid "Get the current IRQ enable status."
+msgstr "获取当前 IRQ 使能状态。"
+
+#: ../../source/unit/byteswitch.rst:209 62d8c1dd9f2247f789d639da3675ce2e
+msgid "Save the current user settings to flash."
+msgstr "将当前用户设置保存到 flash。"
+
+#: ../../source/unit/byteswitch.rst:213 91b70ceed5a2487b82784a876e245dbd
+msgid "|save_to_flash.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:22 a81a8157818b4ecb9c5a3adba41b9a19
+msgid "save_to_flash.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:217 cb0661ec9db945f1a85b72f21984bdc1
+msgid "Get the firmware version of the ByteSwitchUnit."
+msgstr "获取 ByteSwitchUnit 的固件版本。"
+
+#: ../../source/unit/byteswitch.rst:222 c96c74e5c4af4972be56f4d4aa8f41d1
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:23 6e78d8a4d8e442f8b3df278e9143fd47
+msgid "get_firmware_version.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:226 4ac9794947f04e8fb13c7d74ed3751d2
+msgid "Set a new I2C address for the ByteSwitchUnit."
+msgstr "为 ByteSwitchUnit 设置新的 I2C 地址。"
+
+#: ../../source/unit/byteswitch.rst:228 c76aed798e014c48963913b94926788f
+msgid "The new I2C address to set. Must be in the range 0x08 to 0x77."
+msgstr "要设置的新 I2C 地址。必须在 0x08 到 0x77 的范围内。"
+
+#: ../../source/unit/byteswitch.rst:232 ae58d2e1a4414d35897eba37e9833bec
+msgid "|set_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:24 dd13563f220e4ae09a84e74a345d0d0d
+msgid "set_i2c_address.png"
+msgstr ""
+
+#: ../../source/unit/byteswitch.rst:236 992c0700436c437bab90d8595da26e64
+msgid "Get the current I2C address of the ByteSwitchUnit."
+msgstr "获取 ByteSwitchUnit 的当前 I2C 地址。"
+
+#: ../../source/unit/byteswitch.rst:241 fc2d742cea9c4de8a905059ca32f6a93
+msgid "|get_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.byteswitch.ref:25 7e7ddc8eef6d48c4978fe201b70a860d
+msgid "get_i2c_address.png"
+msgstr ""
+

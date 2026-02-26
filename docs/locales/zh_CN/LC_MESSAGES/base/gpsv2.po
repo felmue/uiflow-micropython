@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/base/gpsv2.rst:2 5dcf780266ca48f09e0fff9f34437bd1
 msgid "Atomic GPS Base v2.0"
-msgstr ""
+msgstr "Atomic GPS Base v2.0"
 
 #: ../../en/base/gpsv2.rst:8 9244f2f6864544a5a3032142401fb601
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../en/refs/base.gpsv2.ref a359aed5e2f04565bd113955de10b1db
 msgid "Atom GPS Base v2.0"
-msgstr ""
+msgstr "Atom GPS Base v2.0"
 
 #: ../../en/base/gpsv2.rst:15 e511281ad6b147bea7bad19e1424496e
 msgid "UiFlow2 Example"
@@ -140,15 +140,15 @@ msgstr "MicroPython代码块："
 
 #: ../../en/base/gpsv2.rst:53 4a5833973f5a4892816941c8a7cbd8d2
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: ../../en/base/gpsv2.rst:56 738c3d8f8428467a854a6d49f8fb6ce1
 msgid "AtomicGPSV2Base"
-msgstr ""
+msgstr "AtomicGPSV2Base"
 
 #: 66b5c8b2d2d0462f8909d80d6ffae1d3 base.gpsv2.AtomicGPSV2Base:1 of
 msgid "Bases: :py:class:`~driver.atgm336h.ATGM336H`"
-msgstr ""
+msgstr "Bases: :py:class:`~driver.atgm336h.ATGM336H`"
 
 #: 4fee4a68ca394f9c9eef9539a39dd11a base.gpsv2.AtomicGPSV2Base:1 of
 msgid "Create an AtomicGPSV2Base object."
@@ -190,7 +190,7 @@ msgstr ""
 
 #: dba6200457b34eaba993c00b825ca892 driver.atgm336h.ATGM336H:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: 71ed6e0a61ad4b03b51123e7183312f2 driver.atgm336h.ATGM336H:1 of
 msgid "Create an ATGM336H object."

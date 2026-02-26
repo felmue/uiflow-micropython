@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/rgb.rst:2 90ba9e095534431f91ee312582b5662e
+msgid "RGB Unit"
+msgstr "RGB Unit"
+
+#: ../../source/unit/rgb.rst:6 021cf3d76dc147db916ecdc11b311221
+msgid "The following products are supported:"
+msgstr "以下产品受支持："
+
+#: ../../source/unit/rgb.rst:8 40614140214a4d468a321410a3df7059
+msgid "|RGB|"
+msgstr ""
+
+#: ../../source/refs/unit.rgb.ref 8baee75d9e4d4b44a04160e4e303cedd
+msgid "RGB"
+msgstr "RGB"
+
+#: ../../source/unit/rgb.rst:11 e8b433e131ca4da68da74f421a4a2603
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/rgb.rst:26 86b5746b38854737b6a6791354ce2c71
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/rgb.rst:28 7f361d461df244038fed7cab2f9a8a89
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rgb.ref:6 29a9071b63924611b49fb363740ad882
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/rgb.rst:33 432a910892ca460c9e9ce826bf215dff
+msgid "|rgb_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/rgb.rst:37 c06bcf6ca4414d4987e0cb7cd7a82487
+msgid "class RGB"
+msgstr ""
+
+#: ../../source/unit/rgb.rst:40 4fe56a6fcba441988e21ca9f989b5bda
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/rgb.rst:44 ae51cc79279a47a4a5bf5fa6c7179284
+msgid "Create an RGB object."
+msgstr "创建一个 RGB 对象。"
+
+#: ../../source/unit/rgb.rst:48 8812d0722d14490598847408bfa83f19
+msgid "parameter is:"
+msgstr "参数为："
+
+#: ../../source/unit/rgb.rst:47 42ca0048e01245beb9e0e45498560f69
+msgid "``port`` is the pins number of the port"
+msgstr "``port`` 是该端口的引脚编号"
+
+#: ../../source/unit/rgb.rst:48 903b1483cfa247dcb33dec9bf954fef4
+msgid "``number`` is the number of RGB lamp beads"
+msgstr "``number`` 是 RGB 灯珠的数量"
+
+#: ../../source/unit/rgb.rst:50 ../../source/unit/rgb.rst:62
+#: ../../source/unit/rgb.rst:71 ../../source/unit/rgb.rst:80
+#: 1a45565edefb49fdbfc304d415df6255 27546e662d7e4f8e9c62dd26cb6f579b
+#: 73ad23899cd04619b26af87498152bf6 c029898aeeac49bb8f3810c9a11fab03
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/rgb.rst:52 3014b2ffc40a4b2a800a78e5e20799b3
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rgb.ref:8 00c406e1ebc745f39d1581ed4ed82856
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/rgb.rst:56 090caf786205406da6b6305f29327bd6
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/rgb.rst:60 c86cba539d0e4744831de1e755a7b80d
+msgid ""
+"This method is used to set the brightness of RGB lamp beads, and the "
+"setting range is 0-100."
+msgstr "该方法用于设置 RGB 灯珠的亮度，设置范围为 0-100。"
+
+#: ../../source/unit/rgb.rst:64 f01c2fb0897f47d5ab5032daf09de605
+msgid "|set_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rgb.ref:10 0a968b18ea5044c0a116294bf67c9db8
+msgid "set_brightness.png"
+msgstr ""
+
+#: ../../source/unit/rgb.rst:69 4fcc5b4f1816454ea404a7ec354037b7
+msgid ""
+"This method is used to set the color of all RGB lamp beads, and the input"
+" value is 3-byte RGB888."
+msgstr "该方法用于设置所有 RGB 灯珠的颜色，输入值为 3 字节 RGB888。"
+
+#: ../../source/unit/rgb.rst:73 244408af7a1641c9a84bb47f2c94d106
+msgid "|fill_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rgb.ref:12 c704b9a2c2e543caa7d2496e67c6905c
+msgid "fill_color.png"
+msgstr ""
+
+#: ../../source/unit/rgb.rst:78 1f11309587184906a33ae53fb7af1c0c
+msgid ""
+"This method is used to set the specified RGB lamp bead color. The input "
+"value is the lamp bead index and 3-byte RGB888."
+msgstr "该方法用于设置指定 RGB 灯珠的颜色。输入值为灯珠索引和 3 字节 RGB888。"
+
+#: ../../source/unit/rgb.rst:82 568e44b7fd394c47b74532e11060bfdd
+msgid "|set_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.rgb.ref:14 7c94d7bc3510412da3c591e9096c2f53
+msgid "set_color.png"
+msgstr ""
+

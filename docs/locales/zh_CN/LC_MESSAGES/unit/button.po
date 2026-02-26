@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/button.rst:3 65460d3060f14965bdf0c619bb468c95
+msgid "Button Unit"
+msgstr "Button Unit"
+
+#: ../../source/unit/button.rst:7 0c454bc66a3845c9912cfd2983a17df2
+msgid ""
+"BUTTON is a single button Unit. The button status can be detected by the "
+"input pin by simply capturing the high/low electrical level. If the "
+"button is pressed, the signal level will be *high* if the button is "
+"released, the signal level will be *low*."
+msgstr ""
+"BUTTON 是一款单按键 Unit。通过读取输入引脚的高/低电平即可检测按键状态。按键按下时，信号电平为 *high*；按键松开时，信号电平为 "
+"*low*。"
+
+#: ../../source/unit/button.rst:9 47fd19deb2d24a1091c4108ecfc1ef5f
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/button.rst:11 d44e6d6864fe46f09fda2c75218fa93b
+msgid "|ButtonUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.button.ref 618662ae34c04d8ebb5ac70daf0926e2
+msgid "ButtonUnit"
+msgstr "ButtonUnit"
+
+#: ../../source/unit/button.rst:13 71a2778e9125425ca4f55c9f953741e1
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/button.rst:20 32e7823fc81c47319160188fa02b856e
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/button.rst:22 0369f07233d847029261f264498f1c41
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.button.ref:13 508acbf94ad04e128c9852bd0fa09b21
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/button.rst:26 a2d19f15a86844d3926d58835c1a8ee0
+msgid "|button_core2_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/button.rst:29 a1504eadeb1b45e3a5d0fafbad50a8aa
+msgid "class ButtonUnit"
+msgstr "class ButtonUnit"
+
+#: ../../source/unit/button.rst:32 bd16ee8d2d124045972dc7b3e5b3ad9e
+msgid "Constructors"
+msgstr "\"\"\"构造函数\"\"\""
+
+#: ../../source/unit/button.rst:36 59b5afd18ef8412d82856ceb93cc8ec1
+msgid ""
+"Initialize a Button instance with the specified pin, active-low "
+"configuration, and pull-up resistor state."
+msgstr "使用指定的引脚、低电平有效配置和上拉电阻状态初始化一个 Button 实例。"
+
+#: ../../source/unit/button.rst 06ca2e0ff2334a0fa972ce9f2c0b4506
+#: 923b931c370c4334963bbb47be9431fb
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/button.rst:38 59d981db2e0846e39bd4674a8886e8b7
+msgid "The GPIO pin number connected to the button."
+msgstr "连接到按钮的 GPIO 引脚编号。"
+
+#: ../../source/unit/button.rst:39 2488107384c14a65b187d65ade80f93c
+msgid "Determines whether the button signal is active-low. Default is True."
+msgstr "确定按钮信号是否为低电平有效。默认值为 True。"
+
+#: ../../source/unit/button.rst:40 a729314587dd4e89b693873c2edef6a4
+msgid ""
+"Specifies whether the internal pull-up resistor is enabled. Default is "
+"True."
+msgstr "指定是否启用内部上拉电阻。默认值为 True。"
+
+#: ../../source/unit/button.rst:42 ../../source/unit/button.rst:54
+#: ../../source/unit/button.rst:64 ../../source/unit/button.rst:75
+#: ../../source/unit/button.rst:83 14dadb84021c421aaa804f5ba3aff1dd
+#: 45a34dfc99a54c419688fe89df9d50fa 83c707b5f4754a0288063738efd41a08
+#: a0edee5aff43497f814e928cf659e5af b011f184670941349bbeb2322e1d06a5
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/button.rst:44 a11cf34763b548ee8c84450243ae9711
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.button.ref:7 5244ec6002d34b3d98e9f7ab33d6ffa1
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/button.rst:47 1cc2a39f86ed4e5ab261163a11b61f4b
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/button.rst:51 c1601c199a9d4a9e975f50c282559c0f
+msgid "Reset the count value to zero."
+msgstr "将计数值重置为 0。"
+
+#: ../../source/unit/button.rst:56 81e4ebaaf92442c98a0a07047649cc51
+msgid "|count_reset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.button.ref:10 2b3ed06fb27c4ca5a9783306e0898da1
+msgid "count_reset.png"
+msgstr ""
+
+#: ../../source/unit/button.rst:61 87b8b58d611c40f2ab26f6f4d34a05b0
+msgid "Check if the button is currently being held."
+msgstr "检查按钮当前是否处于按住状态。"
+
+#: ../../source/unit/button.rst:66 c9c89e216c164337bbb5d2bebcac5e6f
+msgid "|isHolding.png|"
+msgstr ""
+
+#: ../../source/refs/unit.button.ref:8 3cbd3667988e47a08835594f0915c9d2
+msgid "isHolding.png"
+msgstr ""
+
+#: ../../source/unit/button.rst:70 571536b112924bac9067e77f692697b4
+msgid "Set a callback function for a specified button event type."
+msgstr "为指定的按钮事件类型设置回调函数。"
+
+#: ../../source/unit/button.rst:72 ad01a906d2e24fe6b1c73dc0f7147bd1
+msgid "The event type (e.g., WAS_CLICKED, WAS_DOUBLECLICKED)."
+msgstr "事件类型（例如 WAS_CLICKED、WAS_DOUBLECLICKED）。"
+
+#: ../../source/unit/button.rst:73 4068167570a0467dbff490896f561acd
+msgid "The callback function to be executed for the event."
+msgstr "为该事件执行的回调函数。"
+
+#: ../../source/unit/button.rst:77 7648f3d036db43048b149f3bd82913e1
+msgid "|setCallback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.button.ref:9 ddbf57447e724ec99e7ab0f675cdcc70
+msgid "setCallback.png"
+msgstr ""
+
+#: ../../source/unit/button.rst:81 601edcabd1d44896aa41cd1f4669c593
+msgid ""
+"Monitor the state transitions of a button based on its pin state and "
+"trigger appropriate handlers."
+msgstr "基于其引脚状态监控按钮的状态转换，并触发相应的处理函数。"
+
+#: ../../source/unit/button.rst:85 2a3ce033c28044729b4b48f3c7545327
+msgid "|tick.png|"
+msgstr ""
+
+#: ../../source/refs/unit.button.ref:11 9b17f4db5ea4453f9bbd6bb9e2ce5791
+msgid "tick.png"
+msgstr ""
+

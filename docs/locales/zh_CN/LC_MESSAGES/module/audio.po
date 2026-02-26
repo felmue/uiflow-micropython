@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/module/audio.rst:2 ../../en/refs/module.audio.ref
 #: 4e24e2fce4424c5fac0f0d1663d207d9 f53b1250cc5b423f95764f128a2e9789
 msgid "Audio Module"
-msgstr ""
+msgstr "Audio Module"
 
 #: ../../en/module/audio.rst:8 8ae6cd09c74b40998324ff34f2a7a7b6
 msgid ""
@@ -61,7 +61,7 @@ msgstr "在 UiFlow2 中打开 |cores3_play_wav_example.m5f2| 项目。"
 #: ../../en/module/audio.rst:27 ../../en/module/audio.rst:47
 #: b699ac27037d4084b50c239a41908f42 bd7f70e67c6d404aa5f5804c4add678f
 msgid ":download:`66.wav <../../../examples/module/audio/66.wav>`"
-msgstr ""
+msgstr ":download:`66.wav <../../../examples/module/audio/66.wav>`"
 
 #: ../../en/module/audio.rst:29 ../../en/module/audio.rst:84
 #: 2235c0cae1f143aa9ed672b67105bcdc
@@ -182,11 +182,11 @@ msgstr "API参考"
 
 #: ../../en/module/audio.rst:135 3e35c677ecb04759a426aa1f928d3bd0
 msgid "Class AudioModule"
-msgstr ""
+msgstr "Class AudioModule"
 
 #: 221509b0d3494f24ac171ee0b62aad6a module.audio.AudioModule:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: b18fc38aa8fc4c7aa97f07b731f64f42 module.audio.AudioModule:1 of
 msgid "Initialize the audio module."
@@ -240,7 +240,9 @@ msgid ""
 "Generally speaking, when using line in, offset is False; if the input is "
 "connected to an ADC microphone, offset is True. (Only valid in line in "
 "mode)."
-msgstr "一般来说，使用 Line In 时，offset 为 False；如果输入连接了 ADC 麦克风，offset 为 True。（仅在 Line In 模式下有效）。"
+msgstr ""
+"一般来说，使用 Line In 时，offset 为 False；如果输入连接了 ADC 麦克风，offset 为 True。（仅在 Line "
+"In 模式下有效）。"
 
 #: 6c6803ee60714c818dc725a003955a4e module.audio.AudioModule:12 of
 msgid "Select the TRRS plug to be used. (default is MUX_NATIONAL)."

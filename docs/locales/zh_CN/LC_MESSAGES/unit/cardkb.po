@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/refs/unit.cardkb.ref ../../source/unit/cardkb.rst:2
+#: f13dade223e447859733d687632e28fd f668b6b988164944981886c258106bb0
+msgid "CardKB Unit"
+msgstr "CardKB Unit"
+
+#: ../../source/unit/cardkb.rst:6 f27f0f73b972453195735f0fce55d7c7
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/cardkb.rst:9 bff9a0f85beb4489aba4dc5d16abeacb
+msgid "|CardKB Unit|"
+msgstr ""
+
+#: ../../source/unit/cardkb.rst:9 f4a84457399e4faa8a13ecf78df92a30
+msgid "|CardKB Unit v1.1|"
+msgstr ""
+
+#: ../../source/refs/unit.cardkb.ref 11a8dd97edd04e59a45488ad65a834f4
+msgid "CardKB Unit v1.1"
+msgstr "CardKB Unit v1.1"
+
+#: ../../source/unit/cardkb.rst:13 424a419be7d44d69ad09460f52efb699
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/cardkb.rst:20 0cf754db18424b8dafe787a8d53c9e08
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/cardkb.rst:22 785e733f780a47d7890d2a83ee547b87
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.cardkb.ref:23 a8347ba7c2704e0abfaf25c45b12bac4
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/cardkb.rst:27 2e9e6267094544de86a06d12a630bd68
+msgid "|cores3_cardkb_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/cardkb.rst:31 d1ea5312f24a4c188c7b0ba7a3d70088
+msgid "class CardKBUnit"
+msgstr "class CardKBUnit"
+
+#: ../../source/unit/cardkb.rst:34 64a3a8c8a6d5400985469418d4d5e5dd
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/cardkb.rst:38 2c763c77901c4259a9a1e751f4694214
+msgid "Create a CardKBUnit object."
+msgstr "创建一个 CardKBUnit 对象。"
+
+#: ../../source/unit/cardkb.rst adebe80b0b58490bac3e45d5d0831bfe
+#: e02759cabc7a4133b04f756a012b0eca
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/cardkb.rst:40 7347f7c34d7a4f548262d611f5a9430e
+msgid "I2C object"
+msgstr "I2C 对象"
+
+#: ../../source/unit/cardkb.rst:41 64276399c6964e22be66f7f542f31000
+msgid "I2C address, 0x5F by default"
+msgstr "I2C 地址，默认值为 0x5F"
+
+#: ../../source/unit/cardkb.rst:43 ../../source/unit/cardkb.rst:59
+#: ../../source/unit/cardkb.rst:70 ../../source/unit/cardkb.rst:81
+#: ../../source/unit/cardkb.rst:92 ../../source/unit/cardkb.rst:115
+#: 12d11f7071cf4e6c8a6ade329608756d 5856a1a1fd3747cbbc2096decb80abdb
+#: 8ec9923b0a2642a0a001a7df0f33a644 b98ab2da931b4b06b3c8fa9b98e7cf63
+#: e0ab1375a523432699e80daca25619d2 e2c6b24402b141bbad2bc9ec8a298f4c
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/cardkb.rst:45 684aa49c42ca445d83675b6edfdfab33
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.cardkb.ref:11 b3dc081e4c26418092d7d29e9d185ad0
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/cardkb.rst:51 3aeb73ac773d459683e8201b4a72893a
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/cardkb.rst:55 4e44834787e04fe5b326cbf0968c9326
+msgid "Read the key value."
+msgstr "读取键值。"
+
+#: ../../source/unit/cardkb.rst 1ec5164d8e1a424baa0f6d0d4e03939a
+#: c2b934e5226145d19279e04c024c3b49 e3de6aa920194686a1760fa4ba56922a
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/cardkb.rst:57 077dce05848e4932ad2a94c453c4ecae
+msgid "key value, int"
+msgstr "键值，int"
+
+#: ../../source/unit/cardkb.rst:61 3c6bf263df8c4674bf0ef2faee0410e1
+msgid "|get_key.png|"
+msgstr ""
+
+#: ../../source/refs/unit.cardkb.ref:13 2eb3956dc9dc4de9ab5671aadc8feb52
+msgid "get_key.png"
+msgstr ""
+
+#: ../../source/unit/cardkb.rst:66 57b995f19db743ed84ddc926fde89e41
+msgid "Read the key string."
+msgstr "读取键字符串。"
+
+#: ../../source/unit/cardkb.rst:68 17758370400540b2af82d802f28838b3
+msgid "key string, str"
+msgstr "键字符串，str"
+
+#: ../../source/unit/cardkb.rst:72 e43f3c9c701c40f7aaeee063a3cdf85c
+msgid "|get_string.png|"
+msgstr ""
+
+#: ../../source/refs/unit.cardkb.ref:15 0395a33908904c0ab2b481181d6faa2b
+msgid "get_string.png"
+msgstr ""
+
+#: ../../source/unit/cardkb.rst:77 b09576262ac7478eafa6230c57dbe1b1
+msgid "Check if the key is pressed."
+msgstr "检查按键是否被按下。"
+
+#: ../../source/unit/cardkb.rst:79 cc1a4c698ece4f3999358c75e2c14e5e
+msgid "True if the key is pressed, False otherwise"
+msgstr "如果按键被按下则为 True，否则为 False"
+
+#: ../../source/unit/cardkb.rst:83 886d4219bd8147afa7c47552c1cc96bb
+msgid "|is_pressed.png|"
+msgstr ""
+
+#: ../../source/refs/unit.cardkb.ref:17 4fde977857e743939d5ee76e7198d8bb
+msgid "is_pressed.png"
+msgstr ""
+
+#: ../../source/unit/cardkb.rst:88 5db24ccfc72c41deb32619f5e1ae4afc
+msgid "Set the key press event callback."
+msgstr "设置按键按下事件回调函数。"
+
+#: ../../source/unit/cardkb.rst:90 992be9fe8b784f339233fb08d1901087
+msgid "callback function"
+msgstr "回调函数"
+
+#: ../../source/unit/cardkb.rst:94 2a3aa7c9089d4272bf83c0619e0bed27
+msgid "|pressed_event.png|"
+msgstr ""
+
+#: ../../source/refs/unit.cardkb.ref:19 a64ed52c43f1423288dc016306525e3c
+msgid "pressed_event.png"
+msgstr ""
+
+#: ../../source/unit/cardkb.rst:96 b6ad892e1af64490aa1a03edc8ed2953
+msgid "Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/cardkb.rst:113 560937316d634e7abb99b7dc57dc7c6b
+msgid "Update the key status."
+msgstr "更新按键状态。"
+
+#: ../../source/unit/cardkb.rst:117 844ad0a28efb4435a068c14ebcee069f
+msgid "|tick.png|"
+msgstr ""
+
+#: ../../source/refs/unit.cardkb.ref:21 7b7e3effa7b340e0b6beebdb2bb0e6d4
+msgid "tick.png"
+msgstr ""
+

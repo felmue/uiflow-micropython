@@ -18,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/module/display_module.rst:2 eef56be4af674249a33fbabf97e0f252
 msgid "Display Module"
-msgstr ""
+msgstr "Display Module"
 
 #: ../../en/module/display_module.rst:6 83003bf3053540baab8ab4d8fd4f603a
 msgid ""
@@ -47,15 +47,15 @@ msgstr ""
 
 #: ../../en/refs/module.display.ref d65afbd3f95a4f89af8854c3b7076c25
 msgid "DisplayModule"
-msgstr ""
+msgstr "DisplayModule"
 
 #: ../../en/module/display_module.rst:13 9c57caa47d48406ebb18b51649e0e039
 msgid "Micropython example::"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/display_module.rst:33 40a72bf1f0ea46678a2815ccdcaad785
 msgid "UIFLOW2 example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/module/display_module.rst:35 86a80bbf503a4128974b4db6424ca969
 msgid "|example.svg|"
@@ -63,5 +63,5 @@ msgstr ""
 
 #: ../../en/refs/module.display.ref:6 a01df9b233104cfea46a498a9ffe2fd9
 msgid "example.svg"
-msgstr ""
+msgstr "example.svg"
 

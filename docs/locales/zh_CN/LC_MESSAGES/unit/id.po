@@ -1,0 +1,482 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/id.rst:2 04a9121c92e5488397a3aea0edc14f83
+msgid "ID Unit"
+msgstr "ID 单元"
+
+#: ../../source/unit/id.rst:6 b73f90ea8ea344788cfdfe2df43b6777
+msgid ""
+"The ``ID Unit`` is a crypto coprocessor with hardware-based secure key "
+"storage, integrated with ATECC608B hardware cryptographic chip, using I2C"
+" communication interface. The chip has a built-in 10Kb EEPROM for storing"
+" keys, certificates, data, consumption records and security "
+"configurations."
+msgstr ""
+"``ID Unit`` 是一款加密协处理器，具备基于硬件的安全密钥存储功能，集成 ATECC608B 硬件加密芯片，并采用 I2C "
+"通信接口。该芯片内置 10Kb EEPROM，用于存储密钥、证书、数据、消耗记录以及安全配置。"
+
+#: ../../source/unit/id.rst:8 374fac5ecc184826a2c71f15977f46b0
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/id.rst:10 dc219b9a191c4dd28a1dd0d291548523
+msgid "|IDUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref 155636b883f9487b94f717bcfc84942a
+msgid "IDUnit"
+msgstr "IDUnit"
+
+#: ../../source/unit/id.rst:12 600c544d39414f4ea2642e840a0d4780
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/id.rst:27 1c25ffeb4775467abcb0f0be0d9a1da0
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/id.rst:29 574de13652e544ddb1e399ae12a92257
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:6 ffe79327ba914f68a5ae7f173fa54388
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:33 54697ae0a87945ea85df1416923575d5
+msgid "|cores3_id_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/id.rst:37 614967ba6a2d43b98252398294791399
+msgid "class IDUnit"
+msgstr "class IDUnit"
+
+#: ../../source/unit/id.rst:40 f624b0ec4a5b4da18bacf38b164485b8
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/id.rst:44 0d2f0b6d4eef48e7bd5872e0b828dcda
+msgid "Create a IDUnit object"
+msgstr "创建一个 IDUnit 对象"
+
+#: ../../source/unit/id.rst 0dcdce0c79e64f67b9409d3abb70e80e
+#: 0e40303101344406b78e43ab8efa5f40 457bb943d852453d86122a3c0774b08d
+#: 51f10e06b3b04bb0ac55b8a958def71d 588e2b51a2db40c3926bc513cc92a9f0
+#: 6b494c5a74fd43cbb80c5ad9cc05d551 b4fd0c435ec849e5aec81394b883eec6
+#: c8a792fd83e240bcbea4dd6f793b82b3 ccb68cd775c34ffebe8543eae79b0437
+#: d14d67f1dea04352a270c87a4c544087 d385d1935d534242a25d4f91bededce6
+#: e47d24982efe47e28598d84c8c776e89 e6442865224949d0bce33edcfb5ac594
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/id.rst:46 5c8983ae7a0a404bbf08972525de9ade
+msgid "the I2C object."
+msgstr "I2C 对象。"
+
+#: ../../source/unit/id.rst:48 ../../source/unit/id.rst:63
+#: ../../source/unit/id.rst:80 ../../source/unit/id.rst:95
+#: ../../source/unit/id.rst:106 ../../source/unit/id.rst:123
+#: ../../source/unit/id.rst:138 ../../source/unit/id.rst:154
+#: ../../source/unit/id.rst:169 ../../source/unit/id.rst:186
+#: ../../source/unit/id.rst:201 ../../source/unit/id.rst:221
+#: 14205dbd319e497887005bc5cc12ef22 1a203c7d3efa43bbadb6542a9ce33230
+#: 1ad5e06068b144da81a66174f1112752 75df9a3bbc9f431ab3c7c5a88d7460e2
+#: 7bae3cfb567446809dd33c460aecde50 9f3f13e796ae4e94abcdd50e3dffc082
+#: add600bc688a483d9ea08528cc6bd4a1 badb6bb938d648919d8beaba63b5810f
+#: c30fe4c1680f450e8daf497fc2b5f362 d6ba75968cc046d09fc6d5577bbb8b4a
+#: dd00a22d93d2420385621e498c3edaf8 e2a3314417f2471ca32910361691c2a2
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/id.rst:50 1f535a2a9f414b7f8e1a8d2e6e40e43c
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:7 2b35bb9de00d4ecfa8cef66d62f57957
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:54 3da04e05fb624d7ca74d8118ae2e03ba
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/id.rst:58 6797390cb92c4cbc9225f49259c3094e
+msgid ""
+"Returns the ATECC608B revision number. A revision number refers to a "
+"version identifier that indicates a specific iteration or update of the "
+"hardware design. The revision number helps distinguish between different "
+"versions of the same chip model."
+msgstr "返回 ATECC608B 修订版本号。修订版本号是指用于表示硬件设计特定迭代或更新的版本标识。该修订版本号有助于区分同一芯片型号的不同版本。"
+
+#: ../../source/unit/id.rst:61 fad6ebcaf1374cc3a8a95df067022363
+msgid "Return: ``int``:  hexdecimal"
+msgstr "返回：``int``：十六进制"
+
+#: ../../source/unit/id.rst:65 2db24ffc7ae34d8892e8e3998dc91041
+msgid "|get_revision_number.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:8 8179c84d643043e993b078d62ca2f1dd
+msgid "get_revision_number.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:70 ffdcadd09b1b43e0b581f4c03aecb703
+msgid "Returns the ATECC serial number."
+msgstr "返回 ATECC 序列号。"
+
+#: ../../source/unit/id.rst:72 2018e1af37a74f5db5b5aa298932ea75
+msgid "9-byte serial number is structured as follows:"
+msgstr "9 字节序列号的结构如下："
+
+#: ../../source/unit/id.rst:74 907a1aa8217c4e2682d2bc52272e0f41
+msgid ""
+"First 4 Bytes: These bytes are the first part of the serial number, which"
+" includes a fixed pattern and a portion that is unique to the device. "
+"Next 2 Bytes: These bytes are reserved and typically set to 0x00 or other"
+" reserved values. Last 3 Bytes: These bytes are the final part of the "
+"serial number and are unique to the device."
+msgstr ""
+"前 4 字节：这些字节是序列号的第一部分，包含固定模式以及设备唯一部分的一部分。接下来的 2 字节：这些字节为保留字段，通常设置为 0x00 "
+"或其他保留值。最后 3 字节：这些字节是序列号的最后一部分，且对该设备是唯一的。"
+
+#: ../../source/unit/id.rst:78 79e1f040e54440579ba74f5c94c6c820
+msgid "Return: ``string``"
+msgstr "Return：``string``"
+
+#: ../../source/unit/id.rst:82 7eadbe5b55bc492aaa7698a671e302ac
+msgid "|get_serial_number.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:9 192432f65721430abceb6c19d001776d
+msgid "get_serial_number.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:87 874f6dc5e5594916af026b62aa5191a2
+msgid ""
+"Returns the random number(4 byte). generate true random numbers using its"
+" hardware-based random number generator(RNG). This RNG is often used in "
+"secure applications where high-quality randomness is needed, such as in "
+"key generation."
+msgstr "返回随机数（4 字节）。使用其基于硬件的随机数生成器（RNG）生成真随机数。该 RNG 常用于需要高质量随机性的安全应用中，例如密钥生成。"
+
+#: ../../source/unit/id.rst:90 ../../source/unit/id.rst:91
+#: ../../source/unit/id.rst:117 ../../source/unit/id.rst:118
+#: ../../source/unit/id.rst:119 294de44472034de19dde9830484fe607
+#: 8652367247ea43498dae135e7d42af87 a8453a5fbb024be8a5f99ecb94202004
+#: b882db03d0884486aad8848211717303 f486bd84cdb841c194c69f03986d959d
+msgid "0 ~ 4294967295."
+msgstr "0 ~ 4294967295。"
+
+#: ../../source/unit/id.rst:93 8a8514fd3b0b4754b86f2460322ce271
+msgid "Return: ``int``:  0 ~ 4294967295"
+msgstr "返回值：``int``：0 ~ 4294967295"
+
+#: ../../source/unit/id.rst:97 81b2761306604684be11aaded348d4a0
+msgid "|randint.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:10 9384e1cd6498424fa9282af6cd5f0c7c
+msgid "randint.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:102 5be2f048529f48598697a90a641212aa
+msgid "Returns a random floating point number in the range [0.0 ~ 1.0]."
+msgstr "返回范围为 [0.0 ~ 1.0] 的随机浮点数。"
+
+#: ../../source/unit/id.rst:104 dd2e0923d102457aaa9fc6641a01ab3c
+msgid "Return: ``float``:  0.0 ~ 1.0"
+msgstr "返回：``float``：0.0 ~ 1.0"
+
+#: ../../source/unit/id.rst:108 070580d99f844843962cddb6f46c09d8
+msgid "|random.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:11 ae3a0f5803154295a41b4fc7d694f653
+msgid "random.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:113 15b972a8d7dc44759be113fc6d3b50e2
+msgid ""
+"The first form returns a random integer from the range(0, max). The "
+"second form returns a random integer from the range (min, max, step) in "
+"steps of step. For instance, calling randrange(1, 10, 2) will return odd "
+"numbers between 1 and 9 inclusive."
+msgstr ""
+"第一种形式会从 range(0, max) 范围内返回一个随机整数。第二种形式会以 step 为步长，从 range(min, max, "
+"step) 范围内返回一个随机整数。例如，调用 randrange(1, 10, 2) 将返回 1 到 9（含）之间的奇数。"
+
+#: ../../source/unit/id.rst:121 1ec3663b9a634e5395460bfe5abf436c
+msgid "Return: ``int``:   0 ~ 4294967295"
+msgstr "返回：``int``：0 ~ 4294967295"
+
+#: ../../source/unit/id.rst:125 999e9410442a4f6694530fe5bd7a3181
+msgid "|randrange_max.png| |randrange.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:12 ba42af46effd43ecb50e292879d91a3c
+msgid "randrange_max.png"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:13 62e80ef321e442a0a07f682ed9ffe07b
+msgid "randrange.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:131 e73fc2b70cd54341853148a694010037
+msgid ""
+"Return a random floating point number N such that min <= N <= max for min"
+" <= max, and max <= N <= min for max < min."
+msgstr ""
+"返回一个随机浮点数 N，使得当 min <= max 时满足 min <= N <= max，当 max < min 时满足 max <= N "
+"<= min。"
+
+#: ../../source/unit/id.rst:136 1230212233eb4565bb7dfeec3f0f4b95
+msgid "Return: ``float``:"
+msgstr "Return: ``float``:"
+
+#: ../../source/unit/id.rst:140 db379a63151c4c8faafc93b219ed7d90
+msgid "|uniform.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:14 d8a6644e09c244c6ae7687441110a669
+msgid "uniform.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:145 a840748051b547c5985fa9c46f77baf1
+msgid ""
+"Returns the generates a private or public key. A private key is a "
+"confidential piece of data that is used in cryptography to perform "
+"various functions. A public key is a cryptographic key that is paired "
+"with a private key in public-key cryptography."
+msgstr "返回生成的私钥或公钥。私钥是一段机密数据，用于在密码学中执行各种功能。公钥是在公钥密码学中与私钥配对的加密密钥。"
+
+#: ../../source/unit/id.rst:149 ../../source/unit/id.rst:164
+#: ../../source/unit/id.rst:212 0295a47d62704c578ad0463272080bf9
+#: 999e3955fb064662b5ad3a1b8ecf8eae a1409d1c17ca44ad8538d45be995f7d4
+msgid "0 ~ 4"
+msgstr "0 ~ 4"
+
+#: ../../source/unit/id.rst:150 ../../source/unit/id.rst:213
+#: 71fa7773cecc493fb02dd1dfa8106df5 c7a03a6eda204aa18db78ee95b2fc290
+msgid "True or False"
+msgstr "True or False"
+
+#: ../../source/unit/id.rst:152 ../../source/unit/id.rst:167
+#: 0481c98055be4a768859e42eccbb5670 04e46d3c0c3346d6ac74688e93b8b15a
+msgid "Return: ``bytearray``:"
+msgstr "返回：``bytearray``："
+
+#: ../../source/unit/id.rst:156 807e761c2f044cb794a570552b1ad339
+msgid "|get_generate_key.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:15 784cea0dac614697b1aa6b4ef6aa5a2e
+msgid "get_generate_key.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:161 2d554dae71b64fd28129a4517914f8ee
+msgid ""
+"Returns the ECDSA signatures. ECDSA is widely used in digital signatures "
+"for ensuring the authenticity and integrity of messages and documents."
+msgstr "返回 ECDSA 签名。ECDSA 广泛用于数字签名，以确保消息和文档的真实性与完整性。"
+
+#: ../../source/unit/id.rst:165 ../../source/unit/id.rst:180
+#: 7c8bce9e2d4d4346836946119b9168a7 9d98b37d421540e587cf0e7cb17f5c79
+msgid "``string`` or ``list`` or ``bytearray``"
+msgstr "``string`` 或 ``list`` 或 ``bytearray``"
+
+#: ../../source/unit/id.rst:171 ab6f091a67ca4359a3de03b3c64a6910
+msgid "|get_ecdsa_sign.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:17 058fc7642c074f6d9d2f1dae1b4a9556
+msgid "get_ecdsa_sign.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:176 9ffeb82f29c64f9c9f72d01d70a4d43a
+msgid ""
+"Returns the verify ecsda signature status. A signature verification in "
+"the Elliptic Curve Digital Signature Algorithm (ECDSA) is the process of "
+"checking whether a given digital signature is valid and was indeed "
+"generated by the holder of the corresponding private key or public key. "
+"This process ensures that the message or data."
+msgstr ""
+"返回验证 ECDSA "
+"签名的状态。椭圆曲线数字签名算法（ECDSA）中的签名验证，是检查给定的数字签名是否有效，并且确实由对应私钥或公钥的持有者生成的过程。该过程可确保消息或数据。"
+
+#: ../../source/unit/id.rst:181 ../../source/unit/id.rst:182
+#: 4e8c2b7fd29c40c591c36276394eae32 de1098266ea74645a5705f1b6db45a98
+msgid "``bytearray``"
+msgstr ""
+
+#: ../../source/unit/id.rst:184 6734a8a1fa394fc3a605ac2ebb5b5df2
+msgid "Return: ``bool``: True or False"
+msgstr "返回：``bool``：True 或 False"
+
+#: ../../source/unit/id.rst:188 8b674c816bb54fba8de043cc7bbf1e8f
+msgid "|get_verify_ecdsa_sign.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:18 89a8e8cd79eb4228bd2383e9b705cdc3
+msgid "get_verify_ecdsa_sign.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:193 398a8fce5c424d22a45575a3eb30d315
+msgid ""
+"Get the generate the SHA-256 hash value. SHA-256 (Secure Hash Algorithm "
+"256-bit) is a cryptographic hash function that produces a fixed-size, "
+"256-bit (32-byte) hash value, regardless of the size of the input data."
+msgstr ""
+"获取生成的 SHA-256 哈希值。SHA-256（Secure Hash Algorithm "
+"256-bit）是一种加密哈希函数，无论输入数据大小如何，都会生成固定大小的 256 位（32 字节）哈希值。"
+
+#: ../../source/unit/id.rst:196 8dee9afd05be407790f9256585631718
+msgid "``string``"
+msgstr "string"
+
+#: ../../source/unit/id.rst:197 8767ac4f275246f198ec05d841141641
+msgid "0: hexdecimal, 1: base64"
+msgstr "0：十六进制，1：base64"
+
+#: ../../source/unit/id.rst:199 cbbf1cd74be04556aaa4f0935f8225d8
+msgid "Return: ``string``:"
+msgstr "Return: ``string``:"
+
+#: ../../source/unit/id.rst:203 d510d9564c7940b98aa25ad4756c27ed
+msgid "|get_sha256_hash.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:16 593134d3d80e4ade8bdc6121d9ee3dac
+msgid "get_sha256_hash.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:208 121d8259ef83497d876d1d450c9857d3
+msgid ""
+"A Certificate Signing Request (CSR) is a block of encoded text that is "
+"sent to a Certificate Authority (CA) when you apply for an SSL/TLS "
+"certificate. It contains information that the CA uses to create your "
+"certificate, including your public key and some information about your "
+"organization."
+msgstr ""
+"证书签名请求（CSR）是一段经过编码的文本块，当您申请 SSL/TLS 证书时会将其发送给证书颁发机构（CA）。它包含 CA "
+"用于创建证书的信息，包括您的公钥以及有关您组织的一些信息。"
+
+#: ../../source/unit/id.rst:214 fbb35611dfb5492482876a8eecdceaed
+msgid "country name example: China"
+msgstr "国家名称示例：China"
+
+#: ../../source/unit/id.rst:215 bc43914e89e045caa544205859756114
+msgid "states or province name"
+msgstr "州或省名称"
+
+#: ../../source/unit/id.rst:216 935b231209dd4d03a6fe74e9e95987dc
+msgid "city name"
+msgstr "城市名称"
+
+#: ../../source/unit/id.rst:217 6170f926d7234c3db57eb659a9aa85dc
+msgid "organization or company name"
+msgstr "组织或公司名称"
+
+#: ../../source/unit/id.rst:218 2ee402f6865a4f3f9574af7a3e0c9794
+msgid "organization or company unit name"
+msgstr "组织或公司单位名称"
+
+#: ../../source/unit/id.rst:219 9af2062985e744a980d33a56ac445941
+msgid "Store the file to flash or SD"
+msgstr "将文件保存到 flash 或 SD"
+
+#: ../../source/unit/id.rst:223 7f21ad4f3e274a7cb29d302c701c10d8
+msgid "|set_certificate_signing_request.png|"
+msgstr ""
+
+#: ../../source/refs/unit.id.ref:19 9fdfca35bcbc4c3c90e7d35ec40ec5cf
+msgid "set_certificate_signing_request.png"
+msgstr ""
+
+#: ../../source/unit/id.rst:227 04c882218b2444b58b966d4eb135b309
+msgid ""
+"Performs AES-ECB mode encryption on data. The AES key is stored in slot 9"
+" of the chip."
+msgstr "对数据执行 AES-ECB 模式加密。AES 密钥存储在芯片的 slot 9 中。"
+
+#: ../../source/unit/id.rst:229 d7a56fd59ba14b708f970ed35035aa4d
+msgid "Position for encryption operation (used after left shift by 6)"
+msgstr "加密操作的位置（在左移 6 位后使用）"
+
+#: ../../source/unit/id.rst:230 ../../source/unit/id.rst:249
+#: 8d67eec42cd042dfb0573e14d59238c1 fe6a52530b9c4ca58d9681b3fbd8e9c8
+msgid "Data to be encrypted, must be 16 bytes"
+msgstr "要加密的数据，必须为 16 字节"
+
+#: ../../source/unit/id.rst:232 ../../source/unit/id.rst:251
+#: 20b1ecadd00a49f9b1bd3a50aa18b19d 4fc5889753704e96ad178a67406760ad
+msgid "Return: ``bytearray``: Returns 16 bytes of encrypted data"
+msgstr "返回：``bytearray``：返回 16 字节的加密数据"
+
+#: ../../source/unit/id.rst:237 9e1d0ca13d344ee89065dfbb24aa4727
+msgid ""
+"Performs AES-ECB mode decryption on data. The AES key is stored in slot 9"
+" of the chip."
+msgstr "对数据执行 AES-ECB 模式解密。AES 密钥存储在芯片的 slot 9 中。"
+
+#: ../../source/unit/id.rst:239 a24a46ab445944338a5e1f7920c538c8
+msgid "Position for decryption operation (used after left shift by 6)"
+msgstr "解密操作的位置（在左移 6 位之后使用）"
+
+#: ../../source/unit/id.rst:240 53cac2d3ba37408eafa4522cf3ab2821
+msgid "Data to be decrypted, must be 16 bytes"
+msgstr "要解密的数据，必须为 16 字节"
+
+#: ../../source/unit/id.rst:242 0c9cd49945934389a1850b01d9050bf4
+msgid "Return: ``bytearray``: Returns 16 bytes of decrypted data"
+msgstr "返回：``bytearray``：返回 16 字节的解密数据"
+
+#: ../../source/unit/id.rst:247 3a5ffae3190d49a48838fc7ea3529bf1
+msgid ""
+"Performs Galois Field Multiplication (GFM) encryption operation in AES-"
+"GCM mode."
+msgstr "在 AES-GCM 模式下执行伽罗瓦域乘法（GFM）加密操作。"
+
+#: ../../source/unit/id.rst:255 3f417b868064467181263a3ec9646e47
+msgid "Performs an ECDH key exchange operation using stored keys."
+msgstr "使用存储的密钥执行 ECDH 密钥交换操作。"
+
+#: ../../source/unit/id.rst:257 95e0027c78b7448a9c80192a8328076e
+msgid "The key slot number"
+msgstr "密钥槽编号"
+
+#: ../../source/unit/id.rst:258 7b753f10f7a7480d83d202eb66f71c30
+msgid "ECDH operation mode"
+msgstr "ECDH 操作模式"
+
+#: ../../source/unit/id.rst:259 44ee3421d5d842699923645ef03867f4
+msgid ""
+"External public key, must be 64 bytes. If not provided, a new public key "
+"will be generated"
+msgstr "外部公钥，必须为 64 字节。如果未提供，将生成新的公钥。"
+
+#: ../../source/unit/id.rst:261 d4682a99481a402f99d718eb3380fc71
+msgid ""
+"Return: ``bytearray``: Returns 32 bytes shared secret when mode is 0x0C "
+"or 0x08;"
+msgstr "返回：``bytearray``：当模式为 0x0C 或 0x08 时，返回 32 字节共享密钥；"
+

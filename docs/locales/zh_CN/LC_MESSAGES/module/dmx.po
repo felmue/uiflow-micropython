@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/dmx.rst:2 16d357381ca54bd9aa082f5f4aa2bc21
 msgid "DMX512 Module"
-msgstr ""
+msgstr "DMX512 模块"
 
 #: ../../en/module/dmx.rst:6 826487ee151f49818e2ffebfaab1757f
 msgid ""
@@ -33,10 +33,13 @@ msgid ""
 "interfaces, in addition, the module has HT3.96 pitch 485 interface to "
 "facilitate connection to Expansion 485 devices."
 msgstr ""
+"DMX-Base 是专为 DMX-512 数据传输场景设计的功能底座，通过串口与 M5 主机通信并实现控制，配备 XLR-5 和 XLR-3 "
+"公头与母头接口，方便用户连接不同接口的 DMX 设备。此外，该模块还提供 HT3.96 间距的 485 接口，便于连接 Expansion 485"
+" 设备。"
 
 #: ../../en/module/dmx.rst:8 fb16e40d472843fbb9802ac861fe7667
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/dmx.rst:10 0e27f4497864431091de832c0ee57e8a
 msgid "|dmx|"
@@ -44,19 +47,19 @@ msgstr ""
 
 #: ../../en/refs/module.dmx.ref 1639b471701f4186b0ecdfe5f127ec4b
 msgid "dmx"
-msgstr ""
+msgstr "dmx"
 
 #: ../../en/module/dmx.rst:12 0813ff1d44de411290d9fd1f4f3b7941
 msgid "Micropython Example Send Data:"
-msgstr ""
+msgstr "MicroPython 应用示例 发送数据："
 
 #: ../../en/module/dmx.rst:19 667b7a21a57d4c76933ba2cd66672fe6
 msgid "Micropython Example Receive Data:"
-msgstr ""
+msgstr "MicroPython 应用示例 接收数据："
 
 #: ../../en/module/dmx.rst:27 91895d28d4c741a585cd13c2de717926
 msgid "UIFLOW2 Master Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/module/dmx.rst:29 02a162677a4443df8ca67877ca4d5261
 msgid "|tx_example.png|"
@@ -68,7 +71,7 @@ msgstr ""
 
 #: ../../en/module/dmx.rst:31 07771f6e03fa49b9be94e127f2ed0b4f
 msgid "UIFLOW2 Slave Example:"
-msgstr ""
+msgstr "UiFlow2 从机应用示例："
 
 #: ../../en/module/dmx.rst:33 df33858349c44d958e72a4d96742bd0e
 msgid "|rx_example.png|"
@@ -88,15 +91,15 @@ msgstr ""
 
 #: ../../en/module/dmx.rst:43 043eb5ebe1a849068e80cee9dae368bb
 msgid "class DMX512Module"
-msgstr ""
+msgstr "class DMX512Module"
 
 #: ../../en/module/dmx.rst:46 d0dfc0cfc26942138162cc42e9407d58
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/module/dmx.rst:50 3ef79bed01dc494c9720d883d87c9b6e
 msgid "Initializes the DMX512 module with a specified UART ID and port pins."
-msgstr ""
+msgstr "使用指定的 UART ID 和端口引脚初始化 DMX512 模块。"
 
 #: ../../en/module/dmx.rst 1833cb33af744dd39bf3a48030541632
 #: 2a02ee266bbd4ee6925e7c15a781e11c 38668e82fcc845e48938394e265005b6
@@ -107,12 +110,12 @@ msgstr ""
 
 #: ../../en/module/dmx.rst:52 404ffc545d80424597bbb77fe85b9a17
 msgid "UART device ID(DMX port id)."
-msgstr ""
+msgstr "UART 设备 ID（DMX 端口 ID）。"
 
 #: ../../en/module/dmx.rst:53 ../../en/module/dmx.rst:66
 #: 6402868cf2ee45ad89c5e59d8769f13d bb25dbe8c0154db8bf42caacd4f4c250
 msgid "Operating mode (1 for Master, 2 for Slave)."
-msgstr ""
+msgstr "工作模式（1 为 Master，2 为 Slave）。"
 
 #: ../../en/module/dmx.rst:55 ../../en/module/dmx.rst:68
 #: ../../en/module/dmx.rst:76 ../../en/module/dmx.rst:88
@@ -124,7 +127,7 @@ msgstr ""
 #: be62766af5e541fa8316f81e9ef24630 da74c67cdd134520b943338db5e99b7a
 #: e9a9012eed1e4639a73aa7e127f20fd3 ee3928b0335d4bed8b33155d7915bdb5
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2"
 
 #: ../../en/module/dmx.rst:57 204f01703510488695bb71f6733abc60
 msgid "|init.png|"
@@ -140,7 +143,7 @@ msgstr ""
 
 #: ../../en/module/dmx.rst:64 c822731cb1df42e78e55986a36f39a5a
 msgid "Initializes the DMX512 communication with UART pins and mode."
-msgstr ""
+msgstr "使用 UART 引脚和模式初始化 DMX512 通信。"
 
 #: ../../en/module/dmx.rst:70 767d570702bd4aa68c0903499f9fbae2
 msgid "|dmx_init.png|"
@@ -152,7 +155,7 @@ msgstr ""
 
 #: ../../en/module/dmx.rst:74 7a9e49bd52e94e54b6fa2ea200098508
 msgid "Deinitializes the DMX512 module and stops any ongoing operations."
-msgstr ""
+msgstr "反初始化 DMX512 模块，并停止任何正在进行的操作。"
 
 #: ../../en/module/dmx.rst:78 3677cec3b1a146a6bf5b5da44def482f
 msgid "|deinit.png|"
@@ -166,18 +169,18 @@ msgstr ""
 msgid ""
 "Updates the data for a specified DMX channel. Data is sent on the next "
 "update cycle."
-msgstr ""
+msgstr "更新指定 DMX 通道的数据。数据将在下一个更新周期发送。"
 
 #: ../../en/module/dmx.rst:84 ../../en/module/dmx.rst:105
 #: 11d194738c8d4a7d944670df6b8acbc1 8a7a3eb4e8cc4044aa00336360eeb74f
 msgid "DMX channel number (1-512)."
-msgstr ""
+msgstr "DMX 通道编号（1 - 512）。"
 
 #: ../../en/module/dmx.rst:85 df730f08aaf84f86bfa85a9669ccc748
 msgid ""
 "Data value to be sent (0-255). @raises ValueError if the channel number "
 "is out of range."
-msgstr ""
+msgstr "要发送的数据值（0 - 255）。如果通道编号超出范围，将引发 ValueError。"
 
 #: ../../en/module/dmx.rst:90 0c4a3e425e6b492abcc6e8ea073dbc24
 msgid "|write_data.png|"
@@ -189,7 +192,7 @@ msgstr ""
 
 #: ../../en/module/dmx.rst:95 14a47acec19543a2b0ce388c26fb8041
 msgid "Clears the DMX buffer and resets the data."
-msgstr ""
+msgstr "清除 DMX 缓冲区并重置数据。"
 
 #: ../../en/module/dmx.rst:99 4372d75522064595a6ee9c55c827ae50
 msgid "|clear_buffer.png|"
@@ -201,7 +204,7 @@ msgstr ""
 
 #: ../../en/module/dmx.rst:103 9d5d2a861cd149cea34e257e2c4e9bfb
 msgid "Reads data from a specified DMX channel in Slave mode."
-msgstr ""
+msgstr "在 Slave 模式下，从指定的 DMX 通道读取数据。"
 
 #: ../../en/module/dmx.rst:109 bd1cb9a0b07f40c4866674d94cc9b07e
 msgid "|read_data.png|"
@@ -215,7 +218,7 @@ msgstr ""
 msgid ""
 "Starts non-blocking data reception for the specified channels with "
 "associated callbacks."
-msgstr ""
+msgstr "为指定通道启动非阻塞数据接收，并关联相应的回调函数。"
 
 #: ../../en/module/dmx.rst:118 5f1c4f65b0934816a7a24d11727d9aee
 msgid "|receive_none_block.png|"
@@ -227,15 +230,15 @@ msgstr ""
 
 #: ../../en/module/dmx.rst:122 7505f3b5b90a43859f153a898b7e9262
 msgid "Attaches a callback function to a specified DMX channel."
-msgstr ""
+msgstr "将回调函数绑定到指定的 DMX 通道。"
 
 #: ../../en/module/dmx.rst:124 5a976c5bba794cb6b506f8c3f9206cde
 msgid "DMX channel number (1-512) to attach the callback to."
-msgstr ""
+msgstr "要绑定回调函数的 DMX 通道编号（1-512）。"
 
 #: ../../en/module/dmx.rst:125 75531270c9c647228748c269a086a1cf
 msgid "The function to be called when data changes on the specified channel."
-msgstr ""
+msgstr "当指定通道上的数据发生变化时要调用的函数。"
 
 #: ../../en/module/dmx.rst:129 8a199d87749a42c7944b1e21b3fb40ce
 msgid "|receive_data_event.png|"
@@ -247,7 +250,7 @@ msgstr ""
 
 #: ../../en/module/dmx.rst:134 307eaa7bbabf4543ae621a9d889322f9
 msgid "Stops the non-blocking data reception task."
-msgstr ""
+msgstr "停止非阻塞数据接收任务。"
 
 #: ../../en/module/dmx.rst:138 951187a075804eedb1acacae830fe9f2
 msgid "|stop_receive.png|"
@@ -259,9 +262,9 @@ msgstr ""
 
 #: ../../en/module/dmx.rst:142 faa6195709e242c194aed3bbb917f56b
 msgid "Detaches the callback function from a specified DMX channel."
-msgstr ""
+msgstr "从指定的 DMX 通道中解除回调函数的绑定。"
 
 #: ../../en/module/dmx.rst:144 fe6ac01fc5ab43ff9b4b4a023c63bff1
 msgid "DMX channel number (1-512) to detach the callback from."
-msgstr ""
+msgstr "要从中解除回调函数绑定的 DMX 通道编号（1-512）。"
 

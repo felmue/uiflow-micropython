@@ -22,25 +22,25 @@ msgstr ""
 
 #: ../../en/software/requests2.rst:2 8d4f0c0c62d04ec79418303e49525d32
 msgid ":mod:`requests2` --- Network Request Module"
-msgstr ""
+msgstr ":mod:`requests2` --- 网络请求模块"
 
 #: ../../en/software/requests2.rst:9 78e6c464fd254b9ea11949eef2715809
 msgid ""
 "requests2 is based on urequests and supports Streaming Uploads and x-www-"
 "form-urlencoded."
-msgstr ""
+msgstr "requests2 基于 urequests，并支持 Streaming Uploads 和 x-www-form-urlencoded。"
 
 #: ../../en/software/requests2.rst:11 54d2f6ac74754ee9bd0a3cb39e9b0588
 msgid "The main functionality and function of the ``requests2`` module."
-msgstr ""
+msgstr "``requests2`` 模块的主要功能与作用。"
 
 #: ../../en/software/requests2.rst:14 9c30d6f812db4c5eb36522c221eb00e0
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/software/requests2.rst:21 5ff4029bac0446d7a77b7810e371a7ce
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/software/requests2.rst:23 a69fb2d1f64647d58132661788e25437
 msgid "|example.png|"
@@ -56,13 +56,13 @@ msgstr ""
 
 #: ../../en/software/requests2.rst:32 68193db145b241a085d8a84399df3c63
 msgid "Function"
-msgstr ""
+msgstr "Function"
 
 #: ../../en/software/requests2.rst:36 aa9f3c90b0a3414ea90a74370562be91
 msgid ""
 "Send a network request, it will block the response data returned to the "
 "network, parameters:"
-msgstr ""
+msgstr "发送网络请求，将阻塞直到网络返回响应数据，参数："
 
 #: ../../en/software/requests2.rst 100849136c0446639e8830ca8a1d3990
 #: 594718ec8c694a6cb9a15cce60dccf36 646b6db6e4764f7ebc041e25900d65c3
@@ -75,7 +75,7 @@ msgstr ""
 msgid ""
 "method of establishing a network request. e.g. "
 "``HEAD``,``GET``,``POST``,``PUT``,``PATCH``, ``DELETE``."
-msgstr ""
+msgstr "建立网络请求的方法，例如 ``HEAD``、``GET``、``POST``、``PUT``、``PATCH``、``DELETE``。"
 
 #: ../../en/software/requests2.rst:39 ../../en/software/requests2.rst:49
 #: ../../en/software/requests2.rst:57 ../../en/software/requests2.rst:69
@@ -85,27 +85,27 @@ msgstr ""
 #: 9382386c58ef4839a2b4a46a573ac037 a6001dbf886c4ada8e905f7417891ec0
 #: a9296eafa00044c8a4a2eead7853d3a0 b56954085a3644f2ae75c11ea5505fc7
 msgid "URL of the network request."
-msgstr ""
+msgstr "网络请求的 URL。"
 
 #: ../../en/software/requests2.rst:40 cd972f222974436f9f29e40a8bc1f2dd
 msgid ""
 "(optional), a dictionary, tuple list [(key, value)] (will be form coded),"
 " byte or class file object sent in the request body."
-msgstr ""
+msgstr "（可选）字典、元组列表 [(key, value)]（将进行表单编码）、byte 或 class file 对象，将在请求正文中发送。"
 
 #: ../../en/software/requests2.rst:41 721ecb8e60414d9bb60d7d65d0e8ead2
 msgid "(optional), json data sent in the request body."
-msgstr ""
+msgstr "（可选）请求正文中发送的 JSON 数据。"
 
 #: ../../en/software/requests2.rst:42 4506f4a97f9e475abf2fc46aee7847a3
 msgid "(optional), HTTP header dictionary to be sent with the request."
-msgstr ""
+msgstr "（可选），随请求发送的 HTTP 头字典。"
 
 #: ../../en/software/requests2.rst:47 2376a95c829047a9b3df53aed8ae567c
 msgid ""
 "Send a ``HEAD`` request, the return type is the response of the request, "
 "parameters："
-msgstr ""
+msgstr "发送 ``HEAD`` 请求，返回类型为该请求的响应，参数："
 
 #: ../../en/software/requests2.rst:50 ../../en/software/requests2.rst:58
 #: ../../en/software/requests2.rst:70 ../../en/software/requests2.rst:81
@@ -114,13 +114,13 @@ msgstr ""
 #: c799d7bdcab146b780c40946651775d3 d4aa0cefab6b45e8b0111558a8c321d8
 #: f56af1f8d41e438c911e93d22fb8dd03 fa751e689695450191fa700e3cdfc004
 msgid "request optional parameters."
-msgstr ""
+msgstr "请求可选参数。"
 
 #: ../../en/software/requests2.rst:55 6a096f1df69c4f4bac98935bc49acc04
 msgid ""
 "Send a ``GET`` request, the return type is the response of the request, "
 "parameters："
-msgstr ""
+msgstr "发送一个 ``GET`` 请求，返回类型为该请求的响应，参数："
 
 #: ../../en/software/requests2.rst:60 ../../en/software/requests2.rst:72
 #: ../../en/software/requests2.rst:83 ../../en/software/requests2.rst:94
@@ -134,7 +134,7 @@ msgstr ""
 #: 7ab0cd3934f44c6798598b3e04827d69 91417bfabb1846baac09c0f764a24fa7
 #: 9523d59e03e344bf8777480b6be56fec f3e5703ec2394f82971e30c6ba58c288
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2："
 
 #: ../../en/software/requests2.rst:62 8b353839db654ba29393f33765626566
 msgid "|get.png|"
@@ -148,7 +148,7 @@ msgstr ""
 msgid ""
 "Send a ``POST`` request, the return type is the response of the request, "
 "parameters："
-msgstr ""
+msgstr "发送 ``POST`` 请求，返回类型为该请求的响应，参数："
 
 #: ../../en/software/requests2.rst:74 f683785b07a245888b587b2d1001420f
 msgid "|post.png|"
@@ -162,7 +162,7 @@ msgstr ""
 msgid ""
 "Send a ``PUT`` request, the return type is the response of the request, "
 "parameters："
-msgstr ""
+msgstr "发送 ``PUT`` 请求，返回类型为请求的响应，参数："
 
 #: ../../en/software/requests2.rst:85 870527ea87004f67b45aa662719b53a9
 msgid "|put.png|"
@@ -176,7 +176,7 @@ msgstr ""
 msgid ""
 "Send a ``PATCH`` request, the return type is the response of the request,"
 " parameters:"
-msgstr ""
+msgstr "发送 ``PATCH`` 请求，返回类型为请求的响应，参数："
 
 #: ../../en/software/requests2.rst:96 202cb78d79004d8d9b8fcd5bd0621292
 msgid "|patch.png|"
@@ -190,7 +190,7 @@ msgstr ""
 msgid ""
 "Send a ``DELETE`` request, the return type is the response of the "
 "request, parameters："
-msgstr ""
+msgstr "发送 ``DELETE`` 请求，返回类型为请求响应，参数："
 
 #: ../../en/software/requests2.rst:108 85c7549064544106aac9175a3fb9de92
 msgid "|delete.png|"
@@ -212,16 +212,16 @@ msgstr ""
 #: 2946e2ad2e3343bb8be09c39e6910cd8 4f90e01292324bd2be1ab1eb4b0f7a4a
 #: efcf6cc109164b5288d4f7656e2aa4e0
 msgid "type"
-msgstr ""
+msgstr "type"
 
 #: ../../en/software/requests2.rst:119 ../../en/software/requests2.rst:150
 #: a21ab0b595bc4199b7678fcfff0b34ec c5e1f4ab6f8949f5820c644d719426aa
 msgid "dict"
-msgstr ""
+msgstr "dict"
 
 #: ../../en/software/requests2.rst:121 9dad594ca476463e9e2ca236f52e02de
 msgid "Return the response header."
-msgstr ""
+msgstr "Return the response header."
 
 #: ../../en/software/requests2.rst:125 7ae84188dab24491a3bacbeb541c7d7c
 msgid "|headers.png|"
@@ -233,11 +233,11 @@ msgstr ""
 
 #: ../../en/software/requests2.rst:130 1030f36c722e464e91a5f8f4d7c8ee56
 msgid "int"
-msgstr ""
+msgstr "int"
 
 #: ../../en/software/requests2.rst:132 4e957bb457f046cda2668f982d07fb91
 msgid "Return the status code of the response."
-msgstr ""
+msgstr "返回响应的状态码。"
 
 #: ../../en/software/requests2.rst:136 f8246c5ef31d469db6428ad31f0b5d91
 msgid "|status_code.png|"
@@ -249,7 +249,7 @@ msgstr ""
 
 #: ../../en/software/requests2.rst:141 f5cd14e5fe264a2caa2fdabaacdbfda7
 msgid "Close the connection and release resources."
-msgstr ""
+msgstr "关闭连接并释放资源。"
 
 #: ../../en/software/requests2.rst:145 083694e18be74ad7b78ddbaa2cd6fd5a
 msgid "|close.png|"
@@ -261,7 +261,7 @@ msgstr ""
 
 #: ../../en/software/requests2.rst:152 625e9413c8bf4665ad257ca176ed1c1a
 msgid "Return the content of the response, in bytes."
-msgstr ""
+msgstr "以字节（bytes）形式返回响应内容。"
 
 #: ../../en/software/requests2.rst:156 689a6e0986ba4b289563e896eec64f05
 msgid "|content.png|"
@@ -273,11 +273,11 @@ msgstr ""
 
 #: ../../en/software/requests2.rst:161 10e4dcd08a03436787042a0fef18e68a
 msgid "str"
-msgstr ""
+msgstr "str"
 
 #: ../../en/software/requests2.rst:163 a35ed1bb88804c329dd14d18d4e47d9d
 msgid "Return the content of the response, in str."
-msgstr ""
+msgstr "返回响应内容，类型为 `str`。"
 
 #: ../../en/software/requests2.rst:167 41355ed9da0646dfa657f940cba4dc8a
 msgid "|text.png|"
@@ -289,7 +289,7 @@ msgstr ""
 
 #: ../../en/software/requests2.rst:172 f412240a592b45f29c40f959a190a6df
 msgid "Return the content of the response, in dict."
-msgstr ""
+msgstr "{}"
 
 #: ../../en/software/requests2.rst:176 838cb04f6b144821985eee2f0b0d3eb4
 msgid "|json.png|"

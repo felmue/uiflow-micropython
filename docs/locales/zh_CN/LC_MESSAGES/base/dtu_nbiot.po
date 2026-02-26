@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/base/dtu_nbiot.rst:2 ../../en/refs/base.dtu_nbiot.ref
 #: 4620709491cd4b6ba1a7f22643a8713b c51dce79dda84dd390c12e0ddb0d81b8
 msgid "Atom DTU NBIoT"
-msgstr ""
+msgstr "Atom DTU NBIoT"
 
 #: ../../en/base/dtu_nbiot.rst:8 0dce050d673244639b1d88a642cf144e
 msgid ""
@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../../en/refs/base.dtu_nbiot.ref a6a8dc33f6a54a7c8754d348f187db8c
 msgid "Atom DTU NBIoT CN"
-msgstr ""
+msgstr "Atom DTU NBIoT CN"
 
 #: ../../en/base/dtu_nbiot.rst:18 4240a06c3ec44869b34eb3ce56f3f64d
 msgid ""
@@ -151,11 +151,11 @@ msgstr "API参考"
 
 #: ../../en/base/dtu_nbiot.rst:100 c51dce79dda84dd390c12e0ddb0d81b8
 msgid "AtomDTUNBIoT"
-msgstr ""
+msgstr "AtomDTUNBIoT"
 
 #: base.dtu_nbiot.AtomDTUNBIoT:1 da526788c30d4c2ab8e624367dd65c16 of
 msgid "Bases: :py:class:`~driver.simcom.sim7020.SIM7020`"
-msgstr ""
+msgstr "Bases: :py:class:`~driver.simcom.sim7020.SIM7020`"
 
 #: 13838d7f3fee4c349dc68219e9af2486 base.dtu_nbiot.AtomDTUNBIoT:1 of
 msgid "Create an AtomDTUNBIoT object."
@@ -187,7 +187,7 @@ msgstr "更多详细信息请参阅 :class:`NBIOTUnit <unit.nbiot.NBIOTUnit>`。
 
 #: ../../en/base/dtu_nbiot.rst:110 ca20a6f5320445d3a502961371786e9f
 msgid "AtomRS485"
-msgstr ""
+msgstr "AtomRS485"
 
 #: ../../en/base/dtu_nbiot.rst:114 caebe30c38cc4da3afe0d645149e65b0
 msgid "See :class:`AtomRS485 <base.rs232.AtomRS232>` for more details."

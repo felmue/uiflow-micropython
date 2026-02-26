@@ -22,25 +22,25 @@ msgstr ""
 
 #: ../../en/system/audio.recorder.rst:4 a38a55977913418e85ab03cd2f7c3e1a
 msgid "class Recorder"
-msgstr ""
+msgstr "class Recorder"
 
 #: ../../en/system/audio.recorder.rst:8 8ad638c068184af08e4767827ac937a7
 msgid ""
 "The recorder can record audio from the microphone and encode the audio "
 "into wav or amr format."
-msgstr ""
+msgstr "录音器可以从麦克风录制音频，并将音频编码为 wav 或 amr 格式。"
 
 #: ../../en/system/audio.recorder.rst:12 507b87e343d04e9b98b1e850766e50d7
 msgid "class audio.Recorder"
-msgstr ""
+msgstr "class audio.Recorder"
 
 #: ../../en/system/audio.recorder.rst:15 712fe124574d4025b6c0d37d3dd31e3a
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/system/audio.recorder.rst:19 fe34ab6b3b0d482f87d5b7b4ebcfd048
 msgid "Create a Recorder object."
-msgstr ""
+msgstr "创建一个 Recorder 对象。"
 
 #: ../../en/system/audio.recorder.rst 0cabc66970fe46778c44c15e37c35cab
 #: 1fb4a2ebc2514810affbf13d54cd4dc2 326be48b93d24235a96d4600b3e41855
@@ -52,19 +52,19 @@ msgstr ""
 #: ../../en/system/audio.recorder.rst:141 2c8dcbddbde94115858592090ea9af41
 #: b21a8485ab26487b895a15de0680b6af be9a14738bce43e3b29bd24145c4b368
 msgid "The sample rate of the audio data. The range is 8000-96000."
-msgstr ""
+msgstr "音频数据的采样率。范围为 8000-96000。"
 
 #: ../../en/system/audio.recorder.rst:22 ../../en/system/audio.recorder.rst:68
 #: ../../en/system/audio.recorder.rst:142 0b549a66bf4247eca799885f63866c68
 #: 2b500ff15fe74d3586021f21750a8f97 df96627058ec42b780cd5da1752e95e3
 msgid "The bits of the audio data."
-msgstr ""
+msgstr "音频数据的位数。"
 
 #: ../../en/system/audio.recorder.rst:23 ../../en/system/audio.recorder.rst:69
 #: ../../en/system/audio.recorder.rst:143 9048977226864ed4bdc100ff12b91d39
 #: a06eb17f6d104ab6a2f64b1e70bd9837 d9cbbbbceef74745aa0cda8dd160610d
 msgid "Whether the audio data is stereo."
-msgstr ""
+msgstr "音频数据是否为立体声。"
 
 #: ../../en/system/audio.recorder.rst:25 ../../en/system/audio.recorder.rst:41
 #: ../../en/system/audio.recorder.rst:57 ../../en/system/audio.recorder.rst:72
@@ -79,7 +79,7 @@ msgstr ""
 #: a620047c87d048aba146eaf3d5fe7219 d78a5af3999b47dda6318be5352eed4d
 #: e17d930826744a21b7aefa01d8334992 e2a1a93c2d1d43548b0a314919db0247
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2："
 
 #: ../../en/system/audio.recorder.rst:27 e6da34b2ccd74723b18b011c8c105dfb
 msgid "|init.png|"
@@ -91,27 +91,27 @@ msgstr ""
 
 #: ../../en/system/audio.recorder.rst:31 16e1aa27e68d4571a555ce156be41376
 msgid "Methods"
-msgstr ""
+msgstr "Methods"
 
 #: ../../en/system/audio.recorder.rst:35 99ad680f3eff4b019a8a3e779a523fb1
 msgid "Record audio from microphone to file."
-msgstr ""
+msgstr "从麦克风录制音频到文件。"
 
 #: ../../en/system/audio.recorder.rst:37 561207f0ea2043b99924643baa949e0c
 msgid ""
 "The uri of the audio file. e.g. \"file://flash/test.amr\", "
 "\"file:///sd/test.wav\"."
-msgstr ""
+msgstr "音频文件的 URI。例如：\"file://flash/test.amr\"、\"file:///sd/test.wav\"。"
 
 #: ../../en/system/audio.recorder.rst:38 ../../en/system/audio.recorder.rst:53
 #: 22a43402e602470991022395ccc18cf5 3e8b55ce67b44fabbe68e2ced41b2ebd
 msgid "The duration of the recording, The unit is seconds."
-msgstr ""
+msgstr "录音的持续时间，单位为秒。"
 
 #: ../../en/system/audio.recorder.rst:39 ../../en/system/audio.recorder.rst:70
 #: 0c4c32212fbd4835bca4661bc80122c5 3fc462099ef3445791cd95a2812026be
 msgid "Whether to record synchronously."
-msgstr ""
+msgstr "是否同步录制。"
 
 #: ../../en/system/audio.recorder.rst:43 7a4fa7edee4f47ecb685fbf78f8d31a8
 msgid "|record_local_file.png|"
@@ -131,11 +131,11 @@ msgstr ""
 
 #: ../../en/system/audio.recorder.rst:49 3d69f6f44a8d4b71be4f1af3489a5958
 msgid "Create a buffer to store the audio data. The audio data is in PCM format."
-msgstr ""
+msgstr "创建一个缓冲区来存储音频数据。音频数据为 PCM 格式。"
 
 #: ../../en/system/audio.recorder.rst:51 b7bc4db342f444d6945a61b9b1030e80
 msgid "The length of the data buffer is :math:`sample * bits * time / 8`"
-msgstr ""
+msgstr "数据缓冲区的长度为：:math:`sample * bits * time / 8`。"
 
 #: ../../en/system/audio.recorder.rst 16d19045b5f14052815c348d2c8e5691
 #: 36ea6ff84c9b45869faa9b3c1d62c3b5 62d7b80e5239480289b2de56a3ef9e39
@@ -145,7 +145,7 @@ msgstr ""
 
 #: ../../en/system/audio.recorder.rst:55 dacfc972545d4e018ef4b9b75692c906
 msgid "The buffer to store the audio data."
-msgstr ""
+msgstr "用于存储音频数据的缓冲区。"
 
 #: ../../en/system/audio.recorder.rst:59 4f1b3b29dad5488dbfc83999f2daafab
 msgid "|create_pcm_buf.png|"
@@ -157,11 +157,11 @@ msgstr ""
 
 #: ../../en/system/audio.recorder.rst:64 3894289c182148f4ade78f89f6bbefdc
 msgid "Play the raw audio data."
-msgstr ""
+msgstr "播放原始音频数据。"
 
 #: ../../en/system/audio.recorder.rst:66 786b96b90c6a4344959837e95062ea98
 msgid "Read into buf from the microphone."
-msgstr ""
+msgstr "从麦克风读取数据到 buf 中。"
 
 #: ../../en/system/audio.recorder.rst:74 7ed68ffd96a04da0b1254de7b45854c7
 msgid "|record_into.png|"
@@ -173,7 +173,7 @@ msgstr ""
 
 #: ../../en/system/audio.recorder.rst:79 dc895641681a442e8d150059beae0325
 msgid "Pause the Recorder."
-msgstr ""
+msgstr "暂停录制器。"
 
 #: ../../en/system/audio.recorder.rst:83 c717a4834dfb4be0ae2ad1045a54e5d8
 msgid "|pause.png|"
@@ -185,7 +185,7 @@ msgstr ""
 
 #: ../../en/system/audio.recorder.rst:88 31d72f2cbb2249a8834038585afaeb21
 msgid "Resume the Recorder."
-msgstr ""
+msgstr "恢复录音器。"
 
 #: ../../en/system/audio.recorder.rst:92 973b5fb5c12f4bfba2ddb200f8bdc811
 msgid "|resume.png|"
@@ -197,7 +197,7 @@ msgstr ""
 
 #: ../../en/system/audio.recorder.rst:97 ca3e6f1b4fb4496ea13c2cd4a67a41bf
 msgid "Stop the Recorder."
-msgstr ""
+msgstr "停止录制器。"
 
 #: ../../en/system/audio.recorder.rst:101 deb71dfff3524150b5e4ada7b8228027
 msgid "|stop.png|"
@@ -209,11 +209,11 @@ msgstr ""
 
 #: ../../en/system/audio.recorder.rst:106 6ef6308ed95f488699b893bcc8722750
 msgid "Get the root mean square of the audio data."
-msgstr ""
+msgstr "获取音频数据的均方根值。"
 
 #: ../../en/system/audio.recorder.rst:108 cc396d283a8041cca7af31ba0d27050a
 msgid "The root mean square of the audio data. The unit is dB."
-msgstr ""
+msgstr "音频数据的均方根值。单位为 dB。"
 
 #: ../../en/system/audio.recorder.rst:112 26a4154085874ef1beba0c70c7559bac
 msgid "|rms.png|"
@@ -225,11 +225,11 @@ msgstr ""
 
 #: ../../en/system/audio.recorder.rst:117 a24c08c6aeed4077915d0b4f82746bed
 msgid "Get the volume of the audio data."
-msgstr ""
+msgstr "获取音频数据的音量。"
 
 #: ../../en/system/audio.recorder.rst:119 df3b66f70ae744a28ca60458fe2f2769
 msgid "The volume of the audio data. The range is 0-100."
-msgstr ""
+msgstr "音频数据的音量。范围为 0-100。"
 
 #: ../../en/system/audio.recorder.rst:123 5a07a17fb578440eb10d4d9a2c90d2e5
 msgid "|volume.png|"
@@ -241,11 +241,11 @@ msgstr ""
 
 #: ../../en/system/audio.recorder.rst:128 07a03e7cc0e441079dc8cfead3534455
 msgid "Check if the Recorder is recording."
-msgstr ""
+msgstr "检查 Recorder 是否正在录制。"
 
 #: ../../en/system/audio.recorder.rst:130 c10fa001b77342a2ad6bf8462c2c2467
 msgid "True if the Recorder is recording, False otherwise."
-msgstr ""
+msgstr "如果 Recorder 正在录制，则返回 True，否则返回 False。"
 
 #: ../../en/system/audio.recorder.rst:134 2456ec0f3e7841ceaa37c62b47b646c0
 msgid "|is_recording.png|"
@@ -257,7 +257,7 @@ msgstr ""
 
 #: ../../en/system/audio.recorder.rst:139 061332b8651241eebd5ab662e5174b64
 msgid "Configure the Recorder."
-msgstr ""
+msgstr "配置 Recorder。"
 
 #: ../../en/system/audio.recorder.rst:147 0f2fb2340f8d423fbc31b42b4e8e5f95
 msgid "|config.png|"

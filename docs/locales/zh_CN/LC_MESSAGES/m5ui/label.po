@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/m5ui/label.rst:5 ../../en/m5ui/label.rst:54
 #: 376604be23a94a70b92e32ddd3f8bd3f ac8107500c424193a0a4fc4b4b7224b9
 msgid "M5Label"
-msgstr ""
+msgstr "\"\"\"M5Label\"\"\""
 
 #: ../../en/m5ui/label.rst:9 4358ab0e70924e38aa29c2cd0160b60f
 msgid ""
@@ -135,7 +135,7 @@ msgstr "API参考"
 
 #: e0421b850705488a80dc9004af5c4bef m5ui.label.M5Label:1 of
 msgid "Bases: :py:class:`~lvgl.label`"
-msgstr ""
+msgstr "Bases: :py:class:`~lvgl.label`"
 
 #: 1a22803e0f8f433998555e1845c8460f m5ui.label.M5Label:1 of
 msgid "Create a label object."

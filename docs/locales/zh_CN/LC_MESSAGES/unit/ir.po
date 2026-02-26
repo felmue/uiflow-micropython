@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/ir.rst:2 d95717bac0a84acc932c3def93639f22
+msgid "IR Unit"
+msgstr "IR Unit"
+
+#: ../../source/unit/ir.rst:6 9b165176d07f40d79a5b858fafa72afb
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/ir.rst:8 0f52ea21aee94547b42738761a1e9d9c
+msgid "|IR|"
+msgstr ""
+
+#: ../../source/refs/unit.ir.ref 8493cc78451541b5a93406e2d16de478
+msgid "IR"
+msgstr "IR"
+
+#: ../../source/unit/ir.rst:11 318aadfa345049eb953fffbe36c09ef6
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/ir.rst:18 3ce2fb9aa8454c17b08ed8eb66abffaa
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/ir.rst:20 d3f68f4acc3749039217e55a5c047e60
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ir.ref:6 c12b5f9d35324b6d8bfbba1e58f5199c
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/ir.rst:25 1e42bf035a9a4c279c043068247131d2
+msgid "|ir_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/ir.rst:29 1d1afcf9586648478017c45e424d0c60
+msgid "class IRUnit"
+msgstr "class IRUnit"
+
+#: ../../source/unit/ir.rst:32 86823f7ce53944ef84c886f26ea84f53
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/ir.rst:36 50ef56055d1c4126a59ef90656dd7bb5
+msgid "Create an IRUnit object."
+msgstr "创建一个 IRUnit 对象。"
+
+#: ../../source/unit/ir.rst 3f059cc7fa2345ff8cfd71b35e018408
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/ir.rst:38 37a9ead2b9324dec9c63b2b7c06efdf1
+msgid ""
+"The port to which the IR unit is connected. the tuple is a pair of "
+"values, the first value is the receive pin, and the second value is the "
+"transmit pin."
+msgstr "IR 单元连接的端口。该元组是一对值，第一个值为接收引脚，第二个值为发射引脚。"
+
+#: ../../source/unit/ir.rst:40 ../../source/unit/ir.rst:52
+#: ../../source/unit/ir.rst:61 783ba925a9f24e75a8624bb28c32f271
+#: a580f3d339c04d5c8a7fdec5d2e129cf e297cb994bec4570bc0e67208e460b08
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/ir.rst:42 37cbad504fac42129470d76c3b37016c
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ir.ref:8 71dc889a56da486692cbb6b8c33af11c
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/ir.rst:46 954a1c34ce3c41d2ba8ae61f5df4e3b3
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/ir.rst:50 2077442599bf496d81922b6634ee85ac
+msgid "Sends an ir signal value to an address."
+msgstr "发送一个 IR 信号值到指定地址。"
+
+#: ../../source/unit/ir.rst:54 57fd3a32bb8e459a945d515741a2557d
+msgid "|tx.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ir.ref:12 c77a1fe2685344f4972745a87295f05a
+msgid "tx.png"
+msgstr ""
+
+#: ../../source/unit/ir.rst:59 beea6582cc20400abf511b95d1c9cf69
+msgid ""
+"Determine when the infrared signal is read and start to do some "
+"processing procedures."
+msgstr "判断何时读取到红外信号，并开始执行一些处理流程。"
+
+#: ../../source/unit/ir.rst:63 4223e05579574145a96e70bd6bab663c
+msgid "|rx_event.png|"
+msgstr ""
+
+#: ../../source/refs/unit.ir.ref:10 152abb73fdaf461ea8ee87972d2c2cbe
+msgid "rx_event.png"
+msgstr ""
+

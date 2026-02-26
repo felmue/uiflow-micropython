@@ -18,12 +18,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/m5ui/list.rst:4 ../../source/m5ui/list.rst:53
 #: 1cba2678dee84af7b56e5f8159504e11 c2f1e459d0a54b30809254f6135ea9f2
 msgid "M5List"
-msgstr ""
+msgstr "M5List"
 
 #: ../../source/m5ui/list.rst:8 2274eb4270f94e4d8002f68ac62dedfc
 msgid ""
@@ -43,7 +43,7 @@ msgstr "列表示例"
 
 #: ../../source/m5ui/list.rst:17 41dcf40e92e449f4af7ac2b123968c9b
 msgid "Open the |cores3_list_example.m5f2| project in UiFlow2."
-msgstr ""
+msgstr "在 UiFlow2 中打开 |cores3_list_example.m5f2| 项目。"
 
 #: ../../source/m5ui/list.rst:19 ../../source/m5ui/list.rst:36
 #: 8aa86cc9b49d4420b187121652f3c017 e4cffc05f1b944e9b70fbf351e3c1a5f
@@ -99,11 +99,11 @@ msgstr "MicroPython 代码块："
 
 #: ../../source/m5ui/list.rst:50 a222289c015b4486b7a47406b6ade7ba
 msgid "**API**"
-msgstr ""
+msgstr "API参考"
 
 #: 5fc60cb4e5904481b29ea992dcede1b6 m5ui.list.M5List:1 of
 msgid "Bases: :py:class:`~lvgl.list`"
-msgstr ""
+msgstr "基类：:py:class:`~lvgl.list`"
 
 #: fcefa7b698d04a3595325cff59d49bf3 m5ui.list.M5List:1 of
 msgid "Create a list object."

@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/joystick.rst:2 0de9b8a68c8241088dc2b0e70ff6f25d
+msgid "Joystick Unit"
+msgstr "Joystick Unit"
+
+#: ../../source/unit/joystick.rst:6 d6462dc7d3474d148170e9e38dee3b68
+msgid "The following products are supported:"
+msgstr "以下产品受支持："
+
+#: ../../source/unit/joystick.rst:8 6207a99e8a6c47b9a7e8fe3d9d7adef5
+msgid "|JoystickUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick.ref e1057c5e045943fdbca17e261d40cbc3
+msgid "JoystickUnit"
+msgstr "JoystickUnit"
+
+#: ../../source/unit/joystick.rst:11 2d7470219b414cd08fca6d17ef281793
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/joystick.rst:18 ca733926a36e4f788710cbc8ad874c99
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/joystick.rst:20 37bc42b00a9a4be7bcef04186bc83b94
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick.ref:6 54ce51bcd36c4571a17499f93c775b4d
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:25 418f0c1dba864da9af6bfc356dfc65ff
+msgid "|joystick_stickcplus2_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:29 984638e63c9841b89e759ef9268b5f77
+msgid "class JoystickUnit"
+msgstr "class JoystickUnit"
+
+#: ../../source/unit/joystick.rst:32 090186c184394b6ab17fe03884c87c5d
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:36 c1cb10202564448da5b9f081948cc21b
+msgid "Create a new instance of the JoystickUnit class."
+msgstr "创建 JoystickUnit 类的新实例。"
+
+#: ../../source/unit/joystick.rst 0105d82923ec4deca41c6a906f54e785
+#: 9690eb48a53043d39f7bb24c30b1f673 da82b7c7af654c3381d5ecb6f2fce72f
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:38 c8249ba2715348e382e2658cdad5e426
+msgid "I2C bus"
+msgstr "I2C 总线"
+
+#: ../../source/unit/joystick.rst:39 836a863005fa4f77ab52bc6706980e68
+msgid "I2C address"
+msgstr "I2C 地址"
+
+#: ../../source/unit/joystick.rst:41 ../../source/unit/joystick.rst:55
+#: ../../source/unit/joystick.rst:66 ../../source/unit/joystick.rst:77
+#: ../../source/unit/joystick.rst:88 ../../source/unit/joystick.rst:99
+#: ../../source/unit/joystick.rst:110 ../../source/unit/joystick.rst:120
+#: 1619e5b1ca574bc8a2f4426cae394329 1c457fbca14544b78b642931f217003f
+#: 29b60af500ea452cbb7279ccc99c17cb 44d3fc897efc4e8582e145bf26ddd578
+#: 6d3dbf99f30b48c2982d00e26f8af1c6 8a6f7c02500640a99859752894498945
+#: 9e6dd04e06434b32ad3a591deafbee6c fae048089417429c89363b2be19f94f2
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/joystick.rst:43 e38ef52d9f054b969b25af0c4d8cf338
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick.ref:8 92f8e63ec95643149a4f4f011c820286
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:47 67ed79da8b7540feb0d254db16ddb02d
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:51 ae5d4be1501440c8b15e2fecc88a5574
+msgid "Get the raw x-axis value."
+msgstr "获取原始 x 轴值。"
+
+#: ../../source/unit/joystick.rst 00b700f99853496f83a8eb5e8f12519f
+#: 268d201607fc4c48b8917abf6620d6d5 2e1248bb33264182a525c2e00f72e76c
+#: 78cfa34e39024a3e8696705a29c96637 f313808bebc242a88382c8800e2ab196
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:53 ../../source/unit/joystick.rst:75
+#: b8ad9d7f8e084a73855144c397af18df bbf65750700942358500001b1885de59
+msgid "x-axis value"
+msgstr "x 轴数值"
+
+#: ../../source/unit/joystick.rst:57 29166366393b4f319efc092dbcdfc050
+msgid "|get_x_raw.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick.ref:10 d7de68adaa8c4c168761069cec3a25ea
+msgid "get_x_raw.png"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:62 7828fc64270d45cfb2abe63a3f0d53a7
+msgid "Get the raw y-axis value."
+msgstr "获取原始 y 轴值。"
+
+#: ../../source/unit/joystick.rst:64 ../../source/unit/joystick.rst:86
+#: aff55d40e5d645758cd0e871ff492b27 bd0d2a66011e4d09aaa08244a68d73a9
+msgid "y-axis value"
+msgstr "y 轴数值"
+
+#: ../../source/unit/joystick.rst:68 6d34d7b06f584940bd59979bc7b7236a
+msgid "|get_y_raw.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick.ref:12 9aac40ee6b4743eea6559fea43b8df4a
+msgid "get_y_raw.png"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:73 79ea037665a24464a338cebbb730d0dd
+msgid "Get the x-axis value."
+msgstr "获取 x 轴值。"
+
+#: ../../source/unit/joystick.rst:79 4f9ed04aa2f34a28b97fd10195065375
+msgid "|get_x.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick.ref:14 970f2fcdfc274ecd8e29d0cb0e12f866
+msgid "get_x.png"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:84 5a8c886316af476ab5656cb03ccf4d21
+msgid "Get the y-axis value."
+msgstr "获取 y 轴值。"
+
+#: ../../source/unit/joystick.rst:90 2f9ad1ad06b14bdcbaa4348cd10e520a
+msgid "|get_y.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick.ref:16 67c3688e12364a5dbf176659e58d724f
+msgid "get_y.png"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:95 bf618b92e1114349b1099c9de5ea4939
+msgid "Swap x-axis direction"
+msgstr "交换 x 轴方向"
+
+#: ../../source/unit/joystick.rst:97 ../../source/unit/joystick.rst:108
+#: ../../source/unit/joystick.rst:118 0e14b8fef6e743f78cfa13d4857ab0ed
+#: 78c34c5b89164f30bc03692aa7309a44 e0dac3eb7434485e976db6d98d87814f
+msgid "True or False"
+msgstr "True or False"
+
+#: ../../source/unit/joystick.rst:101 3480623913654c3aa3ff4a0303dfecbd
+msgid "|swap_x.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick.ref:18 3f1fc2841c054cf58c636b23245ebcdf
+msgid "swap_x.png"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:106 2b023f6cb55e45b69f09f14559feeecf
+msgid "Swap y-axis direction"
+msgstr "交换 y 轴方向"
+
+#: ../../source/unit/joystick.rst:112 bc2045332d6a4c8d8e90ecce334a69d0
+msgid "|swap_y.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick.ref:20 9fc1d988e16648f387ca2f493cfada62
+msgid "swap_y.png"
+msgstr ""
+
+#: ../../source/unit/joystick.rst:116 aedc1f4766c04e2da8ed521171c58597
+msgid "Get the button status."
+msgstr "获取按钮状态。"
+
+#: ../../source/unit/joystick.rst:122 0b353fd6c0e844fbb900910597e4e98d
+msgid "|get_button_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick.ref:22 e53fd6fc0e6a411a96059ecd26e5fe26
+msgid "get_button_status.png"
+msgstr ""
+

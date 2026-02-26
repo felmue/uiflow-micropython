@@ -22,15 +22,15 @@ msgstr ""
 
 #: ../../en/system/power.rst:2 86ca4e10441243408cd23f327c9e735c
 msgid "Power"
-msgstr ""
+msgstr "Power"
 
 #: ../../en/system/power.rst:8 59f39dc644324750a1369a632045fbee
 msgid "class Power"
-msgstr ""
+msgstr "class Power"
 
 #: ../../en/system/power.rst:12 86251ec7013f460ca2876d7e6e959a3d
 msgid "Methods of the Power Class depend on ``M5.begin()`` |M5.begin.png|."
-msgstr ""
+msgstr "Power Class 的方法依赖于 ``M5.begin()`` |M5.begin.png|。"
 
 #: ../../en/refs/system.ref:1 752299d28f3441da93d3ee3d47967a00
 msgid "M5.begin.png"
@@ -40,7 +40,7 @@ msgstr ""
 msgid ""
 "All methods calling the Power object need to be placed after "
 "``M5.begin()`` |M5.begin.png|."
-msgstr ""
+msgstr "所有调用 Power 对象的方法都需要放在 ``M5.begin()`` 之后 |M5.begin.png|。"
 
 #: ../../en/system/power.rst:18 68d18c1ceedf4771b468729212f2d861
 msgid "Methods"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../en/system/power.rst:22 fdbcdcece25b423e8c0e2e6cb062045e
 msgid "Set power output of the external ports."
-msgstr ""
+msgstr "设置外部端口的电源输出。"
 
 #: ../../en/system/power.rst:24 8e14f30016ea4fc39bbca36d620ac4b9
 msgid ""
@@ -56,12 +56,14 @@ msgid ""
 "output mode. When ``enable`` is False, the power output of the external "
 "ports is in input mode."
 msgstr ""
+"当 ``enable`` 为 True 时，外部端口的电源输出为输出模式。当 ``enable`` 为 False "
+"时，外部端口的电源输出为输入模式。"
 
 #: ../../en/system/power.rst:28 bacc63b1aee845129296e3b9a8c0c9f0
 msgid ""
 "``port`` is the port number, optional values are available in :ref:`class"
 " PORT`, only valid for M5Stack Station."
-msgstr ""
+msgstr "``port`` 是端口号，可选值见 :ref:`class PORT`，仅对 M5Stack Station 有效。"
 
 #: ../../en/system/power.rst:31 ../../en/system/power.rst:45
 #: ../../en/system/power.rst:58 ../../en/system/power.rst:70
@@ -74,7 +76,7 @@ msgstr ""
 #: ../../en/system/power.rst:216 ../../en/system/power.rst:226
 #: bbbedf7e920a46f6baa8f5d9e22659c4
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/system/power.rst:33 076007f8c9d44559ba21f1d0c477df44
 msgid "|setExtOutput1.png| |setExtOutput2.png|"
@@ -90,14 +92,14 @@ msgstr ""
 
 #: ../../en/system/power.rst:39 83c753dbb09d4c348eed7c53fe94ea8c
 msgid "Get power output of the external ports."
-msgstr ""
+msgstr "获取外部端口的电源输出。"
 
 #: ../../en/system/power.rst:41 d931855ca7a44a8287c4f32a9732cb3a
 msgid ""
 "Returns ``True`` if the power output of the external ports is in output "
 "mode. Returns ``False`` if the power output of the external ports is in "
 "input mode."
-msgstr ""
+msgstr "如果外部端口的电源输出处于输出模式，则返回 ``True``。如果外部端口的电源输出处于输入模式，则返回 ``False``。"
 
 #: ../../en/system/power.rst:47 a1fecfaa732d4a858b67ff6812341372
 msgid "|getExtOutput.png|"
@@ -109,7 +111,7 @@ msgstr ""
 
 #: ../../en/system/power.rst:52 af5920e35eb2495591e4004e8baaf0db
 msgid "Set power output of the main USB port."
-msgstr ""
+msgstr "设置主 USB 端口的电源输出。"
 
 #: ../../en/system/power.rst:54 9984551995b3480cb1b011802f5cd0c2
 msgid ""
@@ -117,6 +119,8 @@ msgid ""
 "output mode. When ``enable`` is False, the power output of the main USB "
 "port is in input mode."
 msgstr ""
+"当 ``enable`` 为 True 时，主 USB 口的电源输出处于输出模式。当 ``enable`` 为 False 时，主 USB "
+"口的电源输出处于输入模式。"
 
 #: ../../en/system/power.rst:60 71dc0e4e4bba426f9138a2a1a4054c42
 msgid "|setUsbOutput.png|"
@@ -128,14 +132,14 @@ msgstr ""
 
 #: ../../en/system/power.rst:65 ca492f3d596544a8865ae7e40fc1cbcc
 msgid "Get power output of the main USB port."
-msgstr ""
+msgstr "获取主 USB 端口的电源输出。"
 
 #: ../../en/system/power.rst:67 c5f96f20af18484a84fd6885baa2b805
 msgid ""
 "Returns ``True`` if the power output of the main USB port is in output "
 "mode. Returns ``False`` if the power output of the main USB port is in "
 "input mode."
-msgstr ""
+msgstr "如果主 USB 端口的电源输出处于输出模式，则返回 ``True``。如果主 USB 端口的电源输出处于输入模式，则返回 ``False``。"
 
 #: ../../en/system/power.rst:72 4e5011434a2648ebaa9c857ac9537c4e
 msgid "|getUsbOutput.png|"
@@ -147,13 +151,13 @@ msgstr ""
 
 #: ../../en/system/power.rst:77 db65a363c2db4c64b0c504baba922391
 msgid "Turn on/off the power LED."
-msgstr ""
+msgstr "打开或关闭电源 LED。"
 
 #: ../../en/system/power.rst:79 7a33f44121ac43c8a877d2f86730a0f7
 msgid ""
 "``brightness`` is the brightness value, ranging from 0 to 255. 0 is off, "
 "255 is the maximum brightness."
-msgstr ""
+msgstr "``brightness`` 是亮度值，范围为 0 到 255。0 表示关闭，255 表示最大亮度。"
 
 #: ../../en/system/power.rst:84 0408130bdfdc4fc9bd58da42f70789bc
 msgid "|setLed.png|"
@@ -165,7 +169,7 @@ msgstr ""
 
 #: ../../en/system/power.rst:89 c81ee3e941274a2793c125a369745970
 msgid "Turn off all power."
-msgstr ""
+msgstr "关闭所有电源。"
 
 #: ../../en/system/power.rst:93 d71ac019fd84483cb3cbb4014d41c72f
 msgid "|powerOff.png|"
@@ -177,27 +181,27 @@ msgstr ""
 
 #: ../../en/system/power.rst:100 25d34622558747d38b78d6c4be654bcb
 msgid "sleep and timer boot. The boot condition can be specified by the argument."
-msgstr ""
+msgstr "睡眠与定时器启动。启动条件可通过参数指定。"
 
 #: ../../en/system/power.rst:102 e6063bd363f346b58ec5b0e83574d16c
 msgid "``seconds``: Range is 1 - 15300, in seconds."
-msgstr ""
+msgstr "``seconds``：范围为 1 - 15300，单位为秒。"
 
 #: ../../en/system/power.rst:104 68a213e2235445fd868282eee6d7903b
 msgid "``minutes``: Range is 0 - 59, in minutes."
-msgstr ""
+msgstr "``minutes``：范围为 0 - 59，单位为分钟。"
 
 #: ../../en/system/power.rst:106 135f42cd925146039e5d5a93f95f96a3
 msgid "``hours``: Range is 0 - 23, in hours."
-msgstr ""
+msgstr "``hours``：范围为 0 - 23，单位为小时。"
 
 #: ../../en/system/power.rst:108 2bff7a190faf4b7dae35bfe38fc4cf33
 msgid "``date``: Range is 1 - 31, in days."
-msgstr ""
+msgstr "``date``：范围为 1 - 31，单位为天。"
 
 #: ../../en/system/power.rst:110 0300f3c421184461b6b37d5ba99b21aa
 msgid "``weekDay``: Range is 0 - 6."
-msgstr ""
+msgstr "``weekDay``：范围为 0 - 6。"
 
 #: ../../en/system/power.rst:114 47f4cd08c499476e8e6df0436156dad1
 msgid "|timerSleep1.png| |timerSleep2.png| |timerSleep3.png|"
@@ -217,17 +221,17 @@ msgstr ""
 
 #: ../../en/system/power.rst:121 7193fb84cdf641e4bcb39d76f934670b
 msgid "ESP32 deepsleep."
-msgstr ""
+msgstr "ESP32 深度睡眠。"
 
 #: ../../en/system/power.rst:123 ../../en/system/power.rst:136
 #: a00f6a2ff5da47aaa705d1c6b9416f47
 msgid "``micro_seconds``: Number of micro seconds to wakeup."
-msgstr ""
+msgstr "``micro_seconds``：唤醒所需的微秒数。"
 
 #: ../../en/system/power.rst:125 ../../en/system/power.rst:138
 #: d5b8ae85f1ed4fd19c90e78c86972cc2
 msgid "``wakeup``: Whether to wake up."
-msgstr ""
+msgstr "``wakeup``：是否唤醒。"
 
 #: ../../en/system/power.rst:129 b5f14c0fc6384d24a1656e4f84a399f9
 msgid "|deepSleep.png|"
@@ -239,7 +243,7 @@ msgstr ""
 
 #: ../../en/system/power.rst:134 d7c15f3d799b43b1b7aec1ceb3720268
 msgid "ESP32 lightsleep."
-msgstr ""
+msgstr "ESP32 lightsleep。"
 
 #: ../../en/system/power.rst:142 d10051e646ee4cd7bd9b89f53817183f
 msgid "|lightSleep.png|"
@@ -251,7 +255,7 @@ msgstr ""
 
 #: ../../en/system/power.rst:147 2842f8402ac34ee1987eaf2f1d786176
 msgid "Get the remaining battery power percentage. Returns a value between 0-100."
-msgstr ""
+msgstr "获取剩余电池电量百分比。返回一个介于 0-100 之间的值。"
 
 #: ../../en/system/power.rst:151 31c4d188bf3a473797a0bdaf83e634d2
 msgid "|getBatteryLevel.png|"
@@ -263,7 +267,7 @@ msgstr ""
 
 #: ../../en/system/power.rst:156 c220897ab4f04cad8478882287c61b2e
 msgid "Set battery charging enable."
-msgstr ""
+msgstr "设置电池充电使能。"
 
 #: ../../en/system/power.rst:160 76c44bd8ddb84536bba0ef85b3625a89
 msgid "|setBatteryCharge.png|"
@@ -275,11 +279,11 @@ msgstr ""
 
 #: ../../en/system/power.rst:165 f163b4c4d3df4b73b5637d696188e7e3
 msgid "Set battery charge current."
-msgstr ""
+msgstr "设置电池充电电流。"
 
 #: ../../en/system/power.rst:167 d12967e9ec714840a49a5f50053c224e
 msgid "``max_mA``: Range is 0-2000, in milliamps."
-msgstr ""
+msgstr "``max_mA``：范围为 0-2000，单位为毫安。"
 
 #: ../../en/system/power.rst:171 f94b8cff9d1e41798bc03641aceff4d1
 msgid "|setChargeCurrent.png|"
@@ -291,11 +295,11 @@ msgstr ""
 
 #: ../../en/system/power.rst:176 8aa803863b8142cc802ab43e23eab7ea
 msgid "Set battery charge voltage."
-msgstr ""
+msgstr "设置电池充电电压。"
 
 #: ../../en/system/power.rst:178 7dfbabdc7e9b4329b1d41eeb3b355896
 msgid "``max_mV``: Range is 4100-4600, in millivolts."
-msgstr ""
+msgstr "``max_mV``：范围为 4100-4600，单位为毫伏。"
 
 #: ../../en/system/power.rst:182 89ad4b34dd484ed3acb6a2934f28578b
 msgid "|setChargeVoltage.png|"
@@ -307,7 +311,7 @@ msgstr ""
 
 #: ../../en/system/power.rst:187 52994ca550d84c60938527fa56789bfb
 msgid "Get whether the battery is currently charging or not."
-msgstr ""
+msgstr "获取当前电池是否正在充电。"
 
 #: ../../en/system/power.rst:191 a270f0949dbb4ab98eae8aacb93fb798
 msgid "|isCharging.png|"
@@ -319,7 +323,7 @@ msgstr ""
 
 #: ../../en/system/power.rst:196 67689e10260d47dfa5f02e9c19615720
 msgid "Get battery voltage. Unit is millivolts."
-msgstr ""
+msgstr "获取电池电压。单位为毫伏。"
 
 #: ../../en/system/power.rst:200 0cabd5fcdb51448da3f8bc2c472cb8c4
 msgid "|getBatteryVoltage.png|"
@@ -331,7 +335,7 @@ msgstr ""
 
 #: ../../en/system/power.rst:205 a9e8f009f61f4f30b19d37ea2105c658
 msgid "Get battery current. Unit is milliamps."
-msgstr ""
+msgstr "获取电池电流。单位为毫安。"
 
 #: ../../en/system/power.rst:209 d96ea7c9558243b9bf5e6eebcfeeddfc
 msgid "|getBatteryCurrent.png|"
@@ -343,7 +347,7 @@ msgstr ""
 
 #: ../../en/system/power.rst:214 9c35e1179ca445c0938ec9809ce21e89
 msgid "Get Power Key Press condition."
-msgstr ""
+msgstr "获取电源键按下状态条件。"
 
 #: ../../en/system/power.rst:218 fc35d424640a467dbf31fc2347feb60c
 msgid "|getKeyState.png|"
@@ -355,11 +359,11 @@ msgstr ""
 
 #: ../../en/system/power.rst:222 426f5072ff8d42fa9052e3d31cb2be52
 msgid "Operate the vibration motor."
-msgstr ""
+msgstr "操作振动电机。"
 
 #: ../../en/system/power.rst:224 21f6117173f24ca5b6b7fef7476edeb3
 msgid "``level``: Vibration intensity, ranging from 0-255."
-msgstr ""
+msgstr "``level``：振动强度，范围为 0-255。"
 
 #: ../../en/system/power.rst:228 7132cf052c3a496db9e9ffd50408ffc9
 msgid "|setVibration.png|"
@@ -371,43 +375,43 @@ msgstr ""
 
 #: ../../en/system/power.rst:234 c3bc53e5dfa4494dba280a421fe2f131
 msgid "class PORT"
-msgstr ""
+msgstr "class PORT"
 
 #: ../../en/system/power.rst:237 4430c03c2a8047f4b8a8b137d309a48e
 msgid "Constants"
-msgstr ""
+msgstr "Constants"
 
 #: ../../en/system/power.rst:241 212501dd591942d381812a1bbf001a20
 msgid "Port A."
-msgstr ""
+msgstr "A 口。"
 
 #: ../../en/system/power.rst:246 08e7c2e5c95c474086576e7c721f3768
 msgid "Port B1."
-msgstr ""
+msgstr "B1 端口。"
 
 #: ../../en/system/power.rst:251 649d1bdcb9a4409b87f553490fdf96ab
 msgid "Port B2."
-msgstr ""
+msgstr "B2 端口。"
 
 #: ../../en/system/power.rst:256 1e2bc080e5cb4fb3b33b4ede0fb23a6e
 msgid "Port C1."
-msgstr ""
+msgstr "C1 端口。"
 
 #: ../../en/system/power.rst:261 67cfd84f77104a00a41759eebe75e635
 msgid "Port C2."
-msgstr ""
+msgstr "C2 端口。"
 
 #: ../../en/system/power.rst:266 e351eeaba787454aaaaacfbb0323e5b3
 msgid "USB Port."
-msgstr ""
+msgstr "USB 端口。"
 
 #: ../../en/system/power.rst:271 5b105d734fd5439c98396c941eebb18e
 msgid "HAT Port."
-msgstr ""
+msgstr "HAT 端口。"
 
 #: ../../en/system/power.rst:276 0f989c81fb684ccda05ceabc59f75d16
 msgid "All Ports."
-msgstr ""
+msgstr "所有端口。"
 
 #~ msgid "Methods of the Power Class depend on ``M5.begin()`` |M5.begin.svg|."
 #~ msgstr ""

@@ -18,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/controllers/paper.rst:3 1d2211fb8ab84344be28dcf96f598954
 msgid "Paper"
-msgstr ""
+msgstr "Paper"
 
 #: ../../en/refs/controllers.paper.ref:1 04c80739e2bc4478bd87d138f85f9128
 #: 0b666968e86d4c1ba14f7a1f8a65e01a
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../en/controllers/paper.rst:9 4556719e30ed4e84aefbe073b68ff10f
 msgid "UI"
-msgstr ""
+msgstr "UI"
 
 #: ../../en/controllers/paper.rst:11 9b43d0affdc747efb2d2b2ba1a56f8b4
 msgid ""
@@ -58,9 +58,7 @@ msgid ""
 "In the CODE page, you can see your device's UIFlow mode, MAC address, and"
 " account information. You can also confirm the connection status of WiFi "
 "and the server at the bottom left corner."
-msgstr ""
-"在CODE界面，您可以看到自己设备的UIFlow模式，MAC地址，账号信息。您还可以在UI左下角确"
-"认WiFi和服务器的连接情况。"
+msgstr "在CODE界面，您可以看到自己设备的UIFlow模式，MAC地址，账号信息。您还可以在UI左下角确认WiFi和服务器的连接情况。"
 
 #: ../../en/controllers/paper.rst:17 d6a4c6803e374d61bdef8ef9071c5773
 msgid "|config.png|"

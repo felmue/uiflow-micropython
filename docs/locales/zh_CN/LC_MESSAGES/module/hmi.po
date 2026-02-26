@@ -23,11 +23,11 @@ msgstr ""
 #: ../../en/module/hmi.rst:3 ../../en/refs/module.hmi.ref
 #: 3d0a0f8723fe40cd85c97474631748e6 7b834c0467eb49f4a511f20d0a4397b0
 msgid "HMI Module"
-msgstr ""
+msgstr "HMI Module"
 
 #: ../../en/module/hmi.rst:7 993407e7e3554607883a3b8ec796766d
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/hmi.rst:9 dc8f922e62674bd294e0b5beb785dddc
 msgid "|HMI Module|"
@@ -35,11 +35,11 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:11 061bd215b1cd42119a32e66e9046a317
 msgid "Micropython Example::"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/hmi.rst:94 b5e949e45e594accbc0c7521fc3083e2
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/module/hmi.rst:96 a32e5718668643839499c03c34fb39ec
 msgid "|example.png|"
@@ -55,15 +55,15 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:103 c73a1a89a1ff48c9828649157a7ded22
 msgid "class HMIModule"
-msgstr ""
+msgstr "class HMIModule"
 
 #: ../../en/module/hmi.rst:106 5519811e77294079a3cbd4440fd50896
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/module/hmi.rst:110 c7909f8bdbb44b138288080e0f3305dd
 msgid "Init I2C Module HMI I2C Address."
-msgstr ""
+msgstr "初始化 I2C Module HMI I2C 地址。"
 
 #: ../../en/module/hmi.rst 2213656d749f488e8081a5dcf42677f0
 #: 297ffeb8380242e2ba703e8118189c9c 9208f298520f4154bc3444eb0dbdd140
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:112 8400b7350b6248999a69456c75adb1a3
 msgid "I2C address of the HMIModule."
-msgstr ""
+msgstr "HMIModule 的 I2C 地址。"
 
 #: ../../en/module/hmi.rst:114 ../../en/module/hmi.rst:127
 #: ../../en/module/hmi.rst:138 ../../en/module/hmi.rst:146
@@ -88,7 +88,7 @@ msgstr ""
 #: ae46ea84467041a9a3071614c64c19e5 bedebbe139cd44fc9400533c94ee0171
 #: d63e6e6029364a21a2b16ea220a04d08 efc295b935e74736ac5f5175f3eccf1a
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2:"
 
 #: ../../en/module/hmi.rst:116 b7c8ef63a1044cd28e44786c8c0310a0
 msgid "|init.png|"
@@ -104,7 +104,7 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:124 3fe9eab219b343e9b8bed137a4f37da3
 msgid "Get the current value of the rotary."
-msgstr ""
+msgstr "获取旋转编码器的当前值。"
 
 #: ../../en/module/hmi.rst:129 659da3415a6e4284a83a7172dcd6f9f4
 msgid "|get_rotary_value.png|"
@@ -116,11 +116,11 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:133 0df9886dfbad4eb79ba82d789f825139
 msgid "Set the rotary value."
-msgstr ""
+msgstr "设置旋转值。"
 
 #: ../../en/module/hmi.rst:135 5e3faf230cec46fa9ccf0471f692895b
 msgid "rotary value(-2147483648-2147483647)."
-msgstr ""
+msgstr "旋转值（-2147483648～2147483647）。"
 
 #: ../../en/module/hmi.rst:140 afbbd752166447e4991e899b9f1e2130
 msgid "|set_rotary_value.png|"
@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:144 532ae1b13d264035b15a93d4ed6cd177
 msgid "Reset the rotary value."
-msgstr ""
+msgstr "重置旋转编码器的值。"
 
 #: ../../en/module/hmi.rst:148 d352e4b70ebe48d192f2527eaefafcd4
 msgid "|reset_rotary_value.png|"
@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:152 426c82df9dcf4e619090e231bd2bd38f
 msgid "Get the increment value of the rotary."
-msgstr ""
+msgstr "获取旋钮的增量值。"
 
 #: ../../en/module/hmi.rst:156 aa435b83fd814f1187dc422080a48e7f
 msgid "|get_rotary_increments.png|"
@@ -156,11 +156,11 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:160 042228f3bdcf40fda9609ebf4c13855d
 msgid "Get the state of a specific button."
-msgstr ""
+msgstr "获取指定按钮的状态。"
 
 #: ../../en/module/hmi.rst:162 739304d0438e426f9e4bbb90174e9cd4
 msgid ": Button number (1 to 3)."
-msgstr ""
+msgstr "：按钮编号（1 到 3）。"
 
 #: ../../en/module/hmi.rst:166 4f0a81ca69a549879c8844514c46167b
 msgid "|get_button_status.png|"
@@ -172,12 +172,12 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:170 8631b9918263498b842142d768678c1f
 msgid "Get the state of a specific LED."
-msgstr ""
+msgstr "获取指定 LED 的状态。"
 
 #: ../../en/module/hmi.rst:172 ../../en/module/hmi.rst:182
 #: 33088c1823b34e16a6399867e389d806 93b68508601a4ef39cfa67352f8883cf
 msgid ": LED number (1 to 2)."
-msgstr ""
+msgstr "：LED 编号（1 到 2）。"
 
 #: ../../en/module/hmi.rst:176 549e474da68c491a9d957af2e567efd8
 msgid "|get_led_state.png|"
@@ -189,11 +189,11 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:180 2ba5a8ac6c7e4163be9cc7d15de8c18c
 msgid "Set the state of a specific LED."
-msgstr ""
+msgstr "设置指定 LED 的状态。"
 
 #: ../../en/module/hmi.rst:183 3ed9378339684c0db472a86d610aef39
 msgid ": The state to set for the LED."
-msgstr ""
+msgstr "：要为 LED 设置的状态。"
 
 #: ../../en/module/hmi.rst:187 154c8a2d202b4a15b24beba222673a43
 msgid "|set_led_state.png|"
@@ -205,7 +205,7 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:191 3e3636e1cf934ea7ae7215667595ea0f
 msgid "Get the firmware version of the HMI module."
-msgstr ""
+msgstr "获取 HMI 模块的固件版本。"
 
 #: ../../en/module/hmi.rst:196 e2462b1f73624b1b82936535752dc245
 msgid "|get_firmware_version.png|"
@@ -217,7 +217,7 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:200 01ec505f9c754e529e75d63d2f501db6
 msgid "Get the current I2C address of the HMI module."
-msgstr ""
+msgstr "获取 HMI 模块的当前 I2C 地址。"
 
 #: ../../en/module/hmi.rst:204 eaa4e2f799f242209e77e1ca476e0f86
 msgid "|get_i2c_address.png|"
@@ -229,11 +229,11 @@ msgstr ""
 
 #: ../../en/module/hmi.rst:208 0602ad95bd224b8bb72836ccf911d999
 msgid "Set a new I2C address for the HMI module."
-msgstr ""
+msgstr "为 HMI 模块设置新的 I2C 地址。"
 
 #: ../../en/module/hmi.rst:210 941abc98484340d9b4488ebbe4c948a2
 msgid ": The new I2C address to set."
-msgstr ""
+msgstr "：要设置的新 I2C 地址。"
 
 #: ../../en/module/hmi.rst:214 070d4590a5a242e48eac1348cf0646ac
 msgid "|set_i2c_address.png|"

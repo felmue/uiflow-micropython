@@ -1,0 +1,727 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/timerpwr.rst:3 9be01922b1f44a958f9671f669183ada
+msgid "TimerPWR Unit"
+msgstr "TimerPWR Unit"
+
+#: ../../source/unit/timerpwr.rst:7 95074c2035b1457c86d3c359287578f4
+msgid ""
+"The TimerPWR Unit is a timed power supply unit whose main functions are "
+"\"charging & discharging + timed switching + screen display + boost "
+"output.\" It features an internal STM32 microcontroller that implements "
+"RTC and overall control, allowing users to set automatic power on/off "
+"times as needed. It is powered via the Type-C interface and can be "
+"connected to an external rechargeable battery via a 1.25-2P interface. "
+"The unit includes a built-in battery charging circuit supporting a "
+"charging current of 330mA. It also features an integrated DCDC boost "
+"circuit that provides a 5V/800mA (1400mA @ 1C battery power) power output"
+" to external devices via the Grove port. Additionally, the INA3221 sensor"
+" is built-in, allowing real-time monitoring of power input and output "
+"current and voltage. The unit is equipped with a 0.66-inch OLED display "
+"and two side buttons for user interaction, making it easy to view real-"
+"time system status and modify settings. Users can set parameters such as "
+"power on/off using the side buttons or via the I2C bus through the Grove "
+"interface with I2C commands. This product is suitable for smart homes, "
+"industrial automation, and timed control devices."
+msgstr ""
+"TimerPWR Unit 是一款定时电源供应单元，其主要功能包括“充放电 + 定时开关机 + 屏幕显示 + 升压输出”。它内置 STM32 "
+"微控制器，实现 RTC 及整体控制，用户可按需设置自动开机/关机时间。设备通过 Type-C 接口供电，并可通过 1.25-2P "
+"接口连接外置可充电电池。单元内置电池充电电路，支持 330mA 充电电流；同时集成 DCDC 升压电路，可通过 Grove 端口为外部设备提供 "
+"5V/800mA（在 1C 电池供电时为 1400mA @ 1C）电源输出。此外，内置 INA3221 "
+"传感器，可实时监测电源输入/输出电流与电压。设备配备 0.66 英寸 OLED "
+"显示屏及两枚侧边按键，便于用户查看实时系统状态并修改设置。用户既可通过侧边按键设置开关机等参数，也可通过 Grove 接口的 I2C 总线使用 "
+"I2C 指令进行配置。该产品适用于智能家居、工业自动化及定时控制设备等场景。"
+
+#: ../../source/unit/timerpwr.rst:9 eec9bbd3a257429bbd1a3c47c1d44839
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/timerpwr.rst:11 4276011d146b42d199e65083310f598e
+msgid "|TimerPWRUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref cdd1e402d8134e26ada7c8fce11ac742
+msgid "TimerPWRUnit"
+msgstr "TimerPWRUnit"
+
+#: ../../source/unit/timerpwr.rst:13 576bb713d9494a67ae5c4a12dc6d2c03
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例："
+
+#: ../../source/unit/timerpwr.rst:20 3a519b785fba43a9bfff1d7d0e5970a2
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/timerpwr.rst:22 4b7775bed0a747fbaa425d401cace711
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:35 82699d3efc4c4a7dafd8b0e67071abe9
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:26 f356c77d78e14ee18fcf79c9d015fb45
+msgid "|atoms3_timerpwr_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:29 93491309f8dd4c34889b86f2faf79801
+msgid "class TimerPWRUnit"
+msgstr "class TimerPWRUnit"
+
+#: ../../source/unit/timerpwr.rst:32 6351291757b34b9a9f5553f2d00b9d05
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:36 aeb440d909f244339816bd0b9b4dc100
+msgid "Create a TimerPWR object."
+msgstr "创建一个 TimerPWR 对象。"
+
+#: ../../source/unit/timerpwr.rst 0642a4abb6534d89ac32e264cbf1b8a2
+#: 0a08a083b1314de79a583c64bc864798 147fb76ad1c8446aa6a27c1f817535a8
+#: 22234f271a7b4ec39ebb9eb55241c5f3 2da96351cd79474895e43cf5c8ea7d33
+#: 3235024cbe864c6ea84c87c017ba7652 3ae82990a1944daf86073e80b702d471
+#: 6cbe6cb1151a41378df19b03bfab9ac4 9ec51797834e4daba6cbee31d1974215
+#: abe870985b3846a783447fc2fd8963b5 bbe6ff67a1a846ac8ee01bb0b19da2c4
+#: fa000e4a5d034b538be4b15940d672b0
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:38 4c93230fde2a4b738299f8f70fe3819d
+msgid "I2C object"
+msgstr "I2C 对象"
+
+#: ../../source/unit/timerpwr.rst:39 2f97ad6d0e0644228f4cfb5f691095f0
+msgid "I2C address, 0x56 by default"
+msgstr "I2C 地址，默认为 0x56"
+
+#: ../../source/unit/timerpwr.rst:41 ../../source/unit/timerpwr.rst:55
+#: ../../source/unit/timerpwr.rst:65 ../../source/unit/timerpwr.rst:75
+#: ../../source/unit/timerpwr.rst:85 ../../source/unit/timerpwr.rst:95
+#: ../../source/unit/timerpwr.rst:105 ../../source/unit/timerpwr.rst:115
+#: ../../source/unit/timerpwr.rst:125 ../../source/unit/timerpwr.rst:141
+#: ../../source/unit/timerpwr.rst:150 ../../source/unit/timerpwr.rst:160
+#: ../../source/unit/timerpwr.rst:174 ../../source/unit/timerpwr.rst:184
+#: ../../source/unit/timerpwr.rst:198 ../../source/unit/timerpwr.rst:213
+#: ../../source/unit/timerpwr.rst:244 ../../source/unit/timerpwr.rst:270
+#: ../../source/unit/timerpwr.rst:287 ../../source/unit/timerpwr.rst:309
+#: ../../source/unit/timerpwr.rst:322 02f91c7caa8c49eab55bc2428b298298
+#: 06b5be552c424826bac5078371663dfb 096fe5f508074eeaaff83637bcddc4db
+#: 0cfd0bff28ac429d90b9e7096085a26b 170b915871c44695815e27a385511b51
+#: 186cd33e701c45799d02966d8957f4c0 21c2c4979e9249959f237999e9076be6
+#: 22865d0f8a3a4685a0e919e35630d8f3 23fef9d2e846450f8779d42cb8d22e94
+#: 34a744efa18746388c9d308f5960c311 588e4ec8b1964587af65d71dc51a9532
+#: 660bcbd2fd5942aabbfcabe84e19f3a6 9a9f1ffb2e0d42f39034300c2ba90b44
+#: 9f3871701df14eecaa6c7b2740af7b16 ac40d0913b06454193e728d2858589f0
+#: b2147f21b1d044a19e3730d3cb3fc38d b7dcf55caac849bb8ed7f6b2db3f36ff
+#: daf45d26908a4adb9799f2ceec674cc5 e36f00380ef249c28ceab12d08489e4b
+#: f354a85f07284e94906c6a17a920ed4a f83e0a7843d04c88aa5d4e8f94135a78
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/timerpwr.rst:43 1fe721a58d264bb3a86fb94c9252ae52
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:7 704f29a3d08c46aea90b6f39768e5104
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:47 0afc88e9fdf14e868b778592af739d76
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:51 efa7b407c7ff44f9b9d26a4ca5cf952f
+msgid "Get firmware version."
+msgstr "获取固件版本。"
+
+#: ../../source/unit/timerpwr.rst 0ca42c1d177e488b9e2cbc8ce0d7fc7d
+#: 3112847bf6d24d3a81b61826feedc7a4 41a15276002f4cf7bd645d5e76cd14ad
+#: 5e5de5162acd4a77a903baa0a6e17c25 6399e9ebaa2d4c4aa402bff94c1c17cd
+#: dbacd12b0c7d41ea9cbd1c3e0f5528d2 f078065c48024a59944760f692268693
+msgid "return (int)"
+msgstr "return (int)"
+
+#: ../../source/unit/timerpwr.rst:53 1347be89024f44209aeea82b120698bb
+msgid "Firmware version."
+msgstr "固件版本。"
+
+#: ../../source/unit/timerpwr.rst:57 cabf4ddfc21c43ff9ad93ccf3e8a2526
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:8 aadf2aa1c49e4d4eae7c25f652a5a29c
+msgid "get_firmware_version.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:61 dfc28839a3db4d3c9a2ab2ca0859579d
+msgid "Get battery voltage."
+msgstr "获取电池电压。"
+
+#: ../../source/unit/timerpwr.rst:63 36f2b8896e434e1fafde91b966d7feea
+msgid "Battery voltage, in millivolt."
+msgstr "电池电压，单位为毫伏。"
+
+#: ../../source/unit/timerpwr.rst:67 49aa269337b745e3ab53aba9cff61814
+msgid "|get_battery_voltage.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:9 d596c6f5ea85474fb8d5b2acec851c81
+msgid "get_battery_voltage.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:71 31700353bce04fd895908f49bfb1fb0c
+msgid "Get battery current."
+msgstr "获取电池电流。"
+
+#: ../../source/unit/timerpwr.rst:73 c225c3d06eb54334b4b2a26c62a7209e
+msgid "Battery current, in milliamperes."
+msgstr "电池电流，单位为毫安培。"
+
+#: ../../source/unit/timerpwr.rst:77 e0ae7a9fede3461284796a6f08951f35
+msgid "|get_battery_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:10 f5fdea7ee9ad4664a3b12e72c0c7303f
+msgid "get_battery_current.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:81 ea0f595fe8894832a97d2e4db3b53718
+msgid "Get USB voltage."
+msgstr "获取 USB 电压。"
+
+#: ../../source/unit/timerpwr.rst:83 33bb99e7076e47a4868e950124ecaff5
+msgid "USB voltage, in millivolt."
+msgstr "USB 电压，单位为毫伏。"
+
+#: ../../source/unit/timerpwr.rst:87 fc7fc0a43210424daf7107cdfd5211e6
+msgid "|get_usb_voltage.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:11 4c675957f37f45ab90f8184636ee81b5
+msgid "get_usb_voltage.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:91 cee9f92cb201476d8ace2d27ba1fe8d4
+msgid "Get USB current."
+msgstr "获取 USB 电流。"
+
+#: ../../source/unit/timerpwr.rst:93 8114ceae374348a2ac694031ce7ba00b
+msgid "USB current, in milliamperes."
+msgstr "USB 电流，单位为毫安（mA）。"
+
+#: ../../source/unit/timerpwr.rst:97 8e363af043644385a0aa12f7cf2bf710
+msgid "|get_usb_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:12 391f3fb7851f4470b46c39c8eea2183d
+msgid "get_usb_current.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:101 c7e011f2906f4a2fa90275bf513cf66f
+msgid "Get Grove voltage."
+msgstr "获取 Grove 电压。"
+
+#: ../../source/unit/timerpwr.rst:103 2ff16aa9e1754488bbecda750992a429
+msgid "Grove voltage, in millivolt."
+msgstr "Grove 电压，单位为毫伏。"
+
+#: ../../source/unit/timerpwr.rst:107 f9628f76d810483b98a8a4bc9c810a91
+msgid "|get_grove_voltage.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:13 4a81da21ab974b7191c4bb075e8874df
+msgid "get_grove_voltage.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:111 1670302a68c0420ab1cddd75e4249cbe
+msgid "Get Grove current."
+msgstr "获取 Grove 电流。"
+
+#: ../../source/unit/timerpwr.rst:113 8481bc8b023e4d80bf34fc1c7123a8d6
+msgid "Grove current, in milliamperes."
+msgstr "Grove 电流，单位为毫安。"
+
+#: ../../source/unit/timerpwr.rst:117 17184347d9aa49aeb4c5277b49a143a6
+msgid "|get_grove_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:14 3318dbe543b1447bb89a880535c77e66
+msgid "get_grove_current.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:121 c108b6143c8e41f2b5424cf46f4057e3
+msgid "Check if the battery is charging."
+msgstr "检查电池是否正在充电。"
+
+#: ../../source/unit/timerpwr.rst 219134105f9a479b972670a708e21b8d
+#: 544334d3c6734a0e9dad92ef88ff923e 57e05aa27a0443a9b6c9006381be99e4
+#: 95c1d8ac42fe4d5ab5e3fc605c70af45
+msgid "return (bool)"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:123 e126480b4bff4e3eb7f7e1ed65f1ee6f
+msgid "True if charging, False if not."
+msgstr "如果正在充电则为 True，否则为 False。"
+
+#: ../../source/unit/timerpwr.rst:127 4af24e6c9ff647469a72b3521184c3e3
+msgid "|is_charging.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:15 16fd6a33aab74edeac26e6409bcbc1c1
+msgid "is_charging.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:131 0cdad633604d4294b9fa97a228429f2e
+msgid "Get button status."
+msgstr "获取按钮状态。"
+
+#: ../../source/unit/timerpwr.rst:133 47be1b3c49f84389b56781c41b6fa066
+msgid "button index.  Options:     - ``A``: 0     - ``B``: 1"
+msgstr "按键索引。选项：     - ``A``：0     - ``B``：1"
+
+#: ../../source/unit/timerpwr.rst:133 1ca2ef8501b244488bb263a164109de4
+msgid "button index."
+msgstr "按钮索引。"
+
+#: ../../source/unit/timerpwr.rst:137 ../../source/unit/timerpwr.rst:172
+#: ../../source/unit/timerpwr.rst:196 ../../source/unit/timerpwr.rst:255
+#: ../../source/unit/timerpwr.rst:268 ../../source/unit/timerpwr.rst:285
+#: ../../source/unit/timerpwr.rst:305 0e73140f71d9417480a57656a2191891
+#: 11aa121fab674161b555c660fdc9b81a 16afea99d9fc4ee28c44f7c70fb8bc6f
+#: 394062d4e43a487d925c159444279c61 4ae93801a2c4444b92a379183cc06a16
+#: 593c34215fa640998c95c826fefbfc23 8c0f543524614a67b7023afc5ee602f3
+msgid "Options:"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:136 dc2dfb3594164e66bf9cb0a7fdb3d678
+msgid "``A``: 0"
+msgstr "`A`：0"
+
+#: ../../source/unit/timerpwr.rst:137 fcc4f4f4b3ef45e5ba60ab40813ed828
+msgid "``B``: 1"
+msgstr "`B`：1"
+
+#: ../../source/unit/timerpwr.rst:139 3f7fc2b55a5048919423a5ddcf3cd6b0
+msgid "True if pressed, False if not."
+msgstr "如果按下则为 True，未按下则为 False。"
+
+#: ../../source/unit/timerpwr.rst:143 6de6e5e86961419893fcc6e1b6e081cd
+msgid "|get_button_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:16 89f2e9aaeb6f47108a3cc964b60f6123
+msgid "get_button_status.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:147 0f8233e910024c619bde9fe59d2cf01b
+msgid "Save data to flash."
+msgstr "将数据保存到 flash。"
+
+#: ../../source/unit/timerpwr.rst:152 b8a87340cd194f76a6fa64cef67c8e02
+msgid "|save_data_to_flash.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:17 b3d290d114c44b83beae768dc74034c1
+msgid "save_data_to_flash.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:156 f097a68b05c042328e4230899db1dfb9
+msgid "Get Grove output status"
+msgstr "获取 Grove 输出状态"
+
+#: ../../source/unit/timerpwr.rst:158 ../../source/unit/timerpwr.rst:182
+#: 03eb0b399ced4d6285d1e5cf943c67b2 a612ee4c5f3046cb819601e86fba4b27
+msgid "True if enabled, False if disabled."
+msgstr "如果启用则为 True，如果禁用则为 False。"
+
+#: ../../source/unit/timerpwr.rst:162 84f20098559041b0a892398265419e59
+msgid "|get_grove_output_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:18 e7bd3ddc00784711b654cefd7f869f0e
+msgid "get_grove_output_status.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:166 09005ab9621940af9cb59a68eecab1ce
+msgid "Set Grove output status."
+msgstr "设置 Grove 输出状态。"
+
+#: ../../source/unit/timerpwr.rst:168 7fb11fae254747d08b8f19a4a9685b9a
+msgid ""
+"Enable or disable Grove output.  Options:     - ``Enable``: True     - "
+"``Disable``: False"
+msgstr "启用或禁用 Grove 输出。选项：     - ``Enable``：True     - ``Disable``：False"
+
+#: ../../source/unit/timerpwr.rst:168 e62fc39d35dd4bb48ba1bbdb718054c0
+msgid "Enable or disable Grove output."
+msgstr "启用或禁用 Grove 输出。"
+
+#: ../../source/unit/timerpwr.rst:171 ../../source/unit/timerpwr.rst:195
+#: ../../source/unit/timerpwr.rst:255 20f13d2bf6714a9285a9ba56cc6e0729
+#: e663eda34bd14009980f24bcd182b78f f19e9a6353854f65b9a483ee37510ff7
+msgid "``Enable``: True"
+msgstr "启用：True"
+
+#: ../../source/unit/timerpwr.rst:172 ../../source/unit/timerpwr.rst:196
+#: ../../source/unit/timerpwr.rst:256 1d6f884b53a144e4ad1432e171ddb12a
+#: 5bbe538188b04839a6d442d2a3c827d2 c8ce9a15f0c646a08487447204f4d905
+msgid "``Disable``: False"
+msgstr "`Disable`：False"
+
+#: ../../source/unit/timerpwr.rst:176 bf12e23533de43c9947571c83d7a843d
+msgid "|set_grove_output_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:19 d7c102abbb10453c936a8e75e038b26d
+msgid "set_grove_output_status.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:180 720b030e40f24809b370aa03d065c92f
+msgid "Get OLED backlight status."
+msgstr "获取 OLED 背光状态。"
+
+#: ../../source/unit/timerpwr.rst:186 7c1f6a7bcbdc4bba99df7261d21c3f3e
+msgid "|get_oled_backlight_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:20 b8c654a8d09048c584e23f6032d9780f
+msgid "get_oled_backlight_status.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:190 a0a2087afb17474f8893960e103d6f0c
+msgid "Set OLED backlight status."
+msgstr "设置 OLED 背光状态。"
+
+#: ../../source/unit/timerpwr.rst:192 7ef82aa0924c4b0fa6b98f233709f9d4
+msgid ""
+"Enable or disable OLED backlight.  Options:     - ``Enable``: True     - "
+"``Disable``: False"
+msgstr "启用或禁用 OLED 背光。选项：    - ``Enable``：True    - ``Disable``：False"
+
+#: ../../source/unit/timerpwr.rst:192 23722acc5e1a4a89bbea82ae21cc6fc2
+msgid "Enable or disable OLED backlight."
+msgstr "启用或禁用 OLED 背光。"
+
+#: ../../source/unit/timerpwr.rst:200 d5a3adddd3f64b50b099b000585858a0
+msgid "|set_oled_backlight_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:21 6271a4b518d949598a992c1d924bf427
+msgid "set_oled_backlight_status.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:204 a8924e730c3b41fd82fee8bc9891effa
+msgid ""
+"Set sleep once after hours, mintues, seconds and wake up in hours, "
+"mintues, seconds."
+msgstr "设置睡眠：在经过 小时、分钟、秒 后进入睡眠，并在 小时、分钟、秒 后唤醒。"
+
+#: ../../source/unit/timerpwr.rst:206 ../../source/unit/timerpwr.rst:237
+#: bfc48ed46b9344f28a6ecc762c635c65 d8f27b58500744eda414b01965ba37a4
+msgid "Hours to wait before sleep."
+msgstr "进入睡眠前等待的小时数。"
+
+#: ../../source/unit/timerpwr.rst:207 ../../source/unit/timerpwr.rst:238
+#: 78f12f860c404f7988a86bf49b2fcd21 eda24c5eec384c309977bd08fdcaf901
+msgid "Mintues to wait before sleep."
+msgstr "进入睡眠前等待的分钟数。"
+
+#: ../../source/unit/timerpwr.rst:208 ../../source/unit/timerpwr.rst:239
+#: 113aaef484fd49c6972fb7d62d4913e7 be6006f7d05f4f95a8d1487a08b6a40c
+msgid "Seconds to wait before sleep."
+msgstr "进入睡眠前等待的秒数。"
+
+#: ../../source/unit/timerpwr.rst:209 ../../source/unit/timerpwr.rst:240
+#: 2e4b41884f054dd88f4ddf4290b47cd3 6346830435eb4db883a9723f58798042
+msgid "Hours to wait before wake up."
+msgstr "唤醒前等待的小时数。"
+
+#: ../../source/unit/timerpwr.rst:210 ../../source/unit/timerpwr.rst:241
+#: 599c0c5d38284058aa12e5e6d9f71b26 9b57bdf9546846439b460bda8dfdaffa
+msgid "Mintues to wait before wake up."
+msgstr "唤醒前等待的分钟数。"
+
+#: ../../source/unit/timerpwr.rst:211 ../../source/unit/timerpwr.rst:242
+#: 18d09ef2a01b4a9a9be88dda2a2ff082 90bb6cbfb0864adeb57c1488d4026795
+msgid "Seconds to wait before wake up."
+msgstr "唤醒前等待的秒数。"
+
+#: ../../source/unit/timerpwr.rst:215 e2888287082245b282045ee26cacf51c
+msgid "|sleep_once.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:22 f149650de60e4c35834fad0c5a7da0e1
+msgid "sleep_once.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:219 45d9082260dd478bb6ab3336a7cf8aeb
+msgid "Set power on time."
+msgstr "设置上电时间。"
+
+#: ../../source/unit/timerpwr.rst:221 33b7b915b50042f8871f01c34ab6da1d
+msgid "Hours to power on."
+msgstr "开机所需小时数。"
+
+#: ../../source/unit/timerpwr.rst:222 a312737e300147938ddbed67bb43d112
+msgid "Mintues to power on."
+msgstr "开机分钟数。"
+
+#: ../../source/unit/timerpwr.rst:223 aea6faee44f24a3ba49bed9a9707c5a0
+msgid "Seconds to power on."
+msgstr "上电所需秒数。"
+
+#: ../../source/unit/timerpwr.rst:227 c6c1ff55ca2441b984bc28fcc17c1637
+msgid "Set power off time."
+msgstr "设置关机时间。"
+
+#: ../../source/unit/timerpwr.rst:229 ecb9e05ef69945c5b95d7e66719942e5
+msgid "Hours to power off."
+msgstr "距离断电的小时数。"
+
+#: ../../source/unit/timerpwr.rst:230 06a2590fefc74623bc8463addb482777
+msgid "Mintues to power off."
+msgstr "距离关机的分钟数。"
+
+#: ../../source/unit/timerpwr.rst:231 496f90ed839f414ca255b32aed88c815
+msgid "Seconds to power off."
+msgstr "自动关机时间（秒）。"
+
+#: ../../source/unit/timerpwr.rst:235 7c770c94cd1946b694e8243c4e8cae9f
+msgid ""
+"Set sleep cycle after hours, mintues, seconds and wake up in hours, "
+"mintues, seconds."
+msgstr "在设置小时、分钟、秒后的休眠周期后，将在设置的小时、分钟、秒后唤醒。"
+
+#: ../../source/unit/timerpwr.rst:246 34069711b9894de4b142fc40d8dcb63e
+msgid "|sleep_cycle.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:25 c00e7c9ddbed4b66a0d4a8b8f65e6b22
+msgid "sleep_cycle.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:250 ad8bb29311f446be965a7db189718af4
+msgid "Set cycle sleep."
+msgstr "设置循环休眠。"
+
+#: ../../source/unit/timerpwr.rst:252 c01151c702a14b5c9e51a2074cf363c9
+msgid ""
+"Enable or disable cycle sleep.  Options:     - ``Enable``: True     - "
+"``Disable``: False"
+msgstr "启用或禁用循环休眠。选项：    - ``Enable``：True    - ``Disable``：False"
+
+#: ../../source/unit/timerpwr.rst:252 d82c692274c04b2a864990198579ea87
+msgid "Enable or disable cycle sleep."
+msgstr "启用或禁用循环睡眠。"
+
+#: ../../source/unit/timerpwr.rst:260 ../../source/unit/timerpwr.rst:262
+#: 11c27a08cf22447db5a606c587b499bc 20c1b8260bbb4f4c9fb21ace25df1486
+msgid "Set wake-up trigger."
+msgstr "设置唤醒触发器。"
+
+#: ../../source/unit/timerpwr.rst:262 51d0c3f0fd234ef2b6dbd1c944d230d4
+msgid ""
+"Set wake-up trigger.  Options:     - ``ALL``: timerpwrunit_0.TRIG_ALL"
+"     - ``TIMER``: timerpwrunit_0.TRIG_TIMER     - ``BUTTON``: "
+"timerpwrunit_0.TRIG_BUTTON     - ``NONE``: timerpwrunit_0.TRIG_NONE"
+msgstr ""
+"设置唤醒触发源。选项：    - ``ALL``：timerpwrunit_0.TRIG_ALL    - "
+"``TIMER``：timerpwrunit_0.TRIG_TIMER    - "
+"``BUTTON``：timerpwrunit_0.TRIG_BUTTON    - "
+"``NONE``：timerpwrunit_0.TRIG_NONE"
+
+#: ../../source/unit/timerpwr.rst:265 ../../source/unit/timerpwr.rst:281
+#: b31d0bf927764c2eaf510d7a0ffdec5b e1607cd393f24f93b12fc570c75a0bd1
+msgid "``ALL``: timerpwrunit_0.TRIG_ALL"
+msgstr "`ALL`：timerpwrunit_0.TRIG_ALL"
+
+#: ../../source/unit/timerpwr.rst:266 ../../source/unit/timerpwr.rst:282
+#: 440a5f72ccca4c139d5bcdf9ed2eeccb 7d1f932294f04bfdb26e96fcf6c464e0
+msgid "``TIMER``: timerpwrunit_0.TRIG_TIMER"
+msgstr "``TIMER``：timerpwrunit_0.TRIG_TIMER"
+
+#: ../../source/unit/timerpwr.rst:267 ../../source/unit/timerpwr.rst:283
+#: 309aa99ec75544968b190ce7a8c4cf2e f8159a20510f468ca03da5242b865293
+msgid "``BUTTON``: timerpwrunit_0.TRIG_BUTTON"
+msgstr "``BUTTON``：timerpwrunit_0.TRIG_BUTTON"
+
+#: ../../source/unit/timerpwr.rst:268 ../../source/unit/timerpwr.rst:285
+#: 7d1bccf6d2a94b6999f8a4bd6992b31b f850d96f3c7145cab751bcb5536cf3a4
+msgid "``NONE``: timerpwrunit_0.TRIG_NONE"
+msgstr "msgstr \"``NONE``：timerpwrunit_0.TRIG_NONE\""
+
+#: ../../source/unit/timerpwr.rst:272 d419a43ddf7d4edeb8579782c8c8a0d8
+msgid "|set_wakeup_trigger.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:27 5791468d01a445758af04c57b93d3d2e
+msgid "set_wakeup_trigger.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:276 ../../source/unit/timerpwr.rst:278
+#: 228219d4a7ea42f38be6fce4cf65101b cb9e1e56f4924f68a18e09970720d3d0
+msgid "Set sleep trigger."
+msgstr "设置睡眠触发器。"
+
+#: ../../source/unit/timerpwr.rst:278 243196d5f2b947af86ac9fdcb1583524
+msgid ""
+"Set sleep trigger.  Options:     - ``ALL``: timerpwrunit_0.TRIG_ALL     -"
+" ``TIMER``: timerpwrunit_0.TRIG_TIMER     - ``BUTTON``: "
+"timerpwrunit_0.TRIG_BUTTON     - ``I2C``: timerpwrunit_0.TRIG_I2C     - "
+"``NONE``: timerpwrunit_0.TRIG_NONE"
+msgstr ""
+"设置睡眠触发源。选项：     - ``ALL``：timerpwrunit_0.TRIG_ALL     - "
+"``TIMER``：timerpwrunit_0.TRIG_TIMER     - "
+"``BUTTON``：timerpwrunit_0.TRIG_BUTTON     - "
+"``I2C``：timerpwrunit_0.TRIG_I2C     - ``NONE``：timerpwrunit_0.TRIG_NONE"
+
+#: ../../source/unit/timerpwr.rst:284 56f85ed301fa42feb200522623c45469
+msgid "``I2C``: timerpwrunit_0.TRIG_I2C"
+msgstr "``I2C``：timerpwrunit_0.TRIG_I2C"
+
+#: ../../source/unit/timerpwr.rst:289 18f79565ced24d90a8ccb6578f5dcbbd
+msgid "|set_sleep_trigger.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:28 770805a1670a488f97fd55621f66422e
+msgid "set_sleep_trigger.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:293 36f98e1bcdad48f283de57eae4c45593
+msgid "Set callback function."
+msgstr "设置回调函数。"
+
+#: ../../source/unit/timerpwr.rst:295 dbe9bccebdc1440ca44331f57d2f10e1
+msgid ""
+"event type.  Options:     - ``USB inserted``: "
+"timerpwrunit_0.EVENT_USB_INSERTED     - ``USB removed``: "
+"timerpwrunit_0.EVENT_USB_REMOVED     - ``Button A pressed``: "
+"timerpwrunit_0.EVENT_BUTTONA_PRESSED     - ``Button A released``: "
+"timerpwrunit_0.EVENT_BUTTONA_RELEASED     - ``Button B pressed``: "
+"timerpwrunit_0.EVENT_BUTTONB_PRESSED     - ``Button B released``: "
+"timerpwrunit_0.EVENT_BUTTONB_RELEASED     - ``Not charging``: "
+"timerpwrunit_0.EVENT_NOT_CHARGING     - ``Charging``: "
+"timerpwrunit_0.EVENT_CHARGING"
+msgstr ""
+"事件类型。选项：     - ``USB inserted``: timerpwrunit_0.EVENT_USB_INSERTED     - "
+"``USB removed``: timerpwrunit_0.EVENT_USB_REMOVED     - ``Button A "
+"pressed``: timerpwrunit_0.EVENT_BUTTONA_PRESSED     - ``Button A "
+"released``: timerpwrunit_0.EVENT_BUTTONA_RELEASED     - ``Button B "
+"pressed``: timerpwrunit_0.EVENT_BUTTONB_PRESSED     - ``Button B "
+"released``: timerpwrunit_0.EVENT_BUTTONB_RELEASED     - ``Not charging``:"
+" timerpwrunit_0.EVENT_NOT_CHARGING     - ``Charging``: "
+"timerpwrunit_0.EVENT_CHARGING"
+
+#: ../../source/unit/timerpwr.rst:295 ../../source/unit/timerpwr.rst:372
+#: 479fff766aca4898bd69ef51a5502525 a7f9c9646bfc407e83a8f08d049b411e
+msgid "event type."
+msgstr "事件类型。"
+
+#: ../../source/unit/timerpwr.rst:298 984c44407558430b9c72752233db7a72
+msgid "``USB inserted``: timerpwrunit_0.EVENT_USB_INSERTED"
+msgstr "``USB inserted``：timerpwrunit_0.EVENT_USB_INSERTED"
+
+#: ../../source/unit/timerpwr.rst:299 c85794eb57c34ef49bb23b96c6e56693
+msgid "``USB removed``: timerpwrunit_0.EVENT_USB_REMOVED"
+msgstr "USB 已移除：timerpwrunit_0.EVENT_USB_REMOVED"
+
+#: ../../source/unit/timerpwr.rst:300 445ff0d6549547e9afbd94b16a2df1a7
+msgid "``Button A pressed``: timerpwrunit_0.EVENT_BUTTONA_PRESSED"
+msgstr "``Button A pressed``：timerpwrunit_0.EVENT_BUTTONA_PRESSED"
+
+#: ../../source/unit/timerpwr.rst:301 7551152e8ecf4c28925c743d3bb5cc7a
+msgid "``Button A released``: timerpwrunit_0.EVENT_BUTTONA_RELEASED"
+msgstr "``Button A released``：timerpwrunit_0.EVENT_BUTTONA_RELEASED"
+
+#: ../../source/unit/timerpwr.rst:302 0587e932b60c44d8895fb0a6b69a0f5a
+msgid "``Button B pressed``: timerpwrunit_0.EVENT_BUTTONB_PRESSED"
+msgstr "``Button B pressed``：timerpwrunit_0.EVENT_BUTTONB_PRESSED"
+
+#: ../../source/unit/timerpwr.rst:303 9961c8d62979492bbffbb028fb19f134
+msgid "``Button B released``: timerpwrunit_0.EVENT_BUTTONB_RELEASED"
+msgstr "``Button B released``：timerpwrunit_0.EVENT_BUTTONB_RELEASED"
+
+#: ../../source/unit/timerpwr.rst:304 e737c92327c64df5bc67829a1b582559
+msgid "``Not charging``: timerpwrunit_0.EVENT_NOT_CHARGING"
+msgstr "``未充电``：timerpwrunit_0.EVENT_NOT_CHARGING"
+
+#: ../../source/unit/timerpwr.rst:305 acb625ce61814de4b6742b043f55f703
+msgid "``Charging``: timerpwrunit_0.EVENT_CHARGING"
+msgstr "充电中：timerpwrunit_0.EVENT_CHARGING"
+
+#: ../../source/unit/timerpwr.rst:307 d2cd471032ca4939af933c9b04951bed
+msgid "callback function."
+msgstr "回调函数。"
+
+#: ../../source/unit/timerpwr.rst:311 a532921a2f6a4b09920e8091bc46d1f9
+msgid "|usb_callback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:30 52d4257798dd42de84e54de8a78d75ac
+msgid "usb_callback.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:313 11fedef29116483fbdcedffda723a0e0
+msgid "|charging_callback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:31 6701c0b594e34b789d40c1715585e427
+msgid "charging_callback.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:315 100983a1151944e29d234016e39d551b
+msgid "|button_callback.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:32 d816649e20e3417d866d64a2f8a4fc91
+msgid "button_callback.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:319 dbf310ec814342d3ac3c7ac9a66e1552
+msgid "Update status in loop."
+msgstr "在循环中更新状态。"
+
+#: ../../source/unit/timerpwr.rst:324 c83a259c6afa4dd99f213246a6f75d44
+msgid "|tick.png|"
+msgstr ""
+
+#: ../../source/refs/unit.timerpwr.ref:33 1ed2601adcbb48b1ba76eaff9bf255bf
+msgid "tick.png"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:329 d82032a98ea54033a31b500ff0c1ab04
+msgid "Constants"
+msgstr ""
+
+#: ../../source/unit/timerpwr.rst:351 ea2e421aa8a34a72bcab8524538cd106
+msgid "register address."
+msgstr "寄存器地址。"
+
+#: ../../source/unit/timerpwr.rst:360 79a53622a4784bb8809e60ffb1b697c3
+msgid "trigger type."
+msgstr "触发类型。"
+
+#: ../../source/unit/timerpwr.rst:380 4e5f0b0e67f44fd1af78e179ea43c5b8
+msgid "index."
+msgstr ""
+

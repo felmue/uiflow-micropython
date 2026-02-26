@@ -1,0 +1,2226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/lorawan_rui3.rst:3 d9816ae8bcd04607b4470c3d5599be02
+msgid "LoRaWAN-X Unit"
+msgstr "LoRaWAN-X Unit"
+
+#: ../../source/unit/lorawan_rui3.rst:7 2b5a42e1ce8849de95d177a73ce4a872
+msgid ""
+"Unit LoRaWAN-X is a LoRaWAN communication module based on LoRa "
+"technology, specifically designed for those frequency band. The module "
+"adopts the STM32WLE5 solution, supporting long-range communication with "
+"low power consumption and high sensitivity characteristics. The module "
+"integrates the LoRaWAN protocol stack and supports three operating modes:"
+" Class A, Class B, and Class C. It also supports point-to-point (P2P) "
+"communication mode and uses a UART communication interface (controlled by"
+" the AT command set) for flexible configuration."
+msgstr ""
+"Unit LoRaWAN-X 是一款基于 LoRa 技术的 LoRaWAN 通信模块，专为这些频段设计。该模块采用 STM32WLE5 "
+"方案，支持低功耗、长距离通信，并具备高灵敏度特性。模块内置 LoRaWAN 协议栈，支持 Class A、Class B 和 Class C "
+"三种工作模式。同时支持点对点（P2P）通信模式，并使用 UART 通信接口（通过 AT command set 控制）实现灵活配置。"
+
+#: ../../source/unit/lorawan_rui3.rst:9 7ba8ad98765d4d269e6af38211c2b655
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/lorawan_rui3.rst:12 14d6210125a847b289ad58d1665c729b
+msgid "|LoRaWAN-CN470|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref 9f4f7272b67548cf95dc0e479a4322c6
+msgid "LoRaWAN-CN470"
+msgstr "LoRaWAN-CN470"
+
+#: ../../source/unit/lorawan_rui3.rst:12 61b6536d132a44b6a136639bacbdd3a6
+msgid "|LoRaWAN-AS923|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref b978ffbba3884905bbf15ac8a827b69b
+msgid "LoRaWAN-AS923"
+msgstr "LoRaWAN-AS923"
+
+#: ../../source/unit/lorawan_rui3.rst:16 b9e582353690400fb2ad96e85de0d38b
+msgid "|LoRaWAN-EU868|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref e463fcbfff2747f29be0f51738e3dfbf
+msgid "LoRaWAN-EU868"
+msgstr "LoRaWAN-EU868"
+
+#: ../../source/unit/lorawan_rui3.rst:16 6b7848b6f6b54bc0b95947eccd024416
+msgid "|LoRaWAN-US915|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref 259c8ad76413462cbce73e8aeba22f36
+msgid "LoRaWAN-US915"
+msgstr "LoRaWAN-US915"
+
+#: ../../source/unit/lorawan_rui3.rst:19 d1d5ca01650d4149bcfb9e7a7253c4ab
+msgid "Micropython LoRaWAN-CN470 LoRaWAN OTAA Mode Example:"
+msgstr "MicroPython LoRaWAN-CN470 LoRaWAN OTAA 模式应用示例："
+
+#: ../../source/unit/lorawan_rui3.rst:25 e839feed85bf4c0a931a75e6023ccdfe
+msgid "Micropython LoRaWAN-CN470 P2P Mode TX Example:"
+msgstr "MicroPython LoRaWAN-CN470 P2P 模式 TX 应用示例："
+
+#: ../../source/unit/lorawan_rui3.rst:31 7d0d92d46f1742d1b0677c50d4465482
+msgid "Micropython LoRaWAN-CN470 P2P Mode RX Example:"
+msgstr "MicroPython LoRaWAN-CN470 P2P 模式 RX 应用示例："
+
+#: ../../source/unit/lorawan_rui3.rst:37 84b7cc8ed9324f0d8dec3ee07a01a1c9
+msgid "UIFLOW2 LoRaWAN-CN470 LoRaWAN OTAA Mode Example:"
+msgstr "UIFLOW2 LoRaWAN-CN470 LoRaWAN OTAA 模式示例："
+
+#: ../../source/unit/lorawan_rui3.rst:39 ea1ac3ef8c9744379cc7c4a7aa454b43
+msgid "|lorawan_otaa_cores3_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:60 5e43109c970a4bc0bfe9c95b5c528b45
+msgid "lorawan_otaa_cores3_example.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:41 2a9733f64c174a8fb09ef0ea12353e97
+msgid "|lorawan_otaa_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:43 0d22b58e6d5d41788d2e418da5c30564
+msgid "UIFLOW2 LoRaWAN-CN470 P2P Mode TX Example:"
+msgstr "UIFLOW2 LoRaWAN-CN470 P2P 模式 TX 应用示例："
+
+#: ../../source/unit/lorawan_rui3.rst:45 3583b9d0e6e74c718a9e854c7829255c
+msgid "|lorawan_p2p_cores3_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:61 fa7fc0c3d1dc4eb89d0221ce49230e8a
+msgid "lorawan_p2p_cores3_example.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:47 e16de0c6939a461191fafa8f84ebd1ee
+msgid "|lorawan_p2p_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:49 965d6f63513b44efaeaa00c577635b40
+msgid "UIFLOW2 LoRaWAN-CN470 P2P Mode RX Example:"
+msgstr "UIFLOW2 LoRaWAN-CN470 P2P 模式 RX 应用示例："
+
+#: ../../source/unit/lorawan_rui3.rst:51 1a54e039bce9444e934d05b763842594
+msgid "|lorawan_p2p_rec_cores3_example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:62 0f6b34a2b07e4ad6a63ecf6b338e6b82
+msgid "lorawan_p2p_rec_cores3_example.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:53 b13b92353e824bd7a22ce4e3d948d423
+msgid "|lorawan_p2p_rec_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:56 a64c5dfff05b491cb6d8a604852ec3a8
+msgid "class LoRaWAN_X"
+msgstr "class LoRaWAN_X"
+
+#: ../../source/unit/lorawan_rui3.rst:59 cdfb4dd1be1449088ba2a8fdf2888ca5
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:63 c2631410fbfe4a29bb776e558bd889c1
+msgid ""
+"Initialize the LoRaWAN_X module by setting up UART communication with the"
+" specified parameters."
+msgstr "通过使用指定参数配置 UART 通信来初始化 LoRaWAN_X 模块。"
+
+#: ../../source/unit/lorawan_rui3.rst 0503b932bbc644b18f688347db3cedce
+#: 0b6dd5ce66b745638ce5f57482766875 0c6df26f73ca496fbbbb4eb21ae17d9b
+#: 0f7e886f4f6540fc9099cadb53ae438b 0f89c578a2d446c792ba547495dd1264
+#: 1123e129fb084c05947cdade74526a32 13e95c52e5d9490bb0323b7ad9cd8c13
+#: 1b2aa1c851184768911c78a727c1f3c3 1f359d7c013e4e3494ceac82e969d1a5
+#: 2264b736ad6a4b2ab9947114c50091b1 25007fbf977b4bb9a42307fb914d5b62
+#: 2509defa7be2492fbb6bc7f06f7b275b 266cdf2ab54b43458e00232cc3c10b02
+#: 2b9cd8e417024142b263a944e529caba 302d6ccc6bcc4f39be2b40835b78ad54
+#: 33b70b32425d412f915065abeaf3de8e 345d63f875f94224b6568ffb76422b61
+#: 3a057b02ebd24690b468843854b31167 3a5c270823844d00baea559d5a8d9f43
+#: 3fddbd816fd34a8c97fafb4f506bbb84 40be9d5091794c1ebdda4422f438f8ac
+#: 40f7b49b8a1c475282c902e40eef1575 46825166ba0b4ee4a60cac21a5f0072b
+#: 471469a57e6f4ed8887aff3b3c118841 47247b0ca53545639cb5ac62b83bc73a
+#: 4e897e78747d44d38bea23f3d336e7a1 4fd7721dc8bb46bdb8e39c0f53d319bf
+#: 50fc113a79874d22b1930471c5767d71 53664909edea40858d05f178350626b5
+#: 571cf2a5df3846e78b7ec925b173d4f4 5f631bd67e5a4c5692b783d2ab732959
+#: 60b7c88bd0d84d768c1aaafb5de6eb72 60e43f7a83274bb5824482a16b95c16d
+#: 6266b740ea3e4c01989cfac2e61c4704 6cc04bca52f6490aa6dcae9b1a16161a
+#: 73f071a77d064106a419c69c77992b23 74dc1a43a5b247e8b4cb83bced6223e0
+#: 7bd2291316e6487794ea9643e0425e8e 81cb4b21da83452192f4b7303b01bfad
+#: 8742531ea2564c85ab23320d9a8c0d88 8b474ce5fe1647669a3e0cb3e72dd8be
+#: 8b981c4a7c804ac39c052203b8093dba 9277178e979b4b1790244a77d3f33138
+#: 944a4b93ae784f268be956660fcf4276 9867be6075f8402e997514b90f336b04
+#: a3306bc68b64412a8b81d1efff4e152c abf9227068de4d8d932f3154a9eec349
+#: ae7777eb6776479a81023107366aba33 bb0d78c4215b4175a713067422ef6caa
+#: bf86caad599a4c04af4526cbd80c8942 c3a18234eb994e0bb576308aa0025b54
+#: c3b10c4ca42c40589ae89d02721eeb2e c44b8061727e4d64ba42bee5e9cf8bf9
+#: c5af12fe5d4a43628e7ad5d002919e5d cfe46cb40a184c7084ce09d1a3f2690e
+#: d120b28362e3468780aedff8e21052ea d519a94e8a04479092dd6ea394dcf75b
+#: d773fdc1f0ed477ba1dc9f948fa10c82 d8c213e217014e24b26167058b6f7100
+#: d96d949924d54f7393ec70df533885be d9d1d248242c411392614e663a0fe980
+#: ddc485bb9195437eb2280e9e7f9f7eca e5315d355f994b6cbceec10aec1e1298
+#: e53ff4608b694b60b124bb01e7c39be3 f110c816045249d685b86925a93541d2
+#: f1df21a738b341c5be4b6db7e5123581
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:65 fc2e8a6f48d543cf98e83ecb4a37e185
+msgid "The UART ID used for communication."
+msgstr "用于通信的 UART ID。"
+
+#: ../../source/unit/lorawan_rui3.rst:66 fcf9e0244ead4bb3b4dc0d97b928b632
+msgid "The UART TX pin."
+msgstr "UART TX 引脚。"
+
+#: ../../source/unit/lorawan_rui3.rst:67 35b6b12d7d3d4f41bf2a06db734e31a5
+msgid "The UART RX pin."
+msgstr "UART RX 引脚。"
+
+#: ../../source/unit/lorawan_rui3.rst:68 d9c9efac1c894c3da70e30201bebb21b
+msgid "Enables debug mode to log additional details, default is False."
+msgstr "启用调试模式以记录更多详细信息，默认值为 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:70 ../../source/unit/lorawan_rui3.rst:86
+#: ../../source/unit/lorawan_rui3.rst:96 ../../source/unit/lorawan_rui3.rst:108
+#: ../../source/unit/lorawan_rui3.rst:118
+#: ../../source/unit/lorawan_rui3.rst:165
+#: ../../source/unit/lorawan_rui3.rst:383
+#: ../../source/unit/lorawan_rui3.rst:395
+#: ../../source/unit/lorawan_rui3.rst:415
+#: ../../source/unit/lorawan_rui3.rst:425
+#: ../../source/unit/lorawan_rui3.rst:435
+#: ../../source/unit/lorawan_rui3.rst:449
+#: ../../source/unit/lorawan_rui3.rst:883
+#: ../../source/unit/lorawan_rui3.rst:893
+#: ../../source/unit/lorawan_rui3.rst:908
+#: ../../source/unit/lorawan_rui3.rst:918
+#: ../../source/unit/lorawan_rui3.rst:930
+#: ../../source/unit/lorawan_rui3.rst:941
+#: ../../source/unit/lorawan_rui3.rst:952
+#: ../../source/unit/lorawan_rui3.rst:965
+#: ../../source/unit/lorawan_rui3.rst:977
+#: ../../source/unit/lorawan_rui3.rst:988
+#: ../../source/unit/lorawan_rui3.rst:1000
+#: ../../source/unit/lorawan_rui3.rst:1011
+#: ../../source/unit/lorawan_rui3.rst:1023
+#: ../../source/unit/lorawan_rui3.rst:1034
+#: ../../source/unit/lorawan_rui3.rst:1046
+#: ../../source/unit/lorawan_rui3.rst:1075
+#: ../../source/unit/lorawan_rui3.rst:1104
+#: ../../source/unit/lorawan_rui3.rst:1218
+#: ../../source/unit/lorawan_rui3.rst:1230 00657d47827847c1bcb96c6e75868928
+#: 237e5b90729e4533a977c81786d2676f 277309a10f4b4f3aa9700db40384e683
+#: 29434ee147ed4a8cabff8ea96476a49d 44544f54fbdf46d79b5b2ce5615e5f4c
+#: 4893435416234fd5b95e309441bb9012 4d7558cea8164499bee2a6d5c249528e
+#: 5914ca62399f47d09766b277f81a5017 619273be6cdb467cbc0b095b0a9cbeaa
+#: 663949491c354763808c5720c9025cca 67a5e512bb12477baece4120a2727fda
+#: 69966121d8bd4fe0b6097c44341ba054 6a98b520b0b44e0193390e797544bd10
+#: 6d5ee1518c844a889531320d0e68fc38 78b270476f22486889a77a8c0c7a0c1e
+#: 80f6b5429e3e49b6a43716779014d444 81677d11cdf94e73a9321290ea28f7a4
+#: 8fda38372aa14585ab6310acc11aba74 9769df50d33749e6857304bf4d24bbd8
+#: a2e28532d71845d98bb9d0f689950a98 a396777a69684f1a964418eaba40104e
+#: a401778963e04d5bae66738b17e46e0e a50abb0432d84565baf8359286ab8ac8
+#: a89e995450be4c96801b8a3d850848ae b2856c120b7a43039f1ee20ccb216d54
+#: b844f253f8a44fb595132fa116f6bfee bf0059205a0f4100b14897f713cdff3d
+#: cb9cd4d1b8a94842a96e667c24bc6c2d e5377e6ada934feda20b4c41b542a3b2
+#: ed08dea7d5894a7a8f537e700a91125b fd3932e1e3bf4a74a66f1466ec78d682
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/lorawan_rui3.rst:72 31760b65dd104bbca524331896eb127c
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:21 e803f9ba63c447f89cb0e9fd8228877a
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:76 69418a6f8d5543bf9249a0ff7ab54f85
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:80 13b4b7e56a4a4132a0a80b962b827d2a
+msgid ""
+"Configure the device for ABP (Activation By Personalization) mode using "
+"the provided device address, application session key, and network session"
+" key."
+msgstr "使用提供的设备地址、应用会话密钥和网络会话密钥，将设备配置为 ABP（Activation By Personalization）模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:82 2b87823ca5f248b482f1eea7b8fd0575
+msgid "The device address for ABP configuration."
+msgstr "ABP 配置的设备地址。"
+
+#: ../../source/unit/lorawan_rui3.rst:83 e05d975434244365955f3602b8a1029c
+msgid "The application session key for encryption."
+msgstr "用于加密的应用会话密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:84 92eb5e7c3e4e4003a974934b00aab946
+msgid "The network session key for communication."
+msgstr "用于通信的网络会话密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:88 2dcfc97ed5dc4babaf2b837ee77cbae0
+msgid "|set_abp_config.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:54 75b9805255e8400bbfff6359070f6a40
+msgid "set_abp_config.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:92 6ced351d52364bc9af79f5db1eac2ffe
+msgid ""
+"Retrieve the current ABP configuration, including the device address, "
+"application session key, and network session key."
+msgstr "检索当前 ABP 配置，包括设备地址、应用会话密钥和网络会话密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst 05bcc1e82fd640fda73ae30c0a9fd626
+#: 082e1d445bd74bedb9aa8b91d645a3c4 0a4214c2f78440098e383d0359495a93
+#: 0b675d7331b5474ab83e45937bc2c3eb 106512c722c946538907419ce69a3670
+#: 137746d96dde4c08bef03ca2b663dc72 13e0553dd2264a26a3feb7df35fb7508
+#: 153ecb631dfc4c0a97c29222383df06c 16cf483318254a99a636f373fd21170e
+#: 18e1363e23b6460f87b040d9ce830edb 190846a185614fe886689e99301298bd
+#: 192b3b5cdab24432842fdf8262de49d4 1a947fc450c94a24a6db05d0386d04f3
+#: 1ba80866b60648c4a76fc839f7c9202c 1ceca7bfd75e4d05b51e37a09e01c166
+#: 1f807494aeda43c6bc777fc839ee3fbf 212df979df1943bcb1d0c1d44acbbf42
+#: 2608feab855641579f045de01b6d2d5d 27a052cc5f7e4eb3af2a98965fd617ce
+#: 288a5f3c84d44af68b1e9b971aa86abe 29d6dd4a9eaa4eaa89c02795da2a83f2
+#: 2a1cb786ed2544c4a546ea6179c86184 2e06829886ac40e78751ea66bb290cf6
+#: 2e45cfa7ee944733b9b8a4a63c564431 2ebbb585d7b84e818e7f742b6bc4e24d
+#: 2f4476329b1b47d393eec8bf1b7c7b97 309119241ffb4e43819031a0c23e8f26
+#: 33c60ae6ac254947b674995c68f7c6d5 35a31b3f97434802b2b1780471afbbf9
+#: 37df5dd2b27a47d3b9a6d615e1152079 38ffa48b80f94cc5b14b696c9096a82b
+#: 39e35e7606a5403d855bcb6dd746024d 3afac8fbfc184cbd88005add235794e7
+#: 3c7c3ac0615f4ea19c33fec683e432a1 3d2b5770cda546f48303f0a0fee9a04d
+#: 3e1de6100517429c8e288a6b556fabd4 3f02206338c04a89b533871d08f425af
+#: 3fadea6e62b34cfc89f6787699ed0956 417e1eeb011b4646bff1d52ee119791a
+#: 41e2da6619054cbc8b6278a53f289c88 443f940fa1cd409b9ae64a417d4b49e9
+#: 47fc116326fd46a8aa0ae0b1578af2ce 488f736a56494a4a917a9adebd830abe
+#: 504e313de85948c1b17bead43556e337 51266056965a4de895c8b76a4e746fc8
+#: 5142f52a6bf94c2585f25fed885391b0 525fdd7378fa4d4e8fd988f1f9a11a85
+#: 59fd94ba41ee45bab180360ec5c89c49 5d51b8e783674dc9840914a3fa5c4e32
+#: 60628ea28d9242bf95ebf7a2bf3a9847 60a4d6c5a912423cba8496759723606a
+#: 60c30ee60e454f96952f68b8d876027a 64677dd41b5949f18c6d629384a4fea4
+#: 647e776de14247b6b3101f9306f8f830 6992ebd6f3a64a45b3d6d26775499e3d
+#: 69def92b15bf4aedbb41c8287eb85e71 6a0cd125af1c4e46bb3141db2f636d08
+#: 6a9c34e816b24ce59f359a8b30ccdeef 6f91b3fdf52744b3951042d1f0be2dc2
+#: 72a6ed97af6d48d7bd5347f2f75a8505 739110f1419848e78dac3fcd013210f2
+#: 7489bbe2ce6a45118b3cc662ab544e33 75d7487369974bc19a3124b0a8f443a4
+#: 77c0855390534817988bc01cc2263b78 78874ffe268a46b19870fccd363e2837
+#: 78b938301fff419bbe44b34c6e479f34 79f769cca97d4a49b18208044bbbfa6c
+#: 7a35b416a51749c99d81e5e16634ec5b 7d1c03691be8446da879dba0b89ee4ac
+#: 7e19d9ac591c46c0b80f89189d146db7 7f6b3da20bf94a79958789aa738de9c3
+#: 8010c434506745be922f11e2e94ec11c 83e4cd75c8984c78a9a8887b6369ac04
+#: 855f8169a13542749a6a3e546307fe93 85cbfdb1acf943519a399ad93628c1a6
+#: 869846f33ed14ee38d43a21e48d0d8de 88617017878846a68a58989293240b87
+#: 8a330d5438ad464893e9f8d38f14019a 8b4e0660c95d4a88bfa6c77325d57374
+#: 8f9de13facfe45b1ab055c6db5d15e58 9094eb1bc983447d9a79e77d9ac5a382
+#: 917450648e6748c6a2a5b4b5345a1c95 9197fc51bffd4235b4ce415541799244
+#: 91b0fe16c7b642868f97abfa6d642f17 91d96c5a9ca44344a2e3952d652173a3
+#: 956059bae5da44558b8ae55343ffa503 98014161569a44ef8c8c207569cbd47b
+#: 9a19e0e6ae6749788a841c49a4fde62c 9c5f52d053b84f62b69bafeaac94f8d5
+#: 9e31b5ecbcbf44c197458d211f66ee26 9f4b30a32be549739c5035c6af457804
+#: a1ec7bcefc15489f9f3bcc34d2d32aa7 a38705c33b45409bb2a88bbf01eff8db
+#: a58d38885b4c4903b0fe7fcdc26f4e7a a5e9de6d3e0b4df9bebc29fd73eb6dfa
+#: a6755c7e74d94dc097b0ce2ebe15f2c9 a92518e65ecd49a1be7514f34b7643c1
+#: a9cd30b20bd44a62a08e3031ebc74d94 aae08245d0b74ff28a7efeca89194cbc
+#: abca5d3fb6394309906e4f60faced36d aca224e09afb4ffda5e90279f8aa613c
+#: ad8930c9a47949f3b49c37e55a065cad aee32bace023430299e5e4a3994528e1
+#: af2644110f274859b90da9286ba63605 af5dd22dc38149e182a9aa2faf4c2666
+#: b05ac6d9f56d4602b7b6531d59206942 b0f6be7a96f74e768713347af80f69ef
+#: b4d4f0721d4442e89b4bbaecd48522e7 b5ed64dc70c748848d93128b30e3d727
+#: b93ce0683b494389a9934c02b0ce307a bebb09dac7c44fd3861168b8723f5967
+#: bedc676c49854ad99b33dde7c94c5664 c299eb8ce6074cb790674427d783fac1
+#: c3e4def73d1141e6b6657d85b5c4172f c5de753379044cb9ac522a019fef4d04
+#: c63e04a9ec564aeb87f2e3828b6eca3b c6f95291b9d442c4b82aaf28f2fbfb59
+#: c720dd389e40415085f05a18ce4eb6c4 ca0b2312c7974f108fd02a74862b9815
+#: cc731cdcfbbe444a8b9ee943f9a09d7b ce952fe2ffd045a38ebed9815bd87d14
+#: d1731ccf3f54433592a203ec84cb4eca d2b937dc23fc4cb7b0f804f3129bbcec
+#: d5054a3a105f4f4c8be2d99d5fd79fe4 d59f0547e8a84b1f9c53cd576537e5df
+#: d5b1adc8f9be4ba4ab6659e0a59a981e d7db2621c0464d9494ac12455e8ed598
+#: deedeceef290488d8c7f0ed74584e79f df60cf18d1524727a222f0bb7bd48678
+#: e90aa7bda8ae49a69ef257e8f8941d3c ea08d2b7647342aaab5d72d3ded361dd
+#: ebc7e056fe004e008c511506edab525d ec1cac79ca3d46df9d88ce1390f702a3
+#: f20042a85b754ebba17912bbba31df05 f333922a967a4c51b87726faf7227c90
+#: f38828c793514c40b4b8260c9bc26ff1 f62d70a5c47c4a8287c43dae064b75b4
+#: f8a54526bdfd4d1c945ef54be4e0ab61 f8bfe3cfe81d45a48f0582d06bc21e8c
+#: f989e8b8e0cc469aa8e04600ee77f3f4 feb5afbab9374dd7bad6de680d01339f
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:94 bfca62813c244585b95c9647d1642dd3
+msgid ""
+"A tuple containing the device address, application session key, and "
+"network session key. Returns None or False for missing or invalid "
+"configurations."
+msgstr "一个包含设备地址、应用会话密钥和网络会话密钥的元组。对于缺失或无效的配置，返回 None 或 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:98 857b72daf6e54481bb6b0fa04907c8b5
+msgid "|get_abp_config.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:55 eb79729599494ea58fcd55c4b3cb23b2
+msgid "get_abp_config.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:102 115208eb9d8c476d91bb2bbce7ff41ee
+msgid ""
+"Configure the device for OTAA (Over-The-Air Activation) mode using the "
+"provided device EUI, application EUI, and application key."
+msgstr "使用提供的设备 EUI、应用 EUI 和应用密钥将设备配置为 OTAA（空中激活）模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:104 9ccd21bdcaf44432a7c2c64eafed2ceb
+msgid "The device EUI for OTAA configuration."
+msgstr "用于 OTAA 配置的设备 EUI。"
+
+#: ../../source/unit/lorawan_rui3.rst:105 1578f0a91ba440e489c037ea9e0eee4e
+msgid "The application EUI for OTAA configuration."
+msgstr "用于 OTAA 配置的应用程序 EUI。"
+
+#: ../../source/unit/lorawan_rui3.rst:106 163cda4375794cd8a320cc60818a2994
+msgid "The application key for encryption."
+msgstr "用于加密的应用密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:110 b856d23785844ddabe112c622fc426aa
+msgid "|set_otaa_config.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:56 6e2050a3bebc4d849821f0d62f941d94
+msgid "set_otaa_config.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:114 266a764efb634ad68e81fbdabd046279
+msgid ""
+"Retrieve the current OTAA configuration, including the device EUI, "
+"application key, and application EUI."
+msgstr "检索当前 OTAA 配置，包括设备 EUI、应用密钥和应用 EUI。"
+
+#: ../../source/unit/lorawan_rui3.rst:116 53565fe482a84732a71f4755aaa2313b
+msgid "A tuple containing the device EUI, application key, and application EUI."
+msgstr "包含设备 EUI、应用密钥和应用 EUI 的元组。"
+
+#: ../../source/unit/lorawan_rui3.rst:120 37e36ab8a5934e269112f4027e01f3b4
+msgid "|get_otaa_config.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:57 8a419c656d0c40f69062a9d6f1063111
+msgid "get_otaa_config.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:124 b3f0c008e4174da799e8027c53f54dba
+msgid "Sends an AT command to the module and optionally reads the response."
+msgstr "向模块发送 AT 命令，并可选读取响应。"
+
+#: ../../source/unit/lorawan_rui3.rst:126 a7631520c19e484583adce1445839545
+msgid "The AT command string to send."
+msgstr "要发送的 AT 命令字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:127 0cd964cbb41d4c3eb4e36c5c56f33369
+msgid "Specifies whether to read a response from the module."
+msgstr "指定是否从模块读取响应。"
+
+#: ../../source/unit/lorawan_rui3.rst:128 145fa2c049424c778f73867df25782f4
+msgid "Indicates if the command expects a single-line response."
+msgstr "指示该命令是否期望单行响应。"
+
+#: ../../source/unit/lorawan_rui3.rst:129
+#: ../../source/unit/lorawan_rui3.rst:140 315157ef3efd401e9acb8400fc3f8e93
+#: be2134a220334b669ee00fe7a8542ff9
+msgid "Specifies whether to handle asynchronous events."
+msgstr "指定是否处理异步事件。"
+
+#: ../../source/unit/lorawan_rui3.rst:130 0389f91f2eed49fc91ebd3f95ae81586
+msgid ""
+"The timeout duration in milliseconds for receiving a response, default is"
+" 100ms."
+msgstr "接收响应的超时时长（单位：毫秒），默认值为 100 ms。"
+
+#: ../../source/unit/lorawan_rui3.rst:132 44ad8b9e7b0b43fe8d03d725f6cf6528
+msgid "The processed response from the module or None if no response is expected."
+msgstr "模块处理后的响应；如果不需要响应，则为 None。"
+
+#: ../../source/unit/lorawan_rui3.rst:136 97fb3ddca2e04396b2fcf1f5ca1f5d33
+msgid "Reads and processes the module response to an AT command."
+msgstr "读取并处理模块对 AT 命令的响应。"
+
+#: ../../source/unit/lorawan_rui3.rst:138 61bd5eee9027448a8736415a954427ee
+msgid "The AT command sent to the module."
+msgstr "发送到模块的 AT 命令。"
+
+#: ../../source/unit/lorawan_rui3.rst:139 af6bcedce885444e9537ae222925389c
+msgid "Indicates if a single-line response is expected."
+msgstr "指示是否期望单行响应。"
+
+#: ../../source/unit/lorawan_rui3.rst:141 a4f797ff43b24f09be9e979576d79260
+msgid "The timeout duration in milliseconds for receiving a response."
+msgstr "接收响应的超时时长，单位为毫秒。"
+
+#: ../../source/unit/lorawan_rui3.rst:143 76ef0eb7d6874d40b672674c416ade99
+msgid ""
+"- True if the response is valid and matches a single-line expectation. - "
+"A processed response string when CMD+RESPONSE is received. - An event "
+"response string if async_event is enabled and an event is detected. - "
+"False if no valid response is received or an error occurs."
+msgstr ""
+"- 如果响应有效且符合单行期望，则返回 True。  \n"
+"- 当收到 CMD+RESPONSE 时，返回处理后的响应字符串。  \n"
+"- 如果启用 async_event 且检测到事件，则返回事件响应字符串。  \n"
+"- 如果未收到有效响应或发生错误，则返回 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:144 7a9a0f43bcd147c9b71569a2810f610b
+msgid "True if the response is valid and matches a single-line expectation."
+msgstr "如果响应有效并符合单行预期，则为 True。"
+
+#: ../../source/unit/lorawan_rui3.rst:145 ea3d3380be0b4bffbca0742f0a99f14a
+msgid "A processed response string when CMD+RESPONSE is received."
+msgstr "当接收到 CMD+RESPONSE 时的已处理响应字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:146 9c5a2d71e17440eb84f559f4c4bf73f5
+msgid ""
+"An event response string if async_event is enabled and an event is "
+"detected."
+msgstr "如果启用了 async_event 并检测到事件，则返回事件响应字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:147 6e18c2b7c3ec45d583cacfaf33b9f516
+msgid "False if no valid response is received or an error occurs."
+msgstr "如果未收到有效响应或发生错误，则返回 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:151 c586a342efdc4f8ab6c01c3468e3009d
+msgid ""
+"Checks the communication state by sending the AT command and expecting a "
+"response."
+msgstr "通过发送 AT 命令并等待响应来检查通信状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:154 220bd4973eaa40c58a556c2b6d247362
+msgid "The response from the module indicating the communication state."
+msgstr "模块返回的响应，用于指示通信状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:158 3a8e69795f3445488a1856a883769006
+msgid "Resets the module using the ATZ command."
+msgstr "使用 ATZ 命令重置模块。"
+
+#: ../../source/unit/lorawan_rui3.rst:162 ee81a9858973423a9074c1ad7155c13a
+msgid ""
+"Resets the module to its default settings using the ATR command. Waits "
+"for the reset process to complete."
+msgstr "使用 ATR 命令将模块重置为默认设置，并等待重置过程完成。"
+
+#: ../../source/unit/lorawan_rui3.rst:167 fbf1656def0446f18bb83473996b0405
+msgid "|reset_module_to_default.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:23 f5217e247070461a98550825dbdf26d5
+msgid "reset_module_to_default.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:171 7d83fabedd1f4cfea085bd03d683cea2
+msgid "Retrieves the serial number of the module."
+msgstr "获取模块的序列号。"
+
+#: ../../source/unit/lorawan_rui3.rst:173 98a5c6fcfe8f44a2876af31bccb08c5d
+msgid "The serial number as a string."
+msgstr "序列号字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:177 50fbd381abe148499ae5d6dcba6efcd3
+msgid "Retrieves the firmware version of the module."
+msgstr "获取模块的固件版本。"
+
+#: ../../source/unit/lorawan_rui3.rst:179 599d0c48b8d641eea7cb0c7e503897bb
+msgid "The firmware version as a string."
+msgstr "固件版本字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:183 7182b70402404327b320abddd50d5d86
+msgid "Retrieves the AT command version supported by the module."
+msgstr "获取模块支持的 AT 命令版本。"
+
+#: ../../source/unit/lorawan_rui3.rst:185 4a3c787e7f0a4fccb8cb5d7d8403e330
+msgid "The AT command version as a string."
+msgstr "AT 命令版本字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:189 ccf25f92010c414ca9339cb124e8c7b6
+msgid "Retrieves the hardware version of the module."
+msgstr "获取模块的硬件版本。"
+
+#: ../../source/unit/lorawan_rui3.rst:191 4ce1fe9a5c93485ea504319b06c2c32e
+msgid "The hardware version as a string."
+msgstr "硬件版本的字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:195 68e0dab3b64f44718183c20c8dab255e
+msgid "Retrieves the hardware ID of the module."
+msgstr "获取模块的硬件 ID。"
+
+#: ../../source/unit/lorawan_rui3.rst:197 04c90176c6f34820a1d89079e9217bb5
+msgid "The hardware ID as a string."
+msgstr "硬件 ID 字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:201 1419265d857549089fdbb201beb23112
+msgid "Retrieves the Bluetooth MAC address of the module."
+msgstr "获取模块的 Bluetooth MAC 地址。"
+
+#: ../../source/unit/lorawan_rui3.rst:203 5dadbed7546b468dba4e87e71b0c5f3e
+msgid "The BLE MAC address as a string."
+msgstr "BLE MAC 地址字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:207 696344758fea4c0e916e250f617dc6ff
+msgid ""
+"Configures the sleep time for the module. If no time is provided, the "
+"module enters sleep mode."
+msgstr "配置模块的休眠时间。如果未提供时间，模块将进入休眠模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:209 c3ae94f0f8524d8da320c6738cd5a30d
+msgid ""
+"The sleep duration in seconds. If None, triggers sleep mode without "
+"specifying a duration."
+msgstr "以秒为单位的睡眠时长。如果为 None，则触发睡眠模式但不指定时长。"
+
+#: ../../source/unit/lorawan_rui3.rst:211
+#: ../../source/unit/lorawan_rui3.rst:225
+#: ../../source/unit/lorawan_rui3.rst:233
+#: ../../source/unit/lorawan_rui3.rst:253
+#: ../../source/unit/lorawan_rui3.rst:267
+#: ../../source/unit/lorawan_rui3.rst:281 41c77747b8384da584e71516d9ddac6a
+#: 8058be1b215a44f198247da2792cab52 8147e3d08ce2436ababf9f47c4266565
+#: 98b1cd5547804016af37a3fe3dae4972 aee6358da7354974a7aa6460e7cb0caa
+#: c12841ca6c3f45708ec0912cf54096a9
+msgid "True if the command is successfully sent, else False."
+msgstr "如果命令成功发送则为 True，否则为 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:215 6fb0fef8cd5f411bb716ec4ef4bc126e
+msgid "Checks if the module is in low-power mode."
+msgstr "检查模块是否处于低功耗模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:217 2fa96437b0394be4ac82a6d2a0bf9658
+msgid "True if low-power mode is enabled, otherwise False."
+msgstr "如果启用了低功耗模式，则为 True，否则为 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:221 7c65e97ed8df4ebb8f7e3ce5c18a6515
+msgid "Sets the module low-power mode."
+msgstr "设置模块低功耗模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:223 6d7d3a6c60264a4da40bead6dd177bcc
+msgid ""
+"A boolean value indicating whether to enable (True) or disable (False) "
+"low-power mode."
+msgstr "一个布尔值，用于指示是否启用 (True) 或禁用 (False) 低功耗模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:229 ce9d4f3b68f44bb7ae7723b255c8764d
+msgid "Sets the baud rate for UART communication."
+msgstr "设置 UART 通信的波特率。"
+
+#: ../../source/unit/lorawan_rui3.rst:231 d2247be0baab47ecad3f0927848fda25
+msgid "The desired baud rate value."
+msgstr "所需的波特率值。"
+
+#: ../../source/unit/lorawan_rui3.rst:237 e5539550afc04ca1a3e5821c6ee7b17b
+msgid "Retrieves the current UART baud rate setting."
+msgstr "获取当前 UART 波特率设置。"
+
+#: ../../source/unit/lorawan_rui3.rst:239 39039363018244a8bdf625655cc0c75e
+msgid "The baud rate as an integer."
+msgstr "波特率，类型为整数。"
+
+#: ../../source/unit/lorawan_rui3.rst:243 76988ccd6c684c8aad8d55e6d7d9df5d
+msgid "Retrieves the Device EUI for OTAA (Over-The-Air Activation) mode."
+msgstr "获取 OTAA（Over-The-Air Activation）模式的 Device EUI。"
+
+#: ../../source/unit/lorawan_rui3.rst:245 d1cc8988a5ea457ab924d11be95543e0
+msgid "The Device EUI as a string."
+msgstr "以字符串形式的 Device EUI。"
+
+#: ../../source/unit/lorawan_rui3.rst:249 443a67a7588e4d08802d8e37705c7f6a
+msgid "Configures the Device EUI for OTAA mode."
+msgstr "配置 OTAA 模式的 Device EUI。"
+
+#: ../../source/unit/lorawan_rui3.rst:251 ebbb9350298e462ebae625451fcf69d4
+msgid "The Device EUI to set, as a string."
+msgstr "要设置的 Device EUI，字符串类型。"
+
+#: ../../source/unit/lorawan_rui3.rst:257 53b6181e47614faf93f5d8545386de4e
+msgid "Retrieves the Application EUI for OTAA mode."
+msgstr "获取 OTAA 模式的 Application EUI。"
+
+#: ../../source/unit/lorawan_rui3.rst:259 97d8fd8058e54bc99d37c81b000adf83
+msgid "The Application EUI as a string."
+msgstr "Application EUI（字符串形式）。"
+
+#: ../../source/unit/lorawan_rui3.rst:263 bfbc2700c63c4ad4b20eff3fe2ba366d
+msgid "Configures the Application EUI for OTAA mode."
+msgstr "为 OTAA 模式配置 Application EUI。"
+
+#: ../../source/unit/lorawan_rui3.rst:265 d50a52963a40451d918c3392bfec44e1
+msgid "The Application EUI to set, as a string."
+msgstr "要设置的 Application EUI，以字符串形式表示。"
+
+#: ../../source/unit/lorawan_rui3.rst:271 8aad2725319b47a3888f806a3d158902
+msgid "Retrieves the Application Key for OTAA mode."
+msgstr "获取 OTAA 模式的 Application Key。"
+
+#: ../../source/unit/lorawan_rui3.rst:273 3629cde2ef1f49a6acd886280737b843
+msgid "The Application Key as a string."
+msgstr "应用密钥（Application Key），字符串形式。"
+
+#: ../../source/unit/lorawan_rui3.rst:277 51755785a1d6410fab6b36d19f7a829f
+msgid "Configures the Application Key for OTAA mode."
+msgstr "配置 OTAA 模式的应用密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:279 12d47fa754c14f8e8e1e5f10d1744a42
+msgid "The Application Key to set, as a string."
+msgstr "要设置的应用密钥（Application Key），以字符串形式。"
+
+#: ../../source/unit/lorawan_rui3.rst:285 3439ad75b0f9428b8413b2dbdc915639
+msgid "Retrieves the device address."
+msgstr "获取设备地址。"
+
+#: ../../source/unit/lorawan_rui3.rst:287 67661936e5d0434b9d55a1309e4e9948
+msgid "The device address as a string."
+msgstr "设备地址字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:291 ad56673c32bf4997a24a89c1ce270953
+msgid "Sets the device address."
+msgstr "设置设备地址。"
+
+#: ../../source/unit/lorawan_rui3.rst:293 2c9c50542f6542a8a2bd5d8f30c4dd29
+msgid "The device address to set, provided as a string."
+msgstr "要设置的设备地址，以字符串形式提供。"
+
+#: ../../source/unit/lorawan_rui3.rst:295 e8142c5a61f941a980ac7fcf9a0ce5fd
+msgid "The application session key as a string."
+msgstr "应用会话密钥，类型为字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:299 5e5e6ba7b87242cebd1387c96196f6a3
+msgid "Retrieves the application session key."
+msgstr "获取应用会话密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:301
+#: ../../source/unit/lorawan_rui3.rst:314
+#: ../../source/unit/lorawan_rui3.rst:322
+#: ../../source/unit/lorawan_rui3.rst:348 4bd02000a27f445eba592ca563b70e41
+#: 9bc4b47f9e914a3284b03af2914f68c8 a65cad958d3f43ec87b09afe0f897edd
+#: da9e75d601f3441f82280474e1fa1562
+msgid "The result of the AT command execution"
+msgstr "AT 命令执行结果"
+
+#: ../../source/unit/lorawan_rui3.rst:304 b3d0ca20b9254905b694a7b50fc100b3
+msgid ""
+"Sets the application session key. This operation is applicable only in "
+"ABP mode."
+msgstr "设置应用会话密钥。此操作仅适用于 ABP 模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:306 c6d586dbe9774b5d9e62cfbca562243d
+msgid "The application session key to set, provided as a string."
+msgstr "要设置的应用会话密钥，以字符串形式提供。"
+
+#: ../../source/unit/lorawan_rui3.rst:308 3c6c3472d941426fb5db4f69e17351a4
+msgid "The network session key as a string."
+msgstr "作为字符串形式的网络会话密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:312 9653437ac5a04f058ebae9c05a80e119
+msgid "Retrieves the network session key."
+msgstr "获取网络会话密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:318 7c377c90a55543a0aa0cf462cf0ccfa2
+msgid ""
+"Sets the network session key. This operation is applicable only in ABP "
+"mode."
+msgstr "设置网络会话密钥。该操作仅适用于 ABP 模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:320 44b57095dc734366aff7c362495866f4
+msgid "The network session key to set, provided as a string."
+msgstr "要设置的网络会话密钥，以字符串形式提供。"
+
+#: ../../source/unit/lorawan_rui3.rst:326 6da966bdd12e4fe7ab3209df00f8fadf
+msgid "Sets the network ID."
+msgstr "设置网络 ID。"
+
+#: ../../source/unit/lorawan_rui3.rst:328 afc2233d2cd043dfa1f4afb0b62727c0
+msgid "The network ID to set, provided as a string."
+msgstr "要设置的网络 ID，以字符串形式提供。"
+
+#: ../../source/unit/lorawan_rui3.rst:330 af56e6d1875c4fbabe6ba9f994da76c3
+msgid "The network ID as a string."
+msgstr "网络 ID（字符串形式）。"
+
+#: ../../source/unit/lorawan_rui3.rst:334 fed055cfcc994ee7ab5215998e2902cc
+msgid "Retrieves the network ID."
+msgstr "获取网络 ID。"
+
+#: ../../source/unit/lorawan_rui3.rst:336 6b600b5837654dbbbf11f8f4cbc5ae8f
+msgid "The multicast root key as a string."
+msgstr "组播根密钥的字符串形式。"
+
+#: ../../source/unit/lorawan_rui3.rst:340 8521937286e744db972aec91eda349b5
+msgid "Retrieves the multicast root key."
+msgstr "获取组播根密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:342 8b13814993a94abdab4dd9785b3e0a9d
+msgid "True if confirmation mode is enabled; otherwise, False."
+msgstr "如果启用确认模式，则为 True；否则为 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:346 2e60ee2dd6f34980a1dbe45c3a930570
+msgid "Retrieves the confirmation mode."
+msgstr "获取确认模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:352 c3177207b2bd4354802004dbb7f896fa
+msgid "Sets the confirmation mode."
+msgstr "设置确认模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:354 1d3e80ecda3f46b791818cc49695f2be
+msgid ""
+"A boolean indicating whether to enable (True) or disable (False) "
+"confirmation mode."
+msgstr "一个布尔值，用于指示是否启用（True）或禁用（False）确认模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:356 b328655acc2b4b7cb7e7b3ce0140fea3
+msgid "True if the last confirmed uplink succeeded; otherwise, False."
+msgstr "如果上次确认的上行链路成功，则为 True；否则为 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:360 cd33980aa8664045997dd6cab70d9366
+msgid "Retrieves the status of the last confirmed uplink."
+msgstr "获取最后一次已确认上行链路的状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:362 097445d13d4d41b88aa92943ee943e5b
+msgid ""
+"A tuple containing state, auto_join, retry_interval, and max_retry as "
+"integers, or False if retrieval failed."
+msgstr "包含 state、auto_join、retry_interval 和 max_retry（均为整数）的元组；如果获取失败，则返回 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:366 f235aa67961c4290a507f8da744b0f59
+msgid "Retrieves the current join configuration for LoRa."
+msgstr "获取 LoRa 当前的 join 配置。"
+
+#: ../../source/unit/lorawan_rui3.rst:368 c2724c2c11894e4bbf97c30ce09a40a7
+msgid "True if the module successfully joins the network, otherwise False"
+msgstr "如果模块成功加入网络，则为 True，否则为 False"
+
+#: ../../source/unit/lorawan_rui3.rst:372 607c11c75e3f471bbf3aa783ad4f05f3
+msgid ""
+"Configures the join parameters for LoRa. The configuration does not "
+"confirm network join success."
+msgstr "配置 LoRa 的入网参数。该配置不确认网络入网是否成功。"
+
+#: ../../source/unit/lorawan_rui3.rst:374
+#: ../../source/unit/lorawan_rui3.rst:393
+#: ../../source/unit/lorawan_rui3.rst:447
+#: ../../source/unit/lorawan_rui3.rst:472
+#: ../../source/unit/lorawan_rui3.rst:492
+#: ../../source/unit/lorawan_rui3.rst:506 16772c73497d46e0a82a90331c0d8558
+#: 29cb8210457d41a8ac40188eb5eb85ee 7856fefef08d4cb8bd3fddc76d133e73
+#: 8b846937085c4be9a8d5b10c4b38b49e c597e6b6cb5848a19bc072f35f3fe646
+#: dd99ef4cde564dd5b1ce6ed9f5097e7b
+msgid "True if the command is successfully set, else False."
+msgstr "如果命令设置成功则返回 True，否则返回 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:375 9a98953a93e8401c910de9a26a763e55
+msgid "The join state to configure, as an integer."
+msgstr "要配置的加入状态，使用整数表示。"
+
+#: ../../source/unit/lorawan_rui3.rst:376 5062c654c3fe4c09945592cad4abaddc
+msgid "The auto-join flag, as an integer."
+msgstr "自动加入标志，以整数形式表示。"
+
+#: ../../source/unit/lorawan_rui3.rst:377 bb9acb4c82fd4a9ca6bd96f9bba62275
+msgid "The interval between join retries, default is 8 seconds."
+msgstr "加入重试之间的时间间隔，默认值为 8 秒。"
+
+#: ../../source/unit/lorawan_rui3.rst:378 dced5e775d814c4da27e59dc4641cd9b
+msgid "The maximum number of retries, default is 0 (no limit)."
+msgstr "最大重试次数，默认值为 0（无限制）。"
+
+#: ../../source/unit/lorawan_rui3.rst:379 168dc74529514fd4ad7237a4fe1c1cec
+msgid "The timeout duration in milliseconds for the command, default is 8000ms."
+msgstr "命令的超时持续时间（单位：毫秒），默认值为 8000 ms。"
+
+#: ../../source/unit/lorawan_rui3.rst:381 46cdfd879ada440d930fd053d0854fa7
+msgid "The join mode as an integer (0 for ABP, 1 for OTAA)."
+msgstr "加入模式的整数值（ABP 为 0，OTAA 为 1）。"
+
+#: ../../source/unit/lorawan_rui3.rst:385 acb1d0a59d7143dbb3552d8868412e5f
+msgid "|set_join_config.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:25 6ba75ab2bd7f4387b3b187473ffb4c9d
+msgid "set_join_config.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:389 3a2efa63a5434c938a04b67de116fd21
+msgid "Joins the LoRa network using predefined join parameters."
+msgstr "使用预定义的 join 参数加入 LoRa 网络。"
+
+#: ../../source/unit/lorawan_rui3.rst:391 9754c2467e2043ad9ce9b7cbd6382129
+msgid ""
+"The timeout duration in milliseconds for the join command, default is "
+"8000ms."
+msgstr "加入（join）命令的超时时间（单位：毫秒），默认值为 8000 ms。"
+
+#: ../../source/unit/lorawan_rui3.rst:397 5116a1e426074665b3c02fd44d1d83a3
+msgid "|join_network.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:26 aa890d0026b14b4ba5c9748b7af277a9
+msgid "join_network.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:399 f18ce6f1efdd4604a8c62a12fc56a8d0
+msgid "|join_network_return.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:27 d8b365f23f264a35893fd88085ddd063
+msgid "join_network_return.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:403 1d1c8be3aa4f4e9484ec98844fca33b7
+msgid ""
+"Retrieves the current join mode. 0 indicates ABP mode, 1 indicates OTAA "
+"mode."
+msgstr "获取当前入网模式。0 表示 ABP 模式，1 表示 OTAA 模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:405 7e30a814c871482bba0b493cdc25bcf9
+msgid "True if joined, otherwise False."
+msgstr "如果已加入则为 True，否则为 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:409 cde28d038fc3454087bf8ca6829874f9
+msgid "Sets the join mode for the LoRa module."
+msgstr "设置 LoRa 模块的入网模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:411 9048fdb4ee8a41d08c93fbbd7b0e08ad
+msgid "The join mode to set, 0 for ABP or 1 for OTAA."
+msgstr "要设置的入网模式：0 表示 ABP，1 表示 OTAA。"
+
+#: ../../source/unit/lorawan_rui3.rst:413 f2ea6a7882f748a98f6c79df3b86fe05
+msgid "The received data as a string."
+msgstr "接收到的数据，字符串形式。"
+
+#: ../../source/unit/lorawan_rui3.rst:417 7c949600561b4b14b38c5dce7d8c3414
+msgid "|set_join_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:28 ee9da691586a4af9858c3c87632167df
+msgid "set_join_mode.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:421 3c093001e5c64eb5a55b17dea74ef43a
+msgid ""
+"Checks whether the module has successfully joined the network. 1 "
+"indicates joined, 0 indicates not joined."
+msgstr "检查模块是否已成功加入网络。1 表示已加入，0 表示未加入。"
+
+#: ../../source/unit/lorawan_rui3.rst:423
+#: ../../source/unit/lorawan_rui3.rst:433 31b2b3c0d9eb4cfabf9066d655782054
+#: 59abd84382974943af184b400ffd04c2
+msgid "True if the data was sent successfully, otherwise False."
+msgstr "如果数据发送成功则为 True，否则为 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:427 a23909c9c3b347749744eaa495db8bfb
+msgid "|get_join_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:29 049f9f271a36486498fb3939e3caf4aa
+msgid "get_join_state.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:431 fd4d23264b134f95a5c3a57ad047224c
+msgid "Retrieves the data from the last received message."
+msgstr "获取最后一次接收到的消息中的数据。"
+
+#: ../../source/unit/lorawan_rui3.rst:437 608a32ed09404876b4469fb145d2d05a
+msgid "|get_last_receive.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:30 d1b6d2f426ba4fc7b5787925f6bf851a
+msgid "get_last_receive.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:441 d4a75373d82a44d39af816242ff2f413
+msgid "Sends data through a specific port."
+msgstr "通过指定端口发送数据。"
+
+#: ../../source/unit/lorawan_rui3.rst:443
+#: ../../source/unit/lorawan_rui3.rst:459 6b37ea76df3e443aa4bcb3c82c9eabfe
+#: bfbae200c8a64db2a8761f9f83e34315
+msgid "The port number to send data through."
+msgstr "用于发送数据的端口号。"
+
+#: ../../source/unit/lorawan_rui3.rst:444 2456f3387f044c1a8fa9f9e8c5dc7892
+msgid "The data to send, provided as bytes."
+msgstr "要发送的数据，以 bytes 形式提供。"
+
+#: ../../source/unit/lorawan_rui3.rst:445 410bc399efe540fab7c0c1e2e61f24a3
+msgid ""
+"The timeout duration in milliseconds for the send command, default is "
+"600ms."
+msgstr "发送命令的超时时长，单位为毫秒，默认值为 600 ms。"
+
+#: ../../source/unit/lorawan_rui3.rst:451 8104afc27a434e2e826fb01af33da85d
+msgid "|send_data.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:31 20b4b316885f449cbea53a50421255ea
+msgid "send_data.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:453 fa3d9590d5684b0e9e6f3de70de0a9a9
+msgid "|send_data_return.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:32 03b2b035763545d186ebd95138f255a5
+msgid "send_data_return.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:457 671529c9fd4e43f49d1098956ecdf458
+msgid "Sends long data through a specific port with optional acknowledgment."
+msgstr "通过指定端口发送长数据，并可选择启用确认应答。"
+
+#: ../../source/unit/lorawan_rui3.rst:460 b5988f9a9948412bb0dd5da469edc512
+msgid "Indicates whether acknowledgment is required (True or False)."
+msgstr "指示是否需要确认（True 或 False）。"
+
+#: ../../source/unit/lorawan_rui3.rst:461 b31910accccc417b8141796b16f7e5bc
+msgid "The long data to send, provided as bytes."
+msgstr "要发送的长数据，以 bytes 形式提供。"
+
+#: ../../source/unit/lorawan_rui3.rst:462 273423ab031646cf8a7b703c26e83b50
+msgid ""
+"The timeout duration in milliseconds for the send command, default is "
+"500ms."
+msgstr "发送命令的超时时长，单位为毫秒，默认值为 500 ms。"
+
+#: ../../source/unit/lorawan_rui3.rst:464
+#: ../../source/unit/lorawan_rui3.rst:478 2131b51f3dc84dbd9662ce555669c6bf
+#: 671913b71a1b4e629e0761aaf785adde
+msgid "The retry cycle value as an integer."
+msgstr "重试周期值，类型为整数。"
+
+#: ../../source/unit/lorawan_rui3.rst:468 3d62726bba664820a5dc9cc29fea3cae
+msgid "Configures the retry cycle for transmissions."
+msgstr "配置传输的重试周期。"
+
+#: ../../source/unit/lorawan_rui3.rst:470 2f87e2aaf3944dcc822dc7ae5cb01f38
+msgid "The retry cycle value, ranging from 0 to 7, default is 0."
+msgstr "重试周期值范围为 0 至 7，默认值为 0。"
+
+#: ../../source/unit/lorawan_rui3.rst:476 b603d4854e604ac18d400ba1406b538d
+msgid "Retrieves the current retry cycle configuration."
+msgstr "获取当前重试周期配置。"
+
+#: ../../source/unit/lorawan_rui3.rst:482 b0c3d271fb5843388112879c9232dbb9
+msgid ""
+"Checks whether adaptive data rate (ADR) is enabled. 1 indicates enabled, "
+"0 indicates disabled."
+msgstr "检查是否启用了自适应数据速率（ADR）。1 表示启用，0 表示禁用。"
+
+#: ../../source/unit/lorawan_rui3.rst:484 bab15ead11564d5098736e928586f188
+msgid "True if ADR is enabled, otherwise False."
+msgstr "如果启用了 ADR，则为 True，否则为 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:488 f0b3b478e6e74a779c3b29bc7b8accda
+msgid "Configures the adaptive data rate (ADR) state."
+msgstr "配置自适应数据速率（ADR）状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:490 c76e1186036c4761a634ed6690434651
+msgid "A boolean indicating whether to enable (True) or disable (False) ADR."
+msgstr "一个布尔值，用于指示是否启用（True）或禁用（False）ADR。"
+
+#: ../../source/unit/lorawan_rui3.rst:496 9007052bb49e4b02ab00026db43ad73e
+msgid "Retrieves the current LoRaWAN node class."
+msgstr "获取当前 LoRaWAN 节点类别。"
+
+#: ../../source/unit/lorawan_rui3.rst:498 34b7d4b1815f4f3dabf1761596a42ba8
+msgid "The LoRaWAN node class as a string."
+msgstr "LoRaWAN 节点类（字符串）。"
+
+#: ../../source/unit/lorawan_rui3.rst:502 0c32705384ac4eec9307b866c9526e24
+msgid "Sets the LoRaWAN node class."
+msgstr "设置 LoRaWAN 节点类别。"
+
+#: ../../source/unit/lorawan_rui3.rst:504 8ddb8dea1be94ab39bf3c7772cc2f943
+msgid "The node class to set, provided as a string"
+msgstr "要设置的节点类，以字符串形式提供"
+
+#: ../../source/unit/lorawan_rui3.rst:510 946d233b9337484c934d8a57f8b04d2d
+msgid ""
+"Checks whether the ETSI duty cycle is enabled. 1 indicates enabled, 0 "
+"indicates disabled."
+msgstr "检查是否启用 ETSI duty cycle。1 表示启用，0 表示禁用。"
+
+#: ../../source/unit/lorawan_rui3.rst:512 0c4554380e014975aef380e269a1c081
+msgid "True if the duty cycle is enabled, otherwise False."
+msgstr "如果占空比已启用，则返回 True；否则返回 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:516 ff9e06d0498d42098203bae686bf86dc
+msgid ""
+"Sets the ETSI duty cycle state, which can be enabled or disabled "
+"depending on the region."
+msgstr "设置 ETSI 占空比状态，可根据地区启用或禁用。"
+
+#: ../../source/unit/lorawan_rui3.rst:518 ea39f02405f44489b0e68c46ce110037
+msgid ""
+"A boolean indicating whether to enable (True) or disable (False) the duty"
+" cycle."
+msgstr "一个布尔值，用于指示是否启用（True）或禁用（False）占空比。"
+
+#: ../../source/unit/lorawan_rui3.rst:520
+#: ../../source/unit/lorawan_rui3.rst:534
+#: ../../source/unit/lorawan_rui3.rst:548
+#: ../../source/unit/lorawan_rui3.rst:562
+#: ../../source/unit/lorawan_rui3.rst:576
+#: ../../source/unit/lorawan_rui3.rst:590
+#: ../../source/unit/lorawan_rui3.rst:604
+#: ../../source/unit/lorawan_rui3.rst:618
+#: ../../source/unit/lorawan_rui3.rst:638
+#: ../../source/unit/lorawan_rui3.rst:653
+#: ../../source/unit/lorawan_rui3.rst:667
+#: ../../source/unit/lorawan_rui3.rst:675
+#: ../../source/unit/lorawan_rui3.rst:695
+#: ../../source/unit/lorawan_rui3.rst:709
+#: ../../source/unit/lorawan_rui3.rst:729
+#: ../../source/unit/lorawan_rui3.rst:779
+#: ../../source/unit/lorawan_rui3.rst:805
+#: ../../source/unit/lorawan_rui3.rst:817
+#: ../../source/unit/lorawan_rui3.rst:845
+#: ../../source/unit/lorawan_rui3.rst:853
+#: ../../source/unit/lorawan_rui3.rst:881
+#: ../../source/unit/lorawan_rui3.rst:906
+#: ../../source/unit/lorawan_rui3.rst:928
+#: ../../source/unit/lorawan_rui3.rst:950
+#: ../../source/unit/lorawan_rui3.rst:975
+#: ../../source/unit/lorawan_rui3.rst:998
+#: ../../source/unit/lorawan_rui3.rst:1021
+#: ../../source/unit/lorawan_rui3.rst:1044
+#: ../../source/unit/lorawan_rui3.rst:1063 17038ba2db3d4b78a4045e95294e0d4d
+#: 21a78a594ba848acaa3cfee925339055 2b36f1c4810a409cbc353b5923598f54
+#: 2b4f5a4060c34c05a36ff6e5346c7789 34104d9f14274cb3a591aac298e6c5b2
+#: 34c4aba248de414186f9b0d2d0016bf6 357bfeb5f03347dbaaa5e84284cb671c
+#: 37cceda34f344658a803c6922b5826bc 40dc23bfd037425bbabda3217280c7f2
+#: 47f516c2675146a99b21448f666fba03 4c922e7f395c405b8048e45e4076d1b0
+#: 575e0067d270463cb591affb8e9b5352 583eddd05f9d4ee5a847a313b373ab1e
+#: 5f55b4982a8d4097ae6eb6cb422f7f42 6813da165305484bacf8ec5b726eebb5
+#: 6a70326c92e64b128325f14353859afd 704471e99bd64380b1f3b5fbc81350ed
+#: 87e88e397e8d4cfcb7a2e3b51d6edf3b 89b456d8a13746b79774dff7ffd75b0c
+#: 92eb5ffb9ffc433ba225f47f4138f5fe a2d9228656b3488ea0b3fe4ad3a63bd5
+#: bf85a341ba904c76884ceb312c3b7879 c8372460ea0a4f33aa364825d4cacd3d
+#: d0340f4b96ca4189a7106eaa634cc702 e187dddd82364c558988aa6b508e78d8
+#: e568875f9ea34e5e90f6bb65e72d5068 e6b332872048457c9833a03053f3e062
+#: f13712727d81428d999b6d9c5752fde5 fffa3be0999443f0a47d5bc03195f10b
+msgid "The result of the AT command execution."
+msgstr "AT 命令执行结果。"
+
+#: ../../source/unit/lorawan_rui3.rst:524 7e6cf80859bd45a0b88bceed6ed4c5c4
+msgid "Retrieves the current data rate configuration."
+msgstr "获取当前数据速率配置。"
+
+#: ../../source/unit/lorawan_rui3.rst:526 b6b4a92769de42729b68a5d9a2a11205
+msgid "The data rate as an integer."
+msgstr "数据速率（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:530 bc16d8fd83c04773a03dc78adbbfe267
+msgid "Sets the data rate for communication."
+msgstr "设置通信的数据传输速率。"
+
+#: ../../source/unit/lorawan_rui3.rst:532 86ae46c2b0e14c7b871e40d1afaa42bf
+msgid "The data rate to set, provided as an integer."
+msgstr "要设置的数据率，以整数形式提供。"
+
+#: ../../source/unit/lorawan_rui3.rst:538 111d4ca0a10d422e822ccc878c9c29b0
+msgid "Retrieves the delay for the join procedure on window 1."
+msgstr "获取加入流程在窗口 1 上的延迟。"
+
+#: ../../source/unit/lorawan_rui3.rst:540 bbf16333c65c453d978810db056c0fa0
+msgid "The join delay for window 1 as an integer."
+msgstr "窗口 1 的 join 延迟（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:544 e15cc7ccdf2f478e8175f2f0f7453e0f
+msgid "Sets the join delay for window 1."
+msgstr "设置窗口 1 的加入延迟。"
+
+#: ../../source/unit/lorawan_rui3.rst:546 38ac5b2848a7424c861bc41113629796
+msgid "The join delay to set for window 1 as an integer."
+msgstr "为窗口 1 设置的入网延迟，类型为整数。"
+
+#: ../../source/unit/lorawan_rui3.rst:552 aa70845d6e4a4bfab8bcf2132695556c
+msgid "Retrieves the delay for the join procedure on window 2."
+msgstr "获取窗口 2 上加入流程的延迟。"
+
+#: ../../source/unit/lorawan_rui3.rst:554 5f13cd244e21432e9dbebbe341f825b2
+msgid "The join delay for window 2 as an integer."
+msgstr "窗口 2 的加入延迟（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:558 2148108777f24e358f74731737bb075a
+msgid "Sets the join delay for window 2."
+msgstr "设置 window 2 的加入延迟。"
+
+#: ../../source/unit/lorawan_rui3.rst:560 c6310333abb94c32bbeb48218d026a01
+msgid "The join delay to set for window 2 as an integer."
+msgstr "为窗口 2 设置的加入延迟（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:566 7eea7db741a9455aa8204a151b1cbeb2
+msgid "Retrieves the public network mode (enabled or disabled)."
+msgstr "获取公网模式（启用或禁用）。"
+
+#: ../../source/unit/lorawan_rui3.rst:568 23ed9649f0fd4151acf7b88fc9b4b29f
+msgid "True if public network mode is enabled, False otherwise."
+msgstr "如果启用了公共网络模式，则为 True，否则为 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:572 0e34e13a29a54fd19b52938b55ed0d3a
+msgid "Sets the public network mode to enabled or disabled."
+msgstr "设置公用网络模式为启用或禁用。"
+
+#: ../../source/unit/lorawan_rui3.rst:574 e4e9e2e30e944299ab96d499ee79c653
+msgid ""
+"A boolean indicating whether to enable (True) or disable (False) the "
+"public network mode."
+msgstr "一个布尔值，用于指示是否启用 (True) 或禁用 (False) 公共网络模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:580 cb3eee076df9413bb074008594e07366
+msgid "Retrieves the receive window 1 delay."
+msgstr "获取接收窗口 1 延迟。"
+
+#: ../../source/unit/lorawan_rui3.rst:582 8658b1c278834ed5bae7fdac86704b14
+msgid "The receive window 1 delay as an integer."
+msgstr "接收窗口 1 的延迟，类型为整数。"
+
+#: ../../source/unit/lorawan_rui3.rst:586 2cb685c697ae49e493bebd1c1a7465c2
+msgid "Sets the receive delay for window 1."
+msgstr "设置窗口 1 的接收延迟。"
+
+#: ../../source/unit/lorawan_rui3.rst:588 6809e0204b6f49f5b87c3ca7b4c05e5f
+msgid "The delay to set for receive window 1 as an integer."
+msgstr "为接收窗口 1 设置的延迟时间，类型为整数。"
+
+#: ../../source/unit/lorawan_rui3.rst:594 5224d068a4be4ee381e813b1c874de56
+msgid "Retrieves the receive window 2 delay."
+msgstr "获取接收窗口 2 延迟。"
+
+#: ../../source/unit/lorawan_rui3.rst:596 4ca0ca48a9724cefa0833d8d48d2f826
+msgid "The receive window 2 delay as an integer."
+msgstr "接收窗口 2 延迟，整数类型。"
+
+#: ../../source/unit/lorawan_rui3.rst:600 e3a44b2c69e44f51a5b1047201d66738
+msgid "Sets the receive delay for window 2."
+msgstr "设置窗口 2 的接收延迟。"
+
+#: ../../source/unit/lorawan_rui3.rst:602 66fbe0d2dc4c453a9b097f610646bfc3
+msgid "The delay to set for receive window 2, with a range of 2 to 16."
+msgstr "为接收窗口 2 设置的延迟，范围为 2 到 16。"
+
+#: ../../source/unit/lorawan_rui3.rst:608 23de2540bf1140acb79500b1542516d6
+msgid "Retrieves the receive data rate for window 2."
+msgstr "获取窗口 2 的接收数据速率。"
+
+#: ../../source/unit/lorawan_rui3.rst:610 27be092c6d394ac48b817fb922c45931
+msgid "The receive data rate for window 2 as an integer."
+msgstr "窗口 2 的接收数据速率，以整数表示。"
+
+#: ../../source/unit/lorawan_rui3.rst:614 81f9709e1ce14ec4b0ba9b989cf9ad96
+msgid "Sets the receive data rate for window 2."
+msgstr "设置窗口 2 的接收数据速率。"
+
+#: ../../source/unit/lorawan_rui3.rst:616 85917aa472f64fd8ab7201b6dd59e6cf
+msgid "The data rate to set for window 2."
+msgstr "设置用于窗口 2 的数据速率。"
+
+#: ../../source/unit/lorawan_rui3.rst:622 2672a93892524e53bfa0dfbab2ff8ea6
+msgid ""
+"Retrieves the receive frequency for window 2, based on regional frequency"
+" settings."
+msgstr "根据区域频率设置，获取窗口 2 的接收频率。"
+
+#: ../../source/unit/lorawan_rui3.rst:624 b2dc305bf78046a19fcb99666efb59e2
+msgid "The receive frequency for window 2 as an integer."
+msgstr "窗口 2 的接收频率（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:628 938cb54eaeb64923943a20211a6aa0d3
+msgid "Retrieves the current transmit power setting."
+msgstr "获取当前的发射功率设置。"
+
+#: ../../source/unit/lorawan_rui3.rst:630 39c60d0a3d604fe38f8d60265712425c
+msgid "The transmit power setting as an integer."
+msgstr "发射功率设置，类型为整数。"
+
+#: ../../source/unit/lorawan_rui3.rst:634 efc7c66f2a4f4b91bf8d6a29832f82cf
+msgid "Sets the transmit power."
+msgstr "设置发射功率。"
+
+#: ../../source/unit/lorawan_rui3.rst:636 18d334553ad44fe1a9e5e2d8bc8f84a3
+msgid "The transmit power to set."
+msgstr "要设置的发射功率。"
+
+#: ../../source/unit/lorawan_rui3.rst:642 b8f63754f76642828d93c6a20f0f8a45
+msgid "Retrieves the network link state."
+msgstr "获取网络链路状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:644 8c22f71332cc44f1a5eb1bbb409843a3
+msgid "The network link state as a string."
+msgstr "网络链接状态的字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:648 04adc41d0a4645b69902db86ad8165c6
+msgid ""
+"Sets the network link state for the device. 0 - Disable Link Check 1 - "
+"Execute Link Check once on the next payload uplink 2 - Automatically "
+"execute Link Check after every payload uplink"
+msgstr "设置设备的网络链路状态。0 - 禁用链路检查 1 - 在下一次有效载荷上行时执行一次链路检查 2 - 在每次有效载荷上行后自动执行链路检查"
+
+#: ../../source/unit/lorawan_rui3.rst:657 47851708ac98469f85bf594e206ad982
+msgid "Retrieves the Listen Before Talk (LBT) state."
+msgstr "获取 Listen Before Talk (LBT) 状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:659 07bab0cf0aea4e45919c99bf05b0948a
+msgid "True if LBT is enabled, False if not."
+msgstr "如果启用了 LBT，则为 True；否则为 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:663 cdad747314e24b1db60aff9b141b3399
+msgid "Sets the Listen Before Talk (LBT) state."
+msgstr "设置 Listen Before Talk (LBT) 状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:665 8c6b3756faae4e7ea92272af64425628
+msgid "The state to set for LBT (True for enabled, False for disabled)."
+msgstr "为 LBT 设置的状态（True 表示启用，False 表示禁用）。"
+
+#: ../../source/unit/lorawan_rui3.rst:671 cd678714f38d425fa89e13a712654288
+msgid "Sets the RSSI threshold for Listen Before Talk (LBT)."
+msgstr "设置 Listen Before Talk (LBT) 的 RSSI 阈值。"
+
+#: ../../source/unit/lorawan_rui3.rst:673 0f1267af540e445b89c5063558cb237a
+msgid "The RSSI threshold to set for LBT."
+msgstr "设置用于 LBT 的 RSSI 阈值。"
+
+#: ../../source/unit/lorawan_rui3.rst:679 68ab3f17e77c4bc89a2bef63df88f8de
+msgid "Retrieves the RSSI threshold for Listen Before Talk (LBT)."
+msgstr "获取 Listen Before Talk (LBT) 的 RSSI 阈值。"
+
+#: ../../source/unit/lorawan_rui3.rst:681 bd9629602a1e4522851c500f4f6be5bb
+msgid "The RSSI threshold as an integer."
+msgstr "RSSI 阈值（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:685 88d2d33887744e22b68309838a2283d6
+msgid "Retrieves the scan time for Listen Before Talk (LBT)."
+msgstr "获取 Listen Before Talk (LBT) 的扫描时间。"
+
+#: ../../source/unit/lorawan_rui3.rst:687 cc5fa4e7b4f84f51ab31cfb7eee9d21d
+msgid "The scan time for LBT as an integer."
+msgstr "LBT 的扫描时间（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:691 35724bf0b3874c7397c64ed01362c37a
+msgid "Sets the scan time for Listen Before Talk (LBT)."
+msgstr "设置 Listen Before Talk (LBT) 的扫描时间。"
+
+#: ../../source/unit/lorawan_rui3.rst:693 a993b95898f24ae98a617b032045a380
+msgid "The scan time to set for LBT."
+msgstr "用于设置 LBT 的扫描时间。"
+
+#: ../../source/unit/lorawan_rui3.rst:699 6fb5c05a6dec4fed9ebd9e80e5921534
+msgid "Retrieves the time request state."
+msgstr "获取时间请求状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:701 2ccdd79895b14e079f1c45d1910efd48
+msgid "The time request state as an integer."
+msgstr "时间请求状态（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:705 52bcb94ce78442559c053159b2a8106f
+msgid "Sets the time request state."
+msgstr "设置时间请求状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:707 2f661380300147aa90c51a46cd18b046
+msgid "The state to set for time request (True to enable, False to disable)."
+msgstr "设置时间请求的状态（True 为启用，False 为禁用）。"
+
+#: ../../source/unit/lorawan_rui3.rst:713 8478b2f9653e4ade80e3f4c57ebc2806
+msgid "Retrieves the location time in UTC+0."
+msgstr "获取 UTC+0 的位置时间。"
+
+#: ../../source/unit/lorawan_rui3.rst:715 fc6d65fc600d428ab1b5798decee4b80
+msgid "The location time in UTC+0 as a string."
+msgstr "以字符串形式表示的 UTC+0 时区位置时间。"
+
+#: ../../source/unit/lorawan_rui3.rst:719 4b8a7184de5c42e38ea78801400d4183
+msgid "Retrieves the unicast ping interval in Class B mode."
+msgstr "获取 Class B 模式下的单播 ping 间隔。"
+
+#: ../../source/unit/lorawan_rui3.rst:721 7c280280e58148a7a223478bd1307c07
+msgid "The unicast ping interval as an integer."
+msgstr "单播 ping 间隔（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:725 59308401ea7a4c6ebfb1efe81f1b8d2e
+msgid "Sets the unicast ping interval for the device."
+msgstr "设置设备的单播 ping 间隔。"
+
+#: ../../source/unit/lorawan_rui3.rst:727 665760b2e6c0488e80cf517e3c8e9825
+msgid ""
+"The interval to set for the unicast ping (0 to 7). 0 means approximately "
+"every second during the beacon window, and 7 means every 128 seconds "
+"(maximum ping period)."
+msgstr "设置单播 ping 的间隔（0 到 7）。0 表示在 beacon 窗口期间大约每秒一次，7 表示每 128 秒一次（最大 ping 周期）。"
+
+#: ../../source/unit/lorawan_rui3.rst:733 8b1b5390988f4bb3adae1687fceee1e3
+msgid "Retrieves the beacon frequency."
+msgstr "获取信标频率。"
+
+#: ../../source/unit/lorawan_rui3.rst:735 d03c3d872b544df2b14fe79959d68761
+msgid "The beacon frequency as an integer."
+msgstr "作为整数的信标频率。"
+
+#: ../../source/unit/lorawan_rui3.rst:739 754203d0df6448b5812bca7c69dacebf
+msgid "Retrieves the beacon time."
+msgstr "获取信标时间。"
+
+#: ../../source/unit/lorawan_rui3.rst:741 a0e7bbc7ae65428c96cc772fd0684fe8
+msgid "The beacon time as an integer."
+msgstr "信标时间，整数。"
+
+#: ../../source/unit/lorawan_rui3.rst:745 a99acd446f1f4970bbe7d1b9b20a2149
+msgid "Retrieves the beacon gateway GPS location."
+msgstr "获取 beacon 网关的 GPS 位置信息。"
+
+#: ../../source/unit/lorawan_rui3.rst:747 c525cf3f075b42b7994a5e03c3497f6d
+msgid "The beacon gateway GPS information as a string."
+msgstr "以字符串形式返回 beacon gateway 的 GPS 信息。"
+
+#: ../../source/unit/lorawan_rui3.rst:751 6d8a2b6d05c04182a358872de8accfc9
+msgid "Retrieves the Received Signal Strength Indicator (RSSI)."
+msgstr "获取接收信号强度指示（RSSI）。"
+
+#: ../../source/unit/lorawan_rui3.rst:753 a0b9866de1aa4e4f90d6f73dd2f04f85
+msgid "The RSSI value as a string."
+msgstr "RSSI 值的字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:757 9932caadd6fc47cb840be057cfdc6ec1
+msgid "Retrieves the RSSI values from all channels."
+msgstr "检索所有通道的 RSSI 值。"
+
+#: ../../source/unit/lorawan_rui3.rst:759 b7149f93e2eb46819ffc247dd4ccb845
+msgid "The RSSI values for all channels as a string."
+msgstr "所有通道的 RSSI 值字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:763 2af96a56a0c141dea7a3ca2a8396ed99
+msgid "Retrieves the Signal-to-Noise Ratio (SNR)."
+msgstr "获取信噪比 (SNR)。"
+
+#: ../../source/unit/lorawan_rui3.rst:765 19a3475d2c54414180cd41cc22ff8b1e
+msgid "The SNR value as a string."
+msgstr "以字符串形式表示的 SNR 值。"
+
+#: ../../source/unit/lorawan_rui3.rst:769 9cd02ea51b824aac8a916126ffe9f0c3
+msgid "Retrieves the channel mask (only for US915, AU915, CN470)."
+msgstr "获取信道掩码（仅适用于 US915、AU915、CN470）。"
+
+#: ../../source/unit/lorawan_rui3.rst:771 8c83c653d6654bb5a89f5df3e9cb5bdf
+msgid "The channel mask as a string."
+msgstr "通道掩码（channel mask），以字符串形式表示。"
+
+#: ../../source/unit/lorawan_rui3.rst:775 521df740dc2043b085d5fb5bf4f89a01
+msgid ""
+"Sets the channel mask to open or close specific channels (only for US915,"
+" AU915, CN470)."
+msgstr "设置通道掩码，用于开启或关闭指定通道（仅适用于 US915、AU915、CN470）。"
+
+#: ../../source/unit/lorawan_rui3.rst:777 9155e951a7884790a0249c6ac4572977
+msgid "The channel mask as a 4-length hexadecimal string."
+msgstr "通道掩码，以 4 位长度的十六进制字符串表示。"
+
+#: ../../source/unit/lorawan_rui3.rst:783 d179db368c9540d09d25b078b695d06b
+msgid "Retrieves the state of the eight-channel mode."
+msgstr "获取八通道模式的状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:785 15ececad85d14b3193c89bdfbb35a6cb
+msgid "The state of the eight-channel mode as a string."
+msgstr "八通道模式的状态（以字符串形式）。"
+
+#: ../../source/unit/lorawan_rui3.rst:789 c9521494adb842a2b812effd4f64dde3
+msgid ""
+"Sets the state of the eight-channel mode, with a group number between 1 "
+"and 12."
+msgstr "设置八通道模式的状态，组号范围为 1 到 12。"
+
+#: ../../source/unit/lorawan_rui3.rst:791 3dab02d48a4542d4a793032678c133d4
+msgid "The maximum group number (1 to 12)."
+msgstr "最大分组编号（1 到 12）。"
+
+#: ../../source/unit/lorawan_rui3.rst:793 0a237a58a60c48fcaf7f324393f10a87
+msgid "True if the AT command execution is successful, False otherwise."
+msgstr "如果 AT 命令执行成功则返回 True，否则返回 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:797 53347c6d1c1c4b77aaa401a9fef8d523
+msgid "Retrieves the single channel mode."
+msgstr "获取单通道模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:799 de0ce861b7924f25a03977455d19c5f1
+msgid "The single channel mode as a string."
+msgstr "单通道模式的字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:803 d1fe47e6b64d4965bf8114fcac0ee018
+msgid "Sets the single channel mode."
+msgstr "设置单通道模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:809 a5cb1eebfa764aca91f3b8425436922b
+msgid "Retrieves the active region for the device."
+msgstr "获取设备的活动区域。"
+
+#: ../../source/unit/lorawan_rui3.rst:811 26ea516d7dd3400b88687cca3b7c9eed
+msgid "The active region as a string."
+msgstr "活动区域的字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:815 892a56f203ef43b496b25b57c67b2b82
+msgid "Sets the active region for the device."
+msgstr "设置设备的活动区域。"
+
+#: ../../source/unit/lorawan_rui3.rst:817 9706170de52a4de481ebac8cf7b7221b
+msgid ""
+"The result of the AT command execution.  - ``EU433``: 0 - ``CN470``: 1 - "
+"``RU864``: 2 - ``IN865``: 3 - ``EU868``: 4 - ``US915``: 5 - ``AU915,``: 6"
+" - ``KR920,``: 7 - ``AS923-1``: 8 - ``AS923-2``: 9 - ``AS923-3``: 10 - "
+"``AS923-4``: 11 - ``LA915``: 12"
+msgstr ""
+"AT 命令执行结果。- ``EU433``：0 - ``CN470``：1 - ``RU864``：2 - ``IN865``：3 - "
+"``EU868``：4 - ``US915``：5 - ``AU915,``：6 - ``KR920,``：7 - ``AS923-1``：8 -"
+" ``AS923-2``：9 - ``AS923-3``：10 - ``AS923-4``：11 - ``LA915``：12"
+
+#: ../../source/unit/lorawan_rui3.rst:819 01e0fa69b01342f5ac9f97bb86207ee4
+msgid "``EU433``: 0"
+msgstr "EU433：0"
+
+#: ../../source/unit/lorawan_rui3.rst:820 6ee6efd0d526421db78cc71e2973187a
+msgid "``CN470``: 1"
+msgstr "``CN470``：1"
+
+#: ../../source/unit/lorawan_rui3.rst:821 dd86e9d2597c41d3bbc24069229a0898
+msgid "``RU864``: 2"
+msgstr "RU864：2"
+
+#: ../../source/unit/lorawan_rui3.rst:822 cbebb429830e4033bec6d45125fcd591
+msgid "``IN865``: 3"
+msgstr "IN865：3"
+
+#: ../../source/unit/lorawan_rui3.rst:823 b349af966513431b9acd72b06f5c59bc
+msgid "``EU868``: 4"
+msgstr "EU868：4"
+
+#: ../../source/unit/lorawan_rui3.rst:824 e5164dd5a77c4bc88fe71f9973ac1d83
+msgid "``US915``: 5"
+msgstr "``US915``：5"
+
+#: ../../source/unit/lorawan_rui3.rst:825 a949d2e0d83a4a7d98134b08762dc8a1
+msgid "``AU915,``: 6"
+msgstr "AU915，：6"
+
+#: ../../source/unit/lorawan_rui3.rst:826 7a636906a2c74f88b20204d101230090
+msgid "``KR920,``: 7"
+msgstr "KR920：7"
+
+#: ../../source/unit/lorawan_rui3.rst:827 05723e1cc5c649fca9607ba150b56889
+msgid "``AS923-1``: 8"
+msgstr "`AS923-1`：8"
+
+#: ../../source/unit/lorawan_rui3.rst:828 ca0709b1c504464e99cf258b304d9f24
+msgid "``AS923-2``: 9"
+msgstr "``AS923-2``：9"
+
+#: ../../source/unit/lorawan_rui3.rst:829 a4644589a5ec47a99e12e62e1d209139
+msgid "``AS923-3``: 10"
+msgstr "AS923-3：10"
+
+#: ../../source/unit/lorawan_rui3.rst:830 c8869a4d994045dcb31a77db836f854b
+msgid "``AS923-4``: 11"
+msgstr "AS923-4：11"
+
+#: ../../source/unit/lorawan_rui3.rst:831 6a702e98579f4c2fb063e6bfb4c61e09
+msgid "``LA915``: 12"
+msgstr "``LA915``：12"
+
+#: ../../source/unit/lorawan_rui3.rst:835 414aef11e4fd4c8bb6098e74487a7f5f
+msgid "Adds a multicast group to the device."
+msgstr "将一个多播组添加到设备中。"
+
+#: ../../source/unit/lorawan_rui3.rst:837 c40bee79d2bb46cf9eaa72555d1eea7e
+msgid "The class of the multicast group."
+msgstr "组播组的类别。"
+
+#: ../../source/unit/lorawan_rui3.rst:838 67dea9bf9b7240e7ae395d1cb47dbe8e
+msgid "The device address."
+msgstr "设备地址。"
+
+#: ../../source/unit/lorawan_rui3.rst:839 6917b58be7444ec4bd6e7a878b6e381f
+msgid "The network session key."
+msgstr "网络会话密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:840 186287ae1fe84b3986d8c5dfce207da3
+msgid "The application session key."
+msgstr "应用程序会话密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:841 126099c1e1e846b88e8cfd71404e2213
+msgid "The frequency for the multicast group."
+msgstr "组播组的频率。"
+
+#: ../../source/unit/lorawan_rui3.rst:842 aa304f4a1e264466bf9ac4db23502774
+msgid "The datarate for the multicast group."
+msgstr "组播组的数据速率。"
+
+#: ../../source/unit/lorawan_rui3.rst:843 59dc5ab9c4d74db0a0b1dad28d60b74d
+msgid "The periodicity for the multicast group."
+msgstr "多播组的周期性。"
+
+#: ../../source/unit/lorawan_rui3.rst:849 eb09a9dbffcf459fb3c780204bf5b52d
+msgid "Removes a multicast group by the given device address."
+msgstr "通过指定的设备地址移除一个多播组。"
+
+#: ../../source/unit/lorawan_rui3.rst:851 91f9032c87f04f0ea156bbb6a02c0bba
+msgid "The device address of the multicast group to remove."
+msgstr "要移除的组播组设备地址。"
+
+#: ../../source/unit/lorawan_rui3.rst:857 789c5f2b51e644be831b45f9f41f11b1
+msgid "Retrieves the list of multicast groups."
+msgstr "获取多播组列表。"
+
+#: ../../source/unit/lorawan_rui3.rst:859 b7caef293e164b4c99846a2b4ece4cd5
+msgid "The list of multicast groups as a string."
+msgstr "以字符串形式表示的多播组列表。"
+
+#: ../../source/unit/lorawan_rui3.rst:863 8c1df15818cc4528b2a0e904cb3a5dc2
+msgid "Retrieves the current network mode."
+msgstr "获取当前网络模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:865 471cb143edec4810a837574defc2b038
+msgid ""
+"The current network mode as an integer  - ``P2P_LORA``: 0 - ``LoRaWAN``: "
+"1 - ``P2P_FSK``: 2"
+msgstr "当前网络模式，以整数表示  - ``P2P_LORA``: 0 - ``LoRaWAN``: 1 - ``P2P_FSK``: 2"
+
+#: ../../source/unit/lorawan_rui3.rst:865 32a92d4c5629427ab6cef03afa9045dd
+msgid "The current network mode as an integer"
+msgstr "当前网络模式，以整数表示"
+
+#: ../../source/unit/lorawan_rui3.rst:867
+#: ../../source/unit/lorawan_rui3.rst:877 4a4f9ddb079e4a098d56c4e280598716
+#: 763de409e8244ffa95f00bcb23da3e9f
+msgid "``P2P_LORA``: 0"
+msgstr "P2P_LORA：0"
+
+#: ../../source/unit/lorawan_rui3.rst:868
+#: ../../source/unit/lorawan_rui3.rst:878 60d2bf6700cc46eeb9d5741266fbf6a7
+#: 6bebbd7017194527b778632aaf903be8
+msgid "``LoRaWAN``: 1"
+msgstr "`LoRaWAN`：1"
+
+#: ../../source/unit/lorawan_rui3.rst:869
+#: ../../source/unit/lorawan_rui3.rst:879 42b16d9695f14812b270e0b8bd7d2d04
+#: de8a272cb007461c98277dba76ccbc2d
+msgid "``P2P_FSK``: 2"
+msgstr "``P2P_FSK``：2"
+
+#: ../../source/unit/lorawan_rui3.rst:873 f5111887b80a488ba463504b19c8ea26
+msgid "Sets the network mode for the device."
+msgstr "设置设备的网络模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:875 51c1d60c59d5416b83ccba385c5b3fc1
+msgid ""
+"The mode to set for the get_network_id.  - ``P2P_LORA``: 0 - ``LoRaWAN``:"
+" 1 - ``P2P_FSK``: 2"
+msgstr ""
+"用于设置 ``get_network_id`` 的模式。\n"
+"\n"
+"- ``P2P_LORA``：0\n"
+"- ``LoRaWAN``：1\n"
+"- ``P2P_FSK``：2"
+
+#: ../../source/unit/lorawan_rui3.rst:875 f67e05fadf12473aaa9ece3268124418
+msgid "The mode to set for the get_network_id."
+msgstr "为 get_network_id 设置的模式。"
+
+#: ../../source/unit/lorawan_rui3.rst:885 953c799a56b04b598aa1e902492f15a1
+msgid "|set_network_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:33 51788a65086749ca96edb4f43cb3be9d
+msgid "set_network_mode.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:889 9bf54eb54a0047b09c4fe964a97d3e19
+msgid "Retrieves the current P2P frequency."
+msgstr "获取当前 P2P 频率。"
+
+#: ../../source/unit/lorawan_rui3.rst:891 636d0d8d6bbc4cdca634235c3c39d051
+msgid "The current P2P frequency as an integer."
+msgstr "当前 P2P 频率（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:895 69672dfe24db4a4b855006ef7e67ea8e
+msgid "|get_p2p_frequency.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:34 db49793540f94f67bbb0bad73d6281e3
+msgid "get_p2p_frequency.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:899 fd61db1f719c4c3b8c0c9b5206af9f3e
+msgid "Sets the P2P frequency for the device."
+msgstr "设置设备的 P2P 频率。"
+
+#: ../../source/unit/lorawan_rui3.rst:901 9ed713a47c314cec9db1280e468c89b1
+msgid ""
+"The frequency to set for P2P communication.  - ``Low-frequency`` : "
+"150000000-525000000 - ``High-frequency`` : 525000000-960000000"
+msgstr ""
+"用于设置 P2P 通信的频率。\n"
+"\n"
+"- ``Low-frequency``：150000000-525000000\n"
+"- ``High-frequency``：525000000-960000000"
+
+#: ../../source/unit/lorawan_rui3.rst:901 2b20323f09654f2bb54a15fba89e697f
+msgid "The frequency to set for P2P communication."
+msgstr "用于设置 P2P 通信的频率。"
+
+#: ../../source/unit/lorawan_rui3.rst:903 efc0b99e71b648bf9f2da2b2fa135c55
+msgid "``Low-frequency`` : 150000000-525000000"
+msgstr "``低频``：150000000-525000000"
+
+#: ../../source/unit/lorawan_rui3.rst:904 12abe28560214895bafdcf8cf7639d53
+msgid "``High-frequency`` : 525000000-960000000"
+msgstr "``High-frequency``：525000000 - 960000000"
+
+#: ../../source/unit/lorawan_rui3.rst:910 646eec6eed5e4808af2aa12954fb39ea
+msgid "|set_p2p_frequency.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:35 2ddffebe538a44628182bc7e5bac194f
+msgid "set_p2p_frequency.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:914 35bcb600fc9b4218962fa9e00ee4bdec
+msgid "Retrieves the current P2P spreading factor."
+msgstr "获取当前 P2P 扩频因子。"
+
+#: ../../source/unit/lorawan_rui3.rst:916 b2a2b1c1e5c8472e9d524815c092232f
+msgid "The current P2P spreading factor as an integer."
+msgstr "当前 P2P 扩频因子，以整数形式表示。"
+
+#: ../../source/unit/lorawan_rui3.rst:920 3e5d1c150eae4f0ea5a432ee9ee24341
+msgid "|get_p2p_spreading_factor.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:36 abad61f5cfc544f791eb7c3c5d81497c
+msgid "get_p2p_spreading_factor.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:924 163130b8dc4646ef8fd808d8be4cc4e5
+msgid "Sets the P2P spreading factor."
+msgstr "设置 P2P 扩频因子。"
+
+#: ../../source/unit/lorawan_rui3.rst:926 b8738f43d37647548115d305117f5bb1
+msgid ""
+"The spreading factor to set for P2P communication. The default value is "
+"7, and the range is 5 to 12."
+msgstr "用于设置 P2P 通信的扩频因子。默认值为 7，范围为 5 到 12。"
+
+#: ../../source/unit/lorawan_rui3.rst:932 804117976a9d46f8817470691256e5fb
+msgid "|set_p2p_spreading_factor.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:37 bcf0598c7ad4440d88384322cf27eee5
+msgid "set_p2p_spreading_factor.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:936 45f83c33c285465e9d9cb386df706432
+msgid "Retrieves the current P2P bandwidth."
+msgstr "获取当前 P2P 带宽。"
+
+#: ../../source/unit/lorawan_rui3.rst:939 4c653998a5634532af3eec7df8b19f31
+msgid "The current P2P bandwidth as an integer."
+msgstr "当前 P2P 带宽，以整数表示。"
+
+#: ../../source/unit/lorawan_rui3.rst:943 490f942670314d09880e3e40de4e59f1
+msgid "|get_p2p_bandwidth.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:38 9c0dcf3378de41c0b23b786ac2c394d5
+msgid "get_p2p_bandwidth.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:954 28a82cc5e52f49fda67d377ca8d7f80c
+msgid "|set_p2p_fsk_bandwidth.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:39 86902f8eba7f4623b3ac877e9d0a45cc
+msgid "set_p2p_fsk_bandwidth.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:956 967b188e666d4016831c852b1f7857fd
+msgid "|set_p2p_lora_bandwidth.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:40 b1744a9c8440447cadeefdd9acf29648
+msgid "set_p2p_lora_bandwidth.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:960 d27b808c12d54cdaa4edc9477e697423
+msgid "Retrieves the current P2P code rate."
+msgstr "获取当前 P2P 码率。"
+
+#: ../../source/unit/lorawan_rui3.rst:963 0ea26fe2d9b044208ef70c25c436bd3e
+msgid "The current P2P code rate as an integer."
+msgstr "当前 P2P 代码速率（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:967 71dab10c87fb4add9135c98682eedd47
+msgid "|get_p2p_code_rate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:41 f810ef11ed1c4af983b3adc492f1178c
+msgid "get_p2p_code_rate.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:971 14399f6514f343378466b0d936d1dd24
+msgid "Sets the P2P code rate."
+msgstr "设置 P2P 码率。"
+
+#: ../../source/unit/lorawan_rui3.rst:973 170d44a23b87426ba88bd38d8941fd0c
+msgid ""
+"The code rate to set for P2P communication. Default is 0, range is 0 to "
+"3. 0 = 4/5, 1 = 4/6, 2 = 4/7, 3 = 4/8."
+msgstr "用于设置 P2P 通信的编码率。默认值为 0，范围为 0 到 3。0 = 4/5，1 = 4/6，2 = 4/7，3 = 4/8。"
+
+#: ../../source/unit/lorawan_rui3.rst:979 a78c707c80694d51951e74e7f98f1223
+msgid "|set_p2p_code_rate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:42 74f57c741c90426eb22106e1a81ed77d
+msgid "set_p2p_code_rate.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:983 848171fd88214e50bd1d466b24efc75a
+msgid "Retrieves the current P2P preamble length."
+msgstr "获取当前 P2P 前导码长度。"
+
+#: ../../source/unit/lorawan_rui3.rst:986 d363ee74b34e4c6c80be032e1252c224
+msgid "The current P2P preamble length as an integer."
+msgstr "当前 P2P 前导码长度，类型为整数。"
+
+#: ../../source/unit/lorawan_rui3.rst:990 f139795601724f518491d427c9adbfd9
+msgid "|get_p2p_preamble_length.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:43 79add7ae147a4a36b5c652571dd44c6f
+msgid "get_p2p_preamble_length.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:994 add6c5cb0df247aab5b02fe93f599696
+msgid "Sets the P2P preamble length."
+msgstr "设置 P2P 前导码长度。"
+
+#: ../../source/unit/lorawan_rui3.rst:996 581d60e95cba4e7481b24664f5a8ce00
+msgid ""
+"The preamble length to set for P2P communication. Default is 8, range is "
+"5 to 65535."
+msgstr "用于设置 P2P 通信的前导码长度。默认值为 8，范围为 5 到 65535。"
+
+#: ../../source/unit/lorawan_rui3.rst:1002 93cf047cdd864290a54b9f2cd7e814df
+msgid "|set_p2p_preamble_length.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:44 ec9cf8c0b22944b4a64659e5b7c36fe6
+msgid "set_p2p_preamble_length.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:1006 aab43da14f554b5a96d293dc17ff5d83
+msgid "Retrieves the current P2P transmission power."
+msgstr "获取当前 P2P 传输功率。"
+
+#: ../../source/unit/lorawan_rui3.rst:1009 4eb49222338e4ab1a031d4d980f7d093
+msgid "The current P2P transmission power as an integer."
+msgstr "当前 P2P 发射功率（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:1013 f3ce6f1eb60d47df95a9f51a9aebc29b
+msgid "|get_p2p_tx_power.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:45 1c9567d5a79040a8aac05764b7b5e0dd
+msgid "get_p2p_tx_power.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:1017 148708497dd34bae8b3ecd0d2fa99bb6
+msgid "Sets the P2P transmission power."
+msgstr "设置 P2P 传输功率。"
+
+#: ../../source/unit/lorawan_rui3.rst:1019 ff855e62b4e84e5a94ce23389e79a94e
+msgid ""
+"The transmission power to set for P2P communication. Default is 14 dBm, "
+"range is 5 to 22 dBm."
+msgstr "用于设置 P2P 通信的发射功率。默认值为 14 dBm，范围为 5 到 22 dBm。"
+
+#: ../../source/unit/lorawan_rui3.rst:1025 ad27eaea1fa549ccbcede0ec8bd8eb9f
+msgid "|set_p2p_tx_power.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:46 62f8c005f4c34d11b1d9dfbed83dc382
+msgid "set_p2p_tx_power.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:1029 523bfa69eb31494fa9fd9bb3a9d7afa8
+msgid "Retrieves the current P2P FSK bitrate."
+msgstr "获取当前 P2P FSK 比特率。"
+
+#: ../../source/unit/lorawan_rui3.rst:1032 23d04c2105b6456db4910db238fe5008
+msgid "The current P2P FSK bitrate as an integer."
+msgstr "当前 P2P FSK 比特率，以整数表示。"
+
+#: ../../source/unit/lorawan_rui3.rst:1036 1d27dd4e2a05440c98c88c7f037e0bde
+msgid "|get_p2p_fsk_bitrate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:47 65b5ef1eb4ba4d9ba75c3aa151bb07f4
+msgid "get_p2p_fsk_bitrate.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:1040 234c91e19d1a44c6a36a1bc926c634ba
+msgid "Sets the P2P FSK bitrate."
+msgstr "设置 P2P FSK 比特率。"
+
+#: ../../source/unit/lorawan_rui3.rst:1042 198a35c758ce40a0bb3985d5dd20741a
+msgid ""
+"The bitrate to set for P2P FSK communication. The range is 600 to 300000 "
+"b/s."
+msgstr "用于设置 P2P FSK 通信的比特率。范围为 600 到 300000 b/s。"
+
+#: ../../source/unit/lorawan_rui3.rst:1048 4ad826d54ed647b099dc0ba9231ddff3
+msgid "|set_p2p_fsk_bitrate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:48 a8f4e2bc1ebd49a9a82582e1904659a8
+msgid "set_p2p_fsk_bitrate.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:1052 3f9668b6a96342b28afd400c80272092
+msgid "Retrieves the current P2P FSK frequency deviation."
+msgstr "获取当前 P2P FSK 频偏。"
+
+#: ../../source/unit/lorawan_rui3.rst:1055 bb29bea106b54d598d84625b41f9fe11
+msgid "The current P2P FSK frequency deviation as an integer."
+msgstr "当前 P2P FSK 频率偏移量（整数）。"
+
+#: ../../source/unit/lorawan_rui3.rst:1059 103c5230d25740d8b300067fb2a9c849
+msgid "Sets the P2P FSK frequency deviation."
+msgstr "设置 P2P FSK 频率偏移。"
+
+#: ../../source/unit/lorawan_rui3.rst:1061 663fbc1b810447eca29019ed9e8d69d6
+msgid ""
+"The frequency deviation to set for P2P FSK communication. The range is "
+"600 to 200000 Hz."
+msgstr "用于设置 P2P FSK 通信的频率偏差。范围为 600 到 200000 Hz。"
+
+#: ../../source/unit/lorawan_rui3.rst:1067 e9675aa51b4c4db1886c0d3d62b28f91
+msgid "Sends P2P data with a given payload."
+msgstr "发送带有指定 payload 的 P2P 数据。"
+
+#: ../../source/unit/lorawan_rui3.rst:1069 e31a05bcd8084a399d72f6b41e79add6
+msgid ""
+"The payload to send, 2 to 500 characters in length, must be an even "
+"number of characters composed of 0-9, a-f, A-F, representing 1 to 256 "
+"hexadecimal values."
+msgstr "要发送的有效负载，长度为 2 到 500 个字符，必须是由 0-9、a-f、A-F 组成的偶数个字符，表示 1 到 256 个十六进制值。"
+
+#: ../../source/unit/lorawan_rui3.rst:1070 c48aecd8cafb435e9c225b17f480b9ad
+msgid "The timeout for the data transmission, default is 1000 ms."
+msgstr "数据传输的超时时间，默认值为 1000 ms。"
+
+#: ../../source/unit/lorawan_rui3.rst:1071 c632e9a99d9e4f9daeebeec9b31a8cc1
+msgid "A boolean indicating whether to convert the payload to hexadecimal format."
+msgstr "一个布尔值，用于指示是否将 payload 转换为十六进制格式。"
+
+#: ../../source/unit/lorawan_rui3.rst:1073 0492c3ef60734f0db8475e67fa647c2a
+msgid ""
+"True if the data was sent successfully (\"TXFSK DONE\" or \"TXP2P "
+"DONE\"), False otherwise."
+msgstr "如果数据发送成功（“TXFSK DONE” 或 “TXP2P DONE”），则为 True；否则为 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:1077 3a45eb3395724be397e3cfdfc6ac00f0
+msgid "|send_p2p_data.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:49 aa8c8355b85f4c179c952eb366b8fa08
+msgid "send_p2p_data.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:1079 464dd4056f1a4095b2f30d78f37a10de
+msgid "|send_p2p_data_return.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:50 bade2e4ccdee45e4883192f07f8e2af4
+msgid "send_p2p_data_return.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:1083 44ab51560c0740feb8ea8b8f4fb30211
+msgid "Get the current channel activity status in P2P mode."
+msgstr "获取 P2P 模式下当前信道活动状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:1085 7cc0cb75cdfd485a8505d0fcc5621bd4
+msgid "The channel activity status as an integer (0 or 1)."
+msgstr "通道活动状态，类型为整数（0 或 1）。"
+
+#: ../../source/unit/lorawan_rui3.rst:1089 7777ff2e45ea4948afa99b2db9e7ced4
+msgid "Enable or disable channel activity in P2P mode."
+msgstr "在 P2P 模式下启用或禁用通道活动。"
+
+#: ../../source/unit/lorawan_rui3.rst:1091 b09e8b86bb7a4389b289d3a45b67df50
+msgid "0 to disable, 1 to enable channel activity."
+msgstr "0 表示禁用，1 表示启用通道活动。"
+
+#: ../../source/unit/lorawan_rui3.rst:1093
+#: ../../source/unit/lorawan_rui3.rst:1121
+#: ../../source/unit/lorawan_rui3.rst:1135
+#: ../../source/unit/lorawan_rui3.rst:1149
+#: ../../source/unit/lorawan_rui3.rst:1163
+#: ../../source/unit/lorawan_rui3.rst:1177
+#: ../../source/unit/lorawan_rui3.rst:1196
+#: ../../source/unit/lorawan_rui3.rst:1210
+#: ../../source/unit/lorawan_rui3.rst:1228
+#: ../../source/unit/lorawan_rui3.rst:1246
+#: ../../source/unit/lorawan_rui3.rst:1260 14fbd59abbf94d2e89068436c021d492
+#: 17af516da7e4429e9987c2dfb4c01942 2b9bb5e42d6c47eb851f35fca1a41729
+#: 3eba70b9a75f4dd0b4de996e8f66bf77 505ab99c118c43d08dfd946b686254fc
+#: 7bd2b733a3634ffa91b7a6621318d43f 85756a4b56884611b5d49a4be8a61d8e
+#: c78449acb69d4a3d8f2fe3967ddeeac9 daefd5a4b9374f44aa5a789c6906f3d5
+#: e7b6ccbb62f9431d88784ec631df59d4 f99585c955e846a6bec10606873f84fb
+msgid "The response from the command execution."
+msgstr "命令执行的响应。"
+
+#: ../../source/unit/lorawan_rui3.rst:1098 a82c4e83f6b14ccaa06f0a01adf2a26d
+msgid ""
+"Timeout for listening to P2P LoRa data packets. Valid values are 1~65535,"
+" with special cases for continuous listening and no timeout."
+msgstr "P2P LoRa 数据包监听超时时间。有效值为 1~65535，并包含用于持续监听和无超时的特殊情况。"
+
+#: ../../source/unit/lorawan_rui3.rst:1100 742aa1d333194db084ddacf4568fdf2b
+msgid "A boolean indicating whether to convert the payload to a string."
+msgstr "一个布尔值，用于指示是否将 payload 转换为字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:1102 54494fe763c2466c9c12ab16da1cd719
+msgid ""
+"A tuple (RSSI, SNR, Payload) if data is received; False if no data is "
+"received."
+msgstr "如果接收到数据，则返回一个元组 (RSSI, SNR, Payload)；如果未接收到数据，则返回 False。"
+
+#: ../../source/unit/lorawan_rui3.rst:1106 f665826499a14b0284d07a88934e0479
+msgid "|get_p2p_receive_data.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:51 72f76ff14b5a4346b054bc2625f3fb4a
+msgid "get_p2p_receive_data.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:1110 68b9e6a5045547ab8b00e7a453d903b5
+msgid "Get the current encryption state in P2P mode."
+msgstr "获取 P2P 模式下的当前加密状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:1113 b29a94e7f0e24925baa35ed8255db054
+msgid "The encryption state as an integer (0 or 1)."
+msgstr "加密状态，以整数表示（0 或 1）。"
+
+#: ../../source/unit/lorawan_rui3.rst:1117 e2833bfaa46947fabfc0fa3340cd4aa4
+msgid "Enable or disable encryption in P2P mode."
+msgstr "在 P2P 模式下启用或禁用加密。"
+
+#: ../../source/unit/lorawan_rui3.rst:1119 97360f5c04124b548adbe34d4780a114
+msgid "0 to disable, 1 to enable encryption."
+msgstr "0 表示禁用，1 表示启用加密。"
+
+#: ../../source/unit/lorawan_rui3.rst:1125 50c54fb2b4164cdb925187a6c5540263
+msgid "Get the current encryption key in P2P mode."
+msgstr "获取 P2P 模式下的当前加密密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:1127 0e2081a490ca49adb20fb00158899381
+msgid "The encryption key as a string."
+msgstr "作为字符串的加密密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:1131 8438fa1fa38e4ea2a1bbf37b3546d1d8
+msgid "Set the encryption key in P2P mode."
+msgstr "在 P2P 模式下设置加密密钥。"
+
+#: ../../source/unit/lorawan_rui3.rst:1133 84589dcdc13447be8b91b730feea594b
+msgid "The encryption key, represented as a 16-character hexadecimal string."
+msgstr "加密密钥，以 16 个字符的十六进制字符串表示。"
+
+#: ../../source/unit/lorawan_rui3.rst:1139 abda84af39084bb3823f348e7841e1c3
+msgid ""
+"Get the current cryptographic state in P2P mode (not supported on "
+"RAK3172)."
+msgstr "获取 P2P 模式下的当前加密状态（RAK3172 不支持）。"
+
+#: ../../source/unit/lorawan_rui3.rst:1141 38809d3a9ee7468ba9231b7c2fef56b4
+msgid "The cryptographic state as an integer (0 or 1)."
+msgstr "加密状态，表示为整数（0 或 1）。"
+
+#: ../../source/unit/lorawan_rui3.rst:1145 a1d5d50c98a04732b713a27db039969a
+msgid ""
+"Enable or disable cryptographic state in P2P mode (not supported on "
+"RAK3172)."
+msgstr "在 P2P 模式下启用或禁用加密状态（RAK3172 不支持）。"
+
+#: ../../source/unit/lorawan_rui3.rst:1147 4676f4402688477584570ea38d1dda38
+msgid "0 to disable, 1 to enable cryptographic state."
+msgstr "0 表示禁用，1 表示启用加密状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:1153 8b75ccca2a4a4b429e28441682d33651
+msgid "Get the cryptographic key in P2P mode (not supported on RAK3172)."
+msgstr "在 P2P 模式下获取加密密钥（RAK3172 不支持）。"
+
+#: ../../source/unit/lorawan_rui3.rst:1155 16aa09e2ed504f568712e4fc629e707d
+msgid "The cryptographic key as a string."
+msgstr "加密密钥（字符串）。"
+
+#: ../../source/unit/lorawan_rui3.rst:1159 ce02c19a3bf64cf7a3d6fc5582da6480
+msgid "Set the cryptographic key in P2P mode (not supported on RAK3172)."
+msgstr "在 P2P 模式下设置加密密钥（RAK3172 不支持）。"
+
+#: ../../source/unit/lorawan_rui3.rst:1161 8f93c0944bc54115bb27876293a210cf
+msgid "The cryptographic key, represented as an 8-character hexadecimal string."
+msgstr "加密密钥，以 8 字符的十六进制字符串表示。"
+
+#: ../../source/unit/lorawan_rui3.rst:1167 442864e7fbab481594e4f231ed3467c8
+msgid "Get the encryption IV in P2P mode."
+msgstr "获取 P2P 模式下的加密 IV。"
+
+#: ../../source/unit/lorawan_rui3.rst:1169 76d9ce7447964875941e75673f60b4a8
+msgid "The encryption IV as a string."
+msgstr "加密 IV 的字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:1173 1092cdac11ef46378be567270d6034ed
+msgid "Set the encryption IV in P2P mode."
+msgstr "在 P2P 模式下设置加密 IV。"
+
+#: ../../source/unit/lorawan_rui3.rst:1175 606156ecf4f247cd8eadfea1a0ec49d0
+msgid "The encryption IV, represented as an 8-character hexadecimal string."
+msgstr "加密 IV，以 8 字符的十六进制字符串表示。"
+
+#: ../../source/unit/lorawan_rui3.rst:1181 6a01aac338894382846c1dd3389ab0e3
+msgid "Get the current P2P parameters."
+msgstr "获取当前 P2P 参数。"
+
+#: ../../source/unit/lorawan_rui3.rst:1183 c908cbbdb6534e14b5315a13f4844031
+msgid "The current P2P parameters as a string."
+msgstr "当前 P2P 参数的字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:1187 a8c9bd773ac64838b9a04a0504b6ff38
+msgid ""
+"Set P2P LoRa parameters, including frequency, spreading factor, "
+"bandwidth, code rate, preamble length, and transmit power."
+msgstr "设置 P2P LoRa 参数，包括频率、扩频因子、带宽、编码率、前导码长度和发射功率。"
+
+#: ../../source/unit/lorawan_rui3.rst:1189 da77729357a740fbaa8569f9c93fc6ca
+msgid "The frequency to use for communication, range 150000000-960000000."
+msgstr "用于通信的频率，范围为 150000000-960000000。"
+
+#: ../../source/unit/lorawan_rui3.rst:1190 a7a276bcf5a346b3a845997f2945608f
+msgid "The spreading factor, which can be {6, 7, 8, 9, 10, 11, 12}."
+msgstr "扩频因子，其取值可以为 {6, 7, 8, 9, 10, 11, 12}。"
+
+#: ../../source/unit/lorawan_rui3.rst:1191 89c17655892545b395fd19301405f556
+msgid "The bandwidth, which can be {125, 250, 500}."
+msgstr "带宽，可取值为 {125, 250, 500}。"
+
+#: ../../source/unit/lorawan_rui3.rst:1192 a5492cf1643944a7b94af8cf4d90e9a3
+msgid "The code rate, where possible values are {4/5=0, 4/6=1, 4/7=2, 4/8=3}."
+msgstr "编码率，可选值为 {4/5=0, 4/6=1, 4/7=2, 4/8=3}。"
+
+#: ../../source/unit/lorawan_rui3.rst:1193 2136b698a90348f9b5eac99b7932199d
+msgid "The length of the preamble, which can be from 2 to 65535."
+msgstr "前导码的长度，范围为 2 到 65535。"
+
+#: ../../source/unit/lorawan_rui3.rst:1194 18cf0d786b9d479cb9dedbd5d613179d
+msgid "The transmit power, which can be in the range {5-22}."
+msgstr "发射功率，范围为 {5-22}。"
+
+#: ../../source/unit/lorawan_rui3.rst:1200 aa92acf0a17a4bc193960db0b486e478
+msgid "Get the current IQ inversion state in P2P mode."
+msgstr "获取 P2P 模式下当前的 IQ 反转状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:1202 131c517a8b5946138868dc1b735cea99
+msgid "The IQ inversion state as an integer (0 or 1)."
+msgstr "IQ 反转状态，以整数表示（0 或 1）。"
+
+#: ../../source/unit/lorawan_rui3.rst:1206 36168254575b42218bb00cc521e34340
+msgid "Enable or disable IQ inversion in P2P mode."
+msgstr "在 P2P 模式下启用或禁用 IQ 反转。"
+
+#: ../../source/unit/lorawan_rui3.rst:1208 cd74a387639b4019bee140975e857f09
+msgid "0 to disable, 1 to enable IQ inversion."
+msgstr "0 表示禁用，1 表示启用 IQ inversion。"
+
+#: ../../source/unit/lorawan_rui3.rst:1214 e363ff6361374e6ea8e0c4c1d83d7787
+msgid "Get the current sync word in P2P mode."
+msgstr "获取 P2P 模式下当前的同步字。"
+
+#: ../../source/unit/lorawan_rui3.rst:1216 a03317cb3acd42aba479c4aef85e677e
+msgid "The sync word as a string."
+msgstr "同步字（sync word）字符串。"
+
+#: ../../source/unit/lorawan_rui3.rst:1220 138d433d8d104478a3e20db8c9648038
+msgid "|get_p2p_sync_word.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:52 e1aa21726f1d45a2864cf35eb7fbd38e
+msgid "get_p2p_sync_word.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:1224 7618f704be6445fc84cf986df67ad8f9
+msgid "Set the sync word in P2P mode."
+msgstr "在 P2P 模式下设置同步字。"
+
+#: ../../source/unit/lorawan_rui3.rst:1226 8ad0d2411e934bfd84620e914dd032e0
+msgid "The sync word value, which should be in the range of 0x0000 to 0xFFFF."
+msgstr "同步字值，应在 0x0000 到 0xFFFF 的范围内。"
+
+#: ../../source/unit/lorawan_rui3.rst:1232 5841cd06f3df4a26bd063ba65e7b2633
+msgid "|set_p2p_sync_word.png|"
+msgstr ""
+
+#: ../../source/refs/unit.lorawan_rui3.ref:53 1b770b4bf43d4609914dcb3ac8999a3e
+msgid "set_p2p_sync_word.png"
+msgstr ""
+
+#: ../../source/unit/lorawan_rui3.rst:1236 1e9e4f7a8b4c4298a1ac52cc6f7febd1
+msgid "Get the current symbol timeout in P2P mode."
+msgstr "获取 P2P 模式下当前的符号超时时间。"
+
+#: ../../source/unit/lorawan_rui3.rst:1238 dcd3c27e77764cfe865bf04653e2e3f0
+msgid "The symbol timeout as an integer."
+msgstr "timeout 符号为整数。"
+
+#: ../../source/unit/lorawan_rui3.rst:1242 c830804d4b534c0382a43987ebf0f160
+msgid "Set the symbol timeout in P2P mode."
+msgstr "在 P2P 模式下设置符号超时时间。"
+
+#: ../../source/unit/lorawan_rui3.rst:1244 6c1a0122c4c6459ba8fdf255fec5960e
+msgid "The timeout value, which should be in the range of 0-248."
+msgstr "超时值，范围应为 0-248。"
+
+#: ../../source/unit/lorawan_rui3.rst:1250 a09c61ec8f904c2388a8bd0e95361ba4
+msgid "Get the current fixed length payload state in P2P mode."
+msgstr "获取 P2P 模式下当前固定长度负载状态。"
+
+#: ../../source/unit/lorawan_rui3.rst:1252 8bc4f353e85d48789880b62dd0ebaab3
+msgid "The fixed length payload state as an integer (0 or 1)."
+msgstr "固定长度的 payload 状态，以整数表示（0 或 1）。"
+
+#: ../../source/unit/lorawan_rui3.rst:1256 16600a29ce444e0ba158cbe1fca6b134
+msgid "Enable or disable fixed length payload in P2P mode."
+msgstr "在 P2P 模式下启用或禁用固定长度有效负载。"
+
+#: ../../source/unit/lorawan_rui3.rst:1258 d4b31879ccf94327aff098883b0d35b1
+msgid "0 to disable, 1 to enable fixed length payload."
+msgstr "0 表示禁用，1 表示启用固定长度 payload。"
+

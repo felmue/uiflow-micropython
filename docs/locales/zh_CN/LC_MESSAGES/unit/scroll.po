@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/scroll.rst:2 4233ceab4b034b31a2c79f586521583b
+msgid "Scroll Unit"
+msgstr "Scroll Unit"
+
+#: ../../source/unit/scroll.rst:6 2fc5f12ced02446f8511ac76389404b2
+msgid "The following products are supported:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/scroll.rst:8 e294634274dd4386a11698b19fbbc3c0
+msgid "|Scroll|"
+msgstr ""
+
+#: ../../source/refs/unit.scroll.ref 78d3ecd7f65a44589b8f6f63eb492ef8
+msgid "Scroll"
+msgstr "滚动"
+
+#: ../../source/unit/scroll.rst:11 721227c6ee9e42f59576cdee600b4e66
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/scroll.rst:18 f498aff581b6444c8397a161b43fc870
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/scroll.rst:20 7f24d470c8fd47df93aa822208900d0b
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scroll.ref:7 d47a5caea4ca405cb32c637483aaea54
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:25 144533d3afa443ccbb07114c2d92c0cf
+msgid "|cores3_scroll_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:29 bd79b6f4935d42358acf0d0652ebf857
+msgid "class ScrollUnit"
+msgstr "class ScrollUnit"
+
+#: ../../source/unit/scroll.rst:32 aeec9fe867cb4ca58485aef523724981
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:36 e7cd03dfd70d44f0a93d7efae04276bd
+msgid "Creates a Rotary object."
+msgstr "创建一个 Rotary 对象。"
+
+#: ../../source/unit/scroll.rst 04e667616df748259754b298f4408ba8
+#: 1bc439983c5f4e4380bb3beea76efab3 baf68745601d49a2aac453cbb1a09cd0
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:38 4c71a6bad5254f9582c800c43356fad1
+msgid "I2C object."
+msgstr "I2C 对象。"
+
+#: ../../source/unit/scroll.rst:39 9506506bef774402bb604bb193e96601
+msgid "I2C address, Default is 0x40."
+msgstr "I2C 地址，默认为 0x40。"
+
+#: ../../source/unit/scroll.rst:41 ../../source/unit/scroll.rst:53
+#: ../../source/unit/scroll.rst:62 ../../source/unit/scroll.rst:72
+#: ../../source/unit/scroll.rst:81 ../../source/unit/scroll.rst:92
+#: ../../source/unit/scroll.rst:101 ../../source/unit/scroll.rst:112
+#: ../../source/unit/scroll.rst:123 ../../source/unit/scroll.rst:134
+#: 2aab2aea889b4c4b92ac8700cce5b039 40c86a68ea144a4695375af890e49eb3
+#: 511fceb8393d44b59251fc37450e3de2 542ce5a168394893ab82fbf62d706eac
+#: 5adcc840366b42afa8cfab3b8e2085b5 a26cbad9512a42268de0e0394dd5f489
+#: babf2be4930549a18da652fa39c91747 cb1fecc403f34de7bd4bd902f55479d4
+#: ed73f782c10246969e46ee525401bc85 f8da50c9872246b194d7d90b44f7cb72
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/scroll.rst:43 45bd9663c3d84e28bb05985cc754969b
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scroll.ref:9 bc7197f10b31417dbb252bfe430f312b
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:47 af3fa960263542bd82a87ed46f40caeb
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:51 59631aec28fc47899dd36f13023e9ca2
+msgid "Gets the rotation status of the Rotary object."
+msgstr "获取 Rotary 对象的旋转状态。"
+
+#: ../../source/unit/scroll.rst:55 e800f91e2ddf4b91b04b02d1fa1b2fc0
+msgid "|get_rotary_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scroll.ref:11 5c94e505e9944b19adf3e1abe4f3b665
+msgid "get_rotary_status.png"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:60 46117f1abf4642959eb0e185f6b567ee
+msgid "Gets the rotation value of the Rotary object."
+msgstr "获取 Rotary 对象的旋转值。"
+
+#: ../../source/unit/scroll.rst:64 0cb40214d4c0438c9e760fcd21902554
+msgid "|get_rotary_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scroll.ref:13 1e9c6dccecfa483bab221018053b617d
+msgid "get_rotary_value.png"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:69 514ff6b1f04c4fceadb6c3a365358292
+msgid ""
+"Gets the rotation increment of the Rotary object. Can be used to "
+"determine the direction of rotation."
+msgstr "获取 Rotary 对象的旋转增量。可用于判断旋转方向。"
+
+#: ../../source/unit/scroll.rst:74 bf4f26f0d8ea4b35b224be0ef1ffe030
+msgid "|get_rotary_increments.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scroll.ref:17 1cb8f993a51c480aab19d0d0c8b00b2d
+msgid "get_rotary_increments.png"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:79 428b50d244354aee97618eeb331b92f7
+msgid "Resets the rotation value of the Rotary object."
+msgstr "重置 Rotary 对象的旋转值。"
+
+#: ../../source/unit/scroll.rst:83 0a090ef3bff54c3aa05f12b861d012f9
+msgid "|reset_rotary_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scroll.ref:19 f1f1a849cb0c4b7aa0f9fa3d9fe8ecef
+msgid "reset_rotary_value.png"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:88 8cd04073f83a4b04b336c4c6151c0d56
+msgid "Sets the rotation value of the Rotary object."
+msgstr "设置 Rotary 对象的旋转值。"
+
+#: ../../source/unit/scroll.rst:90 996ec5667428445d91c8548590872ea7
+msgid "adjust the current value."
+msgstr "调整当前值。"
+
+#: ../../source/unit/scroll.rst:94 c63ac58a353244a692ddaa7ec55c053a
+msgid "|set_rotary_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scroll.ref:21 d0cea8801e224fe5abbf169714a7508a
+msgid "set_rotary_value.png"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:99 b87e8745d7d8462c96ca902bc3309279
+msgid "Get the current status of the rotary encoder keys."
+msgstr "获取旋转编码器按键的当前状态。"
+
+#: ../../source/unit/scroll.rst:103 3417cb5cdab94d209e39756a43765d04
+msgid "|get_button_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scroll.ref:15 1ae39f4937264bf8be6f375f5cf09ae7
+msgid "get_button_status.png"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:108 51528edba97741d89f7302fea76281e5
+msgid "Set the color of the LED"
+msgstr "设置 LED 的颜色"
+
+#: ../../source/unit/scroll.rst:110 a69d445b4af44aa6b355ed797f9f43c3
+msgid "the color of the LED, 0x000000 - 0xFFFFFF."
+msgstr "LED 的颜色，范围为 0x000000 - 0xFFFFFF。"
+
+#: ../../source/unit/scroll.rst:114 b9418396cb50446084416a0f371cf5fd
+msgid "|fill_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scroll.ref:25 26e472dd917a457590cffa7cd533a85e
+msgid "fill_color.png"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:119 5ec06174b84444cdb82cb4b38cd8d554
+msgid "Get the bootloader version."
+msgstr "获取引导加载程序版本。"
+
+#: ../../source/unit/scroll.rst 40decc5d2ca4477d885af60f0aad0680
+#: 95d1735099754061afe5ee02b6ebe900
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:121 4d78c960428f46ccb5e0666bc4c94084
+msgid "bootloader version"
+msgstr "bootloader 版本"
+
+#: ../../source/unit/scroll.rst:125 3e2009387002444a8acfcbf431687085
+msgid "|get_bootloader_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scroll.ref:27 72104f581a614172b6b1b0e087192314
+msgid "get_bootloader_version.png"
+msgstr ""
+
+#: ../../source/unit/scroll.rst:130 5b91117e839f4d6f9300f4cfc1f270c4
+msgid "Get the firmware version."
+msgstr "获取固件版本。"
+
+#: ../../source/unit/scroll.rst:132 58404d2e695c471db93b035a8fa9a681
+msgid "firmware version"
+msgstr "固件版本"
+
+#: ../../source/unit/scroll.rst:136 d852a7438e9d4c26ab9dbde41052c140
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.scroll.ref:29 13dcc94727d54399a3d7ce091a397579
+msgid "get_firmware_version.png"
+msgstr ""
+

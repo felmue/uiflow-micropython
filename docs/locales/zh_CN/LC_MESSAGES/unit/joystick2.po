@@ -1,0 +1,450 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/joystick2.rst:3 0109eb2216824b4991f2c4d5972ee05e
+msgid "Joystick2 Unit"
+msgstr "Joystick2 Unit"
+
+#: ../../source/unit/joystick2.rst:7 acf926e3f2304c878d0c2df2f6f49bd8
+msgid ""
+"The joystick is an input unit for control, utilizing an I2C communication"
+" interface and supporting three-axis control signals (X/Y-axis analog "
+"input for displacement and Z-axis digital input for key presses). It is "
+"ideal for applications like gaming and robot control."
+msgstr ""
+"摇杆是一种用于控制的输入单元，采用 I2C 通信接口，支持三轴控制信号（X/Y 轴位移的模拟输入和 Z "
+"轴按键按下的数字输入）。适用于游戏和机器人控制等应用场景。"
+
+#: ../../source/unit/joystick2.rst:9 64057bd5680147a6afac8c7728b2a968
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/joystick2.rst:11 4408f74e3875466f87890860b1f1ad15
+msgid "|Joystick2Unit|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref 2b2260ff46df4e8b9d708cf45315bfb9
+msgid "Joystick2Unit"
+msgstr "Joystick2Unit"
+
+#: ../../source/unit/joystick2.rst:13 c8cf97e224874a3795de5997a1480fa0
+msgid "Micropython Example::"
+msgstr "MicroPython 应用示例 ::"
+
+#: ../../source/unit/joystick2.rst:30 5865e01e630643789e080a183adf17ad
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/joystick2.rst:32 743d732278434ad3b45e94ddfacf2f42
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:28 3d6b5b0d12db4f13af3c74980baa2f93
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:36 703964ad962e48009ca23a80583a5c7c
+msgid "|cores3_joystick_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:39 9960f283ad7240d5befba7008550bdfb
+msgid "class Joystick2Unit"
+msgstr "class Joystick2Unit"
+
+#: ../../source/unit/joystick2.rst:42 5b8695571d3c489f873a6c998c5383c6
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:46 844675c1587b4ab0b44501dd801a8054
+msgid "Initialize the Joystick Unit."
+msgstr "初始化 Joystick Unit。"
+
+#: ../../source/unit/joystick2.rst 25e686c0b1274f49b749baa90596b38e
+#: 3e2f263c7ba24d8ebaee7bed245ab6cd 45aef1a65de1401288de3c81cb7bcdf1
+#: 46433f84ba0f4475a6a2b759bb238cab 4d2f4e5a967345e6840b7c01c1812369
+#: 51fbc9a571234de09ec66f89f7fc7779 67be7ebc6a5f45b3a898952595c7dfad
+#: ad1f9604a7c142c787352d1c7d196102 c0c442fbdf7e4aafa76a9fc42da9150a
+#: d94ee442f62f487392401d9dd3ad8411 ed51183d6b7a45349f2d9d2cabaf014c
+#: ff646410272b4982a3abbd85914e4cef
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:48 daf8d2298d17463b83f53e2e78c63eb7
+msgid "I2C port to use."
+msgstr "使用的 I2C 端口。"
+
+#: ../../source/unit/joystick2.rst:49 d93d1ff36ed841afa37ea215b3ec9c00
+msgid "I2C address of the Joystick Unit."
+msgstr "Joystick Unit 的 I2C 地址。"
+
+#: ../../source/unit/joystick2.rst:51 ../../source/unit/joystick2.rst:66
+#: ../../source/unit/joystick2.rst:77 ../../source/unit/joystick2.rst:88
+#: ../../source/unit/joystick2.rst:99 ../../source/unit/joystick2.rst:110
+#: ../../source/unit/joystick2.rst:121 ../../source/unit/joystick2.rst:132
+#: ../../source/unit/joystick2.rst:165 ../../source/unit/joystick2.rst:188
+#: ../../source/unit/joystick2.rst:200 ../../source/unit/joystick2.rst:212
+#: ../../source/unit/joystick2.rst:223 ../../source/unit/joystick2.rst:241
+#: ../../source/unit/joystick2.rst:252 ../../source/unit/joystick2.rst:263
+#: ../../source/unit/joystick2.rst:274 ../../source/unit/joystick2.rst:285
+#: 03bfe8650c0b4d82b86eb79650edb8a5 074d8ecaceb542099639c9e1e5607315
+#: 0ba3e39d053e41448a9f6197d1574fa3 2550b04455f4453e87c2252988221a7a
+#: 2fe583dd49fb4af2bbed6d09d1f9db6f 3d60a7f9923e464a8ae6063672d68a6b
+#: 49fd7b95d71f4890bf2eecd9189c9836 56fad843a12c45f5823ee630cb368f7a
+#: 7f1a3082237f4664899523a45be111a6 867be90e8fc54a47981a087c74c6b2b2
+#: 9b28e529230f4049b46be5a071e72044 aabfa77a56704af7aff4f150d21c69c2
+#: af1667068def417e85f4f1dbcfc229e9 b6595c2f5f4f404081ab7dff1daec74e
+#: ccc87a4cda9e417988b7d536e03354f2 d9d3b896c3ac4260b47d8b1b7323730a
+#: ef353463362e45979ba680175864afb6 fb2ce27177c74dcf9a6045158c1b6242
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/joystick2.rst:53 0d5c1c0a1f54474ba6d6f5096e3f7142
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:7 01f5c86a34984ab1908570553c785829
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:57 a9fcea1c3b33481d83d9371f2a150049
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:61 375af0eece474caea15d4610ec19dc5e
+msgid "Invert the X-axis of the joystick."
+msgstr "反转摇杆的 X 轴。"
+
+#: ../../source/unit/joystick2.rst:64 5ef848b7f0f7402c86ed817dc9df38b7
+msgid "Whether to invert the X-axis."
+msgstr "是否反转 X 轴。"
+
+#: ../../source/unit/joystick2.rst:68 506422ddf7d042d3b0527d0ac6f414ee
+msgid "|set_axis_x_invert.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:8 8b3910bf09d84556a0be4adc14b01d1f
+msgid "set_axis_x_invert.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:72 be2b6845964b4876b5eff6fb703b68b0
+msgid "Invert the Y-axis of the joystick."
+msgstr "反转摇杆的 Y 轴。"
+
+#: ../../source/unit/joystick2.rst:75 1f265548f5254f67af57f6f2d10ceb51
+msgid "Whether to invert the Y-axis."
+msgstr "是否反转 Y 轴。"
+
+#: ../../source/unit/joystick2.rst:79 ae2ef307bb5742038cde4a68585d97a4
+msgid "|set_axis_y_invert.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:9 1f25433300104ae2b43238032c6567a2
+msgid "set_axis_y_invert.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:83 8e11dff9a0404d1d881478b9dfe1e727
+msgid "Swap the X-axis and Y-axis of the joystick."
+msgstr "交换摇杆的 X 轴和 Y 轴。"
+
+#: ../../source/unit/joystick2.rst:86 f80c1ca06c504b27b626e78f383b1be8
+msgid "Whether to swap the X-axis and Y-axis."
+msgstr "是否交换 X 轴和 Y 轴。"
+
+#: ../../source/unit/joystick2.rst:90 b1076de778714bd0af7c7c3098bc0dd1
+msgid "|set_axis_swap.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:10 56b2a1c0868a4605b5f808c12be71155
+msgid "set_axis_swap.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:94 1ddd8cfe5cc74f8bab9e8d574a3c22cd
+msgid "Read the ADC value of the joystick."
+msgstr "读取摇杆的 ADC 值。"
+
+#: ../../source/unit/joystick2.rst 4e8c254d69ca4b9c8e9e8e0bb5be9f1c
+#: d93e6afa937b46a28d443c01426ecdcf
+msgid "return (tuple)"
+msgstr "return (tuple)"
+
+#: ../../source/unit/joystick2.rst:96 3bbbccfa77114343980b787bc4d07506
+msgid "Returns a tuple of the X-axis and Y-axis ADC values, from 0 to 65535"
+msgstr "返回一个包含 X 轴和 Y 轴 ADC 值的元组，范围为 0 到 65535"
+
+#: ../../source/unit/joystick2.rst:101 22f835fb22004a678bf2532bd945e5ec
+msgid "|get_adc_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:11 390ca85a3fb749f394bf2a55fe0ca429
+msgid "get_adc_value.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:105 3399037ea6cb4b0c80f0735c0b2e3a3b
+msgid "Read the button status of the joystick."
+msgstr "读取摇杆的按钮状态。"
+
+#: ../../source/unit/joystick2.rst 25685f2b9f52462fae3162f115735248
+msgid "return (bool)"
+msgstr "return (bool)"
+
+#: ../../source/unit/joystick2.rst:107 e178540689e54785aae3c84f327641e3
+msgid "Returns the button status. True if pressed, False if not pressed."
+msgstr "返回按钮状态。按下为 True，未按下为 False。"
+
+#: ../../source/unit/joystick2.rst:112 3b8bb1c11300477994fe9b4ee10a7535
+msgid "|get_button_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:12 15e3a7f3652846f9a5424a6f4697226d
+msgid "get_button_status.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:116 cc1d358899dc4e1ea8e225861e4079c5
+msgid "Set the brightness of the RGB LED."
+msgstr "设置 RGB LED 的亮度。"
+
+#: ../../source/unit/joystick2.rst:119 3a8eb5adb41c4f5d80eed1d90c62b2a4
+msgid "The brightness value (0-100)."
+msgstr "亮度值（0-100）。"
+
+#: ../../source/unit/joystick2.rst:123 a154c931076e4512adde285034f65e5c
+msgid "|set_led_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:13 60505c87f0e449e2b93459a61ac00a5f
+msgid "set_led_brightness.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:127 ../../source/unit/joystick2.rst:138
+#: 46fa6d0e299b47d6829056abdd34450d 67d898da2ed2489485c40ce2dd6049f0
+msgid "Set the RGB LED color of the joystick."
+msgstr "设置摇杆的 RGB LED 颜色。"
+
+#: ../../source/unit/joystick2.rst:130 58129e25f778408f8eac0eaa09b6e43a
+msgid "The RGB value (0x000000-0xFFFFFF)."
+msgstr "RGB 值（0x000000-0xFFFFFF）。"
+
+#: ../../source/unit/joystick2.rst:134 b25f950cf7f7482c9e577b748b1aae1d
+msgid "|fill_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:14 1ea891bbc1544b4e84d8ceacdd71b81c
+msgid "fill_color.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:141 b8d9b48b99ac43279260edf7c8427efe
+msgid "The red value (0-255)."
+msgstr "红色的值（0-255）。"
+
+#: ../../source/unit/joystick2.rst:142 c589fb735fba438db73acade446a9229
+msgid "The green value (0-255)."
+msgstr "绿色值（0-255）。"
+
+#: ../../source/unit/joystick2.rst:143 97a95f73bb8f4898908c6440594a8b3d
+msgid "The blue value (0-255)."
+msgstr "蓝色值（0-255）。"
+
+#: ../../source/unit/joystick2.rst:160 ../../source/unit/joystick2.rst:183
+#: 4780303cd89a4d4b9bfb8078e82f0abf b16b3930f099405ea9ac642d2b8a1d3a
+msgid "The minimum ADC value of the negative range."
+msgstr "负范围的最小 ADC 值。"
+
+#: ../../source/unit/joystick2.rst:161 ../../source/unit/joystick2.rst:184
+#: 44b299d9a17841888a06521c1e4154ea 5f0093c9ef6f40d49323c80dc74624d3
+msgid "The maximum ADC value of the negative range."
+msgstr "负范围的最大 ADC 值。"
+
+#: ../../source/unit/joystick2.rst:162 ../../source/unit/joystick2.rst:185
+#: 03349a4914a74629bb72b43dc67a2e90 deba07bfcb08462fbce29f772cd275bc
+msgid "The minimum ADC value of the positive range."
+msgstr "正范围的最小 ADC 值。"
+
+#: ../../source/unit/joystick2.rst:163 ../../source/unit/joystick2.rst:186
+#: 3c17d91d859545d89d3fda3dd3f1ef12 9525f28531da4e22a1b3256a73a5426c
+msgid "The maximum ADC value of the positive range."
+msgstr "正向范围的最大 ADC 值。"
+
+#: ../../source/unit/joystick2.rst:167 68a36532f4244f6cb7a290a6ccaf69fc
+msgid "|set_axis_x_mapping.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:16 b8f6b1e1517e45d4a2d0f35c0938389a
+msgid "set_axis_x_mapping.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:190 a107d81e55e3464a9a6c7c050309b1f5
+msgid "|set_axis_y_mapping.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:17 a260acdce7334fb9aac85d4033826b94
+msgid "set_axis_y_mapping.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:194 ../../source/unit/joystick2.rst:206
+#: c5d4a21c939a41a89288105de16bebb1 d2a93f97376e4e94b08c8805042e2698
+msgid "Set the dead zone of the joystick."
+msgstr "设置摇杆的死区。"
+
+#: ../../source/unit/joystick2.rst:197 08615db0deca4cfcbe5340d14fc47fdc
+msgid "The dead zone of the X-axis. Range is 0 to 32768."
+msgstr "X 轴的死区。范围为 0 到 32768。"
+
+#: ../../source/unit/joystick2.rst:198 a77b3e21db004f819232c1989b3f979e
+msgid "The dead zone of the Y-axis. Range is 0 to 32768."
+msgstr "Y 轴的死区。范围为 0 到 32768。"
+
+#: ../../source/unit/joystick2.rst:202 7ca1a2fcf9a34b45b72a7e741d6fda12
+msgid "|set_deadzone_adc.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:18 4d5e9d9238da48c5862f941f1cb4871f
+msgid "set_deadzone_adc.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:209 47870db90a1a4e98a6a7692e88de80ba
+msgid "The dead zone of the X-axis. Range is 0 to 4096."
+msgstr "X 轴的死区。范围为 0 到 4096。"
+
+#: ../../source/unit/joystick2.rst:210 3a315771742a47d99c8b854a80c76623
+msgid "The dead zone of the Y-axis. Range is 0 to 4096."
+msgstr "Y 轴的死区。范围为 0 到 4096。"
+
+#: ../../source/unit/joystick2.rst:214 599d2bf796aa4aa7a6deda9f65b7a9cd
+msgid "|set_deadzone_position.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:19 f1032e80c2fe4b64b567f313180fe37f
+msgid "set_deadzone_position.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:218 a54c3c4aa05947e1b9afb36ca6404ce9
+msgid "Read the position of the joystick."
+msgstr "读取摇杆的位置。"
+
+#: ../../source/unit/joystick2.rst:220 42fc29bb3b55460eae2a5a73d8ed44e3
+msgid ""
+"Returns a tuple of the X-axis and Y-axis positions. The range is -4096 to"
+" 4096."
+msgstr "返回一个包含 X 轴和 Y 轴位置的元组。取值范围为 -4096 到 4096。"
+
+#: ../../source/unit/joystick2.rst:225 8656b62765b249e381b60cdff2c4d694
+msgid "|get_axis_position.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:20 145fa785dbd6485a99f841717e79b35f
+msgid "get_axis_position.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:229 c8a79ae3365d4269bbdc144a159f7ba8
+msgid "Set the I2C address of the Joystick Unit."
+msgstr "设置 Joystick Unit 的 I2C 地址。"
+
+#: ../../source/unit/joystick2.rst:232 3f5945334b8b48279d4d7570de551379
+msgid "The I2C address to set."
+msgstr "要设置的 I2C 地址。"
+
+#: ../../source/unit/joystick2.rst:236 51a42894de17497f87d30f26ca78672e
+msgid "Read the firmware version of the Joystick Unit."
+msgstr "读取 Joystick Unit 的固件版本。"
+
+#: ../../source/unit/joystick2.rst 3b4164313c1743f6ad4a7bc97df06cbd
+#: 7ceb919c87fd44cd84ca4bb971119d9d aa39c7b6c26343ab994aafa5006516da
+#: c94926de8b804c5e9451e919620094bd dbb7528c224948cfad035c08d15b648e
+msgid "return (int)"
+msgstr "return (int)"
+
+#: ../../source/unit/joystick2.rst:238 195297e3f4b5489eb9d5b4faefa67fe3
+msgid "Returns the firmware version."
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:243 a1598eb9e9a74b9a8f6d540ef222ccbc
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:22 6977782af9a14d2f9786b43f544e5c76
+msgid "get_firmware_version.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:247 9f31acc66d4b4ffcba0adb7591921cc4
+msgid "Read the raw X-axis value of the joystick."
+msgstr "读取摇杆的 X 轴原始值。"
+
+#: ../../source/unit/joystick2.rst:249 711c9a848e1647f2b13fc0d3174029ab
+msgid "Returns the raw X-axis value."
+msgstr "返回原始 X 轴数值。"
+
+#: ../../source/unit/joystick2.rst:254 5492a95a32b049e5be122ca464ebc5f8
+msgid "|get_x_raw.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:23 30dbb27202c547aaa70b92d1f2a766e1
+msgid "get_x_raw.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:258 45a3cbee736e40e69003205aec3c4be0
+msgid "Read the raw Y-axis value of the joystick."
+msgstr "读取摇杆的 Y 轴原始值。"
+
+#: ../../source/unit/joystick2.rst:260 088510de9d4849b49d5657e58538b8e5
+msgid "Returns the raw Y-axis value."
+msgstr "返回原始 Y 轴值。"
+
+#: ../../source/unit/joystick2.rst:265 69f29989abfc4c84a693e37f35c7c722
+msgid "|get_y_raw.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:24 b3cb7c4eaf024fe7a3cd2ce8619b3947
+msgid "get_y_raw.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:269 d8bda3f0802e4b55ba7fef36448dcda1
+msgid "Read the X-axis position of the joystick."
+msgstr "读取摇杆的 X 轴位置。"
+
+#: ../../source/unit/joystick2.rst:271 14db7cee72a7425284a5fe50332dbc90
+msgid "Returns the X-axis position."
+msgstr "Returns"
+
+#: ../../source/unit/joystick2.rst:276 a895dfa2c28444628dfef4359c7b5c50
+msgid "|get_x_position.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:25 56f087eb6e0d415a8bf7450a892c745e
+msgid "get_x_position.png"
+msgstr ""
+
+#: ../../source/unit/joystick2.rst:280 e0ed00e233b74c96aaab64ec1fcb80a6
+msgid "Read the Y-axis position of the joystick."
+msgstr "读取摇杆的 Y 轴位置。"
+
+#: ../../source/unit/joystick2.rst:282 0e606e7863314c298736cc8bbef1c7a6
+msgid "Returns the Y-axis position."
+msgstr "返回 Y 轴位置。"
+
+#: ../../source/unit/joystick2.rst:287 cf1beac622314aa08fad4aa66cb240b0
+msgid "|get_y_position.png|"
+msgstr ""
+
+#: ../../source/refs/unit.joystick2.ref:26 0523dec115fe4e2d94ab3f1e1eabff05
+msgid "get_y_position.png"
+msgstr ""
+

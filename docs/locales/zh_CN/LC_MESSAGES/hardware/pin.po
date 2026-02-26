@@ -22,21 +22,21 @@ msgstr ""
 
 #: ../../en/hardware/pin.rst:2 987b87acea4a4156a6a2fdc1e275cb27
 msgid "Pin"
-msgstr ""
+msgstr "引脚"
 
 #: ../../en/hardware/pin.rst:6 367ac1b7c55f4b4094f040f6a00c4e66
 msgid ""
 "The Pin class is used to manage GPIO operations. Below is the detailed "
 "support for the Pin class:"
-msgstr ""
+msgstr "Pin 类用于管理 GPIO 操作。下面是 Pin 类的详细支持说明："
 
 #: ../../en/hardware/pin.rst:8 81b10dd4d5e6441d8ca852166239dfac
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/hardware/pin.rst:14 d245238d72224902a6be955de7eea575
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/hardware/pin.rst:16 2508841b345444b89d069d9c3df9c5d6
 msgid "|example.png|"
@@ -52,15 +52,15 @@ msgstr ""
 
 #: ../../en/hardware/pin.rst:23 930256d3e6214062a1e8f186d6a1fcc9
 msgid "class Pin"
-msgstr ""
+msgstr "class Pin"
 
 #: ../../en/hardware/pin.rst:26 1f62a94a65204affb2f740f30c937332
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/hardware/pin.rst:30 240210e48caa4d3e901b94815183d4fa
 msgid "Access the pin peripheral (GPIO pin) associated with the given ``id``."
-msgstr ""
+msgstr "访问与给定 ``id`` 关联的引脚外设（GPIO 引脚）。"
 
 #: ../../en/hardware/pin.rst 6feddf0ea184456b910e5d3da44cd23a
 msgid "Parameters"
@@ -68,7 +68,7 @@ msgstr ""
 
 #: ../../en/hardware/pin.rst:32 7f3406bec4ae46998a92d377e933f57c
 msgid "is mandatory and can be an arbitrary object."
-msgstr ""
+msgstr "是必需的，并且可以是任意对象。"
 
 #: ../../en/hardware/pin.rst:33 8e1d60c8e9114e098ecfd116c63fe6d6
 msgid ""
@@ -76,20 +76,24 @@ msgid ""
 "viewed as an output the pin is in high-impedance state.  - ``Pin.OUT`` - "
 "Pin is configured for (normal) output."
 msgstr ""
+"指定引脚模式。\n"
+"\n"
+"- ``Pin.IN`` - 引脚被配置为输入。如果将其视为输出，引脚处于高阻态。\n"
+"- ``Pin.OUT`` - 引脚被配置为（普通）输出。"
 
 #: ../../en/hardware/pin.rst:33 5c08b6f8fdf14441858bf28dcd86af8b
 msgid "specifies the pin mode."
-msgstr ""
+msgstr "指定引脚模式。"
 
 #: ../../en/hardware/pin.rst:35 585aed84cdf14199816805e0f1e13cfa
 msgid ""
 "``Pin.IN`` - Pin is configured for input.  If viewed as an output the pin"
 " is in high-impedance state."
-msgstr ""
+msgstr "``Pin.IN`` - 引脚被配置为输入。如果将其视为输出，则该引脚处于高阻态。"
 
 #: ../../en/hardware/pin.rst:37 b8c8b79e04594372935e9b320881d71d
 msgid "``Pin.OUT`` - Pin is configured for (normal) output."
-msgstr ""
+msgstr "``Pin.OUT`` - Pin 被配置为（普通）输出。"
 
 #: ../../en/hardware/pin.rst:39 147f1b775c7948319fa8bf354a1b7872
 msgid ""
@@ -97,29 +101,34 @@ msgid ""
 "No pull up or down resistor. - ``Pin.PULL_UP`` - Pull up resistor "
 "enabled. - ``Pin.PULL_DOWN`` - Pull down resistor enabled."
 msgstr ""
+"指定引脚是否连接了（弱）上拉/下拉电阻。\n"
+"\n"
+"- ``None`` - 不使用上拉或下拉电阻。\n"
+"- ``Pin.PULL_UP`` - 启用上拉电阻。\n"
+"- ``Pin.PULL_DOWN`` - 启用下拉电阻。"
 
 #: ../../en/hardware/pin.rst:39 240f3e746cb64fd69f9d2670e736bbc9
 msgid "specifies if the pin has a (weak) pull resistor attached."
-msgstr ""
+msgstr "指定引脚是否连接了（弱）上拉/下拉电阻。"
 
 #: ../../en/hardware/pin.rst:41 a79157a1ef964938949193b48dc7ceff
 msgid "``None`` - No pull up or down resistor."
-msgstr ""
+msgstr "``None`` - 无上拉或下拉电阻。"
 
 #: ../../en/hardware/pin.rst:42 fd6798f6abd749c79908b7dfb350cb3d
 msgid "``Pin.PULL_UP`` - Pull up resistor enabled."
-msgstr ""
+msgstr "``Pin.PULL_UP`` - 启用上拉电阻。"
 
 #: ../../en/hardware/pin.rst:43 277ad88ca58a40c289b3f4ebaeb6fb24
 msgid "``Pin.PULL_DOWN`` - Pull down resistor enabled."
-msgstr ""
+msgstr "``Pin.PULL_DOWN`` - 启用下拉电阻。"
 
 #: ../../en/hardware/pin.rst:45 ../../en/hardware/pin.rst:67
 #: ../../en/hardware/pin.rst:81 ../../en/hardware/pin.rst:89
 #: 227e1387a141455d9bd07452991fe2bd 700fff682f3247c9abec2eb411c50640
 #: a077beaf1aa24e58846ccf55b7583cc7 f726c640f9ae42f089019d0f51f3a602
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2:"
 
 #: ../../en/hardware/pin.rst:47 0d0a0cd9e64b4292b52c23783c690bc5
 msgid "|init.png|"
@@ -135,18 +144,18 @@ msgstr ""
 
 #: ../../en/hardware/pin.rst:53 ffd6a48216c143cfa07900b28436f459
 msgid "Set the value of the pin."
-msgstr ""
+msgstr "设置引脚的值。"
 
 #: ../../en/hardware/pin.rst:55 00f4121af30f4dca8d16225c42a145d1
 msgid ""
 "The argument ``value`` can be anything that converts to a boolean. If it "
 "converts to ``True``, the pin is set to state '1', otherwise it is set to"
 " state '0'."
-msgstr ""
+msgstr "参数 ``value`` 可以是任何可转换为布尔值的内容。如果它转换为 ``True``，则引脚被设置为状态 “1”；否则被设置为状态 “0”。"
 
 #: ../../en/hardware/pin.rst:59 ab5b464c267a4781a9f72acd75af8e42
 msgid "The behaviour of this method depends on the mode of the pin:"
-msgstr ""
+msgstr "该方法的行为取决于引脚的模式："
 
 #: ../../en/hardware/pin.rst:61 78f983cd12544e0898ffbf4c69a63c6c
 msgid ""
@@ -155,10 +164,12 @@ msgid ""
 "stored value will become active on the pin as soon as it is changed to "
 "``Pin.OUT`` mode."
 msgstr ""
+"``Pin.IN`` - 该值会存储在引脚的输出缓冲区中。引脚状态不会改变，仍保持高阻态。一旦将其切换为 ``Pin.OUT`` "
+"模式，存储的值将立即在该引脚上生效。"
 
 #: ../../en/hardware/pin.rst:65 769010cc6211479f97d6593710c6818b
 msgid "``Pin.OUT`` - The output buffer is set to the given value immediately."
-msgstr ""
+msgstr "``Pin.OUT`` - 输出缓冲区会立即被设置为给定的值。"
 
 #: ../../en/hardware/pin.rst:69 22dac7e78d1f409ebf3fd6013407c74d
 msgid "|set_value.png|"
@@ -186,7 +197,7 @@ msgstr ""
 
 #: ../../en/hardware/pin.rst:79 a9bfa0f5ca7d4eb7925c5317e514d6e9
 msgid "Sets the pin to low level."
-msgstr ""
+msgstr "将引脚设置为低电平。"
 
 #: ../../en/hardware/pin.rst:83 996f3a7b0d804c538d7cfa5530017576
 msgid "|off.png|"
@@ -198,7 +209,7 @@ msgstr ""
 
 #: ../../en/hardware/pin.rst:87 4ccb32e45b874fcf894faa16d6073ca0
 msgid "Sets the pin to high level."
-msgstr ""
+msgstr "将引脚设置为高电平。"
 
 #: ../../en/hardware/pin.rst:91 73caf274c67d41e49f51399b6685b657
 msgid "|on.png|"
@@ -210,21 +221,21 @@ msgstr ""
 
 #: ../../en/hardware/pin.rst:94 5c2ca77af0f8466694e18c9b8bc0d8fe
 msgid "Constants"
-msgstr ""
+msgstr "Constants"
 
 #: ../../en/hardware/pin.rst:98 70119c04604140c3a69ced1897ad38b0
 msgid "Input mode"
-msgstr ""
+msgstr "输入模式"
 
 #: ../../en/hardware/pin.rst:102 f24de495beae4be9a466d04293f57ad2
 msgid "Output mode"
-msgstr ""
+msgstr "输出模式"
 
 #: ../../en/hardware/pin.rst:106 cefde14416634f7db6f606596f560406
 msgid "Pull-up resistor"
-msgstr ""
+msgstr "上拉电阻"
 
 #: ../../en/hardware/pin.rst:110 6b2c23c58e3a4c048519696128b51166
 msgid "Pull-down resistor"
-msgstr ""
+msgstr "下拉电阻"
 

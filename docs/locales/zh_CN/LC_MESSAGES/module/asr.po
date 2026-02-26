@@ -18,11 +18,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/module/asr.rst:3 65b90dbbc9e74529913de3c44a61023c
 msgid "ASR Module"
-msgstr ""
+msgstr "ASR Module"
 
 #: ../../source/module/asr.rst:7 38c7b2a0769c4296ac4ae7fb04e53e44
 msgid "This is the driver library of ASR Module."
@@ -48,7 +48,7 @@ msgstr "UiFlow2 示例"
 #: ../../source/module/asr.rst:17 ../../source/module/asr.rst:35
 #: 5472c507a19246589d2a0971ce171372 681b25a1f7b74766a44ad301b96121a4
 msgid "ASR Example"
-msgstr ""
+msgstr "ASR 应用示例"
 
 #: ../../source/module/asr.rst:19 39e30f66d496447db50df7b4fe867248
 msgid "Open the |asr_core2_example.m5f2| project in UiFlow2."
@@ -100,7 +100,7 @@ msgstr "API参考"
 
 #: a437e2d0224f4338baa54d79bce4027e module.asr.ASRModule:1 of
 msgid "Bases: :py:class:`~unit.asr.ASRUnit`"
-msgstr ""
+msgstr "Bases: :py:class:`~unit.asr.ASRUnit`"
 
 #: cb028c1caa4f45c09070ba4845d2c1c8 module.asr.ASRModule:1 of
 msgid "Voice recognition hardware module."

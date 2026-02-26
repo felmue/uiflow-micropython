@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/module/rca.rst:2 16fe8d445f574fd2a97d8ac3256478d2
 msgid "RCA Module"
-msgstr ""
+msgstr "RCA Module"
 
 #: ../../en/module/rca.rst:8 4c15c36e3181459288ff10c2de9d199a
 msgid ""
@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../en/refs/module.rca.ref 1935b3cd8fc04dc0b0f2a4ad3cf25057
 msgid "RCAModule"
-msgstr ""
+msgstr "RCAModule"
 
 #: ../../en/module/rca.rst:16 801f45d9c2c64fe6bae0706a23eb1280
 msgid "UiFlow2 Example"
@@ -102,14 +102,13 @@ msgstr "API参考"
 
 #: ../../en/module/rca.rst:57 0015aa5d40484430a2dd9ec21cc34079
 msgid "Class RCAModule"
-msgstr ""
+msgstr "Class RCAModule"
 
 #: d6bbc6c747bb48869a2f50d88f0ebfcb module.rca.RCAModule:1 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "基类：:py:class:`object`"
 
 #: 56a13f7e15e14a94a578a11551f46cfb module.rca.RCAModule:1 of
-#, fuzzy
 msgid "Initialize the RCA Module."
 msgstr "初始化 RCA Module。"
 

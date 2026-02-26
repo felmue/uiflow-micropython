@@ -1,0 +1,232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/laser_rx.rst:3 6aec6e67475742ecbfbd6f4bf323eaea
+msgid "LaserRX Unit"
+msgstr "LaserRX Unit"
+
+#: ../../source/unit/laser_rx.rst:7 d57c41705231489ba445f33d7d13ba6b
+msgid ""
+"LASER.RX is one of the communication devices among M5Units, a Laser "
+"receiver. It is mainly built with a laser transistor. Laser "
+"communications devices are wireless connections through the atmosphere. "
+"They work similarly to fiber-optic links, except the beam is transmitted "
+"through free space. While the transmitter and receiver must require line-"
+"of-sight conditions, they have the benefit of eliminating the need for "
+"broadcast rights and buried cables. Laser communications systems can be "
+"easily deployed since they are inexpensive, small, low power and do not "
+"require any radio interference studies. Two parallel beams are needed, "
+"one for transmission and one for reception. Therefore we have a LASER.TX "
+"in parallel."
+msgstr ""
+"LASER.RX 是 M5Units "
+"中的一种通信设备，即激光接收器。它主要由激光三极管构成。激光通信设备是通过大气进行的无线连接，其工作方式类似于光纤链路，不同之处在于光束是通过自由空间传输的。虽然发射器和接收器必须满足视距条件，但其优势在于无需广播许可，也不需要铺设地下电缆。激光通信系统易于部署，因为它们成本低、体积小、功耗低，并且不需要进行任何无线电干扰研究。需要两束平行光束，一束用于发射，一束用于接收。因此我们还配套提供了"
+" LASER.TX。"
+
+#: ../../source/unit/laser_rx.rst:9 27270b0858404ec2af2c09e3ead9472d
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/laser_rx.rst:11 e2e0856b67304020933db66383e8539e
+msgid "|LaserRXUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_rx.ref 3d5d52b4da654d5b8c2f96bd634e1425
+msgid "LaserRXUnit"
+msgstr "LaserRXUnit"
+
+#: ../../source/unit/laser_rx.rst:13 345d760c073d469fbf7fd88401d9cad1
+msgid "LaserTX Example:"
+msgstr "LaserTX 示例："
+
+#: ../../source/unit/laser_rx.rst:19 19104a13d4954ea68e29cd1d0e868933
+msgid "LaserRX Example:"
+msgstr "LaserRX 示例："
+
+#: ../../source/unit/laser_rx.rst:25 25a85be38e7b4fe8afff97547463f69f
+msgid "LaserTX UIFLOW2 Example:"
+msgstr "LaserTX UiFlow2 应用示例："
+
+#: ../../source/unit/laser_rx.rst:27 a62650f1ec3b41f08805f8791be9c2a6
+msgid "|example_tx.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_rx.ref:13 33c8a1f750794c0ca9a7946fc1dd47c2
+msgid "example_tx.png"
+msgstr ""
+
+#: ../../source/unit/laser_rx.rst:29 a3aa7ee4af77441ba2671527e42e3b03
+msgid "LaserRX UIFLOW2 Example:"
+msgstr "LaserRX UiFlow2 应用示例："
+
+#: ../../source/unit/laser_rx.rst:31 96a0e4a8fca0406c84826d255570281d
+msgid "|example_rx.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_rx.ref:14 959754b7bfea42298194b544ff2d1bef
+msgid "example_rx.png"
+msgstr ""
+
+#: ../../source/unit/laser_rx.rst:35 a9a26e239cc34af695839f4c8aaaeca8
+msgid "|laserrx_core2_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/laser_rx.rst:37 53e7aef5431248529a0e20e66ad7da66
+msgid "|lasertx_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/laser_rx.rst:41 de73f3c7b30c483eb2b5f00601f03d36
+msgid "class LaserRXUnit"
+msgstr "class LaserRXUnit"
+
+#: ../../source/unit/laser_rx.rst:44 e2b12ce0a5df479fb02321d4a616ac1d
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/laser_rx.rst:48 fb3884135a9a41288fdd168001b014b2
+msgid ""
+"Initialize the LaserRXUnit with the specified port, communication mode, "
+"and UART ID."
+msgstr "使用指定的端口、通信模式和 UART ID 初始化 LaserRXUnit。"
+
+#: ../../source/unit/laser_rx.rst 6a3186dc12b04e2699496f9c038a549d
+#: 7239573eca7b47b59d54ceb44f7da2bc d16b6d6d88d9467f8f70682d05334025
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/laser_rx.rst:50 0a9ece52268c4d9b80a0a69cf4f3f203
+msgid "A tuple containing pin numbers for TX and RX."
+msgstr "一个包含 TX 和 RX 引脚编号的元组。"
+
+#: ../../source/unit/laser_rx.rst:51 dd1b451d87574f4d9e4799cce362a4f3
+msgid "Communication mode; use PIN_MODE or UART_MODE."
+msgstr "通信模式；使用 ``PIN_MODE`` 或 ``UART_MODE``。"
+
+#: ../../source/unit/laser_rx.rst:52 8142caeca2c34c59a968f34eb34e12e0
+msgid "UART ID, either 1 or 2."
+msgstr "UART ID，可以是 1 或 2。"
+
+#: ../../source/unit/laser_rx.rst:54 ../../source/unit/laser_rx.rst:71
+#: ../../source/unit/laser_rx.rst:83 ../../source/unit/laser_rx.rst:100
+#: 3ae5ddd7dd10496187f73257237b74e3 52c4e0cf33ab485aa0e775864761d2da
+#: af0f4bc50ba246c88bc17d9203ea3248 f63051ae439d4332a37fcdbb2fa60749
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/laser_rx.rst:56 54d7b2db4c3b43e0ae7f5fe7445f6f1f
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_rx.ref:7 050a7d228ee44e329d7c035579ccf054
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/laser_rx.rst:60 736a7de614f846009c9547f2fbf16072
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/laser_rx.rst:64 60c9bef7b17d41098f848081f40a7739
+msgid "Initialize UART communication with specified parameters."
+msgstr "使用指定参数初始化 UART 通信。"
+
+#: ../../source/unit/laser_rx.rst:66 ec41f68e0eab42eea776c932426b14c9
+msgid "The baud rate for UART communication. Default is 115200."
+msgstr "UART 通信的波特率。默认值为 115200。"
+
+#: ../../source/unit/laser_rx.rst:67 c9af8c557376427d855f33ef1a727dff
+msgid "The number of data bits; 7, 8, or 9. Default is 8."
+msgstr "数据位的数量；7、8 或 9。默认值为 8。"
+
+#: ../../source/unit/laser_rx.rst:68 6751340c5f0d47809ad3eb090965af63
+msgid "Parity setting; None, 0, or 1. Default is 8."
+msgstr "奇偶校验设置；None、0 或 1。默认值为 8。"
+
+#: ../../source/unit/laser_rx.rst:69 d8bdd62fa69b455092256f16c233e9b8
+msgid "The number of stop bits; 1 or 2. Default is 1."
+msgstr "停止位的数量；1 或 2。默认为 1。"
+
+#: ../../source/unit/laser_rx.rst:73 d9ecad56347347d4a47edf0dc1075181
+msgid "|init_uart.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_rx.ref:8 a31c94108cb946799e7f4940a20034a1
+msgid "init_uart.png"
+msgstr ""
+
+#: ../../source/unit/laser_rx.rst:77 4b5e7694913c46dd8bd607140b397991
+msgid "Read data from UART. Optionally specify the number of bytes to read."
+msgstr "从 UART 读取数据。可选指定要读取的字节数。"
+
+#: ../../source/unit/laser_rx.rst:79 70003a4b2b804c03827d235bfe2c4942
+msgid "The number of bytes to read. If None, reads all available data."
+msgstr "要读取的字节数。如果为 None，则读取所有可用数据。"
+
+#: ../../source/unit/laser_rx.rst 2841268f5742453fbcaf1aeacdd79503
+#: 3f610161249c4df5a3480e9758c1c0ba 81efb3cbe88541598b3100b219f3329c
+#: 85303ad09efd4c909c58634e7c231e04
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/laser_rx.rst:81 5c5fb388336443699d4dd3427604729e
+msgid "The data read from UART or None if no data is available."
+msgstr "从 UART 读取到的数据；如果没有可用数据，则返回 None。"
+
+#: ../../source/unit/laser_rx.rst:85 dcb99c70d5724ca3a881e8a77f605c00
+msgid "|read.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_rx.ref:9 75dc437815ed421880c37aae5cf803e4
+msgid "read.png"
+msgstr ""
+
+#: ../../source/unit/laser_rx.rst:89 37e6e35c73ac4322901f44d14eb532b7
+msgid "Read a single line of data from UART."
+msgstr "从 UART 读取单行数据。"
+
+#: ../../source/unit/laser_rx.rst:91 3936c7c3b06e4d17925e32f1a5ed9447
+msgid "The line read from UART or None if no data is available."
+msgstr "从 UART 读取的一行数据；如果没有可用数据，则返回 None。"
+
+#: ../../source/unit/laser_rx.rst:96 1578238d72ef4905abd1aa1e476faa74
+msgid "Check if there is any data available in UART buffer."
+msgstr "检查 UART 缓冲区中是否有可用数据。"
+
+#: ../../source/unit/laser_rx.rst:98 8312f16643894ceb86312133910ba294
+msgid "True if data is available; otherwise, False."
+msgstr "如果数据可用则为 True；否则为 False。"
+
+#: ../../source/unit/laser_rx.rst:102 74c26e1be0b649008717420dca847c3c
+msgid "|any.png|"
+msgstr ""
+
+#: ../../source/refs/unit.laser_rx.ref:10 68bb8961f94d4950a74f2599e4fc82ce
+msgid "any.png"
+msgstr ""
+
+#: ../../source/unit/laser_rx.rst:106 62fbd1875d4b4c1fa1ee5a4f1ee3f60c
+msgid "Get the current value of the input pin when using PIN_MODE."
+msgstr "在使用 PIN_MODE 时获取输入引脚的当前值。"
+
+#: ../../source/unit/laser_rx.rst:108 262203c606d740c8901992ba8c59e915
+msgid "The value of the pin (0 or 1)."
+msgstr "引脚的值（0 或 1）。"
+

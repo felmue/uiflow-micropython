@@ -22,17 +22,17 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:3 dd5b1dbe381a4aecae9086a93743ca06
 msgid "ODrive Module"
-msgstr ""
+msgstr "ODrive Module"
 
 #: ../../en/module/odrive.rst:7 2e872c0b8b704bf4acef04847bc6cf11
 msgid ""
 "ODrive is a high-performance servo motor drive module launched by "
 "M5Stack, based on the open source motion control solution ODrive."
-msgstr ""
+msgstr "ODrive 是 M5Stack 推出的高性能伺服电机驱动模块，基于开源运动控制方案 ODrive。"
 
 #: ../../en/module/odrive.rst:9 02bffe57674e49e3973715dba757b479
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/module/odrive.rst:11 77bd37ca22a14fcdbb61d5b67d520107
 msgid "|ODriveModule|"
@@ -40,15 +40,15 @@ msgstr ""
 
 #: ../../en/refs/module.odrive.ref fb74b8efbe684e779a9542da418382f9
 msgid "ODriveModule"
-msgstr ""
+msgstr "ODriveModule"
 
 #: ../../en/module/odrive.rst:13 ed60b2c9ca0145539b086a8453bfe37e
 msgid "Micropython Example::"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/module/odrive.rst:27 94e8278828204ad6acb85d7b0b707b1b
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/module/odrive.rst:29 2fdb0d0d3d1f452d97eee03eb6a2dd2e
 msgid "|example.png|"
@@ -64,15 +64,15 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:37 f3626fcb4ec04c0e9cb5dc181f28ed1a
 msgid "class ODriveModule"
-msgstr ""
+msgstr "class ODriveModule"
 
 #: ../../en/module/odrive.rst:40 a64b7b560a6e495997deff901dc12789
 msgid "Constructors"
-msgstr ""
+msgstr "Constructors"
 
 #: ../../en/module/odrive.rst:44 c66f26ba0d624ec99fd400cb7eec0524
 msgid "Initialize the ODriveModule."
-msgstr ""
+msgstr "初始化 ODriveModule。"
 
 #: ../../en/module/odrive.rst 0e31726719a44806811e026d2a023b55
 #: 1e1d16f6ba8d4d5f8d635ea05b782d07 3503bf2bb024442e8e76a707b8b7ab80
@@ -114,7 +114,7 @@ msgstr ""
 #: e2ffc4bcc97c4acb9a7d7885bbc7be1a e6d968cf9e014fa2833b3e9d601dfd91
 #: ee2923e1be2a4c91a1237ee216a0e5b7 f44a6ce93caf4e1a93468f08af425dc8
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UiFlow2："
 
 #: ../../en/module/odrive.rst:51 64977a006a554f7eabf099179a33136d
 msgid "|init.png|"
@@ -130,22 +130,22 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:59 01a34e6a513b4458addd28775fc1995e
 msgid "Set the target position with optional feedforward values."
-msgstr ""
+msgstr "设置目标位置，并可选设置前馈值。"
 
 #: ../../en/module/odrive.rst:61 2387fb4754da42c5959db6bc9fe5fea5
 msgid "The target position in counts or radians, depending on the configuration."
-msgstr ""
+msgstr "目标位置（以计数或弧度为单位，具体取决于配置）。"
 
 #: ../../en/module/odrive.rst:62 c7c08c44f1a34e6c9035f3a30ddb2efa
 msgid ""
 "The feedforward velocity in counts/s or radians/s to assist the "
 "controller."
-msgstr ""
+msgstr "以前馈速度（单位为 counts/s 或 radians/s）来辅助控制器。"
 
 #: ../../en/module/odrive.rst:63 ../../en/module/odrive.rst:74
 #: 60f1320328c04ca5b4ccee204425060c 905380887c8343b6beac0a28629095c3
 msgid "The feedforward current in amperes to assist the controller."
-msgstr ""
+msgstr "用于辅助控制器的前馈电流（单位：A）。"
 
 #: ../../en/module/odrive.rst:67 763ad4d2e5de49eb8b2ba63ee8cd80cc
 msgid "|set_position.png|"
@@ -157,11 +157,11 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:71 fc83164cc5a044528001043aff267dc5
 msgid "Set the target velocity with optional current feedforward."
-msgstr ""
+msgstr "设置目标速度，并可选设置电流前馈。"
 
 #: ../../en/module/odrive.rst:73 0bcc8bfd44c2495183496b4935738e46
 msgid "The target velocity in counts/s or radians/s."
-msgstr ""
+msgstr "目标速度，单位为 counts/s 或 radians/s。"
 
 #: ../../en/module/odrive.rst:78 9b12fd6c05a74bf6b53390ff10d14d75
 msgid "|set_velocity.png|"
@@ -173,11 +173,11 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:82 f8be4ecffe454efebeeff2ec430ecce3
 msgid "Set the target current."
-msgstr ""
+msgstr "设置目标电流。"
 
 #: ../../en/module/odrive.rst:84 66ac341dedb248d68161c41a7dd8bcb0
 msgid "The target current in amperes for torque control."
-msgstr ""
+msgstr "用于扭矩控制的目标电流值，单位为安培。"
 
 #: ../../en/module/odrive.rst:88 9072101ff9404503b4ea7f9c3425726c
 msgid "|set_current.png|"
@@ -197,11 +197,11 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:103 5cad9f6266dc4dd59d6e1031a2f15778
 msgid "Set the control mode of the controller."
-msgstr ""
+msgstr "设置控制器的控制模式。"
 
 #: ../../en/module/odrive.rst:105 66501952fda24ca1b97bd2f8dbe12a1b
 msgid "The control mode."
-msgstr ""
+msgstr "控制模式。"
 
 #: ../../en/module/odrive.rst:109 7cadf84100fb4f54823fd9447273d4d3
 msgid "|set_control_mode.png|"
@@ -213,11 +213,11 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:113 cd4cb65f72c341979a71d90e629d0e77
 msgid "Set the control input position for the controller."
-msgstr ""
+msgstr "设置控制器的控制输入位置。"
 
 #: ../../en/module/odrive.rst:115 123cd6aceee646eb90e85b910bf4e4b1
 msgid "The desired input position in counts or radians for position control."
-msgstr ""
+msgstr "位置控制所需的目标输入位置，单位为计数或弧度。"
 
 #: ../../en/module/odrive.rst:119 25a7d2fbec0b48bd8491db035f73a407
 msgid "|set_control_input_pos.png|"
@@ -229,13 +229,13 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:123 89c3d6268c6a4bbc974df148d69a7452
 msgid "Perform a trapezoidal move to the given position."
-msgstr ""
+msgstr "执行梯形运动到给定位置。"
 
 #: ../../en/module/odrive.rst:125 14197b41044e435d83f039eaf7f2fcc3
 msgid ""
 "The target position in counts or radians to move to using a trapezoidal "
 "velocity profile."
-msgstr ""
+msgstr "使用梯形速度曲线移动到的目标位置（以计数或弧度为单位）。"
 
 #: ../../en/module/odrive.rst:129 f5078cf1c93a4528aa352b4d494d2c6a
 msgid "|trapezoidal_move.png|"
@@ -247,15 +247,15 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:133 67f9989e0ff444e0a269ea56d1e8df20
 msgid "Run the axis to the requested state within a timeout period."
-msgstr ""
+msgstr "在超时期限内将轴运行到请求的状态。"
 
 #: ../../en/module/odrive.rst:135 d26ef9124b7c4a0a8083f89fecccbd5b
 msgid "The desired axis state to transition to, using the AXIS_STATE_* constants."
-msgstr ""
+msgstr "要切换到的目标轴状态，使用 AXIS_STATE_* 常量。"
 
 #: ../../en/module/odrive.rst:136 7cdfca6bb6e4463ba0f3f5b21e8f237f
 msgid "Timeout in milliseconds to wait for the axis to reach the requested state."
-msgstr ""
+msgstr "等待轴达到请求状态的超时时间，单位为毫秒。"
 
 #: ../../en/module/odrive.rst:140 3f48cf1a761e4f3b99041fb158e0a54a
 msgid "|run_state.png|"
@@ -267,7 +267,7 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:144 5f85f27fb10f48dbb04992c9980226f7
 msgid "Get the estimated velocity of the motor."
-msgstr ""
+msgstr "获取电机的估算速度。"
 
 #: ../../en/module/odrive.rst 24c6bcd0073d4e84aff58ce91ff7b014
 #: 5664a262576b47e286485d798418ddb7 95e7657abc1d4eb5b7fb093f41238cd3
@@ -275,11 +275,11 @@ msgstr ""
 #: bc843331fc9b44b1bb78bdcf2750686c f5f3f4fb3e5d4e0fb1df0c00195cba6b
 #: fa8829fe26e44c4fad57ea3b75077537
 msgid "return (float)"
-msgstr ""
+msgstr "return (float)"
 
 #: ../../en/module/odrive.rst:146 bc5abbd8b4924cc696c8c948347ef4ec
 msgid "The estimated velocity in counts/s or radians/s."
-msgstr ""
+msgstr "估计速度，单位为 counts/s 或 radians/s。"
 
 #: ../../en/module/odrive.rst:150 d03745b55b794a9584b53c13f5835af1
 msgid "|get_velocity.png|"
@@ -291,11 +291,11 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:154 a8edd2d6458b4fbf860c866b4bf0404a
 msgid "Get the measured bus voltage."
-msgstr ""
+msgstr "获取测得的总线电压。"
 
 #: ../../en/module/odrive.rst:156 f3a3e3ddc2044615ac3bd7577b6391e6
 msgid "The bus voltage in volts."
-msgstr ""
+msgstr "总线电压（单位：V）。"
 
 #: ../../en/module/odrive.rst:160 cf52c509714c4f73bed6471576075760
 msgid "|get_vbus_voltage.png|"
@@ -307,11 +307,11 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:164 789f7ad8a39d44dc8f825471cd09a05d
 msgid "Get the measured phase current of the motor."
-msgstr ""
+msgstr "获取电机测得的相电流。"
 
 #: ../../en/module/odrive.rst:166 386e5206f2e54af3a8264ab7723d1d77
 msgid "The phase current in amperes."
-msgstr ""
+msgstr "相电流，单位为安培。"
 
 #: ../../en/module/odrive.rst:170 43143ae870ed4525aa8878030bbc0f78
 msgid "|get_phase_current.png|"
@@ -323,11 +323,11 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:174 a1f719e033884f6391ef618c2a84a89f
 msgid "Get the bus current drawn by the motor."
-msgstr ""
+msgstr "获取电机的总线电流消耗。"
 
 #: ../../en/module/odrive.rst:176 5b1f196a507544bf8ad04ecf516160f9
 msgid "The bus current in amperes."
-msgstr ""
+msgstr "总线电流，单位为安培。"
 
 #: ../../en/module/odrive.rst:180 f61037e7bc2941b1a1b57d88e5d8b45d
 msgid "|get_bus_current.png|"
@@ -339,16 +339,16 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:184 651fc603bf744ff1bb1bda60ea13f510
 msgid "Get the encoder&#x27;s shadow count, which is an internal counter."
-msgstr ""
+msgstr "获取编码器的影子计数，该计数是一个内部计数器。"
 
 #: ../../en/module/odrive.rst 20ef92cbdfc44d65b48ae304b34cd43a
 #: 7814edfce7ce4bfa970ab53afc2cc2cf 9aa4c3ac0cb94577b9eb6421314484cd
 msgid "return (int)"
-msgstr ""
+msgstr "return (int)"
 
 #: ../../en/module/odrive.rst:186 4963c61efa5b407cb27370fee9039a4e
 msgid "The shadow count as an integer value."
-msgstr ""
+msgstr "阴影计数为整数值。"
 
 #: ../../en/module/odrive.rst:190 2701cccfa89148c693311c1ac5d5b4b0
 msgid "|get_encoder_shadow_count.png|"
@@ -360,11 +360,11 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:194 be40978373af4192a02f900329260740
 msgid "Get the estimated position from the encoder."
-msgstr ""
+msgstr "从编码器获取估算位置。"
 
 #: ../../en/module/odrive.rst:196 796f0eed09004854b783f33c24eb3060
 msgid "The estimated position in counts or radians."
-msgstr ""
+msgstr "以计数或弧度表示的估计位置。"
 
 #: ../../en/module/odrive.rst:200 09ab7ffa63ad4481993adb861910d91b
 msgid "|get_encoder_pos_estimate.png|"
@@ -376,11 +376,11 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:204 c5bfb037491c4b7baa69a969f2aac3ab
 msgid "Get the temperature of the motor thermistor."
-msgstr ""
+msgstr "获取电机热敏电阻的温度。"
 
 #: ../../en/module/odrive.rst:206 3720751631354128870bc386781d60aa
 msgid "The motor temperature in degrees Celsius."
-msgstr ""
+msgstr "电机温度，单位为摄氏度。"
 
 #: ../../en/module/odrive.rst:210 dda2f082c06547eabfcef7eb751785de
 msgid "|get_motor_temp.png|"
@@ -392,7 +392,7 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:214 a2ead90baae547559b2144ed4bbec9e5
 msgid "Erase the current configuration settings."
-msgstr ""
+msgstr "擦除当前配置设置。"
 
 #: ../../en/module/odrive.rst:219 eb3e041ee18646dda92f913797a38d14
 msgid "|erase_config.png|"
@@ -404,7 +404,7 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:223 948351943c224be89204004c0b675daa
 msgid "Save the current configuration to non-volatile memory."
-msgstr ""
+msgstr "将当前配置保存到非易失性存储器中。"
 
 #: ../../en/module/odrive.rst:228 16ecf40a787f419895cfd81b294885ce
 msgid "|save_config.png|"
@@ -416,7 +416,7 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:232 67747cc667e0410dad26ed247376adb3
 msgid "Reboot the ODrive device."
-msgstr ""
+msgstr "重启 ODrive 设备。"
 
 #: ../../en/module/odrive.rst:237 e28a3b3826d1472788a6e716960a50a0
 msgid "|reboot.png|"
@@ -428,7 +428,7 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:241 c85a9a5581dd4bf9baf958d3288eb79c
 msgid "Set the default configuration parameters."
-msgstr ""
+msgstr "设置默认配置参数。"
 
 #: ../../en/module/odrive.rst:246 5f954f59ae9a4c24a66df68ebfc61283
 msgid "|set_default_config.png|"
@@ -440,7 +440,7 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:250 c2a94388d58847f2bb6d8102a111feb4
 msgid "Check for any errors in the system components."
-msgstr ""
+msgstr "检查系统组件是否存在任何错误。"
 
 #: ../../en/module/odrive.rst:255 9a091cd70bf847918ce7bac3dcf323ef
 msgid "|check_error.png|"
@@ -452,7 +452,7 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:259 5acc3267033547c7ae9b3d1814785b6c
 msgid "Flush the UART read buffer to clear any residual data."
-msgstr ""
+msgstr "刷新 UART 读取缓冲区，以清除任何残留数据。"
 
 #: ../../en/module/odrive.rst:264 d7018a8db9c344d38a430e713bc15bc2
 msgid "|read_flush.png|"
@@ -464,15 +464,15 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:268 4eeaae4b1e1c45308073b73524b6460e
 msgid "Read a string terminated by a newline character from the device."
-msgstr ""
+msgstr "从设备读取以换行符结尾的字符串。"
 
 #: ../../en/module/odrive.rst e76250344adf43e8b3b4976c17cb7284
 msgid "return (str)"
-msgstr ""
+msgstr "return (str)"
 
 #: ../../en/module/odrive.rst:270 ab43d5ff122b41d7a524b5dd8b7708a9
 msgid "The string read from the device, excluding the newline character."
-msgstr ""
+msgstr "从设备读取的字符串，不包括换行符。"
 
 #: ../../en/module/odrive.rst:274 17fafac707d84fb98eda8734a46312d0
 msgid "|read_string.png|"
@@ -484,11 +484,11 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:278 4f4262a0df8044688efdbb8b53c42a50
 msgid "Read a floating-point value from the device."
-msgstr ""
+msgstr "从设备读取一个浮点数值。"
 
 #: ../../en/module/odrive.rst:280 b5251329154c4b0c95b2275ad0810394
 msgid "The float value read from the device; returns 0.0 if parsing fails."
-msgstr ""
+msgstr "从设备读取的浮点值；如果解析失败，则返回 0.0。"
 
 #: ../../en/module/odrive.rst:284 2ce87befa5044678bf604b0caba390f5
 msgid "|read_float.png|"
@@ -500,11 +500,11 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:288 dc971e72275144d29d51db11517d4f39
 msgid "Read an integer value from the device."
-msgstr ""
+msgstr "从设备读取一个整数值。"
 
 #: ../../en/module/odrive.rst:290 74b9a57cc50b43a194ffc98b564e5bdb
 msgid "The integer value read from the device; returns 0 if parsing fails."
-msgstr ""
+msgstr "从设备读取的整数值；如果解析失败，则返回 0。"
 
 #: ../../en/module/odrive.rst:294 8d2babf09a6d446da52d47d16b506f0a
 msgid "|read_int.png|"
@@ -516,11 +516,11 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:298 d25273870b424e5f901ad08daa3793ed
 msgid "Write a command string to the device via UART."
-msgstr ""
+msgstr "通过 UART 向设备写入命令字符串。"
 
 #: ../../en/module/odrive.rst:300 01f4f58e40364f5fa7fa93bbd6bb1d0d
 msgid "The command string to send to the device, ending with a newline character."
-msgstr ""
+msgstr "发送到设备的命令字符串，以换行符结尾。"
 
 #: ../../en/module/odrive.rst:304 39a8e13b07964a2e9e0427437c1de77c
 msgid "|write_to_device.png|"
@@ -532,19 +532,19 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:308 ff823f2f4f0e45238bced45457e1aa59
 msgid "Write a configuration parameter to the device."
-msgstr ""
+msgstr "将配置参数写入设备。"
 
 #: ../../en/module/odrive.rst:310 0fe7e0abeeb44815b111218738c27114
 msgid ""
 "The configuration key as a string, e.g., "
 "&#x27;axis0.controller.config.pos_gain&#x27;."
-msgstr ""
+msgstr "配置键（字符串形式），例如 &#x27;axis0.controller.config.pos_gain&#x27;。"
 
 #: ../../en/module/odrive.rst:311 989e675827954338843af6a8fe36dca4
 msgid ""
 "The value to set for the configuration parameter; can be a float or "
 "integer."
-msgstr ""
+msgstr "要为配置参数设置的值；可以是浮点数或整数。"
 
 #: ../../en/module/odrive.rst:315 95d391c648fd4eb2a11bc7417c3f3ddf
 msgid "|write_config.png|"
@@ -556,17 +556,17 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:319 4e87af6e27f4444ca8efa2cbfcd55da8
 msgid "Read an integer configuration parameter from the device."
-msgstr ""
+msgstr "从设备读取一个整数配置参数。"
 
 #: ../../en/module/odrive.rst:321 156514bd09574bf5adad138e9ffca598
 msgid ""
 "The integer value of the specified configuration parameter; returns 0 if "
 "parsing fails."
-msgstr ""
+msgstr "指定配置参数的整数值；如果解析失败，则返回 0。"
 
 #: ../../en/module/odrive.rst:322 451b875dad484c4ca324b44c00f4341f
 msgid "The configuration key as a string, e.g., &#x27;axis0.encoder.error&#x27;."
-msgstr ""
+msgstr "配置键的字符串形式，例如 &#x27;axis0.encoder.error&#x27;。"
 
 #: ../../en/module/odrive.rst:326 016a1769fff04c6292c17fdc973214e3
 msgid "|read_config_int.png|"
@@ -578,19 +578,19 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:330 8ca5c2dafca946278d5365735fa9d086
 msgid "Read a floating-point configuration parameter from the device."
-msgstr ""
+msgstr "从设备中读取浮点配置参数。"
 
 #: ../../en/module/odrive.rst:332 d2dbdf9464244dbf83339c9d6c2572fa
 msgid ""
 "The float value of the specified configuration parameter; returns 0.0 if "
 "parsing fails."
-msgstr ""
+msgstr "指定配置参数的浮点值；如果解析失败则返回 0.0。"
 
 #: ../../en/module/odrive.rst:333 461f1fb236d6493fac01edf24326bc77
 msgid ""
 "The configuration key as a string, e.g., "
 "&#x27;axis0.motor_thermistor.temperature&#x27;."
-msgstr ""
+msgstr "配置键，以字符串形式表示，例如 &#x27;axis0.motor_thermistor.temperature&#x27;。"
 
 #: ../../en/module/odrive.rst:337 902a4b7986e543068eeb6662b38e04f5
 msgid "|read_config_float.png|"
@@ -602,13 +602,13 @@ msgstr ""
 
 #: ../../en/module/odrive.rst:342 3d24161dfbe9438dbc89fca1d3ed247a
 msgid "Constants"
-msgstr ""
+msgstr "Constants"
 
 #: ../../en/module/odrive.rst:354 f2f7d60071f6475dbf06ce55173d93fc
 msgid "Axis states"
-msgstr ""
+msgstr "轴状态"
 
 #: ../../en/module/odrive.rst:362 46efcb7d38df4f6eaf328a91f7f165d9
 msgid "Control modes"
-msgstr ""
+msgstr "控制模式"
 

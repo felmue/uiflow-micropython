@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/chain/angle.rst:2 ../../en/refs/chain.angle.ref
 #: 4a28fef408b146d1a92b0cdf477f3b41 6f91ee80647a430b887938659f8d0513
 msgid "Chain Angle"
-msgstr ""
+msgstr "Chain Angle"
 
 #: ../../en/chain/angle.rst:6 1595d6b81a394b05b6687b357931a6f1
 msgid ""
@@ -31,7 +31,8 @@ msgid ""
 " It provides methods to read angle values in different resolutions "
 "(12-bit and 8-bit ADC) and configure the clockwise rotation direction."
 msgstr ""
-"AngleChain 是用于 Chain 总线上角度传感器设备的辅助类。它提供了以不同分辨率（12 位和 8 位 ADC）读取角度值以及配置顺时针旋转方向的方法。"
+"AngleChain 是用于 Chain 总线上角度传感器设备的辅助类。它提供了以不同分辨率（12 位和 8 位 "
+"ADC）读取角度值以及配置顺时针旋转方向的方法。"
 
 #: ../../en/chain/angle.rst:8 fac77cae4f16481e9a168041aaab2d53
 msgid "Support the following products:"
@@ -62,7 +63,8 @@ msgid ""
 "reads 8-bit ADC values (0-255) and maps them to brightness values (0-100)"
 " for visual feedback."
 msgstr ""
-"此示例演示如何从 Chain 角度传感器读取角度值，并根据角度值控制 RGB 亮度。该示例读取 8 位 ADC 值（0-255）并将其映射到亮度值（0-100）以提供视觉反馈。"
+"此示例演示如何从 Chain 角度传感器读取角度值，并根据角度值控制 RGB 亮度。该示例读取 8 位 ADC "
+"值（0-255）并将其映射到亮度值（0-100）以提供视觉反馈。"
 
 #: ../../en/chain/angle.rst:23 3a8d8ed6ac8f4d2796275502abe858a6
 #: 5c1f9e6e94c6499fadddda268244091f 67d41441e98e4c649d2e3d3ab832da77
@@ -116,7 +118,7 @@ msgstr "AngleChain"
 
 #: 2321ffa964674512abc03630868d92ef chain.angle.AngleChain:1 of
 msgid "Bases: :py:class:`~chain.key.KeyChain`"
-msgstr ""
+msgstr "Bases: :py:class:`~chain.key.KeyChain`"
 
 #: 0dd8b11da34b4c43bd58652bbb9910ed chain.angle.AngleChain:1 of
 msgid "Angle Chain class for interacting with angle devices over Chain bus."
@@ -147,8 +149,7 @@ msgstr ""
 msgid ""
 "For other button and some general methods, please refer to the "
 ":class:`ChainKey <chain.key.KeyChain>` class."
-msgstr ""
-"有关其他按钮和一些通用方法，请参考 :class:`ChainKey <chain.key.KeyChain>` 类。"
+msgstr "有关其他按钮和一些通用方法，请参考 :class:`ChainKey <chain.key.KeyChain>` 类。"
 
 #: b6f78edc74434b769fec8b16f233b5d1 chain.angle.AngleChain.get_adc12:1 of
 msgid "Get the angle value in 12-bit ADC resolution."
@@ -205,8 +206,7 @@ msgstr "设置顺时针旋转是否增加角度值。"
 msgid ""
 "Whether clockwise rotation increases. False means clockwise decreases, "
 "True means clockwise increases."
-msgstr ""
-"顺时针旋转是否增加。False 表示顺时针减少，True 表示顺时针增加。"
+msgstr "顺时针旋转是否增加。False 表示顺时针减少，True 表示顺时针增加。"
 
 #: 055b9e814aec4f82901be2e59e0087ff chain.angle.AngleChain.set_cw_increase:4 of
 msgid "Whether to save to flash. False means don't save, True means save."
@@ -233,8 +233,7 @@ msgstr "获取顺时针旋转是否增加角度值。"
 msgid ""
 "Whether clockwise rotation increases. False means clockwise decreases, "
 "True means clockwise increases. Returns False if failed."
-msgstr ""
-"顺时针旋转是否增加。False 表示顺时针减少，True 表示顺时针增加。失败时返回 False。"
+msgstr "顺时针旋转是否增加。False 表示顺时针减少，True 表示顺时针增加。失败时返回 False。"
 
 #: chain.angle.AngleChain.get_cw_increase:8 e0fa1aa7283247a985ff3544f900d8d1 of
 msgid "|get_cw_increase.png|"
@@ -243,3 +242,4 @@ msgstr ""
 #: ../../en/refs/chain.angle.ref:10 f10ad6a4f3f34d44b8c4b5411a0dc6ab
 msgid "get_cw_increase.png"
 msgstr ""
+

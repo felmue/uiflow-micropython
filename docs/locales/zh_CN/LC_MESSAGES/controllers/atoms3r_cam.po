@@ -24,11 +24,11 @@ msgstr ""
 #: ../../en/refs/controllers.atoms3r_cam.ref 8eb2843da2ab445da4a8f26153ca3cc3
 #: de6ee942676846508fa0cfcf01e7cb3f
 msgid "AtomS3R-CAM"
-msgstr ""
+msgstr "AtomS3R-CAM"
 
 #: ../../en/controllers/atoms3r_cam.rst:8 2623b3b683194821a82301ead5facba1
 msgid "Support the following products:"
-msgstr ""
+msgstr "支持以下产品："
 
 #: ../../en/controllers/atoms3r_cam.rst:10 d8af0b88a3744b0a87d9cdc48da40bca
 msgid "|AtomS3R-CAM|"
@@ -36,25 +36,25 @@ msgstr ""
 
 #: ../../en/controllers/atoms3r_cam.rst:14 981a43b769b34dbd873875b1cecd050d
 msgid "MicroPython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/controllers/atoms3r_cam.rst:17 c344552ed48f4ff991a7c46114d7821c
 msgid "Video Streaming"
-msgstr ""
+msgstr "视频流"
 
 #: ../../en/controllers/atoms3r_cam.rst:19 4877248df4104da8a4df83d0fbd05931
 msgid ""
 "This example implements a real-time video streaming server, with "
 "integrated QR code recognition."
-msgstr ""
+msgstr "该示例实现了一个实时视频流服务器，并集成了二维码识别功能。"
 
 #: ../../en/controllers/atoms3r_cam.rst:21 a91f99561fb34b529ea8dae55a249c04
 msgid "MicroPython Code Block:"
-msgstr ""
+msgstr "MicroPython 代码块："
 
 #: ../../en/controllers/atoms3r_cam.rst:27 222306a53a454cf08dc1a59627595a11
 msgid "Example output:"
-msgstr ""
+msgstr "示例输出："
 
 #: ../../en/controllers/atoms3r_cam.rst:29 bb8fb513fab24e71810644b12aafb6c5
 msgid "None"
@@ -62,25 +62,25 @@ msgstr ""
 
 #: ../../en/controllers/atoms3r_cam.rst:32 ee4e08c6d90944bb81fae6a6e26a4f3a
 msgid "**How to Use**"
-msgstr ""
+msgstr "如何使用"
 
 #: ../../en/controllers/atoms3r_cam.rst:34 d819c4b676e440288a9975a8dfd59727
 msgid "Configure Wi-Fi settings."
-msgstr ""
+msgstr "配置 Wi-Fi 设置。"
 
 #: ../../en/controllers/atoms3r_cam.rst:40 e66bb36038744b1f88cd6b81dd8441c2
 msgid "Copy the example code into the editor."
-msgstr ""
+msgstr "将示例代码复制到编辑器中。"
 
 #: ../../en/controllers/atoms3r_cam.rst:46 0cc32a52d2ae42c181f97a359ee4b8ae
 msgid ""
 "Run the program, After uploading, the console will print the local IP "
 "address assigned to the device."
-msgstr ""
+msgstr "运行程序，上传后，控制台将打印分配给设备的本地 IP 地址。"
 
 #: ../../en/controllers/atoms3r_cam.rst:56 234baef105454c1db278df4e10b13166
 msgid "Open the video stream in your browser"
-msgstr ""
+msgstr "在浏览器中打开视频流。"
 
 #: ../../en/controllers/atoms3r_cam.rst:58 624ea92618eb402582848878d035097e
 msgid ""
@@ -88,4 +88,6 @@ msgid ""
 "visit: http://<device-ip>:8080/, Replace `<device-ip>` with the actual IP"
 " address printed in the console."
 msgstr ""
+"在任何连接到同一 Wi-Fi 网络的设备上，打开浏览器并访问：http://<device-ip>:8080/。将 `<device-ip>` "
+"替换为控制台中打印的实际 IP 地址。"
 

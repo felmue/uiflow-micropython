@@ -1,0 +1,423 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/dds.rst:2 3270b363dd74470fae81fa29d1926bf1
+msgid "DDS Unit"
+msgstr "DDS Unit"
+
+#: ../../source/unit/dds.rst:6 1d234ba3a1c0406ca8b92cf709364c90
+msgid ""
+"DDS is a signal source Unit. It uses the AD9833 programmable waveform "
+"generator + STM32F0 micro controller. Based on I2C communication "
+"interface (addr:0x31) It can easily control the signal source to output "
+"multiple waveforms (sine wave, triangle wave, square wave output, "
+"sawtooth wave, signal output amplitude 0-0.6V) and adjust the frequency "
+"and phase."
+msgstr ""
+"DDS 是一个信号源 Unit。它使用 AD9833 可编程波形发生器 + STM32F0 微控制器。基于 I2C "
+"通信接口（addr:0x31），可轻松控制信号源输出多种波形（正弦波、三角波、方波输出、锯齿波，信号输出幅度 0-0.6V），并可调节频率和相位。"
+
+#: ../../source/unit/dds.rst:13 549f9127e1c34419bd1fe3a8781b916e
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/dds.rst:15 f1c0c5b70a21480485fa47fc73e684a1
+msgid "|DDSUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref f3332d9f0d38486cb4a53db22fe4ed58
+msgid "DDSUnit"
+msgstr "DDSUnit"
+
+#: ../../source/unit/dds.rst:18 8b22ffa962c94bbdaefe3b30b116db4e
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例："
+
+#: ../../source/unit/dds.rst:25 fbbf3fe61841409aa6a84ecc4ef5c406
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/dds.rst:27 53eeba6ed1f046ca95a704dab8e8e6e3
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:20 c1ffdd5533eb47a998be4e114f4742f0
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:32 7293d3330a3e41dfad84f7070d2437b9
+msgid "|cores3_dds_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/dds.rst:36 f04beb2abda044e6aa069625fc3d8bb2
+msgid "class DDSUnit"
+msgstr "class DDSUnit"
+
+#: ../../source/unit/dds.rst:39 16592626fd7e4567b1976accdc83292f
+msgid "Constructors"
+msgstr "Constructors"
+
+#: ../../source/unit/dds.rst:43 bd80e738b6e44596b8f4bf1a4736f2e4
+msgid "Initialize the DDSUnit."
+msgstr "初始化 DDSUnit。"
+
+#: ../../source/unit/dds.rst 11e52b5a9f1642b8bcc298e4a2abac1f
+#: 3982458305974426a5ab04047a0fde2a 4831f331bf984d649ef38e06bd59fe6d
+#: 4d8958c4dad04a7faeef0a5a84b9731c 6528b3ea66e44ef98934c6ce1d42409b
+#: 6f056399b02f46cbaef246c38cae6dc1 83dff244d5dd468bbd1d7a785498281a
+#: 8d5d4b8e9efc4fe89c2d4baa60bf1b47 cf705135191c4ff5931a4d73df439958
+#: f5e546bf39f548b7b265771b1c33593a fa9fa950227a4e50adc29546a8c91a68
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/dds.rst:45 e75165fed5ec450bb5f543be2b368725
+msgid "The i2c bus the unit is connected to."
+msgstr "单元所连接的 I2C 总线。"
+
+#: ../../source/unit/dds.rst:46 593d04b596e141bb8153a9cc1d02b9f4
+msgid "The I2C address of the DDSUnit. Default is 0x31."
+msgstr "DDSUnit 的 I2C 地址。默认为 0x31。"
+
+#: ../../source/unit/dds.rst:48 ../../source/unit/dds.rst:63
+#: ../../source/unit/dds.rst:75 ../../source/unit/dds.rst:89
+#: ../../source/unit/dds.rst:107 ../../source/unit/dds.rst:122
+#: ../../source/unit/dds.rst:133 ../../source/unit/dds.rst:144
+#: ../../source/unit/dds.rst:165 ../../source/unit/dds.rst:177
+#: ../../source/unit/dds.rst:192 ../../source/unit/dds.rst:201
+#: 0443d184fcc7495bbe5faa148ba4d50a 33b5099cd87d43dfa1f7d417678d49d5
+#: 385636b129e54f79b7a4b567a2f35567 4eb77bf36b164644a9827a8ec619667f
+#: 6c649e868e7a4b74a7a435baca7ba141 99af81a8c954435981f83e341fabf800
+#: 9b66a38d699e402a84a4dc5c16959abe 9d76cc28e9544eb9ae8db5187c25d3f3
+#: cfd52280ebae4addbd67528194de8011 eb24fbb8ba3940ca95902426c1138e41
+#: f92b41a706e9434bbda429249c34d607 ff8b1932510b47dd91ed1346e250fe9f
+msgid "UIFLOW2:"
+msgstr "UiFlow2"
+
+#: ../../source/unit/dds.rst:50 e703fc90caf54959bd1671a9f36de035
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:7 2e0bcbc7adec4ea1a71b6d51c4f57948
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:54 8dbfde7bfcc843dcae9c7241101f9493
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/dds.rst:58 4635bbdfbba741f2943cfd22ae2319ca
+msgid "Set the frequency of the DDS."
+msgstr "设置 DDS 的频率。"
+
+#: ../../source/unit/dds.rst:60 ../../source/unit/dds.rst:72
+#: 5c40df733ccb492ebefe420823889a59 cd4d9dc883de4389bc5f208862ef936c
+msgid "The register number of the DDS, range from 0 to 1."
+msgstr "DDS 的寄存器编号，范围为 0 到 1。"
+
+#: ../../source/unit/dds.rst:61 ../../source/unit/dds.rst:85
+#: ../../source/unit/dds.rst:162 8cf5917a10e140a5aa7d5822cd1d4b92
+#: 8fecbfcb59e64be6a976cc72f3f9b66e e7707ef7bbac47f4819be5144cf8a9df
+msgid "The frequency of the DDS in Hz."
+msgstr "DDS 的频率，单位为 Hz。"
+
+#: ../../source/unit/dds.rst:65 8696229aeb9e43bf9604104c3e5b6eca
+msgid "|set_freq.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:8 b726ba0526a742e0b1efe01fe9a43235
+msgid "set_freq.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:70 3bcfa33772484388b6f3de75ed5f5239
+msgid "Set the phase of the DDS."
+msgstr "设置 DDS 的相位。"
+
+#: ../../source/unit/dds.rst:73 ../../source/unit/dds.rst:87
+#: ../../source/unit/dds.rst:163 0f22b409b35d4e4bb52e18e4bf6369f8
+#: 83fb6c6ea3d8467c93920f5e5478c216 e40de5fb62ea43c3bb56e5e071e037e2
+msgid "The phase of the DDS in degrees."
+msgstr "DDS 的相位（单位：度）。"
+
+#: ../../source/unit/dds.rst:77 d9211eedbe4546568c23b3dace7b92cc
+msgid "|set_phase.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:9 b84065995c1e4ebc85a8d3aeedaee617
+msgid "set_phase.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:82 3b30c95847b84cb9929fda2b4fa4f2e1
+msgid "Set the frequency and phase of the DDS."
+msgstr "设置 DDS 的频率和相位。"
+
+#: ../../source/unit/dds.rst:84 1beb80118c7b41e68665a7788e1da47d
+msgid "The register number of the frequency, range from 0 to 1."
+msgstr "频率的寄存器编号，范围为 0 到 1。"
+
+#: ../../source/unit/dds.rst:86 391c8dba50c74b9cbe003ccc9076ce5a
+msgid "The register number of the phase, range from 0 to 1."
+msgstr "相位的寄存器编号，范围为 0 到 1。"
+
+#: ../../source/unit/dds.rst:91 44693be6a28a403a806f9fd4758fe82e
+msgid "|set_freq_phase.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:10 8e91150714f24486aa1e2d3275cc9f0e
+msgid "set_freq_phase.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:96 f3c1b6fa432a42fdbdb8767ec8a98492
+msgid "Set the output mode of the DDS."
+msgstr "设置 DDS 的输出模式。"
+
+#: ../../source/unit/dds.rst:98 ../../source/unit/dds.rst:153
+#: 5445201bb9dc499795ec67a9f85e416b f008c097e425476d95a1f916ec715c03
+msgid ""
+"The output mode of the DDS.  Options:     - ``DDSUnit.WAVE_SINE``: Sine"
+"     - ``DDSUnit.WAVE_TRIANGLE``: Triangle     - ``DDSUnit.WAVE_SQUARE``:"
+" Square     - ``DDSUnit.WAVE_SAWTOOTH``: Sawtooth     - "
+"``DDSUnit.WAVE_DC``: DC"
+msgstr ""
+"DDS 的输出模式。选项：     - ``DDSUnit.WAVE_SINE``：正弦波     - "
+"``DDSUnit.WAVE_TRIANGLE``：三角波     - ``DDSUnit.WAVE_SQUARE``：方波     - "
+"``DDSUnit.WAVE_SAWTOOTH``：锯齿波     - ``DDSUnit.WAVE_DC``：直流"
+
+#: ../../source/unit/dds.rst:98 ../../source/unit/dds.rst:153
+#: 48449dd3fea04a9db0444e86a528a138 a7234c0cfb854d60a68ff99e2972ba22
+msgid "The output mode of the DDS."
+msgstr "DDS 的输出模式。"
+
+#: ../../source/unit/dds.rst:105 ../../source/unit/dds.rst:160
+#: ../../source/unit/dds.rst:190 2f9ee9b7ce8a4665a51dbb079da64d66
+#: b5e8eea948c442758328cfedcef1177e f46b02681e864c35b60070988bc2d342
+msgid "Options:"
+msgstr "Options:"
+
+#: ../../source/unit/dds.rst:101 ../../source/unit/dds.rst:156
+#: 6990cf50742648bd8210fbfd65aa3f58 e13a0ce71bd24bc0a6942e9e1eda9e4e
+msgid "``DDSUnit.WAVE_SINE``: Sine"
+msgstr "``DDSUnit.WAVE_SINE``：正弦波"
+
+#: ../../source/unit/dds.rst:102 ../../source/unit/dds.rst:157
+#: 07de9b1d61964495b9f18ff752c45f06 d661ddc26b5f4274a84cd94c46037ec2
+msgid "``DDSUnit.WAVE_TRIANGLE``: Triangle"
+msgstr "``DDSUnit.WAVE_TRIANGLE``：三角波"
+
+#: ../../source/unit/dds.rst:103 ../../source/unit/dds.rst:158
+#: a5e9d448d0454ada80ea2ba2486c5d45 e78caa77ad77402c96ae3b6fd0a83599
+msgid "``DDSUnit.WAVE_SQUARE``: Square"
+msgstr "``DDSUnit.WAVE_SQUARE``：方波"
+
+#: ../../source/unit/dds.rst:104 ../../source/unit/dds.rst:159
+#: 210f5f389ae34e1baa9fc644368be333 23f2309d2e9342a4963c24533bc4673d
+msgid "``DDSUnit.WAVE_SAWTOOTH``: Sawtooth"
+msgstr "``DDSUnit.WAVE_SAWTOOTH``：锯齿波"
+
+#: ../../source/unit/dds.rst:105 ../../source/unit/dds.rst:160
+#: 111e8afae1524e1ab7f767a8b8557ae7 20f25d85869b476a8118a77014020994
+msgid "``DDSUnit.WAVE_DC``: DC"
+msgstr "``DDSUnit.WAVE_DC``：直流"
+
+#: ../../source/unit/dds.rst:109 cc3ab1f7b7c341059cefa9ee65f7d562
+msgid "|set_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:11 8e9fb9d492634dd3be684d8efed36f82
+msgid "set_mode.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:114 0ff8ca3ac973430c8219a0cc3c1dd35b
+msgid "Set the control bytes of the DDS."
+msgstr "设置 DDS 的控制字节。"
+
+#: ../../source/unit/dds.rst:116 b42a46cb20c64b7aacc2251c25808e4b
+msgid "The frequency register select. range from 0 to 1."
+msgstr "频率寄存器选择。范围为 0 到 1。"
+
+#: ../../source/unit/dds.rst:117 d23a5e85ea8e457a89964984ea1acd86
+msgid "The phase register select. range from 0 to 1."
+msgstr "相位寄存器选择。范围为 0 到 1。"
+
+#: ../../source/unit/dds.rst:118 e86b94d77bdb447591671ef47577e228
+msgid "disable the MCLK."
+msgstr "禁用 MCLK。"
+
+#: ../../source/unit/dds.rst:119 bf516c115dc24a13bca60569bdbf854d
+msgid "disable the DAC."
+msgstr "禁用 DAC。"
+
+#: ../../source/unit/dds.rst:120 79b1be1f6ed4435e823c8de64d3188fc
+msgid "reset the DDS. If is true, other parameters will be ignored."
+msgstr "复位 DDS。如果为 true，则会忽略其他参数。"
+
+#: ../../source/unit/dds.rst:124 ccd9419f91b2470ba8ec8dd603f64928
+msgid "|set_ctrl.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:12 6513f76a18aa48c4ba7442b709b1ad99
+msgid "set_ctrl.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:129 1e513728c57f4d10a224668804771fc8
+msgid "Select the frequency register of the DDS."
+msgstr "选择 DDS 的频率寄存器。"
+
+#: ../../source/unit/dds.rst:131 ../../source/unit/dds.rst:174
+#: a94f4bf9cfb14491a0e6750a3e6329ee bb653b7b1918438c8d95173a54bb675b
+msgid "The index of the frequency register. range from 0 to 1"
+msgstr "频率寄存器的索引，范围为 0 到 1。"
+
+#: ../../source/unit/dds.rst:135 13fb910bcf604f5a8edc74a8d5825b6a
+msgid "|select_freq_reg.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:13 2580a7ccce2740969f215ce8c97a1f38
+msgid "select_freq_reg.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:140 e0608c8ec9364eb4952665fd42dd55ba
+msgid "Select the phase register of the DDS."
+msgstr "选择 DDS 的相位寄存器。"
+
+#: ../../source/unit/dds.rst:142 ../../source/unit/dds.rst:175
+#: 3b77930fd6bd476fbdd6d8d3eed23bc9 71d1a0d0b35048f1bdff7bb33cfec008
+msgid "The index of the phase register. range from 0 to 1"
+msgstr "相位寄存器的索引，范围为 0 到 1。"
+
+#: ../../source/unit/dds.rst:146 29167d21f71149289264e8f39fba9289
+msgid "|select_phase_reg.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:14 f57bd5fa35d14bfebe5df3ee80591f42
+msgid "select_phase_reg.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:151 cb8c214b7aad4525bff648f234d852a8
+msgid "Quickly set the output mode, frequency and phase of the DDS."
+msgstr "快速设置 DDS 的输出模式、频率和相位。"
+
+#: ../../source/unit/dds.rst:167 2708d392a3d2427381db6ad454b29709
+msgid "|quick_output.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:15 ac820427772c4b619ab7e075fd681991
+msgid "quick_output.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:172 d7250f03a4e34862a07a917d2449106b
+msgid "Output the DDS signal."
+msgstr "输出 DDS 信号。"
+
+#: ../../source/unit/dds.rst:179 762c53c0c7c94742ada3ed1c9f509cfd
+msgid "|output.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:16 96def827d4d24f62a1db2b75bfbd301d
+msgid "output.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:183 8872d1db8cba4359965b22ce364be634
+msgid "Set the sleep mode of the DDS."
+msgstr "设置 DDS 的睡眠模式。"
+
+#: ../../source/unit/dds.rst:185 e19fac70f54143c187b12524aa625ee3
+msgid ""
+"The sleep mode of the DDS.  Options:     - ``DDSUnit.SLEEP_MODE_NONE``: "
+"None     - ``DDSUnit.SLEEP_MODE_1``: Disable MCLK     - "
+"``DDSUnit.SLEEP_MODE_2``: Disable MCLK and DAC"
+msgstr ""
+"DDS 的睡眠模式。选项：    - ``DDSUnit.SLEEP_MODE_NONE``：无    - "
+"``DDSUnit.SLEEP_MODE_1``：禁用 MCLK    - ``DDSUnit.SLEEP_MODE_2``：禁用 MCLK 和 "
+"DAC"
+
+#: ../../source/unit/dds.rst:185 01b98199b8a84d558db731c117d7b24a
+msgid "The sleep mode of the DDS."
+msgstr "DDS 的睡眠模式。"
+
+#: ../../source/unit/dds.rst:188 f622172cfb9942648d7d462ac87d098c
+msgid "``DDSUnit.SLEEP_MODE_NONE``: None"
+msgstr "DDSUnit.SLEEP_MODE_NONE：无"
+
+#: ../../source/unit/dds.rst:189 5d1b0fede8974cb2b4280f2b838fa39d
+msgid "``DDSUnit.SLEEP_MODE_1``: Disable MCLK"
+msgstr "``DDSUnit.SLEEP_MODE_1``：禁用 MCLK"
+
+#: ../../source/unit/dds.rst:190 f91637f3f9b146f8954cdf5aef509ca0
+msgid "``DDSUnit.SLEEP_MODE_2``: Disable MCLK and DAC"
+msgstr "``DDSUnit.SLEEP_MODE_2``：禁用 MCLK 和 DAC"
+
+#: ../../source/unit/dds.rst:194 5dd08981d0684ee19a8476de3641d7cd
+msgid "|set_sleep_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:17 d8bfbebdbdc54813955e0bd7b69924f1
+msgid "set_sleep_mode.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:199 a6f247ff3faa4fadba98732abb36acde
+msgid "Reset the DDS."
+msgstr "重置 DDS。"
+
+#: ../../source/unit/dds.rst:203 d2d225d50c1347ce810b553d7aeedefd
+msgid "|reset.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dds.ref:18 44beeebb175d4525bcbb344c3579dc4c
+msgid "reset.png"
+msgstr ""
+
+#: ../../source/unit/dds.rst:207 655d24061b8546aaa143d56d519ba467
+msgid "Constants"
+msgstr ""
+
+#: ../../source/unit/dds.rst:211 77ef70ca110b44c187f1481f0957d9f4
+msgid "Sine wave output."
+msgstr "正弦波输出。"
+
+#: ../../source/unit/dds.rst:215 21287609885548f1b0dea700108092cf
+msgid "Triangle wave output."
+msgstr "三角波输出。"
+
+#: ../../source/unit/dds.rst:219 34433677f8d441a89dbfcef11dd624f6
+msgid "Square wave output."
+msgstr "方波输出。"
+
+#: ../../source/unit/dds.rst:223 75a929e601e648d0897914114ad19d25
+msgid "Sawtooth wave output."
+msgstr "锯齿波输出。"
+
+#: ../../source/unit/dds.rst:227 d222c6e2ce994244bd18e7b9184df087
+msgid "DC wave output."
+msgstr "DC 波形输出。"
+
+#: ../../source/unit/dds.rst:231 f18e1d8d1a3447fcb01a87eb0cc2d3d4
+msgid "No sleep mode."
+msgstr "无睡眠模式。"
+
+#: ../../source/unit/dds.rst:235 9553fd91917f4d33a131a142c996b666
+msgid "Disable mclk but keep dac."
+msgstr "禁用 mclk 但保留 dac。"
+
+#: ../../source/unit/dds.rst:239 8985976e35b041249b53e3962b1451a5
+msgid "Disable mclk and dac."
+msgstr "禁用 mclk 和 dac。"
+

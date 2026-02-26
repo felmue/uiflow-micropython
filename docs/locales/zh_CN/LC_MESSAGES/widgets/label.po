@@ -22,19 +22,19 @@ msgstr ""
 
 #: ../../en/widgets/label.rst:4 9ad254c9da7e41ba90096d6b3d031fab
 msgid "class Label -- display text"
-msgstr ""
+msgstr "class Label —— 显示文本。"
 
 #: ../../en/widgets/label.rst:8 d0d6f3f14761431885b2b4d01578aad7
 msgid "Label is the basic object type used to display text."
-msgstr ""
+msgstr "Label 是用于显示文本的基本对象类型。"
 
 #: ../../en/widgets/label.rst:11 9f69c6fd47c0441b9d80c4f4d396deb6
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/widgets/label.rst:18 0ef0d60e4bd44316870552a6adef24ef
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/widgets/label.rst:20 388bcf410b96410aaa262efe7b8adbad
 msgid "|example.png|"
@@ -54,46 +54,46 @@ msgstr ""
 
 #: ../../en/widgets/label.rst:33 aac138b106b249bab8ba569355647def
 msgid "Create a Label object. It accepts the following parameters:"
-msgstr ""
+msgstr "创建一个 Label 对象。它接受以下参数："
 
 #: ../../en/widgets/label.rst:35 8bfef7a3b40546c9bc07110ca46ffb58
 msgid "``text`` is the text to be displayed."
-msgstr ""
+msgstr "``text`` 是要显示的文本。"
 
 #: ../../en/widgets/label.rst:36 ../../en/widgets/label.rst:63
 #: 145a7a5549784e319c7939ecd64db085 cfb5d8e81b314c7883974c759cc6ea0b
 msgid "``x`` is the starting X-axis coordinate displayed."
-msgstr ""
+msgstr "``x`` 为显示的起始 X 轴坐标。"
 
 #: ../../en/widgets/label.rst:37 ../../en/widgets/label.rst:64
 #: 325e1097b3764b32b6b498ee28aadeff c414f27e66e045d19c0e3ea17ae91adc
 msgid "``y`` is the starting Y-axis coordinate displayed."
-msgstr ""
+msgstr "``y`` 为显示的起始 Y 轴坐标。"
 
 #: ../../en/widgets/label.rst:38 37b36ebc7b284d85a5ad0acb93477bcb
 msgid "``text_sz`` is the font size for displaying text, usually 1.0."
-msgstr ""
+msgstr "``text_sz`` 是用于显示文本的字体大小，通常为 1.0。"
 
 #: ../../en/widgets/label.rst:39 65210fcbef274f5085c99877507bbbfa
 msgid "``text_c`` is the font color for displaying text. The default is white."
-msgstr ""
+msgstr "``text_c`` 是用于显示文本的字体颜色。默认值为白色。"
 
 #: ../../en/widgets/label.rst:40 ../../en/widgets/label.rst:52
 #: 09a35eb22e744416999f1e9b8e7d350d 2e0f9fe2a498459eb1d5b63198883b29
 msgid "bg_c is the background color of the displayed text, the default is black."
-msgstr ""
+msgstr "bg_c 是显示文本的背景颜色，默认为黑色。"
 
 #: ../../en/widgets/label.rst:41 8983b1bceb8f47ff9df421ae0ee5f538
 msgid ""
 "``font`` is the set of fonts used to display text. For the built-in "
 "fonts, see ``Widgets.FONTS``."
-msgstr ""
+msgstr "``font`` 是用于显示文本的字体集合。对于内置字体，请参见 ``Widgets.FONTS``。"
 
 #: ../../en/widgets/label.rst:42 a6911536666f416987353a362f094f33
 msgid ""
 "parent is the output target of the Label object, the default output is to"
 " the LCD, can also be output to the Canvas."
-msgstr ""
+msgstr "parent 是 Label 对象的输出目标，默认输出到 LCD，也可以输出到 Canvas。"
 
 #: ../../en/widgets/label.rst:45 193fd322ffdb4512a9e48a390fd37793
 msgid "Methods"
@@ -103,11 +103,11 @@ msgstr ""
 msgid ""
 "Sets the text font color of the Label object. Accept the following "
 "parameters:"
-msgstr ""
+msgstr "设置 Label 对象的文本字体颜色。接受以下参数："
 
 #: ../../en/widgets/label.rst:51 596e5f838f9d4f66b111223dc9535941
 msgid "``text_c`` is the font color for displaying text."
-msgstr ""
+msgstr "``text_c`` 是用于显示文本的字体颜色。"
 
 #: ../../en/widgets/label.rst:54 ../../en/widgets/label.rst:66
 #: ../../en/widgets/label.rst:74 ../../en/widgets/label.rst:82
@@ -116,7 +116,7 @@ msgstr ""
 #: 83b86197e0ab4ee2be336b14a00dd2ce 9d2262a994f24ee798d0344dba039737
 #: c38efa0af1ec4385a626787e80f5daba d6c3ecd7be73405787471451a6c61300
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/widgets/label.rst:56 5e4198a5299649b2bd9eeed543733d3e
 msgid "|setColor.png|"
@@ -130,7 +130,7 @@ msgstr ""
 msgid ""
 "Sets the starting coordinates of the Label object. Accept the following "
 "parameters:"
-msgstr ""
+msgstr "设置 Label 对象的起始坐标。接受以下参数："
 
 #: ../../en/widgets/label.rst:68 b2dc75d84a8647b5a4e0140915519df9
 msgid "|setCursor.png|"
@@ -144,7 +144,7 @@ msgstr ""
 msgid ""
 "Sets the font set of the Label object. font is the set of fonts used to "
 "display text, the built-in font, see ``Widgets.FONTS``."
-msgstr ""
+msgstr "设置 Label 对象的字体集。font 是用于显示文本的字体集，内置字体请参见 ``Widgets.FONTS``。"
 
 #: ../../en/widgets/label.rst:76 eb3d53bae27744d7b82f73e1df3f76f7
 msgid "|setFont.png|"
@@ -158,7 +158,7 @@ msgstr ""
 msgid ""
 "Set the text font size of the Label object, text_sz is the font size of "
 "the displayed text."
-msgstr ""
+msgstr "设置 Label 对象的文本字体大小，``text_sz`` 为显示文本的字体大小。"
 
 #: ../../en/widgets/label.rst:84 782b8b1e2fb943a2801e0d993b25a091
 msgid "|setSize.png|"
@@ -170,7 +170,7 @@ msgstr ""
 
 #: ../../en/widgets/label.rst:88 9fa7c1bd318c40e4b7c4e22bdab44ce0
 msgid "Sets the text content of the Label object."
-msgstr ""
+msgstr "设置 Label 对象的文本内容。"
 
 #: ../../en/widgets/label.rst:92 2317d0c87b1f495189a4d0d9f4093b42
 msgid "|setText.png|"
@@ -185,7 +185,7 @@ msgid ""
 "Set the visible property of the Label object, when ``visible`` is True, "
 "the Label object content will be visible, otherwise it will not be "
 "visible."
-msgstr ""
+msgstr "设置 Label 对象的 visible 属性，当 ``visible`` 为 True 时，Label 对象内容将可见，否则将不可见。"
 
 #: ../../en/widgets/label.rst:100 b62274d284a64dc7b91930afa26f8ad5
 msgid "|setVisible.png|"

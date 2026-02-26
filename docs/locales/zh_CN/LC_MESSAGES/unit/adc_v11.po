@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/adc_v11.rst:3 79324726056b49e2b4a001cce6b09a85
+msgid "ADC V1.1 Unit"
+msgstr "ADC V1.1 Unit"
+
+#: ../../source/unit/adc_v11.rst:7 a276ccdfa8354b6985ac4fffbba948dc
+msgid ""
+"ADC V1.1 Unit is an A/D conversion module that utilizes the ADS1110 chip,"
+" a 16-bit self-calibrating analog-to-digital converter. It is designed "
+"with an I2C interface, offering convenient connectivity. The module "
+"offers conversion speeds of 8, 16, 32, and 128 samples per second (SPS), "
+"providing varying levels of accuracy at 16, 15, 14, and 12 bits of "
+"resolution respectively."
+msgstr ""
+"ADC V1.1 Unit 是一款 A/D 转换模块，采用 ADS1110 芯片，这是一款 16 位自校准模数转换器。该模块采用 I2C "
+"接口设计，便于连接。模块提供 8、16、32 和 128 samples per second (SPS) 的转换速率，分别对应 16、15、14"
+" 和 12 位分辨率，可提供不同精度等级。"
+
+#: ../../source/unit/adc_v11.rst:9 0a4e23d9439043a0b4037cf0d67059f2
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/adc_v11.rst:11 7e87d6dd2707413f96c6cb1a2dab467d
+msgid "|ADCV11Unit|"
+msgstr ""
+
+#: ../../source/refs/unit.adc_v11.ref 66b13ba7b1194a73a4abae6f47de5e98
+msgid "ADCV11Unit"
+msgstr "ADCV11Unit"
+
+#: ../../source/unit/adc_v11.rst:13 7cf02e06959b44f78fb829b5d030b350
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/adc_v11.rst:20 40dc42c99e9a4870833ece9eb31ca9d5
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例："
+
+#: ../../source/unit/adc_v11.rst:22 8d079e78fa7a41618e6f10c194636c9a
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc_v11.ref:14 cae321d867304794956245f682841321
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/adc_v11.rst:26 5237b7205a694ee798eaf701348c7a47
+msgid "|adcv11_core2_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/adc_v11.rst:29 d770635be7004993ad22413bdfae3a42
+msgid "class ADCV11Unit"
+msgstr "class ADCV11Unit"
+
+#: ../../source/unit/adc_v11.rst:32 4a3aa5d583174a4b8f2f64855a3cdfed
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/adc_v11.rst:36 60db64c7b960464589a5ea22fe90ba69
+msgid "Initialize the ADCV11Unit with an I2C or PAHUBUnit interface."
+msgstr "使用 I2C 或 PAHUBUnit 接口初始化 ADCV11Unit。"
+
+#: ../../source/unit/adc_v11.rst 08ea556ecb7543d2989ba4968448c611
+#: 5c71d3f36b6d48718cf9b9a177e3a55f 8eebc6b67be44e378578d9b0d59e0827
+#: e0e3370aef3846718d1c3c101dbba4f4
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/adc_v11.rst:38 b5a8a3145a2848b9b111bfc21cbcdfba
+msgid "The I2C or PAHUBUnit instance used for communication."
+msgstr "用于通信的 I2C 或 PAHUBUnit 实例。"
+
+#: ../../source/unit/adc_v11.rst:40 ../../source/unit/adc_v11.rst:54
+#: ../../source/unit/adc_v11.rst:64 ../../source/unit/adc_v11.rst:75
+#: ../../source/unit/adc_v11.rst:85 ../../source/unit/adc_v11.rst:97
+#: 262c17fdb3484d8991b6b2b68258218d 53f778f1622347928a601445f5f7ec17
+#: 648fc080aa6d42008dbcfc9924766d7d 7270fbd21e1b43428e9e3593da1c2b52
+#: b892484d9b2e4758987dd0212a13b67e f74071147aff41469d507c89cf9fb56c
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/adc_v11.rst:42 3249c72082b64da19f48664a81ede10d
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc_v11.ref:7 b6cd2a6240f945a9ab817def58666162
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/adc_v11.rst:46 18cb552d11e341a1b0627f201607d321
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/adc_v11.rst:50 4745b973f22b443bacbb1627f46f6bb8
+msgid "Get the measured voltage from the ADC V1.1 Unit."
+msgstr "从 ADC V1.1 Unit 获取测量到的电压。"
+
+#: ../../source/unit/adc_v11.rst 9800d96d3588422494d8f21f642efa11
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/adc_v11.rst:52 baa4fb44e60349819813f192d86a5a93
+msgid "The measured voltage value, rounded to two decimal places."
+msgstr "测得的电压值，四舍五入到小数点后两位。"
+
+#: ../../source/unit/adc_v11.rst:56 71b178bf4f9b4298889d0d45866e6e4d
+msgid "|get_voltage.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc_v11.ref:8 1a4d9d20c3e64bbd9d04becd0407baeb
+msgid "get_voltage.png"
+msgstr ""
+
+#: ../../source/unit/adc_v11.rst:60 fb269d14ebcd45f09562bffcaa6aca9d
+msgid "Set the gain configuration for the ADC."
+msgstr "设置 ADC 的增益配置。"
+
+#: ../../source/unit/adc_v11.rst:62 4c0018d5a4ab42bf88fbdb8f168389d8
+msgid "The gain value to configure."
+msgstr "用于配置的增益值。"
+
+#: ../../source/unit/adc_v11.rst:66 b3133dfe99e24ade95fb49a345e127f4
+msgid "|set_gain.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc_v11.ref:9 5ceb1cbbec92446ab97899156843851e
+msgid "set_gain.png"
+msgstr ""
+
+#: ../../source/unit/adc_v11.rst:70 6061a9aa8d484d24bedb3539dd2e3b2c
+msgid "Configure the ADC's sampling rate."
+msgstr "配置 ADC 的采样率。"
+
+#: ../../source/unit/adc_v11.rst:73 cd56e3b85cc84e3b9a681a32ca3344fb
+msgid "The sample rate to set."
+msgstr "要设置的采样率。"
+
+#: ../../source/unit/adc_v11.rst:77 5eb4690a88944ad48b9eb5b3cbb0765d
+msgid "|set_sample_rate.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc_v11.ref:10 7ad4213d4c964af990fc663fb79bc02a
+msgid "set_sample_rate.png"
+msgstr ""
+
+#: ../../source/unit/adc_v11.rst:81 12c2b2703d5a4a22b5083968fa0e3556
+msgid "Set the ADC's operating mode."
+msgstr "设置 ADC 的工作模式。"
+
+#: ../../source/unit/adc_v11.rst:83 9fcb089d42e448da997b575408944f3e
+msgid "The mode to configure, e.g., continuous or single conversion."
+msgstr "用于配置的模式，例如连续转换或单次转换。"
+
+#: ../../source/unit/adc_v11.rst:87 aa15c8efaf304c44a9124ee50c718adc
+msgid "|set_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc_v11.ref:11 739361cdbfb44cfa9967b90b9c2f4d94
+msgid "set_mode.png"
+msgstr ""
+
+#: ../../source/unit/adc_v11.rst:91 baa286fd9c6b4017adbe05500290167b
+msgid "Update the ADC configuration register with the current settings."
+msgstr "使用当前设置更新 ADC 配置寄存器。"
+
+#: ../../source/unit/adc_v11.rst:95 1915672565ef4295a97b98cd4e0dd9b1
+msgid "Read the raw ADC value."
+msgstr "读取原始 ADC 值。"
+
+#: ../../source/unit/adc_v11.rst:99 bbec4d07fed64b8a941b846d99d68e2e
+msgid "|get_adc_raw_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.adc_v11.ref:12 8f3e1e7425e242dea46fbaacba2d8ea3
+msgid "get_adc_raw_value.png"
+msgstr ""
+

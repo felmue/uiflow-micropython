@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/base/display.rst:2 ../../en/refs/base.display.ref
 #: 6b9a1269a4ce4e32adcc54de7a8b17e0 c80823ae96ee40568d65bc23c7b95bd3
 msgid "Atomic Display Base"
-msgstr ""
+msgstr "Atomic Display Base"
 
 #: ../../en/base/display.rst:8 8e8ca515fb284cca9faab18af4c3ed70
 msgid ""
@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../../en/refs/base.display.ref 19a05a547c0c4b29a4c0a4ccedd5d564
 msgid "Atom Display"
-msgstr ""
+msgstr "Atom Display"
 
 #: ../../en/base/display.rst:13 744e7ad5c5664e4393611ef8a4d6638e
 msgid "|Atom Display-Lite|"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../en/refs/base.display.ref a4fe4f84055e42c3a6c1a8786a4bccc2
 msgid "Atom Display-Lite"
-msgstr ""
+msgstr "Atom Display-Lite"
 
 #: ../../en/base/display.rst:16 409d38f0ce9b45078bfda8b292e47801
 msgid "Below is the detailed support for Atomic Display Base on the host:"
@@ -69,7 +69,7 @@ msgstr "状态"
 
 #: ../../en/base/display.rst:25 10a9a01a980a466b9610c1bf43c41135
 msgid "Atom Echo"
-msgstr ""
+msgstr "Atom Echo"
 
 #: ../../en/base/display.rst:25 297bef2397364488a328bb0ec4481d48
 msgid "|O|"
@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../en/base/display.rst:27 098b341a9e6a48c584be00269e0d519b
 msgid "Atom Lite"
-msgstr ""
+msgstr "Atom Lite"
 
 #: ../../en/base/display.rst:27 ../../en/base/display.rst:29
 #: ../../en/base/display.rst:31 ../../en/base/display.rst:33
@@ -88,27 +88,27 @@ msgstr ""
 
 #: ../../en/base/display.rst:29 9fad62c3c7f842ec8e4cd4fed12a0654
 msgid "Atom Matrix"
-msgstr ""
+msgstr "Atom Matrix"
 
 #: ../../en/base/display.rst:31 38cd6f06a2104da3b55c46e2fff0d993
 msgid "AtomS3"
-msgstr ""
+msgstr "AtomS3"
 
 #: ../../en/base/display.rst:33 3bb31c0b84c54f70aa3d362d6ade33b4
 msgid "AtomS3 Lite"
-msgstr ""
+msgstr "AtomS3 Lite"
 
 #: ../../en/base/display.rst:35 8617e6afca65449cade8f17b77f807b4
 msgid "AtomS3R"
-msgstr ""
+msgstr "AtomS3R"
 
 #: ../../en/base/display.rst:37 fa31cb4758c34f4fa0b05ec1d7d1e3ef
 msgid "AtomS3R-CAM"
-msgstr ""
+msgstr "AtomS3R-CAM"
 
 #: ../../en/base/display.rst:39 ba30ab557cb948da96b339282a6f70e6
 msgid "AtomS3R-Ext"
-msgstr ""
+msgstr "AtomS3R-Ext"
 
 #: ../../en/base/display.rst:45 c90abaccae354e6495b6c88869e9c177
 msgid "|S|: Supported."
@@ -195,11 +195,11 @@ msgstr "API参考"
 
 #: ../../en/base/display.rst:122 ee1922f3f89848ae8ac2869a3586e9c4
 msgid "AtomicDisplayBase"
-msgstr ""
+msgstr "AtomicDisplayBase"
 
 #: base.display.AtomicDisplayBase:1 e47f501ab6244bd3b9c3b172a18b3571 of
 msgid "Bases: :py:class:`object`"
-msgstr ""
+msgstr "Bases: :py:class:`object`"
 
 #: 386efeb6dbba4a61b712e448f9d5277b base.display.AtomicDisplayBase:1 of
 msgid "Initialize the Atomic Display Base."

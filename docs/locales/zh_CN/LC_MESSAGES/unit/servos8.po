@@ -1,0 +1,616 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/refs/unit.servos8.ref ../../source/unit/servos8.rst:2
+#: 07602b77715f407487d43f2e0ef59dea fac127e8a0814045a0f3746755c23d5c
+msgid "8Servos Unit"
+msgstr "8Servos Unit"
+
+#: ../../source/unit/servos8.rst:8 e552b75e049d47bbbf8bad5ce3c26e7c
+msgid ""
+"This is the driver library for the 8Servos Unit. It is a 8-channel servo "
+"controller that can control up to 8 servos. It can be used to control the"
+" angles of the servos, set the pulse width, and set the mode of the "
+"servos."
+msgstr "这是 8Servos Unit 的驱动库。它是一款 8 通道舵机控制器，最多可控制 8 个舵机。可用于控制舵机角度、设置脉宽，以及设置舵机的模式。"
+
+#: ../../source/unit/servos8.rst:12 7a5275ec12ee451eb3ca6eef97a6f2a7
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/servos8.rst:14 900e8335ea0e4886812afeaf41c3cb8c
+msgid "|8Servos Unit|"
+msgstr ""
+
+#: ../../source/unit/servos8.rst:18 e72d90a2722b44e2890c5ed392dee928
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/servos8.rst:21 ../../source/unit/servos8.rst:56
+#: 6d2607a926c44e33a941bc02ed6cef40 a6c3d845c83544789744995bec308410
+msgid "servo control"
+msgstr "伺服电机控制"
+
+#: ../../source/unit/servos8.rst:23 65e8f1f799424417b12445031d12ad14
+msgid "Open the |cores3_servo_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |cores3_servo_example.m5f2| 项目。"
+
+#: ../../source/unit/servos8.rst:25 ../../source/unit/servos8.rst:58
+#: 440509d66bd64b02950372062d4e6f5b f4d760079bbc4ffbb10efceda3a050a1
+msgid "This example controls the servo angle of the 8Servos Unit."
+msgstr "该示例控制 8Servos Unit 的舵机角度。"
+
+#: ../../source/unit/servos8.rst:27 ../../source/unit/servos8.rst:43
+#: 0708f96c6c5740d4897abfa51451b813 1148c80ac8e24096a43d93744f346ab6
+#: 1566f2cd86dd4bb0847daaf22f53c49c 17de44ee1af4415cabc7fb8eef17288e
+#: 1a1c2d388bcb476fac77245f4b22eb40 447b5ea29ad646cf96e9db3b973c429b
+#: 553b8739fbd74550887d66558b305446 5f3fa3f726134d63ab1cd665e43e8a27
+#: 7365fa4e41d3491c859e538232d3fb83 82fd78e1e48b40638224ad1439f97ceb
+#: c9672c4f0d5c47a88c5a6c539763f08c cdbf9867a0554d28a1a161ce96cc4bb4
+#: cf0549c46510456bad489f02a5bbfe05 d27357de7f364190a0fe22da73c58e01
+#: dc1f356f45ce473785be0272adbfb6ca ecf5b21c491241189acd75b78008749f
+#: f09490fb400040378f6a9a36fbde5e29 f4c4866a7fcc4e408e84c8340a305097
+#: fa40c5973ba04917b5a6939ac6198a0a of unit.servos8.Servos8Unit:10
+#: unit.servos8.Servos8Unit.get_12bit_adc_raw:7
+#: unit.servos8.Servos8Unit.get_8bit_adc_raw:7
+#: unit.servos8.Servos8Unit.get_device_spec:6
+#: unit.servos8.Servos8Unit.get_digital_input:7
+#: unit.servos8.Servos8Unit.get_input_current:6
+#: unit.servos8.Servos8Unit.get_mode:7 unit.servos8.Servos8Unit.get_rgb_led:7
+#: unit.servos8.Servos8Unit.get_servo_angle:7
+#: unit.servos8.Servos8Unit.get_servo_pulse:7
+#: unit.servos8.Servos8Unit.set_i2c_address:5
+#: unit.servos8.Servos8Unit.set_mode:6
+#: unit.servos8.Servos8Unit.set_output_value:6
+#: unit.servos8.Servos8Unit.set_pwm_dutycycle:6
+#: unit.servos8.Servos8Unit.set_rgb_led:6
+#: unit.servos8.Servos8Unit.set_servo_angle:6
+#: unit.servos8.Servos8Unit.set_servo_pulse:6
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/servos8.rst:29 67dfb03b80af480488526f3d0c0de9f6
+msgid "|example_servo.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:6 531c40a004bf446b899c182f7f1ab004
+msgid "example_servo.png"
+msgstr ""
+
+#: ../../source/unit/servos8.rst:31 ../../source/unit/servos8.rst:47
+#: ../../source/unit/servos8.rst:66 ../../source/unit/servos8.rst:82
+#: 354187215aaa43dfa2389c7b89eb3b49 5f7383a81ade4f268d8b6e303b469203
+#: a7d2ab5cfc9f4fba9922746f51072809 d194839d9f5b48698f22a9d80f3976c1
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/servos8.rst:33 ../../source/unit/servos8.rst:49
+#: ../../source/unit/servos8.rst:68 ../../source/unit/servos8.rst:84
+#: 22a609ace10a4b7ea3c70f5742465409 3f21ba395b20464ebea2dea8d56e0656
+#: 706a7fc3c220427ca278262c9153e3ec 7d24ca3bafc643c1819f243bc3906673
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/servos8.rst:37 ../../source/unit/servos8.rst:72
+#: 534560233c1d45228c5ae2c66e1eb3ee a8e4d28d8c1c4d64882a616d2ea3bf65
+msgid "rgb control"
+msgstr "rgb 控制"
+
+#: ../../source/unit/servos8.rst:39 7cb9b2fa6e0f4426a9494b6a48e35863
+msgid "Open the |cores3_rgb_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |cores3_rgb_example.m5f2| 项目。"
+
+#: ../../source/unit/servos8.rst:41 ../../source/unit/servos8.rst:74
+#: 84a6b3a9a4e24d9497b479be3037e40d ffb6e2148e6e44bf9042508e91440e3f
+msgid "This example controls the RGB LED of the 8Servos Unit."
+msgstr "该示例控制 8Servos Unit 的 RGB LED。"
+
+#: ../../source/unit/servos8.rst:45 ac1b580f7c674022b43d038cf73e7c43
+msgid "|example_rgb.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:7 39996bffb39e428f959e57081781c5f9
+msgid "example_rgb.png"
+msgstr ""
+
+#: ../../source/unit/servos8.rst:53 3abf3d8b5c044538a6a46b93b8c675ff
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/servos8.rst:60 ../../source/unit/servos8.rst:76
+#: 02cb7d0b66cf46559edda5700ad8ddb9 05544cc30e4a46fcb3ee5a0a79179929
+#: 12fdec59f6094d72b530c0d9e01d753d 3311222abd9b431a94671597b8b8b384
+#: 3973e4e211754b5499725a38350ba93f 3f13fb1ffd9146ddbf1623670afdd5dd
+#: 50706f5a729443aca8b2fbe3067ddbfa 5ba7214ee6d9420fb4787d5e8d0ecd03
+#: 78c842786389453c99e5fee10f743624 7b422dbe6a514a8fb90d969e86c76e4c
+#: 8125b0b4c618402ca5d023462f188138 8aed07bd45754f58a250e82ebe4961e7
+#: 8f10c2eaf0304367ade13500667de4d7 925f870d4e2c498f9392c4884fe97246
+#: 92abd49674a4461881ad7b7924ed7ddf 92cd7595e57240b58065af4283531630
+#: a8b5dc6e121d4ca49c23087bcf22ec81 c8afbe99085344d7a7b043cc36ba3968
+#: e1db06c01e074518965190e102964e12 of unit.servos8.Servos8Unit:12
+#: unit.servos8.Servos8Unit.get_12bit_adc_raw:11
+#: unit.servos8.Servos8Unit.get_8bit_adc_raw:11
+#: unit.servos8.Servos8Unit.get_device_spec:10
+#: unit.servos8.Servos8Unit.get_digital_input:11
+#: unit.servos8.Servos8Unit.get_input_current:10
+#: unit.servos8.Servos8Unit.get_mode:11 unit.servos8.Servos8Unit.get_rgb_led:11
+#: unit.servos8.Servos8Unit.get_servo_angle:11
+#: unit.servos8.Servos8Unit.get_servo_pulse:11
+#: unit.servos8.Servos8Unit.set_i2c_address:9
+#: unit.servos8.Servos8Unit.set_mode:10
+#: unit.servos8.Servos8Unit.set_output_value:10
+#: unit.servos8.Servos8Unit.set_pwm_dutycycle:10
+#: unit.servos8.Servos8Unit.set_rgb_led:10
+#: unit.servos8.Servos8Unit.set_servo_angle:10
+#: unit.servos8.Servos8Unit.set_servo_pulse:10
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/servos8.rst:89 823ff9c1bd6a4caeb2037ebff978293a
+msgid "**API**"
+msgstr "API参考"
+
+#: ../../source/unit/servos8.rst:92 8b089f7a27d2483fae96f4b3d7f5ffc4
+msgid "Servos8Unit"
+msgstr "Servos8Unit"
+
+#: d7d9042ae2e74d728922c6dc97c70a99 of unit.servos8.Servos8Unit:1
+msgid "Bases: :py:class:`object`"
+msgstr "Bases: :py:class:`object`"
+
+#: 85e5b4dc540e423ba9c9d7ad67ab78b8 of unit.servos8.Servos8Unit:1
+msgid "Create a servos 8 unit object."
+msgstr "创建一个 servos 8 unit 对象。"
+
+#: ../../source/unit/servos8.rst 06d60da8cf084583a9c2e617640b600b
+#: 0feb2c81857f44828ad1e35999fa0b5f 166e74f0b89e447c8eb81872f630d7ce
+#: 2223bb010bf2408a8948b96867b12d7f 2833011a44544aef88b200407c17b1be
+#: 4096e9e5959640cf86a13375ede46fdd 565fa41f84e047bead37aecbe7358fcb
+#: 6a21ecb78408404eab83d2e6af37328a 6cf191baa3f64e80bd3aa1600ae8ebef
+#: 71725ee9e65c465baf520ea1795adc49 8246960949bc436c8a12f0d3146c8496
+#: 8ec4adc2498c4277aa1eb48847df0684 a8edd044f3a0426e9c024497c41d82db
+#: f21bae5597fc454eb90beefd667f5b1b fcd1840eec754af7a94bdd9ee89dd2d5 of
+#: unit.servos8.Servos8Unit.get_12bit_adc_raw
+#: unit.servos8.Servos8Unit.get_8bit_adc_raw
+#: unit.servos8.Servos8Unit.get_digital_input unit.servos8.Servos8Unit.get_mode
+#: unit.servos8.Servos8Unit.get_rgb_led
+#: unit.servos8.Servos8Unit.get_servo_angle
+#: unit.servos8.Servos8Unit.get_servo_pulse
+#: unit.servos8.Servos8Unit.set_i2c_address unit.servos8.Servos8Unit.set_mode
+#: unit.servos8.Servos8Unit.set_output_value
+#: unit.servos8.Servos8Unit.set_pwm_dutycycle
+#: unit.servos8.Servos8Unit.set_rgb_led
+#: unit.servos8.Servos8Unit.set_servo_angle
+#: unit.servos8.Servos8Unit.set_servo_pulse
+msgid "Parameters"
+msgstr ""
+
+#: 0b60d58cef1b49118aa3971b9f2ee3a0 of unit.servos8.Servos8Unit:3
+msgid "The I2C bus the servos 8 unit is connected to."
+msgstr "servos 8 unit 所连接的 I2C 总线。"
+
+#: 075ae62667f6449e8cfae133dd663cd0 of unit.servos8.Servos8Unit:5
+msgid "The I2C address of the device. Default is 0x25."
+msgstr "设备的 I2C 地址。默认为 0x25。"
+
+#: ../../source/unit/servos8.rst 27032595c45e4b42b7233fceab7c596c
+msgid "Raises"
+msgstr ""
+
+#: fdc2c64d40804c7abc28b55c50962a69 of unit.servos8.Servos8Unit:7
+msgid "If the servos 8 unit is not connected."
+msgstr "如果未连接 servos 8 unit。"
+
+#: 352296216d594b6ab73a202a8a63c83c of unit.servos8.Servos8Unit:10
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:19 bbdc138e570c4f4ea66e7f299db2639d
+msgid "init.png"
+msgstr ""
+
+#: b6a5cfd9566d41baaaba5852026c55c7 of unit.servos8.Servos8Unit.get_mode:1
+msgid "Get the current mode of a specific channel."
+msgstr "获取指定通道的当前模式。"
+
+#: 9584b4328ec643c0b37ba75ae2cf4e02 of unit.servos8.Servos8Unit.get_mode:3
+msgid "The channel number (0 to 7) to get the mode for."
+msgstr "要获取模式的通道编号（0 到 7）。"
+
+#: 0ef2d57acbd54b73a1d3a1e416c449f3 399e926ee22d40b396a537d806bc3a20
+#: 584f80c8ceda4ded899dbd7c70831d74 70d3a9195c9044d2a886cf78e50c5aac
+#: 867a6c772d5f4853b975ae86d8f5552f 9522042b87914470a91c24ee4e8000c5
+#: c29a57aedf7445efa682c32134a8e468 dc74bf9dee2b4ece9276edbf1b592514 of
+#: unit.servos8.Servos8Unit.get_12bit_adc_raw
+#: unit.servos8.Servos8Unit.get_8bit_adc_raw
+#: unit.servos8.Servos8Unit.get_digital_input
+#: unit.servos8.Servos8Unit.get_input_current unit.servos8.Servos8Unit.get_mode
+#: unit.servos8.Servos8Unit.get_rgb_led
+#: unit.servos8.Servos8Unit.get_servo_angle
+#: unit.servos8.Servos8Unit.get_servo_pulse
+msgid "Returns"
+msgstr ""
+
+#: 5360db3707064413aa830738d7a7293c of unit.servos8.Servos8Unit.get_mode:4
+msgid "The mode of the specified channel."
+msgstr "指定通道的模式。"
+
+#: 0071885fd0824f13a59c8d5469f3d8cc 22d07b3067014359b0b05bc28ba5b920
+#: 3118a27147fc4e30bb0c5659ef1914e7 3804acb8486a41eba745f735311b8a37
+#: 44de500613374cbc9506e8ad0a824382 4ccd21b85d24452e896160ac386d8154
+#: 722a261f5fb746508eed3fb0e142717d 76781fc22f8a47cb9abc3638cd9459ec
+#: 778f6d1b83614206ab843c2c5ed439b4 7c080876da4f4b24ba01e77231f166fe
+#: 90f2f81446274320b8df2fe28082d3c6 a185342a8b3e49498e121c30ef61a427
+#: b2d4c5f44a44453f849eacfbf9c929b7 e155adc42682414faff475a56a4d2392 of
+#: unit.servos8.Servos8Unit.get_12bit_adc_raw
+#: unit.servos8.Servos8Unit.get_8bit_adc_raw
+#: unit.servos8.Servos8Unit.get_digital_input
+#: unit.servos8.Servos8Unit.get_input_current unit.servos8.Servos8Unit.get_mode
+#: unit.servos8.Servos8Unit.get_rgb_led
+#: unit.servos8.Servos8Unit.get_servo_angle
+#: unit.servos8.Servos8Unit.get_servo_pulse unit.servos8.Servos8Unit.set_mode
+#: unit.servos8.Servos8Unit.set_output_value
+#: unit.servos8.Servos8Unit.set_pwm_dutycycle
+#: unit.servos8.Servos8Unit.set_rgb_led
+#: unit.servos8.Servos8Unit.set_servo_angle
+#: unit.servos8.Servos8Unit.set_servo_pulse
+msgid "Return type"
+msgstr ""
+
+#: 1c8bb440b6d04a3fac8bab0e507f6d34 of unit.servos8.Servos8Unit.get_mode:9
+msgid "|get_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:15 01cbec680adc484d98f9381c4e95f493
+msgid "get_mode.png"
+msgstr ""
+
+#: 3d8cebe79e574efaba3178f19e717b8b of unit.servos8.Servos8Unit.set_mode:1
+msgid "Set the mode of a specific channel."
+msgstr "设置指定通道的模式。"
+
+#: e6d4580c569d406e907dd218a8f8fd8f of unit.servos8.Servos8Unit.set_mode:3
+msgid "The mode to set for the channel."
+msgstr "要为该通道设置的模式。"
+
+#: 49b9ece4324c4c38ac45e4076562ad53 of unit.servos8.Servos8Unit.set_mode:4
+msgid "The channel number (0 to 7) to set the mode for."
+msgstr "要设置模式的通道编号（0 到 7）。"
+
+#: 9add7d436df845b5856f614cf88ae4c5 of unit.servos8.Servos8Unit.set_mode:8
+msgid "|set_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:21 a72a41dd4f464cfa9d385a5aeb7381bc
+msgid "set_mode.png"
+msgstr ""
+
+#: 73dc613ae1434074b8b504cde9997eec of
+#: unit.servos8.Servos8Unit.get_digital_input:1
+msgid "Get the digital input value of a specific channel."
+msgstr "获取指定通道的数字输入值。"
+
+#: 0bf2a8980c864bb6855cd604238ad69c of
+#: unit.servos8.Servos8Unit.get_digital_input:3
+msgid "The channel number (0 to 7) to get the digital input for."
+msgstr "要获取数字输入的通道号（0 到 7）。"
+
+#: 5f50cfa3c2874e49baaf634865bbc740 of
+#: unit.servos8.Servos8Unit.get_digital_input:4
+msgid "The digital input value (True or False) of the specified channel."
+msgstr "指定通道的数字输入值（True 或 False）。"
+
+#: f5253d158bcb4afe85ad1dfffdc6e6e1 of
+#: unit.servos8.Servos8Unit.get_digital_input:9
+msgid "|get_digital_input.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:13 af6a6dc702bd46a4a2c1daae77f5345a
+msgid "get_digital_input.png"
+msgstr ""
+
+#: a82e0be228dd47fa93a8756662c87fab of
+#: unit.servos8.Servos8Unit.set_output_value:1
+msgid "Set the digital output value of a specific channel."
+msgstr "设置指定通道的数字输出值。"
+
+#: b2cb6b085a694eec895ba432feab3a8f of
+#: unit.servos8.Servos8Unit.set_output_value:3
+msgid "The digital output value (0 or 1) to set for the channel."
+msgstr "为该通道设置的数字输出值（0 或 1）。"
+
+#: 78f07d1215dd413494dddf933afb5ef2 of
+#: unit.servos8.Servos8Unit.set_output_value:4
+msgid "The channel number (0 to 7) to set the digital output for."
+msgstr "用于设置数字输出的通道编号（0 到 7）。"
+
+#: 561b7b5cd7fb4b968d0917b223773155 of
+#: unit.servos8.Servos8Unit.set_output_value:8
+msgid "|set_output_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:22 ac9bfce8ac0d411cb84751ccaa1a35d0
+msgid "set_output_value.png"
+msgstr ""
+
+#: 2bdc09eaf00e41b0a59f249ec9f37bdd of
+#: unit.servos8.Servos8Unit.get_8bit_adc_raw:1
+msgid "Get the 8-bit ADC value of a specific channel."
+msgstr "获取指定通道的 8 位 ADC 值。"
+
+#: 554af20ec40444d0a64b641f83674ad2 of
+#: unit.servos8.Servos8Unit.get_8bit_adc_raw:3
+msgid "The channel number (0 to 7) to get the 8-bit ADC value for."
+msgstr "要获取其 8 位 ADC 值的通道编号（0 到 7）。"
+
+#: a17c2ff0a46a402da338517c6f5f48d4 of
+#: unit.servos8.Servos8Unit.get_8bit_adc_raw:4
+msgid "The 8-bit ADC value (0 to 255) of the specified channel."
+msgstr "指定通道的 8 位 ADC 值（0 到 255）。"
+
+#: d2dbd782ce704263b8a92c06768b12a2 of
+#: unit.servos8.Servos8Unit.get_8bit_adc_raw:9
+msgid "|get_8bit_adc_raw.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:11 1243553562534a9f940dcf04c7536cd9
+msgid "get_8bit_adc_raw.png"
+msgstr ""
+
+#: 3c3eab0835024f88a3e1f560acc6e110 of
+#: unit.servos8.Servos8Unit.get_12bit_adc_raw:1
+msgid "Get the 12-bit ADC value of a specific channel."
+msgstr "获取指定通道的 12-bit ADC 值。"
+
+#: 4cd77d76d3414ad0a708ab492bdca4d3 of
+#: unit.servos8.Servos8Unit.get_12bit_adc_raw:3
+msgid "The channel number (0 to 7) to get the 12-bit ADC value for."
+msgstr "要获取 12-bit ADC 值的通道号（0 到 7）。"
+
+#: 5f1c46b9705d4d4bbb7feedcd5099822 of
+#: unit.servos8.Servos8Unit.get_12bit_adc_raw:4
+msgid "The 12-bit ADC value (0 to 4095) of the specified channel."
+msgstr "指定通道的 12 位 ADC 值（0 到 4095）。"
+
+#: ba0a8814c428409c88d21b77e73f76c0 of
+#: unit.servos8.Servos8Unit.get_12bit_adc_raw:9
+msgid "|get_12bit_adc_raw.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:10 e3876a94b5c74521bb1c87ad02a533d3
+msgid "get_12bit_adc_raw.png"
+msgstr ""
+
+#: 55d7d1bfa6f6458ba6f2502e85f215a0 of
+#: unit.servos8.Servos8Unit.set_servo_angle:1
+msgid "Set the servo angle of a specific channel."
+msgstr "设置指定通道的舵机角度。"
+
+#: a10cee916d044619bd2795a2f6738dad of
+#: unit.servos8.Servos8Unit.set_servo_angle:3
+msgid "The servo angle (0 to 180) to set for the channel."
+msgstr "要为该通道设置的舵机角度（0 到 180）。"
+
+#: 96ff018da342431490c8cd3dd87154af of
+#: unit.servos8.Servos8Unit.set_servo_angle:4
+msgid "The channel number (0 to 7) to set the servo angle for."
+msgstr "要设置舵机角度的通道号（0 到 7）。"
+
+#: 7d7ba1c8149442e5a9c549c10d7576f8 of
+#: unit.servos8.Servos8Unit.set_servo_angle:8
+msgid "|set_servo_angle.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:25 a97b860368014f0b9d7bfb6f8c8a3664
+msgid "set_servo_angle.png"
+msgstr ""
+
+#: a72c0b4c578a4b10b5d796e7b967297c of
+#: unit.servos8.Servos8Unit.get_servo_angle:1
+msgid "Get the servo angle of a specific channel."
+msgstr "获取指定通道的舵机角度。"
+
+#: 01b88cb9c11b4d7e954c66e28adf47a9 of
+#: unit.servos8.Servos8Unit.get_servo_angle:3
+msgid "The channel number (0 to 7) to get the servo angle for."
+msgstr "要获取舵机角度的通道号（0 到 7）。"
+
+#: bb8124471fe0434ab727f4b36c97ab0f of
+#: unit.servos8.Servos8Unit.get_servo_angle:4
+msgid "The servo angle (0 to 180) of the specified channel."
+msgstr "指定通道的舵机角度（0 到 180）。"
+
+#: 29e39e04ec3940bf81c3b442275c39c9 of
+#: unit.servos8.Servos8Unit.get_servo_angle:9
+msgid "|get_servo_angle.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:17 8e58133fb38f4d36a826e51bf6c62ba9
+msgid "get_servo_angle.png"
+msgstr ""
+
+#: b9d992d11349462c9cd2b3947dad5080 of
+#: unit.servos8.Servos8Unit.set_servo_pulse:1
+msgid "Set the servo pulse of a specific channel."
+msgstr "设置指定通道的舵机脉冲。"
+
+#: 8ebf0820ad3a475ca83be37a0988909e of
+#: unit.servos8.Servos8Unit.set_servo_pulse:3
+msgid "The servo pulse (500 to 2500) to set for the channel."
+msgstr "用于设置通道的舵机脉冲（500 到 2500）。"
+
+#: cd5a15933a884f66aab88c9abb888e51 of
+#: unit.servos8.Servos8Unit.set_servo_pulse:4
+msgid "The channel number (0 to 7) to set the servo pulse for."
+msgstr "要设置舵机脉冲的通道号（0 到 7）。"
+
+#: cf0643e2d2854c8e83f008e06d075edb of
+#: unit.servos8.Servos8Unit.set_servo_pulse:8
+msgid "|set_servo_pulse.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:26 4b5949c830854131a8672e5c955c2ef9
+msgid "set_servo_pulse.png"
+msgstr ""
+
+#: 7642120b09934083872c9e26076f9778 of
+#: unit.servos8.Servos8Unit.get_servo_pulse:1
+msgid "Get the servo pulse of a specific channel."
+msgstr "获取指定通道的舵机脉冲。"
+
+#: dfa3a6dfc29b44a18a102342dab322ca of
+#: unit.servos8.Servos8Unit.get_servo_pulse:3
+msgid "The channel number (0 to 7) to get the servo pulse for."
+msgstr "要获取舵机脉冲的通道编号（0 到 7）。"
+
+#: bf8db73bfae14864b0d7d626c57f96a1 of
+#: unit.servos8.Servos8Unit.get_servo_pulse:4
+msgid "The servo pulse (500 to 2500) of the specified channel."
+msgstr "指定通道的舵机脉宽（500 到 2500）。"
+
+#: fce312892be64022bd6c4d08906896b8 of
+#: unit.servos8.Servos8Unit.get_servo_pulse:9
+msgid "|get_servo_pulse.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:18 9e15d0e07dd94a6785f29dc1e96f76dd
+msgid "get_servo_pulse.png"
+msgstr ""
+
+#: a0f0a05c71dc4748b76abc01a5949535 of unit.servos8.Servos8Unit.set_rgb_led:1
+msgid "Set the RGB LED color of a specific channel."
+msgstr "设置指定通道的 RGB LED 颜色。"
+
+#: 96359e219c3d48489858051cc21efc71 of unit.servos8.Servos8Unit.set_rgb_led:3
+msgid "The RGB color value (0x000000 to 0xffffff) to set for the channel."
+msgstr "为该通道设置的 RGB 颜色值（0x000000 到 0xffffff）。"
+
+#: 0fb92690f44b4bf3986695c4e8cacd75 of unit.servos8.Servos8Unit.set_rgb_led:4
+msgid "The channel number (0 to 7) to set the RGB LED color for."
+msgstr "用于设置 RGB LED 颜色的通道编号（0 到 7）。"
+
+#: 90c6fb580e4b44d3b45736d4cfb2923b of unit.servos8.Servos8Unit.set_rgb_led:8
+msgid "|set_rgb_led.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:24 00f6ee09335448daadee8667fd8b8983
+msgid "set_rgb_led.png"
+msgstr ""
+
+#: 9e5b02b5a71e4cbf97e24f5c03cf3a22 of unit.servos8.Servos8Unit.get_rgb_led:1
+msgid "Get the RGB LED color of a specific channel."
+msgstr "获取指定通道的 RGB LED 颜色。"
+
+#: 757f316d3a034651bb821e03c66ee15e of unit.servos8.Servos8Unit.get_rgb_led:3
+msgid "The channel number (0 to 7) to get the RGB LED color for."
+msgstr "要获取 RGB LED 颜色的通道编号（0 到 7）。"
+
+#: efa12f5bfdd2470eb16f52aab489571d of unit.servos8.Servos8Unit.get_rgb_led:4
+msgid "The RGB color value (0x000000 to 0xffffff) of the specified channel."
+msgstr "指定通道的 RGB 颜色值（0x000000 至 0xffffff）。"
+
+#: a3968ede78ce4cf7b682ddd2f0398ecf of unit.servos8.Servos8Unit.get_rgb_led:9
+msgid "|get_rgb_led.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:16 b0dfca9202664a70b141591f4bc72f89
+msgid "get_rgb_led.png"
+msgstr ""
+
+#: b003d69ac9bd4542a741fd06afd17d39 of
+#: unit.servos8.Servos8Unit.set_pwm_dutycycle:1
+msgid "Set the PWM duty cycle of a specific channel."
+msgstr "设置指定通道的 PWM 占空比。"
+
+#: 63afd01e0ee144059692e57312f7716a of
+#: unit.servos8.Servos8Unit.set_pwm_dutycycle:3
+msgid "The PWM duty cycle (0 to 100) to set for the channel."
+msgstr "为该通道设置的 PWM 占空比（0 到 100）。"
+
+#: e9abf0debc514c618b930d1c7163d068 of
+#: unit.servos8.Servos8Unit.set_pwm_dutycycle:4
+msgid "The channel number (0 to 7) to set the PWM duty cycle for."
+msgstr "要设置 PWM 占空比的通道编号（0 到 7）。"
+
+#: b2602919a95a4b33bf7f3e7d362361f7 of
+#: unit.servos8.Servos8Unit.set_pwm_dutycycle:8
+msgid "|set_pwm_dutycycle.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:23 19e5a6a3c75d4a79af582afda9737065
+msgid "set_pwm_dutycycle.png"
+msgstr ""
+
+#: 5805d85c08f347c28eecec1e07de563d of
+#: unit.servos8.Servos8Unit.get_input_current:1
+msgid "Get the input current of the servos 8 unit."
+msgstr "获取 servos 8 unit 的输入电流。"
+
+#: 153a2a9017e447ffa160d18bc6240f79 of
+#: unit.servos8.Servos8Unit.get_input_current:3
+msgid "The input current in Amperes."
+msgstr "输入电流，单位为安培（A）。"
+
+#: b9b4d327faf848dfa2867cae31cb3ece of
+#: unit.servos8.Servos8Unit.get_input_current:8
+msgid "|get_input_current.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:14 8d39e04854144e3b93f705f98f1fb71f
+msgid "get_input_current.png"
+msgstr ""
+
+#: fb7b9c14104a4e2ba963d16751f50d9a of
+#: unit.servos8.Servos8Unit.get_device_spec:1
+msgid ""
+"Get the device specification. :param int mode: The mode to get the "
+"specification for. :return: The device specification value. :rtype: int"
+msgstr "获取设备规格。:param int mode: 用于获取规格的模式。:return: 设备规格值。:rtype: int"
+
+#: 1ccd7c252066447fac37b16de5e1dddd of
+#: unit.servos8.Servos8Unit.get_device_spec:8
+msgid "|get_device_spec.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:12 5026bdd15aeb41e78ed2b204729d8ec6
+msgid "get_device_spec.png"
+msgstr ""
+
+#: 24d7b1a4474147258373b10c17760c67 of
+#: unit.servos8.Servos8Unit.set_i2c_address:1
+msgid "Set the I2C address of the servos 8 unit."
+msgstr "设置 servos 8 unit 的 I2C 地址。"
+
+#: 56dc8d6c3b5342d0b8199118c6bfa13c of
+#: unit.servos8.Servos8Unit.set_i2c_address:3
+msgid "The new I2C address (1 to 127) to set for the servos 8 unit."
+msgstr "为 servos 8 unit 设置的新 I2C 地址（1 到 127）。"
+
+#: 0acb9ea244314c0c87761b2b5e39f99d of
+#: unit.servos8.Servos8Unit.set_i2c_address:7
+msgid "|set_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.servos8.ref:20 e76b23e8efea4402ae2f9260bc9ea192
+msgid "set_i2c_address.png"
+msgstr ""
+

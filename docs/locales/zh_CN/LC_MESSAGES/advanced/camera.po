@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/advanced/camera.rst:2 5819f86957f24b609306f160ebb48622
 msgid "camera"
-msgstr ""
+msgstr "camera"
 
 #: ../../en/advanced/camera.rst:6 dd20919525884314a853a9adeafff50f
 msgid "The camera module is used for taking pictures."
@@ -42,9 +42,8 @@ msgid "capture display"
 msgstr "拍摄显示"
 
 #: ../../en/advanced/camera.rst:24 b80684e9fd654d02b9007f96b9f78d4d
-#, fuzzy
 msgid "UiFlow2 Example"
-msgstr "UIFlow2.0 案例"
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/advanced/camera.rst:29 04b43404070d4100a565d2997e3fb823
 msgid "|camera_display_example.png|"
@@ -72,76 +71,76 @@ msgstr "只有 AtomS3R-M12 支持 camera.JPEG"
 
 #: ../../en/advanced/camera.rst:45 2db30a05151a4290a440f719985a8faf
 msgid "``camera.RGB565``"
-msgstr ""
+msgstr "``camera.RGB565``"
 
 #: ../../en/advanced/camera.rst:46 9e1742ac2f65492597b5c4d4aa63a711
 msgid "``camera.JPEG``"
-msgstr ""
+msgstr "``camera.JPEG``"
 
 #: ../../en/advanced/camera.rst:48 31bc68206a6b42a2b33720ddc63f98bd
 msgid ""
 "The ``framesize`` supports (note: Resolutions higher than camera.QVGA are"
 " only supported when pixformat is set to JPEG.):"
-msgstr "分辨率高于 camera.QVGA 的设置，仅在 pixformat 为 JPEG 时才支持。"
+msgstr "``framesize`` 支持的分辨率（注意：仅当 pixformat 设置为 JPEG 时才支持高于 camera.QVGA 的分辨率）："
 
 #: ../../en/advanced/camera.rst:50 9e1742ac2f65492597b5c4d4aa63a711
 msgid "``camera.QQVGA``: 160x120"
-msgstr ""
+msgstr "``camera.QQVGA``: 160x120"
 
 #: ../../en/advanced/camera.rst:51 ace884c937d744eea4d557ccf87d7ae3
 msgid "``camera.QCIF``: 176x144"
-msgstr ""
+msgstr "`camera.QCIF``: 176x144"
 
 #: ../../en/advanced/camera.rst:52 78b15e105e094c3b9687521a3d16212d
 msgid "``camera.HQVGA``: 240x176"
-msgstr ""
+msgstr "``camera.HQVGA``: 240x176"
 
 #: ../../en/advanced/camera.rst:53 34e5c67cab8947cd9d78702f6eaec2d9
 msgid "``camera.FRAME_240X240``: 240x240"
-msgstr ""
+msgstr "``camera.FRAME_240X240``: 240x240"
 
 #: ../../en/advanced/camera.rst:54 41b07f924b2f49fc8d4adac6051038da
 msgid "``camera.QVGA``: 320x240"
-msgstr ""
+msgstr "``camera.QVGA``: 320x240"
 
 #: ../../en/advanced/camera.rst:55 41b07f924b2f49fc8d4adac6051038da
 msgid "``camera.VGA``: 640x480"
-msgstr ""
+msgstr "``camera.VGA``: 640x480"
 
 #: ../../en/advanced/camera.rst:56 41b07f924b2f49fc8d4adac6051038da
 msgid "``camera.SVGA``: 800x600"
-msgstr ""
+msgstr "``camera.SVGA``: 800x600"
 
 #: ../../en/advanced/camera.rst:57 78b15e105e094c3b9687521a3d16212d
 msgid "``camera.XGA``: 1024x768"
-msgstr ""
+msgstr "``camera.XGA``: 1024x768"
 
 #: ../../en/advanced/camera.rst:58 9e1742ac2f65492597b5c4d4aa63a711
 msgid "``camera.HD``: 1280x720"
-msgstr ""
+msgstr "``camera.HD``: 1280x720"
 
 #: ../../en/advanced/camera.rst:59 9e1742ac2f65492597b5c4d4aa63a711
 msgid "``camera.SXGA``: 1280x1024"
-msgstr ""
+msgstr "``camera.SXGA``: 1280x1024"
 
 #: ../../en/advanced/camera.rst:60 9e1742ac2f65492597b5c4d4aa63a711
 msgid "``camera.UXGA``: 1600x1200"
-msgstr ""
+msgstr "``camera.UXGA``: 1600x1200"
 
 #: ../../en/advanced/camera.rst:61 9e1742ac2f65492597b5c4d4aa63a711
 msgid "``camera.FHD``: 1920x1080"
-msgstr ""
+msgstr "``camera.FHD``: 1920x1080"
 
 #: ../../en/advanced/camera.rst:62 78b15e105e094c3b9687521a3d16212d
 msgid "``camera.QXGA``: 2048x1536"
-msgstr ""
+msgstr "``camera.QXGA``: 2048x1536"
 
 #: ../../en/advanced/camera.rst:64 ../../en/advanced/camera.rst:74
 #: ../../en/advanced/camera.rst:82 ../../en/advanced/camera.rst:90
 #: ../../en/advanced/camera.rst:98 ../../en/advanced/camera.rst:106
 #: 059c1ce57c844e0394a12d52cb68305f 9a9de8447a7f4a6d8363fea8a640d047
 msgid "UiFlow2"
-msgstr ""
+msgstr "UiFlow2"
 
 #: ../../en/advanced/camera.rst:66 44ec61a9923347a38eeea47d2a5a363f
 msgid "|init.png|"

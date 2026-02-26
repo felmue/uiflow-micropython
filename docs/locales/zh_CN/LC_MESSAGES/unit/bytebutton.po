@@ -1,0 +1,439 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/bytebutton.rst:3 718e27c75d474c59bf808bbbbecfc5fd
+msgid "ByteButton Unit"
+msgstr "ByteButton Unit"
+
+#: ../../source/unit/bytebutton.rst:7 8fbaa8a7a8f44d7782a6330c069f244c
+msgid ""
+"Unit ByteButton is an 8-button touch switch input unit equipped with 8 "
+"button inputs and 9 WS2812C RGB LEDs. It uses the STM32 microcontroller "
+"and supports I2C communication. The board includes two Port A interfaces "
+"and supports cascading multiple Unit ByteButton modules, making it "
+"suitable for complex systems. It can achieve button input detection and "
+"dynamic lighting feedback, ideal for smart home control, gaming devices, "
+"educational platforms, industrial status displays, and interactive "
+"exhibitions."
+msgstr ""
+"Unit ByteButton 是一款 8 键触摸开关输入 Unit，配备 8 个按键输入和 9 颗 WS2812C RGB LED。它采用 "
+"STM32 微控制器并支持 I2C 通信。板载 2 路 Port A 接口，支持级联多个 Unit ByteButton "
+"模块，适用于复杂系统。它可实现按键输入检测与动态灯光反馈，适合用于智能家居控制、游戏设备、教育平台、工业状态显示以及交互式展览等场景。"
+
+#: ../../source/unit/bytebutton.rst:9 361057087fab40f58a419631d2662182
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/bytebutton.rst:11 ec8694a5eba74b7998f26ba764b1c7f1
+msgid "|ByteButtonUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref 82d3020364fd4a058c7e65bf78157be5
+msgid "ByteButtonUnit"
+msgstr "ByteButtonUnit"
+
+#: ../../source/unit/bytebutton.rst:13 db9aecf47c91490491528e2df0c9b8b8
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/bytebutton.rst:20 cbc790ec0c9b4b8a81486495d2db0dd1
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/bytebutton.rst:22 c585a5649424498da8cd678187d576b5
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:31 a940b253667946bfb6e77c3e4b052803
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:26 414668561b3c45a9b8e5169c235b9f15
+msgid "|bytebutton_cores3_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:29 af1f29e0953e4d31a62d9a0713bf883f
+msgid "class ByteButtonUnit"
+msgstr "class ByteButtonUnit"
+
+#: ../../source/unit/bytebutton.rst:32 33a37d44fdbb469d9428dbe9efaf5272
+msgid "Constructors"
+msgstr "\"\""
+
+#: ../../source/unit/bytebutton.rst:36 aa288616f25b4dcc89805e141f4b664d
+msgid "Initialize the ByteButtonUnit with a specified I2C address."
+msgstr "使用指定的 I2C 地址初始化 ByteButtonUnit。"
+
+#: ../../source/unit/bytebutton.rst 0443f7cec2084f66bdd6c21c5637e192
+#: 091537277c7441b5b884e09ae5413dd4 09e248ddab1342969a8a305b76b59bf1
+#: 1ed7ed0de31243c4a98fd0712dadbec4 42fee10a1af542939d5df2ccd787cea7
+#: 4a088989a7524efbb6dca719e07a4729 500be9589be14c6ea5b9bd988a98f647
+#: 5493d98e49fc4a9bbc58b9d05c49e4e0 6e9fb5782d564e8c9dbedf5df7c4af31
+#: 8c46c1d363f04e20b2d10562a45e89b1 9181b2aec75d4eccae60d21d58cfcbe4
+#: b262421ee93d4ca0a3c6ea0478916223 b96e08675ca94be597f3ececc1bf6396
+#: fba893d524cd4d54b899c109f6410a5b
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:38 f8885b41666b4ce2bf5b57b67a9f1807
+msgid "The I2C interface instance for communication."
+msgstr "用于通信的 I2C 接口实例。"
+
+#: ../../source/unit/bytebutton.rst:39 ce29774f8c6f43df863ae39a6eb0d0cd
+msgid "The I2C address of the ByteButtonUnit, default is 0x47."
+msgstr "ByteButtonUnit 的 I2C 地址，默认为 0x47。"
+
+#: ../../source/unit/bytebutton.rst:41 ../../source/unit/bytebutton.rst:54
+#: ../../source/unit/bytebutton.rst:64 ../../source/unit/bytebutton.rst:72
+#: ../../source/unit/bytebutton.rst:86 ../../source/unit/bytebutton.rst:97
+#: ../../source/unit/bytebutton.rst:107 ../../source/unit/bytebutton.rst:120
+#: ../../source/unit/bytebutton.rst:134 ../../source/unit/bytebutton.rst:146
+#: ../../source/unit/bytebutton.rst:155 ../../source/unit/bytebutton.rst:165
+#: ../../source/unit/bytebutton.rst:174 ../../source/unit/bytebutton.rst:212
+#: ../../source/unit/bytebutton.rst:221 ../../source/unit/bytebutton.rst:231
+#: ../../source/unit/bytebutton.rst:240 0cb2092b4fc64ed18ec3d13d283aa88d
+#: 23350f9337e140f4bc6126da59c061a2 2aaee74db25a4d929054d82bb10991e1
+#: 2c7a7fcd818d4151b6ac484165d79dfe 3c333f5d0cae488495205b872bc946e1
+#: 4118b7d958304436b6c7bd5e44f3c614 59f6d3a1744c41daba564cee2e79e414
+#: 6be2ada9b6e240c39f8196403c8211bd 7b744edb666146df9fd1a855fe3e9e6e
+#: 9ef3cc9d7e4b4e2280bfae8118423ffc a6da573952da495f94c2cb82e8dc6b29
+#: a791e1a2ceb8456c9bfd9addbb4aa334 bc1c8c6b878544bab23cc26c0588ffd3
+#: cc7bdd7854294326abd0397153b37542 e0ead8eee69f4e08b2e2ed5312ffafb3
+#: f1c6aee98b2a4b0ea0a4fa6581ae65a7 f9610fecfaa94260a82b8e444fb68ba0
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/bytebutton.rst:43 8c3d48811c3d4b489813ee5fa8154862
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:6 5d1890233dce48678b3dbe758c445037
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:47 e8e7cef77133497d81bac1093757b12f
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:51 1b0cc56a5127469eb0f3f3b6361ff9b7
+msgid ""
+"Get the status of all buttons as an integer, where each bit represents "
+"the state of each button."
+msgstr "以整数形式获取所有按钮的状态，其中每一位表示对应按钮的状态。"
+
+#: ../../source/unit/bytebutton.rst:56 93b5da853e0d4913b6ca57985745ce43
+msgid "|get_byte_button_status.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:7 2a68fb41f60948fb88324acb173946fa
+msgid "get_byte_button_status.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:60 ffbc7b93c2ab490e9b87446af82f3c62
+msgid "Get the state of a specific button."
+msgstr "获取指定按钮的状态。"
+
+#: ../../source/unit/bytebutton.rst:62 37eea4c75ec04ba1963f027517a9b2a1
+msgid "The index of the button (0-7)."
+msgstr "按钮的索引（0-7）。"
+
+#: ../../source/unit/bytebutton.rst:66 49e6fe9d21414ca38f0a49425711d149
+msgid "|get_button_state.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:8 1f7e7b1b8a5843f78290d63d8cfa548c
+msgid "get_button_state.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:70 9620739bc86545168d87852219dfdf35
+msgid "Get the current LED show mode."
+msgstr "获取当前 LED 显示模式。"
+
+#: ../../source/unit/bytebutton.rst:74 e9992f348f724adab033340e9dd59e72
+msgid "|get_led_show_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:9 50d692c33f924c0b8380cc8e660227a0
+msgid "get_led_show_mode.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:78 d96c74d12e8e4694b4a98fc81cbed7b9
+msgid "Set the LED show mode."
+msgstr "设置 LED 显示模式。"
+
+#: ../../source/unit/bytebutton.rst:80 738fb2174d674f1384c0501cc9c1c6ee
+msgid ""
+"The LED show mode to set.  Options:     - ``BYTEBUTTON_LED_USER_MODE``: 0"
+"     - ``BYTEBUTTON_LED_SYS_MODE``: 1"
+msgstr ""
+"要设置的 LED 显示模式。可选项：     - ``BYTEBUTTON_LED_USER_MODE``：0     - "
+"``BYTEBUTTON_LED_SYS_MODE``：1"
+
+#: ../../source/unit/bytebutton.rst:80 4cd9630699ec4024a4cb4232c8c41778
+msgid "The LED show mode to set."
+msgstr "要设置的 LED 显示模式。"
+
+#: ../../source/unit/bytebutton.rst:84 5f95289ac7ad46aa987d3033a064cfa0
+msgid "Options:"
+msgstr "Options:"
+
+#: ../../source/unit/bytebutton.rst:83 2fb071936dd1430cb9e8f73e8d10645c
+msgid "``BYTEBUTTON_LED_USER_MODE``: 0"
+msgstr "`BYTEBUTTON_LED_USER_MODE`：0"
+
+#: ../../source/unit/bytebutton.rst:84 0d32fb5b344b418399e551dea80dc764
+msgid "``BYTEBUTTON_LED_SYS_MODE``: 1"
+msgstr "`BYTEBUTTON_LED_SYS_MODE`：1"
+
+#: ../../source/unit/bytebutton.rst:88 20707627a58c464aa8762735c5cd78bc
+msgid "|set_led_show_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:10 115b806bc3b3481b82c6bc3f31eff86a
+msgid "set_led_show_mode.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:92 8f05fe83e14544258648efb697f327de
+msgid "Set the brightness of a specific LED."
+msgstr "设置指定 LED 的亮度。"
+
+#: ../../source/unit/bytebutton.rst:94 ../../source/unit/bytebutton.rst:105
+#: ../../source/unit/bytebutton.rst:115 ../../source/unit/bytebutton.rst:130
+#: ../../source/unit/bytebutton.rst:188 ../../source/unit/bytebutton.rst:195
+#: 1d44b1ed76f1439f9d637042e7f68299 75951ea0a69242b6b77542b6fd4cff6e
+#: af18f062c9964121b248ea12de1b1589 beeb1a9ad6f34dedb2aabce54e29b3d3
+#: e4b087ded5214f54a7c0559ba26cd405 e59597d034204d2fbe07f4fc9a1341a6
+msgid "The index of the LED (0-7)."
+msgstr "LED 的索引（0-7）。"
+
+#: ../../source/unit/bytebutton.rst:95 ../../source/unit/bytebutton.rst:144
+#: ad06316a4c5c46feb09c594fefbb6376 ebd4e61585714fc184371ed95d17bf1b
+msgid "The brightness level (0-255)."
+msgstr "亮度级别（0-255）。"
+
+#: ../../source/unit/bytebutton.rst:99 303a36c3fd5f4c88b493ddca1c16b85e
+msgid "|set_led_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:11 d2f347d004754bcb8eec5c505886e432
+msgid "set_led_brightness.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:103 9e5963d5097f42e88ed8bbf011e1ddae
+msgid "Get the brightness of a specific LED."
+msgstr "获取指定 LED 的亮度。"
+
+#: ../../source/unit/bytebutton.rst:109 cca0c89b781f4020810fab4a2d8143c0
+msgid "|get_led_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:12 fba63e7438fc4dbdacf420ec7a983ea1
+msgid "get_led_brightness.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:113 000fc43b35eb4f9484803ec86dd3a0d2
+msgid "Set the color of a specific LED."
+msgstr "设置指定 LED 的颜色。"
+
+#: ../../source/unit/bytebutton.rst:116 ../../source/unit/bytebutton.rst:163
+#: 3cfbb7f00d0b4b7ba7092bd5977c3c82 3fbf7b4595b94df0b0c249c12a51bee0
+msgid "The RGB888 color value to set."
+msgstr "要设置的 RGB888 颜色值。"
+
+#: ../../source/unit/bytebutton.rst:117 ../../source/unit/bytebutton.rst:131
+#: 40889292ae574ffcb16887eaa5eaffca b91a5f46cd9b4f70bfbd801b4c1ecebc
+msgid "The LED show mode, default is BYTEBUTTON_LED_SYS_MODE."
+msgstr "LED 显示模式，默认为 BYTEBUTTON_LED_SYS_MODE。"
+
+#: ../../source/unit/bytebutton.rst:118 ../../source/unit/bytebutton.rst:132
+#: 73422156994842c79c3aad952899234b 96b1db292bda4365a8e47a7bf11e9b92
+msgid "Whether the button is pressed (affects color in SYS mode)."
+msgstr "按钮是否被按下（在 SYS 模式下影响颜色）。"
+
+#: ../../source/unit/bytebutton.rst:122 e4c72b52fa1f435fb66fcb88af84ff12
+msgid "|set_sys_mode_led_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:13 825f7427853c42acaf54a19b12143347
+msgid "set_sys_mode_led_color.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:124 7b195352d09a4e51b98a2d6fdbfdc306
+msgid "|set_user_mode_led_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:14 a4fdfb97f3e14c9591ced2adb653a08a
+msgid "set_user_mode_led_color.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:128 078fecd6a229415686613775110e7e40
+msgid "Get the color of a specific LED."
+msgstr "获取指定 LED 的颜色。"
+
+#: ../../source/unit/bytebutton.rst:136 bb8d9d5e634f4aee9a4fff7bbf9edfc1
+msgid "|get_sys_mode_led_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:15 8b75eb7d0a8c4e08a2d66c2ba0bd7e82
+msgid "get_sys_mode_led_color.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:138 22e99b118d7d47c9b74f323ec649f6ae
+msgid "|get_user_mode_led_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:16 d7c5a3bb683b4acf87398f675252f878
+msgid "get_user_mode_led_color.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:142 693f01bd3c8a476c90bf6591ff496eda
+msgid "Set the brightness of the indicator LED."
+msgstr "设置指示 LED 的亮度。"
+
+#: ../../source/unit/bytebutton.rst:148 4981b47f87a64847a0b9165e30a9af44
+msgid "|set_indicator_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:17 c30af9248a55404791c1231dd8312e5f
+msgid "set_indicator_brightness.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:152 ab513afd20264f6e9c3404161935075e
+msgid "Get the brightness of the indicator LED."
+msgstr "获取指示灯 LED 的亮度。"
+
+#: ../../source/unit/bytebutton.rst:157 8220b74dca2c4a5fae877af95f774e48
+msgid "|get_indicator_brightness.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:18 d99e0c7857384fdb83eb0d5c59c42146
+msgid "get_indicator_brightness.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:161 95bb5b64f7994c58b0ab34275273e2cc
+msgid "Set the color of the indicator LED in RGB888 format."
+msgstr "以 RGB888 格式设置指示灯 LED 的颜色。"
+
+#: ../../source/unit/bytebutton.rst:167 874b3b9f9cf040b8b8a428f7fdcf278e
+msgid "|set_indicator_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:19 f33e947561b543c88095f4576ed3c676
+msgid "set_indicator_color.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:171 da56a490cac04308948018161f85146f
+msgid "Get the color of the indicator LED in RGB888 format."
+msgstr "获取指示灯的颜色，格式为 RGB888。"
+
+#: ../../source/unit/bytebutton.rst:176 b788f6606e774cd9b5c35bd5fcb08aaa
+msgid "|get_indicator_color.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:20 d02c9779f5c4445e92d6c1ceb043dd13
+msgid "get_indicator_color.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:180 37367f4d02844f44a7f0e02d31f8c40a
+msgid "Convert an RGB888 color value to RGB233 format."
+msgstr "将 RGB888 颜色值转换为 RGB233 格式。"
+
+#: ../../source/unit/bytebutton.rst:182 95aaac004dd4493da84e16d50c091c12
+msgid "The RGB888 color value as a 32-bit integer."
+msgstr "RGB888 颜色值，以 32 位整数表示。"
+
+#: ../../source/unit/bytebutton.rst:186 83ab2a8648084ed0ba43ab728850122a
+msgid "Set the color of a specific LED in RGB233 format."
+msgstr "设置指定 LED 的颜色（RGB233 格式）。"
+
+#: ../../source/unit/bytebutton.rst:189 c889b6e886904be4a670c99470cf4385
+msgid "The RGB233 color value to set."
+msgstr "要设置的 RGB233 颜色值。"
+
+#: ../../source/unit/bytebutton.rst:193 36ca4dab5a9544c281f23eea3beb4970
+msgid "Get the color of a specific LED in RGB233 format."
+msgstr "获取指定 LED 的 RGB233 格式颜色。"
+
+#: ../../source/unit/bytebutton.rst:199 b483d4e51c014cbeaa1b92b5ac2137d9
+msgid "Enable or disable IRQ functionality."
+msgstr "启用或禁用 IRQ 功能。"
+
+#: ../../source/unit/bytebutton.rst:201 fd30f64dabac42dea0c299fe74d05e4a
+msgid "Whether to enable (True) or disable (False) IRQ."
+msgstr "是否启用 (True) 或禁用 (False) IRQ。"
+
+#: ../../source/unit/bytebutton.rst:205 aba39c03fccb469baa8f372f9a0277ff
+msgid "Get the current IRQ enable status."
+msgstr "获取当前 IRQ 使能状态。"
+
+#: ../../source/unit/bytebutton.rst:209 64d9a6bc66f8448f9ff89553c3aba66c
+msgid "Save the current user settings to flash."
+msgstr "将当前用户设置保存到 flash。"
+
+#: ../../source/unit/bytebutton.rst:214 80a31ed699914732a64b95387a057a01
+msgid "|save_to_flash.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:26 ed1880156998481e841c3650c09894cb
+msgid "save_to_flash.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:218 95941f6df8d346958ae5038ed7d9165c
+msgid "Get the firmware version of the ByteButtonUnit."
+msgstr "获取 ByteButtonUnit 的固件版本。"
+
+#: ../../source/unit/bytebutton.rst:223 d869ba76cb804b24a82ca6433eadfdcd
+msgid "|get_firmware_version.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:27 bc2cb31d1c34430d83aada7c2d02ed77
+msgid "get_firmware_version.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:227 75ddf0f8337a44f3931c81e7508b8e47
+msgid "Set a new I2C address for the ByteButtonUnit."
+msgstr "为 ByteButtonUnit 设置新的 I2C 地址。"
+
+#: ../../source/unit/bytebutton.rst:229 a1d5cd67f4a8440f9a1dda9a08926b8d
+msgid "The new I2C address to set. Must be in the range 0x08 to 0x77."
+msgstr "要设置的新 I2C 地址。必须在 0x08 到 0x77 的范围内。"
+
+#: ../../source/unit/bytebutton.rst:233 ed2e9a495c8545fb9b4c8b351880c979
+msgid "|set_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:28 d0fbdc6170fe4595b8462a36357c8d5f
+msgid "set_i2c_address.png"
+msgstr ""
+
+#: ../../source/unit/bytebutton.rst:237 6163e97e2a0245729f898d420ff6a84d
+msgid "Get the current I2C address of the ByteButtonUnit."
+msgstr "获取 ByteButtonUnit 的当前 I2C 地址。"
+
+#: ../../source/unit/bytebutton.rst:242 050be201a222446583b0004896350b68
+msgid "|get_i2c_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.bytebutton.ref:29 15c9a4273bc549c0918f2ae9193e6186
+msgid "get_i2c_address.png"
+msgstr ""
+

@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../en/advanced/code_scanner.rst:2 d2277e5b9425457a9154ec9056cb3774
 msgid "code_scanner"
-msgstr ""
+msgstr "code_scanner"
 
 #: ../../en/advanced/code_scanner.rst:6 0078ed260a85488f9e3bb2fe93a5ff28
 msgid "This module is only applicable to the CoreS3 Controller"
@@ -43,7 +43,7 @@ msgstr "二维码识别"
 
 #: ../../en/advanced/code_scanner.rst:25 72b04154a6bf4ee08b554ef2c507e445
 msgid "UIFlow2.0 Example"
-msgstr ""
+msgstr "UiFlow2 应用示例"
 
 #: ../../en/advanced/code_scanner.rst:30 64a6071c77d440cca0a0f08b1f53e0c5
 msgid "|qrcode_detect_example.png|"
@@ -77,7 +77,7 @@ msgstr "返回 ``image.qrcode`` 对象"
 #: ../../en/advanced/code_scanner.rst:70 4c6bbb555dfe4cbdaee5961c9252ca1f
 #: 58f6fc35618f460b9b08f4c2ff26e458 7bb8913fba74476eb38d58930e8feef3
 msgid "UIFlow2.0"
-msgstr ""
+msgstr "UIFlow2.0"
 
 #: ../../en/advanced/code_scanner.rst:51 f84263684b9142db8b637256c262a013
 msgid "|find_qrcodes.png|"
@@ -89,13 +89,13 @@ msgstr ""
 
 #: ../../en/advanced/code_scanner.rst:55 6f932bda24b34255ae75906c331ac339
 msgid "class image.QRCode"
-msgstr ""
+msgstr "class image.QRCode"
 
 #: ../../en/advanced/code_scanner.rst:56 2b3082621de340b492b6dd2acb9273b7
 msgid ""
 "``QRCode`` The QRCode object is returned by "
 "`code_scanner.find_qrcodes(img: image.Image)`."
-msgstr "``QRCode`` 对象由 code_scanner.find_qrcodes() 返回"
+msgstr "``QRCode`` QRCode 对象由 `code_scanner.find_qrcodes(img: image.Image)` 返回。"
 
 #: ../../en/advanced/code_scanner.rst:60 a4453f0635404331ad6b5ebc468f5404
 msgid "Return the payload string of the QR code"

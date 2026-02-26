@@ -1,0 +1,332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/tof90.rst:2 53a2d9a81ecb44fe83733fcfcc494455
+msgid "Mini ToF-90° Unit"
+msgstr "Mini ToF-90° Unit"
+
+#: ../../source/unit/tof90.rst:8 77b7f25913fe4b0997c42af4bafbd831
+msgid ""
+"This is the driver library of Mini ToF-90° Unit, which is used to obtain "
+"data from the distance sensor."
+msgstr "这是 Mini ToF-90° Unit 的驱动库，用于从距离传感器获取数据。"
+
+#: ../../source/unit/tof90.rst:10 eb7b1684bcca4c87bc83b49aa7bb71dc
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/tof90.rst:12 49d23e9b13624ecb851fd6fd62276a56
+msgid "|ToF90Unit|"
+msgstr ""
+
+#: ../../source/refs/unit.tof90.ref ../../source/unit/tof90.rst:56
+#: 1fbc5edcd7c64f81b4622e3ebb7e151f 8c34b3a361114aef898a4af4249f32ed
+msgid "ToF90Unit"
+msgstr "ToF90Unit"
+
+#: ../../source/unit/tof90.rst:16 f8f795bc64394342847d52876c3fab0b
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/tof90.rst:19 ../../source/unit/tof90.rst:37
+#: 60ef767e7b5a4f279d9a4a6faec10e66 a73131a69eb142a7ba4f0f6b29baad7a
+msgid "get distance value"
+msgstr "获取距离值"
+
+#: ../../source/unit/tof90.rst:21 c6229b6fcacd4973a00f40a3454dc2ab
+msgid "Open the |tof90_core2_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |tof90_core2_example.m5f2| 项目。"
+
+#: ../../source/unit/tof90.rst:23 ../../source/unit/tof90.rst:39
+#: 64c72e8a575f48d2a38c57b6413fb1e2 d003a4b6855842a19d58e9ec7cb2ee28
+msgid ""
+"This example gets the distance value of the Mini ToF-90° Unit and "
+"displays it on the screen."
+msgstr "该示例获取 Mini ToF-90° Unit 的距离值，并将其显示在屏幕上。"
+
+#: ../../source/unit/tof90.rst:25 1775ed24c6a1418db49290c90b290fe1
+#: 299e1cb78a674d458ea06ff97267ee9e 547a1b48ff47488094957bb3bef128f1
+#: 63bd89482b7d456b9d1fcd4a8c1e8959 71499c29f6f441c08b5b0f6470e99257
+#: a376ee6fc9514080b78d256005318b64 b692129baa22427082b7d3051c3a6790
+#: c3027613872b4c09b0e9048df10cbe3a driver.vl53l0x.VL53L0X.get_data_ready:6
+#: driver.vl53l0x.VL53L0X.get_measurement_timing_budget:6
+#: driver.vl53l0x.VL53L0X.get_range:6
+#: driver.vl53l0x.VL53L0X.is_continuous_mode:6
+#: driver.vl53l0x.VL53L0X.set_address:5
+#: driver.vl53l0x.VL53L0X.set_measurement_timing_budget:5
+#: driver.vl53l0x.VL53L0X.start_continuous:3
+#: driver.vl53l0x.VL53L0X.stop_continuous:3 f4484cf5ae274fda969ff2d0b7c9abbf
+#: fff7687c95194953b7aadeae41965ca8 of unit.tof.ToF90Unit:6
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/unit/tof90.rst:27 e3b3a11abab04f6693af654d36cb7bc9
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof90.ref:6 216f6c4a3a0746c8bf7dc5ab62c029d3
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/tof90.rst:29 ../../source/unit/tof90.rst:47
+#: 71b7f9acbfa4494cabf8413bef675a3d 7293722b625d4524888638312797bda2
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/unit/tof90.rst:31 ../../source/unit/tof90.rst:49
+#: 6c1b9737915c4829b80ca7e7aed2c9f0 fa2a8bf36e6441a598b64c5eee8aeed0
+msgid "None"
+msgstr ""
+
+#: ../../source/unit/tof90.rst:34 304867e5393841b6bc726f80194343cf
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/unit/tof90.rst:41 0c7fc13d4f5b4a17af8ebf5a1746f892
+#: 1cac1dbae7e043caa907c26af20b0e5c 28b8cbfcc76149589ee024bce990bc58
+#: 421a401d137f41c49e3a5e1e5f118541 52c3778a25f045039816ae8a21cb9923
+#: 589c20caa5ed481c86a5bb0806b955e4 67c11f554dc84352ac5cc28d65914e9a
+#: 79244cad5d774b9d96ab0672bca9c99b bbb6baa7dc53485187fefae45dc139a3
+#: befb341ef39140879f66328df49fae73 ce914a62592d4db490d019b77f6595e8
+#: d6b17f120632410f90c6c1d19f37ad91 driver.vl53l0x.VL53L0X:7
+#: driver.vl53l0x.VL53L0X.get_data_ready:10
+#: driver.vl53l0x.VL53L0X.get_distance:6
+#: driver.vl53l0x.VL53L0X.get_measurement_timing_budget:10
+#: driver.vl53l0x.VL53L0X.get_range:10
+#: driver.vl53l0x.VL53L0X.is_continuous_mode:10
+#: driver.vl53l0x.VL53L0X.set_address:9
+#: driver.vl53l0x.VL53L0X.set_measurement_timing_budget:9
+#: driver.vl53l0x.VL53L0X.start_continuous:7
+#: driver.vl53l0x.VL53L0X.stop_continuous:7 of unit.tof.ToF90Unit:10
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/unit/tof90.rst:53 579b3661c485412ebc2e7e0af1876f3e
+msgid "**API**"
+msgstr "API参考"
+
+#: 4bcb0a3f6b984e23b5baf052d4a83305 of unit.tof.ToF90Unit:1
+msgid "Bases: :py:class:`~driver.vl53l0x.VL53L0X`"
+msgstr "Bases: :py:class:`~driver.vl53l0x.VL53L0X`"
+
+#: 0863ee384cad428480f48c19225af8f1 8ddf76eab6e14fea93537c0a635ea8c1
+#: driver.vl53l0x.VL53L0X:1 of unit.tof.ToF90Unit:1
+msgid "Create an VL53L0X object."
+msgstr "创建一个 VL53L0X 对象。"
+
+#: ../../source/unit/tof90.rst 7696fdc712c64421a4a24a809b41051f
+#: 907a36215627408ea9b03853e1f37aab ad8408b3239e4f65a45a063198d5e4a2
+#: c7a42e2960144f1da14d9407ad1a20d6 driver.vl53l0x.VL53L0X.set_address
+#: driver.vl53l0x.VL53L0X.set_measurement_timing_budget of unit.tof.ToF90Unit
+msgid "Parameters"
+msgstr ""
+
+#: addb7d293f5c4f49b3a6db9a49386b39 bc53c76feb6e45f2b2000cfa084cee2b
+#: driver.vl53l0x.VL53L0X:3 of unit.tof.ToF90Unit:3
+msgid "The I2C bus the VL53L0X is connected to."
+msgstr "VL53L0X 连接到的 I2C 总线。"
+
+#: 69847e84fec140099ccdf11444959aa3 9df667cb7b954167bba0a3fe98d95aa9
+#: driver.vl53l0x.VL53L0X:4 of unit.tof.ToF90Unit:4
+msgid "The I2C address of VL53L0X. Default is 0x29."
+msgstr "VL53L0X 的 I2C 地址。默认值为 0x29。"
+
+#: 0506f3e29a7443e2a9a0139cf74fa5c7 of unit.tof.ToF90Unit:8
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof90.ref:8 cf6bef6b864d46769afc8470d43cd7b5
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/tof90.rst:62 5e207738ebb147ba84dfc9f58fd9d66b
+msgid "VL53L0X"
+msgstr "VL53L0X"
+
+#: 5d5b4432c7d54345846f4fcf77836739 driver.vl53l0x.VL53L0X:1 of
+msgid "Bases: :py:class:`object`"
+msgstr "Bases: :py:class:`object`"
+
+#: 669f1ec3a9e74f068a1c82410f08cf95 driver.vl53l0x.VL53L0X:5 of
+msgid "The timeout for the I/O operations. Default is 0."
+msgstr "I/O 操作的超时时间。默认值为 0。"
+
+#: 6f3a8fead3a14671bcaafa7591b1f6c5
+#: driver.vl53l0x.VL53L0X.get_measurement_timing_budget:1 of
+msgid "Get the measurement timing budget in microseconds."
+msgstr "获取以微秒为单位的测量时序预算。"
+
+#: 064a0310395c46818d6fcab4360787a3 280e4efd3a9143bc9634e335bc654d0a
+#: 29f5bfa8d23243678abf1a853d583c99 9b4d1a52196745a4ba6f3b3cea73b827
+#: be1c7314f3f440d3b75c7cd285224a1f driver.vl53l0x.VL53L0X.get_data_ready
+#: driver.vl53l0x.VL53L0X.get_distance
+#: driver.vl53l0x.VL53L0X.get_measurement_timing_budget
+#: driver.vl53l0x.VL53L0X.get_range driver.vl53l0x.VL53L0X.is_continuous_mode
+#: of
+msgid "Returns"
+msgstr ""
+
+#: ae0e1cdb656c4008b99c3c3faa87d0e0
+#: driver.vl53l0x.VL53L0X.get_measurement_timing_budget:3 of
+msgid "The measurement timing budget in microseconds."
+msgstr "测量时序预算（以微秒为单位）。"
+
+#: 040012ea582c4ef8917b47729668d8b6 2ac08d59ec74438186c3f317b3c48beb
+#: 33a6a50a6b714775bc481220f7f6eb50 7b6a12adee46465396916a7b25a108a4
+#: 9ee038173c3d45a1b31d0ccc7c353e3d c7279de73a7b48c2a80bbf25369532f9
+#: cb39ae6be82a4bf58f473879a0d8df0c cedeaeae2a1447719f3698c78d01bb68
+#: driver.vl53l0x.VL53L0X.get_data_ready driver.vl53l0x.VL53L0X.get_distance
+#: driver.vl53l0x.VL53L0X.get_measurement_timing_budget
+#: driver.vl53l0x.VL53L0X.get_range driver.vl53l0x.VL53L0X.is_continuous_mode
+#: driver.vl53l0x.VL53L0X.set_address
+#: driver.vl53l0x.VL53L0X.set_measurement_timing_budget
+#: driver.vl53l0x.VL53L0X.start_continuous
+#: driver.vl53l0x.VL53L0X.stop_continuous f8f5f2895ecc40f3b68e845b9f4ea075 of
+msgid "Return type"
+msgstr ""
+
+#: 7c6188aa7c814738a85d811d529b4a52 911a7aeda4fd464295658e03c99e4893
+#: driver.vl53l0x.VL53L0X.get_measurement_timing_budget:8
+#: driver.vl53l0x.VL53L0X.set_measurement_timing_budget:7 of
+msgid "|get_measurement_timing_budget.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof90.ref:12 a253842cdde24f5b9b3dc8be4be84a58
+#: b6c6228fcaff4251a5778767883052f7
+msgid "get_measurement_timing_budget.png"
+msgstr ""
+
+#: d0093b6875e3473a90db172c6b5c84a0
+#: driver.vl53l0x.VL53L0X.set_measurement_timing_budget:1 of
+msgid "Set the measurement timing budget in microseconds."
+msgstr "设置测量时序预算，单位为微秒。"
+
+#: cef3887143d54d969257b2bfa97b9fcb
+#: driver.vl53l0x.VL53L0X.set_measurement_timing_budget:3 of
+msgid "The measurement timing budget in microseconds(range 20000 - 200000)."
+msgstr "测量时序预算（单位：微秒，范围 20000 - 200000）。"
+
+#: 9506e69c32e346db9236d16b9ca5cfbf driver.vl53l0x.VL53L0X.get_distance:1 of
+msgid ""
+"Perform a single reading of the range for an object in front of the "
+"sensor and return the distance in centimeters."
+msgstr "对传感器前方的物体执行一次测距，并以厘米为单位返回距离。"
+
+#: 897f1a867d034a4c94144e6de92fa14d driver.vl53l0x.VL53L0X.get_distance:3 of
+msgid "The distance in centimeters."
+msgstr "以厘米为单位的距离。"
+
+#: ade2e71a141e4b76a35b7d3cccfd5239 driver.vl53l0x.VL53L0X.get_range:1 of
+msgid ""
+"Perform a single reading of the range for an object in front of the "
+"sensor and return the distance in millimeters."
+msgstr "对传感器前方的物体执行一次测距，并返回以毫米为单位的距离。"
+
+#: 23a26cca8aa24937bad0603d631e1cb8 driver.vl53l0x.VL53L0X.get_range:3 of
+msgid "The distance in millimeters."
+msgstr "以毫米为单位的距离。"
+
+#: 46619c6c9979406ea710658eb25bcd40 driver.vl53l0x.VL53L0X.get_range:8 of
+msgid "|get_range.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof90.ref:10 c7915f9c527549659db7f44de2d8ac89
+msgid "get_range.png"
+msgstr ""
+
+#: 5967c1a0404f4ad4bc9519a4c8323cc1 driver.vl53l0x.VL53L0X.get_data_ready:1 of
+msgid "Get the data ready status of the sensor."
+msgstr "获取传感器的数据就绪状态。"
+
+#: 6be6f467cb754d9799ca6060793f951f driver.vl53l0x.VL53L0X.get_data_ready:3 of
+msgid "The data ready status of the sensor."
+msgstr "传感器的数据就绪状态。"
+
+#: b9f53970834c4041b66790f406af83ca driver.vl53l0x.VL53L0X.get_data_ready:8 of
+msgid "|get_data_ready.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof90.ref:9 a21b36b3edef4cadb7e0894d9d295688
+msgid "get_data_ready.png"
+msgstr ""
+
+#: 918a0ec82a8d4b47bc5dbce2ccc109e5 driver.vl53l0x.VL53L0X.is_continuous_mode:1
+#: of
+msgid "Get the continuous mode status of the sensor."
+msgstr "获取传感器的连续模式状态。"
+
+#: 303a94b70f7b40ceb4fc87c53b88eb65 driver.vl53l0x.VL53L0X.is_continuous_mode:3
+#: of
+msgid "The continuous mode status of the sensor."
+msgstr "传感器的连续模式状态。"
+
+#: 17b2a1cd294c442e8222d671575b5bc8 driver.vl53l0x.VL53L0X.is_continuous_mode:8
+#: of
+msgid "|is_continuous_mode.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof90.ref:11 49c7d3a588b04ce0a4947af53f0bcfdf
+msgid "is_continuous_mode.png"
+msgstr ""
+
+#: 0caf64ae24cd44298d38619726330fef driver.vl53l0x.VL53L0X.start_continuous:1
+#: of
+msgid "Set the sensor to continuous mode."
+msgstr "将传感器设置为连续模式。"
+
+#: 5bcb5ecc4a504f1fba8b9ee3c7430f6f driver.vl53l0x.VL53L0X.start_continuous:5
+#: of
+msgid "|start_continuous.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof90.ref:15 5df3df8a38e7454caea2d81af67fa95a
+msgid "start_continuous.png"
+msgstr ""
+
+#: b8c92d3a98f844a784f55981501064a6 driver.vl53l0x.VL53L0X.stop_continuous:1 of
+msgid "Set the sensor to single ranging mode."
+msgstr "将传感器设置为单次测距模式。"
+
+#: 48c4a51664a74c26b4a7048329f3def8 driver.vl53l0x.VL53L0X.stop_continuous:5 of
+msgid "|stop_continuous.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof90.ref:16 3424c6b26c604c73ba41a03492c6e7e7
+msgid "stop_continuous.png"
+msgstr ""
+
+#: 61a0202c0b35499ab4161475d7c1bc6b driver.vl53l0x.VL53L0X.set_address:1 of
+msgid "Set a new I2C address to the sensor."
+msgstr "为传感器设置新的 I2C 地址。"
+
+#: driver.vl53l0x.VL53L0X.set_address:3 ee0494fad0444adcaa46c93ab78eb2c8 of
+msgid "The 7-bit int that is to be assigned to the VL53L0X sensor."
+msgstr "要分配给 VL53L0X 传感器的 7 位 int。"
+
+#: 7d44d64d4aba47a9a09618f503964bed driver.vl53l0x.VL53L0X.set_address:7 of
+msgid "|set_address.png|"
+msgstr ""
+
+#: ../../source/refs/unit.tof90.ref:14 ee00085b35e64d80acc2c6bdc85da768
+msgid "set_address.png"
+msgstr ""
+

@@ -18,20 +18,19 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/iot-devices/index.rst:2 53d82994fd97409ca99db26bd0815b6b
 msgid "IoT Devices"
-msgstr ""
+msgstr "IoT 设备"
 
 #: ../../en/iot-devices/index.rst:4 65453bf4be6f40fe894241f4e09bc321
 msgid ""
 "There is some support for M5Stack IoT devices. You can use the following "
 "modules to control them."
-msgstr ""
-"支持一些M5Stack物联网设备。您可以使用以下模块来控制它们。"
+msgstr "支持一些M5Stack物联网设备。您可以使用以下模块来控制它们。"
 
 #: ../../en/iot-devices/index.rst:7 0393e339983241d5bb9915982043cb93
 msgid "Modules"
-msgstr ""
+msgstr "模块"
 

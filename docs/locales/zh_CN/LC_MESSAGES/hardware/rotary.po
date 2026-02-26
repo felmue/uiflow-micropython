@@ -23,7 +23,7 @@ msgstr ""
 #: ../../en/hardware/rotary.rst:2 ../../en/hardware/rotary.rst:15
 #: a9e41cc63f4c465183b0629fe1d216d5 d8dcce335df44cbb84a48a6f9483acfe
 msgid "Rotary"
-msgstr ""
+msgstr "旋转编码器"
 
 #: ../../en/hardware/rotary.rst:7 a595e85d9c9c43ffbf5b9fae8cd2df36
 msgid ""
@@ -33,11 +33,11 @@ msgstr "Rotary 用于控制主机内部集成的旋转编码器。以下是主�
 
 #: ../../en/hardware/rotary.rst:15 54173d5e34e54397aa68f6268ec431c7
 msgid "Controller"
-msgstr ""
+msgstr "Controller"
 
 #: ../../en/hardware/rotary.rst:17 a4071766916d48a0bfc9e662c8554303
 msgid "Dial"
-msgstr ""
+msgstr "拨号"
 
 #: ../../en/hardware/rotary.rst:17 ../../en/hardware/rotary.rst:19
 #: 5500ab0f464a43bc9f54989e8e6f6282 edc00f31722c428d97f2626171ab7002
@@ -46,15 +46,15 @@ msgstr ""
 
 #: ../../en/hardware/rotary.rst:19 7e81ed1185ef4c6b8d81c05139ee1ce3
 msgid "DinMeter"
-msgstr ""
+msgstr "DinMeter"
 
 #: ../../en/hardware/rotary.rst:25 aef4f705e0c34fda8f55c2ffca24da0b
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/hardware/rotary.rst:32 9814da87b82a4b569ee83279c48218d0
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/hardware/rotary.rst:34 b55ce625c6bb41ca8989787855371a85
 msgid "|example.png|"
@@ -70,11 +70,11 @@ msgstr ""
 
 #: ../../en/hardware/rotary.rst:43 6051678ecd4e4c9c90866cbf55113174
 msgid "class Rotary"
-msgstr ""
+msgstr "class Rotary"
 
 #: ../../en/hardware/rotary.rst:46 0055c36dcf444c0f89a314bb5cd2c623
 msgid "Constructors"
-msgstr ""
+msgstr "构造函数"
 
 #: ../../en/hardware/rotary.rst:50 1fd09e005a35491e9938f00416e88991
 msgid "Creates a Rotary object."
@@ -87,7 +87,7 @@ msgstr "创建一个 Rotary 对象。"
 #: 6603f1bcc92e41e1ab04c90eaf734bf5 7b2e4cb06527444596a67e41af6315c6
 #: a07d344d353b4d5fa3acea8bc8759ab1 b5f475037ea94b69a759755831fdaa86
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/hardware/rotary.rst:54 675edfec4f3f43d5ad6082f3965622e9
 msgid "|init.png|"

@@ -22,33 +22,33 @@ msgstr ""
 
 #: ../../en/hardware/adc.rst:2 b09c8435bc044d0795504a19849d947e
 msgid "ADC (analog to digital conversion)"
-msgstr ""
+msgstr "ADC（模数转换）"
 
 #: ../../en/hardware/adc.rst:7 08620cab91304124b239bef677e82f30
 msgid ""
 "On the ESP32 chip, ADC functionality is available on pins 32-39 (ADC "
 "channel 1) and pins 0, 2, 4, 12-15 and 25-27 (ADC channel 2)."
-msgstr ""
+msgstr "在 ESP32 芯片上，ADC 功能可用的引脚为 32-39（ADC 通道 1）以及 0、2、4、12-15 和 25-27（ADC 通道 2）。"
 
 #: ../../en/hardware/adc.rst:10 855ec64e41d6449bbfe8623e78564656
 msgid ""
 "On the ESP32S3 chip, ADC functionality is available on pins 1-10 (ADC "
 "channel 1) and pins 11-14 and 17-20 (ADC block 2)."
-msgstr ""
+msgstr "在 ESP32S3 芯片上，ADC 功能可用于引脚 1-10（ADC 通道 1）以及引脚 11-14 和 17-20（ADC 块 2）。"
 
 #: ../../en/hardware/adc.rst:13 1ea507908cb640cc807e98aedae7005f
 msgid ""
 "ADC channel 2 is also used by WiFi and so attempting to read analog "
 "values from channel 2 pins when WiFi is active will raise an exception."
-msgstr ""
+msgstr "ADC 通道 2 也会被 WiFi 使用，因此当 WiFi 处于活动状态时，尝试从通道 2 引脚读取模拟值将会引发异常。"
 
 #: ../../en/hardware/adc.rst:17 e41a002cb8db4d74bdde96eccf58a1d4
 msgid "Micropython Example:"
-msgstr ""
+msgstr "MicroPython 应用示例："
 
 #: ../../en/hardware/adc.rst:23 b7a3dd70805d46b3948766c4225e4a6e
 msgid "UIFLOW2 Example:"
-msgstr ""
+msgstr "UiFlow2 应用示例："
 
 #: ../../en/hardware/adc.rst:25 6c25595565f242b9afafaf666413ad4b
 msgid "|example.png|"
@@ -64,37 +64,37 @@ msgstr ""
 
 #: ../../en/hardware/adc.rst:33 750a728b0c7342c28d88ab0cdba52f37
 msgid "class ADC"
-msgstr ""
+msgstr "class ADC"
 
 #: ../../en/hardware/adc.rst:37 227c7d3757c44e8eb06db52dbd2654e3
 msgid ""
 "Return the ADC object for the specified pin. ESP32 does not support "
 "different timings for ADC sampling and so the ``sample_ns`` keyword "
 "argument is not supported."
-msgstr ""
+msgstr "返回指定引脚的 ADC 对象。ESP32 不支持 ADC 采样的不同定时，因此不支持 ``sample_ns`` 关键字参数。"
 
 #: ../../en/hardware/adc.rst:41 44b48ff2fe6f412aaaab81b4dd834abc
 msgid ""
 "To read voltages above the reference voltage, apply input attenuation "
 "with the ``atten`` keyword argument. Valid values (and approximate linear"
 " measurement ranges) are:"
-msgstr ""
+msgstr "要读取高于参考电压的电压，请使用 ``atten`` 关键字参数对输入进行衰减。有效值（以及近似的线性测量范围）如下："
 
 #: ../../en/hardware/adc.rst:45 c68df92e6fb1483e8394c1af90483f17
 msgid "``ADC.ATTN_0DB``: No attenuation (100mV - 950mV)"
-msgstr ""
+msgstr "``ADC.ATTN_0DB``：无衰减（100 mV - 950 mV）。"
 
 #: ../../en/hardware/adc.rst:46 a7cb5b8ea0d04d62a5c52ce8108c6432
 msgid "``ADC.ATTN_2_5DB``: 2.5dB attenuation (100mV - 1250mV)"
-msgstr ""
+msgstr "``ADC.ATTN_2_5DB``：2.5 dB 衰减（100 mV - 1250 mV）。"
 
 #: ../../en/hardware/adc.rst:47 1805bb44887949e9866cf41bc8c75fb0
 msgid "``ADC.ATTN_6DB``: 6dB attenuation (150mV - 1750mV)"
-msgstr ""
+msgstr "``ADC.ATTN_6DB``：6 dB 衰减（150 mV - 1750 mV）"
 
 #: ../../en/hardware/adc.rst:48 6197cc61236d438d88f514f6f1ef6fef
 msgid "``ADC.ATTN_11DB``: 11dB attenuation (150mV - 2450mV)"
-msgstr ""
+msgstr "``ADC.ATTN_11DB``：11 dB 衰减（150 mV - 2450 mV）"
 
 #: ../../en/hardware/adc.rst:50 ../../en/hardware/adc.rst:65
 #: ../../en/hardware/adc.rst:75 ../../en/hardware/adc.rst:91
@@ -103,7 +103,7 @@ msgstr ""
 #: 2ab4f219a8814acd938bf0343410cd4d ae39492ddc2f464280ca0a185900b6dc
 #: e90533f5dcc842ab99c17dcb7779b6b6 ec914fa93a034b6583a7583645da2006
 msgid "UIFLOW2:"
-msgstr ""
+msgstr "UIFLOW2："
 
 #: ../../en/hardware/adc.rst:52 5ef6b01805d7415a92cd29c2365dd081
 msgid "|init.png|"
@@ -117,7 +117,7 @@ msgstr ""
 msgid ""
 "Note that the absolute maximum voltage rating for input pins is 3.6V. "
 "Going near to this boundary risks damage to the IC!"
-msgstr ""
+msgstr "请注意，输入引脚的绝对最大额定电压为 3.6V。接近该边界有损坏 IC 的风险！"
 
 #: ../../en/hardware/adc.rst:59 b6ec8ea3a5ea4b43a490983fd8344465
 msgid "Methods"
@@ -127,7 +127,7 @@ msgstr ""
 msgid ""
 "This method returns the raw ADC value ranged according to the resolution "
 "of the block, e.g., 0-4095 for 12-bit resolution."
-msgstr ""
+msgstr "该方法返回原始 ADC 值，其范围根据该块的分辨率而定，例如 12 位分辨率为 0-4095。"
 
 #: ../../en/hardware/adc.rst:67 1aeb05601da54450829086bcffa23871
 msgid "|read.png|"
@@ -142,7 +142,7 @@ msgid ""
 "Take an analog reading and return an integer in the range 0-65535. The "
 "return value represents the raw reading taken by the ADC, scaled such "
 "that the minimum value is 0 and the maximum value is 65535."
-msgstr ""
+msgstr "执行一次模拟读取，并返回范围为 0-65535 的整数。返回值表示 ADC 采集的原始读数，并经过缩放处理，使最小值为 0，最大值为 65535。"
 
 #: ../../en/hardware/adc.rst:77 03afbb4a796b4d3c943f3ce178d7ad20
 msgid "|read_u16.png|"
@@ -160,6 +160,8 @@ msgid ""
 "millivolt resolution (i.e., will always be a multiple of 1000 "
 "microvolts)."
 msgstr ""
+"该方法利用 ADC 的已知特性以及每个封装在制造时设置的 eFuse "
+"值，返回经校准的输入电压（衰减前），单位为微伏。返回值只有毫伏分辨率（即始终为 1000 微伏的整数倍）。"
 
 #: ../../en/hardware/adc.rst:86 30cc9cede5fe4e01ab145aa20a486b03
 msgid ""
@@ -169,6 +171,8 @@ msgid ""
 "consistent results will be obtained than using `read_u16()` and scaling "
 "the result with a constant."
 msgstr ""
+"校准仅在 ADC 的线性范围内有效。特别是，将输入端接地时，读数将会是高于 0 微伏的值。然而，在线性范围内，相较于使用 `read_u16()`"
+" 并用常量对结果进行缩放，将获得更准确且更一致的结果。"
 
 #: ../../en/hardware/adc.rst:93 c40ba7bc731d4fbf96c0dd7629a84adb
 msgid "|read_uv.png|"
@@ -180,7 +184,7 @@ msgstr ""
 
 #: ../../en/hardware/adc.rst:97 877a0ffc61c642f180e723ae8deadd4c
 msgid "Equivalent to ``ADC.init(atten=atten)``."
-msgstr ""
+msgstr "等同于 ``ADC.init(atten=atten)``。"
 
 #: ../../en/hardware/adc.rst:101 3f5c86caa23540a4b0734f1551cea149
 msgid "|atten.png|"
@@ -192,29 +196,29 @@ msgstr ""
 
 #: ../../en/hardware/adc.rst:105 2ff0c6b22346439ba5d12ce17a72da5e
 msgid "Equivalent to ``ADC.block().init(bits=bits)``."
-msgstr ""
+msgstr "等同于 ``ADC.block().init(bits=bits)``。"
 
 #: ../../en/hardware/adc.rst:107 f8c05d217181466cbdb042125ee6ec4c
 msgid ""
 "For compatibility, the ``ADC`` object also provides constants matching "
 "the supported ADC resolutions:"
-msgstr ""
+msgstr "为兼容性考虑，``ADC`` 对象还提供与所支持的 ADC 分辨率相匹配的常量："
 
 #: ../../en/hardware/adc.rst:110 8c8c770d76db41da8b8f93644520f932
 msgid "``ADC.WIDTH_9BIT`` = 9"
-msgstr ""
+msgstr "``ADC.WIDTH_9BIT`` = 9"
 
 #: ../../en/hardware/adc.rst:111 1534b7ca699b4d889d358928a3b69d66
 msgid "``ADC.WIDTH_10BIT`` = 10"
-msgstr ""
+msgstr "``ADC.WIDTH_10BIT`` = 10"
 
 #: ../../en/hardware/adc.rst:112 7b997dd6501b4551a14f6b3926d45abb
 msgid "``ADC.WIDTH_11BIT`` = 11"
-msgstr ""
+msgstr "``ADC.WIDTH_11BIT`` = 11"
 
 #: ../../en/hardware/adc.rst:113 3c5ebcc1961d4d24a58c02df93a5a641
 msgid "``ADC.WIDTH_12BIT`` = 12"
-msgstr ""
+msgstr "``ADC.WIDTH_12BIT`` = 12"
 
 #: ../../en/hardware/adc.rst:117 c18be24ba65844738e1b9991e658ce41
 msgid "|width.png|"

@@ -18,9 +18,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../en/controllers/stamps3.rst:2 cf52ec72b8f64b4f89caa9963ea96a69
 msgid "StampS3"
-msgstr ""
+msgstr "StampS3"
 

@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 18:05+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/unit/dac.rst:2 fe7176ee6df948dab501cf761ef91e0e
+msgid "DAC Unit"
+msgstr "DAC Unit"
+
+#: ../../source/unit/dac.rst:6 e93f24c7df5a48ac9ff6b7fa2e063b9b
+msgid ""
+"The `Dac2` class interfaces with a GP8413 15-bit Digital to Analog "
+"Converter (DAC), capable of converting digital signals into two channels "
+"of analog voltage output, ranging from 0-5V and 0-10V."
+msgstr ""
+"`Dac2` 类用于与 GP8413 15 位数模转换器（DAC）进行接口通信，可将数字信号转换为两路模拟电压输出，输出范围为 0-5V 和 "
+"0-10V。"
+
+#: ../../source/unit/dac.rst:8 ec3817f99dd14c7cb0499fed597ddcb4
+msgid "Support the following products:"
+msgstr "支持以下产品："
+
+#: ../../source/unit/dac.rst:10 d18660759ff3445bac1dd562b1d67f05
+msgid "|DACUnit|"
+msgstr ""
+
+#: ../../source/refs/unit.dac.ref 988d151a8f0249eda0899ba0c11cb854
+msgid "DACUnit"
+msgstr "DACUnit"
+
+#: ../../source/unit/dac.rst:13 be525b2dcdcc47b88bb3eecbc108f220
+msgid "Micropython Example:"
+msgstr "MicroPython 应用示例："
+
+#: ../../source/unit/dac.rst:20 8bebcbeaaf0347a6acc7b80e1430e6cc
+msgid "UIFLOW2 Example:"
+msgstr "UiFlow2 应用示例"
+
+#: ../../source/unit/dac.rst:22 a186fec3fbe3497283aa0543c02a028e
+msgid "|example.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dac.ref:6 bb49d166b9354634a6e74ca3813d6ecb
+msgid "example.png"
+msgstr ""
+
+#: ../../source/unit/dac.rst:27 021b26ce75994956be99f05b1587bfe9
+msgid "|dac_core_example.m5f2|"
+msgstr ""
+
+#: ../../source/unit/dac.rst:31 90fa9d721f664bf7aa190c7c32cbc7cd
+msgid "class DACUnit"
+msgstr "class DACUnit"
+
+#: ../../source/unit/dac.rst:34 998b0c3e64e041d98b7ef58866062c5b
+msgid "Constructors"
+msgstr ""
+
+#: ../../source/unit/dac.rst:38 eeefd3fe59c442d08d3372cac3360fb5
+msgid "Create an DACUnit object."
+msgstr "创建一个 DACUnit 对象。"
+
+#: ../../source/unit/dac.rst 0f8c64a14c59443780a0c33c2f527e17
+#: 7005b1096d00434d955019b990226dc2 a3a831e1d7b14761820c0b5045b2c355
+#: dacf4a79fda64fdbb93d7cb008fd6594 dfdcf03d8bca42e08c377a6f79ed8b20
+msgid "Parameters"
+msgstr ""
+
+#: ../../source/unit/dac.rst:40 3cdd0af14f7b403c8b888f721b0746a8
+msgid "I2C object"
+msgstr "I2C 对象"
+
+#: ../../source/unit/dac.rst:41 d8618e3b4dba4351ac85ca5e46687159
+msgid "I2C address"
+msgstr "I2C 地址"
+
+#: ../../source/unit/dac.rst:42 867826349d1e4372bf404f1963e9f9d6
+msgid "Supply voltage"
+msgstr "供电电压"
+
+#: ../../source/unit/dac.rst:43 86abde6c74c34e8a9c05436a9eaccc13
+msgid "Output voltage"
+msgstr "输出电压"
+
+#: ../../source/unit/dac.rst:45 ../../source/unit/dac.rst:61
+#: ../../source/unit/dac.rst:72 ../../source/unit/dac.rst:83
+#: ../../source/unit/dac.rst:94 ../../source/unit/dac.rst:105
+#: ../../source/unit/dac.rst:116 ../../source/unit/dac.rst:127
+#: ../../source/unit/dac.rst:138 ../../source/unit/dac.rst:146
+#: 300bee5ec49340ff882e13538ec45e46 3bd8ba2a1ba34b5885cd912143f76d0c
+#: 49c204d720b24476868895adac14a097 4bb06be9e3a146acb1062dd15d9da0be
+#: 677fc2f2443b47ca9aa52df8c3a0138e 974e914384ab4585a037c4735a975dce
+#: e232b05f2c384e128d6faea1b54ec1be e6a4b48551434413938eb819a2ff81f4
+#: e88de89afd5c4fbf87aa326844dd182e f892f617a4b44ea9a1d8c5990c27a128
+msgid "UIFLOW2:"
+msgstr "UIFLOW2:"
+
+#: ../../source/unit/dac.rst:47 f2a0d9d05ae94eb49956173a1512aed5
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dac.ref:8 70e899501895441f8ee56f370d728fba
+msgid "init.png"
+msgstr ""
+
+#: ../../source/unit/dac.rst:53 72702dfa52354a2e95572cc7ce1b151c
+msgid "Methods"
+msgstr ""
+
+#: ../../source/unit/dac.rst:57 502f3be743c241e8a6502e38bd69950f
+msgid "Get the current value of the DAC."
+msgstr "获取 DAC 的当前值。"
+
+#: ../../source/unit/dac.rst 0e5503d51c684404945a87b93467cf4b
+#: 310bca0313a84bf9a9a4a65e87e50b4e 78ab7725cc404c5a937b0ae0244cc444
+#: a14bed91604340779dd018c2a764169a
+msgid "Returns"
+msgstr ""
+
+#: ../../source/unit/dac.rst:59 ../../source/unit/dac.rst:81
+#: 2383dae3adc347c3aae28d637fb8b32f b800f1fec1324788b516377e2921fa4a
+msgid "The DAC value as a 16-bit unsigned value."
+msgstr "DAC 值，16 位无符号值。"
+
+#: ../../source/unit/dac.rst:63 67d493d8980f4edbad6b661b8b7baed5
+msgid "|get_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dac.ref:10 12a1a5adf7bb487999de2e63d0e68226
+msgid "get_value.png"
+msgstr ""
+
+#: ../../source/unit/dac.rst:68 d716e304958a4b36a2cce400a638223f
+msgid "Get the current voltage of the DAC."
+msgstr "获取 DAC 的当前电压。"
+
+#: ../../source/unit/dac.rst:70 798a87f1ceff4159bead6eda5af406e2
+msgid "The DAC voltage as a float."
+msgstr "DAC 电压值（float）。"
+
+#: ../../source/unit/dac.rst:74 93f5ed5101b04820b41337c3c58a5869
+msgid "|get_voltage.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dac.ref:12 950fe9f38e274c49a368787ebd82f8b5
+msgid "get_voltage.png"
+msgstr ""
+
+#: ../../source/unit/dac.rst:79 38ad5a94e9ce4e688ff5ef06696073d5
+msgid "Set the value of the DAC."
+msgstr "设置 DAC 的值。"
+
+#: ../../source/unit/dac.rst:85 08f6d063867244c0a6129fb84b057c2c
+msgid "|set_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dac.ref:14 b31c80be6e534124932b70e3caa81e78
+msgid "set_value.png"
+msgstr ""
+
+#: ../../source/unit/dac.rst:90 e8fb918a0e3d4daea01375fc2690f039
+msgid "Set the voltage of the DAC."
+msgstr "设置 DAC 的电压。"
+
+#: ../../source/unit/dac.rst:92 a3af449e3c2e43adbaf7b446e56d6f46
+msgid "The DAC voltage as a float. The voltage must be between 0 and 3.3V."
+msgstr "以 float 表示的 DAC 电压。电压必须在 0 到 3.3 V 之间。"
+
+#: ../../source/unit/dac.rst:96 7d6b4625e0cf4e6e8c03db7088c17cab
+msgid "|set_voltage.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dac.ref:16 ec449a0bd9ce47aabbe050877895ba78
+msgid "set_voltage.png"
+msgstr ""
+
+#: ../../source/unit/dac.rst:101 56cefd7481a743849eae219b19378d72
+msgid "Get the raw value of the DAC."
+msgstr "获取 DAC 的原始值。"
+
+#: ../../source/unit/dac.rst:103 ../../source/unit/dac.rst:114
+#: ab6f5fc92d2c452aa30f9228aa94c627 ea1d65f1cdc848be9988a3e371814796
+msgid "The raw DAC value as a 12-bit unsigned value."
+msgstr "原始 DAC 值，作为 12 位无符号值。"
+
+#: ../../source/unit/dac.rst:107 994075ce3eda49baa7d8a89c868f43aa
+msgid "|get_raw_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dac.ref:18 51939120901d46248808f4fd9df4396b
+msgid "get_raw_value.png"
+msgstr ""
+
+#: ../../source/unit/dac.rst:112 e180b20957bf43e6965067265211cb37
+msgid "Set the raw value of the DAC."
+msgstr "设置 DAC 的原始值。"
+
+#: ../../source/unit/dac.rst:118 b40ba14dbffe470aa67fe0b8f200478d
+msgid "|set_raw_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dac.ref:20 e5527df6049d44009fc5a771730131b3
+msgid "set_raw_value.png"
+msgstr ""
+
+#: ../../source/unit/dac.rst:123 574738e683ed4118bfecf5d749a9379e
+msgid "Get the normalized value of the DAC."
+msgstr "获取 DAC 的归一化值。"
+
+#: ../../source/unit/dac.rst:125 ../../source/unit/dac.rst:136
+#: 3e0e61eaff144244a3a8e01dc9d5d226 fd9d0d0fb5be4c25834f9f6c2dd0c7bc
+msgid "The normalized DAC value as a float."
+msgstr "归一化后的 DAC 值（float）。"
+
+#: ../../source/unit/dac.rst:129 de00969cc6ad4c2c804aa52e878a551b
+msgid "|get_normalized_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dac.ref:22 8334b2feba404abf8dc8322243b1c441
+msgid "get_normalized_value.png"
+msgstr ""
+
+#: ../../source/unit/dac.rst:134 bad06fe4a5ae404590a4af33921ff752
+msgid "Set the normalized value of the DAC."
+msgstr "设置 DAC 的归一化值。"
+
+#: ../../source/unit/dac.rst:140 5949fc3d93084ddebdf03ab41bbe8335
+msgid "|set_normalized_value.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dac.ref:24 431854f085a24f5fa157c3796e18d10e
+msgid "set_normalized_value.png"
+msgstr ""
+
+#: ../../source/unit/dac.rst:144 be7aa2d6932c4ccdb2ec945199efcb04
+msgid "Save the current DAC value to EEPROM."
+msgstr "将当前 DAC 值保存到 EEPROM。"
+
+#: ../../source/unit/dac.rst:148 2d59e4bdbbcf4b409d16cebfb69c43d8
+msgid "|save_to_eeprom.png|"
+msgstr ""
+
+#: ../../source/refs/unit.dac.ref:26 de7cb2e75c634541a9128f0080066430
+msgid "save_to_eeprom.png"
+msgstr ""
+

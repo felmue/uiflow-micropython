@@ -21,9 +21,8 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 #: ../../en/advanced/usb/device/keyboard.rst:2 320c4308d78941adb17bb0f4c976cb27
-#, fuzzy
 msgid "keyboard"
-msgstr "usb 键盘"
+msgstr "键盘"
 
 #: ../../en/advanced/usb/device/keyboard.rst:6 849d3c4f3b0145f28a5a56fc1d066a8c
 msgid "usb device keyboard"
@@ -37,13 +36,13 @@ msgstr "当前模块只适用于 CoreS3 主机"
 #: ../../en/advanced/usb/device/keyboard.rst:14
 #: 541fd2cb02cc4088bfcb4cb617672b60
 msgid "Micropython Example"
-msgstr "Micropython 案例"
+msgstr "MicroPython 应用示例"
 
 #: ../../en/advanced/usb/device/keyboard.rst:17
 #: ../../en/advanced/usb/device/keyboard.rst:27
 #: c8cf74461693455c813717eab2095ec0 d86ec18243464404861e6c5ee518ff35
 msgid "USB keyboard"
-msgstr "usb 键盘"
+msgstr "USB 键盘"
 
 #: ../../en/advanced/usb/device/keyboard.rst:24
 #: ac8605afc7ce45dc816a9ddfe772bdad
@@ -68,7 +67,7 @@ msgstr ""
 #: ../../en/advanced/usb/device/keyboard.rst:37
 #: 1b7ce9a7f6254c2785a38b297cd92c28
 msgid "class Keyboard"
-msgstr ""
+msgstr "class Keyboard"
 
 #: ../../en/advanced/usb/device/keyboard.rst:41
 #: eb539f6ea691481e8d4a7775046da08a
@@ -84,7 +83,7 @@ msgstr "创建 Keyboard 对象"
 #: 87bb2d8a870647109c499a7048c236e8 c95264c4c3e443fc845de883b4f0deec
 #: e2c145978c574d16a2c5d72a8657e519
 msgid "UIFlow2.0"
-msgstr ""
+msgstr "UIFlow2.0"
 
 #: ../../en/advanced/usb/device/keyboard.rst:45
 #: 137f6be3ee42445588c67d8c39841e47
@@ -106,56 +105,56 @@ msgstr "设置修饰键"
 msgid ""
 "``right_gui`` The state of the right-side GUI key. True indicates that "
 "the key is pressed."
-msgstr "``right_gui`` 右侧 GUI 键状态，True 表示按下。"
+msgstr "``right_gui`` 右侧 GUI 按键的状态。True 表示该按键已被按下。"
 
 #: ../../en/advanced/usb/device/keyboard.rst:53
 #: a58746b617754f9ba542063bc8606b3b
 msgid ""
 "``right_alt`` The state of the right-side Alt key. True indicates that "
 "the key is pressed."
-msgstr "``right_alt`` 右侧 Alt 键状态，True 表示按下。"
+msgstr "``right_alt`` 右侧 Alt 键的状态。True 表示该键已被按下。"
 
 #: ../../en/advanced/usb/device/keyboard.rst:54
 #: e93b157c50c34b90a8d8005a0d8f85a3
 msgid ""
 "``right_shift`` The state of the right-side Shift key. True indicates "
 "that the key is pressed."
-msgstr "``right_shift`` 右侧 Shift 键状态，True 表示按下。"
+msgstr "``right_shift`` 右侧 Shift 键的状态。True 表示该键已被按下。"
 
 #: ../../en/advanced/usb/device/keyboard.rst:55
 #: dee4dd85f2d94726b399a8ec07209644
 msgid ""
 "``right_ctrl`` The state of the right-side Ctrl key. True indicates that "
 "the key is pressed."
-msgstr "``right_ctrl`` 右侧 Ctrl 键状态，True 表示按下。"
+msgstr "``right_ctrl`` 右侧 Ctrl 键的状态。True 表示该键已被按下。"
 
 #: ../../en/advanced/usb/device/keyboard.rst:56
 #: 63fe22ce302e49a49822009db997b631
 msgid ""
 "``left_gui`` The state of the left-side GUI key. True indicates that the "
 "key is pressed."
-msgstr "``left_gui`` 左侧 GUI 键状态，True 表示按下。"
+msgstr "``left_gui`` 左侧 GUI 按键的状态。True 表示该按键已被按下。"
 
 #: ../../en/advanced/usb/device/keyboard.rst:57
 #: 1505ac4169e74cd08b8045d6d5b09dbc
 msgid ""
 "``left_alt`` The state of the left-side Alt key. True indicates that the "
 "key is pressed."
-msgstr "``left_alt`` 左侧 Alt 键状态，True 表示按下。"
+msgstr "``left_alt`` 左侧 Alt 键的状态。True 表示该键已被按下。"
 
 #: ../../en/advanced/usb/device/keyboard.rst:58
 #: d5272b60d1bd45eba0b1952d8c547a53
 msgid ""
 "``left_shift`` The state of the left-side Shift key. True indicates that "
 "the key is pressed."
-msgstr "``left_shift`` 左侧 Shift 键状态，True 表示按下。"
+msgstr "``left_shift`` 左侧 Shift 键的状态。True 表示该键已被按下。"
 
 #: ../../en/advanced/usb/device/keyboard.rst:59
 #: 7551e2a0b3ff49aba95dd9124d013536
 msgid ""
 "``left_ctrl``  The state of the left-side Ctrl key. True indicates that "
 "the key is pressed."
-msgstr "``left_ctrl`` 左侧 Ctrl 键状态，True 表示按下。"
+msgstr "``left_ctrl`` 左侧 Ctrl 键的状态。True 表示该键已被按下。"
 
 #: ../../en/advanced/usb/device/keyboard.rst 8e6040e65d314b5cbecbb0324d79d321
 #: 91bd0315ffb14044b9b64e41e9b5564a
@@ -240,7 +239,7 @@ msgstr "``key`` 支持 ASCII 范围字符串，或者使用 KeyCode"
 #: ../../en/advanced/usb/device/keyboard.rst:114
 #: f5cd08ea3fe44ce1bc5596bad52cb326
 msgid "example::"
-msgstr ""
+msgstr "example::"
 
 #: ../../en/advanced/usb/device/keyboard.rst:121
 #: d51ec366a06d44e1a45349a3735bcc38
