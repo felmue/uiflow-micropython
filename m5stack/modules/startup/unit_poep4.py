@@ -12,7 +12,25 @@ import M5Things
 from . import Startup
 
 
-# PowerHub startup menu
+_ETH_STATUS_MAP = {
+    network.ETH_STARTED: "ETH_STARTED",
+    network.ETH_CONNECTED: "ETH_CONNECTED",
+    network.ETH_DISCONNECTED: "ETH_DISCONNECTED",
+    network.ETH_STOPPED: "ETH_STOPPED",
+    network.ETH_GOT_IP: "ETH_GOT_IP",
+}
+
+_M5THINGS_STATUS_MAP = {
+    -2: "SNTP_ERR",
+    -1: "CONNECT_ERR",
+    0: "STANDBY",
+    1: "CONNECTING",
+    2: "CONNECTED",
+    3: "DISCONNECT",
+}
+
+
+# Unit PoEP4 startup menu
 class Unit_PoEP4_Startup:
     def __init__(self) -> None:
         pass
@@ -54,16 +72,26 @@ class Unit_PoEP4_Startup:
             gateway=gateway,
             dns=dns,
         ):
-            status = self._net_if.connect_status()
-            if status is network.ETH_GOT_IP:
-                print("Local IP: " + self._net_if.local_ip())
-                print("=======================")
-                print("Pair Code: " + M5Things.paircode())
-                print("=======================")
-                self._unit_poep4_rgb_show("green")
-            else:
-                self._unit_poep4_rgb_show("yellow")
-                print("Connect Failed", "Status Code: " + str(status))
+            success = False
+            self._unit_poep4_rgb_show("yellow")
+            for _ in range(10):
+                time.sleep(1)
+                eth_status = self._net_if.connect_status()
+                if eth_status is network.ETH_GOT_IP:
+                    pair_code = M5Things.paircode()
+                    if pair_code != "":
+                        print("Local IP: " + self._net_if.local_ip())
+                        print("=======================")
+                        print("Pair Code: " + pair_code)
+                        print("=======================")
+                        self._unit_poep4_rgb_show("green")
+                        success = True
+                        break
+            if not success:
+                print(
+                    f"[NET] ETH: {self.eth_status_str(eth_status)} | "
+                    f"MQTT: {self.m5things_status_str(M5Things.status())}"
+                )
         else:
             self._unit_poep4_rgb_show("blue")
             print("Not Found", "Please use M5Burner setup :)")
@@ -92,3 +120,9 @@ class Unit_PoEP4_Startup:
         self._poep4_led["r"].value(r)
         self._poep4_led["g"].value(g)
         self._poep4_led["b"].value(b)
+
+    def eth_status_str(self, status):
+        return _ETH_STATUS_MAP.get(status, f"UNKNOWN({status})")
+
+    def m5things_status_str(self, status):
+        return _M5THINGS_STATUS_MAP.get(status, f"UNKNOWN({status})")
