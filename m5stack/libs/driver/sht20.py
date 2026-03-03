@@ -73,6 +73,36 @@ class SHT20:
         self._i2c.writeto(self._address, bytes([_SOFTRESET]))
         time.sleep(0.015)
 
+    def get_serial_number(self):
+        serial = bytearray(8)
+
+        try:
+            self._i2c.writeto(self._address, bytes([0xFA, 0x0F]))
+            buf1 = self._i2c.readfrom(self._address, 8)
+            serial[5] = buf1[0]  # SNB_3
+            serial[4] = buf1[2]  # SNB_2
+            serial[3] = buf1[4]  # SNB_1
+            serial[2] = buf1[6]  # SNB_0
+
+            self._i2c.writeto(self._address, bytes([0xFC, 0xC9]))
+            buf2 = self._i2c.readfrom(self._address, 6)
+            serial[1] = buf2[0]  # SNC_1
+            serial[0] = buf2[1]  # SNC_0
+            serial[7] = buf2[3]  # SNA_1
+            serial[6] = buf2[4]  # SNA_0
+            return serial
+
+        except OSError as e:
+            print("I2C error:", e)
+            return None
+
+    def print_serial_number(self):
+        sn = self.get_serial_number()
+        if sn:
+            return "".join("{:02X}".format(b) for b in sn)
+        else:
+            print("Failed to read serial number")
+
     @property
     def temperature(self) -> float:
         """The measured temperature in Celsius."""
