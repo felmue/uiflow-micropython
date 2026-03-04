@@ -370,7 +370,7 @@ mp_obj_t m5_add_display(mp_obj_t i2c_bus_in, mp_obj_t addr_in, mp_obj_t dict) {
                 mp_load_method_maybe(i2c_bus_in, MP_QSTR_writeto, cfg.writeto_method);
 
                 MPY_M5UnitOLED dsp(cfg);
-                if (dsp.init()) {
+                if (dsp.init(cfg.i2c_addr)) {
                     M5.addDisplay(dsp);
                     mp_printf(&mp_plat_print, "unit_oled added\n");
                 } else {
@@ -383,7 +383,7 @@ mp_obj_t m5_add_display(mp_obj_t i2c_bus_in, mp_obj_t addr_in, mp_obj_t dict) {
                 mp_load_method_maybe(i2c_bus_in, MP_QSTR_writeto, cfg.writeto_method);
 
                 MPY_M5UnitMiniOLED dsp(cfg);
-                if (dsp.init()) {
+                if (dsp.init(cfg.i2c_addr)) {
                     M5.addDisplay(dsp);
                     mp_printf(&mp_plat_print, "unit_mini_oled added\n");
                 } else {
@@ -399,6 +399,7 @@ mp_obj_t m5_add_display(mp_obj_t i2c_bus_in, mp_obj_t addr_in, mp_obj_t dict) {
                 cfg.pin_sda = i2c_bus->sda;
 
                 M5UnitGLASS dsp(cfg);
+                if (dsp.init()) {
                 #else
                 MPY_M5UnitGLASS::config_t cfg;
                 cfg.i2c_addr = addr;
@@ -406,8 +407,8 @@ mp_obj_t m5_add_display(mp_obj_t i2c_bus_in, mp_obj_t addr_in, mp_obj_t dict) {
                 mp_load_method_maybe(i2c_bus_in, MP_QSTR_writeto, cfg.writeto_method);
 
                 MPY_M5UnitGLASS dsp(cfg);
-                #endif
-                if (dsp.init()) {
+                if (dsp.init(cfg.i2c_addr)) {
+                    #endif
                     M5.addDisplay(dsp);
                     mp_printf(&mp_plat_print, "unit_glass added\n");
                 } else {
@@ -420,7 +421,7 @@ mp_obj_t m5_add_display(mp_obj_t i2c_bus_in, mp_obj_t addr_in, mp_obj_t dict) {
                 mp_load_method_maybe(i2c_bus_in, MP_QSTR_writeto, cfg.writeto_method);
 
                 MPY_M5UnitGLASS2 dsp(cfg);
-                if (dsp.init()) {
+                if (dsp.init(cfg.i2c_addr)) {
                     M5.addDisplay(dsp);
                     mp_printf(&mp_plat_print, "unit_glass2 added\n");
                 } else {
