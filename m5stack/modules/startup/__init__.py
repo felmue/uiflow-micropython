@@ -329,7 +329,16 @@ def startup(boot_opt, timeout: int = 60) -> None:
 
     # Only connect to network, not show any menu
     elif boot_opt is BOOT_OPT_NETWORK:
-        startup = Startup()
-        startup.connect_network(ssid, pswd)
+        startup = Startup(network_type=net_mode)
+        lan_if = None
+        if board_id == M5.BOARD.M5Unit_PoEP4:
+            from driver.ip101gri import IP101GRI
+
+            lan_if = IP101GRI(mdc_pin=31, mdio_pin=52, power_pin=51)
+        elif board_id == M5.BOARD.M5StamPLC:
+            from stamplc import PoEStamPLC
+
+            lan_if = PoEStamPLC()
+        startup.connect_network(ssid, pswd, lan_if)
     else:
         print("Boot options not processed.")
