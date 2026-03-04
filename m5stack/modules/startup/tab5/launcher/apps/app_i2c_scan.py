@@ -55,10 +55,10 @@ class AppI2cScan(AppBase):
         while True:
             await asyncio.sleep_ms(100)
             if self._update_internal:
-                self._update_addr_labels(0, get_hal().i2c_scan(0))
+                self._update_addr_labels(0, get_hal().i2c_scan(1))
                 self._update_internal = False
             if self._update_port_a:
-                self._update_addr_labels(1, get_hal().i2c_scan(1))
+                self._update_addr_labels(1, get_hal().i2c_scan(0))
                 self._update_port_a = False
 
     def _handle_scan_port_a(self, e: lv.event_t):

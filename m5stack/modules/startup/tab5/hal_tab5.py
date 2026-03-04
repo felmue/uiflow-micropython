@@ -192,12 +192,10 @@ class HALTab5(HALBase):
         return self._wifi.network.scan()
 
     def i2c_init(self):
-        # self._i2c_0 = I2C(0, scl=Pin(32), sda=Pin(31),
-        #                   freq=400000, timeout=100)
-        # self._i2c_1 = I2C(1, scl=Pin(54), sda=Pin(53),
-        #                   freq=400000, timeout=100)
-        self._i2c_0 = SoftI2C(scl=Pin(32), sda=Pin(31), freq=400000, timeout=100)
-        self._i2c_1 = SoftI2C(scl=Pin(54), sda=Pin(53), freq=400000, timeout=100)
+        self._i2c_0 = I2C(0, scl=Pin(54), sda=Pin(53), freq=400000)
+        self._i2c_1 = I2C(1, scl=Pin(32), sda=Pin(31), freq=400000)
+        # self._i2c_0 = SoftI2C(scl=Pin(54), sda=Pin(53), freq=400000)
+        # self._i2c_1 = SoftI2C(scl=Pin(32), sda=Pin(31), freq=400000)
 
     def i2c_deinit(self):
         self._i2c_0 = None
