@@ -8,6 +8,7 @@
 from machine import Timer, Pin
 from array import array
 from utime import ticks_us
+import m5utils
 
 # Save RAM
 # from micropython import alloc_emergency_exception_buf
@@ -44,7 +45,7 @@ class IR_RX:
         self._times = array("i", (0 for _ in range(nedges + 1)))  # +1 for overrun
         pin.irq(handler=self._cb_pin, trigger=(Pin.IRQ_FALLING | Pin.IRQ_RISING))
         self.edge = 0
-        self.tim = Timer(-1)  # Sofware timer
+        self.tim = m5utils.Timer(0)  # Sofware timer
         self.cb = self.decode
 
     # Pin interrupt. Save time of each edge for later decode.
