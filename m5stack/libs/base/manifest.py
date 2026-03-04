@@ -15,6 +15,7 @@ package(
         "dtu_nbiot2_v11.py",
         "dtu_nbiot2.py",
         "echo.py",
+        "echo_pyramid.py",
         "gpsv2.py",
         "hdriver.py",
         "motion.py",

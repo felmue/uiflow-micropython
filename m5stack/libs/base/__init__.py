@@ -25,6 +25,7 @@ _attrs = {
     "SpeakerBase": "speaker",
     "AtomicStepmotorBase": "stepmotor",
     "AtomicTFCardBase": "tfcard",
+    "AtomicEchoPyramidBase": "echo_pyramid",
 }
 
 

@@ -1,0 +1,77 @@
+.. |Atomic Echo Pyramid Base| image:: https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1207/A167-echo_pyramid_main-products_01.webp
+    :target: https://docs.m5stack.com/en/products/sku/A167
+
+.. |init.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/init.png
+.. |get_touch.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/get_touch.png
+.. |get_rgb_brightness.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/get_rgb_brightness.png
+.. |set_rgb_brightness.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/set_rgb_brightness.png
+.. |get_rgb_color.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/get_rgb_color.png
+.. |set_rgb_color.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/set_rgb_color.png
+.. |pause.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/pause.png
+.. |resume.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/resume.png
+.. |stop.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/stop.png
+.. |play_wav_file.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/play_wav_file.png
+.. |tone.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/tone.png
+.. |play_wav.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/play_wav.png
+.. |play_raw.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/play_raw.png
+.. |get_volume.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/get_volume.png
+.. |set_volume.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/set_volume.png
+.. |set_mute.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/set_mute.png
+.. |pcm_buffer.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/pcm_buffer.png
+.. |record_wav_file.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/record_wav_file.png
+.. |record.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/record.png
+.. |get_input_voltage.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/get_input_voltage.png
+.. |get_firmware_version.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/get_firmware_version.png
+.. |get_addr.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/get_addr.png
+.. |set_addr.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/set_addr.png
+.. |audio_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/audio_example.png
+.. |audio_beep_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/audio_beep_example.png
+.. |touch_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/touch_example.png
+.. |led_strip_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/led_strip_example.png
+.. |usb_voltage_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/usb_voltage_example.png
+.. |atoms3r_echopyramid_usb_voltage_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/base/echo_pyramid/usb_voltage_example.png
+
+.. |atoms3r_echopyramid_led_strip_example.m5f2| raw:: html
+
+    <a
+        href="https://uiflow2.m5stack.com/?example=https://raw.githubusercontent.com/m5stack/uiflow-micropython/develop/examples/base/echo_pyramid/atoms3r_echopyramid_led_strip_example.m5f2"
+        target="_blank"
+    >
+        atoms3r_echopyramid_led_strip_example.m5f2
+    </a>
+
+.. |atoms3r_echopyramid_touch_example.m5f2| raw:: html
+
+    <a
+        href="https://uiflow2.m5stack.com/?example=https://raw.githubusercontent.com/m5stack/uiflow-micropython/develop/examples/base/echo_pyramid/atoms3r_echopyramid_touch_example.m5f2"
+        target="_blank"
+    >
+        atoms3r_echopyramid_touch_example.m5f2
+    </a>
+
+.. |atoms3r_echopyramid_audio_example.m5f2| raw:: html
+
+    <a
+        href="https://uiflow2.m5stack.com/?example=https://raw.githubusercontent.com/m5stack/uiflow-micropython/develop/examples/base/echo_pyramid/atoms3r_echopyramid_audio_example.m5f2"
+        target="_blank"
+    >
+        atoms3r_echopyramid_audio_example.m5f2
+    </a>
+
+.. |atoms3r_echopyramid_audio_beep_example.m5f2| raw:: html
+
+    <a
+        href="https://uiflow2.m5stack.com/?example=https://raw.githubusercontent.com/m5stack/uiflow-micropython/develop/examples/base/echo_pyramid/atoms3r_echopyramid_audio_beep_example.m5f2"
+        target="_blank"
+    >
+        atoms3r_echopyramid_audio_beep_example.m5f2
+    </a>
+
+.. |atoms3r_echopyramid_usb_voltage_example.m5f2| raw:: html
+
+    <a
+        href="https://uiflow2.m5stack.com/?example=https://raw.githubusercontent.com/m5stack/uiflow-micropython/develop/examples/base/echo_pyramid/atoms3r_echopyramid_usb_voltage_example.m5f2"
+        target="_blank"
+    >
+        atoms3r_echopyramid_usb_voltage_example.m5f2
+    </a>

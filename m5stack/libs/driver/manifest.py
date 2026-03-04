@@ -15,6 +15,8 @@ package(
         "es8311/reg.py",
         "es8388/__init__.py",
         "es8388/reg.py",
+        "es7210/__init__.py",
+        "es7210/reg.py",
         "fpc1020a/fpc1020a/__init__.py",
         "fpc1020a/fpc1020a/api.py",
         "fpc1020a/fpc1020a/types.py",

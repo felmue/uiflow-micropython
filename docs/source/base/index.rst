@@ -14,6 +14,7 @@ Base
     dtu_nbiot2.rst
     dtu_nbiot2v11.rst
     echo.rst
+    echo_pyramid.rst
     gpsv2.rst
     hdriver.rst
     motion.rst
