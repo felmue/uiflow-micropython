@@ -41,6 +41,11 @@ include(${CMAKE_CURRENT_LIST_DIR}/rmt_ir/micropython.cmake)
 # add esp_zigbee_host module
 include(${CMAKE_CURRENT_LIST_DIR}/esp_zigbee_host/micropython.cmake)
 
+if(IDF_TARGET STREQUAL "esp32p4")
+    # add esp_hosted_utils module
+    include(${CMAKE_CURRENT_LIST_DIR}/esp_hosted_utils/micropython.cmake)
+endif()
+
 if(ADF_MODULE_ENABLE)
     include(${CMAKE_CURRENT_LIST_DIR}/adf_module/micropython.cmake)
 endif()

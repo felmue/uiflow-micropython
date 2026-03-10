@@ -9,8 +9,8 @@ set(MICROPY_PY_LVGL 1)
 set(SDKCONFIG_DEFAULTS
     boards/sdkconfig.base
     boards/sdkconfig.p4
-    # boards/sdkconfig.p4_wifi_common
-    # boards/sdkconfig.p4_wifi_c6
+    boards/sdkconfig.p4_wifi_common
+    boards/sdkconfig.p4_wifi_c6
     boards/sdkconfig.flash_16mb_omv
     boards/sdkconfig.freertos
     boards/M5STACK_Tab5/sdkconfig.freertos
