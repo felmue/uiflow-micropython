@@ -6,12 +6,28 @@
 # $(2) target dir
 define base-files/install
 	@cp -rf ./fs/user/* $(2)/
-	@ if [ -d ./fs/system/$(1) ]; then \
+	@if [ -d ./fs/system/$(1) ]; then \
 		cp -rf ./fs/system/$(1) $(2)/res/;\
 	fi
 	@cp -rf ./fs/system/common/img/avatar.jpg $(2)/res/img/
 endef
 
+# $(1) source dir
+# $(2) target dir
+define system-files/install
+	@if [ ! -e $(1) ]; then \
+		echo "system-files/install: source not found, skip: $(1)"; \
+	else \
+		if [ ! -d $(2) ]; then \
+			mkdir -p $(2); \
+		fi; \
+		if [ -d $(1) ]; then \
+			cp -rf $(1)/* $(2)/; \
+		elif [ -f $(1) ]; then \
+			cp -f $(1) $(2)/; \
+		fi; \
+	fi
+endef
 
 ##
 ## $(1): TARGET_DIR

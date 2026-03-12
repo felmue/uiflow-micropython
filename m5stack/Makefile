@@ -237,7 +237,9 @@ fs: build
 	@if [ ! -d $(BUILD)/base-files ]; then \
 		mkdir -p $(BUILD)/base-files; \
 	fi
-	$(call base-files/install,$(BOARD_TYPE),$(BUILD)/base-files)
+	$(call system-files/install,fs/user,$(BUILD)/base-files/)
+	$(call system-files/install,fs/system/common/img/avatar.jpg,$(BUILD)/base-files/res/img)
+	$(call system-files/install,boards/$(BOARD)/files/system,$(BUILD)/base-files/res)
 	@$(PYTHON) \
 			./../tools/fs_packed.py \
 			./../tools/littlefs/prebuilt/littlefs2 \
@@ -247,18 +249,22 @@ fs: build
 			$(BUILD)/partition_table/partition-table.bin
 else
 fs: build
+	$(call system-files/install,fs/system,$(BUILD)/fs-system)
+	$(call system-files/install,boards/$(BOARD)/files/system,$(BUILD)/fs-system)
+	$(call system-files/install,fs/user,$(BUILD)/fs-user)
+	$(call system-files/install,boards/$(BOARD)/files/user,$(BUILD)/fs-user)
 	@$(PYTHON)                                     \
 			./../tools/fs_packed.py                \
 			./../tools/littlefs/prebuilt/littlefs2 \
 			$(BOARD_TYPE)                          \
-			./fs/system                            \
+			$(BUILD)/fs-system                     \
 			$(BUILD)/fs-system.bin                 \
 			$(BUILD)/partition_table/partition-table.bin
 	@$(PYTHON)                                     \
 			./../tools/fs_packed.py                \
 			./../tools/littlefs/prebuilt/littlefs2 \
 			$(BOARD_TYPE)                          \
-			./fs/user                              \
+			$(BUILD)/fs-user                       \
 			$(BUILD)/fs-user.bin                   \
 			$(BUILD)/partition_table/partition-table.bin
 endif

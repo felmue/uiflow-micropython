@@ -12,6 +12,7 @@ set(SDKCONFIG_DEFAULTS
     boards/sdkconfig.p4_wifi_common
     boards/sdkconfig.p4_wifi_c6
     boards/sdkconfig.flash_16mb_omv
+    boards/sdkconfig.flash_qio
     boards/sdkconfig.freertos
     boards/M5STACK_Tab5/sdkconfig.freertos
     boards/M5STACK_Tab5/sdkconfig.spiram_hex
