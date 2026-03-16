@@ -50,7 +50,9 @@ boards := \
 	M5STACK_PowerHub:powerhub        \
 	M5STACK_DualKey:dualkey          \
 	M5STACK_StickS3:sticks3          \
-	M5STACK_Unit_PoEP4:unit_poep4
+	M5STACK_Unit_PoEP4:unit_poep4    \
+	M5STACK_StampS3Bat:stamps3bat    \
+
 
 define find_board
 $(if $(filter $(1):%,$(boards)),$(word 2,$(subst :, ,$(filter $(1):%,$(boards)))),none)
@@ -97,7 +99,8 @@ BOARD_TYPE_DEF := \
 	powerhub    \
 	dualkey     \
 	sticks3     \
-	unit_poep4
+	unit_poep4  \
+	stamps3bat
 
 # Select the board type to build, default is None
 # This value affects which folder in the "./fs/system/" directory is pack into "fs-system.bin"

@@ -6,7 +6,7 @@ import M5
 from driver.neopixel import NeoPixel
 from driver.neopixel.ws2812 import WS2812
 from driver.neopixel.sk6812 import SK6812
-from driver.neopixel.powerhub_rgb import PowerHubRGB
+from driver.neopixel.m5led import M5LED
 import machine
 
 
@@ -65,8 +65,8 @@ class RGB:
             elif board_id == M5.BOARD.M5UnitC6L:
                 cls._instance = WS2812(io=2, n=1)
                 return cls._instance
-            elif board_id == M5.BOARD.M5PowerHub:
-                cls._instance = PowerHubRGB()
+            elif board_id in [M5.BOARD.M5PowerHub, M5.BOARD.M5StampS3Bat]:
+                cls._instance = M5LED()
                 return cls._instance
             elif board_id == M5.BOARD.M5DualKey:
                 pin = machine.Pin(40, machine.Pin.OUT)  # Power Enable

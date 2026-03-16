@@ -2,15 +2,14 @@
 #
 # SPDX-License-Identifier: MIT
 
-# PowerHub RGB driver
+# M5LED driver
 from . import NeoPixel
 from machine import Pin
 from M5 import Led
 
 
-class PowerHubRGB(NeoPixel):
+class M5LED(NeoPixel):
     def __init__(self) -> None:
-        print("PowerHubRGB initialized")
         pass
 
     def _map(self, x: int, in_min: int, in_max: int, out_min: int, out_max: int) -> int:

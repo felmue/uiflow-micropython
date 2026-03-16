@@ -36,7 +36,7 @@ package(
         "modbus/master/uFunctions.py",
         "modbus/master/uSerial.py",
         "neopixel/__init__.py",
-        "neopixel/powerhub_rgb.py",
+        "neopixel/m5led.py",
         "neopixel/sk6812.py",
         "neopixel/ws2812.py",
         "qrcode/__init__.py",

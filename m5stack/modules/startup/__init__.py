@@ -13,6 +13,29 @@ BOOT_OPT_NOTHING = 0  # Run main.py(after download code to device set to this)
 BOOT_OPT_MENU_NET = 1  # Startup menu + Network setup
 BOOT_OPT_NETWORK = 2  # Only Network setup
 
+_WIFI_STATUS_MAP = {
+    network.STAT_IDLE: "STAT_IDLE",  # 空闲 / 断开连接后
+    network.STAT_CONNECTING: "STAT_CONNECTING",  # 连接中
+    network.STAT_GOT_IP: "STAT_GOT_IP",  # 已连接并获取IP
+    network.STAT_NO_AP_FOUND: "STAT_NO_AP_FOUND",  # 未找到AP
+    network.STAT_NO_AP_FOUND_IN_RSSI_THRESHOLD: "STAT_NO_AP_FOUND_IN_RSSI_THRESHOLD",  # 未找到满足RSSI阈值的AP
+    network.STAT_NO_AP_FOUND_IN_AUTHMODE_THRESHOLD: "STAT_NO_AP_FOUND_IN_AUTHMODE_THRESHOLD",  # 未找到满足认证模式阈值的AP
+    network.STAT_NO_AP_FOUND_W_COMPATIBLE_SECURITY: "STAT_NO_AP_FOUND_W_COMPATIBLE_SECURITY",  # 未找到兼容安全模式的AP
+    network.STAT_WRONG_PASSWORD: "STAT_WRONG_PASSWORD",  # 密码错误
+    network.STAT_ASSOC_FAIL: "STAT_ASSOC_FAIL",  # 关联失败
+    network.STAT_HANDSHAKE_TIMEOUT: "STAT_HANDSHAKE_TIMEOUT",  # 握手超时
+    network.STAT_BEACON_TIMEOUT: "STAT_BEACON_TIMEOUT",  # Beacon 超时
+}
+
+_M5THINGS_STATUS_MAP = {
+    -2: "SNTP_ERR",
+    -1: "CONNECT_ERR",
+    0: "STANDBY",
+    1: "CONNECTING",
+    2: "CONNECTED",
+    3: "DISCONNECT",
+}
+
 
 class Startup:
     STAT_GOT_IP = 1010
@@ -67,6 +90,12 @@ class Startup:
             return self.network.status("rssi")
         else:
             return 0
+
+    def wifi_status_str(self, status):
+        return _WIFI_STATUS_MAP.get(status, f"UNKNOWN({status})")
+
+    def m5things_status_str(self, status):
+        return _M5THINGS_STATUS_MAP.get(status, f"UNKNOWN({status})")
 
 
 def _is_psram():
@@ -326,6 +355,11 @@ def startup(boot_opt, timeout: int = 60) -> None:
 
             unit_poep4 = Unit_PoEP4_Startup()
             unit_poep4.startup(net_mode, ssid, pswd, protocol, ip, netmask, gateway, dns, timeout)
+        elif board_id == M5.BOARD.M5StampS3Bat:
+            from .stamps3bat import StampS3Bat_Startup
+
+            stamps3bat = StampS3Bat_Startup()
+            stamps3bat.startup(net_mode, ssid, pswd, protocol, ip, netmask, gateway, dns, timeout)
 
     # Only connect to network, not show any menu
     elif boot_opt is BOOT_OPT_NETWORK:
