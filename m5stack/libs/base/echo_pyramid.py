@@ -131,7 +131,7 @@ class AtomicEchoPyramidBase:
     def __init__(
         self,
         i2c,
-        dev_addr: int = CUSTOM_DEVICE_ADDR,  # default address is 0x1A
+        dev_addr: int = CUSTOM_DEVICE_ADDR, # default address is 0x1A
         es8311_addr: int = ES8311_ADDR,
         i2s_port: int = 1,
         sample_rate: int = 24000,
@@ -140,16 +140,24 @@ class AtomicEchoPyramidBase:
         i2s_di: int = 5,
         i2s_do: int = 7,
     ) -> None:
-        if self._initialized:
-            return
+        # Store I2C and device address for later use (always update)
         self._i2c = i2c
         self.dev_addr = dev_addr
+        
+        # Check I2C device presence (always check on each run)
         if self.dev_addr not in self._i2c.scan():
-            raise OSError("STM32 not found on I2C bus")
+            raise OSError("STM32 not found on I2C bus, please check Echo Pyramid is connected correctly")
+
+        # Clear all RGB color to black
+        self._i2c.writeto_mem(self.dev_addr, REG_STRIP1_I1_COLOR, bytes([0, 0, 0, 0] * 14))
+        self._i2c.writeto_mem(self.dev_addr, REG_STRIP2_I1_COLOR, bytes([0, 0, 0, 0] * 14))
+
+        if self._initialized:
+            return
 
         # Si5351 clock generator
         _si5351_init(i2c)
-        time.sleep(0.05)
+        time.sleep_ms(50)
 
         # AW87559 amplifier
         _aw87559_init(i2c, dev_addr)
