@@ -1,0 +1,19 @@
+/*
+* SPDX-FileCopyrightText: 2026 M5Stack Technology CO LTD
+*
+* SPDX-License-Identifier: MIT
+*/
+
+#ifndef MICROPY_HW_BOARD_NAME
+    #define MICROPY_HW_BOARD_NAME "M5STACK StampP4"
+#endif
+
+#ifndef MICROPY_HW_MCU_NAME
+    #define MICROPY_HW_MCU_NAME "ESP32P4"
+#endif
+#define MICROPY_HW_USB_VID 0x303A
+#define MICROPY_HW_USB_PID 0x817A
+#define MICROPY_HW_USB_MANUFACTURER_STRING "M5Stack"
+#define MICROPY_HW_USB_PRODUCT_FS_STRING "StampP4(UiFlow)"
+
+#define MICROPY_PY_ESPNOW (0)
