@@ -339,15 +339,16 @@ M5UNIFIED_PATCH_SERIES = \
 	2007-Support-UnitC6L.patch \
 	2009-fix-SoftI2C.patch \
 	2010-Support-Nesso-N1.patch \
-	2011-Fix-PowerHub-Charge-Status-Detection.patch \
 	2018-fix-Rtc-setAlarmIRQ.patch \
-	2019-fix-touch-sensor.patch
+	2019-fix-touch-sensor.patch \
+	2020-Support-StampS3Bat-and-StampP4.patch
 
 ADF_PATCH_SERIES = \
 	3003-modify-i2s_stream_idf5.5.patch
 
 M5GFX_PATCH_SERIES = \
-	4004-I2C-repeated-initialization.patch
+	4004-I2C-repeated-initialization.patch \
+	4005-Support-StampS3Bat-and-StampP4.patch
 
 ESP32_CAMERA_PATCH_SERIES = \
 	5002-Add-software-i2c-support.patch
