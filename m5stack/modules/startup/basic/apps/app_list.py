@@ -136,7 +136,7 @@ class ListApp(app_base.AppBase):
                 h=36,
                 fg_color=0x000000,
                 bg_color=0xFEFEFE,
-                font=Widgets.FONTS.DejaVu18,
+                font=Widgets.FONTS.Montserrat18,
             )
 
         if not hasattr(self, "_label1"):
@@ -148,7 +148,7 @@ class ListApp(app_base.AppBase):
                 h=36,
                 fg_color=0x000000,
                 bg_color=0xFEFEFE,
-                font=Widgets.FONTS.DejaVu18,
+                font=Widgets.FONTS.Montserrat18,
             )
 
         if not hasattr(self, "_label2"):
@@ -160,7 +160,7 @@ class ListApp(app_base.AppBase):
                 h=36,
                 fg_color=0x000000,
                 bg_color=0xFEFEFE,
-                font=Widgets.FONTS.DejaVu18,
+                font=Widgets.FONTS.Montserrat18,
             )
 
         if not hasattr(self, "_label3"):
@@ -176,7 +176,7 @@ class ListApp(app_base.AppBase):
                 h=36,
                 fg_color=0x000000,
                 bg_color=0xFEFEFE,
-                font=Widgets.FONTS.DejaVu18,
+                font=Widgets.FONTS.Montserrat18,
             )
         if not hasattr(self, "_labels"):
             self._labels = (self._label0, self._label1, self._label2, self._label3)

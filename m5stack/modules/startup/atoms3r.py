@@ -23,12 +23,12 @@ class AtomS3R_Startup(Startup):
 
     def show_hits(self, hits: str) -> None:
         M5.Lcd.fillRect(24, 70, 95, 11, M5.Lcd.COLOR.BLACK)
-        M5.Lcd.setFont(M5.Lcd.FONTS.DejaVu9)
+        M5.Lcd.setFont(M5.Lcd.FONTS.Montserrat12)
         M5.Lcd.drawCenterString(hits, 73, 70)
 
     def show_msg(self, msg: str) -> None:
         M5.Lcd.fillRect(36, 49, 82, 17, M5.Lcd.COLOR.BLACK)
-        M5.Lcd.setFont(M5.Lcd.FONTS.DejaVu12)
+        M5.Lcd.setFont(M5.Lcd.FONTS.Montserrat14)
         M5.Lcd.drawCenterString(msg, 71, 51)
 
     def show_ssid(self, ssid: str) -> None:
@@ -39,7 +39,7 @@ class AtomS3R_Startup(Startup):
 
     def show_mac(self) -> None:
         mac = binascii.hexlify(machine.unique_id()).decode("utf-8").upper()
-        M5.Lcd.setFont(M5.Lcd.FONTS.DejaVu9)
+        M5.Lcd.setFont(M5.Lcd.FONTS.Montserrat12)
         M5.Lcd.drawCenterString(mac[0:6] + "_" + mac[6:], 65, 85)
 
     def show_error(self, ssid: str, error: str) -> None:

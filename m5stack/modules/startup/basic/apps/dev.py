@@ -86,7 +86,7 @@ class DevApp(app_base.AppBase):
             w=177,
             fg_color=0x000000,
             bg_color=0xEEEEEF,
-            font=Widgets.FONTS.DejaVu18,
+            font=Widgets.FONTS.Montserrat18,
         )
         self._mac_label.set_text(self._mac_text)
 
@@ -98,7 +98,7 @@ class DevApp(app_base.AppBase):
             h=60,
             fg_color=0x000000,
             bg_color=0xEEEEEF,
-            font=Widgets.FONTS.DejaVu18,
+            font=Widgets.FONTS.Montserrat18,
         )
         self._account_label.set_text(self._account_text)
 
@@ -142,7 +142,7 @@ class DevApp(app_base.AppBase):
             font_align=widgets.Label.CENTER_ALIGNED,
             fg_color=0x534D4C,
             bg_color=0xFEFEFE,
-            font=Widgets.FONTS.DejaVu9,
+            font=Widgets.FONTS.Montserrat12,
         )
         self._battery_label.set_text(self._battery_text)
 

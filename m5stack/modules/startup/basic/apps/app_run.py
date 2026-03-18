@@ -41,19 +41,19 @@ class RunApp(app_base.AppBase):
         M5.Lcd.drawImage(res.BAR4_IMG, self._origin_x, 220)
 
         # file name
-        M5.Lcd.setFont(Widgets.FONTS.DejaVu18)
+        M5.Lcd.setFont(Widgets.FONTS.Montserrat18)
         M5.Lcd.setTextColor(0x000000, 0xEEEEEF)
         M5.Lcd.drawString("main.py", 4 + 10, self._origin_y + 4 + 4)
 
-        M5.Lcd.setFont(Widgets.FONTS.DejaVu12)
+        M5.Lcd.setFont(Widgets.FONTS.Montserrat14)
         M5.Lcd.setTextColor(0x000000, 0xDCDDDD)
         M5.Lcd.drawString(self._mtime_text, 4 + 10 + 8, self._origin_y + 4 + 4 + 20 + 6)
 
-        M5.Lcd.setFont(Widgets.FONTS.DejaVu12)
+        M5.Lcd.setFont(Widgets.FONTS.Montserrat14)
         M5.Lcd.setTextColor(0x000000, 0xDCDDDD)
         M5.Lcd.drawString(self._account_text, 4 + 10 + 8, self._origin_y + 4 + 4 + 20 + 6 + 18)
 
-        M5.Lcd.setFont(Widgets.FONTS.DejaVu12)
+        M5.Lcd.setFont(Widgets.FONTS.Montserrat14)
         M5.Lcd.setTextColor(0x000000, 0xDCDDDD)
         M5.Lcd.drawString(self._ver_text, 4 + 10 + 8, self._origin_y + 4 + 4 + 20 + 6 + 18 + 18)
 

@@ -56,6 +56,10 @@ extern "C"
 #include "hal/i2c_ll.h"
 #endif
 
+#if MICROPY_PY_LVGL
+#include "lvgl/lvgl.h"
+#endif
+
 // machine_i2c.c
 typedef struct _machine_hw_i2c_obj_t {
     mp_obj_base_t base;
@@ -545,11 +549,23 @@ mp_obj_t m5_begin(size_t n_args, const mp_obj_t *args) {
 
     // }
 
+    #if MICROPY_PY_LVGL
+    if (lv_is_initialized() == false) {
+        lv_init();
+    }
+    #endif
+
     M5.Display.clear();
     // default display
     m5_display.gfx = (void *)(&(M5.Display));
-    // set default font to DejaVu9, keep same style with UIFlow website UI design.
-    M5.Display.setTextFont(&fonts::DejaVu9);
+    // set default font to Montserrat 12, keep same style with UIFlow website UI design.
+    #if MICROPY_PY_LVGL
+    extern const lv_font_t lv_font_montserrat_12;
+    static const lgfx::LVGLfont lv_font_montserrat_12_obj(&lv_font_montserrat_12);
+    M5.Display.setFont(&lv_font_montserrat_12_obj);
+    #else
+    M5.Display.setFont(&m5gfx::fonts::lv_font_montserrat_12);
+    #endif
 
     // get local time and sync to RTC IC
     rtc_sync(nullptr);

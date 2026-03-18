@@ -60,7 +60,7 @@ class DevApp(app_base.AppBase):
             w=360,
             fg_color=0x000000,
             bg_color=0xE3E3E3,
-            font=M5.Lcd.FONTS.DejaVu40,
+            font=M5.Lcd.FONTS.Montserrat40,
             parent=self._lcd,
         )
         self._mode_label.set_text(self._mode_text)
@@ -72,7 +72,7 @@ class DevApp(app_base.AppBase):
             w=360,
             fg_color=0x000000,
             bg_color=0xE3E3E3,
-            font=M5.Lcd.FONTS.DejaVu40,
+            font=M5.Lcd.FONTS.Montserrat40,
             parent=self._lcd,
         )
         self._mac_label.set_text(self._mac_text)
@@ -85,7 +85,7 @@ class DevApp(app_base.AppBase):
             h=50,
             fg_color=0x000000,
             bg_color=0xE3E3E3,
-            font=M5.Lcd.FONTS.DejaVu40,
+            font=M5.Lcd.FONTS.Montserrat40,
             parent=self._lcd,
         )
         self._account_label.set_long_mode(self._account_label.LONG_DOT)

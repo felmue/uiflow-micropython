@@ -194,7 +194,7 @@ class FlowApp(AppBase):
             font_align=widgets.Label.LEFT_ALIGNED,
             fg_color=0x000000,
             bg_color=0xFFFFFF,
-            font=M5.Lcd.FONTS.DejaVu18,
+            font=M5.Lcd.FONTS.Montserrat18,
             parent=self._sprite,
         )
         self._mac_label.set_long_mode(widgets.Label.LONG_DOT)
@@ -208,7 +208,7 @@ class FlowApp(AppBase):
             font_align=widgets.Label.LEFT_ALIGNED,
             fg_color=0x000000,
             bg_color=0xFFFFFF,
-            font=M5.Lcd.FONTS.DejaVu18,
+            font=M5.Lcd.FONTS.Montserrat18,
             parent=self._sprite,
         )
         self._user_id_label.set_long_mode(widgets.Label.LONG_DOT)
@@ -331,7 +331,7 @@ class ConfigApp(AppBase):
             font_align=widgets.Label.LEFT_ALIGNED,
             fg_color=0x000000,
             bg_color=0xFFFFFF,
-            font=M5.Lcd.FONTS.DejaVu18,
+            font=M5.Lcd.FONTS.Montserrat18,
             parent=self._sprite,
         )
         self._ssid_label.set_long_mode(widgets.Label.LONG_DOT)
@@ -345,7 +345,7 @@ class ConfigApp(AppBase):
             font_align=widgets.Label.LEFT_ALIGNED,
             fg_color=0x000000,
             bg_color=0xFFFFFF,
-            font=M5.Lcd.FONTS.DejaVu18,
+            font=M5.Lcd.FONTS.Montserrat18,
             parent=self._sprite,
         )
         self._server_label.set_long_mode(widgets.Label.LONG_DOT)
@@ -420,7 +420,7 @@ class AppListApp(AppBase):
                         h=24,
                         fg_color=0x000000,
                         bg_color=0xFFFFFF,
-                        font=M5.Lcd.FONTS.DejaVu18,
+                        font=M5.Lcd.FONTS.Montserrat18,
                         parent=self._sprite,
                     )
                 )

@@ -42,7 +42,7 @@ class WiFiSetting(app_base.AppBase):
             font_align=widgets.Label.LEFT_ALIGNED,
             fg_color=0x000000,
             bg_color=0xFEFEFE,
-            font=Widgets.FONTS.DejaVu12,
+            font=Widgets.FONTS.Montserrat14,
         )
         self._ssid_label.set_long_mode(widgets.Label.LONG_DOT)
         self._ssid_label.set_text(self.ssid)
@@ -55,7 +55,7 @@ class WiFiSetting(app_base.AppBase):
             font_align=widgets.Label.LEFT_ALIGNED,
             fg_color=0x000000,
             bg_color=0xFEFEFE,
-            font=Widgets.FONTS.DejaVu12,
+            font=Widgets.FONTS.Montserrat14,
         )
         self._psk_label.set_long_mode(widgets.Label.LONG_DOT)
         if len(self.psk):
@@ -71,7 +71,7 @@ class WiFiSetting(app_base.AppBase):
             font_align=widgets.Label.LEFT_ALIGNED,
             fg_color=0x000000,
             bg_color=0xFEFEFE,
-            font=Widgets.FONTS.DejaVu12,
+            font=Widgets.FONTS.Montserrat14,
         )
         self._server_label.set_long_mode(widgets.Label.LONG_DOT)
         self._server_label.set_text(self.server)

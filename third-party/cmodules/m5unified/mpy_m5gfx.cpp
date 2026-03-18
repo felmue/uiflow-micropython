@@ -120,8 +120,23 @@ mp_obj_t gfx_loadFont(size_t n_args, const mp_obj_t *pos_args, mp_map_t *kw_args
             fontWrapper = new LFS2Wrapper();
             ((gfx_obj_t *)MP_OBJ_TO_PTR(pos_args[0]))->font_wrapper = fontWrapper;
         }
-        fontWrapper->open(mp_obj_str_get_str(args[ARG_font].u_obj), LFS2_O_RDONLY);
-        ret = gfx->loadFont((lgfx::DataWrapper *)fontWrapper);
+        const char *file_path = mp_obj_str_get_str(args[ARG_font].u_obj);
+        fontWrapper->open(file_path, LFS2_O_RDONLY);
+
+        // Determine font type based on file extension
+        size_t path_len = strlen(file_path);
+        lgfx::IFont::font_type_t font_type = lgfx::IFont::font_type_t::ft_lvgl; // default
+
+        if (path_len >= 4) {
+            const char *ext = &file_path[path_len - 4];
+            if (strcasecmp(ext, ".vlw") == 0) {
+                font_type = lgfx::IFont::font_type_t::ft_vlw;
+            } else if (strcasecmp(ext, ".bin") == 0) {
+                font_type = lgfx::IFont::font_type_t::ft_lvgl;
+            }
+        }
+
+        ret = gfx->loadFont((lgfx::DataWrapper *)fontWrapper, font_type);
     } else { // buffer
         mp_buffer_info_t bufinfo;
         mp_get_buffer_raise(args[ARG_font].u_obj, &bufinfo, MP_BUFFER_READ);

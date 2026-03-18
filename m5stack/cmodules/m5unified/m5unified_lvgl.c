@@ -50,7 +50,9 @@ mp_obj_t gfx_lvgl_init(mp_obj_t self) {
     ppa_register_client(&ppa_srm_config, &ppa_srm_handle);
     #endif
 
-    lv_init();
+    if (lv_is_initialized() == false) {
+        lv_init();
+    }
     // lvgl_timer = xTimerCreate("lvgl_timer", pdMS_TO_TICKS(10), pdTRUE, NULL, vTimerCallback);
 
     // if (lvgl_timer == NULL || xTimerStart(lvgl_timer, 0) != pdPASS) {

@@ -29,7 +29,7 @@ def _draw_textbox(x, y, w, h, r, text, invert=False, is_title=False):
             text = text[:3] + "..." + text[-3:]
         else:
             text = text[:3] + ".." + text[-3:]
-    M5.Lcd.setFont(M5.Lcd.FONTS.DejaVu9)
+    M5.Lcd.setFont(M5.Lcd.FONTS.Montserrat12)
     text_w = M5.Lcd.textWidth(text)
     cursor_x = x + (w - text_w) // 2
     cursor_y = y + (5 if is_title else 3)
@@ -429,7 +429,7 @@ class UnitC6L_Startup(Startup):
         M5.Speaker.setVolumePercentage(1)
         # 显示启动画面
         M5.Lcd.fillRect(0, 0, 64, 48, M5.Lcd.COLOR.BLACK)
-        M5.Lcd.setFont(M5.Lcd.FONTS.DejaVu12)
+        M5.Lcd.setFont(M5.Lcd.FONTS.Montserrat14)
         M5.Lcd.fillRect(0, 0, 64, 15, M5.Lcd.COLOR.WHITE)
         M5.Lcd.setTextColor(M5.Lcd.COLOR.BLACK, M5.Lcd.COLOR.WHITE)
         M5.Lcd.drawCenterString("UiFlow2", 32, 2)

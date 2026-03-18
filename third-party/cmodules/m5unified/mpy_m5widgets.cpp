@@ -149,20 +149,55 @@ static void m5widgets_label_draw_helper(const widgets_label_obj_t *self) {
 }
 
 static void m5widgets_label_font_init_helper(widgets_label_obj_t *self, mp_obj_t font) {
-    if (font != mp_const_none) {
-        if (mp_obj_is_str(font)) {
-            // FIXME: check if the font is already
-            self->fontWrapper->open(mp_obj_str_get_str(font), LFS2_O_RDONLY);
-            if (self->rtfont->loadFont((lgfx::DataWrapper *)self->fontWrapper)) {
-                self->font = self->rtfont;
-            } else {
-                self->font = self->gfx->getFont();
+    if (font == mp_const_none) {
+        // set default font to Montserrat 12, keep same style with UIFlow website UI design.
+        #if MICROPY_PY_LVGL
+        extern const lv_font_t lv_font_montserrat_12;
+        static const lgfx::LVGLfont lv_font_montserrat_12_obj(&lv_font_montserrat_12);
+        self->font = &lv_font_montserrat_12_obj;
+        #else
+        self->font = &m5gfx::fonts::lv_font_montserrat_12;
+        #endif
+    }
+
+    if (mp_obj_is_str(font)) {
+        // FIXME: check if the font is already
+        const char *file_path = mp_obj_str_get_str(font);
+
+        size_t path_len = strlen(file_path);
+        if (path_len >= 4) {
+            const char *ext = &file_path[path_len - 4];
+            if (strcasecmp(ext, ".vlw") == 0) {
+                if (self->rtfont == nullptr) {
+                    self->rtfont = new m5gfx::VLWfont();
+                } else {
+                    if (self->rtfont->getType() != lgfx::IFont::font_type_t::ft_vlw) {
+                        self->rtfont->unloadFont();
+                        delete self->rtfont;
+                        self->rtfont = new m5gfx::VLWfont();
+                    }
+                }
+            } else if (strcasecmp(ext, ".bin") == 0) {
+                if (self->rtfont == nullptr) {
+                    self->rtfont = new m5gfx::BFFfont();
+                } else {
+                    if (self->rtfont->getType() != lgfx::IFont::font_type_t::ft_lvgl) {
+                        self->rtfont->unloadFont();
+                        delete self->rtfont;
+                        self->rtfont = new m5gfx::BFFfont();
+                    }
+                }
             }
+        }
+
+        self->fontWrapper->open(file_path, LFS2_O_RDONLY);
+        if (self->rtfont->loadFont((lgfx::DataWrapper *)self->fontWrapper)) {
+            self->font = self->rtfont;
         } else {
-            self->font = (const m5gfx::IFont *)((font_obj_t *)font)->font;
+            self->font = self->gfx->getFont();
         }
     } else {
-        self->font = &m5gfx::fonts::DejaVu9;
+        self->font = (const m5gfx::IFont *)((font_obj_t *)font)->font;
     }
 }
 
@@ -331,8 +366,8 @@ mp_obj_t m5widgets_label_make_new(const mp_obj_type_t *type, size_t n_args, size
     self->color.fg_color = (uint32_t)args[ARG_text_c].u_int;
     self->color.bg_color = (uint32_t)args[ARG_bg_c].u_int;
 
-    self->rtfont = new m5gfx::VLWfont();
     self->fontWrapper = new LFS2Wrapper();
+    self->rtfont = nullptr;
     m5widgets_label_font_init_helper(self, args[ARG_font].u_obj);
 
     if (args[ARG_text].u_obj == mp_const_none) {
@@ -380,20 +415,58 @@ static void m5widgets_title_draw_helper(widgets_title_obj_t *self) {
 }
 
 static void m5widgets_title_font_init_helper(widgets_title_obj_t *self, mp_obj_t font) {
-    if (font != mp_const_none) {
-        if (mp_obj_is_str(font)) {
-            // FIXME: check if the font is already
-            self->fontWrapper->open(mp_obj_str_get_str(font), LFS2_O_RDONLY);
-            if (self->rtfont->loadFont((lgfx::DataWrapper *)self->fontWrapper)) {
-                self->font = self->rtfont;
-            } else {
-                self->font = self->gfx->getFont();
+    if (font == mp_const_none) {
+        // set default font to Montserrat 12, keep same style with UIFlow website UI design.
+        #if MICROPY_PY_LVGL
+        extern const lv_font_t lv_font_montserrat_12;
+        static const lgfx::LVGLfont lv_font_montserrat_12_obj(&lv_font_montserrat_12);
+        self->font = &lv_font_montserrat_12_obj;
+        #else
+        self->font = &m5gfx::fonts::lv_font_montserrat_12;
+        #endif
+    }
+
+    if (mp_obj_is_str(font)) {
+        // FIXME: check if the font is already
+        const char *file_path = mp_obj_str_get_str(font);
+        lgfx::IFont::font_type_t font_type = lgfx::IFont::font_type_t::ft_lvgl; // default
+
+        size_t path_len = strlen(file_path);
+        if (path_len >= 4) {
+            const char *ext = &file_path[path_len - 4];
+            if (strcasecmp(ext, ".vlw") == 0) {
+                font_type = lgfx::IFont::font_type_t::ft_vlw;
+                if (self->rtfont == nullptr) {
+                    self->rtfont = new m5gfx::VLWfont();
+                } else {
+                    if (self->rtfont->getType() != font_type) {
+                        self->rtfont->unloadFont();
+                        delete self->rtfont;
+                        self->rtfont = new m5gfx::VLWfont();
+                    }
+                }
+            } else if (strcasecmp(ext, ".bin") == 0) {
+                font_type = lgfx::IFont::font_type_t::ft_lvgl;
+                if (self->rtfont == nullptr) {
+                    self->rtfont = new m5gfx::BFFfont();
+                } else {
+                    if (self->rtfont->getType() != font_type) {
+                        self->rtfont->unloadFont();
+                        delete self->rtfont;
+                        self->rtfont = new m5gfx::BFFfont();
+                    }
+                }
             }
+        }
+
+        self->fontWrapper->open(file_path, LFS2_O_RDONLY);
+        if (self->rtfont->loadFont((lgfx::DataWrapper *)self->fontWrapper)) {
+            self->font = self->rtfont;
         } else {
-            self->font = (const m5gfx::IFont *)((font_obj_t *)font)->font;
+            self->font = self->gfx->getFont();
         }
     } else {
-        self->font = &m5gfx::fonts::DejaVu9;
+        self->font = (const m5gfx::IFont *)((font_obj_t *)font)->font;
     }
 }
 
@@ -538,8 +611,8 @@ mp_obj_t m5widgets_title_make_new(const mp_obj_type_t *type, size_t n_args, size
         self->text = mp_obj_str_get_str(args[ARG_text].u_obj);
     }
 
-    self->rtfont = new m5gfx::VLWfont();
     self->fontWrapper = new LFS2Wrapper();
+    self->rtfont = nullptr;
     m5widgets_title_font_init_helper(self, args[ARG_font].u_obj);
 
     self->size.w = self->gfx->width();

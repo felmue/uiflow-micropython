@@ -25,7 +25,7 @@ class Label:
         font_align: int = LEFT_ALIGNED,
         fg_color: int = 0xFFFFFF,
         bg_color: int = 0x000000,
-        font=M5.Lcd.FONTS.DejaVu12,
+        font=M5.Lcd.FONTS.Montserrat14,
         parent=M5.Lcd,
     ) -> None:
         self._text = text

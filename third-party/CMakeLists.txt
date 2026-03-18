@@ -55,6 +55,13 @@ else()
     include(${MICROPY_BOARD_DIR}/mpconfigvariant_${MICROPY_BOARD_VARIANT}.cmake)
 endif()
 
+# Generate font configuration header for this board
+configure_file(
+    ${CMAKE_CURRENT_LIST_DIR}/boards/mpconfigboard_fonts.h.in
+    ${CMAKE_BINARY_DIR}/mpconfigboard_fonts.h
+    @ONLY
+)
+
 # Set the frozen manifest file. Note if MICROPY_FROZEN_MANIFEST is set from the cmake
 # command line, then it will override the default and any manifest set by the board.
 if (MICROPY_USER_FROZEN_MANIFEST)

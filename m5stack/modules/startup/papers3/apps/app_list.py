@@ -21,7 +21,7 @@ class TextButton(widgets.Button):
         font_align: int = widgets.Label.LEFT_ALIGNED,
         fg_color: int = 0xFFFFFF,
         bg_color: int = 0x000000,
-        font=M5.Lcd.FONTS.DejaVu12,
+        font=M5.Lcd.FONTS.Montserrat14,
         parent=M5.Lcd,
         _id=0,
     ) -> None:
@@ -157,7 +157,7 @@ class ListApp(app_base.AppBase):
                 font_align=widgets.Label.LEFT_ALIGNED,
                 fg_color=0x000000,
                 bg_color=0xFFFFFF,
-                font=M5.Lcd.FONTS.DejaVu40,
+                font=M5.Lcd.FONTS.Montserrat40,
                 parent=M5.Lcd,
                 _id=i,
             )

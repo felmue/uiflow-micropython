@@ -31,7 +31,7 @@ class SettingsApp(app_base.AppBase):
             font_align=widgets.Label.LEFT_ALIGNED,
             fg_color=0x000000,
             bg_color=0xE3E3E3,
-            font=M5.Lcd.FONTS.DejaVu24,
+            font=M5.Lcd.FONTS.Montserrat24,
             parent=self._lcd,
         )
         self._ssid_label.set_long_mode(widgets.Label.LONG_DOT)
@@ -45,7 +45,7 @@ class SettingsApp(app_base.AppBase):
             font_align=widgets.Label.LEFT_ALIGNED,
             fg_color=0x000000,
             bg_color=0xE3E3E3,
-            font=M5.Lcd.FONTS.DejaVu24,
+            font=M5.Lcd.FONTS.Montserrat24,
             parent=self._lcd,
         )
         self._server_label.set_long_mode(widgets.Label.LONG_DOT)

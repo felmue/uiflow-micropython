@@ -142,7 +142,7 @@ class UsbApp(AppBase):
             font_align=widgets.Label.RIGHT_ALIGNED,
             fg_color=0x000000,
             bg_color=0xFFFFFF,
-            font=M5.Lcd.FONTS.DejaVu12,
+            font=M5.Lcd.FONTS.Montserrat14,
         )
 
         self._bg_img = widgets.Image(use_sprite=False)
@@ -202,7 +202,7 @@ class ListApp(AppBase):
             font_align=widgets.Label.RIGHT_ALIGNED,
             fg_color=0x000000,
             bg_color=0xFFFFFF,
-            font=M5.Lcd.FONTS.DejaVu12,
+            font=M5.Lcd.FONTS.Montserrat14,
         )
         self._bg_img = widgets.Image(use_sprite=False)
         self._bg_img.set_x(0)
@@ -237,7 +237,7 @@ class ListApp(AppBase):
                 h=22,
                 fg_color=0xFFFFFF,
                 bg_color=0x333333,
-                font=M5.Lcd.FONTS.DejaVu18,
+                font=M5.Lcd.FONTS.Montserrat18,
             )
             self._label0.set_long_mode(widgets.Label.LONG_DOT)
         if self._label1 is None:
@@ -249,7 +249,7 @@ class ListApp(AppBase):
                 h=22,
                 fg_color=0x999999,
                 bg_color=0x000000,
-                font=M5.Lcd.FONTS.DejaVu18,
+                font=M5.Lcd.FONTS.Montserrat18,
             )
             self._label1.set_long_mode(widgets.Label.LONG_DOT)
         if self._label2 is None:
@@ -261,7 +261,7 @@ class ListApp(AppBase):
                 h=22,
                 fg_color=0x4D4D4D,
                 bg_color=0x000000,
-                font=M5.Lcd.FONTS.DejaVu18,
+                font=M5.Lcd.FONTS.Montserrat18,
             )
             self._label2.set_long_mode(widgets.Label.LONG_DOT)
 
@@ -280,7 +280,7 @@ class ListApp(AppBase):
                 h=22,
                 fg_color=0x999999,
                 bg_color=0x000000,
-                font=M5.Lcd.FONTS.DejaVu18,
+                font=M5.Lcd.FONTS.Montserrat18,
             )
             self._lebal0.set_long_mode(widgets.Label.LONG_DOT)
 
@@ -293,7 +293,7 @@ class ListApp(AppBase):
                 h=22,
                 fg_color=0x4D4D4D,
                 bg_color=0x000000,
-                font=M5.Lcd.FONTS.DejaVu18,
+                font=M5.Lcd.FONTS.Montserrat18,
             )
             self._lebal1.set_long_mode(widgets.Label.LONG_DOT)
 
@@ -306,7 +306,7 @@ class ListApp(AppBase):
                 h=22,
                 fg_color=0x333333,
                 bg_color=0x000000,
-                font=M5.Lcd.FONTS.DejaVu18,
+                font=M5.Lcd.FONTS.Montserrat18,
             )
             self._lebal2.set_long_mode(widgets.Label.LONG_DOT)
 
@@ -688,11 +688,11 @@ class SetupApp(AppBase):
             font_align=widgets.Label.CENTER_ALIGNED,
             fg_color=0x000000,
             bg_color=0xF3F3F3,
-            font=M5.Lcd.FONTS.DejaVu24,
+            font=M5.Lcd.FONTS.Montserrat24,
         )
         self._ap_label.set_text(self._ap.config("ssid"))
-        offset_y = M5.Lcd.fontHeight(M5.Lcd.FONTS.DejaVu24)
-        w = M5.Lcd.textWidth(str(self._ap.config("ssid")), M5.Lcd.FONTS.DejaVu24)
+        offset_y = M5.Lcd.fontHeight(M5.Lcd.FONTS.Montserrat24)
+        w = M5.Lcd.textWidth(str(self._ap.config("ssid")), M5.Lcd.FONTS.Montserrat24)
         M5.Lcd.fillRect((135 - w) // 2, 130 + offset_y, w, 2, 0x000000)
         self._state = self._STATE_AP
 
@@ -765,7 +765,7 @@ class SetupApp(AppBase):
                                 font_align=widgets.Label.CENTER_ALIGNED,
                                 fg_color=0x000000,
                                 bg_color=0xCBDFE0,
-                                font=M5.Lcd.FONTS.DejaVu24,
+                                font=M5.Lcd.FONTS.Montserrat24,
                             )
                             self._nick_name_label = widgets.Label(
                                 self._nick_name,
@@ -776,7 +776,7 @@ class SetupApp(AppBase):
                                 font_align=widgets.Label.CENTER_ALIGNED,
                                 fg_color=0x000000,
                                 bg_color=0xCBDFE0,
-                                font=M5.Lcd.FONTS.DejaVu24,
+                                font=M5.Lcd.FONTS.Montserrat24,
                             )
                             self._nick_name_label.set_long_mode(self._nick_name_label.LONG_DOT)
                             self._pair_code_label.set_text(self._pair_code)
@@ -892,7 +892,7 @@ class CloudApp(AppBase):
             font_align=widgets.Label.CENTER_ALIGNED,
             fg_color=0x000000,
             bg_color=0xCBDFE0,
-            font=M5.Lcd.FONTS.DejaVu24,
+            font=M5.Lcd.FONTS.Montserrat24,
         )
 
         self._nick_name_label = widgets.Label(
@@ -904,7 +904,7 @@ class CloudApp(AppBase):
             font_align=widgets.Label.CENTER_ALIGNED,
             fg_color=0x000000,
             bg_color=0xCBDFE0,
-            font=M5.Lcd.FONTS.DejaVu24,
+            font=M5.Lcd.FONTS.Montserrat24,
         )
         self._nick_name_label.set_long_mode(self._nick_name_label.LONG_DOT)
 
@@ -1013,7 +1013,7 @@ class LauncherApp(AppBase):
             font_align=widgets.Label.RIGHT_ALIGNED,
             fg_color=0x000000,
             bg_color=0xCCCCCC,
-            font=M5.Lcd.FONTS.DejaVu18,
+            font=M5.Lcd.FONTS.Montserrat18,
         )
 
         self._version_label = widgets.Label(
@@ -1025,7 +1025,7 @@ class LauncherApp(AppBase):
             font_align=widgets.Label.CENTER_ALIGNED,
             fg_color=0x000000,
             bg_color=0x67C94D,
-            font=M5.Lcd.FONTS.DejaVu18,
+            font=M5.Lcd.FONTS.Montserrat18,
         )
         self._version_label.set_text(esp32.firmware_info()[3])
 

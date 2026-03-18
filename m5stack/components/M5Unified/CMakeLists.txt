@@ -9,11 +9,14 @@ set(COMPONENT_ADD_INCLUDEDIRS
 )
 
 file(GLOB SRCS
+    fonts/*.c
     M5GFX/src/*.cpp
     M5GFX/src/lgfx/Fonts/efont/*.c
     M5GFX/src/lgfx/Fonts/IPA/*.c
+    M5GFX/src/lgfx/Fonts/lvgl/*.c
     M5GFX/src/lgfx/utility/*.c
     M5GFX/src/lgfx/v1/*.cpp
+    M5GFX/src/lgfx/v1/lv_font/*.c
     M5GFX/src/lgfx/v1/misc/*.cpp
     M5GFX/src/lgfx/v1/panel/*.cpp
     M5GFX/src/lgfx/v1/platforms/esp32/*.cpp

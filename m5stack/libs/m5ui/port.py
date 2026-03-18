@@ -146,5 +146,6 @@ def deinit():
         event_loop().deinit()
         M5.Lcd.lvgl_deinit()
         lv.mp_lv_deinit_gc()
+        M5.Lcd.lvgl_init()
     else:
         pass
