@@ -1,14 +1,24 @@
 .. |init.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/ir/init.png
 .. |tx.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/ir/tx.png
+.. |rx_cb.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/ir/event.png
 
-.. |example.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/ir/example.png
+.. |sticks3_ir_tx_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/controllers/sticks3/sticks3_ir_tx_example.png
+.. |sticks3_ir_rx_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/controllers/sticks3/sticks3_ir_rx_example.png
 
-
-.. |ir_stickcplus2_example.m5f2| raw:: html
+.. |sticks3_ir_tx_example.m5f2| raw:: html
 
     <a
-        href="https://uiflow2.m5stack.com/?example=https://raw.githubusercontent.com/m5stack/uiflow-micropython/develop/examples/hardware/ir/ir_stickcplus2_example.m5f2"
+        href="https://uiflow2.m5stack.com/?example=https://raw.githubusercontent.com/m5stack/uiflow-micropython/develop/examples/controllers/sticks3/sticks3_ir_tx_example.m5f2"
         target="_blank"
     >
-        ir_stickcplus2_example.m5f2
+        sticks3_ir_tx_example.m5f2
+    </a>
+
+.. |sticks3_ir_rx_example.m5f2| raw:: html
+
+    <a
+        href="https://uiflow2.m5stack.com/?example=https://raw.githubusercontent.com/m5stack/uiflow-micropython/develop/examples/controllers/sticks3/sticks3_ir_rx_example.m5f2"
+        target="_blank"
+    >
+        sticks3_ir_rx_example.m5f2
     </a>

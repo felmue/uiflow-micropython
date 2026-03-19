@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UIFlow2 Programming Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-16 15:35+0800\n"
+"POT-Creation-Date: 2026-03-17 14:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -20,159 +20,262 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../en/hardware/ir.rst:2 c4b207bd81b84f8790d794399198ac59
+#: ../../source/hardware/ir.rst:2 ee645e09e9174ce6b48d497a364d6092
 msgid "IR"
 msgstr "IR"
 
-#: ../../en/hardware/ir.rst:6 58fec6ecab7045438c2f62bb3f800d59
+#: ../../source/hardware/ir.rst:6 b793610117a442dcb2a0868ddd16efb7
 msgid ""
 "IR is used to control the infrared receiving/transmitting tube built into"
 " the host device."
 msgstr "IR 用于控制主机设备内置的红外接收/发射管。"
 
-#: ../../en/hardware/ir.rst:8 c844b8cba8e04a7ea6fc4742e5da043b
+#: ../../source/hardware/ir.rst:8 ae2af11bed4f487394eb3a792faba18b
 msgid "The specific support of the host for IR is as follows:"
 msgstr "主机对 IR 的具体支持如下："
 
-#: ../../en/hardware/ir.rst:15 3e665c05165e4299aef03d693b4471a8
+#: ../../source/hardware/ir.rst:15 39cae2fcac8446ebbf2121ce1f2c997e
 msgid "Controller"
 msgstr "控制器"
 
-#: ../../en/hardware/ir.rst:15 6c5bea20fd864067848d3517af69c35e
+#: ../../source/hardware/ir.rst:15 0ce526fc0f9d4dc18055c5ae5ed6503c
 msgid "IR Transmitter"
 msgstr "IR 发射器"
 
-#: ../../en/hardware/ir.rst:15 c1279e016ec34f1e8b64a11da1438e15
+#: ../../source/hardware/ir.rst:15 305839b7bdd74fb8b290cf515ab3ae13
 msgid "IR Receiver"
-msgstr "IR Receiver"
+msgstr "IR 接收器"
 
-#: ../../en/hardware/ir.rst:17 885b357355c6451f93d570bdd6121344
+#: ../../source/hardware/ir.rst:17 89346093af394296906e8568e6126a00
 msgid "Atom Lite"
 msgstr "Atom Lite"
 
-#: ../../en/hardware/ir.rst:17 ../../en/hardware/ir.rst:19
-#: ../../en/hardware/ir.rst:21 ../../en/hardware/ir.rst:23
-#: ../../en/hardware/ir.rst:25 ../../en/hardware/ir.rst:27
-#: ../../en/hardware/ir.rst:29 ../../en/hardware/ir.rst:31
-#: ../../en/hardware/ir.rst:33 ../../en/hardware/ir.rst:35
-#: 1844459702a84f1680ad2c1b5b954390 69111850486b4b42a45d70e9790d15d8
-#: 703e521b421d41599cceffd5f46b5292 84e4dea18e0d4fb88a59c2cffda33385
-#: 88b66ca5e31840d1bf5cf0f1ee474007 91cff11f40234effbe93642721073811
-#: ad4fab7c2f5f4a37b146d2d9e80f3b54 bf85df8c6a5944feb6430921a567cfd7
-#: d81b9b2cd7da4e3b8ef6f477db465345 f25ef16e89274ab79e314162c453cc3b
+#: ../../source/hardware/ir.rst:17 ../../source/hardware/ir.rst:19
+#: ../../source/hardware/ir.rst:21 ../../source/hardware/ir.rst:23
+#: ../../source/hardware/ir.rst:25 ../../source/hardware/ir.rst:27
+#: ../../source/hardware/ir.rst:29 ../../source/hardware/ir.rst:31
+#: ../../source/hardware/ir.rst:33 ../../source/hardware/ir.rst:35
+#: ../../source/hardware/ir.rst:37 0d79d7ff9bbc4e4fa5c5c117c42565f7
+#: 1053bbf53ecc4d93ad188c4b8401a28c 2fedb94b3dc5440486bdb4c41decb107
+#: 376997a3afc74850a865fb3ece1416c0 4f7d521644ad4100b2dfd133551f131f
+#: 5bf5cb3b37424e49bda476ac06cb936f 8ba1126311744c59b47c09bad7202c13
+#: ad5bc4ef1fbc4e1290caf20b6aa290c1 e1151cc2f2594f898eda36fa4d80ba99
+#: ed31f83cfbfe42d2a0f70a615a959d63 f8369a3fc2bb434f8c82c9c386313d25
 msgid "|S|"
 msgstr ""
 
-#: ../../en/hardware/ir.rst:19 f80077f6ad5e48a98f7b1a0115e0c230
+#: ../../source/hardware/ir.rst:19 af096f70495d449c93f31333ebca54e2
 msgid "Atom Matrix"
 msgstr "Atom Matrix"
 
-#: ../../en/hardware/ir.rst:21 08516d55687b4cc4965eb8cef918d352
+#: ../../source/hardware/ir.rst:21 8aaf0c5618d44bcda250659ecb49b456
 msgid "Atom U"
 msgstr "Atom U"
 
-#: ../../en/hardware/ir.rst:23 aef0639d43fb42b2a1b7a7b2109fb34a
+#: ../../source/hardware/ir.rst:23 ab29e9d20c3c4b3491ef6b8fff3a666b
 msgid "AtomS3 Lite"
 msgstr "AtomS3 Lite"
 
-#: ../../en/hardware/ir.rst:25 4d7e216247c340fbb4635767fa3472e4
+#: ../../source/hardware/ir.rst:25 3554839f1e2748d1acf9a00bd5446503
 msgid "AtomS3U"
 msgstr "AtomS3U"
 
-#: ../../en/hardware/ir.rst:27 0fb77f3da6fe4c709802f5a7c5ad8bd9
-msgid "M5StickC"
+#: ../../source/hardware/ir.rst:27 99efb02cf526456f9d75935d94051ff5
+#, fuzzy
+msgid "StickC"
 msgstr "M5StickC"
 
-#: ../../en/hardware/ir.rst:29 f5e09a66659340f699e2800e3ebfb0d3
-msgid "M5StickC PLUS"
+#: ../../source/hardware/ir.rst:29 a951f2bdbf7a42fbb3c0c7a749d0527e
+#, fuzzy
+msgid "StickC-Plus"
 msgstr "M5StickC PLUS"
 
-#: ../../en/hardware/ir.rst:31 189bc1476a304e5b9c531cd734b99832
-msgid "M5StickC PLUS2"
+#: ../../source/hardware/ir.rst:31 5bdcd6a7052a461ca27ef8f5b9a0db65
+#, fuzzy
+msgid "StickC-Plus2"
 msgstr "M5StickC PLUS2"
 
-#: ../../en/hardware/ir.rst:33 f476759de82e4ddfa60867cf38f50dba
+#: ../../source/hardware/ir.rst:33 531b5b0ec4014d20870801524dfcc004
 msgid "Cardputer"
 msgstr "Cardputer"
 
-#: ../../en/hardware/ir.rst:35 e609490e687a472b9721361b03bdca82
-msgid "M5Capsule"
+#: ../../source/hardware/ir.rst:35 b8702a8542af483aad8f2c564998e377
+#, fuzzy
+msgid "Capsule"
 msgstr "M5Capsule"
 
-#: ../../en/hardware/ir.rst:40 1c7f6aa53ac741069ea77f289be94752
-msgid "Micropython Example:"
-msgstr "MicroPython 应用示例："
+#: ../../source/hardware/ir.rst:37 99efb02cf526456f9d75935d94051ff5
+msgid "StickS3"
+msgstr "StickS3"
 
-#: ../../en/hardware/ir.rst:46 2d1948f2fcd24599b94300a5188d08f6
-msgid "UIFLOW2 Example:"
-msgstr "UiFlow2 应用示例"
+#: ../../source/hardware/ir.rst:43 4e8d37b385b64d06aa99ef1a06614400
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 示例"
 
-#: ../../en/hardware/ir.rst:48 5a5d391a021f487b9461b98b16b4a485
-msgid "|example.png|"
+#: ../../source/hardware/ir.rst:46 ../../source/hardware/ir.rst:81
+#: 48ae8ef1990944a18d58b90738e5d856
+msgid "IR Transmission"
+msgstr "IR 发射"
+
+#: ../../source/hardware/ir.rst:48 08f76b4c72004abca7e13f8deb0bed6e
+msgid "Open the |sticks3_ir_tx_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |sticks3_ir_tx_example.m5f2| 项目。"
+
+#: ../../source/hardware/ir.rst:50 ../../source/hardware/ir.rst:83
+#: d907ec5c4932456f8d2ed82c8e722c4e
+msgid ""
+"This example demonstrates infrared (IR) transmission functionality. When "
+"button A is pressed, it sends IR data with a specified address and data "
+"value. The example displays the address and data being transmitted."
+msgstr "本示例演示红外（IR）发射功能。按下 A 键时，会以指定地址和数据值发送 IR 数据，并显示正在发送的地址和数据。"
+
+#: ../../source/hardware/ir.rst:53 ../../source/hardware/ir.rst:69
+#: b009b371a54d4245bd7a0e4ff4b3d79d
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/hardware/ir.rst:55 429fb9316fd84a31985c0548ecd4a923
+msgid "|sticks3_ir_tx_example.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.ir.ref:4 24585a8d8491439daa76f04b1e03b5e5
-msgid "example.png"
+#: ../../source/refs/hardware.ir.ref:5 8848bdfd912d432a8f053544364983d8
+msgid "sticks3_ir_tx_example.png"
 msgstr ""
 
-#: ../../en/hardware/ir.rst:53 6c45142cedfb44b6ab4be573700c647c
-msgid "|ir_stickcplus2_example.m5f2|"
+#: ../../source/hardware/ir.rst:57 ../../source/hardware/ir.rst:73
+#: ../../source/hardware/ir.rst:92 ../../source/hardware/ir.rst:108
+#: f6f370e6107c4cab9b31e25eb523c5ba
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/hardware/ir.rst:59 ../../source/hardware/ir.rst:75
+#: ../../source/hardware/ir.rst:94 ../../source/hardware/ir.rst:110
+#: 1b9c29c106c14052910dabdbb6ba7afb
+msgid "None"
+msgstr "无"
+
+#: ../../source/hardware/ir.rst:62 ../../source/hardware/ir.rst:97
+#: 305839b7bdd74fb8b290cf515ab3ae13
+msgid "IR Reception"
+msgstr "IR 接收"
+
+#: ../../source/hardware/ir.rst:64 08f76b4c72004abca7e13f8deb0bed6e
+msgid "Open the |sticks3_ir_rx_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |sticks3_ir_rx_example.m5f2| 项目。"
+
+#: ../../source/hardware/ir.rst:66 ../../source/hardware/ir.rst:99
+#: d907ec5c4932456f8d2ed82c8e722c4e
+msgid ""
+"This example demonstrates infrared (IR) reception functionality using NEC"
+" decode protocol. When IR data is received, it displays the address and "
+"data values on the screen."
+msgstr "本示例演示使用 NEC 解码协议的红外（IR）接收功能。收到 IR 数据时，在屏幕上显示地址和数据值。"
+
+#: ../../source/hardware/ir.rst:71 ca73b925517941dd848b9df32e84d29a
+msgid "|sticks3_ir_rx_example.png|"
 msgstr ""
 
-#: ../../en/hardware/ir.rst:58 e662e9a9fc49479ebf0ce89cf75c0ceb
+#: ../../source/refs/hardware.ir.ref:6 8848bdfd912d432a8f053544364983d8
+msgid "sticks3_ir_rx_example.png"
+msgstr ""
+
+#: ../../source/hardware/ir.rst:78 30d0bca61f6541c7a987a935e436326f
+msgid "MicroPython Example"
+msgstr "MicroPython 示例"
+
+#: ../../source/hardware/ir.rst:86 ../../source/hardware/ir.rst:102
+#: 30d0bca61f6541c7a987a935e436326f
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/hardware/ir.rst:113 0adb95e186014da8b460264770ed5b10
 msgid "class IR"
 msgstr "class IR"
 
-#: ../../en/hardware/ir.rst:61 db99a9d9ab224b029e97e60b85b9bdf3
+#: ../../source/hardware/ir.rst:116 8c1250b383244f40bd3204977065f651
 msgid "Constructors"
-msgstr "Constructors"
+msgstr "构造函数"
 
-#: ../../en/hardware/ir.rst:65 7627ccf00a7e478ba7ff15464f6208d3
+#: ../../source/hardware/ir.rst:120 dea33183495444588942acecb86f5a6b
 msgid ""
 "Initializes the IR unit with the appropriate pins based on the M5Stack "
 "board type."
 msgstr "根据 M5Stack 开发板类型，使用相应的引脚初始化 IR 单元。"
 
-#: ../../en/hardware/ir.rst:68 ../../en/hardware/ir.rst:83
-#: 4eb9d3fcf12c47048f73c42aa7adb68b 574f159f67a24892952e8139f464c05b
-msgid "UIFLOW2:"
+#: ../../source/hardware/ir.rst:122 ../../source/hardware/ir.rst:136
+#: ../../source/hardware/ir.rst:148 6bbdc890ac5f4b04890148a290bc7bab
+msgid "UiFlow2:"
 msgstr "UiFlow2："
 
-#: ../../en/hardware/ir.rst:70 a7307bfc73bb46008001d9dc3fabd87c
+#: ../../source/hardware/ir.rst:124 f718d868effc4092a67191508cd6043d
 msgid "|init.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.ir.ref:1 d7fe104ca45a4f49a218c19d7b5c3df5
+#: ../../source/refs/hardware.ir.ref:1 864bfd3a6a9b4a81a1670e47fbd09037
 msgid "init.png"
 msgstr ""
 
-#: ../../en/hardware/ir.rst:74 2dad05f881d648038924c82d8e0122cc
+#: ../../source/hardware/ir.rst:127 08115416319e4e81a8c53af019e4b404
 msgid "Methods"
-msgstr ""
+msgstr "方法"
 
-#: ../../en/hardware/ir.rst:78 b70c79cd33d7484681a656eb16fcd6b8
+#: ../../source/hardware/ir.rst:131 b8256f4133664aea8ddc0d6be688b4e1
 msgid ""
 "Transmits an IR signal with the specified command and data using the NEC "
 "protocol."
 msgstr "使用 NEC 协议，通过指定的命令和数据发送 IR 信号。"
 
-#: ../../en/hardware/ir.rst f337c3e7904649769697f7c6fc5ef45f
+#: ../../source/hardware/ir.rst 1d2bb21051a2439d9228d54069793ae8
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
-#: ../../en/hardware/ir.rst:80 fe4da876d4f84421b2a420bcc32837c1
+#: ../../source/hardware/ir.rst:133 0a7113b0ce7d4e0bbdf5bf9871d389d4
 msgid "The command code to be transmitted."
 msgstr "要传输的命令代码。"
 
-#: ../../en/hardware/ir.rst:81 b996ca91c20847808ca3b16b612793f9
+#: ../../source/hardware/ir.rst:134 8d250cdcb2e94daea3f02fe19ac82326
 msgid "The data associated with the command."
 msgstr "与该命令关联的数据。"
 
-#: ../../en/hardware/ir.rst:85 e7e6a1ee3daa4146a20be68ab615fbb5
+#: ../../source/hardware/ir.rst:138 0795f939f4474c16a33499120425e5e2
 msgid "|tx.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.ir.ref:2 077194e6e5584bf39f7e81383ac22d8c
+#: ../../source/refs/hardware.ir.ref:2 bb1d6dc0d96b4eb996e4b7585ad73878
 msgid "tx.png"
 msgstr ""
+
+#: ../../source/hardware/ir.rst:142 027692cd218f43d08fea0e5f0703e718
+msgid ""
+"Registers a callback for infrared reception. When an NEC-format IR signal"
+" is received, the callback is invoked with two arguments: ``(data, "
+"addr)``."
+msgstr "注册红外接收的回调。当收到 NEC 格式的 IR 信号时，会以两个参数 ``(data, addr)`` 调用该回调。"
+
+#: ../../source/hardware/ir.rst:144 ea0dec58ec484747ac1e40a4084f47e0
+msgid "Only supported on boards with an IR receiver (e.g. StickS3)."
+msgstr "仅支持带 IR 接收器的开发板（如 StickS3）。"
+
+#: ../../source/hardware/ir.rst:146 7ca642579b9e4450a345a38cc70654e9
+msgid ""
+"Callback function with signature ``cb(data, addr)``. ``data`` and "
+"``addr`` are 8-bit values (0–255)."
+msgstr "回调函数签名为 ``cb(data, addr)``。``data`` 和 ``addr`` 为 8 位值（0–255）。"
+
+#: ../../source/hardware/ir.rst:150 b21e5cffdd8843c4911592e6f8259daa
+msgid "|rx_cb.png|"
+msgstr ""
+
+#: ../../source/refs/hardware.ir.ref:3 bb1d6dc0d96b4eb996e4b7585ad73878
+msgid "rx_cb.png"
+msgstr ""
+
+#~ msgid "|example.png|"
+#~ msgstr ""
+
+#~ msgid "example.png"
+#~ msgstr ""
+
+#~ msgid "|ir_stickcplus2_example.m5f2|"
+#~ msgstr ""
 

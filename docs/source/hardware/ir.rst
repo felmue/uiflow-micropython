@@ -24,35 +24,90 @@ The specific support of the host for IR is as follows:
     +-------------------+-----------------+-------------+
     | AtomS3U           | |S|             |             |
     +-------------------+-----------------+-------------+
-    | M5StickC          | |S|             |             |
+    | StickC            | |S|             |             |
     +-------------------+-----------------+-------------+
-    | M5StickC PLUS     | |S|             |             |
+    | StickC-Plus       | |S|             |             |
     +-------------------+-----------------+-------------+
-    | M5StickC PLUS2    | |S|             |             |
+    | StickC-Plus2      | |S|             |             |
     +-------------------+-----------------+-------------+
     | Cardputer         | |S|             |             |
     +-------------------+-----------------+-------------+
-    | M5Capsule         | |S|             |             |
+    | Capsule           | |S|             |             |
+    +-------------------+-----------------+-------------+
+    | StickS3           | |S|             | |S|         |
     +-------------------+-----------------+-------------+
 
 .. |S| unicode:: U+2714
 
-Micropython Example:
+UiFlow2 Example 
+---------------
 
-    .. literalinclude:: ../../../examples/hardware/ir/ir_stickcplus2_example.py
+IR Transmission
+^^^^^^^^^^^^^^^
+
+Open the |sticks3_ir_tx_example.m5f2| project in UiFlow2.
+
+This example demonstrates infrared (IR) transmission functionality. When button A is pressed, it sends IR data with a specified address and data value. 
+The example displays the address and data being transmitted.
+
+UiFlow2 Code Block:
+
+    |sticks3_ir_tx_example.png|
+
+Example output:
+
+    None
+
+IR Reception
+^^^^^^^^^^^^
+
+Open the |sticks3_ir_rx_example.m5f2| project in UiFlow2.
+
+This example demonstrates infrared (IR) reception functionality using NEC decode protocol. 
+When IR data is received, it displays the address and data values on the screen.
+
+UiFlow2 Code Block:
+
+    |sticks3_ir_rx_example.png|
+
+Example output:
+
+    None
+
+MicroPython Example 
+-------------------
+
+IR Transmission
+^^^^^^^^^^^^^^^
+
+This example demonstrates infrared (IR) transmission functionality. When button A is pressed, it sends IR data with a specified address and data value. 
+The example displays the address and data being transmitted.
+
+MicroPython Code Block:
+
+    .. literalinclude:: ../../../examples/controllers/sticks3/sticks3_ir_tx_example.py
         :language: python
         :linenos:
 
-UIFLOW2 Example:
+Example output:
 
-    |example.png|
+    None
 
+IR Reception
+^^^^^^^^^^^^
 
-.. only:: builder_html
+This example demonstrates infrared (IR) reception functionality using NEC decode protocol. 
+When IR data is received, it displays the address and data values on the screen.
 
-    |ir_stickcplus2_example.m5f2|
+MicroPython Code Block:
 
-.. only:: builder_html
+    .. literalinclude:: ../../../examples/controllers/sticks3/sticks3_ir_rx_example.py
+        :language: python
+        :linenos:
+
+Example output:
+
+    None
 
 class IR
 --------
@@ -64,11 +119,9 @@ Constructors
 
     Initializes the IR unit with the appropriate pins based on the M5Stack board type.
 
-
-    UIFLOW2:
+    UiFlow2:
 
         |init.png|
-
 
 Methods
 -------
@@ -80,6 +133,18 @@ Methods
     :param  cmd: The command code to be transmitted.
     :param  data: The data associated with the command.
 
-    UIFLOW2:
+    UiFlow2:
 
         |tx.png|
+
+.. method:: IR.rx_cb(cb)
+
+    Registers a callback for infrared reception. When an NEC-format IR signal is received, the callback is invoked with two arguments: ``(data, addr)``.
+
+    Only supported on boards with an IR receiver (e.g. StickS3).
+
+    :param cb: Callback function with signature ``cb(data, addr)``. ``data`` and ``addr`` are 8-bit values (0–255).
+
+    UiFlow2:
+
+        |rx_cb.png|
