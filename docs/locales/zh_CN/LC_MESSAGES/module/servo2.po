@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2016 - 2025 M5Stack Technology Co., Ltd
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
 # This file is distributed under the same license as the UIFlow2 Programming
 # Guide package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: UIFlow2 Programming Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-16 15:35+0800\n"
+"POT-Creation-Date: 2026-03-19 15:51+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -20,169 +20,216 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../en/module/servo2.rst:3 730d0d34346546b89fc33e4f6d092d6c
+#: ../../source/module/servo2.rst:5 386d39f789eb4d2f92ad0a0431e7b28a
 msgid "Servo2 Module"
 msgstr "Servo2 Module"
 
-#: ../../en/module/servo2.rst:7 1171ae71372946e3889f6a82caa3da63
+#: ../../source/module/servo2.rst:9 d38b332aef064d7d819366ee781ab401
 msgid ""
-"SERVO 2 is an updated servo driver module in the M5Stack stackable module"
-" series. It uses a PCA9685 16 channel PWM controller to control 16 "
-"channel servos at the same time. The power input is 6-12V DC and two "
-"SY8368AQQC chips are used for voltage reduction."
+"Servo2 is an updated servo driver module in the M5Stack stackable module "
+"series. It uses a PCA9685 16-channel PWM controller to drive up to 16 "
+"servos simultaneously. Power input is 6–12 V DC, with two SY8368AQQC "
+"chips for step-down regulation."
 msgstr ""
-"SERVO 2 是 M5Stack 可堆叠模块系列中更新的舵机驱动模块。它使用 PCA9685 16 通道 PWM 控制器，可同时控制 16 "
-"通道舵机。电源输入为 6-12V DC，并使用两颗 SY8368AQQC 芯片进行降压。"
+"Servo2 是 M5Stack 可堆叠模块系列中的舵机驱动模块。采用 PCA9685 16 通道 PWM 控制器，可同时驱动最多 16 "
+"路舵机。供电为 6–12 V 直流，使用两片 SY8368AQQC 进行降压。"
 
-#: ../../en/module/servo2.rst:9 c10ba83d1afe4cb29b378260f771853d
+#: ../../source/module/servo2.rst:11 4e1008f8b81541829ae980aee9be3c65
 msgid "Support the following products:"
 msgstr "支持以下产品："
 
-#: ../../en/module/servo2.rst:11 aa1473b78ce549ada902263709c260d7
+#: ../../source/module/servo2.rst:13 291b713261984091bbdf73e3cc91669e
 msgid "|Servo2Module|"
-msgstr ""
+msgstr "|Servo2Module|"
 
-#: ../../en/refs/module.servo2.ref 6b750b87c88d45f3a328f7e92b0cd8f0
+#: ../../source/module/servo2.rst:55 ../../source/refs/module.servo2.ref
+#: 2204255cd374466eb99b874b6cde2a8e 291b713261984091bbdf73e3cc91669e
 msgid "Servo2Module"
 msgstr "Servo2Module"
 
-#: ../../en/module/servo2.rst:13 ceeac1f121944db19f980b74a918e48b
-msgid "Micropython Example::"
-msgstr "MicroPython 应用示例："
-
-#: ../../en/module/servo2.rst:24 4a8563d371ff4d44bc41e672b4123ca2
-msgid "UIFLOW2 Example:"
+#: ../../source/module/servo2.rst:16 ec936a7f749e42d384100b43b9426e2d
+msgid "UiFlow2 Example"
 msgstr "UiFlow2 应用示例"
 
-#: ../../en/module/servo2.rst:26 d705d10662c14b86a15eec5f35b94da3
-msgid "|example.png|"
+#: ../../source/module/servo2.rst:19 ../../source/module/servo2.rst:37
+#: 3b95ddf8bda54c65b8d680721cf6f5d3 be047d40d3e643b699e0203665c4cb44
+msgid "Servo angle control"
+msgstr "舵机角度控制"
+
+#: ../../source/module/servo2.rst:21 4b8b3882af2a4acc9fa47d046fbebe82
+msgid "Open the |m5core_module_servo2_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |m5core_module_servo2_example.m5f2| 项目。"
+
+#: ../../source/module/servo2.rst:23 ../../source/module/servo2.rst:39
+#: 6b55d66852cd41be9f076f4db170e608 7f4f8f1253b84cd2905294bff1ce5afa
+msgid ""
+"This example initializes the Servo2 module on the I2C bus, drives two "
+"servo channels, and shows the current angle on screen. Button A sets both"
+" servos to 0°, Button B to 45°, and Button C to 90°; one channel is "
+"released after setup."
+msgstr ""
+"本示例在 I2C 总线上初始化 Servo2 模块，驱动两路舵机并在屏幕上显示当前角度。按键 A 将两路舵机设为 0°，按键 B 设为 "
+"45°，按键 C 设为 90°；初始化后释放一路通道。"
+
+#: ../../source/module/servo2.rst:25 ../../source/module/servo2.rst:67
+#: ../../source/module/servo2.rst:89 ../../source/module/servo2.rst:114
+#: 249c82f89dde441aa96a4119adb820d6 8fd01d245e584c6cbe7792204d47527e
+#: ad58abd869ec4b31b703b35116bc5e97 d544fdb82eff473fbb5e7eb7de59f6b4
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/module/servo2.rst:27 34dbde216ff5415987a409bc7b5d7b83
+msgid "|m5core_module_servo2_example.png|"
+msgstr "|m5core_module_servo2_example.png|"
+
+#: ../../source/refs/module.servo2.ref:15 34dbde216ff5415987a409bc7b5d7b83
+msgid "m5core_module_servo2_example.png"
+msgstr "m5core_module_servo2_example.png"
+
+#: ../../source/module/servo2.rst:29 ../../source/module/servo2.rst:47
+#: c1e447859c954bb2957a91842bc5f57b cc9db146a3cb4b5093087bf4b1e95f98
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/module/servo2.rst:31 ../../source/module/servo2.rst:49
+#: 05c552fcc6b0471f9258df9cdb4a8346 ba9de34bea0f42a09f4006deddecca6c
+msgid "None"
 msgstr ""
 
-#: ../../en/refs/module.servo2.ref:15 461bfb0be9b640fc84ca59972be5192c
-msgid "example.png"
+#: ../../source/module/servo2.rst:34 11108ca4043a4320ae64edd148b82e76
+msgid "MicroPython Example"
+msgstr "MicroPython 应用示例"
+
+#: ../../source/module/servo2.rst:41 ../../source/module/servo2.rst:71
+#: ../../source/module/servo2.rst:99 ../../source/module/servo2.rst:118
+#: ../../source/module/servo2.rst:128 11108ca4043a4320ae64edd148b82e76
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/module/servo2.rst:52 8aad7d74ea5c4d9eac05e618ab1886a7
+msgid "**API**"
 msgstr ""
 
-#: ../../en/module/servo2.rst:31 ff7ef7d903f448d788d9ff315601c795
-msgid "class Servo2Module"
-msgstr "class Servo2Module"
+#: ../../source/module/servo2.rst:59 4b9770f2da8747948fe22b306e57636d
+msgid "Create a Servo2 module instance on the I2C bus."
+msgstr "在 I2C 总线上创建 Servo2 模块实例。"
 
-#: ../../en/module/servo2.rst:34 0c9d4325f0d7456d84fdaf4ac7c9d4e1
-msgid "Constructors"
-msgstr "构造函数"
-
-#: ../../en/module/servo2.rst:38 5cf018cc93c54fa48b9ccf8f96646e98
-msgid "Create a Servo instance."
-msgstr "创建一个 Servo 实例。"
-
-#: ../../en/module/servo2.rst 02fe065e15d54fae80480bc009aad394
-#: dc31518a2fb64a7c82339d23428a9542 ee828eca6d0f46c4bb87bb9a0eaefbf3
+#: ../../source/module/servo2.rst 9b53956b37a14c47ab5b0c2a609b01ee
 msgid "Parameters"
 msgstr ""
 
-#: ../../en/module/servo2.rst:40 4dde8f2f22414882beb55aaec8db96d2
-msgid "The I2C address."
-msgstr "I2C 地址。"
+#: ../../source/module/servo2.rst:61 35849bb13ef248d2a4ea5f27503aab04
+msgid "I2C address of the PCA9685 (default 0x40)."
+msgstr "PCA9685 的 I2C 地址（默认 0x40）。"
 
-#: ../../en/module/servo2.rst:41 5ae51cbfd35b4e31b0180fbde8bff7c9
-msgid "The PWM frequency in Hz."
-msgstr "PWM 频率，单位为 Hz。"
+#: ../../source/module/servo2.rst:62 e7f47d20a1c44ab28f15ca83747a7a8f
+msgid "PWM frequency in Hz (default 50)."
+msgstr "PWM 频率，单位 Hz（默认 50）。"
 
-#: ../../en/module/servo2.rst:42 439858f0606f424489f6162e57aea033
-msgid "The minimum pulse width in microseconds."
-msgstr "最小脉冲宽度，单位为微秒。"
+#: ../../source/module/servo2.rst:63 5d8776886a214567bc6550365dab2e1c
+msgid "Minimum pulse width in microseconds (default 400)."
+msgstr "最小脉宽，单位微秒（默认 400）。"
 
-#: ../../en/module/servo2.rst:43 e9e76d8315ef49bd9d375ba2fe8ee87e
-msgid "The maximum pulse width in microseconds."
-msgstr "最大脉冲宽度（单位：微秒）。"
+#: ../../source/module/servo2.rst:64 8d561c3ba95c4427bfa8e138ecd418ab
+msgid "Maximum pulse width in microseconds (default 2350)."
+msgstr "最大脉宽，单位微秒（默认 2350）。"
 
-#: ../../en/module/servo2.rst:44 5fb6070003774d3f99ceeb91825cba3b
-msgid "The maximum angle in degrees."
-msgstr "最大角度（单位：度）。"
+#: ../../source/module/servo2.rst:65 151674f8691b4a9199e57743c719f089
+msgid "Maximum angle in degrees (default 180)."
+msgstr "最大角度，单位度（默认 180）。"
 
-#: ../../en/module/servo2.rst:46 ../../en/module/servo2.rst:64
-#: ../../en/module/servo2.rst:80 49c884a8bd1343ef81ded072fea5a71b
-#: 5969b5f5c55d4c6d814a30027a38a072 eac0a351c8fb406f8035aa798747a9f4
-msgid "UIFLOW2:"
-msgstr "UIFLOW2："
-
-#: ../../en/module/servo2.rst:48 de09d93ec48c4d688e3c907b2515cb0d
+#: ../../source/module/servo2.rst:69 2073845323ed43e5b9df67a9fd8c149e
 msgid "|init.png|"
-msgstr ""
+msgstr "|init.png|"
 
-#: ../../en/refs/module.servo2.ref:7 ea1b5ec1c6574a62aa488b06c7a3c7cb
+#: ../../source/refs/module.servo2.ref:7 60e164b76cd444d3b065534d1f3a0eaf
 msgid "init.png"
-msgstr ""
+msgstr "init.png"
 
-#: ../../en/module/servo2.rst:52 cef01af27ae1471695918f558fecc807
-msgid "Methods"
-msgstr ""
+#: ../../source/module/servo2.rst:81 9cc7ad9b798640b1a9435cd8bedcc19b
+msgid "Set the servo position for the given channel."
+msgstr "设置指定通道的舵机角度。"
 
-#: ../../en/module/servo2.rst:56 d972f10495564f93818dfcae31090c70
-msgid "Set the servo position."
-msgstr "设置舵机位置。"
+#: ../../source/module/servo2.rst:83 d226d4090aae4390abd835f8346a1c43
+msgid "Channel index (0-15)."
+msgstr "通道索引（0-15）。"
 
-#: ../../en/module/servo2.rst:58 ../../en/module/servo2.rst:78
-#: ec081c8114394659931e0caac1237e85 f147a8a6544343259630931fb87aa335
-msgid "The channel index."
-msgstr "通道索引。"
+#: ../../source/module/servo2.rst:84 1d2aa94acf9d409a9c1a3a6e5813bedc
+msgid "Angle in degrees (optional)."
+msgstr "角度，单位度（可选）。"
 
-#: ../../en/module/servo2.rst:59 7737aa27543548d3a29025505ac35887
-msgid "The angle in degrees."
-msgstr "角度（单位：度）。"
+#: ../../source/module/servo2.rst:85 5f8ed1907f904c9f964c57956467eacb
+msgid "Angle in radians (optional)."
+msgstr "角度，单位弧度（可选）。"
 
-#: ../../en/module/servo2.rst:60 61077fa7d69b4d3c818cfb28338444b0
-msgid "The angle in radians."
-msgstr "以弧度表示的角度。"
+#: ../../source/module/servo2.rst:86 3a981eee68d8449db976f77e3705f776
+msgid "Pulse width in microseconds (optional)."
+msgstr "脉宽，单位微秒（可选）。"
 
-#: ../../en/module/servo2.rst:61 aaac2c8f0a6148e79cf1f5e567980ca4
-msgid "The pulse width in microseconds."
-msgstr "脉冲宽度，单位为微秒。"
+#: ../../source/module/servo2.rst:87 3423191871f94b00a463a2af1d018266
+msgid ""
+"Duty cycle in percent (optional). Exactly one of *degrees*, *radians*, "
+"*us*, or *duty* may be given."
+msgstr "占空比，单位百分比（可选）。*degrees*、*radians*、*us*、*duty* 四者只能指定其一。"
 
-#: ../../en/module/servo2.rst:62 70e509ea4dca4189890a5e123205a56c
-msgid "The duty cycle in percent."
-msgstr "占空比（百分比）。"
-
-#: ../../en/module/servo2.rst:66 67e60ae2c68b4a0e8c936cb7f9abe449
+#: ../../source/module/servo2.rst:91 6b55e12fe78840e497526c21418e8d77
 msgid "|set_degrees.png|"
-msgstr ""
+msgstr "|set_degrees.png|"
 
-#: ../../en/refs/module.servo2.ref:9 123ac9e267874baba2376d4cf7dc0f9f
+#: ../../source/refs/module.servo2.ref:9 81ab440dd084412e905cc9f74d28aa30
 msgid "set_degrees.png"
-msgstr ""
+msgstr "set_degrees.png"
 
-#: ../../en/module/servo2.rst:68 674ca5b08ce748b5ac139600e3d15c4d
+#: ../../source/module/servo2.rst:93 02d677a9a9ad48cf87253ce74d91ac6b
 msgid "|set_duty.png|"
-msgstr ""
+msgstr "|set_duty.png|"
 
-#: ../../en/refs/module.servo2.ref:10 4a1c348451be4308906065c3922f08c6
+#: ../../source/refs/module.servo2.ref:10 8c29d299b2b742539d58d7c8b4bb6c58
 msgid "set_duty.png"
-msgstr ""
+msgstr "set_duty.png"
 
-#: ../../en/module/servo2.rst:70 a97127c70f8d4d4b95271dbd2d813282
+#: ../../source/module/servo2.rst:95 1bbe50f5c240485aa8ec4951cb85a40c
 msgid "|set_pulse_width.png|"
-msgstr ""
+msgstr "|set_pulse_width.png|"
 
-#: ../../en/refs/module.servo2.ref:11 d131935702df46c4a6e14e07acf758a6
+#: ../../source/refs/module.servo2.ref:11 3775199887cf41518ed4e6babb70af3b
 msgid "set_pulse_width.png"
-msgstr ""
+msgstr "set_pulse_width.png"
 
-#: ../../en/module/servo2.rst:72 95390c5ce6e14e259f5d474c7e10ef22
+#: ../../source/module/servo2.rst:97 311502adcc924267b0d2dfb27741f2b9
 msgid "|set_radians.png|"
-msgstr ""
+msgstr "|set_radians.png|"
 
-#: ../../en/refs/module.servo2.ref:12 a75ade734b4643e1b15cf5454fb8f477
+#: ../../source/refs/module.servo2.ref:12 e2cced0438cd46bdbc1fe687d87cfb77
 msgid "set_radians.png"
-msgstr ""
+msgstr "set_radians.png"
 
-#: ../../en/module/servo2.rst:76 39920a4db3b642ef91cf1086f33b419d
-msgid "Release the servo."
-msgstr "释放舵机。"
+#: ../../source/module/servo2.rst:110 345f4b9eda54463abedc64142c1774e3
+msgid "Release the servo (stop driving the channel)."
+msgstr "释放舵机（停止驱动该通道）。"
 
-#: ../../en/module/servo2.rst:82 11aa275d74764f7683f50360b24cd92d
+#: ../../source/module/servo2.rst:112 9ff5a26abb834dd99df5f5e3046ff002
+msgid "Channel index (0–15)."
+msgstr "通道索引（0–15）。"
+
+#: ../../source/module/servo2.rst:116 64792a64ef654cf78a5c6793e6fe5b96
 msgid "|release.png|"
-msgstr ""
+msgstr "|release.png|"
 
-#: ../../en/refs/module.servo2.ref:13 eb2b1cf4be5b41278483d3f0215bdded
+#: ../../source/refs/module.servo2.ref:13 9297dd1a23d84e54828cacc5253dbdd3
 msgid "release.png"
-msgstr ""
+msgstr "release.png"
+
+#: ../../source/module/servo2.rst:126 918fec3828714505a3a185be4eec8a79
+msgid "Release the module. No-op for Servo2Module; provided for compatibility."
+msgstr "释放模块。Servo2Module 中为空实现，仅用于兼容。"
+
+#~ msgid "Constructors"
+#~ msgstr "构造函数"
+
+#~ msgid "UiFlow2:"
+#~ msgstr "UiFlow2："
+
+#~ msgid "Methods"
+#~ msgstr "方法"
 

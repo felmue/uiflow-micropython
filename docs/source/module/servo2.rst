@@ -1,85 +1,132 @@
 
+.. py:currentmodule:: module
+
 Servo2 Module
 =============
 
 .. include:: ../refs/module.servo2.ref
 
-SERVO 2 is an updated servo driver module in the M5Stack stackable module series. It uses a PCA9685 16 channel PWM controller to control 16 channel servos at the same time. The power input is 6-12V DC and two SY8368AQQC chips are used for voltage reduction.
+Servo2 is an updated servo driver module in the M5Stack stackable module series. It uses a PCA9685 16-channel PWM controller to drive up to 16 servos simultaneously. Power input is 6–12 V DC, with two SY8368AQQC chips for step-down regulation.
 
 Support the following products:
 
-|Servo2Module|
+    |Servo2Module|
 
-Micropython Example::
+UiFlow2 Example
+---------------
 
-    import os, sys, io
-    import M5
-    from M5 import *
-    from module import Servo2Module
-    servo = Servo2Module()
-    servo.position(0, degrees=90)
-    servo.release()
+Servo angle control
+^^^^^^^^^^^^^^^^^^^
 
+Open the |m5core_module_servo2_example.m5f2| project in UiFlow2.
 
-UIFLOW2 Example:
+This example initializes the Servo2 module on the I2C bus, drives two servo channels, and shows the current angle on screen. Button A sets both servos to 0°, Button B to 45°, and Button C to 90°; one channel is released after setup.
 
-    |example.png|
+UiFlow2 Code Block:
 
-.. only:: builder_html
+    |m5core_module_servo2_example.png|
 
-class Servo2Module
-------------------
+Example output:
 
-Constructors
-------------
+    None
 
-.. class:: Servo2Module(address, freq, min_us, max_us, degrees)
+MicroPython Example
+-------------------
 
-    Create a Servo instance.
+Servo angle control
+^^^^^^^^^^^^^^^^^^^
 
-    :param int address: The I2C address.
-    :param int freq: The PWM frequency in Hz.
-    :param int min_us: The minimum pulse width in microseconds.
-    :param int max_us: The maximum pulse width in microseconds.
-    :param int degrees: The maximum angle in degrees.
+This example initializes the Servo2 module on the I2C bus, drives two servo channels, and shows the current angle on screen. Button A sets both servos to 0°, Button B to 45°, and Button C to 90°; one channel is released after setup.
 
-    UIFLOW2:
+MicroPython Code Block:
+
+    .. literalinclude:: ../../../examples/module/servo2/m5core_module_servo2_example.py
+        :language: python
+        :linenos:
+
+Example output:
+
+    None
+
+**API**
+-------
+
+Servo2Module
+^^^^^^^^^^^^
+
+.. class:: Servo2Module(address=0x40, freq=50, min_us=400, max_us=2350, degrees=180)
+
+    Create a Servo2 module instance on the I2C bus.
+
+    :param int address: I2C address of the PCA9685 (default 0x40).
+    :param int freq: PWM frequency in Hz (default 50).
+    :param int min_us: Minimum pulse width in microseconds (default 400).
+    :param int max_us: Maximum pulse width in microseconds (default 2350).
+    :param int degrees: Maximum angle in degrees (default 180).
+
+    UiFlow2 Code Block:
 
         |init.png|
 
+    MicroPython Code Block:
 
-Methods
--------
+        .. code-block:: python
 
-.. method:: Servo2Module.position(index, degrees, radians, us, duty)
+            from module import Servo2Module
 
-    Set the servo position.
+            servo2 = Servo2Module(address=0x40, freq=50, min_us=400, max_us=2350, degrees=180)
 
-    :param  index: The channel index.
-    :param  degrees: The angle in degrees.
-    :param  radians: The angle in radians.
-    :param  us: The pulse width in microseconds.
-    :param  duty: The duty cycle in percent.
+    .. py:method:: Servo2Module.position(index, degrees=None, radians=None, us=None, duty=None)
 
-    UIFLOW2:
+        Set the servo position for the given channel.
 
-        |set_degrees.png|
+        :param int index: Channel index (0-15).
+        :param float degrees: Angle in degrees (optional).
+        :param float radians: Angle in radians (optional).
+        :param int us: Pulse width in microseconds (optional).
+        :param float duty: Duty cycle in percent (optional). Exactly one of *degrees*, *radians*, *us*, or *duty* may be given.
 
-        |set_duty.png|
+        UiFlow2 Code Block:
 
-        |set_pulse_width.png|
+            |set_degrees.png|
 
-        |set_radians.png|
+            |set_duty.png|
 
-.. method:: Servo2Module.release(index)
+            |set_pulse_width.png|
 
-    Release the servo.
+            |set_radians.png|
 
-    :param  index: The channel index.
+        MicroPython Code Block:
 
-    UIFLOW2:
+            .. code-block:: python
 
-        |release.png|
+                servo2.position(0, degrees=90)
+                servo2.position(0, duty=50)
+                servo2.position(0, us=1500)
+                servo2.position(0, radians=1.57)
 
+    .. py:method:: Servo2Module.release(index)
 
+        Release the servo (stop driving the channel).
 
+        :param int index: Channel index (0–15).
+
+        UiFlow2 Code Block:
+
+            |release.png|
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                servo2.release(0)
+
+    .. py:method:: Servo2Module.deinit()
+
+        Release the module. No-op for Servo2Module; provided for compatibility.
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                servo2.deinit()
