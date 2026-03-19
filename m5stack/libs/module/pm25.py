@@ -19,7 +19,7 @@ MBusIO = namedtuple("MBusIO", ["bus_tx", "bus_rx", "en"])
 iomap = {
     M5.BOARD.M5Stack: MBusIO(17, 16, 13),
     M5.BOARD.M5StackCore2: MBusIO(14, 13, 19),
-    M5.BOARD.M5StackCoreS3: MBusIO(17, 16, 7),
+    M5.BOARD.M5StackCoreS3: MBusIO(17, 18, 7),
     M5.BOARD.M5Tough: MBusIO(14, 13, 19),
     M5.BOARD.M5Tab5: MBusIO(6, 7, 48),
 }.get(M5.getBoard())
@@ -41,7 +41,11 @@ class PM25Module:
             print("SHT30 sensor detected")
         elif 0x40 in self.i2c.scan():
             self.sht20 = SHT20(self.i2c)
-            print("SHT20 sensor detected")
+            _serial_num = self.sht20.get_serial_number()
+            if _serial_num is not None and _serial_num != bytearray(b"\xff" * 8):
+                print("SHT20 sensor detected")
+            else:
+                self.sht20 = None
         self.data_len = 32
         self.data_buffer = bytearray(self.data_len)
         self.pm_data = [0] * 16
