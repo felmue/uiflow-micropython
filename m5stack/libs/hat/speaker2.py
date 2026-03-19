@@ -17,8 +17,9 @@ class Speaker2Hat:
             M5.BOARD.M5StickC: (2, 26, 25, 0),
             M5.BOARD.M5StickCPlus: (2, 26, 25, 0),
             M5.BOARD.M5StickCPlus2: (2, 26, 25, 0),
+            M5.BOARD.M5StickS3: (2, 0, 1, 8),
+            M5.BOARD.M5Unit_PoEP4: (2, 21, 20, 19),
             M5.BOARD.ArduinoNessoN1: (0, 7, 2, 6),
-            M5.BOARD.M5StickS3: (0, 0, 1, 8),
         }
         if M5.getBoard() in _pin_map:
             (i2s_id, i2s_bck, i2s_dataout, i2s_ws) = _pin_map.get(M5.getBoard())
