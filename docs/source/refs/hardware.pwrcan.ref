@@ -1,0 +1,26 @@
+.. |init.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/init.png
+
+.. |any.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/any.png
+.. |deinit.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/deinit.png
+.. |setup.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/setup.png
+.. |read_all.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/read_all.png
+.. |read_bytes.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/read_bytes.png
+.. |readline.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/readline.png
+.. |readinto.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/readinto.png
+.. |write.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/write.png
+.. |write_line.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/write_line.png
+.. |write_list.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/write_list.png
+.. |txdone.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/txdone.png
+.. |flush.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/flush.png
+.. |sendbreak.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/sendbreak.png
+
+.. |pwrcan_send_receive_powerhub_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/pwrcan/example.png
+
+.. |pwrcan_send_receive_powerhub_example.m5f2| raw:: html
+
+    <a
+        href="https://uiflow2.m5stack.com/?example=https://raw.githubusercontent.com/m5stack/uiflow-micropython/develop/examples/hardware/pwrcan/pwrcan_send_receive_powerhub_example.m5f2"
+        target="_blank"
+    >
+        pwrcan_send_receive_powerhub_example.m5f2
+    </a>

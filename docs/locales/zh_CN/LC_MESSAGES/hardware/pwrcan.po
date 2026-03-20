@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016 - 2026 M5Stack Technology Co., Ltd
+# This file is distributed under the same license as the UIFlow2 Programming
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UIFlow2 Programming Guide \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-20 17:01+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/hardware/pwrcan.rst:2 ../../source/hardware/pwrcan.rst:67
+#: 60711ffa4e1046ddb32a6a088bde7de5 a61f933f1fa44f01a423ff814d9dab4b
+msgid "PWRCAN"
+msgstr "PWRCAN"
+
+#: ../../source/hardware/pwrcan.rst:6 602232767d834bef9ae37b8c36287b8c
+msgid ""
+"The PWRCAN is a CAN interface that can be used to communicate with other "
+"devices."
+msgstr "PWRCAN 是一种可用于与其他设备通信的 CAN 接口。"
+
+#: ../../source/hardware/pwrcan.rst:8 68211ec59e074e7db9fe24e1964d3622
+msgid "The following are the host's support for PWRCAN:"
+msgstr "以下是主机对 PWRCAN 的支持情况："
+
+#: ../../source/hardware/pwrcan.rst:15 3b6657ca40fd497f9fc48fb621581189
+msgid "Controller"
+msgstr "控制器"
+
+#: ../../source/hardware/pwrcan.rst:15 5f728d2f4e8f411c82cb45524cd8a47e
+msgid "Status"
+msgstr "状态"
+
+#: ../../source/hardware/pwrcan.rst:17 cff63883be3f4cbab7718e61509362eb
+msgid "PowerHub"
+msgstr "PowerHub"
+
+#: ../../source/hardware/pwrcan.rst:17 0768b0903e0b4e308efa936cd148f3bc
+msgid "|S|"
+msgstr "|S|"
+
+#: ../../source/hardware/pwrcan.rst:24 aa13fb8f21104d188d1725857aa01581
+msgid "UiFlow2 Example"
+msgstr "UiFlow2 示例"
+
+#: ../../source/hardware/pwrcan.rst:28 ../../source/hardware/pwrcan.rst:48
+#: 82933652fc3c41f2946da09f99faf8b4
+msgid "pwrcan_send_receive"
+msgstr "pwrcan_send_receive"
+
+#: ../../source/hardware/pwrcan.rst:30 9e0ec117215e47929cbb7e2db08aa8cc
+msgid "Open the |pwrcan_send_receive_powerhub_example.m5f2| project in UiFlow2."
+msgstr "在 UiFlow2 中打开 |pwrcan_send_receive_powerhub_example.m5f2| 项目。"
+
+#: ../../source/hardware/pwrcan.rst:32 ../../source/hardware/pwrcan.rst:50
+#: 982b99e2cc9a40a6925b1d34642efed5
+msgid ""
+"This example demonstrates how to utilize PWRCAN interfaces to sender and "
+"receive data."
+msgstr "此示例演示如何使用 PWRCAN 接口进行数据发送与接收。"
+
+#: ../../source/hardware/pwrcan.rst:34 ../../source/hardware/pwrcan.rst:83
+#: ae0e28696d154d2d80b9f2071a9f0b2d
+msgid "UiFlow2 Code Block:"
+msgstr "UiFlow2 代码块："
+
+#: ../../source/hardware/pwrcan.rst:36 dabac8aa76244cdc8ae2d5e2b63d050a
+msgid "|pwrcan_send_receive_powerhub_example.png|"
+msgstr ""
+
+#: ../../source/refs/hardware.pwrcan.ref:17 93e61408b72f419e899df1c1e95875f0
+msgid "pwrcan_send_receive_powerhub_example.png"
+msgstr ""
+
+#: ../../source/hardware/pwrcan.rst:38 ../../source/hardware/pwrcan.rst:58
+#: be7349448a404641b3c850c07740479c
+msgid "Example output:"
+msgstr "示例输出："
+
+#: ../../source/hardware/pwrcan.rst:40 ../../source/hardware/pwrcan.rst:60
+#: fb8529e869664315b2b4d460ed2744fc
+msgid "None"
+msgstr ""
+
+#: ../../source/hardware/pwrcan.rst:45 c597b031738f48b18e8efe3d1c1b05dd
+msgid "MicroPython Example"
+msgstr "MicroPython 示例"
+
+#: ../../source/hardware/pwrcan.rst:52 ../../source/hardware/pwrcan.rst:87
+#: 51ff79c64eda4e01b08a63deee4f0a04
+msgid "MicroPython Code Block:"
+msgstr "MicroPython 代码块："
+
+#: ../../source/hardware/pwrcan.rst:64 7407ea4e615c4800a0e566fe7e59e548
+msgid "**API**"
+msgstr ""
+
+#: ../../source/hardware/pwrcan.rst:71 20e51aaececb475788b9fe571b682932
+msgid "Initialise the CAN bus with the given parameters."
+msgstr "使用给定参数初始化 CAN 总线。"
+
+#: ../../source/hardware/pwrcan.rst 591f56384c63426eaadb08b1043298e4
+msgid "Parameters"
+msgstr "参数"
+
+#: ../../source/hardware/pwrcan.rst:73 d563e09dab20498ca1f99d976aa9e0c2
+msgid "The CAN bus ID."
+msgstr "CAN 总线 ID。"
+
+#: ../../source/hardware/pwrcan.rst:74 9a9664962e5548869243ff3a1b9f59d0
+msgid "One of NORMAL, NO_ACKNOWLEDGE, LISTEN_ONLY."
+msgstr "NORMAL、NO_ACKNOWLEDGE、LISTEN_ONLY 之一。"
+
+#: ../../source/hardware/pwrcan.rst:75 16421f4599a7422f923d3301748857b3
+msgid "The pin to use for transmitting data."
+msgstr "用于发送数据的引脚。"
+
+#: ../../source/hardware/pwrcan.rst:76 223553375b3c49fa8200715666ecdc6f
+msgid "The pin to use for receiving data."
+msgstr "用于接收数据的引脚。"
+
+#: ../../source/hardware/pwrcan.rst:77 e67c75b9799f4076aaae6d4d3b6a466c
+msgid ""
+"The value by which the CAN input clock is divided to generate the nominal"
+" bit time quanta. Value between 1 and 1024 inclusive for classic CAN."
+msgstr ""
+"用于分频 CAN 输入时钟以生成标称位时间量子的值。对于经典 CAN，取值范围为 1 至 1024（含）。"
+
+#: ../../source/hardware/pwrcan.rst:78 765ff4f925b34e53bb1b9b597909f61b
+msgid ""
+"The resynchronisation jump width in units of time quanta for nominal "
+"bits; value between 1 and 4 inclusive for classic CAN."
+msgstr ""
+"标称位的重同步跳跃宽度（单位为时间量子）；对于经典 CAN，取值范围为 1 至 4（含）。"
+
+#: ../../source/hardware/pwrcan.rst:79 dd5664b451fb490db4ce87a6919f5803
+msgid ""
+"Defines the location of the sample point in units of the time quanta for "
+"nominal bits; value between 1 and 16 inclusive for classic CAN."
+msgstr ""
+"定义标称位采样点的位置（单位为时间量子）；对于经典 CAN，取值范围为 1 至 16（含）。"
+
+#: ../../source/hardware/pwrcan.rst:80 13a5627010b94e3c9dc960db2491dd24
+msgid ""
+"Defines the location of the transmit point in units of the time quanta "
+"for nominal bits; value between 1 and 8 inclusive for classic CAN."
+msgstr ""
+"定义标称位发送点的位置（单位为时间量子）；对于经典 CAN，取值范围为 1 至 8（含）。"
+
+#: ../../source/hardware/pwrcan.rst:81 c070c3ad1cb5450db5cd1ba7dd3643a4
+msgid "Enables triple sampling when the TWAI controller samples a bit."
+msgstr "在 TWAI 控制器采样位时启用三重采样。"
+
+#: ../../source/hardware/pwrcan.rst:85 e286dc3a610f47daac354c4924821da0
+msgid "|init.png|"
+msgstr ""
+
+#: ../../source/refs/hardware.pwrcan.ref:1 93e61408b72f419e899df1c1e95875f0
+msgid "init.png"
+msgstr ""
+
+#: ../../source/hardware/pwrcan.rst:95 0c50aa5e465c4748b0f9143fac833498
+msgid ""
+"PWRCAN class inherits CAN class. See :class:`hardware.CAN <hardware.CAN>`"
+" for more details."
+msgstr "PWRCAN 类继承自 CAN 类。更多详情请参阅 :class:`hardware.CAN <hardware.CAN>`。"
+
+#~ msgid "class PWRCAN"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "PWRCAN class inherits CAN class, See "
+#~ ":class:`hardware.CAN <hardware.CAN>` for more "
+#~ "details."
+#~ msgstr ""

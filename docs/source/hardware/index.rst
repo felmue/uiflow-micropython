@@ -16,6 +16,7 @@ Hardware
     pin.rst
     plcio.rst
     pwr485.rst
+    pwrcan.rst
     rotary.rst
     scd40.rst
     sen55.rst
