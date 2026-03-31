@@ -1,0 +1,46 @@
+.. |CardKB2 Unit| image:: https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1225/U215_main-pictures_01.webp
+    :target: https://docs.m5stack.com/en/products/sku/U215
+    :height: 200px
+    :width: 200 px
+
+.. |callback.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/callback.png
+.. |get_char.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/get_char.png
+.. |get_key.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/get_key.png
+.. |get_string.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/get_string.png
+.. |i2c_callback.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/i2c_callback.png
+.. |init.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/init.png
+.. |is_pressed.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/is_pressed.png
+.. |keycode.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/keycode.png
+.. |keycode2.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/keycode2.png
+.. |tick.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/tick.png
+
+.. |i2c_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/i2c_example.png
+.. |uart_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/uart_example.png
+.. |espnow_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/unit/cardkb2/espnow_example.png
+
+.. |cardkb2_i2c_core2_example.m5f2| raw:: html
+
+    <a
+        href="https://uiflow2.m5stack.com/?example=https://raw.githubusercontent.com/m5stack/uiflow-micropython/develop/examples/unit/cardkb2/cardkb2_i2c_core2_example.m5f2"
+        target="_blank"
+    >
+        cardkb2_i2c_core2_example.m5f2
+    </a>
+
+.. |cardkb2_uart_core2_example.m5f2| raw:: html
+
+    <a
+        href="https://uiflow2.m5stack.com/?example=https://raw.githubusercontent.com/m5stack/uiflow-micropython/develop/examples/unit/cardkb2/cardkb2_uart_core2_example.m5f2"
+        target="_blank"
+    >
+        cardkb2_uart_core2_example.m5f2
+    </a>
+
+.. |cardkb2_espnow_core2_example.m5f2| raw:: html
+
+    <a
+        href="https://uiflow2.m5stack.com/?example=https://raw.githubusercontent.com/m5stack/uiflow-micropython/develop/examples/unit/cardkb2/cardkb2_espnow_core2_example.m5f2"
+        target="_blank"
+    >
+        cardkb2_espnow_core2_example.m5f2
+    </a>

@@ -1,12 +1,32 @@
-# SPDX-FileCopyrightText: 2024 M5Stack Technology CO LTD
+# SPDX-FileCopyrightText: 2026 M5Stack Technology CO LTD
 #
 # SPDX-License-Identifier: MIT
+
 from micropython import schedule
 from machine import I2C
-from .pahub import PAHUBUnit
+from machine import UART
+import m5espnow
+import sys
+
+if sys.platform != "esp32":
+    from typing import Literal
 
 
 class KeyCode:
+    """Key code constants for CardKB unit.
+
+    This class defines the key codes for special keys on the CardKB keyboard.
+
+    MicroPython Code Block:
+
+        .. code-block:: python
+
+            from cardkb import KeyCode
+
+            if key == KeyCode.KEYCODE_ENTER:
+                print("Enter key pressed")
+    """
+
     KEYCODE_UNKNOWN = 0x00
     KEYCODE_BACKSPACE = 0x08
     KEYCODE_TAB = 0x09
@@ -22,27 +42,116 @@ class KeyCode:
 
 
 class CardKBUnit:
-    def __init__(self, i2c: I2C | PAHUBUnit, address: int | list | tuple = 0x5F):
-        self._i2c = i2c
-        self._addr = address
+    """Create a CardKBUnit object.
+
+    :param args: Positional arguments passed to the underlying communication class.
+    :param int mode: The communication mode. Default modes are:
+
+        - ``CardKBUnit.CardKB_I2C_MODE`` : I2C mode
+        - ``CardKBUnit.CardKB_UART_MODE`` : UART mode
+        - ``CardKBUnit.CardKB_ESP_NOW_MODE`` : ESP-NOW mode
+
+    .. note::
+
+        This is a factory class. It returns an instance of the appropriate subclass
+        based on the specified mode.
+
+    UiFlow2 Code Block:
+
+        |init.png|
+
+    MicroPython Code Block:
+
+        .. code-block:: python
+
+            from cardkb import CardKBUnit
+            from hardware import I2C, Pin
+
+            # I2C mode
+            i2c0 = I2C(0, scl=Pin(33), sda=Pin(32), freq=100000)
+            cardkb_0 = CardKBUnit(i2c0, mode=CardKBUnit.CardKB_I2C_MODE)
+
+            # UART mode
+            cardkb_0 = CardKBUnit(2, port=(33, 32), mode=CardKBUnit.CardKB_UART_MODE)
+
+            # ESP-NOW mode
+            cardkb_0 = CardKBUnit(mode=CardKBUnit.CardKB_ESP_NOW_MODE)
+    """
+
+    CardKB_I2C_MODE = 0
+    CardKB_UART_MODE = 1
+    CardKB_ESP_NOW_MODE = 2
+
+    KEY_STATE_PRESS = 0x01
+    KEY_STATE_RELEASE = 0x02
+
+    def __new__(cls, *args, **kwargs):
+        """Create a new CardKBUnit instance based on the specified communication mode.
+
+        :param args: Positional arguments to be passed to the subclass constructors.
+        :param kwargs: Keyword arguments, must include ``mode`` to specify the communication mode.
+        :raises ValueError: If an invalid mode is specified.
+        :return: An instance of ``CardKBI2C``, ``CardKBUART``, or ``CardKBESPNOW``.
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                cardkb_0 = CardKBUnit(i2c0, mode=CardKBUnit.CardKB_I2C_MODE)
+        """
+        mode = kwargs.get("mode", cls.CardKB_I2C_MODE)
+        if mode == cls.CardKB_I2C_MODE:
+            cls.instance = CardKBI2C(args[0], **kwargs)
+        elif mode == cls.CardKB_UART_MODE:
+            cls.instance = CardKBUART(args[0], **kwargs)
+        elif mode == cls.CardKB_ESP_NOW_MODE:
+            cls.instance = CardKBESPNOW(**kwargs)
+        else:
+            raise ValueError("Invalid mode specified")
+        return cls.instance
+
+
+class CardKBBase:
+    """Base class for CardKB unit communication.
+
+    This class provides the common interface and logic for all CardKB communication modes.
+    """
+
+    FRAME_HEADER = 0xAA
+    FRAME_DATA_LEN = 0x03
+
+    def __init__(self) -> None:
         self._keys = []
         self._handler = None
-        try:
-            while True:
-                buf = self._i2c.readfrom(self._addr, 1)
-                if buf[0] is KeyCode.KEYCODE_UNKNOWN:
-                    break
-        except OSError:
-            pass
+
+    def _is_valid_ack(self, buf):
+        if not buf or len(buf) != 4:
+            return None
+        data_len, key_id, key_state, checksum = buf
+        calc = (data_len + key_id + key_state) & 0xFF
+        if data_len != self.FRAME_DATA_LEN or checksum != calc:
+            return None
+        return (key_id, key_state)
 
     def _get_key(self):
-        buf = self._i2c.readfrom(self._addr, 1)
-        if buf[0] != 0:
-            self._keys.append(buf[0])
-            return True
-        return False
+        raise NotImplementedError("Subclasses should implement this method!")
 
     def get_key(self):
+        """Get the next key from the key buffer.
+
+        :return: The key value (int or tuple depending on mode)
+
+        UiFlow2 Code Block:
+
+            |get_key.png|
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                key = cardkb_0.get_key()
+                print(key)
+        """
         if self._keys:
             return self._keys.pop(0)
         else:
@@ -52,16 +161,333 @@ class CardKBUnit:
                 return self._keys.pop(0)
 
     def get_string(self):
+        """Get the next key as a string.
+
+        :return: The string representation of the next key.
+        :rtype: str
+
+        UiFlow2 Code Block:
+
+            |get_string.png|
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                s = cardkb_0.get_string()
+                print(s)
+        """
         return str(self.get_key())
 
+    def get_char(self):
+        """Get the next key as a character.
+
+        :return: The character corresponding to the next key code.
+        :rtype: str
+
+        UiFlow2 Code Block:
+
+            |get_char.png|
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                c = cardkb_0.get_char()
+                print(c)
+        """
+        return chr(self.get_key())
+
     def is_pressed(self) -> bool:
+        """Check whether any key is currently pressed.
+
+        :return: ``True`` if a key is pressed, ``False`` otherwise.
+        :rtype: bool
+
+        UiFlow2 Code Block:
+
+            |is_pressed.png|
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                if cardkb_0.is_pressed():
+                    print("Key pressed!")
+        """
         if self._keys:
             return True
         return self._get_key()
 
     def set_callback(self, handler):
+        """Set the callback function for key press events.
+
+        :param handler: The callback function to invoke when a key is pressed.
+            The callback receives the CardKB instance as its argument.
+
+        UiFlow2 Code Block:
+
+            |i2c_callback.png|
+
+            |callback.png|
+
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                # I2C mode example
+                def on_key_pressed(kb):
+                    print("Key pressed:", kb.get_char())
+
+                cardkb_0.set_callback(on_key_pressed)
+
+                # UART/ESP-NOW mode example
+                def on_key_event(kb):
+                    key_id, key_state = kb.get_key()
+                    print("Key event - ID:", key_id, "State:", key_state)
+        """
         self._handler = handler
 
-    def tick(self):
+    def tick(self) -> None:
+        """Poll for key events and trigger the callback if a key is pressed.
+
+        This method should be called periodically in the main loop to process key events.
+
+        UiFlow2 Code Block:
+
+            |tick.png|
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                while True:
+                    cardkb_0.tick()
+        """
         if self.is_pressed() and self._handler:
             schedule(self._handler, self)
+
+
+class CardKBI2C(CardKBBase):
+    """CardKB unit driver over I2C communication.
+
+    :param I2C i2c: The I2C bus instance.
+    :param int address: The I2C address of the CardKB unit. Defaults to ``0x5F``.
+    :param mode: Ignored. Reserved for factory compatibility.
+
+    :raises Exception: If the CardKB unit is not found on the I2C bus.
+
+    .. note::
+
+        Do not instantiate this class directly. Use :class:`CardKBUnit` with
+        ``mode=CardKBUnit.CardKB_I2C_MODE`` instead.
+
+    MicroPython Code Block:
+
+        .. code-block:: python
+
+            from hardware import I2C, Pin
+            from cardkb import CardKBUnit
+
+            i2c0 = I2C(0, scl=Pin(33), sda=Pin(32), freq=100000)
+            cardkb_0 = CardKBUnit(i2c0, mode=CardKBUnit.CardKB_I2C_MODE)
+    """
+
+    CardKB_I2C_ADDR = 0x5F
+    CardKB_FW_REG = 0xF1
+
+    def __init__(self, i2c: I2C, address: int = CardKB_I2C_ADDR, mode=None) -> None:
+        self._i2c = i2c
+        self._i2c_addr = address
+        if self._i2c_addr not in self._i2c.scan():
+            raise Exception("CardKB unit not found in Grove")
+        super().__init__()
+
+        try:
+            while True:
+                buf = self._i2c.readfrom(self._i2c_addr, 1)
+                if buf[0] is KeyCode.KEYCODE_UNKNOWN:
+                    break
+        except OSError:
+            pass
+
+    def _get_key(self):
+        buf = self._i2c.readfrom(self._i2c_addr, 1)
+        if buf[0] != 0:
+            self._keys.append(buf[0])
+            return True
+        return False
+
+    def get_firmware_version(self):
+        """Read the firmware version from the CardKB unit.
+
+        :return: The firmware version byte.
+        :rtype: int
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                version = cardkb_0.get_firmware_version()
+                print("Firmware version:", version)
+        """
+        return self._i2c.readfrom_mem(self._i2c_addr, CardKBI2C.CardKB_FW_REG, 1)[0]
+
+
+class CardKBUART(CardKBBase):
+    """CardKB unit driver over UART communication.
+
+    :param int id: The UART bus ID (0, 1, or 2). Defaults to ``1``.
+    :param port: A list or tuple of ``(rx_pin, tx_pin)``.
+    :param mode: Ignored. Reserved for factory compatibility.
+
+    .. note::
+
+        Do not instantiate this class directly. Use :class:`CardKBUnit` with
+        ``mode=CardKBUnit.CardKB_UART_MODE`` instead.
+
+    MicroPython Code Block:
+
+        .. code-block:: python
+
+            from cardkb import CardKBUnit
+
+            cardkb_0 = CardKBUnit(2, port=(33, 32), mode=CardKBUnit.CardKB_UART_MODE)
+    """
+
+    def __init__(self, id: Literal[0, 1, 2] = 1, port: list | tuple = None, mode=None) -> None:
+        self._uart_bus = UART(id, tx=port[1], rx=port[0])
+        self._uart_bus.init(115200, bits=8, parity=None, stop=1)
+        super().__init__()
+
+    def _get_key(self):
+        if self._uart_bus.any() < 5:
+            return False
+
+        frame = self._uart_bus.read(5)
+        if not frame or frame[0] != self.FRAME_HEADER:
+            return False
+
+        buf = self._is_valid_ack(frame[1:])
+        if buf is not None:
+            self._keys.append(buf)
+            return True
+        return False
+
+    def tick(self):
+        """Poll the key buffer and trigger the callback if a key is available.
+
+        This method should be called periodically in the main loop to process
+        key events received via UART.
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                while True:
+                    cardkb_0.tick()
+        """
+        if self.is_pressed() and self._handler:
+            schedule(self._handler, self.get_key())
+
+
+class CardKBESPNOW(CardKBBase):
+    """CardKB unit driver over ESP-NOW wireless communication.
+
+    :param mode: Ignored. Reserved for factory compatibility.
+
+    .. note::
+
+        Do not instantiate this class directly. Use :class:`CardKBUnit` with
+        ``mode=CardKBUnit.CardKB_ESP_NOW_MODE`` instead.
+
+    .. note::
+
+        This class uses a broadcast MAC address (``ffffffffffff``) and fixes the
+        Wi-Fi channel to 0. Key data is received asynchronously via IRQ callback.
+
+    MicroPython Code Block:
+
+        .. code-block:: python
+
+            from cardkb import CardKBUnit
+
+            cardkb_0 = CardKBUnit(mode=CardKBUnit.CardKB_ESP_NOW_MODE)
+    """
+
+    def __init__(self, mode=None) -> None:
+        self._esp_now = m5espnow.M5ESPNow(0)  # channel fix to 0
+        self._esp_now.set_add_peer("ffffffffffff")
+        self._esp_now.set_irq_callback(self.espnow_recv_callback)
+        super().__init__()
+
+    def espnow_recv_callback(self, espnow_obj):
+        """Callback function invoked when an ESP-NOW packet is received.
+
+        :param espnow_obj: The ESP-NOW object containing the received data.
+        :return: ``True`` if the frame is valid and a key was appended, ``False`` otherwise.
+        :rtype: bool
+        """
+        _, event_data = espnow_obj.recv_data()
+        frame = event_data
+        if not frame or frame[0] != self.FRAME_HEADER:
+            return False
+
+        buf = self._is_valid_ack(frame[1:])
+        if buf is not None:
+            self._keys.append(buf)
+            return True
+        return False
+
+    def get_key(self):
+        """Get the next key from the buffer received via ESP-NOW.
+
+        :return: The key tuple ``(key_id, key_state)``, or ``None`` if the buffer is empty.
+        :rtype: tuple or None
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                key = cardkb_0.get_key()
+                if key:
+                    print("key_id:", key[0], "key_state:", key[1])
+        """
+        if self._keys:
+            return self._keys.pop(0)
+        else:
+            return None
+
+    def is_pressed(self) -> bool:
+        """Check whether any key data is buffered from ESP-NOW.
+
+        :return: ``True`` if there is buffered key data, ``False`` otherwise.
+        :rtype: bool
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                if cardkb_0.is_pressed():
+                    print("Key received via ESP-NOW!")
+        """
+        if self._keys:
+            return True
+        return False
+
+    def tick(self):
+        """Poll the key buffer and trigger the callback if a key is available.
+
+        This method should be called periodically in the main loop to process
+        key events received via ESP-NOW.
+
+        MicroPython Code Block:
+
+            .. code-block:: python
+
+                while True:
+                    cardkb_0.tick()
+        """
+        if self.is_pressed() and self._handler:
+            schedule(self._handler, self.get_key())

@@ -22,6 +22,7 @@ Unit
     byteswitch.rst
     can.rst
     cardkb.rst
+    cardkb2.rst
     cat1cn.rst
     catch.rst
     co2.rst
