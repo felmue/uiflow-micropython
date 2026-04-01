@@ -7,6 +7,7 @@ Base
     atom_can.rst
     atom_gps.rst
     atom_socket.rst
+    audio35.rst
     display.rst
     dtu_lorawan_rui3.rst
     dtu_lorawan.rst

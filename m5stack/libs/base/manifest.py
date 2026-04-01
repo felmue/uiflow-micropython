@@ -8,6 +8,7 @@ package(
         "atom_can.py",
         "atom_gps.py",
         "atom_socket.py",
+        "audio35.py",
         "display.py",
         "dtu_lorawan.py",
         "dtu_lorawan_rui3.py",

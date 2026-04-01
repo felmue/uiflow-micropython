@@ -26,6 +26,7 @@ _attrs = {
     "AtomicStepmotorBase": "stepmotor",
     "AtomicTFCardBase": "tfcard",
     "AtomicEchoPyramidBase": "echo_pyramid",
+    "AtomicAudio35Base": "audio35",
 }
 
 
