@@ -24,16 +24,16 @@
 static const char *TAG = "rmt_ir";
 
 // NEC timing spec (in microseconds)
-#define NEC_LEADING_CODE_DURATION_0  9000
-#define NEC_LEADING_CODE_DURATION_1  4500
-#define NEC_PAYLOAD_ZERO_DURATION_0  560
-#define NEC_PAYLOAD_ZERO_DURATION_1  560
-#define NEC_PAYLOAD_ONE_DURATION_0   560
-#define NEC_PAYLOAD_ONE_DURATION_1   1690
-#define NEC_REPEAT_CODE_DURATION_0   9000
-#define NEC_REPEAT_CODE_DURATION_1   2250
+#define NEC_LEADING_CODE_DURATION_0  9000  // Leading pulse
+#define NEC_LEADING_CODE_DURATION_1  4500  // Leading space
+#define NEC_PAYLOAD_ZERO_DURATION_0  560   // Logic 0 pulse
+#define NEC_PAYLOAD_ZERO_DURATION_1  560   // Logic 0 space
+#define NEC_PAYLOAD_ONE_DURATION_0   560   // Logic 1 pulse
+#define NEC_PAYLOAD_ONE_DURATION_1   1690  // Logic 1 space
+#define NEC_REPEAT_CODE_DURATION_0   9000  // Repeat pulse
+#define NEC_REPEAT_CODE_DURATION_1   2250  // Repeat space
 
-#define IR_NEC_DECODE_MARGIN         500
+#define IR_NEC_DECODE_MARGIN         200   // Decode tolerance in microseconds
 
 typedef rmt_symbol_word_t rmt_item32_t;
 
@@ -64,8 +64,8 @@ static rmt_encoder_handle_t ir_tx_encoder = NULL;
 static int ir_tx_initialized_pin = -1;
 
 static const rmt_receive_config_t ir_rx_receive_config = {
-    .signal_range_min_ns = 100 * 1000,
-    .signal_range_max_ns = 12 * 1000 * 1000,
+    .signal_range_min_ns = 1250,     // 1.25us
+    .signal_range_max_ns = 12000000, // 12ms
 };
 
 static inline void nec_fill_item(rmt_item32_t *item, uint32_t high_us, uint32_t low_us) {
@@ -99,46 +99,50 @@ static inline bool nec_check_in_range(uint32_t signal_duration, uint32_t spec_du
 }
 
 static bool nec_parse_logic0(rmt_item32_t *item) {
-    return nec_check_in_range(item->duration0, NEC_PAYLOAD_ZERO_DURATION_0)
-           && nec_check_in_range(item->duration1, NEC_PAYLOAD_ZERO_DURATION_1);
+    return nec_check_in_range(item->duration0, NEC_PAYLOAD_ZERO_DURATION_0) &&
+           nec_check_in_range(item->duration1, NEC_PAYLOAD_ZERO_DURATION_1);
 }
 
 static bool nec_parse_logic1(rmt_item32_t *item) {
-    return nec_check_in_range(item->duration0, NEC_PAYLOAD_ONE_DURATION_0)
-           && nec_check_in_range(item->duration1, NEC_PAYLOAD_ONE_DURATION_1);
+    return nec_check_in_range(item->duration0, NEC_PAYLOAD_ONE_DURATION_0) &&
+           nec_check_in_range(item->duration1, NEC_PAYLOAD_ONE_DURATION_1);
 }
 
 static bool nec_parse_frame(rmt_item32_t *items) {
     rmt_item32_t *cur = items;
-    uint16_t address = 0;
-    uint16_t command = 0;
 
-    if (!nec_check_in_range(cur->duration0, NEC_LEADING_CODE_DURATION_0)
-        || !nec_check_in_range(cur->duration1, NEC_LEADING_CODE_DURATION_1)) {
+    uint16_t addr = 0;
+    uint16_t cmd = 0;
+    bool valid_leading_code = nec_check_in_range(cur->duration0, NEC_LEADING_CODE_DURATION_0) &&
+        nec_check_in_range(cur->duration1, NEC_LEADING_CODE_DURATION_1);
+
+    if (!valid_leading_code) {
         return false;
     }
     cur++;
-
     for (int i = 0; i < 16; i++) {
         if (nec_parse_logic1(cur)) {
-            address |= 1 << i;
-        } else if (!nec_parse_logic0(cur)) {
+            addr |= 1 << i;
+        } else if (nec_parse_logic0(cur)) {
+            addr &= ~(1 << i);
+        } else {
             return false;
         }
         cur++;
     }
-
     for (int i = 0; i < 16; i++) {
         if (nec_parse_logic1(cur)) {
-            command |= 1 << i;
-        } else if (!nec_parse_logic0(cur)) {
+            cmd |= 1 << i;
+        } else if (nec_parse_logic0(cur)) {
+            cmd &= ~(1 << i);
+        } else {
             return false;
         }
         cur++;
     }
+    ir_nec_address = addr;
+    ir_nec_command = cmd;
 
-    ir_nec_address = address;
-    ir_nec_command = command;
     return true;
 }
 
@@ -170,26 +174,21 @@ static void process_nec_frame(rmt_item32_t *items, size_t symbol_num) {
 static bool ir_rx_done_callback(rmt_channel_handle_t channel, const rmt_rx_done_event_data_t *edata, void *user_data) {
     BaseType_t high_task_wakeup = pdFALSE;
     (void)channel;
-    (void)user_data;
     if (ir_rx_done_queue != NULL) {
-        size_t symbol_num = edata->num_symbols;
-        xQueueOverwriteFromISR(ir_rx_done_queue, &symbol_num, &high_task_wakeup);
+        xQueueSendFromISR(ir_rx_done_queue, edata, &high_task_wakeup);
     }
     return high_task_wakeup == pdTRUE;
 }
 
 static void ir_rx_task(void *param) {
     (void)param;
+    rmt_rx_done_event_data_t rx_data;
     while (ir_rx_is_initialized && ir_rx_done_queue != NULL) {
-        size_t symbol_num = 0;
-        if (xQueueReceive(ir_rx_done_queue, &symbol_num, portMAX_DELAY) == pdTRUE) {
-            if (!ir_rx_is_initialized || ir_rx_symbols == NULL) {
+        if (xQueueReceive(ir_rx_done_queue, &rx_data, portMAX_DELAY) == pdTRUE) {
+            if (!ir_rx_is_initialized) {
                 continue;
             }
-            if (symbol_num > ir_rx_symbol_buf_num) {
-                symbol_num = ir_rx_symbol_buf_num;
-            }
-            process_nec_frame((rmt_item32_t *)ir_rx_symbols, symbol_num);
+            process_nec_frame((rmt_item32_t *)rx_data.received_symbols, rx_data.num_symbols);
             (void)rmt_receive(ir_rx_channel, ir_rx_symbols,
                 ir_rx_symbol_buf_num * sizeof(rmt_symbol_word_t), &ir_rx_receive_config);
         }
@@ -253,21 +252,20 @@ static esp_err_t init_tx_if_needed(int tx_pin) {
         }
     }
 
-    rmt_tx_channel_config_t tx_chan_cfg = {
-        .gpio_num = tx_pin,
-        .clk_src = RMT_CLK_SRC_DEFAULT,
-        .resolution_hz = 1000000,
-        .mem_block_symbols = 64,
-        .trans_queue_depth = 4,
-    };
+    rmt_tx_channel_config_t tx_chan_cfg = {};
+    tx_chan_cfg.gpio_num = tx_pin;
+    tx_chan_cfg.clk_src = RMT_CLK_SRC_DEFAULT;
+    tx_chan_cfg.resolution_hz = 1000000;
+    tx_chan_cfg.mem_block_symbols = 64;
+    tx_chan_cfg.trans_queue_depth = 4;
     esp_err_t err = rmt_new_tx_channel(&tx_chan_cfg, &ir_tx_channel);
     if (err != ESP_OK) {
         return err;
     }
 
     rmt_carrier_config_t carrier_cfg = {
-        .frequency_hz = 38000,
-        .duty_cycle = 0.33f,
+        .frequency_hz = 38000, // 38KHz 载波
+        .duty_cycle = 0.33f,   // 33% 占空比
     };
     err = rmt_apply_carrier(ir_tx_channel, &carrier_cfg);
     if (err != ESP_OK) {
@@ -304,12 +302,11 @@ static esp_err_t init_rx_if_needed(int rx_pin) {
         }
     }
 
-    rmt_rx_channel_config_t rx_chan_cfg = {
-        .gpio_num = rx_pin,
-        .clk_src = RMT_CLK_SRC_DEFAULT,
-        .resolution_hz = 1000000,
-        .mem_block_symbols = 64,
-    };
+    rmt_rx_channel_config_t rx_chan_cfg = {};
+    rx_chan_cfg.gpio_num = rx_pin;
+    rx_chan_cfg.clk_src = RMT_CLK_SRC_DEFAULT;
+    rx_chan_cfg.resolution_hz = 1000000;
+    rx_chan_cfg.mem_block_symbols = 64;
     esp_err_t err = rmt_new_rx_channel(&rx_chan_cfg, &ir_rx_channel);
     if (err != ESP_OK) {
         return err;
@@ -318,7 +315,7 @@ static esp_err_t init_rx_if_needed(int rx_pin) {
     rmt_rx_event_callbacks_t cbs = {
         .on_recv_done = ir_rx_done_callback,
     };
-    err = rmt_rx_register_event_callbacks(ir_rx_channel, &cbs, NULL);
+    err = rmt_rx_register_event_callbacks(ir_rx_channel, &cbs, ir_rx_done_queue);
     if (err != ESP_OK) {
         deinit_rx_if_needed();
         return err;
@@ -330,6 +327,7 @@ static esp_err_t init_rx_if_needed(int rx_pin) {
         return err;
     }
 
+    gpio_set_direction(rx_pin, GPIO_MODE_INPUT);
     gpio_set_pull_mode(rx_pin, GPIO_PULLUP_ONLY);
     ir_rx_symbol_buf_num = 64;
     ir_rx_symbols = m_malloc(ir_rx_symbol_buf_num * sizeof(rmt_symbol_word_t));
@@ -338,24 +336,23 @@ static esp_err_t init_rx_if_needed(int rx_pin) {
         return ESP_ERR_NO_MEM;
     }
 
-    ir_rx_done_queue = xQueueCreate(1, sizeof(size_t));
+    ir_rx_done_queue = xQueueCreate(1, sizeof(rmt_rx_done_event_data_t));
     if (ir_rx_done_queue == NULL) {
         deinit_rx_if_needed();
         return ESP_ERR_NO_MEM;
     }
 
-    BaseType_t task_created = xTaskCreate(ir_rx_task, "ir_rx_task", 4096, NULL, 3, &ir_rx_task_handle);
-    if (task_created != pdPASS) {
-        deinit_rx_if_needed();
-        return ESP_ERR_NO_MEM;
-    }
-
     ir_rx_is_initialized = true;
-    err = rmt_receive(ir_rx_channel, ir_rx_symbols,
-        ir_rx_symbol_buf_num * sizeof(rmt_symbol_word_t), &ir_rx_receive_config);
+    err = rmt_receive(ir_rx_channel, ir_rx_symbols, ir_rx_symbol_buf_num * sizeof(rmt_symbol_word_t), &ir_rx_receive_config);
     if (err != ESP_OK) {
         deinit_rx_if_needed();
         return err;
+    }
+
+    BaseType_t task_created = xTaskCreate(ir_rx_task, "ir_rx_task", 6 * 1024, NULL, 3, &ir_rx_task_handle);
+    if (task_created != pdPASS) {
+        deinit_rx_if_needed();
+        return ESP_ERR_NO_MEM;
     }
 
     ir_rx_initialized_pin = rx_pin;
@@ -392,8 +389,8 @@ static mp_obj_t rmt_ir_make_new(const mp_obj_type_t *type, size_t n_args, size_t
 }
 
 /**
-  * @brief Read the received data - return a tuple (address, command, is_repeat)
-  */
+ * @brief Read the received data - return a tuple (address, command, is_repeat)
+*/
 static mp_obj_t ir_rx_read(mp_obj_t self_in) {
     if (!ir_data_ready) {
         return mp_const_none;
@@ -410,32 +407,32 @@ static mp_obj_t ir_rx_read(mp_obj_t self_in) {
 static MP_DEFINE_CONST_FUN_OBJ_1(ir_rx_read_obj, ir_rx_read);
 
 /**
-  * @brief Get the address
-  */
+ * @brief Get the address
+ */
 static mp_obj_t ir_rx_get_address(mp_obj_t self_in) {
     return mp_obj_new_int(ir_nec_address);
 }
 static MP_DEFINE_CONST_FUN_OBJ_1(ir_rx_get_address_obj, ir_rx_get_address);
 
 /**
-  * @brief Get the command
-  */
+ * @brief Get the command
+ */
 static mp_obj_t ir_rx_get_command(mp_obj_t self_in) {
     return mp_obj_new_int(ir_nec_command);
 }
 static MP_DEFINE_CONST_FUN_OBJ_1(ir_rx_get_command_obj, ir_rx_get_command);
 
 /**
-  * @brief Check whether the received data is a repeat code
-  */
+ * @brief Check whether the received data is a repeat code
+ */
 static mp_obj_t ir_rx_is_repeat_code(mp_obj_t self_in) {
     return mp_obj_new_bool(ir_is_repeat);
 }
 static MP_DEFINE_CONST_FUN_OBJ_1(ir_rx_is_repeat_code_obj, ir_rx_is_repeat_code);
 
 /**
-  * @brief Send a NEC frame (address, command)
-  */
+ * @brief Send a NEC frame (address, command)
+ */
 static mp_obj_t ir_tx_send(mp_obj_t self_in, mp_obj_t address_in, mp_obj_t command_in) {
     rmt_ir_obj_t *self = MP_OBJ_TO_PTR(self_in);
 
