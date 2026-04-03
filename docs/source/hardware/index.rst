@@ -21,5 +21,6 @@ Hardware
     sen55.rst
     sht30.rst
     speaker.rst
+    touch.rst
     uart.rst
     wdt.rst
