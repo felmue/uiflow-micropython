@@ -108,7 +108,7 @@ LabelPlus
 
         Sets the font of the text in the LabelPlus widget.
 
-        :param str font: The font to set (e.g., Widgets.FONTS.DejaVu9).
+        :param font: supports built-in fonts and font files (for example, ``.bin`` (lvgl binary font format) or ``.vlw`` (Processing font format)). For the full list of built-in fonts, status, and device support, see :meth:`Display.setFont` . Widgets.FONTS uses the same font as M5.Display.
 
         UiFlow2 Code Block:
 
@@ -118,7 +118,7 @@ LabelPlus
 
             .. code-block:: python
 
-                label_plus_0.setFont(Widgets.FONTS.DejaVu9)
+                label_plus_0.setFont(Widgets.FONTS.Montserrat12)
 
     .. py:method:: setVisible(visible)
 

@@ -69,7 +69,9 @@ Methods
 
 .. method:: Label.setFont(font)
 
-    Sets the font set of the Label object. font is the set of fonts used to display text, the built-in font, see ``Widgets.FONTS``.
+    Set the font of the Label object.
+
+    :param font: supports built-in fonts and font files (for example, ``.bin`` (lvgl binary font format) or ``.vlw`` (Processing font format)). For the full list of built-in fonts, status, and device support, see :meth:`Display.setFont` . Widgets.FONTS uses the same font as M5.Display.
 
     UIFLOW2:
 
