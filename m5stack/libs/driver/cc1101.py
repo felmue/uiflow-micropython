@@ -296,12 +296,11 @@ class CC1101:
 
     def _radio_rx_isr(self, _):
         """Radio receive interrupt service routine"""
-        self._last_rx_irq = time.ticks_ms()
-
-        # Check if module is in RX state (not TX or IDLE)
         marc_state = self.read_register(self.MARCSTATE, self.STATUS_REGISTER) & 0x1F
         if marc_state != self.MARCSTATE_RX:
             return
+
+        self._last_rx_irq = time.ticks_ms()
 
         if self._rx_callback:
             # Check if packet is available
@@ -577,6 +576,8 @@ class CC1101:
     def start_receive(self):
         """Start reception mode (like RadioLib startReceive)"""
         try:
+            self._last_rx_irq = None
+
             # Set mode to standby
             self.write_command(self.SIDLE)
             self.wait_for_idle()
@@ -675,6 +676,10 @@ class CC1101:
 
     def _set_sync_word(self, sync_h, sync_l):
         """Set CC1101 sync word (matching RadioLib)"""
+        if (sync_h & 0xFF) == 0 and (sync_l & 0xFF) == 0:
+            raise ValueError(
+                "CC1101 sync word must not be 0x00/0x00: framing is unreliable and CRC will often fail"
+            )
         self.set_register_value(self.SYNC1, sync_h, 7, 0)
         self.set_register_value(self.SYNC0, sync_l, 7, 0)
 
@@ -745,6 +750,8 @@ class CC1101:
     def _start_transmit(self, data_bytes, addr=0):
         """Start transmission (like RadioLib startTransmit)"""
         try:
+            self._last_tx_irq = None
+
             # Set mode to standby
             self.write_command(self.SIDLE)
             self.wait_for_idle()
@@ -854,6 +861,8 @@ class CC1101:
     def _start_receive(self):
         """Start reception (like RadioLib startReceive)"""
         try:
+            self._last_rx_irq = None
+
             # Set mode to standby
             if not self.standby():
                 return False
@@ -971,21 +980,29 @@ class CC1101:
         try:
             self.write_command(self.SIDLE)
             self.wait_for_idle()
-            # Clear IRQ flags when going to standby (like LoRa module)
-            self._last_rx_irq = None
-            self._last_tx_irq = None
+            # Do not clear _last_rx_irq / _last_tx_irq here: transmit() ends with
+            # _start_receive() -> standby(), which would erase the TX IRQ latch
+            # before the application can call tx_irq_triggered().
             return True
         except Exception as e:
             print(f"Standby error: {e}")
             return False
 
     def rx_irq_triggered(self):
-        """Returns True if the RX ISR has executed since the last time a send or a receive started"""
+        """True if the RX ISR ran since the last receive was started (``start_receive`` / ``_start_receive``)."""
         return self._last_rx_irq is not None
 
     def tx_irq_triggered(self):
-        """Returns True if the TX ISR has executed since the last time a send or a receive started"""
-        return self._last_tx_irq is not None
+        """Return and clear TX IRQ latch (edge-triggered read).
+
+        Returns ``True`` once after TX (GDO2) ISR fires for a packet, then clears
+        the latch so subsequent polls return ``False`` until next TX IRQ.
+        Requires **GDO2** wired and mapped for TX; otherwise the ISR never runs.
+        """
+        if self._last_tx_irq is None:
+            return False
+        self._last_tx_irq = None
+        return True
 
     def get_status(self):
         """Get module status"""

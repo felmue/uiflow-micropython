@@ -82,11 +82,11 @@ class DualKey:
         mv2 = avg_adc(self.adc_sw2) * 3300 / 4095 * self.BATTERY_VOLTAGE_MULTIPLIER
         th = self.SWITCH_VOLTAGE_THRESHOLD
         if mv1 > th and mv2 <= th:
-            return 0
+            return 2
         elif mv1 <= th and mv2 <= th:
             return 1
         elif mv1 <= th and mv2 > th:
-            return 2
+            return 0
         else:
             return -1
 

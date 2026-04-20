@@ -1,11 +1,12 @@
 .. |DualKey| image:: https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1176/C147_chain-dualkey-mainpicture_01.webp
     :target: https://docs.m5stack.com/zh_CN/chain/Chain_DualKey
+    :height: 200px
+    :width: 200px
 
- 
-.. |get_battery_voltage.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/hardware_dualkey/get_battery_voltage.png
-.. |get_vbus_voltage.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/hardware_dualkey/get_vbus_voltage.png
-.. |is_charging.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/hardware_dualkey/is_charging.png
-.. |get_switch_position.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/hardware_dualkey/get_switch_position.png
+.. |get_battery_voltage.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/dualkey/get_battery_voltage.png
+.. |get_vbus_voltage.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/dualkey/get_vbus_voltage.png
+.. |is_charging.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/dualkey/is_charging.png
+.. |get_switch_position.png| image:: https://static-cdn.m5stack.com/mpy_docs/hardware/dualkey/get_switch_position.png
 
 .. |dualkey_button_led_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/controllers/dualkey/dualkey_button_led_example.png 
 .. |dualkey_power_detection_example.png| image:: https://static-cdn.m5stack.com/mpy_docs/controllers/dualkey/dualkey_power_detection_example.png 

@@ -22,6 +22,7 @@ class CC1101Module:
     :param int preamble_length: Preamble length in bits, options: 16, 24, 32, 48, 64, 96, 128, 192.
     :param int sync_word_h: High byte of sync word (0x00 to 0xFF).
     :param int sync_word_l: Low byte of sync word (0x00 to 0xFF).
+    :raises ValueError: If both sync bytes are ``0x00`` (invalid; driver rejects ``0x00``/``0x00``).
 
     UiFlow2 Code Block:
 
@@ -86,8 +87,8 @@ class CC1101Module:
         }
         self.driver.begin(**cc1101_cfg)
 
-        # Start receive mode for polling
-        self.driver._start_receive()
+        # Not in RX until start_recv(), recv() (lazy), or send() finishes (chip re-enters RX).
+        self._in_rx = False
 
         self.rx_irq_callback = None
         self.tx_irq_callback = None
@@ -99,7 +100,7 @@ class CC1101Module:
     def set_freq(self, freq_khz: int = 868000) -> None:
         """Set frequency in kHz.
 
-        :param int freq_khz: Frequency in kHz. Valid ranges: 855000-928000. Default is 868000.
+        :param int freq_khz: Frequency in kHz. Valid ranges: 855000-910000. Default is 868000.
 
         UiFlow2 Code Block:
 
@@ -112,9 +113,9 @@ class CC1101Module:
                 module_cc1101_0.set_freq(868000.0)
         """
         # Check if frequency is in any of the valid ranges
-        valid = 855000 <= freq_khz <= 928000
+        valid = 855000 <= freq_khz <= 910000
         if not valid:
-            raise ValueError(f"Frequency {freq_khz} kHz not in valid ranges (855000-928000)")
+            raise ValueError(f"Frequency {freq_khz} kHz not in valid ranges (855000-910000)")
 
         self.frequency = freq_khz
         # Convert kHz to MHz for driver (driver expects MHz)
@@ -123,7 +124,7 @@ class CC1101Module:
     def set_bitrate(self, bitrate_kbps: float) -> None:
         """Set data rate in kbps.
 
-        :param float bitrate_kbps: Data rate in kbps (0.6 ~ 6.0)
+        :param float bitrate_kbps: Data rate in kbps (1.2 ~ 6.0)
 
         UiFlow2 Code Block:
 
@@ -135,7 +136,7 @@ class CC1101Module:
 
                 module_cc1101_0.set_bitrate(2.4)
         """
-        self._validate_range(bitrate_kbps, 0.6, 6.0)
+        self._validate_range(bitrate_kbps, 1.2, 6.0)
         self.bitrate = bitrate_kbps
         self.driver._set_bitrate(bitrate_kbps)
 
@@ -224,6 +225,7 @@ class CC1101Module:
 
         :param int sync_word_h: High byte of sync word (0 ~ 0xFF)
         :param int sync_word_l: Low byte of sync word (0 ~ 0xFF)
+        :raises ValueError: If both bytes are ``0x00`` (same rule as in the constructor).
 
         UiFlow2 Code Block:
 
@@ -267,7 +269,10 @@ class CC1101Module:
         elif isinstance(packet, int):
             packet = bytes([packet])
 
-        return self.driver.transmit(packet)
+        ok = self.driver.transmit(packet)
+        if ok:
+            self._in_rx = True
+        return ok
 
     def recv(self, timeout_ms: int = None) -> CC1101Packet | None:
         """Receive data
@@ -295,6 +300,9 @@ class CC1101Module:
                     else:
                         print("CRC error")
         """
+        if not self._in_rx:
+            self.start_recv()
+
         # 轮询模式：检查是否有数据包可用
         if self.driver.check_for_packet():
             result = self.driver._read_data()
@@ -321,6 +329,7 @@ class CC1101Module:
 
                 module_cc1101_0.start_recv()
         """
+        self._in_rx = True
         self.driver.start_receive()
 
     def set_rx_irq_callback(self, callback) -> None:
@@ -392,6 +401,7 @@ class CC1101Module:
 
                 module_cc1101_0.standby()
         """
+        self._in_rx = False
         self.driver.standby()
 
     def rx_irq_triggered(self) -> bool:

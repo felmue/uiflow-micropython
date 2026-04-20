@@ -89,6 +89,21 @@ Example output:
 
     None
 
+Important: IRQ when using interrupt receive
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note::
+
+   When receiving data with the interrupt method (``set_irq_callback`` and
+   ``start_recv()``), the firmware automatically clears the LoRa IRQ flag
+   after interrupt handling.
+
+   In this case, polling ``irq_triggered()`` may always return ``False``
+   because the flag has already been cleared. This is not a receive failure.
+
+   Please use synchronous receive mode (``recv()``) for testing.
+
+
 **API**
 -------
 
@@ -364,7 +379,11 @@ class LoRa
 
         Check IRQ trigger.
 
-        :returns: Returns `True` if an interrupt service routine (ISR) has been triggered since the last send or receive started.
+        :returns: Returns ``True`` if an interrupt service routine (ISR) has been
+                  triggered since the last send or receive started. In **interrupt
+                  receive** mode the IRQ is usually cleared inside the driver when
+                  the callback runs, so this method may stay ``False``. Use
+                  synchronous ``recv()`` to test reception (see the note above).
         :rtype: bool
 
         UiFlow2 Code Block:

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: UIFlow2 Programming Guide \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-12 11:51+0800\n"
+"POT-Creation-Date: 2026-03-27 11:25+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -20,152 +20,181 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../en/hardware/lora.rst:2 ../../en/hardware/lora.rst:13
-#: 0914f0739291440b97f46c1f3f17ad1d 61a4984a40fb4190a50538fa8c627cbe
+#: ../../source/hardware/lora.rst:2 ../../source/hardware/lora.rst:13
+#: 8dabcb9d2b70449cb90257c2a9c53705 cbe9ae77501140eaa53cfa66f5e5b014
 msgid "LoRa"
 msgstr "LoRa"
 
-#: ../../en/hardware/lora.rst:6 098f01fac3e34e3b8b5e53390c8ca536
+#: ../../source/hardware/lora.rst:6 547b97ea9c51425bb80cb18e1bc33867
 msgid ""
 "LoRa is used to control the built-in long-range wireless communication "
 "module inside the host device. Below is the detailed LoRa support for the"
 " host:"
 msgstr "LoRa 用于控制主机设备内置的远程无线通信模块。以下是主机的详细 LoRa 支持："
 
-#: ../../en/hardware/lora.rst:13 3d097159f00147edbd0955d3967f3cb3
+#: ../../source/hardware/lora.rst:13 c8857e2348ab417eb849777498b534ce
 msgid "Controllers"
 msgstr "控制器"
 
-#: ../../en/hardware/lora.rst:15 c8328105dac34002be980714820b64ff
+#: ../../source/hardware/lora.rst:15 9a21e86b5fa54fe4bf08d95f38b9e061
 msgid "UnitC6L"
 msgstr "UnitC6L"
 
-#: ../../en/hardware/lora.rst:15 ../../en/hardware/lora.rst:17
-#: 4e791392ffaa48a182167579f61c375b 8925a9ee759c4841aa7ba2599e515040
+#: ../../source/hardware/lora.rst:15 ../../source/hardware/lora.rst:17
+#: 090fe390c0be4d06b82d4cb48f612fef 8977bdcb2e8f46bfac3c329c6b406765
 msgid "|S|"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:17 abe148087d054e3eae3c578541b3a0f8
+#: ../../source/hardware/lora.rst:17 a4974f2268bc47938d1de4d7b271541a
 msgid "Nesso N1"
 msgstr "Nesso N1"
 
-#: ../../en/hardware/lora.rst:23 1e9aaa09e8ed4fb6a7ab471092b090a0
+#: ../../source/hardware/lora.rst:23 a53eb8b52afa4c0682a0e34a03260d58
 msgid "UiFlow2 Example"
 msgstr "UiFlow2 应用示例"
 
-#: ../../en/hardware/lora.rst:26 ../../en/hardware/lora.rst:63
-#: 8ba1d3982db74a8db46796dfb6662f03
+#: ../../source/hardware/lora.rst:26 ../../source/hardware/lora.rst:63
+#: 4bf023a8ca134f418ba3da8458d581ba c6a4c36f3e5a44e38e65aa552628bc94
 msgid "Sender"
 msgstr "发送端"
 
-#: ../../en/hardware/lora.rst:28 b137447ac399464387952f31ab32357a
+#: ../../source/hardware/lora.rst:28 2cad71926ab54806a708af902026a3e1
 msgid "Open the |unit_c6l_tx_example.m5f2| project in UiFlow2."
 msgstr "在 UiFlow2 上打开 |unit_c6l_tx_example.m5f2| 项目。"
 
-#: ../../en/hardware/lora.rst:30 01cfde10000148328a8e16042916acef
+#: ../../source/hardware/lora.rst:30 0cda52679ffd412d8ddd245e46ae8c03
 msgid "Open the |nesso_n1_sender_example.m5f2| project in UiFlow2."
 msgstr "在 UiFlow2 上打开 |nesso_n1_sender_example.m5f2| 项目。"
 
-#: ../../en/hardware/lora.rst:32 ../../en/hardware/lora.rst:65
-#: 825c44aa230d49c8842b9dd337c49a42
+#: ../../source/hardware/lora.rst:32 ../../source/hardware/lora.rst:65
+#: 37c8707c7de74f8fb6d0bccfa4d47b4c 910109f96ef64f37ab3a0f119086cbee
 msgid "This example sends data every second."
 msgstr "该示例每秒发送一次数据。"
 
-#: ../../en/hardware/lora.rst:34 ../../en/hardware/lora.rst:51
-#: ../../en/hardware/lora.rst:127 ../../en/hardware/lora.rst:145
-#: ../../en/hardware/lora.rst:161 ../../en/hardware/lora.rst:179
-#: ../../en/hardware/lora.rst:195 ../../en/hardware/lora.rst:211
-#: ../../en/hardware/lora.rst:227 ../../en/hardware/lora.rst:243
-#: ../../en/hardware/lora.rst:262 ../../en/hardware/lora.rst:278
-#: ../../en/hardware/lora.rst:300 ../../en/hardware/lora.rst:321
-#: ../../en/hardware/lora.rst:337 ../../en/hardware/lora.rst:353
-#: ../../en/hardware/lora.rst:370 ec019aecc51e43d6824c5227c1101e8a
+#: ../../source/hardware/lora.rst:34 ../../source/hardware/lora.rst:51
+#: ../../source/hardware/lora.rst:142 ../../source/hardware/lora.rst:160
+#: ../../source/hardware/lora.rst:176 ../../source/hardware/lora.rst:194
+#: ../../source/hardware/lora.rst:210 ../../source/hardware/lora.rst:226
+#: ../../source/hardware/lora.rst:242 ../../source/hardware/lora.rst:258
+#: ../../source/hardware/lora.rst:277 ../../source/hardware/lora.rst:293
+#: ../../source/hardware/lora.rst:315 ../../source/hardware/lora.rst:336
+#: ../../source/hardware/lora.rst:352 ../../source/hardware/lora.rst:368
+#: ../../source/hardware/lora.rst:389 0a3d0e5ceef24ed0bd1c012264c243f9
+#: 0e07a068c3224134b8fc92367d885cef 5e7812765a794c82af8346508871bc12
 msgid "UiFlow2 Code Block:"
 msgstr "UiFlow2 代码块："
 
-#: ../../en/hardware/lora.rst:36 51f68a4331634b59b3b0e828c2a18cf3
+#: ../../source/hardware/lora.rst:36 366d3e8334944ea5a9043c66034a9198
 msgid "|unit_c6l_tx_example.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:21 a056aac132434cfba648a83069476eb6
+#: ../../source/refs/hardware.lora.ref:21 9dc5ddfee4aa46a7a34f9a0ad53d2927
 msgid "unit_c6l_tx_example.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:38 ../../en/hardware/lora.rst:55
-#: ../../en/hardware/lora.rst:73 ../../en/hardware/lora.rst:88
-#: a1b885522cb1406788601fb135cd81ef
+#: ../../source/hardware/lora.rst:38 ../../source/hardware/lora.rst:55
+#: ../../source/hardware/lora.rst:73 ../../source/hardware/lora.rst:88
+#: 1fb978e1e0f448a5a5e0d81fbbe5bbe3 2987752d3b0f4a00af597d1da4fe3fc5
+#: 7d494103095448a4854b45b7baa105be 9c2408de2d1b4472ae9664badcbdcdb7
 msgid "Example output:"
 msgstr "示例输出："
 
-#: ../../en/hardware/lora.rst:40 ../../en/hardware/lora.rst:57
-#: ../../en/hardware/lora.rst:75 ../../en/hardware/lora.rst:90
-#: a9411fde762d49058d19b28481183994
+#: ../../source/hardware/lora.rst:40 ../../source/hardware/lora.rst:57
+#: ../../source/hardware/lora.rst:75 ../../source/hardware/lora.rst:90
+#: 6d298f47781b456e83b3261ad3a0be64 7d8f94ef7869450385d2bdc97f9daf19
+#: 92dad14e9f2c463995ee32380ac77e7d f9f24770903041198807b59c009800da
 msgid "None"
 msgstr "无"
 
-#: ../../en/hardware/lora.rst:43 ../../en/hardware/lora.rst:78
-#: 57e9229b1f484b38a9b4078773b448ce
+#: ../../source/hardware/lora.rst:43 ../../source/hardware/lora.rst:78
+#: 9d74b83a1f7449928fafc280ece834cd c8ffe9ee7b744ba3bf09210aee900329
 msgid "Receiver"
 msgstr "接收端"
 
-#: ../../en/hardware/lora.rst:45 01cfde10000148328a8e16042916acef
+#: ../../source/hardware/lora.rst:45 7cb53962a4e740ec9fd4a87fd3d504c1
 msgid "Open the |unit_c6l_rx_example.m5f2| project in UiFlow2."
 msgstr "在 UiFlow2 上打开 |unit_c6l_rx_example.m5f2| 项目。"
 
-#: ../../en/hardware/lora.rst:47 01cfde10000148328a8e16042916acef
+#: ../../source/hardware/lora.rst:47 fd47e4a28b6b4b96879ea275778a979a
 msgid "Open the |nesso_n1_receiver_example.m5f2| project in UiFlow2."
 msgstr "在 UiFlow2 上打开 |nesso_n1_receiver_example.m5f2| 项目。"
 
-#: ../../en/hardware/lora.rst:49 ../../en/hardware/lora.rst:80
-#: f83c667bcc1144cdb94e1be21b504ea1
+#: ../../source/hardware/lora.rst:49 ../../source/hardware/lora.rst:80
+#: 5aa2320a582746afbb4b9c9d3b51ad1d e08ba992e94d47bca573faa65e00a950
 msgid "This example receives and displays data."
 msgstr "示例接收并显示数据。"
 
-#: ../../en/hardware/lora.rst:53 f92fea834f7a4ef290f42d596a9259fd
+#: ../../source/hardware/lora.rst:53 5d51a2f7a7de44f2b75f33b1793195e6
 msgid "|unit_c6l_rx_example.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:22 66dd4a97b9f54b978634cdee3381952e
+#: ../../source/refs/hardware.lora.ref:22 cbd743d688054fcc9836bed98d704083
 msgid "unit_c6l_rx_example.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:60 f575b27bb8724455bc74b8609a2422e4
+#: ../../source/hardware/lora.rst:60 066506fe94f4429fbc1fae42f043cd14
 msgid "MicroPython Example"
 msgstr "MicroPython 应用示例"
 
-#: ../../en/hardware/lora.rst:67 ../../en/hardware/lora.rst:82
-#: ../../en/hardware/lora.rst:131 ../../en/hardware/lora.rst:149
-#: ../../en/hardware/lora.rst:165 ../../en/hardware/lora.rst:183
-#: ../../en/hardware/lora.rst:199 ../../en/hardware/lora.rst:215
-#: ../../en/hardware/lora.rst:231 ../../en/hardware/lora.rst:247
-#: ../../en/hardware/lora.rst:266 ../../en/hardware/lora.rst:282
-#: ../../en/hardware/lora.rst:304 ../../en/hardware/lora.rst:325
-#: ../../en/hardware/lora.rst:341 ../../en/hardware/lora.rst:357
-#: ../../en/hardware/lora.rst:374 96c7d4dfc43444058abb3a97a2cae0bc
+#: ../../source/hardware/lora.rst:67 ../../source/hardware/lora.rst:82
+#: ../../source/hardware/lora.rst:146 ../../source/hardware/lora.rst:164
+#: ../../source/hardware/lora.rst:180 ../../source/hardware/lora.rst:198
+#: ../../source/hardware/lora.rst:214 ../../source/hardware/lora.rst:230
+#: ../../source/hardware/lora.rst:246 ../../source/hardware/lora.rst:262
+#: ../../source/hardware/lora.rst:281 ../../source/hardware/lora.rst:297
+#: ../../source/hardware/lora.rst:319 ../../source/hardware/lora.rst:340
+#: ../../source/hardware/lora.rst:356 ../../source/hardware/lora.rst:372
+#: ../../source/hardware/lora.rst:393 1dc94ef4e819409685f0e275f3810277
+#: 3152380bc4e94cd7924b9697676ad213 5d9ea1e6c06f4d909d24c0d8cf0f885d
 msgid "MicroPython Code Block:"
 msgstr "MicroPython 代码块："
 
-#: ../../en/hardware/lora.rst:93 858cec74980f4549a185c3bc7d268528
+#: ../../source/hardware/lora.rst:93 3026fdad7dd2496e94d7865234d77daa
+msgid "Important: IRQ when using interrupt receive"
+msgstr "重要说明：使用中断接收时的 IRQ 行为"
+
+#: ../../source/hardware/lora.rst:97 52649244be494dbaa16cd05485ca542c
+msgid ""
+"When receiving data with the interrupt method (``set_irq_callback`` and "
+"``start_recv()``), the firmware automatically clears the LoRa IRQ flag "
+"after interrupt handling."
+msgstr ""
+"当使用中断方式（``set_irq_callback`` 与 ``start_recv()``）接收数据时，"
+"程序会在处理完成后 **自动清除 LoRa IRQ**。"
+
+#: ../../source/hardware/lora.rst:101 6a47cbd67b354a87992566360d3252c8
+msgid ""
+"In this case, polling ``irq_triggered()`` may always return ``False`` "
+"because the flag has already been cleared. This is not a receive failure."
+msgstr ""
+"在这种情况下，轮询 ``irq_triggered()`` 经常会 **一直返回** ``False``："
+"这是因为标志位已经被清除，并不代表接收失败。"
+
+#: ../../source/hardware/lora.rst:104 5aa1b066b17d4b6499e05cae98638d1b
+msgid "Please use synchronous receive mode (``recv()``) for testing."
+msgstr "请使用同步接收模式（``recv()``）进行测试。"
+
+#: ../../source/hardware/lora.rst:108 225a42afcd4c4862ac19fad98b6442b7
 msgid "**API**"
 msgstr "API应用"
 
-#: ../../en/hardware/lora.rst:96 26ee295ab0bd458c8f07be3732ac244d
+#: ../../source/hardware/lora.rst:111 98f51c3cc2c34cfb9969dd6cbd7a3bf0
 msgid "class LoRa"
 msgstr "class LoRa"
 
-#: ../../en/hardware/lora.rst:106 dd5bbd8a9aa940f7a19cc3204d75c280
+#: ../../source/hardware/lora.rst:121 76dba36add8044c3a650ab568facce01
 msgid "Create an LoRa object."
 msgstr "创建一个 LoRa 对象"
 
-#: ../../en/hardware/lora.rst aae55122c2dc4c91905c29a95e7b47c3
+#: ../../source/hardware/lora.rst 1899e717b6824ae0a617425a8ef49bb7
 msgid "Parameters"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:108 70f550e38eb94170aa4bb79cd39c8bbb
+#: ../../source/hardware/lora.rst:123 6ae3b72b9fc94821991d8486c8762d8c
 msgid "LoRa RF frequency in KHz, with a range of 850000 KHz to 930000 KHz."
 msgstr "LoRa 通信频率，单位为 KHz，范围为 850000 KHz 到 930000 KHz。"
 
-#: ../../en/hardware/lora.rst:109 8ffd8d6e372e4f508c364a889b57beb8
+#: ../../source/hardware/lora.rst:124 c647611632b341229a1c21f07aab9b41
 msgid ""
 "Bandwidth, options include:  - ``\"7.8\"``: 7.8 KHz - ``\"10.4\"``: 10.4 "
 "KHz - ``\"15.6\"``: 15.6 KHz - ``\"20.8\"``: 20.8 KHz - ``\"31.25\"``: "
@@ -177,119 +206,119 @@ msgstr ""
 "``\"41.7\"``: 41.7 KHz - ``\"62.5\"``: 62.5 KHz - ``\"125\"``: 125 KHz - "
 "``\"250\"``: 250 KHz - ``\"500\"``: 500 KHz"
 
-#: ../../en/hardware/lora.rst:109 c5b31f8f221347a39ef80f191c61f8f6
+#: ../../source/hardware/lora.rst:124 cfb62b0561524cb39348cadf29fbfe70
 msgid "Bandwidth, options include:"
 msgstr "带宽，选项包括："
 
-#: ../../en/hardware/lora.rst:111 38b29606f6e54e66b97af518532bd285
+#: ../../source/hardware/lora.rst:126 03dae3bfe4714597a78e56478fa1ac65
 msgid "``\"7.8\"``: 7.8 KHz"
 msgstr "``\"7.8\"``：7.8 KHz"
 
-#: ../../en/hardware/lora.rst:112 1dec78c4d7ca429cbf980332fa06aa80
+#: ../../source/hardware/lora.rst:127 17e34606da624ade8e728dc156f73fd2
 msgid "``\"10.4\"``: 10.4 KHz"
 msgstr "``\"10.4\"``：10.4 KHz"
 
-#: ../../en/hardware/lora.rst:113 8fe2c00c1d1f45028917136de65bc0dc
+#: ../../source/hardware/lora.rst:128 94f043313b094f949281e3fd53af431a
 msgid "``\"15.6\"``: 15.6 KHz"
 msgstr "``\"15.6\"``：15.6 KHz"
 
-#: ../../en/hardware/lora.rst:114 abd8b38bded546d0b7fc573358a339a2
+#: ../../source/hardware/lora.rst:129 724bcdb4b2e7441ebdb3ab903b5a76e5
 msgid "``\"20.8\"``: 20.8 KHz"
 msgstr "``\"20.8\"``：20.8 KHz"
 
-#: ../../en/hardware/lora.rst:115 b5d7df4076e142258d75c0fdbd902113
+#: ../../source/hardware/lora.rst:130 0b39c1fa9a5c4bac8c664dc0125a79d1
 msgid "``\"31.25\"``: 31.25 KHz"
 msgstr "``\"31.25\"``：31.25 KHz"
 
-#: ../../en/hardware/lora.rst:116 2decbe8062cb49eb86f1366caaec496c
+#: ../../source/hardware/lora.rst:131 b4dac6b1ac7e44e29ebaa39d9ac1ed7e
 msgid "``\"41.7\"``: 41.7 KHz"
 msgstr "``\"41.7\"``：41.7 KHz"
 
-#: ../../en/hardware/lora.rst:117 8937741d7f18466ba5234ae87260beb2
+#: ../../source/hardware/lora.rst:132 8236f5562ba3496fb6c6fd4155b25513
 msgid "``\"62.5\"``: 62.5 KHz"
 msgstr "``\"62.5\"``：62.5 KHz"
 
-#: ../../en/hardware/lora.rst:118 2ada171fbeae45fcacc06100fa8d4dff
+#: ../../source/hardware/lora.rst:133 e7c39d9532764a36b760ebd8121d0d05
 msgid "``\"125\"``: 125 KHz"
 msgstr "``\"125\"``：125 KHz"
 
-#: ../../en/hardware/lora.rst:119 39fae231e9e44656b4c661b176607889
+#: ../../source/hardware/lora.rst:134 39e74adcdb6d4af7960008f4b50293c3
 msgid "``\"250\"``: 250 KHz"
 msgstr "``\"250\"``：250 KHz"
 
-#: ../../en/hardware/lora.rst:120 34545f9e7545454dbb1a526ca71674d2
+#: ../../source/hardware/lora.rst:135 21c47b611e6b4b2eaa6894cb26b2e1ef
 msgid "``\"500\"``: 500 KHz"
 msgstr "``\"500\"``：500 KHz"
 
-#: ../../en/hardware/lora.rst:121 4cf5a1bf3e7c45c3b3ee79b2f20d0452
+#: ../../source/hardware/lora.rst:136 3f68e7cce54044e7ba2ea701a02dc917
 msgid ""
 "Spreading factor, range from 7 to 12. Higher spreading factors allow "
 "reception of weaker signals but with slower data rates."
 msgstr "扩频因子，范围为 7 到 12。较高的扩频因子可以接收较弱的信号，但数据传输速率会变慢。"
 
-#: ../../en/hardware/lora.rst:122 4fffb0acc5df45e1a6179e9e0450f77b
+#: ../../source/hardware/lora.rst:137 8037547ebec24b6096e385db240bd77b
 msgid ""
 "Forward Error Correction (FEC) coding rate expressed as 4/N, with a range"
 " from 5 to 8."
 msgstr "前向纠错（FEC）编码率表示为 4/N，范围为 5 到 8。"
 
-#: ../../en/hardware/lora.rst:123 9fec24498405495e9f12d3322d10b1eb
+#: ../../source/hardware/lora.rst:138 1570aa4203e84014bc53675512313bbe
 msgid "Length of the preamble sequence in symbols, range from 0 to 255."
 msgstr "前导码序列的长度（以符号为单位），范围为 0 到 255。"
 
-#: ../../en/hardware/lora.rst:124 fe3ab955487c4f64b30f3d6009a33bdb
+#: ../../source/hardware/lora.rst:139 4e7ec6c77833449fa5d13eb132f6e783
 msgid "Sync word to mark the start of the data frame, default is 0x12."
 msgstr "用于标记数据帧起始的同步字，默认值为 0x12。"
 
-#: ../../en/hardware/lora.rst:125 d2b09105ff92450abc48f08bdc5ed945
+#: ../../source/hardware/lora.rst:140 007773df38c14b1881060dc9540db001
 msgid "Output power in dBm, range from -9 to 22."
 msgstr "输出功率（以 dBm 为单位），范围为 -9 到 22。"
 
-#: ../../en/hardware/lora.rst:129 3fef1f2ea87a43c0b96fe9fdb89f9341
+#: ../../source/hardware/lora.rst:144 458f2111513542a6a813d2182eef3845
 msgid "|init.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:2 8dc16b32d6fe4881bf8571ac49e450af
+#: ../../source/refs/hardware.lora.ref:2 faa382b4c8ee4bfa8fe8e869c162b222
 msgid "init.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:141 398343a70fe540af8173936fc893adf6
+#: ../../source/hardware/lora.rst:156 f97c6d84cc46426cbbd471077e5bbd02
 msgid "Set frequency in kHz."
 msgstr "设置频率（单位：kHz）"
 
-#: ../../en/hardware/lora.rst:143 f9a3d4bb9662407ba04f0c95501ae863
+#: ../../source/hardware/lora.rst:158 d77c90b40b134080bfad25b78b6f1562
 msgid "Frequency in kHz (850000 ~ 930000), default is 868000."
 msgstr "频率（单位：kHz），默认值 868000 (kHz)。"
 
-#: ../../en/hardware/lora.rst:147 9940496bad284e1bb85b6f83c7707c75
+#: ../../source/hardware/lora.rst:162 5874aed289234f549995e3be117ca739
 msgid "|set_freq.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:3 29765c73218d479fb0d13408a075d7a4
+#: ../../source/refs/hardware.lora.ref:3 7c4313f93ae64f81984a21c10ca6fc07
 msgid "set_freq.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:157 b47ab3ec10c94721aec52b71bc3555fe
+#: ../../source/hardware/lora.rst:172 1c86440d32704383943151a3cf14b03f
 msgid "Set spreading factor (SF)."
 msgstr "设置扩频因子。"
 
-#: ../../en/hardware/lora.rst:159 069bc7ac7fbc4b19a2c32911295a1e34
+#: ../../source/hardware/lora.rst:174 c6f1552b479c4385a8df0df739a76985
 msgid "Spreading factor (7 ~ 12)"
 msgstr "扩频因子（7~12）。"
 
-#: ../../en/hardware/lora.rst:163 e71fb429ac974d0d8de186bbe3ef189f
+#: ../../source/hardware/lora.rst:178 3f7ccbd352a14bb784f6a2af92f37ef8
 msgid "|set_sf.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:4 726551c760e04b58850523282e55dced
+#: ../../source/refs/hardware.lora.ref:4 d2036b38407b4482857ada6cb20311b5
 msgid "set_sf.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:173 40afefa968ea4456b8b6df518b096abf
+#: ../../source/hardware/lora.rst:188 0265d673d78341eea9bba8f6f2faa456
 msgid "Set bandwidth."
 msgstr "设置带宽。"
 
-#: ../../en/hardware/lora.rst:175 418221e475f54cb786612612e1267c5a
+#: ../../source/hardware/lora.rst:190 c4f8cdfeb3b1434f8e32964c222518b6
 msgid ""
 "Bandwidth in kHz as string. Must be one of: '7.8', '10.4', '15.6', "
 "'20.8', '31.25', '41.7', '62.5', '125', '250', '500'."
@@ -297,241 +326,246 @@ msgstr ""
 "带宽（以 kHz "
 "表示的字符串）。必须是以下值之一：'7.8'、'10.4'、'15.6'、'20.8'、'31.25'、'41.7'、'62.5'、'125'、'250'、'500'。"
 
-#: ../../en/hardware/lora.rst:181 e9520dba875548ee882ab40f06218e1a
+#: ../../source/hardware/lora.rst:196 c18c3eac27a5418fa8223adae5d5d660
 msgid "|set_bw.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:5 d8d323c1c55c4c3cb63ca6dcb3fab3a2
+#: ../../source/refs/hardware.lora.ref:5 66152b4f769a40b79a76cf5cd8b08add
 msgid "set_bw.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:191 5efd9ef310854a469b9a6915e4a99dd2
+#: ../../source/hardware/lora.rst:206 185070f26cc5445bb4008945b53cfcc8
 msgid "Set coding rate."
 msgstr "设置编码率。"
 
-#: ../../en/hardware/lora.rst:193 1538668de71d4349aa91e60abaf4977a
+#: ../../source/hardware/lora.rst:208 611fb331851041fb923923f1a7f4406a
 msgid "Coding rate (5 ~ 8)"
 msgstr "编码率 (5 ~ 8)。"
 
-#: ../../en/hardware/lora.rst:197 6620920fe7b94ef9a703090680cdb465
+#: ../../source/hardware/lora.rst:212 9d162ce9a34842dcb88b2f2cae26d33b
 msgid "|set_coding_rate.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:6 9cd56aa402fd43a3afc952d8c7097101
+#: ../../source/refs/hardware.lora.ref:6 37c1b29a6bc04639bad7b2b4846969fa
 msgid "set_coding_rate.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:207 009e3b68344848b89401b60b6f0e7f8c
+#: ../../source/hardware/lora.rst:222 77b0380ec9854d46a32d180f0ededa9b
 msgid "Set syncword."
 msgstr "设置同步字。"
 
-#: ../../en/hardware/lora.rst:209 98d118d9784a4c998da3258897f40df6
+#: ../../source/hardware/lora.rst:224 1bf666a3379a4099ad292a8d84c09942
 msgid "Sync word (0 ~ 0xFF)"
 msgstr "同步字 (0 ~ 0xFF)"
 
-#: ../../en/hardware/lora.rst:213 58a2cd24a402426482aa9ea40684c00c
+#: ../../source/hardware/lora.rst:228 84eee03c47de48fea71fc3fb989b6702
 msgid "|set_syncword.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:7 c219c80711804892bee54dad9d335838
+#: ../../source/refs/hardware.lora.ref:7 13b0d60963414194bcaf0b339adbe7be
 msgid "set_syncword.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:223 4778e696178d4a1481102b531edb9981
+#: ../../source/hardware/lora.rst:238 f3cba58d9d784089a89cb5f3b1dfefdf
 msgid "Set preamble length."
 msgstr "设置前导符长度。"
 
-#: ../../en/hardware/lora.rst:225 c623576367a14d51b781f276fff40f78
+#: ../../source/hardware/lora.rst:240 01e23373c52e47df8a827cea5d632fe5
 msgid "Preamble length, range: 0~255."
 msgstr "前导符长度，范围：0~255。"
 
-#: ../../en/hardware/lora.rst:229 e6586a18c9424376b147dc00a339db48
+#: ../../source/hardware/lora.rst:244 06c1bce21cde4d009ef9f92111d9151c
 msgid "|set_preamble_len.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:8 414650bcb68040d3b09a4db54a107f88
+#: ../../source/refs/hardware.lora.ref:8 c6934a63e48a4a58a2abc4c94fc842d1
 msgid "set_preamble_len.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:239 cc1e8939f9e948fd814d1685cfb6707d
+#: ../../source/hardware/lora.rst:254 53c2d4315e5e44e5be56bf54f1984422
 msgid "Set output power in dBm."
 msgstr "设置输出功率(单位：dBm) 。"
 
-#: ../../en/hardware/lora.rst:241 e8fe4855c51f4cdcb105c12bd6a4c5b1
+#: ../../source/hardware/lora.rst:256 0cec4686c38040cd8b4cd216b635dd00
 msgid "Output power in dBm (-9 ~ 22)"
 msgstr "输出功率(单位：dBm)，范围：-9 ~ 22。"
 
-#: ../../en/hardware/lora.rst:245 55cacb08aa79488a9eaba911c62457f1
+#: ../../source/hardware/lora.rst:260 ed9e74ac52314d03a9347798ae7ee37b
 msgid "|set_output_power.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:9 cea5c4966eca4039aec6f81278d325b1
+#: ../../source/refs/hardware.lora.ref:9 4227ac09d6d4484aaea254fd026f6989
 msgid "set_output_power.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:255 c83b3e89a5e6428fbd5dfa160fbb20e1
+#: ../../source/hardware/lora.rst:270 40523cebecc8446a8a1d2927ad8ea041
 msgid "Set the interrupt callback function to be executed on IRQ."
 msgstr "设置在中断请求（IRQ）发生时执行的中断回调函数。"
 
-#: ../../en/hardware/lora.rst:257 946216f48d30482da385599ffc285bbd
+#: ../../source/hardware/lora.rst:272 4f35af94f57b449197550fd5c9fa5890
 msgid ""
 "The callback function to be invoked when the interrupt is triggered. The "
 "callback should not take any arguments and should return nothing."
 msgstr "当中断触发时调用的回调函数。该回调函数不应接受任何参数，且不应有返回值。"
 
-#: ../../en/hardware/lora.rst:260 b315d801aff44aa4bebd41d49cd94c5f
+#: ../../source/hardware/lora.rst:275 b32c7dcfc0d54dd4aabcf060294f2334
 msgid "Call `start_recv()` to begin receiving data."
 msgstr "调用 `start_recv()` 开始接收数据。"
 
-#: ../../en/hardware/lora.rst:264 465d2ca0f014410aa7f17c8ebfe2e22b
+#: ../../source/hardware/lora.rst:279 94ec8528cb5a472ba5c2b543ac58ea3f
 msgid "|set_irq_callback.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:13 a44c179108c647c09f24c4d67c096d42
+#: ../../source/refs/hardware.lora.ref:13 fbbe755096314d258606f352d5e8d077
 msgid "set_irq_callback.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:274 12e318a7b60147309016927b2a093ef6
+#: ../../source/hardware/lora.rst:289 e0741f49706f4c69ae0885eb286e348f
 msgid "Start receive data."
 msgstr "开始接收数据。"
 
-#: ../../en/hardware/lora.rst:276 f09a18d4a52f49b8a356fe3c8b3fe155
+#: ../../source/hardware/lora.rst:291 46c248d87592446ab36606c5201a4e4e
 msgid "This method initiates the process to begin receiving data."
 msgstr "此方法启动接收数据的过程。"
 
-#: ../../en/hardware/lora.rst:280 b408923dfc5847dc856f682e462e4087
+#: ../../source/hardware/lora.rst:295 407cbec07bce4c92a8f51c784f6d0f16
 msgid "|start_recv.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:10 21b54cd95d4d429ca763098884582487
+#: ../../source/refs/hardware.lora.ref:10 24e46322f1354a5b8831ae27f11f65c9
 msgid "start_recv.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:290 a59e66a0f90844f498c3fd4b918da495
+#: ../../source/hardware/lora.rst:305 d3b048079d63423d804e5c88e5efd7b5
 msgid "Receive data."
 msgstr "接收数据。"
 
-#: ../../en/hardware/lora.rst:292 86d193a8810044cdba5b035fe4e16b92
+#: ../../source/hardware/lora.rst:307 c407963725654ca9bee9e06e7e30b839
 msgid "Timeout in milliseconds (optional). Default is None."
 msgstr "超时时间（以毫秒为单位，可选）。默认为 None。"
 
-#: ../../en/hardware/lora.rst:293 06f53a9bd4b64473807c3c52e7f710b9
+#: ../../source/hardware/lora.rst:308 01d9b3e4e04f47dbb62dbfcbc5df81ee
 msgid "Length of the data to be read. Default is 0xFF."
 msgstr "读取数据的长度。默认为 0xFF。"
 
-#: ../../en/hardware/lora.rst:294 ffb7423c773545c199f6d9f5ae8cd2f8
+#: ../../source/hardware/lora.rst:309 53d690fc3a9a4c2bb332fa55bb17d53f
 msgid "An instance of `RxPacket` (optional) to reuse."
 msgstr "一个可选的 RxPacket 实例，用于重用。"
 
-#: ../../en/hardware/lora.rst e966e2a4dc8a49909e12d7f34cb46125
+#: ../../source/hardware/lora.rst 34a0bf75385445888fe9724b6689d215
 msgid "Returns"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:295 f1ea75ee95a642ff9687f05171238659
+#: ../../source/hardware/lora.rst:310 8c959bbce58b4cd7a06c87b97b13974b
 msgid "Received packet instance"
 msgstr "接收数据包实例。"
 
-#: ../../en/hardware/lora.rst 31a5e0b7c4664b77bbfade3822f6da68
+#: ../../source/hardware/lora.rst d440189bd5cb49d8aab2e939a62b0165
 msgid "Return type"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:298 337c8f3db60e44b9b98a22d75737a786
+#: ../../source/hardware/lora.rst:313 1ce64b007f0d4731825c91c3abedadec
 msgid ""
 "Attempt to receive a LoRa packet. Returns `None` if timeout occurs, or "
 "returns the received packet instance."
 msgstr "尝试接收一个 LoRa 数据包。如果发生超时，返回 None；否则，返回接收到的数据包实例。"
 
-#: ../../en/hardware/lora.rst:302 d5046ea586524c6294cbb6e192cd933f
+#: ../../source/hardware/lora.rst:317 f00c4dd48b59446dbcd1b8e46e3a6c49
 msgid "|recv.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:11 3d375b557f2f4c90abbb083328c756cf
+#: ../../source/refs/hardware.lora.ref:11 465322042a734c9fb10273d5278f8234
 msgid "recv.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:312 bb6dc0b7da864457b69441eaae928211
+#: ../../source/hardware/lora.rst:327 a212ebcb58274b9eb1ec9d461fe54ca7
 msgid "Send data."
 msgstr "发送数据"
 
-#: ../../en/hardware/lora.rst:314 c2f11141a7a243129594b79f0830bb00
+#: ../../source/hardware/lora.rst:329 7e0003fcc3054f34a0628743338c35bf
 msgid "The data to be sent."
 msgstr "要发送的数据"
 
-#: ../../en/hardware/lora.rst:315 e2e784fd1c3048129cc37edf08c4d0fc
+#: ../../source/hardware/lora.rst:330 b1a4cf5492a3418396e5f914a4476c2e
 msgid ""
 "The timestamp in milliseconds when to send the data (optional). Default "
 "is None."
 msgstr "发送数据的时间戳，单位为毫秒（可选）。默认为 None。"
 
-#: ../../en/hardware/lora.rst:316 bd553ea6288547d3ad4c6b9722a5d202
+#: ../../source/hardware/lora.rst:331 c8f87d4dc87a471eb134607e50c04f63
 msgid ""
 "Returns a timestamp (result of `time.ticks_ms()`) indicating when the "
 "data packet was sent."
 msgstr "返回一个时间戳（time.ticks_ms()的结果），表示数据包发送的时间。"
 
-#: ../../en/hardware/lora.rst:319 ec9c6c829ffa49b28a9fa8a971ec9e33
+#: ../../source/hardware/lora.rst:334 65d227c1c9ca4aa58ad2e50638ec83f7
 msgid "Send a data packet and return the timestamp after the packet is sent."
 msgstr "发送一个数据包并返回数据包发送后的时间戳。"
 
-#: ../../en/hardware/lora.rst:323 3286db84d3fa4307833a719364d36cdd
+#: ../../source/hardware/lora.rst:338 8ba86ff4bb7a4f77aa4b3900496ce1a2
 msgid "|send.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:16 cd7bfbbdaab746249860bbe550803196
+#: ../../source/refs/hardware.lora.ref:16 e45ab62e65794573b773a15995dd2eff
 msgid "send.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:333 128ffbe7cd1d4f9183937e0079bc8e26
+#: ../../source/hardware/lora.rst:348 87ddf117aa764536bfaf6859b0f6d252
 msgid "Set module to standby mode."
 msgstr "设置模块为待机模式。"
 
-#: ../../en/hardware/lora.rst:335 cea03fdaf64f467b8f7a7cc4de2a38ad
+#: ../../source/hardware/lora.rst:350 af4c6ec4dba04d6483bbb0ac77958e1e
 msgid "Puts the LoRa module into standby mode, consuming less power."
 msgstr "将 LoRa 模块置于待机模式，从而降低功耗。"
 
-#: ../../en/hardware/lora.rst:339 64f043db01144954bb7e282326ff8f3f
+#: ../../source/hardware/lora.rst:354 f82c9866dfdb411480b0e5f9216e886f
 msgid "|standby.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:18 eb0c6098431a4c38adb8b0371223d3cf
+#: ../../source/refs/hardware.lora.ref:18 f2e8924efa72414584b2e541b7f7037f
 msgid "standby.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:349 71354ea33ab84e74a3088c84642d8ae9
+#: ../../source/hardware/lora.rst:364 69a9764f194645cc8e19df7f5845bbb7
 msgid "Put the module to sleep mode."
 msgstr "将 LoRa 模块置于睡眠模式"
 
-#: ../../en/hardware/lora.rst:351 416d0cf67e9e4eaebf522a7e4baec52c
+#: ../../source/hardware/lora.rst:366 19ea4a1e108d4502b25266851f7ced5b
 msgid "Reduces the power consumption by putting the module into deep sleep mode."
 msgstr "通过将模块置于深度睡眠模式来减少功耗。"
 
-#: ../../en/hardware/lora.rst:355 ac480ff1f8324820b9d81b8c8baec1fc
+#: ../../source/hardware/lora.rst:370 183aef21fb9342bc97e49a6339aa721e
 msgid "|sleep.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:19 6a68821423bd4c5a9916f82bac7e3ed5
+#: ../../source/refs/hardware.lora.ref:19 49ea7cb4c2c84765868d432e24ad8969
 msgid "sleep.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:365 e7c32ae25c1540deba104ec90f254968
+#: ../../source/hardware/lora.rst:380 5756e42f2fee4ba4aca547e51bde801f
 msgid "Check IRQ trigger."
 msgstr "检查 IRQ 触发。"
 
-#: ../../en/hardware/lora.rst:367 9a3f503d107d459c84354bc73b87c01e
+#: ../../source/hardware/lora.rst:382 8b805fd5578844ca8efc7d4485733285
 msgid ""
-"Returns `True` if an interrupt service routine (ISR) has been triggered "
-"since the last send or receive started."
-msgstr "如果自上次发送或接收开始以来，已经触发了中断服务例程（ISR），则返回 True。"
+"Returns ``True`` if an interrupt service routine (ISR) has been triggered"
+" since the last send or receive started. In **interrupt receive** mode "
+"the IRQ is usually cleared inside the driver when the callback runs, so "
+"this method may stay ``False``. Use synchronous ``recv()`` to test "
+"reception (see the note above)."
+msgstr ""
+"如果自上次开始发送或接收以来触发过中断服务程序（ISR），则返回 ``True``。在**中断接收**模式下，回调执行时驱动通常会清除 "
+"IRQ，因此该方法可能一直为 ``False``。测试接收请使用同步 ``recv()`` （见上方说明）。"
 
-#: ../../en/hardware/lora.rst:372 afed6e25f50448f6b453093dcc9c0f4d
+#: ../../source/hardware/lora.rst:391 82601c4809e84a93a40b29100350dff2
 msgid "|irq_triggered.png|"
 msgstr ""
 
-#: ../../en/refs/hardware.lora.ref:17 f1cbf72b73cd4839a6abfe480f4dbf01
+#: ../../source/refs/hardware.lora.ref:17 37158cd59d38434dbc8a04e8029c6a61
 msgid "irq_triggered.png"
 msgstr ""
 
-#: ../../en/hardware/lora.rst:380 a02244240184415da9053bdd8931c573
+#: ../../source/hardware/lora.rst:399 22aa656e21fd4f1a9a0d0a3b1c3a69fb
 msgid "Refer to :ref:`lora_rxpacket` for more details about RxPacket."
 msgstr "有关 RxPacket 的更多详细信息，请参阅 :ref:`lora_rxpacket`。"
 
@@ -567,4 +601,33 @@ msgstr "有关 RxPacket 的更多详细信息，请参阅 :ref:`lora_rxpacket`�
 
 #~ msgid "CRC validity check."
 #~ msgstr "CRC 校验有效性。"
+
+#~ msgid ""
+#~ "Returns `True` if an interrupt service"
+#~ " routine (ISR) has been triggered "
+#~ "since the last send or receive "
+#~ "started."
+#~ msgstr "如果自上次发送或接收开始以来，已经触发了中断服务例程（ISR），则返回 True。"
+
+#~ msgid ""
+#~ "When using (``set_irq_callback`` and "
+#~ "``start_recv()``) to receive data, the "
+#~ "program **automatically clears the LoRa "
+#~ "IRQ** after processing completes. In "
+#~ "that case, polling ``irq_triggered()`` often"
+#~ " **always returns** ``False`` because the"
+#~ " flag was already cleared; that is"
+#~ " not a receive failure. For "
+#~ "synchronous blocking reception or link "
+#~ "testing, use ``recv()`` (for example "
+#~ "``recv(timeout_ms=...)``); do not rely on "
+#~ "``irq_triggered()`` alone while interrupt "
+#~ "receive is active."
+#~ msgstr ""
+#~ "当使用（``set_irq_callback`` 与 "
+#~ "``start_recv()``）接收数据时，程序会在处理完成后 **自动清除 LoRa "
+#~ "IRQ**。在这种情况下，轮询 ``irq_triggered()`` 经常会 **一直返回** "
+#~ "``False``：这是因为标志位已经被清除，并不代表接收失败。同步阻塞接收或链路测试请使用 ``recv()`` "
+#~ "（例如 ``recv(timeout_ms=...)``），不要仅在中断接收模式下依赖 "
+#~ "``irq_triggered()``。"
 
