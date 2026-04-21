@@ -22,5 +22,4 @@ msgstr ""
 
 #: ../../source/unit/index.rst:2 02e24d80e0864407a2c5c420c8f5e9c3
 msgid "Unit"
-msgstr "\"\"\"Unit\"\"\""
-
+msgstr ""

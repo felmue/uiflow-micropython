@@ -31,7 +31,7 @@
 #include "extmod/modmachine.h"
 #include "machine_i2c.h"
 
-// #define MICROPY_HW_ESP_NEW_I2C_DRIVER (1)
+#define MICROPY_HW_ESP_NEW_I2C_DRIVER (1)
 
 #if MICROPY_HW_ESP_NEW_I2C_DRIVER
 #include "driver/i2c_master.h"
@@ -126,13 +126,34 @@ static uint8_t *create_transfer_buffer(size_t n, mp_machine_i2c_buf_t *bufs, siz
 int machine_hw_i2c_transfer(mp_obj_base_t *self_in, uint16_t addr, size_t n, mp_machine_i2c_buf_t *bufs, unsigned int flags) {
     machine_hw_i2c_obj_t *self = MP_OBJ_TO_PTR(self_in);
 
-    // Probe the address to see if any device responds.
-    // This test uses a fixed scl freq of 100_000.
     esp_err_t err;
+
+    /* Zero-byte write (scan(), writeto(b""), read_mem STOP recovery): use i2c_master_probe.
+     * Zero-length i2c_master_transmit is a poor/unreliable ACK check on ESP-IDF new I2C driver. */
+    if (n == 1 && bufs[0].len == 0 && !(flags & MP_MACHINE_I2C_FLAG_READ)) {
+        err = i2c_master_probe(self->bus_handle, addr, self->timeout_us / 1000);
+        if (err == ESP_FAIL) {
+            return -MP_ENODEV;
+        }
+        if (err == ESP_ERR_TIMEOUT) {
+            return -MP_ETIMEDOUT;
+        }
+        if (err != ESP_OK) {
+            return -abs(err);
+        }
+        return 0;
+    }
+
     if (flags & MP_MACHINE_I2C_FLAG_PROBE) {
         err = i2c_master_probe(self->bus_handle, addr, self->timeout_us / 1000);
+        if (err == ESP_FAIL) {
+            return -MP_ENODEV;
+        }
+        if (err == ESP_ERR_TIMEOUT) {
+            return -MP_ETIMEDOUT;
+        }
         if (err != ESP_OK) {
-            return -MP_ENODEV;   // No device at address, return immediately
+            return -abs(err);
         }
     }
 
@@ -198,16 +219,6 @@ int machine_hw_i2c_transfer(mp_obj_base_t *self_in, uint16_t addr, size_t n, mp_
                 }
             }
             err = i2c_master_transmit(dev_handle, buf, len, self->timeout_us / 1000);
-            // Use i2c_master_execute_defined_operations() instead of
-            // i2c_master_transmit(), allowing for len == 0.
-            // That will be needed for scan() when dropping i2c_master_probe() is possible,
-            // after https://github.com/espressif/esp-idf/issues/17543 backported to supported versions
-            // i2c_operation_job_t i2c_ops[] = {
-            //     { .command = I2C_MASTER_CMD_START },
-            //     { .command = I2C_MASTER_CMD_WRITE, .write = { .ack_check = true, .data = buf, .total_bytes = len } },
-            //     { .command = I2C_MASTER_CMD_STOP },  // Stop is still mandatory
-            // };
-            // err = i2c_master_execute_defined_operations(dev_handle, i2c_ops, 3, self->timeout_us / 1000);
         }
         if (n > 1) {
             m_del(uint8_t, buf, len);

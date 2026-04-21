@@ -91,6 +91,7 @@ _attrs = {
     "NCIRUnit": "ncir",
     "NCIR2Unit": "ncir2",
     "NECOUnit": "neco",
+    "NFCUnit": "nfc",
     "OLEDUnit": "oled",
     "OPUnit": "op",
     "PAHUBUnit": "pahub",

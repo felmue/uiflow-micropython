@@ -85,6 +85,7 @@ Unit
     ncir.rst
     ncir2.rst
     neco.rst
+    nfc.rst
     oled.rst
     op90.rst
     op180.rst

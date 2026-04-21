@@ -90,6 +90,7 @@ package(
         "ncir.py",
         "ncir2.py",
         "neco.py",
+        "nfc.py",
         "oled.py",
         "op.py",
         "pahub.py",
