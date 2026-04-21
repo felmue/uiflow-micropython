@@ -11,7 +11,7 @@ class RUI3:
     _instance = None
     _recv_thread_running = False
 
-    def __init__(self, id, tx, rx, debug=False):
+    def __init__(self, id, tx, rx, rst, debug=False):
         if RUI3._instance is not None:
             try:
                 RUI3._instance.close()
@@ -19,6 +19,12 @@ class RUI3:
                 print("clean rui3 instance error:", e)
 
         self.uart = machine.UART(id, tx=tx, rx=rx, baudrate=115200, bits=8, parity=None, stop=1)
+        if rst != -1:
+            self.rst = machine.Pin(rst, machine.Pin.OUT)
+            self.rst.off()
+            time.sleep_ms(50)
+            self.rst.on()
+            time.sleep_ms(500)
         self.debug = debug
         self.lock = _thread.allocate_lock()
         self.buffer = []
@@ -29,8 +35,7 @@ class RUI3:
         RUI3._recv_thread_running = True
 
         _thread.start_new_thread(self._recv_loop, ())
-
-        if self.get_serial_number() is False:
+        if not self.get_commuinication_state():
             self.close()
             raise ValueError("The LoRaWAN-X Unit is not responding. Please check the connection.")
 
@@ -48,13 +53,10 @@ class RUI3:
 
     def _recv_loop(self):
         while self.running:
-            if not self.lock.locked():
-                self.lock.acquire()
+            if self.lock.acquire(0):
                 try:
                     line = self.uart.readline()
                     if line:
-                        if self.debug:
-                            print(f"DEBUG: RAW DATA: {line}")
                         if line.startswith(b"+EVT:RX_"):
                             parts = line.decode("utf-8").strip().split(":")
                             decoded = (int(parts[-2]), parts[-1])
@@ -126,8 +128,15 @@ class RUI3:
     ) -> str | bool:
         self.lock.acquire()
         try:
-            self.uart.read()
-            self.uart.write(cmd + "\r\n")
+            stale_data = self.uart.read()
+            if self.debug and stale_data:
+                print(f"DEBUG: UART stale RX before TX: {stale_data!r}")
+
+            tx_data = cmd + "\r\n"
+            if self.debug:
+                print(f"[DEBUG TX]-->{tx_data!r}")
+
+            self.uart.write(tx_data)
             if have_return:
                 return self.read_response(cmd.rstrip("?"), is_single, async_event, timeout)
         finally:
@@ -138,12 +147,14 @@ class RUI3:
         response = ""
         event_response = None
         ok_received = False
+        rx_buffer = b""
 
         while time.ticks_diff(time.ticks_ms(), start_time) < timeout:
             line = self.uart.readline()
             if not line:
                 continue
 
+            rx_buffer += line
             decoded_line = line.decode("utf-8")
             time.sleep_ms(10)
             if decoded_line:
@@ -152,7 +163,8 @@ class RUI3:
                 # 如果接收到 AT_PARAM_ERROR 错误，提前退出
                 if "AT_PARAM_ERROR" in response:
                     if self.debug:
-                        print("DEBUG: AT_PARAM_ERROR received, returning.")
+                        print(f"[DEBUG RX]<--{rx_buffer!r}")
+                        print(f"DEBUG: Error response accumulated: {response!r}")
                     break
 
                 if "OK" in response:
@@ -165,9 +177,10 @@ class RUI3:
                         event_response = evt_data[1].strip()
                         if line.endswith(b"\r\n"):  # 如果事件响应后紧跟\r\n，立即退出
                             if self.debug:
-                                print(f"DEBUG: Raw response:{repr(response)}")
+                                print(f"[DEBUG RX]<--{rx_buffer!r}")
+                                print(f"DEBUG: Raw response: {response!r}")
                                 print("DEBUG: Event response received with \\r\\n, exiting loop.")
-                                print(f"DEBUG: Event response: {repr(event_response)}")
+                                print(f"DEBUG: Event response: {event_response!r}")
                             return event_response
 
                 if (
@@ -178,6 +191,7 @@ class RUI3:
                 ):
                     if line.endswith(b"\r\n"):
                         if self.debug:
+                            print(f"[DEBUG RX]<--{rx_buffer!r}")
                             print(
                                 "DEBUG: Conditions met and complete data received, exiting loop."
                             )
@@ -186,7 +200,7 @@ class RUI3:
         response = response.replace("\r\n", "")
 
         if self.debug:
-            print(f"DEBUG: Final response: {repr(response)}")
+            print(f"DEBUG: Final response: {response!r}")
         # 用于处理仅返回OK的情况
         if is_single and ok_received:
             return True
@@ -383,8 +397,7 @@ class RUI3:
         :returns: True if the command is successfully set, else False.
         :rtype: bool
 
-            |join_network_return.png|
-
+            |join_network.png|
 
         MicroPython Code Block:
 
@@ -470,6 +483,8 @@ class RUI3:
 
         :returns: True if the data was sent successfully, otherwise False.
         :rtype: bool
+
+            |send_data.png|
 
             |send_data_return.png|
 
@@ -814,10 +829,8 @@ class RUI3:
                 Range: 4800-467000 Hz
 
         :returns: The result of the AT command execution.
-        :rtype: bool
-            |set_p2p_fsk_bandwidth.png|
 
-            |set_p2p_lora_bandwidth.png|
+        :rtype: bool
 
         MicroPython Code Block:
 
@@ -1002,7 +1015,10 @@ class RUI3:
         :returns: True if the data was sent successfully ("TXFSK DONE" or "TXP2P DONE"), False otherwise.
         :rtype: bool
 
+            |send_p2p_data.png|
+
             |send_p2p_data_return.png|
+
 
         MicroPython Code Block:
 

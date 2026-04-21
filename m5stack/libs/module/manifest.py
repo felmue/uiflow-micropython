@@ -33,6 +33,7 @@ package(
         "lora868_v12.py",
         "lorawan.py",
         "lorawan868.py",
+        "lorawan_rui3.py",
         "lte.py",
         "mbus.py",
         "module_4in8out.py",

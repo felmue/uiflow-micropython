@@ -34,6 +34,7 @@ _attrs = {
     "LoRa868V12Module": "lora868_v12",
     "LoRaWANModule": "lorawan",
     "LoRaWAN868Module": "lorawan868",
+    "LoRaWANModule_RUI3": "lorawan_rui3",
     "LTEModule": "lte",
     "Module4In8Out": "module_4in8out",
     "NBIOTModule": "nbiot",

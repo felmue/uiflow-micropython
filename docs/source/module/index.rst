@@ -29,6 +29,7 @@ Module
     llm.rst
     lora.rst
     lora868_v12.rst
+    lorawan_rui3.rst
     lorawan868.rst
     lte.rst
     nbiot.rst

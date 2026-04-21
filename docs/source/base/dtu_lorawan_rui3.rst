@@ -76,7 +76,6 @@ AtomDTULoRaWANRUI3Base
 
 .. autoclass:: base.dtu_lorawan_rui3.AtomDTULoRaWANRUI3Base
     :members:
-
-.. autoclass:: driver.rui3.RUI3
-    :members:
+    :inherited-members:
     :member-order: bysource
+    :show-inheritance:
