@@ -5,7 +5,11 @@
 from micropython import schedule
 from machine import I2C
 from machine import UART
-import m5espnow
+
+try:
+    import m5espnow
+except ImportError:
+    pass
 import sys
 
 if sys.platform != "esp32":
