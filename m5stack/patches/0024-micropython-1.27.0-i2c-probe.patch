@@ -1,0 +1,13 @@
+Index: micropython/extmod/modmachine.h
+===================================================================
+--- micropython.orig/extmod/modmachine.h
++++ micropython/extmod/modmachine.h
+@@ -124,6 +124,8 @@
+ #define MP_MACHINE_I2C_FLAG_WRITE1 (0x04)
+ #endif
+ 
++#define MP_MACHINE_I2C_FLAG_PROBE (0x08) // for internal use: probe for device at address
++
+ #endif
+ 
+ // A port must provide these types, but they are otherwise opaque.

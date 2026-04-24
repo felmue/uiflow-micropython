@@ -11,5 +11,5 @@ package(
         "bleuart_server.py",
     ),
     base_path="..",
-    opt=0,
+    opt=2,
 )

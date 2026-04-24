@@ -7,20 +7,21 @@ set(MICROPY_PY_LVGL 1)
 # set(M5_CAMERA_MODULE_ENABLE TRUE)
 
 set(SDKCONFIG_DEFAULTS
-    # boards/M5STACK_Tab5/sdkconfig.board
-    ./boards/sdkconfig.base
-    ${SDKCONFIG_IDF_VERSION_SPECIFIC}
-    # ./boards/sdkconfig.240mhz
-    ./boards/sdkconfig.disable_iram
-    # ./boards/sdkconfig.ble
-    # ./boards/sdkconfig.usb
-    # ./boards/sdkconfig.usb_cdc
-    ./boards/sdkconfig.flash_16mb_omv
-    ./boards/sdkconfig.freertos
-    ./boards/M5STACK_Tab5/sdkconfig.freertos
-    ./boards/M5STACK_Tab5/sdkconfig.spiram_hex
-    ./boards/M5STACK_Tab5/sdkconfig.adf
-    ./boards/M5STACK_Tab5/sdkconfig.esp_hosted
+    boards/sdkconfig.base
+    boards/sdkconfig.p4
+    # boards/sdkconfig.p4_wifi_common
+    # boards/sdkconfig.p4_wifi_c6
+    boards/sdkconfig.flash_16mb_omv
+    boards/sdkconfig.freertos
+    boards/M5STACK_Tab5/sdkconfig.freertos
+    boards/M5STACK_Tab5/sdkconfig.spiram_hex
+    boards/M5STACK_Tab5/sdkconfig.adf
+    boards/M5STACK_Tab5/sdkconfig.esp_hosted
+)
+
+list(APPEND MICROPY_DEF_BOARD
+    MICROPY_PY_NETWORK_WLAN=1
+    MICROPY_PY_BLUETOOTH=1
 )
 
 # If not enable LVGL, ignore this...

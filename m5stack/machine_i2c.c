@@ -31,7 +31,7 @@
 #include "extmod/modmachine.h"
 #include "machine_i2c.h"
 
-#define MICROPY_HW_ESP_NEW_I2C_DRIVER (1)
+// #define MICROPY_HW_ESP_NEW_I2C_DRIVER (1)
 
 #if MICROPY_HW_ESP_NEW_I2C_DRIVER
 #include "driver/i2c_master.h"

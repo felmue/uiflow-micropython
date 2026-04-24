@@ -9,5 +9,5 @@ package(
         "multi.py",
     ),
     base_path="..",
-    opt=0,
+    opt=2,
 )

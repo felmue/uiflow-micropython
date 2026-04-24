@@ -9,5 +9,5 @@ package(
         "m5ble.py",
     ),
     base_path="..",
-    opt=0,
+    opt=2,
 )

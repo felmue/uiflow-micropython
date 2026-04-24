@@ -108,5 +108,5 @@ package(
         "pca9685.py",
     ),
     base_path="..",
-    opt=0,
+    opt=2,
 )

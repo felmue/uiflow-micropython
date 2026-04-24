@@ -74,6 +74,10 @@
 #define MICROPY_HW_SPI2_SCK (36)
 #define MICROPY_HW_SPI2_MOSI (35)
 #define MICROPY_HW_SPI2_MISO (37)
+#elif CONFIG_IDF_TARGET_ESP32P4
+#define MICROPY_HW_SPI2_SCK (43)
+#define MICROPY_HW_SPI2_MOSI (44)
+#define MICROPY_HW_SPI2_MISO (39)
 #endif
 #endif
 
@@ -146,6 +150,7 @@ static void machine_hw_spi_deinit_internal(machine_hw_spi_obj_t *self) {
             return;
 
         case ESP_ERR_INVALID_STATE:
+            // Start of modification section, by M5Stack
             // NOTE:
             //     core2和cores3的屏幕和sd卡复用一个spi，
             //     所以这里不需要对 SPI 进行初始化。
@@ -153,8 +158,10 @@ static void machine_hw_spi_deinit_internal(machine_hw_spi_obj_t *self) {
                 mp_raise_msg(&mp_type_OSError, MP_ERROR_TEXT("SPI device already freed"));
                 return;
             }
+            // End of modification section, by M5Stack
     }
 
+    // Start of modification section, by M5Stack
     // NOTE:
     //     core2和cores3的屏幕和sd卡复用一个spi，
     //     所以这里不需要对 SPI 进行初始化。
@@ -179,6 +186,7 @@ static void machine_hw_spi_deinit_internal(machine_hw_spi_obj_t *self) {
             }
         }
     }
+    // End of modification section, by M5Stack
 }
 
 static void machine_hw_spi_init_internal(machine_hw_spi_obj_t *self, mp_arg_val_t args[]) {
@@ -208,6 +216,10 @@ static void machine_hw_spi_init_internal(machine_hw_spi_obj_t *self, mp_arg_val_
     if (args[ARG_phase].u_int != -1 && args[ARG_phase].u_int != self->phase) {
         self->phase = args[ARG_phase].u_int;
         changed = true;
+    }
+
+    if (args[ARG_bits].u_int != -1 && args[ARG_bits].u_int <= 0) {
+        mp_raise_ValueError(MP_ERROR_TEXT("invalid bits"));
     }
 
     if (args[ARG_bits].u_int != -1 && args[ARG_bits].u_int != self->bits) {
@@ -282,11 +294,13 @@ static void machine_hw_spi_init_internal(machine_hw_spi_obj_t *self, mp_arg_val_
             return;
 
         case ESP_ERR_INVALID_STATE:
+            // Start of modification section, by M5Stack
             // NOTE:
             //     core2和cores3的屏幕和sd卡复用一个spi，
             //     所以这里不需要对 SPI 进行初始化。
             self->is_shared = true;
             mp_warning("hw_spi", "SPI bus already initialized");
+            // End of modification section, by M5Stack
     }
 
     ret = spi_bus_add_device(self->host, &devcfg, &self->spi);

@@ -12,17 +12,15 @@ set(MICROPY_PY_LVGL 1)
 set(M5_CAMERA_MODULE_ENABLE TRUE)
 
 set(SDKCONFIG_DEFAULTS
-    ./boards/sdkconfig.base
-    ${SDKCONFIG_IDF_VERSION_SPECIFIC}
-    ./boards/sdkconfig.240mhz
-    ./boards/sdkconfig.disable_iram
-    ./boards/sdkconfig.ble
-    ./boards/sdkconfig.usb
-    ./boards/sdkconfig.usb_cdc
-    ./boards/sdkconfig.flash_16mb_omv
-    ./boards/sdkconfig.spiram_sx
-    ./boards/sdkconfig.freertos
-    ./boards/M5STACK_CoreS3/sdkconfig.board
+    boards/sdkconfig.base
+    boards/sdkconfig.ble
+    boards/sdkconfig.240mhz
+    # boards/sdkconfig.disable_iram
+    boards/sdkconfig.spiram_sx
+    boards/sdkconfig.flash_16mb_omv
+    boards/sdkconfig.flash_qio
+    boards/sdkconfig.freertos
+    boards/M5STACK_CoreS3/sdkconfig.board
 )
 
 # If not enable LVGL, ignore this...

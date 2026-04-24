@@ -95,7 +95,7 @@ static btn_obj_t *m5_btn_list[5] = {&m5_btnA, &m5_btnB, &m5_btnC, &m5_btnPWR, &m
 
 static void m5_config_helper_module_display(mp_obj_t config_obj, M5ModuleDisplay::config_t &cfg) {
     if (!MP_OBJ_IS_TYPE(config_obj, &mp_type_dict)) {
-        mp_raise_TypeError("module_display must be a dict");
+        mp_raise_TypeError(MP_ERROR_TEXT("module_display must be a dict"));
     }
 
     mp_map_t *config_map = mp_obj_dict_get_map(config_obj);
@@ -140,7 +140,7 @@ static void m5_config_helper_module_display(mp_obj_t config_obj, M5ModuleDisplay
 
 static void m5_config_helper_atom_display(mp_obj_t config_obj, M5AtomDisplay::config_t &cfg) {
     if (!MP_OBJ_IS_TYPE(config_obj, &mp_type_dict)) {
-        mp_raise_TypeError("atom_display must be a dict");
+        mp_raise_TypeError(MP_ERROR_TEXT("atom_display must be a dict"));
     }
 
     // cfg.atom_display = M5AtomDisplay::config_t();
@@ -187,7 +187,7 @@ static void m5_config_helper_atom_display(mp_obj_t config_obj, M5AtomDisplay::co
 #if CONFIG_IDF_TARGET_ESP32
 static void m5_config_helper_module_rca(mp_obj_t config_obj, M5ModuleRCA::config_t &cfg) {
     if (!MP_OBJ_IS_TYPE(config_obj, &mp_type_dict)) {
-        mp_raise_TypeError("module_rca must be a dict");
+        mp_raise_TypeError(MP_ERROR_TEXT("module_rca must be a dict"));
     }
 
     // cfg.module_rca = M5ModuleRCA::config_t();
@@ -234,7 +234,7 @@ static void m5_config_helper_module_rca(mp_obj_t config_obj, M5ModuleRCA::config
 
 static void m5_config_helper_unit_rca(mp_obj_t config_obj, M5UnitRCA::config_t &cfg) {
     if (!MP_OBJ_IS_TYPE(config_obj, &mp_type_dict)) {
-        mp_raise_TypeError("unit_rca must be a dict");
+        mp_raise_TypeError(MP_ERROR_TEXT("unit_rca must be a dict"));
     }
 
     // cfg.unit_rca = M5UnitRCA::config_t();
@@ -281,7 +281,7 @@ static void m5_config_helper_unit_rca(mp_obj_t config_obj, M5UnitRCA::config_t &
 
 mp_obj_t m5_add_display(mp_obj_t i2c_bus_in, mp_obj_t addr_in, mp_obj_t dict) {
     if (!MP_OBJ_IS_TYPE(dict, &mp_type_dict)) {
-        mp_raise_TypeError("parameter must be a dict");
+        mp_raise_TypeError(MP_ERROR_TEXT("parameter must be a dict"));
     }
 
     machine_hw_i2c_obj_t *i2c_bus = (machine_hw_i2c_obj_t *)i2c_bus_in;
@@ -310,7 +310,7 @@ mp_obj_t m5_add_display(mp_obj_t i2c_bus_in, mp_obj_t addr_in, mp_obj_t dict) {
                         mp_printf(&mp_plat_print, "module_display added\n");
                     }
                 } else {
-                    mp_raise_NotImplementedError("module_display is not supported on this board");
+                    mp_raise_NotImplementedError(MP_ERROR_TEXT("module_display is not supported on this board"));
                 }
             } else if (strcmp(key_str, "atom_display") == 0) {
                 M5AtomDisplay::config_t cfg;
@@ -334,7 +334,7 @@ mp_obj_t m5_add_display(mp_obj_t i2c_bus_in, mp_obj_t addr_in, mp_obj_t dict) {
                         mp_printf(&mp_plat_print, "module_rca added\n");
                     }
                 } else {
-                    mp_raise_NotImplementedError("module_rca is not supported on this board");
+                    mp_raise_NotImplementedError(MP_ERROR_TEXT("module_rca is not supported on this board"));
                 }
             } else if (strcmp(key_str, "unit_rca") == 0) {
                 M5UnitRCA::config_t cfg;
@@ -525,7 +525,7 @@ mp_obj_t m5_begin(size_t n_args, const mp_obj_t *args) {
     if (n_args > 0) {
         config_obj = args[0];
         if (!MP_OBJ_IS_TYPE(config_obj, &mp_type_dict)) {
-            mp_raise_TypeError("parameter must be a dict");
+            mp_raise_TypeError(MP_ERROR_TEXT("parameter must be a dict"));
         }
         // m5_config_helper(config_obj, cfg);
     }

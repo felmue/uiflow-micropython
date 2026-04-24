@@ -124,7 +124,7 @@ void * board_codec_init(void)
     // New input codec interface
     es7210_codec_cfg_t es7210_cfg = {
         .ctrl_if = in_ctrl_if,
-        .mic_selected = ES7120_SEL_MIC1 | ES7120_SEL_MIC2,
+        .mic_selected = ES7210_SEL_MIC1 | ES7210_SEL_MIC2,
     };
     const audio_codec_if_t *in_codec_if = es7210_codec_new(&es7210_cfg);
 

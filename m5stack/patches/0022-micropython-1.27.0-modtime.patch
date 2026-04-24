@@ -1,0 +1,181 @@
+Index: micropython/ports/esp32/mpconfigport.h
+===================================================================
+--- micropython.orig/ports/esp32/mpconfigport.h
++++ micropython/ports/esp32/mpconfigport.h
+@@ -78,6 +78,7 @@
+ #define MICROPY_PY_IO_BUFFEREDWRITER        (1)
+ #define MICROPY_PY_TIME_GMTIME_LOCALTIME_MKTIME (1)
+ #define MICROPY_PY_TIME_TIME_TIME_NS        (1)
++#define MICROPY_EPOCH_IS_1970               (1)
+ #define MICROPY_PY_TIME_INCLUDEFILE         "ports/esp32/modtime.c"
+ #define MICROPY_PY_THREAD                   (1)
+ #define MICROPY_PY_THREAD_GIL               (1)
+Index: micropython/extmod/modtime.c
+===================================================================
+--- micropython.orig/extmod/modtime.c
++++ micropython/extmod/modtime.c
+@@ -40,6 +40,42 @@
+ 
+ #include "shared/timeutils/timeutils.h"
+ 
++// gmtime([secs])
++// Convert a time expressed in seconds since the Epoch into an 8-tuple which
++// contains: (year, month, mday, hour, minute, second, weekday, yearday)
++// If secs is not provided or None, then the current time is used.
++// - year    is the full year, eg 2000
++// - month   is 1-12
++// - mday    is 1-31
++// - hour    is 0-23
++// - minute  is 0-59
++// - second  is 0-59
++// - weekday is 0-6 for Mon-Sun
++// - yearday is 1-366
++static mp_obj_t time_gmtime(size_t n_args, const mp_obj_t *args) {
++    timeutils_struct_time_t tm;
++    if (n_args == 0 || args[0] == mp_const_none) {
++        // Get current date and time.
++        mp_time_gmtime_get(&tm);
++    } else {
++        // Convert given seconds to tuple.
++        mp_timestamp_t seconds = timeutils_obj_get_timestamp(args[0]);
++        timeutils_seconds_since_epoch_to_struct_time(seconds, &tm);
++    }
++    mp_obj_t tuple[8] = {
++        mp_obj_new_int(tm.tm_year),
++        mp_obj_new_int(tm.tm_mon),
++        mp_obj_new_int(tm.tm_mday),
++        mp_obj_new_int(tm.tm_hour),
++        mp_obj_new_int(tm.tm_min),
++        mp_obj_new_int(tm.tm_sec),
++        mp_obj_new_int(tm.tm_wday),
++        mp_obj_new_int(tm.tm_yday),
++    };
++    return mp_obj_new_tuple(8, tuple);
++}
++MP_DEFINE_CONST_FUN_OBJ_VAR_BETWEEN(mp_time_gmtime_obj, 0, 1, time_gmtime);
++
+ // localtime([secs])
+ // Convert a time expressed in seconds since the Epoch into an 8-tuple which
+ // contains: (year, month, mday, hour, minute, second, weekday, yearday)
+@@ -60,7 +96,7 @@ static mp_obj_t time_localtime(size_t n_
+     } else {
+         // Convert given seconds to tuple.
+         mp_timestamp_t seconds = timeutils_obj_get_timestamp(args[0]);
+-        timeutils_seconds_since_epoch_to_struct_time(seconds, &tm);
++        mp_time_localtime_convert(seconds, &tm);
+     }
+     mp_obj_t tuple[8] = {
+         mp_obj_new_int(tm.tm_year),
+@@ -200,7 +236,7 @@ static const mp_rom_map_elem_t mp_module
+     { MP_ROM_QSTR(MP_QSTR___name__), MP_ROM_QSTR(MP_QSTR_time) },
+ 
+     #if MICROPY_PY_TIME_GMTIME_LOCALTIME_MKTIME
+-    { MP_ROM_QSTR(MP_QSTR_gmtime), MP_ROM_PTR(&mp_time_localtime_obj) },
++    { MP_ROM_QSTR(MP_QSTR_gmtime), MP_ROM_PTR(&mp_time_gmtime_obj) },
+     { MP_ROM_QSTR(MP_QSTR_localtime), MP_ROM_PTR(&mp_time_localtime_obj) },
+     { MP_ROM_QSTR(MP_QSTR_mktime), MP_ROM_PTR(&mp_time_mktime_obj) },
+     #endif
+Index: micropython/ports/esp32/modtime.c
+===================================================================
+--- micropython.orig/ports/esp32/modtime.c
++++ micropython/ports/esp32/modtime.c
+@@ -30,17 +30,97 @@
+ 
+ #include "py/obj.h"
+ #include "shared/timeutils/timeutils.h"
++// #include "uiflow_utility.h"
+ 
+-// Get the localtime.
+-static void mp_time_localtime_get(timeutils_struct_time_t *tm) {
++// Get the gmtime.
++static void mp_time_gmtime_get(timeutils_struct_time_t *tm) {
+     struct timeval tv;
+     gettimeofday(&tv, NULL);
+     timeutils_seconds_since_epoch_to_struct_time(tv.tv_sec, tm);
+ }
+ 
++// Get the localtime.
++static void mp_time_localtime_get(timeutils_struct_time_t *tm) {
++
++    time_t now;
++    struct tm timeinfo;
++    time(&now);
++    localtime_r(&now, &timeinfo);
++
++    tm->tm_year = timeinfo.tm_year + 1900;
++    tm->tm_mon = timeinfo.tm_mon + 1;
++    tm->tm_mday = timeinfo.tm_mday;
++    tm->tm_hour = timeinfo.tm_hour;
++    tm->tm_min = timeinfo.tm_min;
++    tm->tm_sec = timeinfo.tm_sec;
++    tm->tm_wday = (timeinfo.tm_wday + 6) % 7;
++    tm->tm_yday = timeinfo.tm_yday + 1;
++}
++
++static void mp_time_localtime_convert(time_t sec, timeutils_struct_time_t *tm) {
++    struct tm timeinfo;
++    localtime_r(&sec, &timeinfo);
++    tm->tm_year = timeinfo.tm_year + 1900;
++    tm->tm_mon = timeinfo.tm_mon + 1;
++    tm->tm_mday = timeinfo.tm_mday;
++    tm->tm_hour = timeinfo.tm_hour;
++    tm->tm_min = timeinfo.tm_min;
++    tm->tm_sec = timeinfo.tm_sec;
++    tm->tm_wday = (timeinfo.tm_wday + 6) % 7;
++    tm->tm_yday = timeinfo.tm_yday + 1;
++}
++
+ // Return the number of seconds since the Epoch.
+ static mp_obj_t mp_time_time_get(void) {
+     struct timeval tv;
+     gettimeofday(&tv, NULL);
+     return timeutils_obj_from_timestamp(tv.tv_sec);
+ }
++
++// Set/get the timezone.
++static mp_obj_t time_timezone(size_t n_args, const mp_obj_t *args) {
++    if (n_args == 0 || args[0] == mp_const_none) {
++        // Get timezone
++        char *tz = getenv("TZ");
++        if (tz == NULL) {
++            return mp_const_none;
++        } else {
++            char timezone[64] = { 0 };
++            memcpy(timezone, tz, strlen(tz));
++            char *ptr = strchr(timezone, '+');
++            if (ptr != NULL) {
++                *ptr = '-';
++            } else {
++                ptr = strchr(timezone, '-');
++                if (ptr != NULL) {
++                    *ptr = '+';
++                }
++            }
++            return mp_obj_new_str(timezone, strlen(timezone));
++        }
++    } else {
++        // Set timezone
++        char timezone[64] = { 0 };
++        snprintf(timezone, sizeof(timezone), "%s", mp_obj_str_get_str(args[0]));
++
++        char *ptr = strchr(timezone, '-');
++        if (ptr != NULL) {
++            *ptr = '+';
++        } else {
++            ptr = strchr(timezone, '+');
++            if (ptr != NULL) {
++                *ptr = '-';
++            }
++        }
++
++        setenv("TZ", timezone, 1);
++        tzset();
++
++        // nvs_write_str_helper(UIFLOW_NVS_NAMESPACE, "tz", timezone);
++        return mp_const_none;
++    }
++}
++static MP_DEFINE_CONST_FUN_OBJ_VAR_BETWEEN(time_timezone_obj, 0, 1, time_timezone);
++
++#define MICROPY_PY_TIME_EXTRA_GLOBALS \
++    { MP_ROM_QSTR(MP_QSTR_timezone), MP_ROM_PTR(&time_timezone_obj) },

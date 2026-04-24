@@ -318,35 +318,27 @@ LV_BINDING_PATCH_SERIES = \
 	6001-avoid-lvgl-font-redefine.patch
 
 MICROPYTHON_PATCH_SERIES = \
-	0006-modtime-add-timezone-method.patch              \
-	0007-Add-set-default-netif-method.patch             \
-	0009-micropython-1.25.0-add-esp32p4-pins.patch      \
-	0010-micropython-1.25.0-machine-adc-v5.x.patch      \
-	0011-micropython-1.25.0-fix-esp32-p4-pwm.patch      \
-	0012-micropython-1.25.0-fix-esp32-p4-modesp32.patch \
-	0013-micropython-1.25.0-fix-touchpad.patch          \
-	0014-micropython-1.25.0-fix-timer.patch             \
-	0015-micropython-1.25.0-fix-hostname.patch          \
-	0016-micropython-1.25.0-fix-mpnimbleport.patch      \
-	0017-micropython-1.25.0-add-uart-mode.patch         \
-	0018-micropython-1.25.0-support-esp-idf-v5.4.2.patch \
-	0019-micropython-1.25.0-add-getsockname.patch \
-	0020-micropython-1.25.0-modtime.patch \
-	0021-micropython-1.25.0-i2c-probe.patch
+	0022-micropython-1.27.0-modtime.patch \
+	0023-micropython-1.27.0-add-set-default-netif-method.patch \
+	0024-micropython-1.27.0-i2c-probe.patch \
+	0025-micropython-1.27.0-add-uart-mode.patch \
+	0026-micropython-1.27.0-add-getsockname.patch \
+	0027-micropython-1.27.0-fix-mpnimbleport.patch
 
 IDF_PATH_PATCH_SERIES = \
-	1004-idf_v5.4_freertos.patch
+	1005-idf_v5.5_freertos.patch
 
 M5UNIFIED_PATCH_SERIES = \
 	2006-Support-LTR553.patch \
 	2007-Support-UnitC6L.patch \
-	2008-Only-use-old-rmt-driver.patch \
 	2009-fix-SoftI2C.patch \
 	2010-Support-Nesso-N1.patch \
-	2011-Fix-PowerHub-Charge-Status-Detection.patch
+	2011-Fix-PowerHub-Charge-Status-Detection.patch \
+	2018-fix-Rtc-setAlarmIRQ.patch \
+	2019-fix-touch-sensor.patch
 
 ADF_PATCH_SERIES = \
-	3002-Modify-i2s_stream_idf5.patch
+	3003-modify-i2s_stream_idf5.5.patch
 
 M5GFX_PATCH_SERIES = \
 	4004-I2C-repeated-initialization.patch

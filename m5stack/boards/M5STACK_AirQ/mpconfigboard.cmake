@@ -9,16 +9,12 @@ set(BOARD_ID 15)
 set(MICROPY_PY_LVGL 0)
 
 set(SDKCONFIG_DEFAULTS
-    ./boards/sdkconfig.base
-    ${SDKCONFIG_IDF_VERSION_SPECIFIC}
-    ./boards/sdkconfig.240mhz
-    ./boards/sdkconfig.disable_iram
-    ./boards/sdkconfig.ble
-    ./boards/sdkconfig.usb
-    ./boards/sdkconfig.usb_cdc
-    ./boards/sdkconfig.flash_8mb
-    ./boards/sdkconfig.freertos
-    ./boards/M5STACK_AirQ/sdkconfig.board
+    boards/sdkconfig.base
+    boards/sdkconfig.ble
+    boards/sdkconfig.240mhz
+    boards/sdkconfig.flash_8mb
+    boards/sdkconfig.freertos
+    boards/M5STACK_AirQ/sdkconfig.board
 )
 
 # If not enable LVGL, ignore this...

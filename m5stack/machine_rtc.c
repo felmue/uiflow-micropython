@@ -91,8 +91,13 @@ _USER_MEM_ATTR uint8_t rtc_user_mem_data[MICROPY_HW_RTC_USER_MEM_MAX];
 static const machine_rtc_obj_t machine_rtc_obj = {{&machine_rtc_type}};
 
 machine_rtc_config_t machine_rtc_config = {
+    #if SOC_PM_SUPPORT_EXT1_WAKEUP
     .ext1_pins = 0,
-    .ext0_pin = -1
+    #endif
+    #if SOC_PM_SUPPORT_EXT0_WAKEUP
+    .ext0_pin = -1,
+    #endif
+    .gpio_pins = 0,
 };
 
 static mp_obj_t machine_rtc_make_new(const mp_obj_type_t *type, size_t n_args, size_t n_kw, const mp_obj_t *args) {
@@ -141,7 +146,10 @@ static mp_obj_t machine_rtc_datetime_helper(mp_uint_t n_args, const mp_obj_t *ar
         // Get timezone info
         char timezone[64] = { 0 };
         char *tz = getenv("TZ");
-        memcpy(timezone, tz, strlen(tz));
+        int had_tz = (tz != NULL);
+        if (had_tz) {
+            snprintf(timezone, sizeof(timezone), "%s", tz);
+        }
 
         // Set UTC timezone temporarily to set time correctly
         setenv("TZ", "UTC", 1);
@@ -159,14 +167,18 @@ static mp_obj_t machine_rtc_datetime_helper(mp_uint_t n_args, const mp_obj_t *ar
         t.tm_sec = mp_obj_get_int(items[hour_index + 2]);
         t.tm_isdst = 0; // Daylight Saving Time not implemented
         tv.tv_sec = mktime(&t);
-        tv.tv_usec = mp_obj_get_int(items[6]);
+        tv.tv_usec = mp_obj_get_int(items[7]);
         settimeofday(&tv, NULL);
         #if NO_HAVE_RTC_SYNC == 0
         rtc_sync(&tv);
         #endif
 
         // Restore previous timezone
-        setenv("TZ", timezone, 1);
+        if (had_tz) {
+            setenv("TZ", timezone, 1);
+        } else {
+            unsetenv("TZ");
+        }
         tzset();
 
         return mp_const_none;
@@ -237,7 +249,7 @@ static mp_obj_t machine_rtc_timezone(size_t n_args, const mp_obj_t *args) {
             return mp_const_none;
         } else {
             char timezone[64] = { 0 };
-            memcpy(timezone, tz, strlen(tz));
+            snprintf(timezone, sizeof(timezone), "%s", tz);
             char *ptr = strchr(timezone, '+');
             if (ptr != NULL) {
                 *ptr = '-';

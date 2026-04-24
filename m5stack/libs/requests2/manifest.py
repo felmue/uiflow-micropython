@@ -6,5 +6,5 @@ package(
     "requests2",
     ("__init__.py",),
     base_path="..",
-    opt=0,
+    opt=2,
 )

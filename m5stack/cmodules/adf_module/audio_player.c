@@ -766,7 +766,7 @@ static mp_obj_t audio_player_set_vol(mp_obj_t self_in, mp_obj_t vol) {
     int volume = mp_obj_get_int(vol);
 
     if (volume < 0 || volume > 100) {
-        mp_raise_ValueError("Volume must be between 0 and 100");
+        mp_raise_ValueError(MP_ERROR_TEXT("Volume must be between 0 and 100"));
     }
 
     self->volume = volume;

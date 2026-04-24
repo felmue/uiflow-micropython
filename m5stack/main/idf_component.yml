@@ -1,13 +1,16 @@
 ## IDF Component Manager Manifest File
 dependencies:
   espressif/mdns: "~1.1.0"
-  espressif/esp_tinyusb:
+  espressif/tinyusb:
     rules:
-      - if: "target in [esp32s2, esp32s3]"
-    version: "~1.0.0"
+      - if: "target in [esp32s2, esp32s3, esp32p4]"
+    # Temporary workaround for https://github.com/hathach/tinyusb/issues/3154
+    # Can be removed once fix is released in espressif/tinyusb
+    git: https://github.com/micropython/tinyusb-espressif.git
+    version: cherrypick/dwc2_zlp_fix
   idf:
     version: ">=5.2.0"
-  espressif/esp_codec_dev: "1.3.2"
+  espressif/esp_codec_dev: "1.5.4"
   espressif/esp_hosted:
     rules:
       - if: "target in [esp32p4]"

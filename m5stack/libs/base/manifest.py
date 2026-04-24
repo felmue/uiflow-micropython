@@ -27,5 +27,5 @@ package(
         "tfcard.py",
     ),
     base_path="..",
-    opt=3,
+    opt=2,
 )

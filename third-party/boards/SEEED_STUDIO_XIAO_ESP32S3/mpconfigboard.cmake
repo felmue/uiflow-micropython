@@ -11,16 +11,15 @@ set(BOARD_ID 136)
 set(M5_CAMERA_MODULE_ENABLE TRUE)
 
 set(SDKCONFIG_DEFAULTS
-    ./boards/sdkconfig.base
-    ${SDKCONFIG_IDF_VERSION_SPECIFIC}
-    ./boards/sdkconfig.240mhz
-    ./boards/sdkconfig.disable_iram
-    ./boards/sdkconfig.ble
-    ./boards/sdkconfig.usb
-    ./boards/sdkconfig.flash_8mb
-    ./boards/sdkconfig.spiram_sx
-    ./boards/sdkconfig.spiram_oct
-    ./boards/SEEED_STUDIO_XIAO_ESP32S3/sdkconfig.board
+    boards/sdkconfig.base
+    boards/sdkconfig.ble
+    boards/sdkconfig.240mhz
+    boards/sdkconfig.flash_8mb
+    boards/sdkconfig.flash_qio
+    boards/sdkconfig.freertos
+    boards/sdkconfig.spiram
+    boards/sdkconfig.spiram_oct
+    boards/SEEED_STUDIO_XIAO_ESP32S3/sdkconfig.board
 )
 
 # If not enable LVGL, ignore this...

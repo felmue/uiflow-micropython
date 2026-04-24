@@ -57,9 +57,9 @@ mp_obj_t py_object_detector_make_new(const mp_obj_type_t *type, mp_uint_t n_args
     } else if (mp_obj_is_str(args[0])) { // 使用自定义模型，输入模型路径
         obj->model_path = mp_obj_str_get_str(args[0]);
         obj->model_id = -1;
-        mp_raise_TypeError("Loading custom model is not support at this time!");
+        mp_raise_TypeError(MP_ERROR_TEXT("Loading custom model is not support at this time!"));
     } else {
-        mp_raise_TypeError("Expected a string (custom model path) or integer (built-in model ID)");
+        mp_raise_TypeError(MP_ERROR_TEXT("Expected a string (custom model path) or integer (built-in model ID)"));
     }
 
     return MP_OBJ_FROM_PTR(obj);

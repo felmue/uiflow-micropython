@@ -182,21 +182,31 @@ function ci_esp32_idf522_setup {
     ./esp-idf/install.sh
 }
 
-function ci_esp32_idf542_setup {
+function ci_esp32_idf_tag_setup {
+    local idf_tag="$1"
+
     if [ -d esp-idf ]; then
         echo "esp-idf is already cloned."
-        if [ "$(git -C esp-idf describe --tags)" == "v5.4.2" ]; then
-            echo "esp-idf is on v5.4.2 branch."
+        if [ "$(git -C esp-idf describe --tags)" == "$idf_tag" ]; then
+            echo "esp-idf is on $idf_tag branch."
             return 0
         else
-            echo "esp-idf is not on v5.4.2 branch."
+            echo "esp-idf is not on $idf_tag branch."
             rm -rf esp-idf
         fi
     fi
 
-    git clone --depth 1 --branch v5.4.2 https://github.com/espressif/esp-idf.git
-    git -C esp-idf submodule update --init --depth 1 
+    git clone --depth 1 --branch "$idf_tag" https://github.com/espressif/esp-idf.git
+    git -C esp-idf submodule update --init --depth 1
     ./esp-idf/install.sh
+}
+
+function ci_esp32_idf542_setup {
+    ci_esp32_idf_tag_setup v5.4.2
+}
+
+function ci_esp32_idf551_setup {
+    ci_esp32_idf_tag_setup v5.5.1
 }
 
 function ci_esp32_build {
@@ -212,7 +222,7 @@ function ci_esp32_build {
     make ${MAKEOPTS} -C m5stack BOARD=M5STACK_SPIRAM_8MB clean
     make ${MAKEOPTS} -C m5stack BOARD=M5STACK_8MB LVGL=1
     make ${MAKEOPTS} -C m5stack BOARD=M5STACK_SPIRAM_8MB LVGL=1
-    
+
     # if [ -d $IDF_PATH/components/esp32c3 ]; then
     #     make ${MAKEOPTS} -C m5stack BOARD=M5STACK_C3
     #     make ${MAKEOPTS} -C m5stack BOARD=M5STACK_C3_USB

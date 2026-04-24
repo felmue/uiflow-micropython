@@ -47,7 +47,7 @@ jobs:
 
       - name: Setup environment
         run: |
-          source tools/ci.sh && ci_esp32_idf542_setup
+          source tools/ci.sh && ci_esp32_idf551_setup
           source esp-idf/export.sh
           pip install future
           make -C m5stack submodules

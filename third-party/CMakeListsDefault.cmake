@@ -21,9 +21,14 @@ if(CONFIG_IDF_TARGET_ARCH_RISCV)
 endif()
 
 if(NOT DEFINED MICROPY_PY_TINYUSB)
-    if(CONFIG_IDF_TARGET_ESP32S2 OR CONFIG_IDF_TARGET_ESP32S3)
+    if(CONFIG_IDF_TARGET_ESP32S2 OR CONFIG_IDF_TARGET_ESP32S3 OR CONFIG_IDF_TARGET_ESP32P4)
         set(MICROPY_PY_TINYUSB ON)
     endif()
+endif()
+
+# Enable error text compression by default.
+if(NOT MICROPY_ROM_TEXT_COMPRESSION)
+    set(MICROPY_ROM_TEXT_COMPRESSION ON)
 endif()
 
 # Include core source components.
@@ -35,7 +40,9 @@ include(${MICROPY_DIR}/py/py.cmake)
 if(NOT CMAKE_BUILD_EARLY_EXPANSION)
     # Enable extmod components that will be configured by extmod.cmake.
     # A board may also have enabled additional components.
-    set(MICROPY_PY_BTREE ON)
+    if (NOT DEFINED MICROPY_PY_BTREE)
+        set(MICROPY_PY_BTREE ON)
+    endif()
 
     include(${MICROPY_DIR}/py/usermod.cmake)
     include(${MICROPY_DIR}/extmod/extmod.cmake)
@@ -71,9 +78,7 @@ list(APPEND MICROPY_SOURCE_DRIVERS
     ${MICROPY_DIR}/drivers/dht/dht.c
 )
 
-list(APPEND GIT_SUBMODULES lib/tinyusb)
 if(MICROPY_PY_TINYUSB)
-    set(TINYUSB_SRC "${MICROPY_DIR}/lib/tinyusb/src")
     string(TOUPPER OPT_MCU_${IDF_TARGET} tusb_mcu)
 
     list(APPEND MICROPY_DEF_TINYUSB
@@ -81,12 +86,6 @@ if(MICROPY_PY_TINYUSB)
     )
 
     list(APPEND MICROPY_SOURCE_TINYUSB
-        ${TINYUSB_SRC}/tusb.c
-        ${TINYUSB_SRC}/common/tusb_fifo.c
-        ${TINYUSB_SRC}/device/usbd.c
-        ${TINYUSB_SRC}/device/usbd_control.c
-        ${TINYUSB_SRC}/class/cdc/cdc_device.c
-        ${TINYUSB_SRC}/portable/synopsys/dwc2/dcd_dwc2.c
         ${MICROPY_DIR}/shared/tinyusb/mp_usbd.c
         ${MICROPY_DIR}/shared/tinyusb/mp_usbd_cdc.c
         ${MICROPY_DIR}/shared/tinyusb/mp_usbd_descriptor.c
@@ -94,16 +93,19 @@ if(MICROPY_PY_TINYUSB)
     )
 
     list(APPEND MICROPY_INC_TINYUSB
-        ${TINYUSB_SRC}
         ${MICROPY_DIR}/shared/tinyusb/
     )
 
-    list(APPEND MICROPY_LINK_TINYUSB
-        -Wl,--wrap=dcd_event_handler
-    )
+    # Build the Espressif tinyusb component with MicroPython shared/tinyusb/tusb_config.h
+    idf_component_get_property(tusb_lib espressif__tinyusb COMPONENT_LIB)
+    target_include_directories(${tusb_lib} PRIVATE
+        ${MICROPY_DIR}/shared/tinyusb
+        ${MICROPY_DIR}
+        ${MICROPY_PORT_DIR}
+        ${MICROPY_BOARD_DIR})
 endif()
 
-set(MICROPY_SOURCE_PORT
+list(APPEND MICROPY_SOURCE_PORT
     ${PROJECT_DIR}/../micropython/ports/esp32/panichandler.c
     ${PROJECT_DIR}/../micropython/ports/esp32/adc.c
     ${PROJECT_DIR}/main.c
@@ -131,6 +133,7 @@ set(MICROPY_SOURCE_PORT
     ${PROJECT_DIR}/../micropython/ports/esp32/modesp.c
     ${PROJECT_DIR}/../m5stack/esp32_nvs.c
     ${PROJECT_DIR}/../micropython/ports/esp32/esp32_partition.c
+    ${PROJECT_DIR}/../micropython/ports/esp32/esp32_pcnt.c
     ${PROJECT_DIR}/../micropython/ports/esp32/esp32_rmt.c
     ${PROJECT_DIR}/../micropython/ports/esp32/esp32_ulp.c
     ${PROJECT_DIR}/../m5stack/modesp32.c
@@ -145,13 +148,13 @@ set(MICROPY_SOURCE_PORT
 list(APPEND MICROPY_SOURCE_PORT ${CMAKE_BINARY_DIR}/pins.c)
 
 set(MICROPY_SOURCE_M5UNIFIED
-    ${PROJECT_DIR}/../m5stack/components/M5Unified/mpy_m5btn.cpp
-    ${PROJECT_DIR}/../m5stack/components/M5Unified/mpy_m5gfx.cpp
-    ${PROJECT_DIR}/../m5stack/components/M5Unified/mpy_m5power.cpp
-    ${PROJECT_DIR}/../m5stack/components/M5Unified/mpy_m5spk.cpp
-    ${PROJECT_DIR}/../m5stack/components/M5Unified/mpy_m5touch.cpp
-    ${PROJECT_DIR}/../m5stack/components/M5Unified/mpy_m5unified.cpp
-    ${PROJECT_DIR}/../m5stack/components/M5Unified/mpy_m5widgets.cpp
+    # ${PROJECT_DIR}/../m5stack/components/M5Unified/mpy_m5btn.cpp
+    ${PROJECT_DIR}/cmodules/m5unified/mpy_m5gfx.cpp
+    # ${PROJECT_DIR}/../m5stack/components/M5Unified/mpy_m5power.cpp
+    # ${PROJECT_DIR}/../m5stack/components/M5Unified/mpy_m5spk.cpp
+    ${PROJECT_DIR}/cmodules/m5unified/mpy_m5touch.cpp
+    ${PROJECT_DIR}/cmodules/m5unified/mpy_m5unified.cpp
+    ${PROJECT_DIR}/cmodules/m5unified/mpy_m5widgets.cpp
 )
 
 if(M5_CAMERA_MODULE_ENABLE)
@@ -160,7 +163,7 @@ if(M5_CAMERA_MODULE_ENABLE)
     )
 endif()
 
-set(MICROPY_SOURCE_QSTR
+list(APPEND MICROPY_SOURCE_QSTR
     ${MICROPY_SOURCE_PY}
     ${MICROPY_SOURCE_EXTMOD}
     ${MICROPY_SOURCE_USERMOD}
@@ -169,18 +172,20 @@ set(MICROPY_SOURCE_QSTR
     ${MICROPY_SOURCE_PORT}
     ${MICROPY_SOURCE_BOARD}
     ${MICROPY_SOURCE_TINYUSB}
-    # ${MICROPY_SOURCE_M5UNIFIED}
+    ${MICROPY_SOURCE_M5UNIFIED}
     ${MICROPY_SOURCE_M5CAMERA}
 )
 
-set(IDF_COMPONENTS
+list(APPEND IDF_COMPONENTS
     app_update
     bootloader_support
     bt
     driver
     esp_adc
     esp_app_format
+    esp_mm
     esp_common
+    esp_driver_touch_sens
     esp_eth
     esp_event
     esp_hw_support
@@ -207,7 +212,6 @@ set(IDF_COMPONENTS
     ulp
     usb
     vfs
-    esp_http_client
     esp-tls
     libffi
     json
@@ -224,7 +228,7 @@ if(CONFIG_IDF_TARGET_ESP32 OR CONFIG_IDF_TARGET_ESP32S2 OR CONFIG_IDF_TARGET_ESP
     list(APPEND IDF_COMPONENTS xtensa)
 endif()
 
-if(IDF_TARGET STREQUAL "esp32" OR IDF_TARGET STREQUAL "esp32s3")
+if(IDF_TARGET STREQUAL "esp32" OR IDF_TARGET STREQUAL "esp32s3" OR IDF_TARGET STREQUAL "esp32p4")
     list(APPEND IDF_COMPONENTS boards)
     list(APPEND IDF_COMPONENTS audio_pipeline)
     list(APPEND IDF_COMPONENTS audio_sal)
@@ -267,6 +271,7 @@ idf_component_register(
         ${MICROPY_PORT_DIR}
         ${MICROPY_BOARD_DIR}
         ${CMAKE_BINARY_DIR}
+        ${CMAKE_CURRENT_LIST_DIR}
     LDFRAGMENTS
         ${MICROPY_LDFRAGMENTS}
     REQUIRES
@@ -285,10 +290,10 @@ endif()
 
 # Set compile options for this port.
 target_compile_definitions(${MICROPY_TARGET} PUBLIC
+    ${MICROPY_DEF_COMPONENT}
     ${MICROPY_DEF_CORE}
     ${MICROPY_DEF_BOARD}
     ${MICROPY_DEF_TINYUSB}
-    MICROPY_ESP_IDF_4=1
     MICROPY_VFS_FAT=1
     MICROPY_VFS_LFS2=1
     ESP_PLATFORM=1  # M5GFX platform determine
@@ -300,22 +305,29 @@ target_compile_definitions(${MICROPY_TARGET} PUBLIC
 
 # Disable some warnings to keep the build output clean.
 target_compile_options(${MICROPY_TARGET} PUBLIC
+    ${MICROPY_COMPILE_COMPONENT}
     -Wno-clobbered
     -Wno-deprecated-declarations
     -Wno-missing-field-initializers
-)
-
-target_link_options(${MICROPY_TARGET} PUBLIC
-    ${MICROPY_LINK_TINYUSB}
 )
 
 # Additional include directories needed for private NimBLE headers.
 target_include_directories(${MICROPY_TARGET} PUBLIC
     ${IDF_PATH}/components/bt/host/nimble/nimble
 )
+if (IDF_VERSION VERSION_LESS "5.3")
+# Additional include directories needed for private RMT header.
+#  IDF 5.x versions before 5.3.1
+  message(STATUS "Using private rmt headers for ${IDF_VERSION}")
+  target_include_directories(${MICROPY_TARGET} PRIVATE
+    ${IDF_PATH}/components/driver/rmt
+  )
+endif()
 
 # Add additional extmod and usermod components.
-target_link_libraries(${MICROPY_TARGET} micropy_extmod_btree)
+if (MICROPY_PY_BTREE)
+    target_link_libraries(${MICROPY_TARGET} $<TARGET_OBJECTS:micropy_extmod_btree>)
+endif()
 target_link_libraries(${MICROPY_TARGET} usermod)
 
 # Extra linker options

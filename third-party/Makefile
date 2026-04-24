@@ -227,30 +227,60 @@ submodules:
 		git submodule update --init lib/micropython-lib && \
 		cd -
 
+LV_BINDING_PATH = $(abspath ./cmodules/lv_binding_micropython)
+MICROPYTHON_PATH = $(abspath ./../micropython)
+M5UNIFIED_PATH = $(abspath ./components/M5Unified/M5Unified)
+M5GFX_PATH = $(abspath ./components/M5Unified/M5GFX)
+ESP32_CAMERA_PATH = $(abspath ./components/esp32-camera)
+
+LV_BINDING_PATCH_SERIES = \
+	6000-avoid-lv_bindings-compile-error.patch \
+	6001-avoid-lvgl-font-redefine.patch
+
+MICROPYTHON_PATCH_SERIES = \
+	0022-micropython-1.27.0-modtime.patch \
+	0023-micropython-1.27.0-add-set-default-netif-method.patch \
+	0024-micropython-1.27.0-i2c-probe.patch \
+	0025-micropython-1.27.0-add-uart-mode.patch \
+	0026-micropython-1.27.0-add-getsockname.patch \
+	0027-micropython-1.27.0-fix-mpnimbleport.patch
+
+IDF_PATH_PATCH_SERIES = \
+	1005-idf_v5.5_freertos.patch
+
+M5UNIFIED_PATCH_SERIES = \
+	2006-Support-LTR553.patch \
+	2007-Support-UnitC6L.patch \
+	2009-fix-SoftI2C.patch \
+	2010-Support-Nesso-N1.patch \
+	2011-Fix-PowerHub-Charge-Status-Detection.patch \
+	2018-fix-Rtc-setAlarmIRQ.patch
+
+ADF_PATCH_SERIES = \
+	3003-modify-i2s_stream_idf5.5.patch
+
+M5GFX_PATCH_SERIES = \
+	4004-I2C-repeated-initialization.patch
+
+ESP32_CAMERA_PATCH_SERIES = \
+	5002-Add-software-i2c-support.patch
+
 # Apply patches
-patch:
-	$(call Package/patche,$(abspath ./components/lv_bindings),$(abspath ./patches/0002_avoid_lv_bindings_compile_error.patch))
-	# $(call Package/patche,$(abspath ./../micropython),$(abspath ./patches/0003-modtime-Add-timezone.patch))
-	$(call Package/patche,$(abspath ./../micropython),$(abspath ./patches/0004-micropython-1.24-machine-adc-v5.x.diff))
-	$(call Package/patche,$(abspath ./../micropython),$(abspath ./patches/0005-micropython-fix-SDCard-16223.patch))
-	# $(call Package/patche,$(abspath $(IDF_PATH)),$(abspath ./patches/1000-WIP-Compatible-with-esp-adf-v2.6.patch))
-	# $(call Package/patche,$(abspath $(IDF_PATH)),$(abspath ./patches/1001-Fix-I2C-timeout.patch))
-	$(call Package/patche,$(abspath $(IDF_PATH)),$(abspath ./patches/1003-WIP-Compatible-with-esp-adf-v2.7.diff))
-	$(call Package/patche,$(abspath ./components/M5Unified/M5Unified),$(abspath ./patches/2003-Support-LTR553.patch))
-	# $(call Package/patche,$(abspath ./components/M5Unified/M5Unified),$(abspath ./patches/2004-Support-AtomS3R.patch))
-	# $(call Package/patche,$(abspath $(ADF_PATH)),$(abspath ./patches/3000-commponents-audio_board-Add-ESP32_S3_BOX_3-board.patch))
-	# $(call Package/patche,$(abspath $(ADF_PATH)),$(abspath ./patches/3001-commponents-audio_board-Add-M5STACK-CoreS3-board.patch))
+patch: unpatch
+	$(call Patch/prepare,$(LV_BINDING_PATH),$(LV_BINDING_PATCH_SERIES))
+	$(call Patch/prepare,$(MICROPYTHON_PATH),$(MICROPYTHON_PATCH_SERIES))
+	$(call Patch/prepare,$(IDF_PATH),$(IDF_PATH_PATCH_SERIES))
+	$(call Patch/prepare,$(M5UNIFIED_PATH),$(M5UNIFIED_PATCH_SERIES))
+	$(call Patch/prepare,$(ADF_PATH),$(ADF_PATCH_SERIES))
+	$(call Patch/prepare,$(M5GFX_PATH),$(M5GFX_PATCH_SERIES))
+	$(call Patch/prepare,$(ESP32_CAMERA_PATH),$(ESP32_CAMERA_PATCH_SERIES))
 
 # Unapply patches
 unpatch:
-	$(call Package/unpatche,$(abspath ./components/lv_bindings),$(abspath ./patches/0002_avoid_lv_bindings_compile_error.patch))
-	$(call Package/unpatche,$(abspath ./../micropython),$(abspath ./patches/0005-micropython-fix-SDCard-16223.patch))
-	$(call Package/unpatche,$(abspath ./../micropython),$(abspath ./patches/0004-micropython-1.24-machine-adc-v5.x.diff))
-	# $(call Package/unpatche,$(abspath ./../micropython),$(abspath ./patches/0003-modtime-Add-timezone.patch))
-	$(call Package/unpatche,$(abspath $(IDF_PATH)),$(abspath ./patches/1003-WIP-Compatible-with-esp-adf-v2.7.diff))
-	# $(call Package/unpatche,$(abspath $(IDF_PATH)),$(abspath ./patches/1001-Fix-I2C-timeout.patch))
-	# $(call Package/unpatche,$(abspath $(IDF_PATH)),$(abspath ./patches/1000-WIP-Compatible-with-esp-adf-v2.6.patch))
-	# $(call Package/unpatche,$(abspath ./components/M5Unified/M5Unified),$(abspath ./patches/2004-Support-AtomS3R.patch))
-	$(call Package/unpatche,$(abspath ./components/M5Unified/M5Unified),$(abspath ./patches/2003-Support-LTR553.patch))
-	# $(call Package/unpatche,$(abspath $(ADF_PATH)),$(abspath ./patches/3001-commponents-audio_board-Add-M5STACK-CoreS3-board.patch))
-	# $(call Package/unpatche,$(abspath $(ADF_PATH)),$(abspath ./patches/3000-commponents-audio_board-Add-ESP32_S3_BOX_3-board.patch))
+	$(call Patch/clean,$(LV_BINDING_PATH),$(LV_BINDING_PATCH_SERIES))
+	$(call Patch/clean,$(MICROPYTHON_PATH),$(MICROPYTHON_PATCH_SERIES))
+	$(call Patch/clean,$(IDF_PATH),$(IDF_PATH_PATCH_SERIES))
+	$(call Patch/clean,$(M5UNIFIED_PATH),$(M5UNIFIED_PATCH_SERIES))
+	$(call Patch/clean,$(ADF_PATH),$(ADF_PATCH_SERIES))
+	$(call Patch/clean,$(M5GFX_PATH),$(M5GFX_PATCH_SERIES))
+	$(call Patch/clean,$(ESP32_CAMERA_PATH),$(ESP32_CAMERA_PATCH_SERIES))

@@ -76,7 +76,7 @@ typedef struct _ppp_if_obj_t {
     bool deinited;
 } ppp_if_obj_t;
 
-const mp_obj_type_t ppp_if_type;
+const mp_obj_type_t esp_network_ppp_lwip_type;
 
 void on_ppp_changed(void *arg, esp_event_base_t event_base, int32_t event_id, void *event_data) {
     ppp_if_obj_t *self = (ppp_if_obj_t *)arg;
@@ -193,7 +193,7 @@ esp_ppp_netif_glue_t *esp_ppp_new_netif_glue(ppp_if_obj_t *self) {
 static mp_obj_t ppp_make_new(mp_obj_t stream) {
     mp_get_stream_raise(stream, MP_STREAM_OP_READ | MP_STREAM_OP_WRITE);
 
-    ppp_if_obj_t *self = mp_obj_malloc_with_finaliser(ppp_if_obj_t, &ppp_if_type);
+    ppp_if_obj_t *self = mp_obj_malloc_with_finaliser(ppp_if_obj_t, &esp_network_ppp_lwip_type);
     self->stream = stream;
     self->active = false;
     self->connected = false;
@@ -401,7 +401,7 @@ static const mp_rom_map_elem_t ppp_if_locals_dict_table[] = {
 static MP_DEFINE_CONST_DICT(ppp_if_locals_dict, ppp_if_locals_dict_table);
 
 MP_DEFINE_CONST_OBJ_TYPE(
-    ppp_if_type,
+    esp_network_ppp_lwip_type,
     MP_QSTR_PPP,
     MP_TYPE_FLAG_NONE,
     locals_dict, &ppp_if_locals_dict

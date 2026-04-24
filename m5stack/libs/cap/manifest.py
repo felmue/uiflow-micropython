@@ -10,5 +10,5 @@ package(
         "lora1262.py",
     ),
     base_path="..",
-    opt=0,
+    opt=2,
 )

@@ -17,7 +17,7 @@ static mp_obj_t m5_utils_remap(size_t n_args, const mp_obj_t *args) {
 
     if (in_max == in_min) {
         // 抛出异常或返回错误
-        mp_raise_ValueError("Input range cannot be zero");
+        mp_raise_ValueError(MP_ERROR_TEXT("Input range cannot be zero"));
         return mp_const_none;
     }
 
